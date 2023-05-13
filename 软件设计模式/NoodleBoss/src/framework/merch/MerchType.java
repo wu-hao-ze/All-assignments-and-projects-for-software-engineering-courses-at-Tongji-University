@@ -1,0 +1,26 @@
+package framework.merch;
+
+public enum MerchType {
+
+    PORK_NOODLES,
+    SHRIMP_NOODLES,
+    VEGETARIAN_NOODLES,
+//    BACON_BURGER,
+//    BEEF_BURGER,
+//    DELUXE_BURGER,
+
+    COKE,
+    ORANGE_JUICE,
+
+    //    SET_BACON_BURGER_COKE,
+//   SET_SHRIMP_NOODLES_COKE,
+//    SET_DELUXE_BURGER_COKE
+    SET_PORK_NOODLES_COKE,
+
+    SET_SHRIMP_NOODLES_COKE,
+
+    SET_VEGETARIAN_NOODLES_COKE,
+
+
+
+}

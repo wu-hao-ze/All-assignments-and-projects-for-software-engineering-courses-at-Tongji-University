@@ -1,0 +1,26 @@
+<view>
+  <image class="background" mode="scaleToFill" src="/images/ping.jpg"></image>
+</view>
+<view class='contains'>
+  <form bindsubmit="onSubmit">
+    <view class='textarea'>
+      <view class='score'>
+        <view class='score-left'>
+          <view>
+            <text>交易评分:</text>
+          </view>
+        </view>
+        <view class='score-right'>
+          <view wx:for-items="{{score_img_arr}}" wx:for-item="img" wx:key="index">
+            <image bindtap='onScore' data-score='{{index+1}}' src="{{img}}" />
+          </view>
+          <view class='score_text'>
+            <text>{{score_text}}</text>
+          </view>
+        </view>
+      </view>
+      <textarea placeholder-class='textarea-text' placeholder='在此输入评论' name="text"></textarea>
+    </view>
+    <button class='release' form-type='submit'>发布</button>
+  </form>
+</view>

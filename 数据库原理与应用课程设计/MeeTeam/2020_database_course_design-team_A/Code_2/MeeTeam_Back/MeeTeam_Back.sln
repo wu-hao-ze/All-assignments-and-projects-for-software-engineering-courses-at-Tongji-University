@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeeTeam_Back", "MeeTeam_Back\MeeTeam_Back.csproj", "{31D599AB-4A80-408B-BCB5-ED4CF5293D9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31D599AB-4A80-408B-BCB5-ED4CF5293D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D599AB-4A80-408B-BCB5-ED4CF5293D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D599AB-4A80-408B-BCB5-ED4CF5293D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D599AB-4A80-408B-BCB5-ED4CF5293D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D44174F-4612-4708-AFE3-ACFE29285693}
+	EndGlobalSection
+EndGlobal

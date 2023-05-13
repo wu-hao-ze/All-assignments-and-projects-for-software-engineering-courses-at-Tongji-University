@@ -1,0 +1,27 @@
+<view>
+  <image class="background" mode="scaleToFill" src="/images/check.jpg"></image>
+</view>
+<view class="body">
+  <view class="rightup">
+    {{shopcomment.orderShop}}的订单
+  </view>
+  <view class="order">
+    <text>下单菜品：
+    </text>
+    {{shopcomment.orderDesc}}
+  </view>
+  <view class="bottom">
+  </view>
+  <view class="mark">
+    您的评价
+  </view>
+  <view class="pingjia">
+    {{text}}
+  </view>
+  <view class="mark_shop">商家回复评价
+  </view>
+  <view class="no" wx:if="{{store_text==null}}">商家未回复</view>
+  <view class="yes" wx:if="{{store_text!=null}}">{{store_text}}</view>
+  <view class="time">{{time}}</view>
+</view>
+<button class='release' bindtap="back">返回订单页</button>

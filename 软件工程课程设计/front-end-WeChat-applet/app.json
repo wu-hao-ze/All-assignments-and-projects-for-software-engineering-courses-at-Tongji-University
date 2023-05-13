@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/personal/personal",
+    "pages/comment/comment",
+    "pages/food/food",
+    "pages/order/order",
+    "pages/paySuccess/paySuccess",
+    "pages/AllOrder/AllOrder",
+    "pages/Aboutus/Aboutus",
+    "pages/check/check"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#eeeeee",
+    "navigationBarTitleText": "同济",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#eeeeee",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/home.png",
+        "text": "Home",
+        "selectedIconPath": "images/home-1.png"
+      },
+      {
+        "pagePath": "pages/AllOrder/AllOrder",
+        "iconPath": "images/comment.png",
+        "text": "Order",
+        "selectedIconPath": "images/comment-1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/personal.png",
+        "text": "Personal",
+        "selectedIconPath": "images/personal-1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

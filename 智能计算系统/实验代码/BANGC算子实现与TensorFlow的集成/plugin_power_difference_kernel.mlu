@@ -1,0 +1,57 @@
+/*************************************************************************
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+ * CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *************************************************************************/
+// TODO：PowerDifference BCL单核实现
+//#include"plugin_power_difference_kernel.h"
+#define ONELINE 64
+__mlu_entry__ void PowerDifferenceKernel(half* input1,half* input2,int32_t pow,half* output,int32_t dims_a)
+{
+  if (taskId > 0) return;
+  // TODO：循环条件判断
+  int32_t quotient = dims_a/ONELINE;
+  int32_t rem = dims_a % ONELINE;
+  if(rem != 0)
+  {
+    quotient+=1;
+  }
+  
+  // TODO：内存申请
+  __nram__ half inputx_nram[ONELINE];
+  __nram__ half inputy_nram[ONELINE];
+  __nram__ half temp_nram[ONELINE];
+
+  // TODO：For循环计算
+  for (int i = 0; i < quotient; i++)
+  {
+    // TODO：拷入操作
+    __memcpy(inputx_nram,input1+i*ONELINE,ONELINE*sizeof(half),GDRAM2NRAM);
+    __memcpy(inputy_nram,input2+i*ONELINE,ONELINE*sizeof(half),GDRAM2NRAM);
+    // TODO：实际计算部分
+    __bang_sub(temp_nram,inputx_nram,inputy_nram,ONELINE);
+    __bang_active_abs(temp_nram,temp_nram,ONELINE);
+    for(int i=0;i<pow-1;i++)
+    {
+      __bang_mul(temp_nram,temp_nram,temp_nram,ONELINE);
+    }
+    // TODO：结果拷出操作
+    __memcpy(output+i*ONELINE,temp_nram,ONELINE*sizeof(half),NRAM2GDRAM);
+  }
+}
+

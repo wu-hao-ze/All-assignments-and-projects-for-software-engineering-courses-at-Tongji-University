@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="cn">
+  
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <style type="text/css">body, html,#baidu_map {width: 100%;height: 100%;overflow: hidden;margin:0;} .circle{ border-radius: 50%; display: inline-block; width: 15px; height: 15px; }</style>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- baidu map JavaScript -->
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=E06eb9d756d0eafc722effb355657b4c"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/library/LuShu/1.2/src/LuShu_min.js"></script>
+	<script type="text/javascript">
+		//全局地图
+		var globalMap;
+		
+		//定义坐标类构造函数
+		function Coordinate(lat, lng, time, intentsity) {
+　　　　	this.lat = lat;
+			this.lng = lng;
+			this.time = time;
+			this.intentsity = intentsity;
+　　	}
+		
+		function getIntensityName(intensity){
+			result = ''
+			switch(intensity){
+				case '0':result='弱热带低压';break;
+				case '1':result='热带低压';break;
+				case '2':result='热带风暴';break;
+				case '3':result='强热带风暴';break;
+				case '4':result='台风';break;
+				case '5':result='强台风';break;
+				case '6':result='超强台风';break;
+				case '9':result='变性气旋';break;
+			}
+			return result;
+		}
+		
+		function getIntensityColor(intensity){
+			result = ''
+			switch(intensity){
+				case '0':result='#99FF00';break;
+				case '1':result='#F6F200';break;
+				case '2':result='#F4D000';break;
+				case '3':result='#FDB700';break;
+				case '4':result='#FD8B00';break;
+				case '5':result='#FD5C1C';break;
+				case '6':result='#FD0026';break;
+				case '9':result='#808080';break;
+			}
+			return result;
+		}
+		
+		function CirleOverlay (center, length, color, typhoonTime, intensity) {
+			this._center = center;
+			this._length = length;
+			this._color = color;
+			this._typhoonTime = typhoonTime;
+			this._intensity = intensity;
+		}
+		// 继承API的BMap.Overlay    
+		CirleOverlay.prototype = new BMap.Overlay();
+		// 实现初始化方法  
+		CirleOverlay.prototype.initialize = function (map) {    
+			// 保存map对象实例   
+			this._map = map;        
+			// 创建div元素，作为自定义覆盖物的容器   
+			var div = document.createElement("div");    
+			div.style.position = "absolute";        
+			// 可以根据参数设置元素外观
+			div.style.cursor = "default";//置顶
+			div.style.width = this._length + "px";    
+			div.style.height = this._length + "px";    
+			div.style.background = this._color;
+			div.style.borderRadius = "50%";
+			//绑定click事件
+			var point = this._center;
+			var time = this._typhoonTime;
+			var lat = point.lat;
+			var lng = point.lng;
+			var intentsity = this._intensity;
+			div.addEventListener('click',function(){
+				var opts = {
+				  width : 200,     // 信息窗口宽度
+				  height: 130,     // 信息窗口高度
+				  title : "<b>台风名</b>："+ $("#typhoon_names option:selected").text() , // 信息窗口标题
+				}
+				var strContent = "<b>时间</b>："
+					+ $("#typhoon_years").val()+"年"
+					+ parseInt(time.slice(0,2))+ "月"
+					+ parseInt(time.slice(2,4))+ "日"
+					+ parseInt(time.slice(4))+ "时<br>"
+					+"<b>纬度</b>：" + Number(lat).toFixed(1) +"&deg;N<br>"
+					+"<b>经度</b>：" + Number(lng).toFixed(1) +"&deg;E<br>"
+					+"<b>强度</b>：" + intentsity +"<br>";
+				var infoWindow = new BMap.InfoWindow(strContent, opts);// 创建信息窗口对象
+				globalMap.openInfoWindow(infoWindow,point);
+			},false);
+			// 将div添加到覆盖物容器中   
+			map.getPanes().markerPane.appendChild(div);      
+			// 保存div实例   
+			this._div = div;      
+			// 需要将div元素作为方法的返回值，当调用该覆盖物的show、   
+			// hide方法，或者对覆盖物进行移除时，API都将操作此元素。   
+			return div;    
+		}
+		// 实现绘制方法   
+		CirleOverlay.prototype.draw = function () {    
+			// 根据地理坐标转换为像素坐标，并设置给容器    
+			var position = this._map.pointToOverlayPixel(this._center);    
+			this._div.style.left = position.x - this._length / 2 + "px";    
+			this._div.style.top = position.y - this._length / 2 + "px";    
+		}
+		// 实现显示方法    
+		CirleOverlay.prototype.show = function() {    
+			if (this._div) {    
+				this._div.style.display = "";    
+			}    
+		}      
+		// 实现隐藏方法  
+		CirleOverlay.prototype.hide = function() {    
+			if (this._div) {    
+				this._div.style.display = "none";    
+			}    
+		}
+		// 添加自定义方法   
+		CirleOverlay.prototype.toggle = function() {    
+			if (this._div) {    
+				if (this._div.style.display == "") {    
+					this.hide();    
+				}    
+				else {    
+					this.show();    
+				}    
+			}    
+		}
+		function clickTableEvent(trObj){
+			tdArr = $(trObj).find("td");
+			time = tdArr.eq(0).text();
+			lat = tdArr.eq(1).text();
+			lng = tdArr.eq(2).text();
+			intentsity = tdArr.eq(3).text();
+			//var allOverlay = globalMap.getOverlays();
+			//for(var i = 0;i<allOverlay.length;i++) {
+			//	if(allOverlay[i].toString()=="[object Marker]"){
+			//		globalMap.removeOverlay(allOverlay[i]);
+			//	}
+			//}
+			var point = new BMap.Point(lng, lat);
+			//var marker = new BMap.Marker(point);
+			//marker.setAnimation(BMAP_ANIMATION_DROP); //跳动的动画
+			//globalMap.addOverlay(marker); //添加GPS marker
+			var opts = {
+			  width : 200,     // 信息窗口宽度
+			  height: 130,     // 信息窗口高度
+			  title : "<b>台风名</b>："+ $("#typhoon_names option:selected").text() , // 信息窗口标题
+			}
+			var strContent = "<b>时间</b>："
+			    + $("#typhoon_years").val()+"年"
+				+ parseInt(time.slice(0,2))+ "月"
+				+ parseInt(time.slice(2,4))+ "日"
+				+ parseInt(time.slice(4))+ "时<br>"
+				+"<b>纬度</b>：" + Number(lat).toFixed(1) +"&deg;N<br>"
+				+"<b>经度</b>：" + Number(lng).toFixed(1) +"&deg;E<br>"
+				+"<b>强度</b>：" + intentsity +"<br>";
+			var infoWindow = new BMap.InfoWindow(strContent, opts);// 创建信息窗口对象 
+			globalMap.openInfoWindow(infoWindow,point);
+			//marker.addEventListener("click", function(){          
+			//	globalMap.openInfoWindow(infoWindow,point); //开启信息窗口
+			//});
+		}
+		
+		$(document).ready(function(){
+		  //点击数据源
+		  $("#typhoon_sources").change(function(){
+			datasource = $("#typhoon_sources").val();
+			$.ajax({
+				url:"/getTyphoonYear",
+				data: "datasource="+datasource,
+				dataType: "text",
+				success:function(result){
+					if(result == ''){
+						$("#typhoon_years").empty();
+						$("#typhoon_years").append('<option>请选择年份</option>');
+						$("#typhoon_names").empty();
+						$("#typhoon_names").append('<option>请选择台风</option>');
+						$("#typhoon_tracks_table tbody").empty();
+						return;
+					}
+					result_list = result.split(',');
+					$("#typhoon_years").empty();
+					$("#typhoon_years").append('<option>请选择年份</option>');
+					$("#typhoon_names").empty();
+					$("#typhoon_names").append('<option>请选择台风</option>');
+					for (var i=0; i<result_list.length; i++){
+						$("#typhoon_years").append('<option value="'+result_list[i]+'">'+result_list[i]+'</option>');
+					}
+				},
+				error:function(result){
+				}
+			});
+		  });			
+		  //点击台风年份
+		  $("#typhoon_years").change(function(){
+			datasource = $("#typhoon_sources").val();
+			year = $("#typhoon_years").val();
+			$.ajax({
+				url:"/getTyphoonName",
+				data: "datasource="+datasource+"&year="+year,
+				dataType: "text",
+				success:function(result){
+					if(result == ''){
+						$("#typhoon_names").empty();
+						$("#typhoon_names").append('<option>请选择台风</option>');
+						$("#typhoon_tracks_table tbody").empty();
+						return;
+					}
+					result_list = result.split(';');
+					$("#typhoon_names").empty();
+					$("#typhoon_names").append('<option>请选择台风</option>');
+					for (var i=0; i<result_list.length; i++){
+						selector = result_list[i].split(',')
+						$("#typhoon_names").append('<option value="'+selector[0]+'">'+selector[1]+'</option>');
+					}
+				},
+				error:function(result){
+				}
+			});
+		  });
+		  //点击查询
+		  $("#search").click(function(){
+			datasource = $("#typhoon_sources").val();
+			year = $("#typhoon_years").val();
+			name = $("#typhoon_names").val();
+			$.ajax({
+				url:"/getTyphoonRecord",
+				data: "datasource="+datasource+"&year="+year+"&name="+name,
+				dataType: "text",
+				success:function(result){
+					if(result == ''){
+						$("#typhoon_tracks_table tbody").empty();
+						return;
+					}
+                    isClickSearch= true;
+					var result_list = result.split(';');
+					var cord_list = [];
+					for (var i=0; i<result_list.length; i++){
+						result_item = result_list[i].split(',');
+						cord_list.push(new Coordinate(result_item[0] * 0.1, result_item[1] * 0.1, result_item[2], result_item[3]));
+					}
+					start = parseInt(cord_list.length/2)
+					var ggPoint = new BMap.Point(cord_list[start].lng,cord_list[start].lat);
+					//地图初始化
+					var bm = new BMap.Map("baidu_map",{mapType:BMAP_NORMAL_MAP});
+					bm.centerAndZoom(ggPoint, 6);
+					//开启鼠标滚轮缩放  
+					bm.enableScrollWheelZoom(true);
+					bm.disableDoubleClickZoom(); //禁止双击鼠标放大					
+					// 修改历史台风信息
+					$("#typhoon_tracks_table tbody").empty();
+					for(var i=0; i<cord_list.length; ++i){
+						var appendHTML = '<tr onclick="clickTableEvent(this)">'
+							+'<th scope="row">'+(i+1)+'</th>'
+							+ '<td>' + cord_list[i].time +'</td>'
+							+ '<td>' + new Number(cord_list[i].lat).toFixed(1) +'</td>'
+							+ '<td>' + new Number(cord_list[i].lng).toFixed(1) +'</td>'
+							+ '<td>' + getIntensityName(cord_list[i].intentsity) +'</td>'
+							+ '</tr>';					
+						$("#typhoon_tracks_table tbody:last").append(appendHTML);
+					}
+					
+					//显示历史台风路径						
+					var pointsGps=[];
+					var intensitys=[];
+					for(var i=0;i<cord_list.length;i++){
+						pointsGps.push(new BMap.Point(cord_list[i].lng, cord_list[i].lat));
+						intensitys.push(cord_list[i].intentsity);
+					}	
+					
+					//for(var i=0;i<pointsGps.length;i++){
+					//	var myCirle = new CirleOverlay(pointsGps[i], 10, "red", cord_list[i].time);
+					//	myCirle.addEventListener("click",function(){});
+					//	bm.addOverlay(myCirle);
+					//}
+					//var polyline = new BMap.Polyline(pointsGps, {strokeColor:"#8B4513  ", strokeWeight:2});   //创建折线
+					//bm.addOverlay(polyline);   //增加折线
+					// 定时器100ms，动态的塞入坐标数据
+					var length = pointsGps.length;
+					// 定义用来存放递增元素的经纬度数据
+					var drawPoints = [];
+					var count = 0;
+					var lineLayer;
+					var marker;
+					var timer = setInterval(function () {
+						if (count < length) {
+							drawPoints.push(pointsGps[count]);
+							count++;
+							// 清除之前绘制的折线图层
+							if (lineLayer && count !== length) {
+								bm.removeOverlay(lineLayer);
+								lineLayer = null;
+							}
+						   
+							// 最新数据点drawPoints绘制折线
+							lineLayer = new BMap.Polyline(drawPoints, {strokeColor:"#8B4513  ", strokeWeight:2});
+							bm.addOverlay(lineLayer);   //增加折线
+							// 根据最新数组最后一个点绘制marker
+							marker = new CirleOverlay(pointsGps[count-1], 10, getIntensityColor(intensitys[count-1]), cord_list[count-1].time, getIntensityName(intensitys[count-1]));
+							bm.addOverlay(marker);
+
+						} else {
+							// 取完数据后清除定时器
+							clearInterval(timer);
+						}
+					}, 100);
+					globalMap = bm;
+				},
+				error:function(result){
+				}
+			});
+		  });
+          //点击基线模型
+          $("#baseline").click(function(){
+			datasource = $("#typhoon_sources").val();
+			year = $("#typhoon_years").val();
+			name = $("#typhoon_names").val();
+			var trList = $("#typhoon_predict_table tbody").children("tr");
+            trList.eq(0).find("td").eq(0).empty();
+            trList.eq(1).find("td").eq(0).empty();
+            trList.eq(2).find("td").eq(0).empty();
+            trList.eq(3).find("td").eq(0).empty();
+            trList.eq(4).find("td").eq(0).empty();
+			$.ajax({
+				url:"/getBaseline",
+				data: "datasource="+datasource+"&year="+year+"&name="+name,
+				dataType: "text",
+				success:function(result){
+					if(result == ''){
+						return;
+					}
+					var result_list = result.split(';');
+					var cord_list = [];
+					// 最后四个为平均经度、平均纬度、平均距离误差、强度准确率
+					for (var i=0; i<result_list.length - 4 - 1; i++){
+						result_item = result_list[i].split(',');
+						cord_list.push(new Coordinate(result_item[0], result_item[1], result_item[2], result_item[3]));
+					}
+                    var long_err =  result_list[result_list.length - 4 - 1];
+                    var lat_err = result_list[result_list.length - 4] ;
+                    var dist_err = result_list[result_list.length - 4 + 1];
+                    var intensity_hit = result_list[result_list.length - 4 + 2];
+
+					//显示预测台风路径
+					var pointsGps=[];
+					var intensitys=[];
+					for(var i=0;i<cord_list.length;i++){
+						pointsGps.push(new BMap.Point(cord_list[i].lng, cord_list[i].lat));
+						intensitys.push(cord_list[i].intentsity);
+					}
+
+					// 定时器100ms，动态的塞入坐标数据
+					var length = pointsGps.length;
+					// 定义用来存放递增元素的经纬度数据
+					var drawPoints = [];
+					var count = 0;
+					var lineLayer;
+					var marker;
+					var timer = setInterval(function () {
+						if (count < length) {
+							drawPoints.push(pointsGps[count]);
+							count++;
+							// 清除之前绘制的折线图层
+							if (lineLayer && count !== length) {
+								globalMap.removeOverlay(lineLayer);
+								lineLayer = null;
+							}
+
+							// 最新数据点drawPoints绘制折线
+							lineLayer = new BMap.Polyline(drawPoints, {strokeColor:"#A0A0A0", strokeWeight:2});
+							globalMap.addOverlay(lineLayer);   //增加折线
+							// 根据最新数组最后一个点绘制marker
+							marker = new CirleOverlay(pointsGps[count-1], 10, getIntensityColor(intensitys[count-1]), cord_list[count-1].time, getIntensityName(intensitys[count-1]));
+							globalMap.addOverlay(marker);
+
+						} else {
+							// 取完数据后清除定时器
+							clearInterval(timer);
+						}
+					}, 100);
+
+					var trList = $("#typhoon_predict_table tbody").children("tr");
+					trList.eq(0).find("td").eq(0).html($("#typhoon_names option:selected").text());
+					trList.eq(1).find("td").eq(0).html(long_err + '&deg');
+					trList.eq(2).find("td").eq(0).html(lat_err + '&deg');
+					trList.eq(3).find("td").eq(0).html(dist_err + 'km');
+					trList.eq(4).find("td").eq(0).html(new Number(intensity_hit).toFixed(2)+ 'm/s');
+				},
+				error:function(result){
+				}
+			});
+		  });
+		  //点击我的模型
+		  $("#predict").click(function(){
+			datasource = $("#typhoon_sources").val();
+			year = $("#typhoon_years").val();
+			name = $("#typhoon_names").val();
+			$.ajax({
+				url:"/getPredict",
+				data: "datasource="+datasource+"&year="+year+"&name="+name,
+				dataType: "text",
+				success:function(result){
+					if(result == ''){
+						return;
+					}
+					var result_list = result.split(';');
+					var cord_list = [];
+					// 最后四个为平均经度、平均纬度、平均距离误差、强度准确率
+					for (var i=0; i<result_list.length - 4 - 1; i++){
+						result_item = result_list[i].split(',');
+						cord_list.push(new Coordinate(result_item[0], result_item[1], result_item[2], result_item[3]));
+					}
+                    var long_err =  result_list[result_list.length - 4 - 1];
+                    var lat_err = result_list[result_list.length - 4] ;
+                    var dist_err = result_list[result_list.length - 4 + 1];
+                    var intensity_hit = result_list[result_list.length - 4 + 2];
+
+					//显示预测台风路径
+					var pointsGps=[];
+					var intensitys=[];
+					for(var i=0;i<cord_list.length;i++){
+						pointsGps.push(new BMap.Point(cord_list[i].lng, cord_list[i].lat));
+						intensitys.push(cord_list[i].intentsity);
+					}
+
+					// 定时器100ms，动态的塞入坐标数据
+					var length = pointsGps.length;
+					// 定义用来存放递增元素的经纬度数据
+					var drawPoints = [];
+					var count = 0;
+					var lineLayer;
+					var marker;
+					var timer = setInterval(function () {
+						if (count < length) {
+							drawPoints.push(pointsGps[count]);
+							count++;
+							// 清除之前绘制的折线图层
+							if (lineLayer && count !== length) {
+								globalMap.removeOverlay(lineLayer);
+								lineLayer = null;
+							}
+
+							// 最新数据点drawPoints绘制折线
+							lineLayer = new BMap.Polyline(drawPoints, {strokeColor:"#0066FF  ", strokeWeight:2});
+							globalMap.addOverlay(lineLayer);   //增加折线
+							// 根据最新数组最后一个点绘制marker
+							marker = new CirleOverlay(pointsGps[count-1], 10, getIntensityColor(intensitys[count-1]), cord_list[count-1].time, getIntensityName(intensitys[count-1]));
+							globalMap.addOverlay(marker);
+
+						} else {
+							// 取完数据后清除定时器
+							clearInterval(timer);
+						}
+					}, 100);
+
+					var trList = $("#typhoon_predict_table tbody").children("tr");
+					trList.eq(0).find("td").eq(0).html($("#typhoon_names option:selected").text());
+					trList.eq(1).find("td").eq(0).html(
+					        '<span style="color:red">'+ long_err + '&deg</span>&nbsp;' + trList.eq(1).find("td").eq(0).html()
+                    );
+					trList.eq(2).find("td").eq(0).html(
+					        '<span style="color:red">'+ lat_err + '&deg</span>&nbsp;' + trList.eq(2).find("td").eq(0).html()
+                    );
+					trList.eq(3).find("td").eq(0).html(
+					        '<span style="color:red">'+ dist_err + 'km</span>&nbsp;' + trList.eq(3).find("td").eq(0).html()
+                    );
+					trList.eq(4).find("td").eq(0).html(
+					        '<span style="color:red">'+new Number(intensity_hit).toFixed(2)+ 'm/s</span>&nbsp;' +
+                            trList.eq(4).find("td").eq(0).html()
+                    );
+				},
+				error:function(result){
+				}
+			});
+		  });
+
+        });
+	</script>
+	<title>台风路径与强度可视化系统</title></head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <a class="navbar-brand ml-2" href="#">台风路径与强度可视化系统</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto"></ul>
+        <form class="form-inline my-2 my-lg-0">
+          <select class="form-control mr-sm-2" id="typhoon_sources">
+            <option>请选择数据源</option>
+            <option value="CMA">CMA</option>
+		</select>
+          <select class="form-control mr-sm-2" id="typhoon_years">
+            <option>请选择年份</option></select>
+          <select class="form-control mr-sm-2" id="typhoon_names">
+            <option>请选择台风</option></select>
+          <div class="btn btn-outline-success mr-sm-2" id="search">查询</div>
+		  <div class="dropdown dropleft">
+			  <a class="btn btn-outline-success dropdown-toggle mr-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				预测
+			  </a>
+
+			  <div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="#" id="baseline">基线模型</a>
+				<a class="dropdown-item" href="#" id="predict">我的模型</a>
+			  </div>
+			</div>
+          <!--<button class="btn btn-outline-success my-2 my-sm-2" type="submit">预测</button></form>-->
+		  </form>
+      </div>
+    </nav>
+	
+    <div id="baidu_map" style="width:65%;float:left"></div>
+    <script type="text/javascript">
+	  var map = new BMap.Map("baidu_map",{mapType:BMAP_NORMAL_MAP}); // 创建地图实例
+      // 百度地图API功能
+      map.centerAndZoom(new BMap.Point(116.404, 39.915), 5); // 初始化地图，设置中心点坐标和地图级别
+      map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放 
+	  map.disableDoubleClickZoom(); //禁止双击鼠标放大
+      </script>
+    <div class="accordion" id="accordionExample" style="width:35%;height:100%;float:left;overflow:auto;">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">台风强度图例</button></h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">图例</th>
+                  <th scope="col">强度</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">0</th>
+                  <td>
+                    <div class="circle" style="background:#99FF00"></div>
+                  </td>
+                  <td>弱热带低压（≤10.8m/s）</td></tr>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <div class="circle" style="background:#F6F200"></div>
+                  </td>
+                  <td>热带低压（10.8m/s-17.1m/s）</td></tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>
+                    <div class="circle" style="background:#F4D000"></div>
+                  </td>
+                  <td>热带风暴（17.2m/s-24.4m/s）</td></tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>
+                    <div class="circle" style="background:#FDB700"></div>
+                  </td>
+                  <td>强热带风暴（24.5m/s-32.6m/s）</td></tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>
+                    <div class="circle" style="background:#FD8B00"></div>
+                  </td>
+                  <td>台风（32.7m/s-41.4m/s）</td></tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>
+                    <div class="circle" style="background:#FD5C1C"></div>
+                  </td>
+                  <td>强台风（41.5m/s-50.9m/s）</td></tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>
+                    <div class="circle" style="background:#FD0026"></div>
+                  </td>
+                  <td>超强台风（≥51.0m/s）</td></tr>
+				<tr>
+                  <th scope="row">7</th>
+                  <td>
+                    <div class="circle" style="background:#808080"></div>
+                  </td>
+                  <td>变性气旋</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">历史台风路径信息</button></h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            <table class="table table-hover" id="typhoon_tracks_table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">MMDDHH</th>
+                  <th scope="col">&deg N</th>
+                  <th scope="col">&deg E</th>
+                  <th scope="col">Intensity</th></tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">预测台风报告</button></h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">
+            <table class="table table-hover", id="typhoon_predict_table">
+              <tbody>
+                <tr>
+                  <th scope="row">台风名</th>
+                  <td></td></tr>
+                <tr>
+                  <th scope="row">平均纬度误差</th>
+                  <td></td></tr>
+                <tr>
+                  <th scope="row">平均经度误差</th>
+                  <td></td></tr>
+                <tr>
+                  <th scope="row">平均距离误差</th>
+                  <td></td></tr>
+                <tr>
+                  <th scope="row">平均强度误差</th>
+                  <td></td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

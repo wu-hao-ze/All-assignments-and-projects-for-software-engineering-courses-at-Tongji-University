@@ -1,0 +1,68 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.release {
+  font-family: STxingkai;
+  color: #fff;
+  background: #f95807;
+  margin: 0 10%;
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  position: fixed;
+}
+
+.body {
+  font-family: STkaiti;
+  color: rgb(15, 10, 3);
+}
+
+.rightup {
+  padding-top: 30rpx;
+  text-align: center;
+  font-size: 60rpx;
+}
+
+.order {
+  padding-top: 30rpx;
+  padding-left: 10rpx;
+  text-align: center;
+  font-size: 38rpx;
+}
+
+.mark {
+  padding-top: 100rpx;
+  text-align: center;
+  font-size: 50rpx;
+}
+
+.pingjia {
+  text-align: center;
+  padding-bottom: 100rpx;
+}
+
+.mark_shop {
+  margin-top: 50rpx;
+  text-align: center;
+  font-size: 50rpx;
+}
+
+.no {
+  text-align: center;
+  padding-bottom: 10rpx;
+}
+
+.yes {
+  text-align: center;
+  padding-bottom: 10rpx;
+}
+
+.time {
+  padding-top: 20rpx;
+  padding-bottom: 50rpx;
+  text-align: center;
+}

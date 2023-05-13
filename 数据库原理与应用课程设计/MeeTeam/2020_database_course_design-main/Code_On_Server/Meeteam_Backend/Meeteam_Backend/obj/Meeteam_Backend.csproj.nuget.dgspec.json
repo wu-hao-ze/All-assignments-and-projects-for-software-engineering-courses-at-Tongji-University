@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xltx-\\Desktop\\db\\code\\2020_database_course_design\\Code_On_Server\\Meeteam_Backend\\Meeteam_Backend\\Meeteam_Backend.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xltx-\\Desktop\\db\\code\\2020_database_course_design\\Code_On_Server\\Meeteam_Backend\\Meeteam_Backend\\Meeteam_Backend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xltx-\\Desktop\\db\\code\\2020_database_course_design\\Code_On_Server\\Meeteam_Backend\\Meeteam_Backend\\Meeteam_Backend.csproj",
+        "projectName": "Meeteam_Backend",
+        "projectPath": "C:\\Users\\xltx-\\Desktop\\db\\code\\2020_database_course_design\\Code_On_Server\\Meeteam_Backend\\Meeteam_Backend\\Meeteam_Backend.csproj",
+        "packagesPath": "C:\\Users\\xltx-\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xltx-\\Desktop\\db\\code\\2020_database_course_design\\Code_On_Server\\Meeteam_Backend\\Meeteam_Backend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xltx-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.61, )"
+            },
+            "SqlSugarCore": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

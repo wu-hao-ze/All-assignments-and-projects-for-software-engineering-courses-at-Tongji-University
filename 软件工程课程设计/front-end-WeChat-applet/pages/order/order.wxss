@@ -1,0 +1,250 @@
+/* pages/order/order.wxss */
+/* 列表 */
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.list {
+  position: relative;
+  width: 100%;
+  height: 225rpx;
+  /* background-color: red; */
+  border-bottom: 1rpx solid #e9e9e9;
+}
+
+/* 编辑 */
+
+.edit {
+  position: relative;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #f6f6f6;
+}
+
+/* 删除 */
+
+.dele_edit {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 30rpx;
+  bottom: 25rpx;
+}
+
+/* 编辑标题 */
+
+.edit_btn {
+  position: absolute;
+  font-size: 26rpx;
+  color: #888;
+  right: 30rpx;
+}
+
+/* 单选状态 */
+
+.radio_chek {
+  position: absolute;
+  left: 30rpx;
+  top: 70rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+/* 列表商品图片 */
+
+.list_img {
+  position: absolute;
+  top: 20rpx;
+  left: 100rpx;
+  width: 144rpx;
+  height: 144rpx;
+}
+
+/* 列表规格 */
+
+.cart_g_name {
+  position: absolute;
+  left: 280rpx;
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  color: #aaa;
+  top: 75rpx;
+}
+
+/* 收藏 */
+
+.collert {
+  position: absolute;
+  font-size: 28rpx;
+  right: 40rpx;
+  top: 30rpx;
+}
+
+/* 收藏图标 */
+
+.collert_img {
+  position: relative;
+  top: 2rpx;
+  width: 28rpx;
+  height: 28rpx;
+}
+
+/* 列表商品名称 */
+
+.list_name {
+  position: absolute;
+  left: 280rpx;
+  top: 30rpx;
+  width: 300rpx;
+  /* background-color: red; */
+  font-size: 30rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 列表商品价格 */
+
+.list_price {
+  position: absolute;
+  font-size: 32rpx;
+  color: #d66058;
+  left: 280rpx;
+  bottom: 20rpx;
+}
+
+/* 列表商品删除 */
+
+.list_del {
+  position: absolute;
+  right: 220rpx;
+  bottom: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-size: 44rpx;
+}
+
+/* 固定底部 */
+
+.cont_bot {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 104rpx;
+  line-height: 104rpx;
+  background: #fff;
+  border-top: 2rpx solid #ebebeb;
+}
+
+/* 全选ICON */
+
+.total-select {
+  position: absolute;
+  left: 30rpx;
+  top: 34rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+/* 全选标题 */
+
+.sel_count_name {
+  position: absolute;
+  left: 90rpx;
+  font-size: 30rpx;
+  color: #333;
+}
+
+/* 合计金额 */
+
+.count_price {
+  position: absolute;
+  font-size: 28rpx;
+  left: 200rpx;
+  color: #aaa;
+}
+
+.count_price text {
+  font-size: 34rpx;
+  color: #d66058;
+}
+
+/* 购物车为空 */
+
+.list_none {
+  padding: 40rpx 0;
+  color: #999;
+  text-align: center;
+}
+
+/* 提交 */
+
+.submit {
+  position: absolute;
+  width: 232rpx;
+  height: 104rpx;
+  line-height: 104rpx;
+  right: 0rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #FB990A;
+}
+
+.navigator-hover {
+  background: none;
+}
+
+/*数量加减*/
+
+.carts-num {
+  position: absolute;
+  right: 30rpx;
+  bottom: 18rpx;
+  background-color: rgb(197, 211, 191);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  height: 50rpx;
+}
+
+.view_text_center {
+  border: 1rpx solid #161313;
+  font-size: 30rpx;
+  display: inline-block;
+  color: #333;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 76rpx;
+}
+
+.carts-num .minus,
+.carts-num .plus {
+  margin: 10rpx;
+  border: 1rpx solid #131111;
+  color: #000;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 40rpx;
+}
+
+.carts-num .minus {
+  font-size: 34rpx;
+}
+
+/* .carts-num .minus.disabled{color: red;} */
+
+.carts-num .plus {
+  font-size: 34rpx;
+}

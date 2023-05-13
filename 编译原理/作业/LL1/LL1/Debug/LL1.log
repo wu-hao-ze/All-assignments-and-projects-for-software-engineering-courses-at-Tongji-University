@@ -1,0 +1,3 @@
+﻿  main.cpp
+H:\编译原理课件\作业\LL1\LL1\main.cpp(522): warning C4715: “buildFirstForOne”: 不是所有的控件路径都返回值
+  LL1.vcxproj -> H:\编译原理课件\作业\LL1\Debug\LL1.exe

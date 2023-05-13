@@ -1,0 +1,229 @@
+Grammar
+
+    0 $accept: line $end
+
+    1 line: exp CR
+
+    2 exp: exp MUL exp
+    3    | exp DIV exp
+    4    | exp ADD exp
+    5    | exp SUB exp
+    6    | LP exp RP
+    7    | single
+
+    8 single: NUM
+
+
+Terminals, with rules where they appear
+
+$end (0) 0
+error (256)
+NUM (258) 8
+ADD (259) 4
+SUB (260) 5
+MUL (261) 2
+DIV (262) 3
+LP (263) 6
+RP (264) 6
+CR (265) 1
+
+
+Nonterminals, with rules where they appear
+
+$accept (11)
+    on left: 0
+line (12)
+    on left: 1, on right: 0
+exp (13)
+    on left: 2 3 4 5 6 7, on right: 1 2 3 4 5 6
+single (14)
+    on left: 8, on right: 7
+
+
+State 0
+
+    0 $accept: . line $end
+
+    NUM  shift, and go to state 1
+    LP   shift, and go to state 2
+
+    line    go to state 3
+    exp     go to state 4
+    single  go to state 5
+
+
+State 1
+
+    8 single: NUM .
+
+    $default  reduce using rule 8 (single)
+
+
+State 2
+
+    6 exp: LP . exp RP
+
+    NUM  shift, and go to state 1
+    LP   shift, and go to state 2
+
+    exp     go to state 6
+    single  go to state 5
+
+
+State 3
+
+    0 $accept: line . $end
+
+    $end  shift, and go to state 7
+
+
+State 4
+
+    1 line: exp . CR
+    2 exp: exp . MUL exp
+    3    | exp . DIV exp
+    4    | exp . ADD exp
+    5    | exp . SUB exp
+
+    ADD  shift, and go to state 8
+    SUB  shift, and go to state 9
+    MUL  shift, and go to state 10
+    DIV  shift, and go to state 11
+    CR   shift, and go to state 12
+
+
+State 5
+
+    7 exp: single .
+
+    $default  reduce using rule 7 (exp)
+
+
+State 6
+
+    2 exp: exp . MUL exp
+    3    | exp . DIV exp
+    4    | exp . ADD exp
+    5    | exp . SUB exp
+    6    | LP exp . RP
+
+    ADD  shift, and go to state 8
+    SUB  shift, and go to state 9
+    MUL  shift, and go to state 10
+    DIV  shift, and go to state 11
+    RP   shift, and go to state 13
+
+
+State 7
+
+    0 $accept: line $end .
+
+    $default  accept
+
+
+State 8
+
+    4 exp: exp ADD . exp
+
+    NUM  shift, and go to state 1
+    LP   shift, and go to state 2
+
+    exp     go to state 14
+    single  go to state 5
+
+
+State 9
+
+    5 exp: exp SUB . exp
+
+    NUM  shift, and go to state 1
+    LP   shift, and go to state 2
+
+    exp     go to state 15
+    single  go to state 5
+
+
+State 10
+
+    2 exp: exp MUL . exp
+
+    NUM  shift, and go to state 1
+    LP   shift, and go to state 2
+
+    exp     go to state 16
+    single  go to state 5
+
+
+State 11
+
+    3 exp: exp DIV . exp
+
+    NUM  shift, and go to state 1
+    LP   shift, and go to state 2
+
+    exp     go to state 17
+    single  go to state 5
+
+
+State 12
+
+    1 line: exp CR .
+
+    $default  reduce using rule 1 (line)
+
+
+State 13
+
+    6 exp: LP exp RP .
+
+    $default  reduce using rule 6 (exp)
+
+
+State 14
+
+    2 exp: exp . MUL exp
+    3    | exp . DIV exp
+    4    | exp . ADD exp
+    4    | exp ADD exp .
+    5    | exp . SUB exp
+
+    MUL  shift, and go to state 10
+    DIV  shift, and go to state 11
+
+    $default  reduce using rule 4 (exp)
+
+
+State 15
+
+    2 exp: exp . MUL exp
+    3    | exp . DIV exp
+    4    | exp . ADD exp
+    5    | exp . SUB exp
+    5    | exp SUB exp .
+
+    MUL  shift, and go to state 10
+    DIV  shift, and go to state 11
+
+    $default  reduce using rule 5 (exp)
+
+
+State 16
+
+    2 exp: exp . MUL exp
+    2    | exp MUL exp .
+    3    | exp . DIV exp
+    4    | exp . ADD exp
+    5    | exp . SUB exp
+
+    $default  reduce using rule 2 (exp)
+
+
+State 17
+
+    2 exp: exp . MUL exp
+    3    | exp . DIV exp
+    3    | exp DIV exp .
+    4    | exp . ADD exp
+    5    | exp . SUB exp
+
+    $default  reduce using rule 3 (exp)

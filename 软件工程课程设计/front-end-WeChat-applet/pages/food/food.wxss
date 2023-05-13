@@ -1,0 +1,516 @@
+.container {
+  width: 100%;
+  height: 100%;
+  padding-top: 0;
+}
+
+.head-logo-view {
+  position: relative;
+  width: 100%;
+  height: 604rpx;
+  text-align: center;
+}
+
+.head-logo-icon {
+  position: absolute;
+  width: 420rpx;
+  height: 406rpx;
+  display: block;
+  top: 6%;
+  left: 22%;
+}
+
+.shop-body {
+  position: relative;
+  width: 100%;
+  height: 500rpx;
+}
+
+.shop-lable-left {
+  position: absolute;
+  width: 175rpx;
+  height: 100%;
+  left: 0rpx;
+  background-color: #fff;
+}
+
+.textnums {
+  position: absolute;
+  right: 0;
+  font-size: 24rpx;
+  width: 35rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  color: #fff;
+  background: red;
+  text-align: center;
+  border-radius: 50%;
+  top: -6rpx;
+  z-index: 2;
+}
+
+.shopimg {
+  position: relative;
+  width: 80rpx;
+  height: 80rpx;
+  animation: mymoves 3s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  -webkit-animation: mymoves 3s infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease-in-out;
+}
+
+.shopIcon {
+  position: absolute;
+  width: 80rpx;
+  height: 80rpx;
+  /* background: red; */
+  text-align: center;
+  border-radius: 50%;
+  left: 30rpx;
+  bottom: 25%;
+  z-index: 3;
+}
+
+.shop-lable {
+  position: relative;
+  width: 174rpx;
+  text-align: center;
+  height: 140rpx;
+  line-height: 140rpx;
+  background-color: #fff;
+  font-size: 26rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(48, 48, 48, 1);
+}
+
+.shop-lable-right {
+  position: absolute;
+  right: 0rpx;
+  width: 74%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.shop-base {
+  position: relative;
+  width: 100%;
+  height: 196rpx;
+  background-color: #fff;
+}
+
+/* pages/goodss/goodss.wxss */
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 25%;
+  color: #777;
+}
+
+.on {
+  color: #da7c0c;
+  border-bottom: 5rpx solid #da7c0c;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 60px;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+
+/* 首頁商品信息 */
+
+/* pages/goodss/goodss.wxss */
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 2rpx solid #777;
+  text-align: center;
+  line-height: 80rpx;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background: #fff;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 25%;
+  color: #777;
+}
+
+.swiper-box {
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  top: 120rpx;
+}
+
+.swiper-box view {
+  text-align: center;
+}
+
+/* 首頁商品信息 */
+
+.goods {
+  display: flex;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.goods .menu-wrapper {
+  flex: 0 0 160rpx;
+  width: 160rpx;
+  background-color: #fff;
+}
+
+.goods .menu-wrapper .menu-item {
+  display: table;
+  width: 113rpx;
+  height: 108rpx;
+  padding: 0 24rpx;
+  font-weight: bolder;
+}
+
+.goods .menu-wrapper .menu-item:current {
+  position: relative;
+  z-index: 10;
+  margin-top: -2rpx;
+
+  background: #fff;
+  font-weight: 700;
+}
+
+.goods .menu-wrapper .menu-item:current .text {
+  border: none;
+}
+
+
+.goods .menu-wrapper .menu-item .text {
+  border: none;
+  display: table-cell;
+  width: 113rpx;
+  text-align: center;
+  /* background-color: red; */
+  vertical-align: middle;
+  position: relative;
+  font-size: 24rpx;
+}
+
+.foods-wrapper {
+  position: absolute;
+  width: 80%;
+  right: 0rpx;
+  /* margin-bottom: 30rpx; */
+  background-color: #fff;
+  flex: 1;
+  height: 100%;
+}
+
+.title {
+  /* height: 52rpx;
+    position: absolute;
+    width: 100%;
+    line-height: 55rpx;
+    left: 15rpx;
+    font-size: 24rpx;
+    color: rgb(147, 153, 159);
+    background: #f3f5f7; */
+  position: relative;
+  width: 100%;
+  height: 10rpx;
+  line-height: 10rpx;
+}
+
+.left_menu {
+  position: relative;
+  background: #f5f5f5;
+  /* border-right: 1rpx solid red; */
+}
+
+.goods .foods-wrapper .food-list .food-item {
+  display: flex;
+  /* margin-bottom: 20rpx; */
+  padding: 5rpx;
+  border-bottom: 1rpx solid #ddd;
+  position: relative;
+}
+
+.goods .foods-wrapper .food-list .food-item:last-child {
+  border: none;
+  margin-bottom: 20rpx;
+}
+
+.goods .foods-wrapper .food-list .food-item .icon {
+  width: 140rpx;
+  height: 180rpx;
+}
+
+.shop-image {
+  position: absolute;
+  left: 15rpx;
+  top: 19rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.name {
+  position: absolute;
+  left: 185rpx;
+  top: 29rpx;
+  font-size: 28rpx;
+  height: 28rpx;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 48, 48, 1);
+}
+
+.desc {
+  position: absolute;
+  left: 185rpx;
+  top: 70rpx;
+  font-size: 20rpx;
+  width: 320rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(127, 127, 127, 1);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.price {
+  position: absolute;
+  width: 210rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  left: 185rpx;
+  top: 125rpx;
+}
+
+
+
+/* cartControl 样式 */
+.cartControl {
+  position: absolute;
+  width: 150rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  right: 30rpx;
+  top: 125rpx;
+}
+
+.icon-jian {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  left: 0rpx;
+}
+
+.cart-count {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 50rpx;
+}
+
+.cart-add {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 0rpx;
+}
+
+
+
+
+.food-cont {
+  position: relative;
+  width: 100%;
+  height: 195rpx;
+}
+
+.food-image {
+  position: absolute;
+  left: 20rpx;
+  width: 140rpx;
+  height: 180rpx;
+  top: 6rpx;
+  border-radius: 4rpx;
+}
+
+.food-name {
+  position: absolute;
+  left: 173rpx;
+  width: 200rpx;
+  font-size: 28rpx;
+  top: 5%;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 48, 48, 1);
+}
+
+.food-title {
+  position: absolute;
+  left: 173rpx;
+  font-size: 20rpx;
+  width: 320rpx;
+  background-color: #fff;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  top: 25%;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(127, 127, 127, 1);
+}
+
+.food-money {
+  position: absolute;
+  left: 173rpx;
+  width: 235rpx;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  font-size: 26rpx;
+  color: rgba(48, 48, 48, 1);
+  height: 40rpx;
+  line-height: 40rpx;
+  top: 68%;
+}
+
+.base-num-money {
+  position: absolute;
+  width: 150rpx;
+  height: 40rpx;
+  top: 68%;
+  line-height: 40rpx;
+  right: 30rpx;
+}
+
+.minus-icon {
+  position: absolute;
+  left: 0rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.food-nums {
+  position: absolute;
+  right: 50rpx;
+  width: 50rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  text-align: center;
+  font-family: PingFangSC-Medium;
+  font-weight: 500;
+  color: rgba(48, 48, 48, 1);
+}
+
+.add-icon {
+  position: absolute;
+  right: 0rpx;
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.shop-bottom {
+  position: fixed;
+  z-index: 9;
+  bottom: 0rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  width: 100%;
+  background-color: #23a393;
+}
+
+.shop-icon {
+  position: absolute;
+  width: 62rpx;
+  height: 58rpx;
+  top: 26%;
+  left: 62rpx;
+}
+
+.count-money {
+  position: absolute;
+  width: 225rpx;
+  height: 40rpx;
+  display: inline-block;
+  left: 140rpx;
+  font-size: 40rpx;
+  line-height: 40rpx;
+  top: 35%;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+}
+
+.shop-num {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  top: 10%;
+  left: 12%;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 20rpx;
+  background-color: red;
+  color: #fff;
+  border: 1rpx solid #fff;
+}
+
+.go-shop {
+  position: absolute;
+  left: 52%;
+  width: 84rpx;
+  height: 40rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 40rpx;
+  top: 35%;
+}
+
+.shop-me {
+  position: absolute;
+  right: 0rpx;
+  width: 230rpx;
+  background-color: #fff;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #303030;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0rpx 2rpx 4rpx 0rpx rgba(127, 127, 127, 1);
+}

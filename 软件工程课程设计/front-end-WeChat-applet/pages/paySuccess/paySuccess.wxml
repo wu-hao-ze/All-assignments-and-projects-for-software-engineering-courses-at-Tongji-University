@@ -1,0 +1,18 @@
+<image class="background" mode="scaleToFill" src="/images/hback.jpg"></image>
+<!-- 最外层视图容器 -->
+<view class="paycont">
+  <!-- 支付成功ICON -->
+  <view class="payimgView">
+    <image class="pay_icon" src="{{pay_icon}}"></image>
+    <view class="paytext">
+      <text>支付成功
+      </text>
+      <text>取餐号：{{orderid}}</text>
+    </view>
+  </view>
+  <!-- 返回首页 -->
+  <view class="backVIew">
+    <button class="back_index" bindtap="getback">返回首页</button>
+  </view>
+
+</view>

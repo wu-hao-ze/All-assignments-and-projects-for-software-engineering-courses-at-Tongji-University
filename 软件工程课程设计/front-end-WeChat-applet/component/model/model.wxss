@@ -1,0 +1,111 @@
+.mask {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.maskView {
+  position: absolute;
+  width: 100%;
+  height: 500rpx;
+  top: 27%;
+  z-index: 999;
+  text-align: center;
+}
+
+.maseViews {
+  position: relative;
+  background: #fff;
+  width: 80%;
+  display: inline-block;
+  border-radius: 12rpx;
+  height: 100%;
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-top: 25rpx;
+}
+
+.title {
+  position: relative;
+  width: 100%;
+  height: 70rpx;
+  line-height: 70rpx;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.submitView {
+  position: absolute;
+  width: 100%;
+  height: 90rpx;
+  bottom: 20rpx;
+  line-height: 90rpx;
+}
+
+.desction {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  font-size: 26rpx;
+  color: #999;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cance {
+  position: absolute;
+  width: 200rpx;
+  height: 80rpx;
+  left: 58rpx;
+  line-height: 80rpx;
+  /* background: #FF6E00; */
+  border: 1rpx solid #999;
+  text-align: center;
+  color: #000;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+}
+
+.authorize {
+  position: relative;
+  width: 100%;
+  height: 90rpx;
+  font-weight: bold;
+  line-height: 90rpx;
+  text-align: center;
+  border-bottom: 1rpx solid #D6D6D6;
+}
+
+.success {
+  position: absolute;
+  width: 200rpx !important;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #ff6e00;
+  right: 58rpx;
+  background: #ff6e00;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+}
+
+.cover-view {
+  display: block;
+  line-height: 1.2;
+  overflow: hidden;
+  white-space: nowrap;
+  pointer-events: auto;
+}

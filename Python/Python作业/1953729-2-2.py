@@ -1,0 +1,11 @@
+s = "Python Programming Language"
+s1 = s.lower()
+print(s1)
+s2 = s.upper()
+print(s2)
+s3 = s.count('n')
+print(s3)
+s4 = s.split()
+print(s4)
+s5 = s.replace(' ', ',')
+print(s5)

@@ -1,0 +1,51 @@
+<view>
+  <image class="background" mode="scaleToFill" src="/images/hback.jpg"></image>
+</view>
+<!-- 最外层视图pages -->
+<view class="pages">
+  <view wx:if="{{hasList}}">
+    <!-- 列表 -->
+    <view class="list" wx:for="{{list}}" wx:key="index">
+      <image class='dele_edit' bindtap='deletes' data-index='{{index}}' style='display:{{edit_show}}' src='{{delete_icon}}'></image>
+      <image wx:if="{{item.selected}}" data-index="{{index}}" class="radio_chek" bindtap="selectList" src='{{radio_show_Icon}}'></image>
+      <image wx:else src='{{radio_none_Icon}}' class="radio_chek" data-index="{{index}}" bindtap="selectList"></image>
+      <!-- 列表标题 -->
+      <text class="list_name">{{item.shopname}}</text>
+      <!-- 列表商品图片 -->
+      <image class="list_img" src="{{item.icon}}"></image>
+      <!-- 规格 -->
+      <text class="cart_g_name">规格 : {{item.shaopdesc}}</text>
+      <!-- 价格 -->
+      <text class="list_price">￥{{item.price}}</text>
+      <!-- 商品数量加减  style='display:{{show_edit}}'-->
+      <view style='display:{{show_edit}}'>
+        <view class="carts-num">
+          <!--减按钮  -->
+          <lable class="minus" bindtap="btn_minus" data-obj="{{obj}}" data-index="{{index}}">-</lable>
+          <label class="view_text_center" bindinput='input_num' data-index="{{index}}">{{item.num}}</label>
+          <!-- 加按钮-->
+          <lable class="plus" bindtap="btn_add" data-index="{{index}}">+</lable>
+        </view>
+      </view>
+    </view>
+    <!-- 固定底部 -->
+    <view class="cont_bot">
+      <!-- 全选ICON -->
+      <image wx:if="{{selectAllStatus}}" class="total-select" bindtap="selectAll" src='{{radio_show_Icon}}'></image>
+      <image wx:else class="total-select" bindtap="selectAll" src='{{radio_none_Icon}}'></image>
+      <!-- 全选标题 -->
+      <text class='sel_count_name'>全选</text>
+      <!-- 合计金额 -->
+      <lable class="count_price">合计：
+        <text>￥{{totalPrice}}</text>
+      </lable>
+      <!-- 提交订单 -->
+      <label class='submit' bindtap='btn_submit_order'>提交订单</label>
+    </view>
+
+  </view>
+  <view wx:else>
+    <view class="list_none">购物车是空的哦~</view>
+  </view>
+
+</view>

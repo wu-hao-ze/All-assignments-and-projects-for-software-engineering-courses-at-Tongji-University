@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            // 解决项目中使用@作为路径别名，导致vscode无法跳转文件的问题
+            "@/*": ["src/*"]
+        },
+        // 解决prettier对于装饰器语法的警告
+        "experimentalDecorators": true,
+    },
+    //提高 IDE 性能
+    "exclude": ["node_modules", "dist", "build"]
+}

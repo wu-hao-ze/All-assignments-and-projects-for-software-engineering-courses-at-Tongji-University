@@ -1,0 +1,37 @@
+<view>
+  <image class="background" mode="scaleToFill" src="/images/pback.jpg"></image>
+</view>
+<!-- 个人信息 -->
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName" class="name"></open-data>
+</view>
+<!-- 历史 -->
+<view class="his_info_wrap">
+  <view class="his_info">
+    <!-- 订单 -->
+    <view class="order_content">
+      <view class="my_order">我的订单</view>
+      <view class="order_navig">
+        <navigator url="../AllOrder/AllOrder" open-type='switchTab'>
+          <icon class="icon-box-img" type="success"></icon>
+          <view>订单以及评价</view>
+        </navigator>
+      </view>
+    </view>
+    <!-- 应用 -->
+    <view class="app_content">
+      <view class="idea">
+        <button open-type='feedback'>意见反馈</button>
+      </view>
+      <view class="idea">
+        <button bindtap="Aboutus">关于我们</button>
+      </view>
+      <view class="idea">
+        <button open-type='share'>转发小程序</button>
+      </view>
+    </view>
+  </view>
+</view>

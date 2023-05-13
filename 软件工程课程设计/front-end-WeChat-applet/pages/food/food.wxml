@@ -1,0 +1,53 @@
+<view class="container">
+  <!-- 购物视图 -->
+  <view class='shop-body'>
+    <view class="goods">
+      <!-- 购物车ICON -->
+      <view class="shopIcon">
+        <view class="textnums" wx:if="{{totalCount>0}}">{{totalCount}}</view>
+        <image class="shopimg" bindtap="getOpenShop" src="{{shopBase.shopicon}}"></image>
+      </view>
+      <!-- 左边栏菜品属性框 -->
+      <view class="menu-wrapper">
+        <scroll-view scroll-y="true" style="height:1200rpx;" class="left_menu">
+          <view wx:for="{{goods}}" wx:key="key" class="menu-item border-1px" bindtap="selectMenu" style="{{index ==cutab?'background-color:#fff; color: #303030':'background-color:#f5f5f5;color:gray'}}" data-item-index="{{index}}">
+            <view class="text">
+              <view class="icon"></view>{{item.name}}
+            </view>
+          </view>
+        </scroll-view>
+      </view>
+      <!-- 右侧菜品展示，包含加减份数 -->
+      <scroll-view scroll-y="true" data-item='{{goods}}' bindscroll="onGoodsScroll" class="foods-wrapper">
+        <view wx:for="{{goods}}" wx:key="key" class="food-list food-list-hook" wx:for-index="parentIndex">
+          <!-- {{item.name}} -->
+          <view id="order{{parentIndex}}" class="title"></view>
+          <view wx:for="{{item.foods}}" wx:key="key" class="food-item" wx:for-item="food" data-food="{{food}}">
+            <view class="icon">
+              <image class='shop-image' src="{{food.icon}}"></image>
+            </view>
+            <view class="content">
+              <view class="name">{{food.name}}</view>
+              <view class="desc">{{food.description}}</view>
+              <view class="price">
+                <view class="now">￥{{food.price}}</view>
+              </view>
+              <!--cartControl-->
+              <view class="cartControl-wrapper">
+                <view class="cartControl">
+                  <view name="fade">
+                    <view class="cart-decrease">
+                      <image src='{{shopBase.shopMinuteIcon}}' class="inner iconfont icon-jian" wx:if="{{food.Count > 0}}" data-item-index="{{index}}" data-id="{{food.id}}" data-parentIndex="{{parentIndex}}" data-icon="{{food.icon}}" data-shopname="{{food.name}}" data-shopdesc="{{food.description}}" bindtap="minueCart"></image>
+                    </view>
+                    <view class="cart-count" wx:if="{{food.Count > 0 }}">{{food.Count}}</view>
+                    <image class="cart-add" src="{{shopBase.shopAddIcon}}" data-item-index="{{index}}" data-id="{{food.id}}" data-parentIndex="{{parentIndex}}" data-shopname="{{food.name}}" data-shopdesc="{{food.description}}" data-icon="{{food.icon}}" bindtap="addCart"></image>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

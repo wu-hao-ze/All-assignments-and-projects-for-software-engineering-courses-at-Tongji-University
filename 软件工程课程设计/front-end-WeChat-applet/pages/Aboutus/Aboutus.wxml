@@ -1,0 +1,10 @@
+<view>
+  <image class="background" mode="scaleToFill" src="/images/fankui.jpg"></image>
+</view>
+<view class="tongji">
+  同济
+</view>
+<view class="do">
+  <view>whz制作</view>
+  <text>2022-12-14</text>
+</view>

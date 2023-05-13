@@ -1,0 +1,91 @@
+.index_cont {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.shoplist {
+  position: relative;
+  width: 100%;
+  height: 230rpx;
+
+}
+
+.shopLeft {
+  position: absolute;
+  width: 32%;
+  height: 100%;
+  left: 0;
+}
+
+.shopRight {
+  position: absolute;
+  width: 68%;
+  text-align: left;
+  height: 100%;
+  border-bottom: 1rpx solid #ddd;
+  right: 0;
+}
+
+.shopImg {
+  position: absolute;
+  width: 175rpx;
+  height: 175rpx;
+  left: 30rpx;
+  top: 25rpx;
+  border: 1rpx solid #ddd;
+}
+
+.shopName {
+  position: relative;
+  width: 300rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: inline-block;
+  height: 40rpx;
+  font-weight: bolder;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  padding-top: 30rpx;
+  margin-bottom: 10rpx;
+  color: #e23c13;
+}
+
+.shopTest {
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 200rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #e96682;
+  top: 0;
+  height: 40rpx;
+  line-height: 40rpx;
+  padding-top: 30rpx;
+
+}
+
+.shopDesc {
+  position: relative;
+  width: 500rpx;
+  /* display: inline-block; */
+  /* height: 40rpx; */
+  /* line-height: 40rpx; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 28rpx;
+  color: rgb(55, 89, 161);
+}

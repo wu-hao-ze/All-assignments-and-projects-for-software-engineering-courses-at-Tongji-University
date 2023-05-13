@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+
+import os
+import re
+import subprocess
+from gradelib import *
+
+r = Runner(save("xv6.out"))
+
+@test(5, "answers-traps.txt")
+def test_answers():
+    # just a simple sanity check, will be graded manually
+    check_answers("answers-traps.txt")
+
+BACKTRACE_RE = r"^(0x000000008[0-9a-f]+)"
+
+def addr2line():
+    for f in ['riscv64-unknown-elf-addr2line', 'riscv64-linux-gnu-addr2line', 'addr2line', ]:
+        try:
+            devnull = open(os.devnull)
+            subprocess.Popen([f], stdout=devnull, stderr=devnull).communicate()
+            return f
+        except OSError:
+            continue
+    raise AssertionError('Cannot find the addr2line program')
+
+@test(10, "backtrace test")
+def test_backtracetest():
+    r.run_qemu(shell_script([
+        'bttest'
+    ]))
+    a2l = addr2line()
+    matches = re.findall(BACKTRACE_RE, r.qemu.output, re.MULTILINE)
+    assert_equal(len(matches), 3)
+    files = ['sysproc.c', 'syscall.c', 'trap.c']
+    for f, m in zip(files, matches):
+        result = subprocess.run([a2l, '-e', 'kernel/kernel', m], stdout=subprocess.PIPE)
+        if not f in result.stdout.decode("utf-8"):
+            raise AssertionError('Trace is incorrect; no %s' % f)
+
+@test(0, "running alarmtest")
+def test_alarmtest():
+    r.run_qemu(shell_script([
+        'alarmtest'
+    ]))
+
+@test(20, "alarmtest: test0", parent=test_alarmtest)
+def test_alarmtest_test0():
+    r.match('^test0 passed$')
+
+@test(20, "alarmtest: test1", parent=test_alarmtest)
+def test_alarmtest_test1():
+    r.match('^\\.?test1 passed$')
+
+@test(10, "alarmtest: test2", parent=test_alarmtest)
+def test_alarmtest_test2():
+    r.match('^\\.?test2 passed$')
+
+@test(19, "usertests")
+def test_usertests():
+    r.run_qemu(shell_script([
+        'usertests'
+    ]), timeout=300)
+    r.match('^ALL TESTS PASSED$')
+
+@test(1, "time")
+def test_time():
+    check_time()
+
+run_tests()

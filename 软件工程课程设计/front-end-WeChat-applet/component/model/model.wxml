@@ -1,0 +1,24 @@
+<!-- 最外层 -->
+<view hidden="{{!modalStart}}">
+  <!-- 遮罩 -->
+  <view class="mask" catchtouchmove="preventdefault">
+    <view class="maskView">
+      <!-- 弹窗 -->
+      <view class="maseViews">
+        <!-- 授权标题 -->
+        <view class="authorize">微信授权</view>
+        <!-- logo -->
+        <image class="logo" src="{{logo}}"></image>
+        <!-- 店铺名称 -->
+        <view class="title">点餐小助手申请获得以下权限</view>
+        <!-- 描述 -->
+        <view class="desction">获得你的公开信息（昵称、头像等）</view>
+        <!-- 操作按钮 -->
+        <view class="submitView">
+          <view class="cance" bind:tap="getCance">取消</view>
+          <button class="success" open-type="getUserInfo" bind:tap="getse" bindgetuserinfo="getOenMask" hover-class="none">允许</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<!-- 评价 -->
+<view>
+  <image class="background" mode="scaleToFill" src="/images/oback.jpg"></image>
+</view>
+<view class="index_cont">
+  <!-- 订单列表 -->
+  <view class="shoplist" wx:for="{{orderList}}" bindtap="getComment" data-item="{{item}}" wx:key="key">
+    <!-- 左 -->
+    <view class="shopLeft">
+      <image src="{{item.orderImg}}" class="shopImg"></image>
+    </view>
+    <!-- 右-->
+    <view class="shopRight">
+      <label class="shopName">{{item.orderShop}}的订单</label>
+      <view class="shopTest">总价：{{item.orderPrice}}元</view>
+      <label class="shopDesc">{{item.orderDesc}}</label>
+      <view class="shopping" wx:if="{{item.orderComment==true}}">已评价</view>
+      <view class="shopping" wx:if="{{item.orderComment==false}}">未评价</view>
+    </view>
+  </view>
+</view>

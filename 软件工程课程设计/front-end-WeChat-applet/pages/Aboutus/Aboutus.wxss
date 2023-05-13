@@ -1,0 +1,23 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.tongji {
+  padding-top: 90rpx;
+  padding-left: 200rx;
+  z-index: 1;
+  text-align: center;
+  font-size: 80rpx;
+  font-family: STxingkai;
+}
+
+.do {
+  padding-top: 500rpx;
+  padding-left: 200rx;
+  text-align: center;
+  font-size: 50rpx;
+  font-family: STxingkai;
+}
