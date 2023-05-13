@@ -1,0 +1,270 @@
+School Name,School Type,Starting Median Salary,Mid-Career Median Salary,Mid-Career 10th Percentile Salary,Mid-Career 25th Percentile Salary,Mid-Career 75th Percentile Salary,Mid-Career 90th Percentile Salary,size
+Massachusetts Institute of Technology (MIT),Engineering,72200,126000,76800,99200,168000,220000,2
+California Institute of Technology (CIT),Engineering,75500,123000,0,104000,161000,0,2
+Harvey Mudd College,Engineering,71800,122000,0,96000,180000,0,2
+"Polytechnic University of New York, Brooklyn",Engineering,62400,114000,66800,94300,143000,190000,2
+Cooper Union,Engineering,62200,114000,0,80200,142000,0,2
+Worcester Polytechnic Institute (WPI),Engineering,61000,114000,80000,91200,137000,180000,2
+Carnegie Mellon University (CMU),Engineering,61800,111000,63300,80100,150000,209000,2
+Rensselaer Polytechnic Institute (RPI),Engineering,61100,110000,71600,85500,140000,182000,2
+Georgia Institute of Technology,Engineering,58300,106000,67200,85200,137000,183000,2
+Colorado School of Mines,Engineering,58100,106000,62200,87900,142000,201000,2
+Stevens Institute of Technology,Engineering,60600,105000,68700,81900,138000,185000,2
+Illinois Institute of Technology (IIT),Engineering,56000,97800,56100,77400,121000,165000,2
+Wentworth Institute of Technology,Engineering,53000,96700,55200,74000,117000,153000,2
+Virginia Polytechnic Institute and State University (Virginia Tech),Engineering,53500,95400,50600,71400,124000,163000,2
+South Dakota School of Mines & Technology,Engineering,55800,93400,71500,81900,122000,147000,2
+New Mexico Institute of Mining and Technology (New Mexico Tech),Engineering,51000,93400,0,67400,123000,0,2
+Rochester Institute of Technology (RIT),Engineering,48900,84600,45000,62100,112000,159000,2
+Embry-Riddle Aeronautical University (ERAU),Engineering,52700,80700,49800,64000,106000,142000,2
+Tennessee Technological University,Engineering,46200,80000,42100,62600,99500,121000,2
+University of Illinois at Urbana-Champaign (UIUC),Party,52900,96100,48200,68900,132000,177000,2
+"University of Maryland, College Park",Party,52000,95000,50400,68300,126000,166000,2
+"University of California, Santa Barbara (UCSB)",Party,50500,95000,51300,71200,129000,173000,2
+University of Texas (UT) - Austin,Party,49700,93900,50100,67400,129000,188000,2
+State University of New York (SUNY) at Albany,Party,44500,92200,47000,63100,135000,209000,2
+University of Florida (UF),Party,47100,87900,45400,62900,120000,172000,2
+Louisiana State University (LSU),Party,46900,87800,43700,61300,120000,165000,2
+University of Georgia (UGA),Party,44100,86000,43100,57800,118000,164000,2
+Pennsylvania State University (PSU),Party,49900,85700,46300,62000,117000,160000,2
+Arizona State University (ASU),Party,47400,84100,44600,60700,114000,163000,2
+"Indiana University (IU), Bloomington",Party,46300,84000,43600,60400,119000,178000,2
+University of Iowa (UI),Party,44700,83900,43300,61100,116000,163000,2
+Randolph-Macon College,Party,42600,83600,0,54100,123000,0,2
+"University of Alabama, Tuscaloosa",Party,41300,81400,40100,56500,117000,161000,2
+University of Mississippi,Party,41400,79700,40400,53500,108000,186000,2
+University of New Hampshire (UNH),Party,41800,78300,41700,56400,114000,147000,2
+West Virginia University (WVU),Party,43100,78100,39700,55700,106000,141000,2
+University of Tennessee,Party,43800,74600,41900,53200,106000,153000,2
+Ohio University,Party,42200,73400,36600,52800,106000,150000,2
+Florida State University (FSU),Party,42100,73000,39600,52800,107000,156000,2
+Bucknell University,Liberal Arts,54100,110000,62800,80600,156000,251000,2
+Colgate University,Liberal Arts,52800,108000,60000,76700,167000,265000,2
+Amherst College,Liberal Arts,54500,107000,0,84900,162000,0,2
+Lafayette College,Liberal Arts,53900,107000,70600,79300,144000,204000,2
+Bowdoin College,Liberal Arts,48100,107000,0,74600,146000,0,2
+College of the Holy Cross,Liberal Arts,50200,106000,0,65600,143000,0,2
+Occidental College,Liberal Arts,51900,105000,0,54800,157000,0,2
+Washington and Lee University,Liberal Arts,53600,104000,0,82800,146000,0,2
+Swarthmore College,Liberal Arts,49700,104000,0,67200,167000,0,2
+Davidson College,Liberal Arts,46100,104000,0,70500,146000,0,2
+Carleton College,Liberal Arts,47500,103000,0,69400,141000,0,2
+Williams College,Liberal Arts,51700,102000,0,76400,143000,0,2
+Pomona College,Liberal Arts,48600,101000,0,63300,161000,0,2
+"Wesleyan University (Middletown, Connecticut)",Liberal Arts,46500,97900,42000,62500,126000,215000,2
+Bates College,Liberal Arts,47300,96500,0,60700,162000,0,2
+Union College,Liberal Arts,47200,95800,48700,75200,135000,230000,2
+University of Richmond,Liberal Arts,48600,94600,44500,59400,151000,211000,2
+Vassar College,Liberal Arts,46000,94600,0,60600,123000,0,2
+Middlebury College,Liberal Arts,47700,94200,0,69100,129000,0,2
+Mount Holyoke College,Liberal Arts,42400,94100,0,57100,131000,0,2
+Franklin and Marshall College,Liberal Arts,49100,92800,0,55800,185000,0,2
+DePauw University,Liberal Arts,41400,88300,49500,57400,133000,185000,2
+St. Olaf College,Liberal Arts,45300,86200,41300,61000,120000,185000,2
+Colby College,Liberal Arts,46400,85800,0,63500,129000,0,2
+Gettysburg College,Liberal Arts,44700,85800,0,66300,132000,0,2
+Siena College,Liberal Arts,45500,85200,38700,58400,129000,189000,2
+Smith College,Liberal Arts,44000,83900,45100,59800,129000,184000,2
+Hamilton College,Liberal Arts,49200,83700,0,51900,123000,0,2
+Randolph-Macon College,Liberal Arts,42600,83600,0,54100,123000,0,2
+Wellesley College,Liberal Arts,42800,83500,0,58600,125000,0,2
+Denison University,Liberal Arts,42000,83500,0,62100,122000,0,2
+Oberlin College,Liberal Arts,43400,81600,0,46400,128000,0,2
+University of Puget Sound,Liberal Arts,46600,81500,48900,60100,104000,137000,2
+Colorado College (CC),Liberal Arts,38500,81400,0,43000,148000,0,2
+Reed College,Liberal Arts,40500,81100,0,67400,101000,0,2
+Gustavus Adolphus College,Liberal Arts,44500,80600,0,49300,101000,0,2
+Whitman College,Liberal Arts,43500,80100,0,64800,111000,0,2
+Ursinus College,Liberal Arts,42100,80000,35600,54300,100000,160000,2
+Juniata College,Liberal Arts,41800,78900,0,67200,110000,0,2
+Wittenberg University,Liberal Arts,39200,78200,0,54100,131000,0,2
+Grinnell College,Liberal Arts,42600,76600,0,65100,116000,0,2
+Skidmore College,Liberal Arts,41600,74600,0,42800,147000,0,2
+Moravian College,Liberal Arts,42500,74400,0,56700,94900,0,2
+Lewis & Clark College,Liberal Arts,38900,72600,38200,53400,104000,140000,2
+Fort Lewis College,Liberal Arts,42000,69800,0,55000,94000,0,2
+Thomas Aquinas College,Liberal Arts,41500,67500,0,44600,93100,0,2
+Evergreen State College,Liberal Arts,39500,63900,38800,47200,91600,120000,2
+Dartmouth College,Ivy League,58000,134000,63100,90200,234000,321000,2
+Princeton University,Ivy League,66500,131000,68900,100000,190000,261000,2
+Yale University,Ivy League,59100,126000,58000,80600,198000,326000,2
+Harvard University,Ivy League,63400,124000,54800,86200,179000,288000,2
+University of Pennsylvania,Ivy League,60900,120000,55900,79200,192000,282000,2
+Cornell University,Ivy League,60300,110000,56800,79800,160000,210000,2
+Brown University,Ivy League,56200,109000,55400,74400,159000,228000,2
+Columbia University,Ivy League,59400,107000,50300,71900,161000,241000,2
+"University of California, Berkeley",State,59900,112000,59500,81000,149000,201000,2
+University of Virginia (UVA),State,52700,103000,52200,71800,146000,215000,2
+Cal Poly San Luis Obispo,State,57200,101000,55000,74700,133000,178000,2
+University of California at Los Angeles (UCLA),State,52600,101000,51300,72500,139000,193000,2
+"University of California, San Diego (UCSD)",State,51100,101000,51700,75400,131000,177000,2
+"University of California, Davis",State,52300,99600,52000,71600,135000,202000,2
+University of Colorado - Boulder (UCB),State,47100,97600,51600,69000,128000,187000,2
+"University of California, Irvine (UCI)",State,48300,96700,47800,66000,123000,172000,2
+University of Illinois at Urbana-Champaign (UIUC),State,52900,96100,48200,68900,132000,177000,2
+Texas A&M University,State,49700,96100,51100,71300,131000,171000,2
+Binghamton University,State,53600,95900,50900,71200,146000,201000,2
+University of Missouri - Rolla (UMR),State,57100,95800,67600,80400,122000,166000,2
+San Jose State University (SJSU),State,53500,95600,50700,70500,122000,156000,2
+"University of Maryland, College Park",State,52000,95000,50400,68300,126000,166000,2
+"University of California, Santa Barbara (UCSB)",State,50500,95000,51300,71200,129000,173000,2
+University of Texas (UT) - Austin,State,49700,93900,50100,67400,129000,188000,2
+University of Michigan,State,52700,93000,50900,69400,128000,182000,2
+Stony Brook University,State,49500,93000,47200,67100,129000,181000,2
+State University of New York (SUNY) at Albany,State,44500,92200,47000,63100,135000,209000,2
+Rutgers University,State,50300,91800,48100,65100,128000,176000,2
+Purdue University,State,51400,90500,49900,67400,121000,168000,2
+University of Connecticut (UConn),State,48000,88800,46100,66400,120000,162000,2
+University of Massachusetts (UMass) - Amherst,State,46600,88200,43100,61300,122000,168000,2
+"California State University (CSU), Chico",State,47400,88100,46800,62800,122000,154000,2
+University of Florida (UF),State,47100,87900,45400,62900,120000,172000,2
+University of Wisconsin (UW) - Madison,State,48900,87800,47400,62400,118000,170000,2
+Louisiana State University (LSU),State,46900,87800,43700,61300,120000,165000,2
+"California State University, Fullerton (CSUF)",State,45700,87000,45400,62500,119000,158000,2
+George Mason University,State,47800,86900,51300,67200,114000,150000,2
+University of Massachusetts (UMass) - Lowell,State,45400,86600,50900,65000,113000,158000,2
+San Francisco State University (SFSU),State,47300,86400,45100,62700,114000,150000,2
+University of Arizona,State,47500,86100,44800,61700,117000,160000,2
+Clemson University,State,48400,86000,50500,61800,111000,150000,2
+University of Georgia (UGA),State,44100,86000,43100,57800,118000,164000,2
+Pennsylvania State University (PSU),State,49900,85700,46300,62000,117000,160000,2
+University of Washington (UW),State,48800,85300,47000,59800,115000,149000,2
+Michigan State University (MSU),State,46300,85300,44200,61500,119000,170000,2
+University of Rhode Island (URI),State,43900,85300,45400,60100,112000,157000,2
+San Diego State University (SDSU),State,46200,85200,45500,61800,116000,158000,2
+Auburn University,State,45400,84700,45400,62700,109000,145000,2
+Washington State University (WSU),State,45300,84700,43600,59000,113000,162000,2
+"California State University, Long Beach (CSULB)",State,45100,84700,47400,62500,113000,154000,2
+Iowa State University,State,45400,84600,44400,60000,109000,147000,2
+University of Delaware,State,45900,84500,44500,64000,119000,165000,2
+University of Colorado - Denver,State,46100,84400,46400,58600,105000,144000,2
+"California State University, East Bay (CSUEB)",State,49200,84300,46000,62400,115000,155000,2
+State University of New York (SUNY) at Farmingdale,State,47300,84200,50200,59800,110000,162000,2
+University of Minnesota,State,46200,84200,49000,63200,112000,148000,2
+Arizona State University (ASU),State,47400,84100,44600,60700,114000,163000,2
+"University of California, Santa Cruz (UCSC)",State,44700,84100,46100,62000,121000,165000,2
+"Indiana University (IU), Bloomington",State,46300,84000,43600,60400,119000,178000,2
+University of Iowa (UI),State,44700,83900,43300,61100,116000,163000,2
+Ohio State University (OSU),State,44900,83700,45500,60700,116000,162000,2
+North Carolina State University (NCSU),State,47200,83300,49200,64800,112000,153000,2
+Oregon State University (OSU),State,45100,83300,46900,64000,113000,146000,2
+University of Utah,State,45400,83200,43000,58400,116000,148000,2
+"University of Nevada, Reno (UNR)",State,46500,82900,41900,54600,113000,143000,2
+University of Oklahoma,State,44700,82900,41200,60300,114000,167000,2
+University of Arkansas,State,44100,82800,43200,60700,113000,160000,2
+University of Vermont (UVM),State,44800,82700,44700,58000,122000,194000,2
+University of Alabama at Huntsville (UAH),State,43100,82700,46100,67800,106000,132000,2
+"California State University, Sacramento (CSUS)",State,47800,82400,42900,59600,111000,154000,2
+University of Idaho,State,44900,82000,43000,56700,104000,142000,2
+University of Illinois at Chicago,State,47500,81700,44700,58800,110000,146000,2
+State University of New York (SUNY) at Buffalo,State,46200,81700,45900,61400,110000,147000,2
+University of Kansas,State,42400,81600,44800,57200,115000,156000,2
+University of New Mexico (UNM),State,41600,81600,41800,59100,105000,141000,2
+University of North Carolina at Chapel Hill (UNCH),State,42900,81500,43400,57500,117000,155000,2
+"University of Alabama, Tuscaloosa",State,41300,81400,40100,56500,117000,161000,2
+"University of California, Riverside (UCR)",State,46800,81300,37200,59900,109000,134000,2
+State University of New York (SUNY) at Geneseo,State,42300,81300,39300,47600,117000,173000,2
+University of Missouri - Columbia,State,41700,81000,43500,57100,111000,156000,2
+University of Nebraska,State,45700,80900,42200,56600,113000,156000,2
+University of Texas at Arlington (UTA),State,45400,80800,46400,61200,106000,138000,2
+Northern Illinois University (NIU),State,43600,80800,43900,60200,111000,161000,2
+Oklahoma State University,State,42800,80700,40100,56500,114000,151000,2
+University of North Dakota,State,44000,80600,43400,56400,111000,157000,2
+"California State University, Northridge (CSUN)",State,45500,80400,44500,57800,108000,153000,2
+University of Houston (UH),State,46000,79900,42000,56200,106000,141000,2
+University of Mississippi,State,41400,79700,40400,53500,108000,186000,2
+New Mexico State University,State,44300,79500,37400,53800,102000,131000,2
+Lamar University,State,46500,79400,38700,51600,114000,158000,2
+Mississippi State University (MSU),State,44500,79300,43300,58800,108000,151000,2
+Colorado State University (CSU),State,44800,79000,43800,57100,112000,150000,2
+Kansas State University (KSU),State,43300,79000,37200,54100,106000,138000,2
+University of Wyoming (UW),State,44500,78700,41500,54000,105000,145000,2
+Utah State University,State,43800,78700,41600,55400,101000,132000,2
+University of Wisconsin (UW) - Platteville,State,45800,78500,48400,61200,100000,139000,2
+University of Oregon,State,42200,78400,38100,56200,117000,186000,2
+University of Kentucky (UK),State,42800,78300,43000,57300,107000,149000,2
+University of New Hampshire (UNH),State,41800,78300,41700,56400,114000,147000,2
+University of Massachusetts (UMass) - Boston,State,45600,78200,36300,53800,109000,151000,2
+West Virginia University (WVU),State,43100,78100,39700,55700,106000,141000,2
+University of Maryland Baltimore County (UMBC),State,47000,77800,46900,59100,105000,130000,2
+North Dakota State University (NDSU),State,45100,77800,39000,55800,100000,123000,2
+State University of New York (SUNY) at Oswego,State,38000,77800,40400,53000,115000,169000,2
+University of Massachusetts (UMass) - Dartmouth,State,43200,77700,43300,56200,107000,132000,2
+Montana State University - Bozeman,State,46600,77500,40200,58100,111000,151000,2
+State University of New York (SUNY) at Oneonta,State,37500,76700,40000,54300,97700,155000,2
+University of Louisiana (UL) at Lafayette,State,41100,76300,42000,54500,107000,163000,2
+State University of New York (SUNY) at Plattsburgh,State,40800,76200,38400,54100,105000,136000,2
+Wayne State University,State,42800,76100,40100,56200,101000,139000,2
+University of Hawaii,State,43800,76000,40400,56300,104000,128000,2
+University of Toledo,State,43100,75900,40100,54100,100000,133000,2
+Florida International University (FIU),State,43200,75500,40500,55800,98200,136000,2
+University of Wisconsin (UW) - Whitewater,State,40800,75500,38200,53500,99300,150000,2
+Western Washington University,State,42700,75400,41300,56700,99200,119000,2
+Minnesota State University - Mankato,State,43300,74700,39500,53800,95700,140000,2
+University of Tennessee,State,43800,74600,41900,53200,106000,153000,2
+University of Wisconsin (UW) - Milwaukee,State,42300,74600,40600,54000,93700,123000,2
+University of Arkansas - Monticello (UAM),State,39200,74500,32800,46100,110000,161000,2
+Penn State - Harrisburg,State,45700,74000,44000,53100,104000,150000,2
+University of North Carolina at Charlotte (UNCC),State,43100,74000,38200,53200,99500,133000,2
+Georgia State University,State,41800,74000,43000,55300,99900,145000,2
+Western Michigan University (WMU),State,42300,73800,40100,52500,103000,135000,2
+South Dakota State University (SDSU),State,41100,73500,34100,49900,99400,129000,2
+Idaho State University,State,44900,73400,35400,49600,101000,143000,2
+Ohio University,State,42200,73400,36600,52800,106000,150000,2
+Illinois State University,State,42000,73400,39100,55200,105000,142000,2
+Cleveland State University,State,43500,73100,39500,51600,97000,137000,2
+Florida State University (FSU),State,42100,73000,39600,52800,107000,156000,2
+"University of Alaska, Anchorage",State,45900,72600,39800,56600,99300,137000,2
+Fitchburg State College,State,42400,72600,43300,56100,99600,151000,2
+University of Nebraska at Omaha,State,41500,72600,39500,54400,97400,126000,2
+Southern Illinois University Carbondale,State,43000,72500,38300,51300,99300,139000,2
+University of Texas at El Paso (UTEP),State,43400,72100,37700,50400,99500,133000,2
+"California State University, Dominguez Hills (CSUDH)",State,42700,72100,30800,47000,92200,132000,2
+University Of Maine,State,41200,72100,41700,55600,99300,141000,2
+Eastern Michigan University,State,40300,72100,37900,52800,95400,135000,2
+Bowling Green State University,State,39800,72100,38200,51800,101000,146000,2
+University of Montana,State,37300,71900,37000,51500,96400,138000,2
+University of Central Florida (UCF),State,42600,71700,39500,51500,98400,125000,2
+University of South Carolina,State,40000,71700,36300,49900,98400,131000,2
+"University of Nevada, Las Vegas (UNLV)",State,45200,71600,39000,52400,100000,128000,2
+St. Cloud State University,State,41800,71400,38700,49400,101000,126000,2
+University of Wisconsin (UW) - Parkside,State,40700,71400,40900,53100,84900,119000,2
+"California State University (CSU), Stanislaus",State,38000,71400,33700,50500,94100,121000,2
+Humboldt State University,State,42600,71300,36000,56300,94400,117000,2
+Florida Atlantic University (FAU),State,42600,71100,40700,53000,99500,137000,2
+University of South Florida (USF),State,41100,71100,39600,51500,98100,131000,2
+Portland State University (PSU),State,42600,70900,40700,52300,94400,123000,2
+Eastern Washington University,State,38600,70900,36000,50500,93100,117000,2
+University of Texas at San Antonio (UTSA),State,42500,70700,39100,49800,92700,121000,2
+University of Akron,State,41100,70300,40600,53300,95200,127000,2
+State University of New York (SUNY) at Potsdam,State,38000,70300,35100,51200,100000,179000,2
+University of Alabama at Birmingham (UAB),State,39200,70100,43000,53400,91400,125000,2
+University of Memphis (U of M),State,41400,69700,36100,49100,93500,127000,2
+Boise State University (BSU),State,40800,69500,37400,48700,87500,110000,2
+Missouri State University (MSU),State,36100,69500,33300,46900,102000,134000,2
+University of Wisconsin (UW) - La Crosse,State,42200,69300,37500,47200,93100,133000,2
+Appalachian State University,State,40400,69100,37200,50400,90800,115000,2
+Virginia Commonwealth University (VCU),State,42000,68400,37400,51900,100000,123000,2
+University of Wisconsin (UW) - Stout,State,43600,68300,40900,50600,91600,136000,2
+East Carolina University (ECU),State,40200,67500,38400,52000,98700,151000,2
+Utah Valley State College,State,42400,67100,27000,44100,84900,110000,2
+University of Missouri - St. Louis (UMSL),State,41400,67100,36800,49600,97600,144000,2
+Western Carolina University,State,36900,66600,39000,49500,94400,133000,2
+University of Wisconsin (UW) - Oshkosh,State,39300,66400,37700,49700,90100,138000,2
+State University of New York (SUNY) at Fredonia,State,37800,66200,32800,44200,93300,181000,2
+University of Missouri - Kansas City (UMKC),State,38900,65800,36300,48100,95800,124000,2
+University of Wisconsin (UW) - Eau Claire,State,41400,64800,35000,47300,93100,125000,2
+Ball State University (BSU),State,39100,64500,35500,48200,89300,128000,2
+University of North Carolina at Wilmington (UNCW),State,37500,64400,32100,46600,97100,129000,2
+University of Wisconsin (UW) - Stevens Point,State,39800,64000,38400,45100,95400,128000,2
+University of Southern Maine,State,39400,63600,40400,47900,85700,117000,2
+Arkansas State University (ASU),State,38700,63300,33600,45300,83900,118000,2
+Kent State University,State,38700,62600,36100,45800,87000,124000,2
+Tarleton State University (TSU),State,40800,62400,32100,47400,80400,126000,2
+University of Wisconsin (UW) - Green Bay,State,35800,60600,35500,46800,81800,102000,2
+Morehead State University,State,34800,60600,34300,46500,72000,91300,2
+Austin Peay State University,State,37700,59200,32200,40500,73900,96200,2
+Pittsburg State University,State,40400,58200,25600,46000,84600,117000,2
+Southern Utah University,State,41900,56500,30700,39700,78400,116000,2
+Montana State University - Billings,State,37900,50600,22600,31800,78500,98900,2
+Black Hills State University,State,35300,43900,27000,32200,60900,87600,2
