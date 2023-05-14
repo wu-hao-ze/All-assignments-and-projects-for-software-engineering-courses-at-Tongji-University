@@ -25,19 +25,18 @@
 </template>
 
 <script>
-import { h } from "vue";
-import { ElDivider } from "element-plus";
+import { h } from 'vue'
+import { ElDivider } from 'element-plus'
 export default {
-  name: "buttonControl",
+  name: 'buttonControl',
   methods: {},
   data() {
     return {
       size: 10,
-      spacer: h(ElDivider, { direction: "vertical" }),
-    };
+      spacer: h(ElDivider, { direction: 'vertical' }),
+    }
   },
-};
+}
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

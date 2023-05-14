@@ -8,8 +8,8 @@
       <el-col v-for="nx in 4" :key="nx" :span="0">
         <memory-block
           :ref="
-            (el) => {
-              if (el) divs[nx - 1] = el;
+            el => {
+              if (el) divs[nx - 1] = el
             }
           "
         ></memory-block>
@@ -17,11 +17,11 @@
     </el-row>
   </div>
 </template>
- 
+
 <script>
-import MemoryBlock from "@/components/memoryBlock";
+import MemoryBlock from '@/components/memoryBlock'
 export default {
-  name: "memoryStation",
+  name: 'memoryStation',
   components: { MemoryBlock },
   data: () => ({
     divs: [],
@@ -29,38 +29,35 @@ export default {
   }),
   methods: {
     memoryAppear(index) {
-      this.empty = false;
-      this.divs[index].appear();
-      this.divs[index].page = index;
-      return;
+      this.empty = false
+      this.divs[index].appear()
+      this.divs[index].page = index
+      return
     },
     changePage(index, newPage) {
-      this.divs[index].page = newPage;
+      this.divs[index].page = newPage
 
       //隐藏再出现
 
-      this.divs[index].disapppear();
-      let that = this;
+      this.divs[index].disapppear()
+      let that = this
       setTimeout(() => {
-        that.divs[index].appear();
-      }, 300);
+        that.divs[index].appear()
+      }, 300)
     },
     //动画块移动
     move(index, num) {
-      this.divs[index].move(num);
+      this.divs[index].move(num)
     },
     blockEmpty() {
       for (let i = 0; i < this.divs.length; ++i) {
-        this.divs[i].disapppear();
-        this.divs[i].firstAppear = true;
+        this.divs[i].disapppear()
+        this.divs[i].firstAppear = true
       }
-      this.empty = true;
+      this.empty = true
     },
   },
-};
+}
 </script>
 
-
-
-<style scoped>
-</style>
+<style scoped></style>

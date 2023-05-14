@@ -20,18 +20,11 @@
 
     <p>指令执行顺序</p>
     <el-select v-model="sequenceValue" placeholder="请选择">
-      <el-option
-        v-for="item in sequence"
-        :key="item.value"
-        :label="item.label"
-        :value="item.value"
-      >
+      <el-option v-for="item in sequence" :key="item.value" :label="item.label" :value="item.value">
       </el-option>
     </el-select>
   </div>
 </template>
-
-
 
 <script>
 export default {
@@ -39,33 +32,33 @@ export default {
     show: true,
     algorithmOptions: [
       {
-        value: "FIFO",
-        label: "FIFO算法",
+        value: 'FIFO',
+        label: 'FIFO算法',
       },
       {
-        value: "LRU",
-        label: "LRU算法",
+        value: 'LRU',
+        label: 'LRU算法',
       },
     ],
-    algorithmValue: "FIFO",
+    algorithmValue: 'FIFO',
     //指令执行顺序
     sequence: [
       {
-        value: "skip",
-        label: "混合执行",
+        value: 'skip',
+        label: '混合执行',
       },
       {
-        value: "sequential",
-        label: "顺序执行",
+        value: 'sequential',
+        label: '顺序执行',
       },
       {
-        value: "random",
-        label: "随机执行",
+        value: 'random',
+        label: '随机执行',
       },
     ],
-    sequenceValue: "skip",
+    sequenceValue: 'skip',
   }),
-  name: "Information",
+  name: 'Information',
   props: {
     sumInstruction: Int32Array,
     instructionEachPage: Int32Array,
@@ -73,7 +66,7 @@ export default {
     replaceAlgorithm: String,
     executionSequence: String,
   },
-};
+}
 </script>
 
 <style scoped>

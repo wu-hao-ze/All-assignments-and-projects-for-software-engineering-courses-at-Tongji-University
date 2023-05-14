@@ -4,9 +4,8 @@
 
 <script>
 export default {
-  name: "oneMemory",
-};
+  name: 'oneMemory',
+}
 </script>
- 
-<style scoped>
-</style>
+
+<style scoped></style>

@@ -16,3 +16,12 @@ E:\同济大学作业\6.大二下学期作业\操作系统\OS_Elevator-master\�
 E:\同济大学作业\6.大二下学期作业\操作系统\OS_Elevator-master\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.csproj.CoreCompileInputs.cache
 E:\同济大学作业\6.大二下学期作业\操作系统\OS_Elevator-master\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.exe
 E:\同济大学作业\6.大二下学期作业\操作系统\OS_Elevator-master\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.pdb
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\bin\Debug\操作系统之电梯调度.exe
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\bin\Debug\操作系统之电梯调度.pdb
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.csproj.AssemblyReference.cache
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.HumanBeing.resources
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.Properties.Resources.resources
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.csproj.GenerateResource.cache
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.csproj.CoreCompileInputs.cache
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.exe
+E:\同济大学作业\同济大学软件工程专业课所有作业和项目\操作系统\1-ElevatorManagement\电梯调度工程\操作系统之电梯调度\obj\Debug\操作系统之电梯调度.pdb

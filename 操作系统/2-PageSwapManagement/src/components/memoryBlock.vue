@@ -13,8 +13,8 @@
         <transition
           name="el-fade-in"
           :ref="
-            (el) => {
-              if (el) box[nx - 1] = el;
+            el => {
+              if (el) box[nx - 1] = el
             }
           "
         >
@@ -22,8 +22,8 @@
             class="transition-box"
             :style="'background-color: ' + colorNow"
             :ref="
-              (el) => {
-                if (el) divs[nx - 1] = el;
+              el => {
+                if (el) divs[nx - 1] = el
               }
             "
             v-show="appears"
@@ -37,50 +37,50 @@
 </template>
 
 <script>
-import { h } from "vue";
-import { ElDivider } from "element-plus";
+import { h } from 'vue'
+import { ElDivider } from 'element-plus'
 export default {
-  name: "memoryBlock",
-  data: function () {
+  name: 'memoryBlock',
+  data: function() {
     return {
       appears: false,
       page: 0,
       divs: [],
       show: true,
       box: [],
-      colorNow: "#6db2fa",
-      redcolor: "#d43346",
-      curcolor: "#6db2fa",
-      spacer: h(ElDivider, { direction: "vertical" }),
+      colorNow: '#6db2fa',
+      redcolor: '#d43346',
+      curcolor: '#6db2fa',
+      spacer: h(ElDivider, { direction: 'vertical' }),
       firstAppear: true,
-    };
+    }
   },
   watch: {},
   methods: {
     appear() {
-      this.appears = !this.appears;
-      this.firstAppear = false;
+      this.appears = !this.appears
+      this.firstAppear = false
     },
 
     move(index) {
-      let block = this.box[index].style.backgroundColor;
-      this.box[index].style.backgroundColor = this.redcolor;
+      let block = this.box[index].style.backgroundColor
+      this.box[index].style.backgroundColor = this.redcolor
 
-      var that = this;
+      var that = this
       setTimeout(() => {
-        that.box[index].style.backgroundColor = that.colorNow;
-      }, 500);
+        that.box[index].style.backgroundColor = that.colorNow
+      }, 500)
 
-      console.log(block);
+      console.log(block)
     },
     state() {
-      return this.appears;
+      return this.appears
     },
     disapppear() {
-      this.appears = false;
+      this.appears = false
     },
   },
-};
+}
 </script>
 
 <style scoped>
