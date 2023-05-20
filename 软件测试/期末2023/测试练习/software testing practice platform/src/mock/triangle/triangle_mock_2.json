@@ -1,0 +1,15 @@
+[
+    {"id": "TS1","A": 20,"B": 20,"C":20,"expectation":"等边三角形"},
+    {"id": "TS2","A": 2,"B": 2,"C":3,"expectation":"等腰三角形"},
+    {"id": "TS3","A": 60,"B": 50,"C":30,"expectation":"一般三角形"},
+    {"id": "TS4","A": 10,"B": 20,"C":10,"expectation":"不构成三角形"},
+    {"id": "TS5","A": 0,"B": 2,"C":2,"expectation":"不构成三角形"},
+    {"id": "TS6","A": 2,"B": 0,"C":0,"expectation":"不构成三角形"},
+    {"id": "TS7","A": 2,"B": 2,"C":0,"expectation":"不构成三角形"},
+    {"id": "TS8","A": 257,"B": 60,"C":60,"expectation":"不构成三角形"},
+    {"id": "TS9","A": 60,"B": 257,"C":60,"expectation":"不构成三角形"},
+    {"id": "TS10","A": 60,"B": 60,"C":257,"expectation":"不构成三角形"},
+    {"id": "TS11","A": -1,"B": 60,"C":60,"expectation":"不构成三角形"},
+    {"id": "TS12","A": 60,"B": -1,"C":60,"expectation":"不构成三角形"},
+    {"id": "TS13","A": 60,"B": 60,"C":-1,"expectation":"不构成三角形"}
+  ]

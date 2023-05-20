@@ -1,0 +1,2 @@
+
+测试输入：{'store_id': ''}，期望输出：msg: value is not a valid integer

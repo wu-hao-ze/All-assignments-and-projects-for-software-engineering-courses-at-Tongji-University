@@ -1,0 +1,17 @@
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT user.id AS user_id, user.open_id AS user_open_id 
+FROM user 
+WHERE user.open_id = %(open_id_1)s 
+ LIMIT %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'open_id_1': 'oxxHL5GS26iMW6iSMzfoLjXk1luw', 'param_1': 1}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT store.id AS store_id, store.name AS store_name, store.phone AS store_phone, store.password AS store_password, store.`describe` AS store_describe, store.address AS store_address, store.distance AS store_distance, store.img AS store_img 
+FROM store 
+WHERE store.id = %(id_1)s 
+ LIMIT %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'id_1': 1, 'param_1': 1}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT dish.id AS dish_id, dish.store_id AS dish_store_id, dish.name AS dish_name, dish.flavor AS dish_flavor, dish.price AS dish_price, dish.description AS dish_description, dish.icon AS dish_icon 
+FROM dish 
+WHERE dish.id = %(id_1)s 
+ LIMIT %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'id_1': 1, 'param_1': 1}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 ROLLBACK

@@ -1,0 +1,7 @@
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT evaluate.order_id AS evaluate_order_id, evaluate.user_text AS evaluate_user_text, evaluate.store_text AS evaluate_store_text, evaluate.user_time AS evaluate_user_time, evaluate.store_time AS evaluate_store_time, evaluate.user_score AS evaluate_user_score 
+FROM evaluate 
+WHERE evaluate.order_id = %(order_id_1)s 
+ LIMIT %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'order_id_1': 47, 'param_1': 1}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 ROLLBACK
