@@ -1,2 +1,0 @@
-添加了logout的API，完善了Model User，实现前后端注销功能。
-需要session或者在其它页面注销我再修改（。）目前能跑通，不排除有bug。
