@@ -1,9 +1,11 @@
 项目简介：
-该项目是校园线上点餐系统，包含使用python的fastapi框架搭建的后端，微信小程序前端。
+该项目是校园线上点餐系统，包含使用python的fastapi框架搭建的后端，微信小程序前端，数据库MySQL。
 
 在单元测试中使用了python的pytest框架进行动态测试
 
 在集成测试中使用了python的unitest框架进行测试
 
 在系统测试中使用了airtest工具在前端进行测试
+
+缺陷管理工具使用PingCode
 
