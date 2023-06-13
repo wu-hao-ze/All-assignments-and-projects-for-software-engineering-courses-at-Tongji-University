@@ -1,2 +1,0 @@
-
-测试输入：{'order_id': '51', 'user_text': '', 'user_score': ''}，期望输出：msg: value is not a valid integer

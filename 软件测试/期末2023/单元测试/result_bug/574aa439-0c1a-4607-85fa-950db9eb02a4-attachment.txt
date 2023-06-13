@@ -1,6 +1,0 @@
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 BEGIN (implicit)
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT store.id AS store_id, store.name AS store_name, store.phone AS store_phone, store.password AS store_password, store.`describe` AS store_describe, store.address AS store_address, store.distance AS store_distance, store.img AS store_img 
-FROM store 
- LIMIT %(param_1)s, %(param_2)s
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'param_1': 0, 'param_2': 2}
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 ROLLBACK

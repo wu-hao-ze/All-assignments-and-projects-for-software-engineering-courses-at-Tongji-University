@@ -1,8 +1,0 @@
-
-2023-05-15 13:49:06,065 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
-2023-05-15 13:49:06,066 INFO sqlalchemy.engine.base.Engine SELECT store.id AS store_id, store.name AS store_name, store.phone AS store_phone, store.password AS store_password, store.`describe` AS store_describe, store.address AS store_address, store.distance AS store_distance, store.img AS store_img 
-FROM store 
- LIMIT %(param_1)s, %(param_2)s
-2023-05-15 13:49:06,066 INFO sqlalchemy.engine.base.Engine {'param_1': 1, 'param_2': 2}
-2023-05-15 13:49:06,068 INFO sqlalchemy.engine.base.Engine ROLLBACK
-测试输入：{'skip': '1', 'limit': '2'}，期望输出：msg: ok

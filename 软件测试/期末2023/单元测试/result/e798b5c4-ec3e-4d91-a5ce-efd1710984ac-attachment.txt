@@ -1,2 +1,0 @@
-
-测试输入：{'store_id': '1', 'countArray': ''}，期望输出：msg: value is not a valid list

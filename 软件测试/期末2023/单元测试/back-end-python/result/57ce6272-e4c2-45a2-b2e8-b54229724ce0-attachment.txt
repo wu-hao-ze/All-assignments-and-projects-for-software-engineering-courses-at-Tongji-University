@@ -1,3 +1,0 @@
-
-{'errcode': 40029, 'errmsg': 'invalid code, rid: 64622fad-652e09eb-1ad01417'}
-测试输入：{'code': '12345'}，期望输出：{'key': 'errcode', 'value': 40029}

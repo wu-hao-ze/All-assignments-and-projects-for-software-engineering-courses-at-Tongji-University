@@ -1,2 +1,0 @@
-
-测试输入：{'store_id': '1', 'countArray': [{'id': 3, 'num': 1}]}，期望输出：detail: please login first

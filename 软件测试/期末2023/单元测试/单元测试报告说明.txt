@@ -1,2 +1,0 @@
-在当前目录下执行allure serve ./result打开无bug的测试报告
-在当前目录下执行allure serve ./result_bug打开有bug的测试报告

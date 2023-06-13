@@ -1,6 +1,0 @@
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 BEGIN (implicit)
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT dish.id AS dish_id, dish.store_id AS dish_store_id, dish.name AS dish_name, dish.flavor AS dish_flavor, dish.price AS dish_price, dish.description AS dish_description, dish.icon AS dish_icon 
-FROM dish 
-WHERE dish.store_id = %(store_id_1)s
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'store_id_1': 2}
-[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 ROLLBACK
