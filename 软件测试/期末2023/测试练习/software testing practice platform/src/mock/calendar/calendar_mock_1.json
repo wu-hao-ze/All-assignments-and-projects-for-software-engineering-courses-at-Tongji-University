@@ -1,0 +1,21 @@
+[
+  {"id":"TS1","year":2021,"month":6,"day":15,"expectation":"2021-6-15"},
+  {"id":"TS2","year":1899,"month":6,"day":15,"expectation":"-1"},
+  {"id":"TS3","year":1900,"month":6,"day":15,"expectation":"1900-6-15"},
+  {"id":"TS4","year":1901,"month":6,"day":15,"expectation":"1901-6-15"},
+  {"id":"TS5","year":2099,"month":6,"day":15,"expectation":"2099-6-15"},
+  {"id":"TS6","year":2100,"month":6,"day":15,"expectation":"2100-6-15"},
+  {"id":"TS7","year":2101,"month":6,"day":15,"expectation":"-1"},
+  {"id":"TS8","year":2021,"month":0,"day":15,"expectation":"-1"},
+  {"id":"TS9","year":2021,"month":1,"day":15,"expectation":"2021-1-15"},
+  {"id":"TS10","year":2021,"month":2,"day":15,"expectation":"2021-2-15"},
+  {"id":"TS11","year":2021,"month":11,"day":15,"expectation":"2021-11-15"},
+  {"id":"TS12","year":2021,"month":12,"day":15,"expectation":"2021-12-15"},
+  {"id":"TS13","year":2021,"month":13,"day":15,"expectation":"-1"},
+  {"id":"TS14","year":2021,"month":6,"day":0,"expectation":"-1"},
+  {"id":"TS15","year":2021,"month":6,"day":1,"expectation":"2021-6-1"},
+  {"id":"TS16","year":2021,"month":6,"day":2,"expectation":"2021-6-2"},
+  {"id":"TS17","year":2021,"month":6,"day":30,"expectation":"2021-6-30"},
+  {"id":"TS18","year":2021,"month":6,"day":31,"expectation":"-1"},
+  {"id":"TS19","year":2021,"month":6,"day":32,"expectation":"-1"}
+]

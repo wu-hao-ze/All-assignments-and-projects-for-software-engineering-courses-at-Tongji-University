@@ -1,0 +1,4084 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title lang="en">
+    D:/AirtestIDE_2023-05-15_py3_win64/系统测试.air\test.log test report
+  </title>
+
+  <!--[if lt IE 9]>
+    <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+  <link href="static//css/bootstrap.min.css" rel="stylesheet">
+  <link href="static//css/main.css" rel="stylesheet">
+
+  <link href="static//css/report.css" rel="stylesheet">
+  <link href="static//css/jquery.fancybox.css" rel="stylesheet">
+  <link href="static//css/animate.css" rel="stylesheet">
+
+  <script src="static//js/jquery-1.10.2.min.js"></script>
+  <script src="static//js/echarts/echarts.common.min.js"></script>
+  <script src="static//js/echarts/shine.js"></script>
+  <script src="static//js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+  <script src="static//js/langpack/zh_CN.js" charset="utf-8" type="text/javascript"></script>
+  <script src="static//js/lazyload.js" charset="utf-8" type="text/javascript"></script>
+  <script type="text/javascript">
+    var lang = new Lang();
+    lang.init({
+      defaultLang: 'en',
+      currentLang: 'zh'
+    });
+  </script>
+  <style>
+    .fenbian {
+      width: 1080px;
+      height: 2340px;
+    }
+
+    h2.header {
+      background-color: #3498db;
+      color: white;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    div.screen_holder {
+      /*position: relative;*/
+      position: absolute;
+      margin-top: 10px;
+    }
+
+    div.screen_holder img {
+      /*max-height: 600px;*/
+    }
+
+    img.crop_image {
+      display: block;
+    }
+
+    img.spot {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      margin-left: -25px;
+      margin-top: -25px;
+    }
+
+    div.arrow {
+      display: flex;
+      align-items: center;
+      left: 100px;
+      top: 100px;
+      position: absolute;
+      width: 120px;
+      margin-top: -15px;
+      margin-left: -6px;
+    }
+
+    div.start {
+      width: 12px;
+      height: 12px;
+      border-radius: 6px;
+      background-color: red;
+    }
+
+    div.line {
+      /* width:500px; */
+      flex: 1;
+      background: red;
+      height: 10px;
+    }
+
+    div.end {
+      width: 0;
+      height: 0;
+      border-top: 15px solid transparent;
+      border-bottom: 15px solid transparent;
+      border-left: 20px solid red;
+    }
+
+    img.vector {}
+
+    img#gif {
+      max-width: 100%;
+      min-height: 50px;
+      max-height: 380px;
+    }
+
+    div.rect {
+      position: absolute;
+      border: 2px solid red;
+      border-radius: 5px;
+      z-index: 99;
+    }
+
+    p.desc {
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .moa label {
+      font-size: 16px;
+    }
+
+    .moa .point {
+      font-size: 20px;
+      padding: 10px;
+      display: inline-block;
+    }
+
+    pre {
+      background-color: #23241f;
+    }
+
+    img.error-img {
+      max-width: 70px !important;
+    }
+
+    .ztree span.glyphicon {
+      color: red;
+    }
+
+    .scale {
+      transform-origin: top left;
+    }
+
+    #main {
+      padding-top: 10px;
+      min-height: 600px;
+    }
+
+    .fast-nav-step {
+      position: fixed;
+      right: 30px;
+      bottom: 10px;
+      z-index: 10;
+      padding: 10px 20px;
+      margin-left: 30px;
+      background: rgba(222, 222, 222, 0.8);
+    }
+
+    .fast-nav-step label {
+      display: block;
+      border-bottom: 1px solid #7f8c8d;
+      padding-bottom: 6px;
+      margin-bottom: 12px;
+      color: #34495e;
+    }
+
+    .a-circle {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 25px;
+
+      padding-top: 4px;
+
+      text-align: center;
+      color: white;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .fast-nav-step .a-circle:hover {
+      opacity: 0.9;
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    #nav_steps {
+      max-height: 600px;
+      transition: max-height 0.25s ease-in;
+    }
+
+    #nav_steps.collapsed {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.15s ease-out;
+    }
+
+    div.assert {
+      padding-left: 20px;
+    }
+
+    .gif-wrap {
+      max-height: 400px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid" style="max-width:1400px;">
+    <div class="row">
+      <div id="main" class="main col-md-12">
+
+
+
+        <div class="material moa">
+          <h2><span lang="en">Test Case</span> 系统测试.air
+
+            <label class="green" lang="en">[Passed]</label>
+
+          </h2>
+
+          <h4><span lang="en">Author:</span> whz</h4>
+
+
+          <h4>2023-5-15 18:37:50 -- 2023-5-15 18:39:52</h4>
+
+          <h2 class="header" lang="en">Assert: Test Steps Summary</h2>
+          <hr>
+          <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+        <!-- 录屏 -->
+        <div class="row gif-wrap">
+          <div class="col-md-6">
+
+            <p lang="en">No record information found.</p>
+
+          </div>
+        </div>
+
+        <!--单步-->
+
+        <div class="material moa main_script" data-trace="None" id="main_script_1">
+
+          <h2 class="header">Step 1 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-05-15
+              18:38:51]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="158" data-height="101" src="tpl1655652247706.png"
+                  title="tpl1655652247706.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687570935.jpg"
+                    url="log\1655687570935.jpg" title="log\1655687570935.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="928"
+                    data-left="541" style="top:928px;left:541px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="462" data-top="878" data-width="158" data-height="101"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9988335371017456</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_2">
+
+          <h2 class="header">Step 2 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:12:55]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="133" data-height="90" src="tpl1655681913910.png"
+                  title="tpl1655681913910.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687574767.jpg"
+                    url="log\1655687574767.jpg" title="log\1655687574767.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2131"
+                    data-left="354" style="top:2131px;left:354px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="288" data-top="2086" data-width="133" data-height="90"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9996196627616882</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_3">
+
+          <h2 class="header">Step 3 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:12:57]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="166" data-height="138" src="tpl1655681940953.png"
+                  title="tpl1655681940953.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687576081.jpg"
+                    url="log\1655687576081.jpg" title="log\1655687576081.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1410"
+                    data-left="760" style="top:1410px;left:760px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="677" data-top="1341" data-width="166" data-height="138"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.999776303768158</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_4">
+
+          <h2 class="header">Step 4 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:12:58]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="158" data-height="101" src="tpl1655652247706.png"
+                  title="tpl1655652247706.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687577402.jpg"
+                    url="log\1655687577402.jpg" title="log\1655687577402.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="928"
+                    data-left="541" style="top:928px;left:541px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="462" data-top="878" data-width="158" data-height="101"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9988335371017456</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_5">
+
+          <h2 class="header">Step 5 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:01]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="147" data-height="87" src="tpl1655652773966.png"
+                  title="tpl1655652773966.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687580799.jpg"
+                    url="log\1655687580799.jpg" title="log\1655687580799.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2132"
+                    data-left="728" style="top:2132px;left:728px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="655" data-top="2089" data-width="147" data-height="87"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9994435906410217</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_6">
+
+          <h2 class="header">Step 6 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:05]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="150" data-height="120" src="tpl1655682322245.png"
+                  title="tpl1655682322245.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687584403.jpg"
+                    url="log\1655687584403.jpg" title="log\1655687584403.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2252"
+                    data-left="186" style="top:2252px;left:186px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="111" data-top="2192" data-width="150" data-height="120"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.999602198600769</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_7">
+
+          <h2 class="header">Step 7 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:06]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="770" data-height="346" src="tpl1655682416838.png"
+                  title="tpl1655682416838.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687585885.jpg"
+                    url="log\1655687585885.jpg" title="log\1655687585885.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="400"
+                    data-left="501" style="top:1380px;left:401px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="18" data-top="250" data-width="1050" data-height="320"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9999202489852905</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_8">
+
+          <h2 class="header">Step 8 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:08]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="128" data-height="125" src="tpl1655683692214.png"
+                  title="tpl1655683692214.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687587520.jpg"
+                    url="log\1655687587520.jpg" title="log\1655687587520.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1454"
+                    data-left="104" style="top:1454px;left:104px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="40" data-top="1392" data-width="128" data-height="125"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9999141693115234</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_9">
+
+          <h2 class="header">Step 9 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:09]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="92" data-height="90" src="tpl1655683707165.png"
+                  title="tpl1655683707165.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687588881.jpg"
+                    url="log\1655687588881.jpg" title="log\1655687588881.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="159"
+                    data-left="65" style="top:159px;left:65px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="19" data-top="114" data-width="92" data-height="90"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9982912540435791</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_10">
+
+          <h2 class="header">Step 10 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:11]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="103" data-height="104" src="tpl1655683618830.png"
+                  title="tpl1655683618830.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687590286.jpg"
+                    url="log\1655687590286.jpg" title="log\1655687590286.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1050"
+                    data-left="1008" style="top:987px;left:1008px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="957" data-top="980" data-width="103" data-height="104"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997459650039673</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_11">
+
+          <h2 class="header">Step 11 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:12]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="68" data-height="95" src="tpl1655683647505.png"
+                  title="tpl1655683647505.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687591773.jpg"
+                    url="log\1655687591773.jpg" title="log\1655687591773.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="436"
+                    data-left="1007" style="top:436px;left:1007px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="973" data-top="389" data-width="68" data-height="95"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9996886849403381</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_12">
+
+          <h2 class="header">Step 12 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:14]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="128" data-height="122" src="tpl1655683979695.png"
+                  title="tpl1655683979695.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687593197.jpg"
+                    url="log\1655687593197.jpg" title="log\1655687593197.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1451"
+                    data-left="107" style="top:1451px;left:107px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="43" data-top="1390" data-width="128" data-height="122"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9996933341026306</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_13">
+
+          <h2 class="header">Step 13 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:15]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="319" data-height="123" src="tpl1655684212213.png"
+                  title="tpl1655684212213.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687594617.jpg"
+                    url="log\1655687594617.jpg" title="log\1655687594617.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2253"
+                    data-left="909" style="top:2253px;left:909px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="750" data-top="2192" data-width="319" data-height="123"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9990684986114502</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_14">
+
+          <h2 class="header">Step 14 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:17]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="313" data-height="103" src="tpl1655684234161.png"
+                  title="tpl1655684234161.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687596052.jpg"
+                    url="log\1655687596052.jpg" title="log\1655687596052.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1258"
+                    data-left="547" style="top:1218px;left:547px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="391" data-top="1207" data-width="313" data-height="103"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9990098476409912</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_15">
+
+          <h2 class="header">Step 15 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:18]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="112" data-height="114" src="tpl1655684633454.png"
+                  title="tpl1655684633454.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687597414.jpg"
+                    url="log\1655687597414.jpg" title="log\1655687597414.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2202"
+                    data-left="536" style="top:2252px;left:896px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="478" data-top="2142" data-width="112" data-height="114"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9996032118797302</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_16">
+
+          <h2 class="header">Step 16 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:19]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="169" data-height="126" src="tpl1655685050999.png"
+                  title="tpl1655685050999.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687598855.jpg"
+                    url="log\1655687598855.jpg" title="log\1655687598855.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2202"
+                    data-left="900" style="top:2252px;left:543px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="819" data-top="2142" data-width="169" data-height="126"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997485280036926</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_17">
+
+          <h2 class="header">Step 17 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:21]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="229" data-height="90" src="tpl1655685300023.png"
+                  title="tpl1655685300023.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687600241.jpg"
+                    url="log\1655687600241.jpg" title="log\1655687600241.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1266"
+                    data-left="546" style="top:1266px;left:546px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="432" data-top="1221" data-width="229" data-height="90"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9998587965965271</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_18">
+
+          <h2 class="header">Step 18 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:22]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="90" data-height="90" src="tpl1655685471759.png"
+                  title="tpl1655685471759.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687601609.jpg"
+                    url="log\1655687601609.jpg" title="log\1655687601609.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="156"
+                    data-left="66" style="top:156px;left:66px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="21" data-top="111" data-width="90" data-height="90"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9985113143920898</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_19">
+
+          <h2 class="header">Step 19 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:24]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="326" data-height="147" src="tpl1655685065161.png"
+                  title="tpl1655685065161.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687603038.jpg"
+                    url="log\1655687603038.jpg" title="log\1655687603038.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="894"
+                    data-left="552" style="top:894px;left:552px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="389" data-top="821" data-width="326" data-height="147"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9996998906135559</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_20">
+
+          <h2 class="header">Step 20 <span class="step_title" lang="en">Swipe</span> <span class="step_title">[2023-5-15
+              09:13:25]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">swipe</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="101" data-height="136" src="tpl1655685776274.png"
+                  title="tpl1655685776274.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">vector: [0.0624, -0.7717]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">v2: None</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687604437.jpg"
+                    url="log\1655687604437.jpg" title="log\1655687604437.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2075"
+                    data-left="55" style="top:2075px;left:55px;">
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2075"
+                    data-left="55" style="top:2075px;left:55px;">
+
+
+
+
+
+
+                  <div class="arrow" data-x="67" data-y="-1805">
+                    <div class="start"></div>
+                    <div class="line"></div>
+                    <div class="end"></div>
+                  </div>
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="5" data-top="2007" data-width="101" data-height="136"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9995468258857727</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>滑动操作</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_21">
+
+          <h2 class="header">Step 21 <span class="step_title" lang="en">Swipe</span> <span class="step_title">[2023-5-15
+              09:13:27]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">swipe</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="101" data-height="136" src="tpl1655685776274.png"
+                  title="tpl1655685776274.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">vector: [0.0624, -0.7717]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">v2: None</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687606167.jpg"
+                    url="log\1655687606167.jpg" title="log\1655687606167.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2075"
+                    data-left="55" style="top:2075px;left:55px;">
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2075"
+                    data-left="55" style="top:2075px;left:55px;">
+
+
+
+
+
+
+                  <div class="arrow" data-x="67" data-y="-1805">
+                    <div class="start"></div>
+                    <div class="line"></div>
+                    <div class="end"></div>
+                  </div>
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="5" data-top="2007" data-width="101" data-height="136"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9995348453521729</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>滑动操作</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_22">
+
+          <h2 class="header">Step 22 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:28]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="724" data-height="247" src="tpl1655685879095.png"
+                  title="tpl1655685879095.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687607834.jpg"
+                    url="log\1655687607834.jpg" title="log\1655687607834.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="744"
+                    data-left="588" style="top:694px;left:688px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="26" data-top="631" data-width="1024" data-height="247"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997978806495667</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_23">
+
+          <h2 class="header">Step 23 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:30]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="305" data-height="90" src="tpl1655685900182.png"
+                  title="tpl1655685900182.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687609218.jpg"
+                    url="log\1655687609218.jpg" title="log\1655687609218.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1469"
+                    data-left="546" style="top:1429px;left:546px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="394" data-top="1424" data-width="305" data-height="90"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9994712471961975</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_24">
+
+          <h2 class="header">Step 24 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:31]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="727" data-height="242" src="tpl1655687139272.png"
+                  title="tpl1655687139272.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687610605.jpg"
+                    url="log\1655687610605.jpg" title="log\1655687610605.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="744"
+                    data-left="588" style="top:694px;left:688px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="26" data-top="631" data-width="1024" data-height="247"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997773766517639</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_25">
+
+          <h2 class="header">Step 25 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:32]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="370" data-height="98" src="tpl1655686462557.png"
+                  title="tpl1655686462557.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687611945.jpg"
+                    url="log\1655687611945.jpg" title="log\1655687611945.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="327"
+                    data-left="587" style="top:307px;left:587px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="402" data-top="288" data-width="370" data-height="98"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9993743896484375</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_26">
+
+          <h2 class="header">Step 26 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:34]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="182" data-height="106" src="tpl1655686485246.png"
+                  title="tpl1655686485246.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687613332.jpg"
+                    url="log\1655687613332.jpg" title="log\1655687613332.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="850"
+                    data-left="534" style="top:850px;left:534px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="243" data-top="827" data-width="582" data-height="106"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9993604421615601</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_27">
+
+          <h2 class="header">Step 27 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:35]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="142" data-height="73" src="tpl1655686499793.png"
+                  title="tpl1655686499793.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687614679.jpg"
+                    url="log\1655687614679.jpg" title="log\1655687614679.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1286"
+                    data-left="761" style="top:1336px;left:761px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="690" data-top="1250" data-width="142" data-height="73"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997751712799072</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_28">
+
+          <h2 class="header">Step 28 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:37]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="299" data-height="52" src="tpl1655686526839.png"
+                  title="tpl1655686526839.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687616133.jpg"
+                    url="log\1655687616133.jpg" title="log\1655687616133.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="486"
+                    data-left="230" style="top:466px;left:230px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="81" data-top="460" data-width="299" data-height="55"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9996899962425232</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_29">
+
+          <h2 class="header">Step 29 <span class="step_title" lang="en">Text</span> <span class="step_title">[2023-5-15
+              09:13:38]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">text</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <!-- 其他参数 -->
+                <p class="desc">text: 一般般</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">enter: True</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>输入文字:一般般</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <div class="material moa main_script" data-trace="None" id="main_script_30">
+
+          <h2 class="header">Step 30 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:41]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="182" data-height="106" src="tpl1655686485246.png"
+                  title="tpl1655686485246.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687620405.jpg"
+                    url="log\1655687620405.jpg" title="log\1655687620405.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="850"
+                    data-left="534" style="top:850px;left:534px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="443" data-top="797" data-width="182" data-height="106"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9993604421615601</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_31">
+        
+          <h2 class="header">Step 31 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:19]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+        
+            <!--代码和参数显示-->
+        
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+        
+        
+                <img class="crop_image" data-width="169" data-height="126" src="tpl1655685050999.png"
+                  title="tpl1655685050999.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+        
+        
+        
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+        
+        
+        
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+        
+        
+              </div>
+            </div>
+        
+        
+            <!--运行时的截图-->
+        
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687598855.jpg" url="log\1655687598855.jpg"
+                    title="log\1655687598855.jpg">
+        
+        
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2202" data-left="900"
+                    style="top:2252px;left:543px;">
+        
+        
+        
+        
+        
+                  <!-- rect area -->
+        
+        
+                  <div class="rect" data-left="819" data-top="2142" data-width="169" data-height="126"></div>
+        
+        
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+        
+        
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997485280036926</p>
+        
+        
+        
+            <!--描述信息-->
+        
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+        
+        
+            <!--单步结果-->
+        
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+        
+        
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_32">
+
+          <h2 class="header">Step 32 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:47]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="210" data-height="71" src="tpl1655687432135.png"
+                  title="tpl1655687432135.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687626246.jpg"
+                    url="log\1655687626246.jpg" title="log\1655687626246.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1129"
+                    data-left="545" style="top:1109px;left:545px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="440" data-top="1074" data-width="210" data-height="95"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9998777508735657</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_33">
+
+          <h2 class="header">Step 33 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:48]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="93" data-height="76" src="tpl1655687446465.png"
+                  title="tpl1655687446465.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687627636.jpg"
+                    url="log\1655687627636.jpg" title="log\1655687627636.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="157"
+                    data-left="59" style="top:157px;left:59px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="13" data-top="119" data-width="93" data-height="76"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9988448619842529</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_34">
+
+          <h2 class="header">Step 34 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:49]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="239" data-height="71" src="tpl1655687459942.png"
+                  title="tpl1655687459942.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687628861.jpg"
+                    url="log\1655687628861.jpg" title="log\1655687628861.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="1457"
+                    data-left="543" style="top:1427px;left:543px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="424" data-top="1402" data-width="239" data-height="91"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.999920666217804</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="material moa main_script" data-trace="None" id="main_script_35">
+
+          <h2 class="header">Step 35 <span class="step_title" lang="en">Touch</span> <span class="step_title">[2023-5-15
+              09:13:52]</span></h2>
+          <hr>
+          <div class="step_content">
+            <!--单步操作-->
+
+            <!--代码和参数显示-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">touch</span></label>
+              </div>
+              <div class="col-xs-9">
+
+
+                <img class="crop_image" data-width="106" data-height="117" src="tpl1655687509571.png"
+                  title="tpl1655687509571.png">
+                <!-- 显示截图相关的参数 (供后续的图像识别的调试使用) -->
+                <p class="desc">resolution: [1080, 2340]</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">kwargs: {}</p>
+
+
+
+                <!-- 其他参数 -->
+                <p class="desc">times: 1</p>
+
+
+              </div>
+            </div>
+
+
+            <!--运行时的截图-->
+
+            <div class="row">
+              <div class="col-xs-3">
+                <div class="point">
+                  <span class="glyphicon glyphicon-play"></span>
+                </div>
+                <label><span lang="en">screenshot</span></label>
+              </div>
+              <!-- scale移除文档流， 使用js对screen_place赋值高度来占位 -->
+              <div class="col-xs-9" style="overflow-x:auto; overflow-y:hidden;">
+                <div class="screen_holder">
+                  <img class="fancybox scale lazyload fenbian" data-src="log\1655687631391.jpg"
+                    url="log\1655687631391.jpg" title="log\1655687631391.jpg">
+
+
+                  <img class="spot animated infinite rubberBand" src="static//image/target.png" data-top="2200"
+                    data-left="186" style="top:2250px;left:186px;">
+
+
+
+
+
+                  <!-- rect area -->
+
+
+                  <div class="rect" data-left="123" data-top="2122" data-width="106" data-height="127"></div>
+
+
+                </div>
+                <br />
+                <div class="screen_place"></div>
+              </div>
+            </div>
+
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span><span lang="en">Matching
+                confidence:</span> 0.9997578859329224</p>
+
+
+
+            <!--描述信息-->
+
+            <p class="desc"><span class="point glyphicon glyphicon-play"></span>点击 目标图片</p>
+
+
+            <!--单步结果-->
+
+            <div class="alert alert-success">
+              <span class="glyphicon glyphicon-ok"></span>
+              <span lang="en">Execution succeeded</span>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <!-- 导航栏 -->
+        <div class="fast-nav-step">
+          <label><span lang="en">Steps navigation</span>
+            <button class="btn btn-info btn-sm" id="collapse_nav_step"><i
+                class="glyphicon glyphicon-chevron-down"></i></button>
+            <button class="btn btn-info btn-sm" id="expand_nav_step"><i
+                class="glyphicon glyphicon-chevron-up"></i></button>
+          </label>
+          <div id="nav_steps">
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_1">1</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_2">2</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_3">3</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_4">4</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_5">5</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_6">6</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_7">7</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_8">8</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_9">9</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_10">10</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_11">11</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_12">12</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_13">13</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_14">14</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_15">15</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_16">16</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_17">17</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_18">18</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_19">19</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_20">20</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_21">21</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_22">22</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_23">23</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_24">24</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_25">25</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_26">26</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_27">27</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_28">28</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_29">29</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_30">30</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_31">31</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_32">32</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_33">33</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_34">34</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_35">35</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_36">36</a>
+
+
+
+            <a class="a-circle bg-green nav_main_script" href="#main_script_37">37</a>
+
+
+            <a class="a-circle bg-green" href="#">Top</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <span lang="en">Related information</span>
+  </div>
+
+
+
+  <script src="static//js/bootstrap.min.js"></script>
+
+  <!-- hightlight js -->
+  <link href="static//css/monokai_sublime.min.css" rel="stylesheet">
+  <script src="static//js/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+    $(function () {
+      iframe = window.frameElement;
+      if (iframe) {
+        window.frameElement.setAttribute("allowfullscreen", "allowfullscreen")
+      }
+      $("#collapse_nav_step").click(function () {
+        $("#nav_steps").addClass('collapsed');
+        $(this).hide();
+        $("#expand_nav_step").show();
+      });
+
+      $("#expand_nav_step").click(function () {
+        $("#nav_steps").removeClass('collapsed');
+        $(this).hide();
+        $("#collapse_nav_step").show();
+      });
+      $("#collapse_nav_step").click();
+      $("#collapse_nav_step").hide(); // init
+    });
+
+    $(function () {
+      var scale = 0.5;
+      var imgWidth = 0;
+      var imgHeight = 0;
+      var imgPercent = 0.5;
+
+      $("img").error(function () {
+        var orsrc = $(this).attr("src")
+        if (!orsrc) { return }
+        if (orsrc.indexOf("report.gif") > -1) {
+          setTimeout(function () {
+            //console.log($(this).attr("src"));
+            $(this).attr("src", 'report.gif?timestamp=' + new Date().getTime());
+            //console.log($(this).attr("src"));
+          }.bind(this), 5000)
+          return
+        }
+
+        $(this).unbind("error")
+          .addClass('error-img')
+          .attr("src", "static//image/broken.png")
+          .attr("orgin-src", orsrc);
+      });
+
+      //to trigger error event manual 
+      $("#gif").attr("src", "report.gif?timestamp=" + new Date().getTime());
+
+      $(".screen_holder").find("img.fancybox").load(function (e) {
+
+        imgWidth = Math.max($(this).width(), imgWidth);
+        imgHeight = Math.max($(this).height(), imgHeight)
+        var dwidth = $("div.material.moa").width()
+        if (imgWidth > imgHeight) {
+          //图片最大宽度
+          var s = (dwidth * imgPercent) / imgWidth
+        }
+        else {
+          var s = (dwidth * imgPercent) / imgHeight
+        }
+        s = Math.round(s * 100) / 100
+        scale_img(s);
+      })
+
+      function scale_img(i) {
+        $(".crop_image").each(function (e) {
+          let width = $(this).data("width")
+          let height = $(this).data("height")
+
+          crop_css = {
+            "hieght": height * i,
+            "width": width * i
+          }
+          $(this).css(crop_css)
+        })
+
+        $(".screen_holder").find("img.fancybox").each(function (e) {
+          var h = $(this).height();
+          var sc = 'scale(' + i + ',' + i + ')';
+
+          var scale_css = {
+            '-ms-transform': sc,
+            '-webkit-transform': sc,
+            '-moz-transform': sc,
+            'transform': sc,
+          }
+
+          $(this).css(scale_css)
+
+          var sp = $(this).siblings('img.spot');
+          var rect = $(this).siblings('div.rect');
+          var vt = $(this).siblings('div.arrow');
+
+          rect.css({
+            'top': rect.data('top') * i,
+            'left': rect.data('left') * i,
+            'width': rect.data('width') * i,
+            'height': rect.data('height') * i,
+          });
+
+          var top = sp.data('top');
+          var left = sp.data('left');
+          sp.css({
+            'top': top * i,
+            'left': left * i,
+          });
+
+
+          var vt_x = vt.data('x') * i;
+          var vt_y = - vt.data('y') * i;
+
+          var vt_width = Math.sqrt(vt_x * vt_x + vt_y * vt_y)
+
+          var rotation = 360 * Math.atan2(vt_y, vt_x) / (2 * Math.PI)
+          var rt = 'rotate(' + -rotation + 'deg)';
+          var rotate_css = {
+            '-ms-transform': rt,
+            '-webkit-transform': rt,
+            '-moz-transform': rt,
+            'transform': rt,
+            'transform-origin': '6px 15px',
+          };
+          console.log(rt)
+          vt.css(rotate_css);
+          vt.css({
+            'top': top * i,
+            'left': left * i,
+            'width': vt_width
+          });
+
+          $(this).parents('.screen_holder').siblings('.screen_place').height(h * i);
+        });
+      }
+      //resize img
+      scale_img(scale);
+
+      $(window).resize(function () {
+        var ww = $('body').width();
+        if (ww < 900) {
+          scale = 0.25;
+        }
+        else if (ww < 1100) {
+          scale = 0.3;
+        }
+        else if (ww < 1300) {
+          scale = 0.4;
+        } else {
+          scale = 0.5;
+        }
+
+        if (imgWidth != 0) {
+          //实时计算
+          var dwidth = $("div.material.moa").width()
+          if (imgWidth > imgHeight) {
+            //图片最大宽度
+            var scale = (dwidth * imgPercent) / imgWidth
+          }
+          else {
+            var scale = (dwidth * imgPercent) / imgHeight
+          }
+          // scale = (dwidth*imgPercent)/imgWidth
+          // scale = Math.round(scale * 100) / 100
+        }
+
+        scale_img(scale)
+      });
+      $(window).resize();
+      // 延迟加载图片
+      lazyload();
+    });
+  </script>
+
+  <script>
+    $(window).resize();
+  </script>
+</body>
+
+</html>

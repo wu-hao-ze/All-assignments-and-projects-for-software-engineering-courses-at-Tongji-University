@@ -1,0 +1,2 @@
+
+测试输入：{'store_id': '', 'countArray': [{'id': 3, 'num': 1}]}，期望输出：msg: value is not a valid integer

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "TS1",
+    "year": 2021,
+    "month": 5,
+    "X": 30,
+    "Y": 1,
+    "expectation": 29.455
+  },
+  {
+    "id": "TS2",
+    "year": 2021,
+    "month": 5,
+    "X": 30,
+    "Y": 2,
+    "expectation": 29.5
+  },
+  {
+    "id": "TS3",
+    "year": 2021,
+    "month": 5,
+    "X": 100,
+    "Y": 2,
+    "expectation": 39.775
+  },
+  {
+    "id": "TS4",
+    "year": 2021,
+    "month": 5,
+    "X": 100,
+    "Y": 3,
+    "expectation": 40
+  },
+  {
+    "id": "TS5",
+    "year": 2021,
+    "month": 5,
+    "X": 150,
+    "Y": 3,
+    "expectation": 47.05
+  },
+  {
+    "id": "TS6",
+    "year": 2021,
+    "month": 5,
+    "X": 150,
+    "Y": 4,
+    "expectation": 47.5
+  },
+  {
+    "id": "TS7",
+    "year": 2021,
+    "month": 5,
+    "X": 240,
+    "Y": 3,
+    "expectation": 60.1
+  },
+  {
+    "id": "TS8",
+    "year": 2021,
+    "month": 5,
+    "X": 240,
+    "Y": 4,
+    "expectation": 61
+  },
+  {
+    "id": "TS9",
+    "year": 2021,
+    "month": 5,
+    "X": 320,
+    "Y": 6,
+    "expectation": 71.56
+  },
+  {
+    "id": "TS10",
+    "year": 2021,
+    "month": 5,
+    "X": 320,
+    "Y": 8,
+    "expectation": 73
+  },
+  {"id": "TS11","year":2021,"month":5,"X": -1,"Y": 5,"expectation":-1},
+  {"id": "TS12","year":2021,"month":5,"X": 0,"Y": 5,"expectation":25},
+  {"id": "TS13","year":2021,"month":5,"X": 10,"Y": 5,"expectation":26.5},
+  {"id": "TS14","year":2021,"month":5,"X": 44600,"Y": 5,"expectation":6514.3},
+  {"id": "TS15","year":2021,"month":5,"X": 44640,"Y": 5,"expectation":6520.12},
+  {"id": "TS16","year":2021,"month":5,"X": 44700,"Y": 5,"expectation":-1},
+  {"id": "TS17","year":2021,"month":5,"X": 5000,"Y": -1,"expectation":-1},
+  {"id": "TS18","year":2021,"month":5,"X": 5000,"Y": 0,"expectation":752.5},
+  {"id": "TS19","year":2021,"month":5,"X": 5000,"Y": 1,"expectation":752.5},
+  {"id": "TS20","year":2021,"month":5,"X": 5000,"Y": 10,"expectation":775},
+  {"id": "TS21","year":2021,"month":5,"X": 5000,"Y": 11,"expectation":775},
+  {"id": "TS22","year":2021,"month":5,"X": 5000,"Y": 12,"expectation":-1},
+  {"id": "TS23","year":2021,"month":5,"X": 5000,"Y": 5,"expectation":752.5}
+]

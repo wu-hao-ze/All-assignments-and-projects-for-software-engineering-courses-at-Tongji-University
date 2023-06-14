@@ -1,0 +1,22 @@
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT user.id AS user_id, user.open_id AS user_open_id 
+FROM user 
+WHERE user.open_id = %(open_id_1)s 
+ LIMIT %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'open_id_1': 'odYyE5JaZoSAQ7GF_vkOlQTpBupU', 'param_1': 1}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT store.id AS store_id, store.name AS store_name, store.phone AS store_phone, store.password AS store_password, store.`describe` AS store_describe, store.address AS store_address, store.distance AS store_distance, store.img AS store_img 
+FROM store 
+WHERE store.id = %(id_1)s 
+ LIMIT %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'id_1': 1, 'param_1': 1}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 INSERT INTO `order` (store_id, user_id, price) VALUES (%(store_id)s, %(user_id)s, %(price)s)
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'store_id': 1, 'user_id': 1, 'price': 0.0}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 COMMIT
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 BEGIN (implicit)
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 SELECT `order`.id AS order_id, `order`.store_id AS order_store_id, `order`.user_id AS order_user_id, `order`.price AS order_price 
+FROM `order` 
+WHERE `order`.id = %(param_1)s
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'param_1': 205}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 INSERT INTO order_status (order_id, submit_time, finish_time, status, comment) VALUES (%(order_id)s, %(submit_time)s, %(finish_time)s, %(status)s, %(comment)s)
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 {'order_id': 205, 'submit_time': datetime.datetime(2023, 5, 15, 13, 49, 6, 204496), 'finish_time': None, 'status': 0, 'comment': 0}
+[32mINFO    [0m sqlalchemy.engine.base.Engine:log.py:110 COMMIT

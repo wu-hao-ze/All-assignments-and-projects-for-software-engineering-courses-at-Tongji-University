@@ -1,0 +1,82 @@
+[
+  {
+    "id": "TS1",
+    "year": 2021,
+    "month": 5,
+    "X": 30,
+    "Y": 1,
+    "expectation": 29.455
+  },
+  {
+    "id": "TS2",
+    "year": 2021,
+    "month": 5,
+    "X": 30,
+    "Y": 2,
+    "expectation": 29.5
+  },
+  {
+    "id": "TS3",
+    "year": 2021,
+    "month": 5,
+    "X": 100,
+    "Y": 2,
+    "expectation": 39.775
+  },
+  {
+    "id": "TS4",
+    "year": 2021,
+    "month": 5,
+    "X": 100,
+    "Y": 3,
+    "expectation": 40
+  },
+  {
+    "id": "TS5",
+    "year": 2021,
+    "month": 5,
+    "X": 150,
+    "Y": 3,
+    "expectation": 47.05
+  },
+  {
+    "id": "TS6",
+    "year": 2021,
+    "month": 5,
+    "X": 150,
+    "Y": 4,
+    "expectation": 47.5
+  },
+  {
+    "id": "TS7",
+    "year": 2021,
+    "month": 5,
+    "X": 240,
+    "Y": 3,
+    "expectation": 60.1
+  },
+  {
+    "id": "TS8",
+    "year": 2021,
+    "month": 5,
+    "X": 240,
+    "Y": 4,
+    "expectation": 61
+  },
+  {
+    "id": "TS9",
+    "year": 2021,
+    "month": 5,
+    "X": 320,
+    "Y": 6,
+    "expectation": 71.56
+  },
+  {
+    "id": "TS10",
+    "year": 2021,
+    "month": 5,
+    "X": 320,
+    "Y": 8,
+    "expectation": 73
+  }
+]

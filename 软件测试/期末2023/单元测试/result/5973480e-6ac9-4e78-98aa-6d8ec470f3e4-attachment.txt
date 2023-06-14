@@ -1,0 +1,3 @@
+
+{'errcode': 41008, 'errmsg': 'missing code, rid: 6461c7d3-2a46cb8f-7107f3d7'}
+测试输入：{'code': ''}，期望输出：{'key': 'errcode', 'value': 41008}

@@ -1,0 +1,2 @@
+
+测试输入：{'skip': '[]'}，期望输出：detail: [{'loc': ['query', 'skip'], 'msg': 'value is not a valid integer', 'type': 'type_error.integer'}]
