@@ -1,0 +1,25 @@
+@import "Base.uss";
+
+.sign-in-buttons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+#iconUnity, #iconEmail {
+    width: 32px;
+    height: 32px
+}
+
+#unityIDButton {
+    color: white;
+    background-color: black;
+}
+
+#signUpLabel{
+    margin-top: 3px;
+}
+
+#privacyStatement {
+    align-self: flex-start;
+}

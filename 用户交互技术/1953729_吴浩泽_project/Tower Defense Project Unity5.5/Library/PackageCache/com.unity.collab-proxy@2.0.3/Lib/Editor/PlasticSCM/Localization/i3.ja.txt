@@ -1,0 +1,80 @@
+﻿== FontPreviewSampleTest ==
+せっかちな茶色のキツネがのんびりした犬の上を飛び越える
+
+== FontPreviewLabelFont ==
+フォント:{0}
+
+== StrikeoutFontNotSupportedMessage ==
+アプリケーションで使用されているフォント {0} は取り消し線のスタイルをサポートしていません。別のフォントを選択してください。
+
+== StrikeoutFontNotSupportedCaption ==
+有効でないフォント
+
+== CloseTab ==
+タブを閉じる
+
+== CloseAllTabs ==
+すべてのタブを閉じる
+
+== CloseAllTabsButThis ==
+これ以外のすべてのタブを閉じる
+
+== CloseTabsToTheRight ==
+右側にあるすべてのタブを閉じる
+
+== CopyTitle ==
+タイトルをコピー
+
+== ListOpenedTabs ==
+開いているタブをリスト
+
+== Abort ==
+中止
+
+== Retry ==
+再試行
+
+== Ignore ==
+無視
+
+== Ok ==
+OK
+
+== Cancel ==
+キャンセル
+
+== Yes ==
+はい
+
+== No ==
+いいえ
+
+== Change ==
+変更...
+
+== AbortAmp ==
+&中止
+
+== RetryAmp ==
+&再試行
+
+== IgnoreAmp ==
+&無視
+
+== OkAmp ==
+&Ok
+
+== CancelAmp ==
+&キャンセル
+
+== YesAmp ==
+&はい
+
+== NoAmp ==
+&いいえ
+
+== On ==
+On
+
+== Off ==
+Off

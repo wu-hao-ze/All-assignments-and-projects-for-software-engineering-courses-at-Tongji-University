@@ -1,0 +1,11 @@
+== NotChange ==
+El ítem {0} no está cambiado en el workspace actual
+
+== CannotMergeMergeInProgress ==
+Un nuevo merge no puede empezar porque hay ya un merge en progreso: Finalízalo antes de iniciar uno nuevo. Merge en progreso: {0} desde el changeset {1}
+
+== CannotUndoAdded ==
+No puede deshacerse el añadido '{0}' porque contiene cambios no añadidos
+
+== CannotUndoCopied ==
+No puede deshacerse el copiado de un directorio con contenido

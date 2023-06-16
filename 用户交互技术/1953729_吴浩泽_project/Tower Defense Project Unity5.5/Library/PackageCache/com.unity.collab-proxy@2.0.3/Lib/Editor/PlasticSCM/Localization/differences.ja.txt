@@ -1,0 +1,44 @@
+﻿== Diff ==
+差分:
+
+== BasePosition ==
+ベースファイル上の位置:
+
+== CompPosition ==
+比較対象ファイル上の位置:
+
+== OldData ==
+古いデータ:
+
+== NewData ==
+新しいデータ:
+
+== Type ==
+タイプ:
+
+== NullBaseFile ==
+BaseFile を null にすることはできません。
+
+== NullCompareFile ==
+CompareFile を null にすることはできません。
+
+== DiffNotSolutionFound ==
+解決策を見つけることができません。差分のコレクションを計算できません。
+
+== NotValidFileConflictType ==
+無効な競合タイプ。
+
+== NullFilePath ==
+ファイルパスを null にすることはできません。
+
+== NullFileHash ==
+ファイルハッシュを null にすることはできません。
+
+== InvalidDifferenceType ==
+パラメーターのタイプは、differenceType で定義された有効な要素である必要があります。
+
+== TooManyDifferences ==
+ファイルに差分が多すぎます。操作を完了するのに十分なリソースがありません。別の比較メソッドを設定して、差分の数を減らしてみてください。
+
+== NotDefinedFSProtection ==
+未定義

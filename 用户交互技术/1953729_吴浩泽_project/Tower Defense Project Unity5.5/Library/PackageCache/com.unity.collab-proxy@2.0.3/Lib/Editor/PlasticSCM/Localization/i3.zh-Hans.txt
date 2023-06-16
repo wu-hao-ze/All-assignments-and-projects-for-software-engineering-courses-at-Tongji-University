@@ -1,0 +1,80 @@
+﻿== FontPreviewSampleTest ==
+敏捷的棕色狐狸跳过了懒洋洋的狗
+
+== FontPreviewLabelFont ==
+字体：{0}
+
+== StrikeoutFontNotSupportedMessage ==
+字体 {0} 不支持应用程序使用的删除线样式。请选择其他字体。
+
+== StrikeoutFontNotSupportedCaption ==
+无效字体
+
+== CloseTab ==
+关闭标签页
+
+== CloseAllTabs ==
+关闭所有标签页
+
+== CloseAllTabsButThis ==
+关闭除此标签页之外的所有标签页
+
+== CloseTabsToTheRight ==
+关闭右侧的所有标签页
+
+== CopyTitle ==
+复制标题
+
+== ListOpenedTabs ==
+列出打开的标签页
+
+== Abort ==
+中止
+
+== Retry ==
+重试
+
+== Ignore ==
+忽略
+
+== Ok ==
+确定
+
+== Cancel ==
+取消
+
+== Yes ==
+是
+
+== No ==
+否
+
+== Change ==
+更改...
+
+== AbortAmp ==
+&中止
+
+== RetryAmp ==
+&重试
+
+== IgnoreAmp ==
+&忽略
+
+== OkAmp ==
+&确定
+
+== CancelAmp ==
+&取消
+
+== YesAmp ==
+&是
+
+== NoAmp ==
+&否
+
+== On ==
+On
+
+== Off ==
+Off

@@ -1,0 +1,22 @@
+{
+  "FilenameValidation": {
+    "Filenames": [
+      {
+        "Filename": "*/SwitchCollabAndPlastic.md",
+        "Targets": "+Switch"
+      },
+      {
+        "Filename": "*/SwitchModeConfirmationDialog.cs",
+        "Targets": "+Switch"
+      },
+      {
+        "Filename": "*/SwitchModeConfirmationDialog.cs.meta",
+        "Targets": "+Switch"
+      },
+      {
+        "Filename": "*/SwitchCollab.png",
+        "Targets": "+Switch"
+      }
+    ]
+  }
+}

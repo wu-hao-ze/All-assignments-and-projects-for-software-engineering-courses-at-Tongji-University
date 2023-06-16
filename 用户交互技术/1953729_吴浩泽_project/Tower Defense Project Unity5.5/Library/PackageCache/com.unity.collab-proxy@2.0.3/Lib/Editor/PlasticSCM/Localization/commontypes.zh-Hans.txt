@@ -1,0 +1,1585 @@
+﻿== AclNotFound ==
+您正在处理过期的对象。也许您的客户端或工作区已过期，请对其进行更新。
+
+== ActivateUserNotInLicenseList ==
+无法激活用户 {0}。要首次激活用户，请使用此用户凭据执行 Plastic SCM。为了使用此命令激活用户，必须事先已将该用户禁用。
+
+== AddMoveConflict ==
+添加移动冲突
+
+== AdminCmdReadonlyInvalidAction ==
+操作 '{0}' 对于 readonly admin 命令无效。
+
+== AdminCommandNotAllowedOnCloud ==
+无法在 Cloud 服务器中执行 admin 命令。
+
+== AdminCommandNotValid ==
+admin 命令 '{0}' 无效。
+
+== AlreadyCoInWkOrPrivate ==
+元素 {0} 是私有文件，或者已在当前工作区中签出。
+
+== AttAlreadyExists ==
+属性 {0} 已存在。
+
+== AttNotFound ==
+无法找到指定的属性 {0}。
+
+== AttrNotFound ==
+无法找到指定的属性实现。
+
+== AvailableLdapTypes ==
+可用的 LDAP 服务器类型
+
+== AzureMaxDbSize ==
+组织 '{0}' 已达到其大小配额。请与支持人员联系。
+
+== BackOpNoGuiControl ==
+后台操作试图更新 GUI，但是尚未定义 GUI 控件。
+
+== BadDomainSyntax ==
+指定的域无效：{0}。
+
+== BadFormatSeidData ==
+SEID 数据中的格式错误：{0}。
+
+== BitmapTooBig ==
+无法导出当前图表。该图表可能太大，请尝试进行筛选以减小大小。
+
+== BrNotFound ==
+无法找到指定的分支 {0}。
+
+== ParentBranchNotFound ==
+父分支 {0} 不再存在。请尝试从有效的父分支再次创建分支（如果需要，请刷新 GUI）。
+
+== ParentBranchWithoutHead ==
+父分支 {0} 无效，因为它没有头部。请使用其他父分支来创建分支。
+
+== ShelveIsNotAValidBranchBase ==
+无法从搁置创建分支。
+
+== BranchAlreadyExists ==
+分支 {0} 已存在。
+
+== CannotCheckSecurityPathInIncompleteCset ==
+无法检查安全性，因为无法在变更集 cs:{1} (br:{2}) 中计算项 {0} 的路径：未复制变更集。请复制缺少的变更集，然后重试。
+
+== CannotConnectRepserver ==
+无法连接到服务器 {0}
+
+== CannotCreateIostatsFolder ==
+错误：无法创建用于磁盘测试的文件夹。{0}
+
+== CannotCreateSymlink ==
+无法创建符号链接。
+
+== CannotCreateXlink ==
+无法创建 Xlink，因为该条目已存在：{0}
+
+== CannotDecryptData ==
+数据 {0} 已加密。需要加密信息才能读取该数据。
+
+== CannotDiffDstCsetNotComplete ==
+无法显示变更集 {0} 和变更集 {1} 之间的差异。目标变更集 {1} 尚未复制到此存储库。请确保您复制了包含此变更集的分支。
+
+== CannotDiffSourceCsetNotComplete ==
+无法显示变更集 {0} 和变更集 {1} 之间的差异。源变更集 {0} 尚未复制到此存储库。请确保您复制了包含此变更集的分支。
+
+== CannotEditXlink ==
+无法编辑 Xlink，因为它在以下路径中不存在：{0}
+
+== CannotEditXlinkRepository ==
+无法编辑 Xlink 目标存储库（不允许更改名称、服务器或相对服务器）。
+
+== CannotEditXlinkType ==
+无法编辑 Xlink 类型。
+
+== CannotEditXlinkWithChanges ==
+无法编辑 Xlink，因为它包含签出。
+
+== CannotRemoveIostatsFolder ==
+错误：无法删除磁盘测试文件夹。{0}
+
+== CannotSaveDataNotCo ==
+只能为已签出的修订保存数据。
+
+== CannotUpdateWorkspaceOutOfDate ==
+当工作区已过期时，无法执行部分更新。
+
+== CantCheckSecurityRevisions ==
+无法检查修订的安全性
+
+== CantCheckinSameData ==
+无法签入项 {0} 的相同数据。
+
+== CantCheckout ==
+无法签出，因为存在独占的签出
+
+== CantCheckoutExclusive ==
+无法执行独占签出，因为存在现有的签出
+
+== CantConnectServer ==
+无法连接到服务器
+
+== CantConvertSid ==
+无法将给定的 SID 转换为有效的字符串格式 ({0})。
+
+== CantDeleteDirectoryWithCheckouts ==
+无法删除目录 {0}，因为它包含签出。
+
+== CantDiffBinaryFiles ==
+不支持显示文件类型 {0} 的差异。
+
+== CantDiffBinaryFilesGeneric ==
+不支持显示所选项的文件类型的差异。
+
+== CantFindParentBranch ==
+无法找到 ID 为 {1} 的分支 {0} 的父级（存储库 {2}）
+
+== CantLabelCheckedoutRevision ==
+无法标记已签出的修订。
+
+== CantLabelRevisionWithChangesetlabel ==
+无法使用变更集类型标签来标记修订。标签 {0}。
+
+== CantLoadRootItem ==
+无法加载根项。工作区选择器可能包含错误。
+
+== CantLocateChangesetToMoveInDatabase ==
+无法移动变更集 {0}，因为它已不再存在于数据库中。
+
+== CantLocateChangesetToDeleteInDatabase ==
+无法删除变更集 {0}，因为它已不再存在于数据库中。
+
+== CantLocateMergeSourceChangesetInDatabase ==
+无法计算合并，因为源变更集 {0} 已不再存在于数据库中。
+
+== CantLocateMergeDestinationChangesetInDatabase ==
+无法计算合并，因为变更集 {0} 已不再存在于数据库中。
+
+== CantLocateMergeDestinationChangesetInDatabaseTryUpdateWk ==
+无法计算合并，因为工作区中加载的变更集 {0} 已不再存在于数据库中。
+更新工作区，然后重试合并。
+
+== CantLocateObjectInRep ==
+无法在存储库中找到对象 {0}。
+
+== CantLocateParentRevisionForItem ==
+服务器无法找到父修订版来签出项 {0}。
+
+== CantLocateRevisionForItem ==
+选择器无法找到项 {0} 的修订。
+
+== CantLocateRevisionForItemNotRestore ==
+选择器无法找到项 {0} 的修订，不会将其还原。
+
+== CantLocateSelectorForItem ==
+服务器无法找到项 {0} 的合适选择器。
+
+== CantOverwriteControlledItems ==
+项 {0} 已存在于 {1} 中。无法覆盖受控项。请尝试将其删除，然后重复该操作。
+
+== CantReadOrCreateFile ==
+无法读取或写入文件：'{0}'。请检查您是否具有写权限或是否需要管理员权限。
+
+== CantRemoveBranchWithChangesets ==
+无法删除此分支，因为它具有变更集。
+
+== CantRemoveBranchWithChildBranches ==
+无法删除此分支，因为它具有子分支。
+
+== CantRemoveCheckedOut ==
+无法删除 {0}，因为它已签出。
+
+== CantRestoreInDifferentRep ==
+无法从其他存储库恢复项。
+
+== CantRetrieveSymlinkTarget ==
+无法检索 {0} 的符号链接目标
+
+== CantRetrieveWktree ==
+无法在 '{1}' 上检索工作区 '{0}' 的 wkTree
+
+== CantRevertRootItem ==
+无法还原根项
+
+== CantSetAclItemsRevs ==
+无法设置修订或项的 ACL
+
+== CantSetDirType ==
+无法将类型“目录”设置为文件。
+
+== CantSpecifyABranchBaseForMainBranch ==
+无法设置主存储库分支的分支基项。
+
+== CantSpecifyBranchAsBaseForBranch ==
+无法将分支 {0} 设置为分支 {1} 的基项，因为这样会创建循环关系。请先检查智能分支层次结构。
+
+== CantSpecifyBranchBaseOnSameBranch ==
+智能分支基项不能位于同一分支上。
+
+== CantSpecifyChangesetBaseOnSameBranch ==
+无法将变更集 {0} 用作基项，因为它在同一分支上。
+
+== CantSpecifyCsetAsBaseForBranch ==
+无法将变更集 {0} 设置为分支 {1} 的基项，因为这样会创建循环关系。请先检查智能分支层次结构。
+
+== CantSpecifyrevnoWithsmartbranch ==
+如果使用智能分支，则无法指定修订编号规则。{0}。
+
+== CantUseRegularlabelAsSmartbranchStartingpoint ==
+无法使用常规标签类型作为智能分支的起点。{0}。
+
+== ChangeDeleteConflict ==
+更改删除冲突
+
+== ChangepasswordCommandNotAvailable ==
+仅当安全性配置为用户/密码时，此命令才可用。
+
+== ChangepasswordCommandNotAvailableOnServer ==
+仅当安全性配置为用户/密码且未将 Plastic SCM 服务器配置为使用用户/密码安全模式时，此命令才可用。
+
+== ChangesetDoesntexist ==
+指定的变更集 {0} 不存在。
+
+== ShelveDoesntexist ==
+指定的搁置 {0} 不存在。
+
+== ChangesetIsNotANumber ==
+指定的变更集不是数字：{0}。
+
+== ChangesetMoveDstBranchNotEmpty ==
+目标分支字段不为空。
+
+== CheckinRevNoCo ==
+必须在存储库 {1} 中签出修订 {0} 才能执行签入！
+
+== ChooseLanguage ==
+选择语言（键入数字）
+
+== ChooseType ==
+服务器类型（键入数字）
+
+== ChooseWorkingMode ==
+选择模式（键入数字）
+
+== CiMissingRevisionData ==
+无法完成签入操作，因为在传输数据时发生了内部错误。请重试签入操作。
+
+== ClientCallcontextNotavailable ==
+调用上下文不可用。正在中止调用。
+
+== ClientVersionDoesntMatch ==
+客户端版本 ({0}) 与服务器版本 ({1}) 不匹配。请相应更新您的客户端。
+
+== ClientWillClose ==
+{0} Unity VCS 客户端无法继续，并将关闭。
+
+== CloudForbiddenError ==
+无法对 Unity VCS Cloud 读写数据。存在身份验证问题。您的本地日期（客户端或服务器）可能是错误的。请进行更改以解决问题。
+
+== CmdCantMove ==
+无法将 {0} 移动到 {1}。
+
+== CmdCantMoveSamePath ==
+无法移动 {0}。指定的路径与原始路径相同。请指定其他路径。
+
+== CmdCantMoveDstIsSubfolderSrc ==
+无法将 {0} 移动到 {1}。目标是源文件夹的子文件夹。
+
+== CmdDirPrivate ==
+{0} 是私有目录。无法移动。
+
+== CmdErrorGetrepositoryserver ==
+无法连接到服务器 {0}。
+
+== CmdErrorItemInCi ==
+无法撤销项 {0} 的更改，已签入。 
+
+== CmdErrorPrivateItem ==
+无法执行操作。项 {0} 是私有项。
+
+== CmdErrorPrivatePath ==
+无法执行操作，当前路径是私有路径。
+
+== CmdGenericItemdoesnotexist ==
+项 {0} 在该工作区中不存在。
+
+== CmdItemDoesNotExist ==
+{0} 不存在。
+
+== CmdErrorLabelIncorrectmarkerspec ==
+不正确的标签规格：{0}
+
+== CommentOutOfDate ==
+正在编辑的审查注释不再存在。请刷新注释视图。
+
+== CommentTooLong ==
+注释大小太长。当前长度为 {0}，但最大允许长度为 {1}
+
+== CommitFailedAndRollback ==
+该操作无法提交，已被取消。
+
+== CommonAncestorSameItem ==
+只能从同一项的修订计算出共同上级。
+
+== CommonAncestorSameRev ==
+无法计算同一修订的共同上级。
+
+== ConfiguringLanguage ==
+正在配置语言。这些是可用的语言。
+
+== ConfiguringLdap ==
+正在配置 LDAP 连接...
+
+== ConfiguringUp ==
+正在配置用户和密码设置...
+
+== ConfiguringWorkingMode ==
+选择用户身份验证模式。这些是可用的模式：
+
+== ConflictCannotBeApplied ==
+无法应用冲突解决方案，因为它依赖于其他冲突的解决。请尝试以其他顺序解决冲突。冲突解决方案返回了以下错误：{0}
+
+== ControlInManager ==
+控件 {0} 已在图形管理器中。
+
+== ControlNotPrepared ==
+控件尚未准备好。请重试。
+
+== CouldGetInstanceOf ==
+严重错误：无法获取类 {0} 的实例。
+
+== CouldntGetRepositoryFromPath ==
+无法从 {0} 获取存储库。该项可能是私有的。
+
+== CouldntLoadAsm ==
+无法加载程序集 {0}。
+
+== CsNotFound ==
+无法找到指定的变更集 {0}。
+
+== CycleMoveConflict ==
+循环移动冲突
+
+== DatabaseInfoMoreThanOneRow ==
+表 DATABASEINFO 应该只有一行。
+
+== DeactivateUserNotInLicenseList ==
+用户 {0} 不是处于活动状态的用户。
+
+== DeleteBlobError ==
+无法从存储库 {2} 删除修订 {0}（细分段 {1}）的数据。
+
+== GetSizeBlobError ==
+无法从存储库 {2} 获取修订 {0}（细分段 {1}）的数据的大小。
+
+== DestNotFound ==
+找不到目标对象。
+
+== DestinationAlreadyExist ==
+无法移动。目标 {0} 已存在。不允许对项进行覆盖
+
+== DestinationDirectoryMustBeCheckedoutToMove ==
+要移动 {0}，必须将目标目录签出。
+
+== DirIdentical ==
+目录相同。
+
+== DirectoryAlreadyExists ==
+目录 {0} 已存在。
+
+== DirectoryNotExist ==
+目录 {0} 不存在。
+
+== DivergentMoveConflict ==
+分歧移动冲突
+
+== DoesNotExist ==
+{0} 不存在。
+
+== DomainNotAvailable ==
+域控制器不可用。
+
+== DuplicatedArg ==
+重复参数 {0}。
+
+== ElementIsNotCi ==
+在当前工作区中未签入元素 {0}。
+
+== ElementIsNotCo ==
+在当前工作区中未签出元素 {0}。
+
+== English ==
+英语
+
+== ErrorCantCreateDatabase ==
+无法创建数据库 {0}。请检查服务器日志 (plastic.server.log)。错误：{1}
+
+== ErrorCantImportInvalidPackage ==
+无效的复制包。无效的标头。
+
+== ErrorCantReplicateSameRepository ==
+错误，无法在同一存储库中进行复制。
+
+== ErrorCreatingBranchBaseNoCsetOnParentBranch ==
+尚未设置分支基项，因为父分支上没有变更集。父分支可能不是智能分支。
+
+== ErrorDatabaseOpen ==
+Plastic SCM 服务器 {0} 无法建立与数据库的连接。请检查服务器日志 (plastic.server.log)。错误：{1}
+
+== ErrorExecutingQuery ==
+执行查询 {0} 时出错。{1}。
+
+== ErrorExecutingUpgradeCommand ==
+执行 upgrade 命令时出错：{0}。
+
+== ErrorIncorrectRepserverspec ==
+服务器规格不正确：{0}。
+
+== ErrorLinkingMergeNoChangeset ==
+试图合并链接不是变更集的对象：ObjectId {0}。
+
+== ErrorLinkingMergeNoLink ==
+试图合并链接不是变更集或间隔合并链接的对象：ObjectId {0}。
+
+== ErrorNotValidTriggerType ==
+对于指定的服务器，触发类型 '{0}' 无效。
+
+== ErrorOperation ==
+{0} 操作已完成但有错误。
+
+== ErrorOwnerNull ==
+错误，离开缓存时所有者为 null。
+
+== ErrorReadingRemotingFile ==
+读取远程配置文件时出错：{0}。
+
+== ErrorRemotingFileNotExist ==
+远程配置文件 {0} 不存在。
+
+== ErrorServerconfighaserrors ==
+服务器配置文件 {0} 包含错误。Plastic 服务器的配置不正确。请执行“plasticd configure”以文本模式配置服务器，或执行“configureserver”以启动 GUI 服务器配置向导。错误为 {1}。
+
+== ErrorServerconfignotfound ==
+找不到服务器配置文件 {0}。Plastic 服务器的配置不正确。请执行“plasticd configure”以文本模式配置服务器，或执行“configureserver”以启动 GUI 服务器配置向导。
+
+== ErrorSettingItemAttributes ==
+设置项 {0} 的文件属性时出现问题：{1}
+
+== ErrorSpecifiedBranchbasealreadyexists ==
+分支 br:{0} 的指定分支基项已存在。
+
+== ErrorTriggerException ==
+尝试运行触发器时出错：{0}-{1} {2} {3}。
+
+== ErrorTriggerResult ==
+触发器 {0}-{1} [{2}] 已失败。{3}。
+
+== EverybodyKey ==
+所有用户
+
+== EvilTwinConflict ==
+双面恶魔冲突
+
+== FailConnectionRepServer ==
+无法连接到存储库服务器 {0}。
+
+== FailedCreateWorkspace ==
+在 '{1}' 上创建工作区 '{0}' 失败
+
+== FetchWithNoDataNotSupported ==
+服务器 {0} 不支持无数据的提取。请升级服务器。
+
+== FileAlreadyExists ==
+文件 {0} 已存在。
+
+== FilesIdentical ==
+文件相同。
+
+== FipsCompliantServerEncryptionNoAllowed ==
+服务器 '{0}' 需要加密，但是符合 FIPS 标准的服务器不允许加密。请联系 devops-vcs-support@unity3d.com 了解更多信息。
+
+== FormatAndXmlModifiersIncompatible ==
+--xml 和 --format 修饰符不兼容，不能一起使用。
+
+== GetClientContext ==
+无法获取客户端用户和机器上下文。
+
+== GetRevinfo ==
+无法获取 {0} 的修订信息。
+
+== HydrateNotSupported ==
+服务器 {0} 不支持 hydrate。请升级服务器。
+
+== IncompatibleAuthModes ==
+客户端身份验证模式 ({0}) 与服务器身份验证模式 ({1}) 不匹配。
+
+== IncorrectAttClientSpec ==
+指定的属性不正确：{0}。
+
+== IncorrectBrClientSpec ==
+指定的分支不正确：{0}。
+
+== IncorrectBrSpec ==
+指定的分支不正确。
+
+== IncorrectCsClientSpec ==
+指定的变更集不正确：{0}。
+
+== IncorrectLbClientSpec ==
+指定的标签不正确：{0}。
+
+== IncorrectRepClientSpec ==
+指定的存储库不正确：{0}。
+
+== IncorrectSpecNoArgument ==
+指定的规格不正确。
+
+== InvalidChildrenitemchangetype ==
+参数类型必须是 ChildrenItemChangeType 定义的有效元素。
+
+== InvalidConnectionEncoding ==
+DB 连接字符串不具备有效的编码或根本没有编码。
+
+== InvalidCredentials ==
+Active Directory 或 LDAP：无效的凭据，用户名、密码或域无效。服务器错误：{0}
+
+== InvalidCsetToLabel ==
+无法标记变更集 {0}
+
+== InvalidCulture ==
+无法更改为此语言。将设置为前一种语言。
+
+== InvalidDatabaseVersion ==
+无效的数据库版本：{0}。
+
+== InvalidDb ==
+此版本不支持 {0} 提供程序。
+
+== InvalidDiffchildtype ==
+参数子级必须是 childType 定义的有效元素。
+
+== InvalidDomain ==
+Active Directory：无效的域：{0}。
+
+== InvalidEncoding ==
+指定的编码无效：{0}
+
+== InvalidLanguage ==
+无效的语言：{0}。
+
+== InvalidLdapConfigData ==
+客户端配置文件中的 LDAP 的参数无效。
+
+== InvalidLdapType ==
+无效的 LDAP 服务器类型：{0}。
+
+== InvalidModuleName ==
+无效的模块名称 {0}。不能为空，也不能包含 /
+
+== InvalidOption ==
+无效的选项。 
+
+== InvalidOs ==
+此版本不支持该操作系统。
+
+== InvalidParameter ==
+无效的参数：{0}。
+
+== InvalidParameterRange ==
+错误：参数 {0} 必须是介于 {1} 和 {2} 之间的值。
+
+== InvalidRevisionType ==
+无效的修订类型：{0}。
+
+== InvalidServer ==
+Active Directory：服务器 {0} 无效。
+
+== InvalidServerFormat ==
+服务器 '{0}' 的格式无效。服务器的有效格式为 [protocol://][organization@]server
+
+== InvalidSname ==
+服务器名称的值无效。
+
+== InvalidUpConfigData ==
+客户端配置文件中的用户/密码参数无效。
+
+== InvalidValue ==
+无效值。 
+
+== InvalidWorkingMode ==
+配置文件中的 SEID 工作模式无效。
+
+== InvalidWorkingModeConf ==
+无效的工作模式：{0}。
+
+== InvalidWorkingModeWinseid ==
+试图以无效模式访问库：{0}。
+
+== IsnotFile ==
+{0} 必须是文件，而不是目录。
+
+== IsnotWk ==
+{0} 不在工作区中。
+
+== ItemAlreadyLoadedOnTree ==
+项 {0} 已加载到路径 '{1}' 中的树上。
+
+== ItemCannotBeFoundOnTree ==
+无法在树上找到项 {0}（项的最后已知路径：'{1}'）。
+
+== ItemCannotBeMovedInsideItself ==
+项 '{0}' 无法在本身 '{1}' 的内部移动。
+
+== ItemCantBeFoundOnDir ==
+无法在目录中找到项 {0}。
+
+== ItemExists ==
+项 {0} 已存在！
+
+== ItemHandlerNotFound ==
+无法从服务器 {0} 获取 ItemHandler。
+
+== ItemIsnotInWk ==
+该项不在工作区中。
+
+== ItemLoadedTwiceOnTree ==
+项 {0} 在 '{1}' 和 '{2}' 中加载了两次。请删除其中之一。
+
+== ItemLockOutOfDate ==
+无法签出 '{0}'，因为您没有最新版本。您需要撤销更改以更新到最新版本并锁定。如果确实需要保留更改，请手动备份它们。请注意，以后进行更改之前应锁定此文件。
+
+== ItemNotFound ==
+找不到项 {0}。
+
+== ItemNotFoundInDirectory ==
+无法在目录中找到项 {0}。
+
+== ItemNotFoundInTree ==
+无法在树中找到项 {0}。无法构建新树。
+
+== ItemNotFoundOnVirtualAncestor ==
+在虚拟上级中找不到项 {0}。
+
+== ItemRevisionCantBeFoundOnCset ==
+所选变更集不包含该项的修订
+
+== ItempathNotInWk ==
+项路径不在工作区中：{0}。
+
+== ItemsAlreadyLocked ==
+这些项已由 {0} 独占签出
+
+== LabelDoesntexist ==
+指定的标签 {0} 不存在。
+
+== LbNotFound ==
+无法找到指定的标签。
+
+== LdapDomain ==
+LDAP 域
+
+== LdapEmptyPassword ==
+提供的密码为空
+
+== LdapException ==
+LDAP 服务器中发生了错误：{0}
+
+== LdapPassword ==
+LDAP 密码
+
+== LdapPort ==
+LDAP 端口 [389]
+
+== LdapReconnectException ==
+尝试与 LDAP 服务器 {0} 连接时出错
+
+== LdapServer ==
+LDAP 服务器：{0}
+
+== LdapUser ==
+LDAP 用户
+
+== LicenseDateExpired ==
+受日期限制的评估许可证已过期。到期日期：{0}。
+
+== LicenseDaysExpired ==
+受天数限制的评估许可证已过期。
+
+== LicenseNotFound ==
+Plastic SCM 服务器在没有许可证文件时无法运行。
+
+== LicenseRemotelyDisabled ==
+您的自动续订许可证已被管理员禁用。请联系 devops-vcs-support@unity3d.com 了解更多信息。
+
+== LicenseVersionInvalid ==
+无法将 {0} 许可证用于 {1} 版的 Plastic SCM。
+
+== LkNotFound ==
+无法找到 {0} 类型的链接。
+
+== LoadSpec ==
+无法加载给定的规格。
+
+== LoadedTwiceConflict ==
+项加载两次冲突
+
+== MergeBrNecessary ==
+如果未指定签出分支，无法执行合并。
+
+== MergeDestRevNotCo ==
+必须签出合并分支的目标修订！
+
+== MergeCouldNotCheckRules ==
+无法执行合并。合并规则系统无法初始化。发生了意外情况。请与支持人员联系。
+
+== MergeDidNotSatisfyRulesSrcBranchWasNotReviewed ==
+由于合并规则，无法执行合并。请查看分支 '{0}' 以将其合并到 '{1}'。
+
+== MergeDidNotSatisfyRulesNoMatch ==
+当前的合并规则配置不允许将分支 '{0}' 合并到 '{1}' 中。
+
+== MergeDidNotSatisfyRulesNotFromChildren ==
+当前的合并规则配置仅允许从子级合并到分支 '{0}'，但分支 '{1}' 不是直接子级。
+
+== MergeDidNotSatisfyRulesNotFromParent ==
+当前的合并规则配置仅允许从父级合并到分支 '{0}'，但分支 '{1}' 不是其父分支。
+
+== MergeDstMustBeCo ==
+未签出合并目标：ObjectId {0}。
+
+== MergeNeeded ==
+需要从变更集 {0} 合并到变更集 {1}（当前正在加载的变更集）才能签入。签入操作无法继续。有必要通过将当前工作区内容与您当前正在处理的分支的最新内容进行合并来解决冲突。然后，可重试签入操作。
+
+== MergeNotLocateDestRev ==
+无法找到合并操作的目标修订。
+
+== MergeOpsCannotBeApplied ==
+无法应用以下合并操作：{0}
+
+== MergeToFoundConflicts ==
+无法执行“合并到”操作，因为从变更集 cs:{0} 到分支 br:{1} 的合并存在冲突。
+有必要从工作区运行“合并自”操作来解决这些冲突。
+
+== MergeTypeNotFound ==
+无法找到合并类型
+
+== MergeUpdateWithLocallyChanged ==
+无法执行更新操作，因为存在本地更改的项：{0}。请尝试合并。
+
+== MergeWithNotLoadedDestRev ==
+合并目标修订不能处于“未加载”状态。
+
+== MissingExternalStorageConfiguration ==
+修订数据存储在外部存储中，但是未定义外部存储。请在服务器数据库配置上添加外部存储配置。
+
+== MissingOrganization ==
+尚未提供组织。您需要针对特定组织进行操作。
+
+== MkAlreadyExists ==
+标签 {0} 已存在。
+
+== MsgError ==
+错误： 
+
+== MsgNoSelector ==
+没有用于此工作区的选择器。{0}
+
+== NoApplicationToOpen ==
+未选择应用程序来打开指定的文件 {0}。
+
+== NoCoBrFound ==
+找不到签出分支。
+
+== NoCommonAncestor ==
+无法在存储库 {2} 中进行从源变更集 {0} 到目标变更集 {1} 的合并。无法找到共同上级。请确保您复制了包含共同上级的分支。
+
+== NoCommonAncestorBasedOnId ==
+无法根据修订 ID 计算共同上级。
+
+== NoContactRepInSelector ==
+无法在选择器中访问存储库：{0}。
+
+== NoDataInDomain ==
+无法搜索此域中的组。无效的域。({0})。
+
+== NoDatabaseConfiguration ==
+请求的提供程序没有相应的数据库配置：{0}。
+
+== NoDomainControllerInAdworkingmode ==
+无法在会话 {0} 中找到域控制器。此帐户可能未在 Active Directory 服务器下配置。请将您的配置更改为 LDAPWorkingMode 并设置 LDAP 凭据。
+
+== NoPortInRemotingFile ==
+远程配置文件中未指定端口。
+
+== NoPreviousRevisionAvailable ==
+此项没有早期修订。
+
+== NoRepForClientSpec ==
+无法找到对象 '{0}' 的存储库。该命令必须包含完整的对象规格（包括存储库），例如 '{1}'，或者必须在工作区中运行。
+
+== NoRootRevision ==
+无法找到根修订。ID：{0}。
+
+== NoRowsInQuery ==
+查询未返回任何行
+
+== NoSelectorOnWks ==
+试图使用空的工作区选择器。
+
+== NoSuchObject ==
+无法获取 GoupInfoObject。
+
+== NoSuchUser ==
+没有此类用户：{0}。
+
+== NoWorkspaceSelected ==
+未选择工作区。
+
+== NotEmptyIostatsFolder ==
+错误：磁盘测试路径不为空。路径：{0}
+
+== NotEnoughDiskSizeIostatsFolder ==
+错误：无足够的磁盘空间来执行磁盘测试。请指定其他路径或释放磁盘空间。路径：{0}
+
+== NotFoundGroupInGroupList ==
+在组列表中尚未找到引用的组 '{0}'。
+
+== NotFoundUserInUserList ==
+在用户列表中尚未找到引用的用户 '{0}'。
+
+== NotGroupedUsersKey ==
+未分组的用户
+
+== NotImplementedYet ==
+尚未实现。
+
+== NotLoaded ==
+{0} 无法加载到当前工作区中。
+
+== NotValidDirectoryconflicttype ==
+参数类型必须是 DirectoryConflictType 定义的有效元素。
+
+== NotValidFileconflictty ==
+参数类型必须是 FileConflictType 定义的有效元素。
+
+== NotValidQuery ==
+无效的查询。
+
+== NotValidSpecializedtype ==
+删除类型不是 SpecializeType 方法的有效类型。
+
+== NullPath ==
+路径不能为 null。
+
+== NullRevInfoNoSelector ==
+无法获取根项的修订信息。试图使用空的选择器？
+
+== ObjectLocked ==
+该对象当前处于锁定状态。请稍后再试。{0}。
+
+== WorkspaceLocked ==
+现有的 {1} 操作已锁定工作区 '{0}'。请等待 {1} 操作完成。
+
+== ObjectWithoutGuid ==
+尚未找到对象 {0} 的 GUID。
+
+== OnlyAdminCanAcceptCert ==
+只有服务器管理员才能接受服务器上的证书。
+
+== OnlyAdminCanConfPlasticTube ==
+只有服务器管理员才能修改 Plastic Tube 配置。
+
+== OnlyAdminCanExecuteAdminCommand ==
+只有服务器管理员才能执行 admin 命令。
+
+== OnlyAdminCanFetchWithNoData ==
+只有服务器管理员才能执行无数据的提取。
+
+== OnlyAdminCanRenewLicense ==
+只有服务器管理员才能续订许可证。
+
+== OnlyAdminCanSetServerEncryption ==
+只有服务器管理员才能配置服务器的加密。
+
+== OnlyOneRevisionAvailable ==
+项只有一个修订。
+
+== OperationCanceled ==
+用户已取消操作。
+
+== OperationNotApplicableToWorkspaces ==
+此操作不适用于工作区。
+
+== OrganizationDbCannotBeCreated ==
+无法创建组织 '{1}' 的 DB '{0}'。请稍后再试。如果问题仍然存在，请与支持人员联系。
+
+== OrganizationDoesNotExist ==
+组织 '{0}' 不存在。
+
+== OrganizationIsDisabled ==
+已禁用组织 '{0}'。请从 plasticscm.com 上的仪表板激活该组织。如有任何疑问，请随时通过 devops-vcs-support@unity3d.com 联系我们。
+
+== OrganizationIsDeleting ==
+组织 '{0}' 不再可用。如有任何疑问，请随时通过 devops-vcs-support@unity3d.com 联系我们。
+
+== OrganizationIsMigrating ==
+我们当前正在升级 Cloud 组织 '{0}'。此过程可能需要几个小时，请稍后再试。如需了解更多信息，请通过 devops-vcs-support@unity3d.com 联系支持人员。
+
+== OrganizationIsMissing ==
+缺少组织。在调用中找不到组织。
+
+== OrganizationInvalidStatus ==
+组织 '{1}' 中状态 '{0}' 无效。
+
+== OrganizationMembersEmpty ==
+无法检索 Cloud 身份验证信息。请稍后再试。如果问题仍然存在，请与我们联系 (devops-vcs-support@unity3d.com)。
+
+== OrphanFoldersDetected ==
+在树中检测到 {0} 个孤立文件夹。只应该有 1 个（根文件夹）
+
+== OrphanTransaction ==
+先前的操作未正确完成。请重试。
+
+== OwnerKey ==
+所有者
+
+== ParameterNotPresent ==
+参数 {0} 不存在或无效。
+
+== ParentCo ==
+必须签出父目录 {0} 才能添加 {1}。
+
+== ParentCoToRemove ==
+要删除 {0}，必须签出父目录。
+
+== ParentCoToRestore ==
+必须签出父目录 {0} 才能还原 {1}。
+
+== ParentDirectoryMustBeCheckedoutToMove ==
+要移动 {0}，必须签出父目录。
+
+== ParentNotInRep ==
+无法将项 {0} 添加到存储库，因为无法加载其父级 {1}。
+
+== ParentRepositoryDoesNotExist ==
+无法创建模块，因为父存储库不存在。
+
+== PathAlreadyExistsBranchesCreate ==
+无法创建安全路径。另一条安全路径（无标记）已应用于同一个分支列表。
+
+安全路径由其路径以及标识性标记（如果没有标记，则为分支列表）进行标识。
+
+请修改即将创建的安全路径的分支列表，或修改已经创建的等效安全路径。
+
+== PathAlreadyExistsBranchesUpdate ==
+无法更新安全路径。另一条安全路径（无标记）已应用于同一个分支列表。
+
+安全路径由其路径以及标识性标记（如果没有标记，则为分支列表）进行标识。
+
+请修改即将更改的安全路径的分支列表，或修改等效的安全路径。
+
+== PathAlreadyExistsTagCreate ==
+无法创建安全路径。另一条安全路径具有同一标记。
+
+安全路径由其路径以及标识性标记（如果没有标记，则为分支列表）进行标识。
+
+请为即将创建的安全路径使用其他标记名称。
+
+== PathAlreadyExistsTagUpdate ==
+无法更新安全路径。另一条安全路径具有同一标记。
+
+安全路径由其路径以及标识性标记（如果没有标记，则为分支列表）进行标识。
+
+请为即将更改的安全路径使用其他标记名称。
+
+== PathNotInRep ==
+无法创建安全路径。此路径位于 Xlink 下。请使用通过 Xlink 链接的存储库的路径权限对话框：{0}。
+
+== PathSpecMultipleMatches ==
+指定的安全路径 {0} 与多个安全路径实例匹配。请提供完整的安全路径规格（'path#tag' 或 'path' 搭配 '--branches=list_of_branches' 参数）。
+   
+
+== ProblemLoadingExtension ==
+加载扩展时出现问题。
+
+== PrunedMergeLocalChgsCannotBeApplied ==
+无法完成合并，因为无法处理某些本地更改。您很可能没有适当的权限来更改某些涉及的路径。请检查服务器日志以获取更多信息。
+
+== PrunedDiffLocalChgsCannotBeApplied ==
+无法计算具有本地更改的差异，因为无法处理某些本地更改。您很可能没有适当的权限来更改某些涉及的路径。请检查服务器日志以获取更多信息。
+
+== PrunedTreeNotAllowed ==
+您无权读取 cs:{1} 路径 '{0}' 内的全部内容。当前操作需要读取整个树才能继续。请检查您的路径权限，然后重试。
+
+== PushAllNotAllowedWithMissingData ==
+无法推送存储库，因为其某些修订的数据缺失（可能在复制时使用了 --nodata）。请在没有数据的情况下对分支进行 hydrate 操作，然后重试（请查看 cm replicate hydrate 的帮助）。
+
+== PushBrNotAllowedWithMissingData ==
+无法推送 '{0}'，因为其某些修订的数据缺失（可能在复制时使用了 --nodata）。请对分支进行 hydrate 操作，然后重试（请查看 cm replicate hydrate 的帮助）。
+
+== ReadBlobError ==
+无法从存储库 {2} 读取修订 {0}（细分段 {1}）的数据。
+
+== RemotingFileCorrupt ==
+读取/写入远程配置文件时出错：{0}（意外内容）。
+
+== RenameModuleDifferentRep ==
+无法将模块重命名为其他存储库。
+
+== RenameModuleWithoutModuleName ==
+必须指定模块名称才能重命名模块。
+请注意，名称形式为“存储库/模块”。例如：default/module2。
+
+== RepAlreadyExists ==
+存储库服务器 {1} 的存储库 {0} 已存在。
+
+== RepDoesntHaveRootItem ==
+严重错误，存储库不包含根项。
+
+== RepNeeded ==
+当前路径不在工作区内。请使用 --repository 选项来指定存储库。
+
+== RepNotFound ==
+无法找到指定的存储库：{0}。
+
+== RepNotMatched ==
+没有存储库与表达式匹配：{0}。
+
+== RepdbDoesntExist ==
+存储库数据库 {0} 在数据库后端上不存在。
+
+== RepdbIdIncorrect ==
+在存储库数据库 {0} 中指定的 ID 不正确。此 ID 应该为数字。
+
+== RepdbNameIncorrect ==
+指定存储库数据库 {0} 的名称不正确。此名称应该以 {1} 开头。
+
+== ReplicationBrCantbelinked ==
+无法链接分支 {0} (id:{1})。正在中止。
+
+== ReplicationBrParentCantbelinked ==
+无法链接分支 {1} (id:{2} GUID:{3}) 的父分支 {0}。正在中止。
+
+== ReplicationChangesetdoesntexist ==
+要在复制时用作起点的指定变更集 ({0}) 不存在。正在中止。
+
+== ReplicationCsetBranchCantbelinked ==
+无法链接变更集 {1} (GUID:{2}) 的分支 {0}。正在中止。
+
+== ReplicationCsetCantbelinked ==
+无法链接变更集 {0}。正在中止。
+
+== ReplicationCsetParentCantbelinked ==
+无法链接变更集 {1} (GUID:{2}) 的父变更集 {0}。正在中止。
+
+== ReplicationCsetRootrevCantbelinked ==
+无法链接变更集 {1} (GUID:{2}) 的根修订 {0}。正在中止。
+
+== ReplicationDataCorrupted ==
+复制数据已损坏，无法完成该操作。具体错误：'{0}'。
+
+== ReplicationDataEof ==
+无法读取更多数据：文件末尾。
+
+== ReplicationDirRevCantbelinked ==
+无法链接目录修订 {0}。正在中止。
+
+== ReplicationErrorTryingtosetupauthdatafromfileFiledoesntexist ==
+尝试从文件设置身份验证模式时出错。文件 {0} 不存在。
+
+== ReplicationErrorTryingtosetupauthdatafromfileNodata ==
+尝试从文件设置身份验证模式时出错。文件 {0} 上无数据。
+
+== ReplicationErrorWrongauthmode ==
+指定的身份验证模式错误。{0}。
+
+== ReplicationErrorWrongentryintranslationtable ==
+转换表的行 {0} 有错误。
+
+== ReplicationItemCantbelinked ==
+无法链接项 {0} (id:{1})。正在中止。
+
+== ReplicationLabelCantbelinked ==
+无法链接标签 {0} (id:{1})。正在中止。
+
+== ReplicationLinkCantbelinked ==
+无法对链接 {0} (id:{1}) 进行链接。正在中止。
+
+== ReplicationMsgBranchRenamed ==
+分支 {0} 已存在并采用不同的 ID，已创建该分支并重命名为 {1}
+
+== ReplicationMsgLabelRenamed ==
+标签 {0} 已存在并采用不同的 ID，已创建该标签并重命名为 {1}
+
+== ReplicationParentbranchdoesntexist ==
+要克隆的分支的父级 {0} ({1}) 不存在。正在中止。
+
+== ReplicationRevCsetCantbelinked ==
+无法链接修订 {1} (GUID:{2}) 的变更集 {0}。正在中止。
+
+== ReplicationRevItemCantbelinked ==
+无法链接修订 {1} (GUID:{2}) 的项 {0}。正在中止。
+
+== ReplicationRevParentCantbelinked ==
+无法链接修订 {1} (GUID:{2}) 的父修订 {0}。正在中止。
+
+== RepositoriesDontMatch ==
+指定的存储库不匹配。
+
+== RepositoryWasntUpgradedCorrectly ==
+存储库 {0} 未正确升级，在问题得到解决之前无法使用。
+
+== RepspecsDontMatch ==
+变更集规格或路径以及标签规格没有引用相同的存储库。
+
+== RequestWkNotFound ==
+无法找到请求的工作区。
+
+== ResolvespecItemNotFound ==
+在 resolveSpec 中找不到项 ({0})。
+
+== RestoreItemidAlreadyExists ==
+此项已存在于此路径中。不需要还原。
+
+== RestoreItemnameAlreadyExists ==
+另一个项在此路径上具有此名称。必须选择新名称。
+
+== RevIsNotANumber ==
+指定的修订不是数字：{0}。
+
+== RevNoCreated ==
+无法创建新的修订。{0}。
+
+== RevNotCreatedForCopy ==
+无法为复制操作创建新的修订。
+
+== RevNotFoundInRep ==
+在存储库 {1} 中找不到修订 {0}。
+
+== RevisionCantBeFound ==
+无法找到修订 {0}。
+
+== RevisionLoadedTwiceOnTree ==
+修订 {0} 在变更集 {1} 上加载了两次，分别位于 '{2}' 和 '{3}'。请与支持人员联系。
+
+== RevisionNotCo ==
+未签出修订 {0}。
+
+== RevisionToReloadNotFound ==
+找不到要重新加载的修订
+
+== RevtreeNoRevsToShow ==
+无法显示项 {0} 的修订树。
+
+== RootitemNumLocated ==
+RootItem 在存储库中必须唯一。已找到 {0}。
+
+== SaveBeforeAdd ==
+在添加到 Unity VCS 之前需要先保存。
+
+== ScriptVersionNotValid ==
+{1} 服务器的 {0} 版本为 {2}。请升级到 {3} 版本。 
+
+== SecuredPathMovedCollission ==
+不允许从 '{0}' 移动到 '{1}'，因为源路径和目标路径之间的现有用户权限不同。
+
+== SecurityCantActivateUser ==
+您无权激活用户 {0}。您需要是存储库服务器管理员才能完成此操作。
+
+== SecurityCantArchive ==
+您无权对修订进行存档。您需要是存储库服务器管理员才能完成此操作。
+
+== SecurityCantDeactivateUser ==
+您无权停用用户 {0}。您需要是存储库服务器管理员才能完成此操作。
+
+== SecurityCantInheritItself ==
+对象不能从其本身的 ACL 继承。发现了递归。
+
+== SecurityCantMergeChange ==
+您无权执行此合并。您对源参与者中的某些更改没有读取权限。
+
+== SecurityCantRunExecquery ==
+只有管理员可以执行“execquery”。您不是管理员，所以您无法运行“execquery”。
+
+== SecurityIdUnknown ==
+用户 ID {0} 未知，无法转换。
+
+== SecurityIncompatibleObjects ==
+指定的对象不能从父对象继承。它们不兼容。
+
+== SecurityInvalidPassword ==
+无效的密码。请查看用户/密码配置。
+
+== SecurityTokenExpired ==
+LDAP 令牌已过期。用户：{0}。
+
+== SecurityNewParentInheritsFromChild ==
+该对象已从目标对象继承了安全性。发现了递归。
+
+== SecurityNoPermForOperation ==
+您无权执行操作 {0}。
+
+== SecurityNoPermForPathOperation ==
+您对 {1} 没有 {0} 权限。
+
+== SecurityNoPermForRepoOperation ==
+您没有存储库 {1} 的 {0} 权限。
+
+== SecurityNoPermToCreateSuchSecuredPath ==
+您无权在指定的存储库和分支上创建安全路径 {0}。
+
+== SecurityObjectDoesntHaveAcl ==
+该对象没有 ACL。请尝试选择其父级。
+
+== SecuritySeidIsInherited ==
+该 SEID 是继承的。无法在此 ACL 中将其删除。
+
+== SecuritySeidNotInAclCantRemove ==
+在对象 ACL 中找不到指定的 SEID。请检查它是否是继承的。
+
+== SecurityUserGroupUnknown ==
+未知的用户或组：'{0}'。请注意，用户/组的名称区分大小写！
+
+== SecurityUserInactive ==
+用户 {0} 显示为非活动用户，因为其许可证已停用。请激活许可证，然后重试。
+
+== SecurityUserUnknown ==
+未知的用户：'{0}'。请检查您当前的凭据。请注意，用户名区分大小写！
+
+== SelFewInfo ==
+当前选择器包含的信息不足，无法执行项 {0} 的签入。
+
+== SelFewInfo2 ==
+当前选择器没有为项 {0} 选择任何合适的修订。
+
+== SelNotHaveCo ==
+当前选择器没有为项 {0} 提供签出分支。
+
+== SelectorhandlerNoWkMatchRequest ==
+SelectorHandler：没有工作区与请求匹配。
+
+== SelectorhandlerNoWkidMatch ==
+SelectorHandler：没有工作区与指定 ID 匹配：{0}。
+
+== ServerEncryptionAlreadyDefined ==
+无法配置服务器 '{0}' 的加密，因为它已经配置。
+
+== ServerEncryptionNeeded ==
+服务器 '{0}' 需要加密，但是您的服务器未配置加密密钥。要配置本地服务器，请确保您是服务器的管理员（所有者），然后重试，此时将要求您输入加密密钥。否则，请询问系统管理员或在搜索在线文档中的“加密所有数据”。
+
+== ServerEncryptionWrongKey ==
+无法读取服务器 '{0}' 的加密密钥 '{1}'。有关更多信息，请检查服务器日志。
+
+== ServiceNotInitialized ==
+请求的 Plastic SCM 操作尚不可用。服务器正在启动或正在运行升级操作。
+
+== ShellParserQuoteError ==
+命令参数解析错误。请检查引号：{0}
+
+== SizelimitExceeded ==
+LDAP 查询已超出单个搜索结果中返回的最大允许对象数。必须配置 LDAP 服务器以增大此值。
+
+== SotSpecDoesNotExist ==
+对象 {0} 不存在。
+
+== SourceSameAsDest ==
+正在将该项移动到其当前目录。不会继续。
+
+== Spanish ==
+西班牙语
+
+== SrcNotFound ==
+找不到源对象。
+
+== SwitchSelectorErrorInvalidRule ==
+指定的切换到分支/标签/变更集的规则无效
+
+== SyncAttributeUnparseable ==
+无法正确解析 Git 同步存储库属性。
+
+== SyncMissingParentChangeset ==
+尚未将变更集 {0} 的父变更集复制到该存储库。无法同步此变更集及其后代。请排除涉及的分支或复制缺少的变更集。
+
+== SyncMissingParentChangesets ==
+尚未将变更集 {0} 的父变更集复制到该存储库。无法同步此变更集及其后代。请排除涉及的分支或复制缺少的变更集。
+
+== SyncReplicaDifferentSources ==
+无法复制，因为两个 Unity VCS 存储库与 Git 同步（或者是从原始同步的存储库复制的）。一次只能同步一个存储库。最初同步的存储库为 '{0} - {1}' 和 '{2} - {3}'。请联系支持人员以获取更多信息。
+
+== TaskUrlNotValid ==
+尚未找到 {0} 或其版本不兼容。
+
+== TestConnectionNotAvailable ==
+测试连接不可用。可能是因为服务器和客户端配置模式不同。
+
+== TreeCantAddDuplicatedName ==
+无法添加同名的条目。重复子级 [{0}]。父级 [{1}]
+
+== TriggerInvalidPosition ==
+类型 {0}-{1} 已存在指定的位置。
+
+== TriggerNotExists ==
+指定的触发器不存在。
+
+== TryingToLockTwice ==
+无法对不同路径 '{1}' 和 '{2}' 的同一个项 ({0}) 进行独占锁定。
+
+== TubeConfUnavailable ==
+Plastic Tube 配置不可用。请检查 Unity VCS 服务器是否已正确配置为使用 Plastic Tube。可通过“cm tube config”命令进行此配置。
+
+== UnexpectedError ==
+发生了意外错误 "{0}"。有关更多信息，请检查服务器日志。
+
+== UnlicensedTubeFeature ==
+Plastic Tube 在您的 Plastic SCM 服务器中未获许可。
+
+== UpCantAddGroupToItself ==
+无法将组添加到自身。
+
+== UpCantCreateNewGroupWithMembers ==
+无法使用成员创建新用户。
+
+== UpCorruptGroupInfo ==
+组信息已损坏：'{0}'。
+
+== UpCorruptUserInfo ==
+用户信息已损坏：'{0}'。
+
+== UpGroupAlreadyContainsGroup ==
+组 '{0}' 已包含组 '{1}'。
+
+== UpGroupAlreadyContainsUser ==
+组 '{0}' 已包含用户 '{1}'。
+
+== UpGroupAlreadyExists ==
+组 '{0}' 已存在。
+
+== UpGroupDoesntContainsGroup ==
+组 '{0}' 不包含组 '{1}'。
+
+== UpGroupDoesntContainsUser ==
+组 '{0}' 不包含用户 '{1}'。
+
+== UpGroupNotExists ==
+组 '{0}' 不存在。
+
+== UpInvalidCredentials ==
+无效的凭据，用户名或密码无效。
+
+== UpInvalidGroupname ==
+无效的组名称 '{0}'。
+
+== UpInvalidPassword ==
+无效的密码。
+
+== UpInvalidUsername ==
+无效的用户名 '{0}'。
+
+== UpPassword ==
+密码
+
+== UpUserAlreadyExists ==
+用户 '{0}' 已存在。
+
+== UpUserNotExists ==
+用户 '{0}' 不存在。
+
+== UpUsername ==
+用户名
+
+== UpdateGetRevinfo ==
+无法获取 {0} 的修订信息。可能引用了不存在的项/分支/标签。或无法使用所选标签来标记此元素，或您没有读取/查看权限。
+
+== UpdateToLatestNotValidCurrentBranch ==
+您的工作区正在加载不存在的分支、变更集、标签或搁置集。可能其他人已将其删除。请将您的工作区切换到现有的分支、变更集、标签或搁置集。
+
+== UpgradeMoreOneRep ==
+选择器中使用了多个存储库服务器。工作区升级过程不支持此情形。
+
+== UpgradeRunManualUpdate ==
+工作区升级：在以前的数据中找不到根目录。工作区将显示为私有项。请运行手动更新。
+
+== UserAlreadyActivated ==
+已激活用户 {0}。
+
+== UserAlreadyDeactivated ==
+已停用用户 {0}。
+
+== UserLimitExceeded ==
+已超出此版本的最大用户数。
+
+== UserPassProviderConfigMissing ==
+尚未配置用户/密码。请运行配置向导进行设置。
+
+== UsersCannotObtained ==
+无法获取系统用户。
+
+== UsersExceeded ==
+已超出最大许可用户数。
+
+== ViewUnknown ==
+未知的视图类型 {0}
+
+== WithoutMergeInfo ==
+DirectoryChanges 尚未获得用于合并的其他信息。
+
+== WkAlreadyExists ==
+工作区 {0} ({1}) 已存在。
+
+== WkAlreadyExistsForUser ==
+机器 {2} 上的用户 {1} 的工作区 {0} 已存在。
+
+== WkContainsOtherWk ==
+机器 {1} 上的工作区 {0} 包含工作区 {2}。
+
+== WkContainsOtherWkOfUser ==
+机器 {1} 上的工作区 {0} 包含用户 {3} 的工作区 {2}。
+
+== WkDoesntExist ==
+工作区 {0} 不存在。
+
+== WkDynamicNotMountedYet ==
+工作区 {0} 在 {1} 秒后未被装入
+
+== WktreeCorrupt ==
+工作区元数据文件 ({0}) 已损坏。请更新工作区。
+
+== WorkingModeDoesNotSupportUserPasswd ==
+{0} 工作模式不支持用户和密码配置。
+
+== WorkingModeNotInicialized ==
+安全工作模式未初始化。必须为名称、名称+ID 或 LDAP。
+
+== WorkingModeNotSupported ==
+此平台不支持 {0} 用户配置。
+
+== WriteBlobError ==
+无法在存储库 {2} 上写入修订 {0}（细分段 {1}）的数据。
+
+== WrongParentInCheckin ==
+文件 {0} 与您正在处理的变更集 (cs:{1}) 不同步。
+您很可能切换到了另一个分支，但是文件进行了本地更改，因此未更新。
+Unity VCS 无法签入文件，因为它会错误地覆盖更改。
+您可以撤销文件中的更改，进行更新，然后尝试再次签入。
+
+== XmlFileCorrupt ==
+文件 {0} 包含错误，无法使用其配置。请查看其内容。错误：{1}
+
+== MergeDstChangesNotAllowed ==
+无法在存储库 {2} 中进行从源变更集 {0} 到目标变更集 {1} 的合并，因为有目标更改，但不允许这些更改。
+
+== FindAttrNotExist ==
+对象类型 '{0}' 在执行的查询中无效。
+
+== FindAttrTypeWrong ==
+值 '{0}' 对于查询 "{2}" 中的字段 '{1}' 无效。字段 '{1}' 类型为 '{3}'。
+
+== FindAttrTypeWrongValue ==
+值 '{0}' 对于查询 "{2}" 中的字段 '{1}' 无效。字段 '{1}' 必须具有以下值之一：{3}
+
+== IncorrectSpec ==
+不正确的对象规格 {0}
+
+== NotValidCmPath ==
+指定的路径 {0} 不是有效的服务器路径。
+
+== FindTypeNotExists ==
+对象类型 {0} 不存在
+
+== FindListGuidConditionIsNotAlone ==
+GUID 列表的条件与任何其他条件都不兼容。仅当此条件单独存在时，才允许此条件。
+
+== FindParserError ==
+查询错误：{0}
+
+== FindParserNullError ==
+在查询中发现错误
+
+== ErrorPackageFromNodataRepo ==
+无法通过使用 --nodata 标志复制的数据从存储库创建复制包。请先对源存储库进行 hydrate 操作。
+
+== ParentCommentOutDate ==
+尝试回复的注释不再存在。请刷新审查注释。
+
+== NoneOperationName ==
+未指定
+
+== AddOperationName ==
+添加
+
+== ApplyLocalChangesOperationName ==
+应用本地更改
+
+== CheckinOperationName ==
+签入
+
+== CheckoutOperationName ==
+签出
+
+== CopyOperationName ==
+复制
+
+== IncomingChangesOperationName ==
+传入更改
+
+== MergeOperationName ==
+合并
+
+== MoveOperationName ==
+移动
+
+== RebaseOperationName ==
+变基
+
+== RevertOperationName ==
+还原
+
+== SetSelectorOperationName ==
+设置选择器
+
+== StatusOperationName ==
+状态
+
+== TestOperationName ==
+测试
+
+== UndeleteOperationName ==
+撤销删除
+
+== UndoOperationName ==
+撤销
+
+== UpdateOperationName ==
+更新
+
+== WorkspaceTreeOperationName ==
+工作区树
+
+== BranchWithNoHead ==
+分支 '{0}' 无效，因为它没有头部。请切换到其他分支。
+
+== BranchHeadNotFound ==
+分支 '{0}' 的头部 {1} 无效。它很可能已被删除。请更新您的工作区。
+
+== CantResolveRegionForCloudOrganization ==
+解析组织 {0} 的 Cloud 服务器已失败。{1}
+
+== BackupInProgress ==
+正在进行 {0} 数据库的备份。仅允许对其进行读取操作。
+
+== OrganizationMigratedError ==
+已将组织 '{0}' 迁移到新的服务器。
+
+== InvalidServerCertificateError ==
+服务器证书无效。
+
+== DeleteChangesetNotAllowedOnGitSyncRep ==
+在与 Git 同步的存储库中不允许删除变更集。
+
+== MoveChangesetNotAllowedOnGitSyncRep ==
+在与 Git 同步的存储库中不允许移动变更集。
+
+== P4ExecutableDoesNotExist ==
+无法找到 Perforce CLI 可执行文件。请确保您的 PATH 环境变量中有这个可执行文件。

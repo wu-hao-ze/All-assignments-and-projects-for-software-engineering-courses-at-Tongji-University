@@ -1,0 +1,44 @@
+﻿== Diff ==
+차이점:
+
+== BasePosition ==
+베이스 파일의 위치: 
+
+== CompPosition ==
+비교 대상 파일의 위치: 
+
+== OldData ==
+이전 데이터: 
+
+== NewData ==
+신규 데이터:
+
+== Type ==
+유형: 
+
+== NullBaseFile ==
+BaseFile은 null이 될 수 없습니다.
+
+== NullCompareFile ==
+CompareFile은 null이 될 수 없습니다.
+
+== DiffNotSolutionFound ==
+솔루션을 찾을 수 없습니다. 차이점 컬렉션을 계산할 수 없습니다.
+
+== NotValidFileConflictType ==
+잘못된 충돌 유형입니다.
+
+== NullFilePath ==
+파일 경로는 null이 될 수 없습니다.
+
+== NullFileHash ==
+파일 해시는 null이 될 수 없습니다.
+
+== InvalidDifferenceType ==
+매개 변수 유형은 유효한 differenceType으로 정의한 요소여야 합니다.
+
+== TooManyDifferences ==
+파일에 차이점이 너무 많습니다. 작업을 완료하기 위한 충분한 리소스가 없습니다. 차이점의 개수를 줄이려면 다른 차이점 비교 방법을 설정해 보십시오.
+
+== NotDefinedFSProtection ==
+정의되지 않음

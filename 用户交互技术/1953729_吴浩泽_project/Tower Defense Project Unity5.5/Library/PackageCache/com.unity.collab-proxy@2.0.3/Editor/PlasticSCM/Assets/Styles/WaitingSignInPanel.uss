@@ -1,0 +1,9 @@
+#wait {
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+#progressContainer {
+    padding-top: 3px;
+    margin-right: 50%;
+}

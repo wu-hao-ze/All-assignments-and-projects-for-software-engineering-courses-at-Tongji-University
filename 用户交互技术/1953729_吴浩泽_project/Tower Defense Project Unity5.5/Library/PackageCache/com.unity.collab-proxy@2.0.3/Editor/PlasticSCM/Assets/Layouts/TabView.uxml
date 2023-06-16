@@ -1,0 +1,4 @@
+<UXML xmlns="UnityEngine.UIElements">
+  <VisualElement name="TabArea" class="flex-container row" />
+  <VisualElement name="ContentArea" />
+</UXML>

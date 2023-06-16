@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.modules.vehicles",
+    "version": "1.0.0",
+    "type": "module",
+    "displayName": "Vehicles",
+    "description": "The Vehicles module implements vehicle physics simulation through the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html",
+    "icon": ".icon.png",
+    "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+    }
+}

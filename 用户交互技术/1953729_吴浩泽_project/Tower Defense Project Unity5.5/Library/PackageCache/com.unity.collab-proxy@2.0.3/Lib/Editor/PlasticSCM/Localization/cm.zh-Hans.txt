@@ -1,0 +1,147 @@
+﻿== CmExistingCertificateChanged ==
+
+警告：此主机的证书与密钥存储库中的证书不匹配。
+这可能意味着服务器的身份已泄露或您正在受到
+中间人攻击。
+
+证书详细信息：
+- 已颁发给：{0}
+- 颁发者：{1}
+- 到期日期：{3}
+- 证书哈希：{5}
+
+如果此更改是您期望的并且您信任新证书，请选择“是”
+以将密钥添加到 Unity VCS 密钥存储库中并在以后信任
+此证书。
+如果只想进行一次连接而不将密钥添加到存储库中，
+请选择“否”。
+如果要放弃此连接，请选择“取消”。
+这是唯一有保证的安全选择。
+
+
+
+== CmExistingCertificateChangedPrompt ==
+选择选项“是(Y)”、“否(N)”、“取消(C)”（默认设置为“取消”）： 
+
+== CmInvalidCertificateHostname ==
+警告：服务器证书中提供的安全连接主机名
+与服务器主机名不匹配。这意味着证书
+不是颁发给此主机名的，或者此主机存在
+网络配置问题。
+
+- 证书主机名：{0}
+- 服务器主机名：{1}
+
+如果要继续连接到此主机，请选择“是”。
+  证书验证将继续（不推荐）。
+如果要放弃连接，请选择“否”（推荐）。
+    
+
+== CmInvalidCertificateHostnamePrompt ==
+选择选项“是(Y)”、“否(N)”（按 Enter 将选择“否”）： 
+
+== CmInvalidCertuiResponse ==
+(!) 输入的选项无效。
+
+== CmNewCertificate ==
+
+要连接到的服务器发送了一个不在存储库中的证书。
+如果是首次连接到此服务器，这是正常现象。
+
+证书详细信息：
+- 已颁发给：{0}
+- 颁发者：{1}
+- 到期日期：{3}
+- 证书哈希：{5}
+
+如果您信任此主机，请选择“是”以将密钥添加到 Unity VCS 密钥存储库中
+（如果是首次连接到此服务器，建议这样做）。
+如果只想进行一次连接而不将密钥添加到存储库中，
+请选择“否”。
+如果您不信任此主机，请选择“取消”以放弃连接。
+
+    
+
+== CmNewCertificatePrompt ==
+选择选项“是(Y)”、“否(N)”、“取消(C)”（按 Enter 将取消）： 
+
+== CmdListCommandsAdditionalHeader ==
+其他命令：
+
+== CmdListCommandsAdministrativeHeader ==
+管理命令：
+
+== CmdListCommandsAutomationHeader ==
+自动化命令：
+
+== CmdListCommandsCommandTypes ==
+
+您当前正在查看可用命令的简化列表。您可以使用：
+      cm showcommands --essential 显示基本命令（默认值）
+      cm showcommands --additional 显示其他命令
+      cm showcommands --administrative 显示管理员使用的命令
+      cm showcommands --security 显示用于管理安全性和 ACL 的命令
+      cm showcommands --automation 显示用于自动执行 CLI 的命令
+      cm showcommands --all 显示完整命令列表
+
+== CmdListCommandsEnd ==
+        
+* 执行命令：
+      cm command_name
+  
+* 获取命令的用法：
+      cm command_name --usage
+      cm command_name -?
+
+* 获取命令的帮助：
+      cm help command_name
+      cm command_name --help
+
+了解有关如何使用命令行的更多信息：
+https://www.plasticscm.com/documentation/cli/plastic-scm-version-control-cli-guide.shtml
+
+了解有关 cm find 的更多信息：
+https://www.plasticscm.com/documentation/cmfind/plastic-scm-version-control-query-system-guide.shtml
+
+了解有关 cm automation 的更多信息：
+https://www.plasticscm.com/documentation/cmdrunner/plastic-scm-version-control-cmdrunner-guide.shtml
+      
+
+== CmdListCommandsEssentialHeader ==
+基本命令：
+
+== CmdListCommandsSecurityHeader ==
+安全性命令：
+
+== Description ==
+描述
+
+== EnterPassword ==
+密码： 
+
+== EnterUser ==
+用户： 
+
+== EnterUserCredentials ==
+输入凭据以连接到服务器 [{0}]
+
+== LongName ==
+命令
+
+== MsgCommandnotfound ==
+找不到命令 '{0}'。请键入 cm showcommands 以获取命令列表。
+
+== MsgError ==
+错误： 
+
+== MsgNocommands ==
+未定义命令！
+
+== ShortName ==
+简短 
+
+== WkUpgradeFinished ==
+已升级工作区。
+
+== WkUpgradeStarted ==
+正在升级工作区...

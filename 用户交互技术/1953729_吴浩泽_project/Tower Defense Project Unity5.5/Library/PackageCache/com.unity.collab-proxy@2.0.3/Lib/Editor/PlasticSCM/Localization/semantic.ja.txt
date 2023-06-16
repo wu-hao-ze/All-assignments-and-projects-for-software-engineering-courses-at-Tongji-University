@@ -1,0 +1,643 @@
+﻿== Base ==
+ベース
+
+== ChangedResultFile ==
+結果ファイルを保存しますか?
+
+== ChangedDestinationFile ==
+同期先ファイルを保存しますか?
+
+== CloseButton ==
+閉じる
+
+== ConfiguredStatus ==
+設定しました!
+
+== NotConfigureStatus ==
+設定されていません
+
+== Destination ==
+同期先
+
+== ErrorAutomaticOptionNeeded ==
+サイレントモードでは自動マージオプションが必要です
+
+== ErrorComparisonMethod ==
+無効な比較方法
+
+== ErrorConflictCanNotBeApplied ==
+別の競合の解決に依存するため、その競合解決を適用できません。別の順序で競合を解決してみてください。その競合解決によって次のエラーが返されました:{0}
+
+== ErrorContributorsMustBeSpecified ==
+共同作成者が指定されている必要があります
+
+== ErrorEncoding ==
+指定されたエンコーディングを識別できません ({0})。
+
+== ErrorExecutingExternalDiffTool ==
+外部の差分ツールを実行中にエラーが発生しました:
+
+== ErrorExecutingExternalMergeTool ==
+外部のマージツールを実行中にエラーが発生しました:
+
+== ErrorExecutingExternal2WayMergeTool ==
+外部の 2 方向マージツールを実行中にエラーが発生しました:
+
+== ErrorFileTitleType ==
+どうやらお使いの言語はまだサポートされていないようです。
+
+== ErrorFileType ==
+SemanticMerge が次のファイルを受け取りました:{0}.
+ファイル拡張子がサポート対象の言語として認識されていません。
+デフォルトのテキストベースの {1} ツールを実行できます。
+
+注:これらのファイルにサポート対象の言語が含まれていることを知っている場合は、SemanticMerge で -l パラメーターを使用する方法を確認してください。
+
+== ErrorJVMNotAvailableTitle ==
+どうやらJVM が見つかりません - ファイルを解析する必要があります
+
+== ErrorJVMNotAvailable ==
+SemanticMerge で
+{0} ファイルを解析するには、有効な JVM インストールを利用できる必要があります。
+
+代わりに、デフォルトのテキストベースの {1} ツールを実行できます。
+    
+== ErrorNumberOfContributorsDoesNotMatch ==
+共同作成者の数が一致しません
+
+== ErrorTabSpaces ==
+タブスペースが無効です
+
+== ErrorVersionControl ==
+設定するバージョン管理が無効です
+
+== OpenDialogFilterForExecutableFile ==
+実行可能ファイル (*.exe)|*.exe
+
+== OpenDialogTitleForConfigFile ==
+設定ファイルを参照
+
+== OpenDialogTitleForExecutableFile ==
+実行可能ファイルを参照
+
+== PlasticSCMConfigurationNotification ==
+Unity VCS GUI を再度開くまで変更は有効になりません
+
+== RestartMergeWithConfigChangesMessage ==
+新しく保存された設定を適用するには、マージを再実行する必要があります。
+
+== RestartDiffWithConfigChangesMessage ==
+新しく保存された設定を適用するには、差分の表示を再実行する必要があります。
+
+== RestartMergeQuestion ==
+{0} 件の競合をすでに解決していますが、これらは失われます。本当にマージを再実行しますか?
+
+== ResultNeeded ==
+結果のファイルパスが指定されている必要があります
+
+== Source ==
+ソース
+
+== UnsolvedPendingConflicts ==
+ファイルにまだ {0} 件の未解決の競合があります。
+
+== UnexpectedError ==
+予期しないエラーが発生しました。
+
+== Usage ==
+      使用方法:semanticmerge [<configureversioncontrol> | <mergeOptions>]
+
+      configureversioncontrol:{--configure-version-control}=<versioncontrolkey>
+            versioncontrolkey:{plasticscm | git}
+
+      mergeOptions:<files> [-a|--automatic] [--silent] [--merge-decl] [--process-all-merges]
+                    [--nolangwarn] [--nostructurewarn] [--include-format-change] [--log-external-parser]
+                    [<contributorSymbolicNames>] [<generalOptions>]
+                    [<contributorExtendedInfo>]
+
+      files:{<sortedFiles> | <unsortedFiles>}
+            sortedFiles:<ファイル名 1> <ファイル名 2> <ファイル名 3> <ファイル名 4> <fileparamorder>
+                  fileparamorder:{-fpo | --fileparamorder}=<セミコロンで区切られたキーのリスト>
+                                     デフォルト値は --fileparamorder=s;d;b;r
+
+            unsortedFiles:<sourceFile> <destinationFile> <baseFile> <resultFile>
+                  sourceFile:{-s | --source}=<filename>
+                  destinationFile:{-d | --destination}=<filename>
+                  baseFile:{-b | --base}=<filename>
+                  resultFile:{-r | --result}=<filename>
+
+      -a | --automatic:競合が見つからない限り、ユーザーの対応なしで自動的にマージします。
+
+      --silent:このオプションは、--automatic オプションと組み合わせて使用する必要があります。
+                               マージを自動的に解決できない場合、このオプションが原因でツールがゼロ以外の終了コードと共に
+                               即座に返されます (semanticmerge ツールは表示されません)。
+                               ツールがマージを自動的に解決できた場合、プログラムは終了コード 0 を返します。
+
+      --merge-decl:できるだけ多くの宣言*を自動的にマージします。
+
+      --process-all-merges:できるだけ多くの宣言*を自動的にマージし、
+                               非自動マージ宣言ごとに外部のテキストベースのツールを実行します。
+
+        *宣言とは、クラス、メソッド、属性など、サポート対象の構文要素のいずれかを定義するステートメントです。
+         要素の種類 (クラス、メソッドなど) によって、その要素が実装された本文が含まれます。
+
+      --nolangwarn:その言語がサポートされていない場合、外部のテキストベースのツールを直接実行します。
+
+      --nostructurewarn:構造エラーが見つかった場合、外部のテキストベースのツールを直接実行します。
+
+      --include-format-change:インデントと EOL のみが変更されている変更が含まれます。
+                               これには、行頭の空白やタブの差分と
+                               EOL の差分が含まれます。また、宣言の最初の空白行も含まれます。
+                               デフォルトでは、マージ/差分を簡略化するために、これらの差分はすべて無視されます。
+
+      --log-external-parser:外部パーサーをデバッグするために、ファイルコンテンツのログ記録を有効にします。
+
+      contributorSymbolicNames:<srcSymbolicName> <dstSymbolicName> <baseSymbolicName>
+            srcSymbolicName:{-sn | --srcsymbolicname}=<symbolicname>
+            dstSymbolicName:{-dn | --dstsymbolicname}=<symbolicname>
+            baseSymbolicName:{-bn | --basesymbolicname}=<symbolicname>
+
+      generalOptions:[<defaultEncoding>] [<resultEncoding>] [<fileLanguage>] [<virtualMachine>]
+                      [<externalMergeTool>] [<external2WayMerge>] [<externalDiffTool>]
+                      [<tabSpaces>] [<extrainfofile>] [<progress>]
+            defaultEncoding:{-e | --defaultencoding}=<encoding>
+            resultEncoding:{-re | --resultencoding}=<encoding>
+                  encoding:{ascii | ansi | unicode | bigendian | utf7 | utf8 | utf8bom | utf32be | utf32le}
+            fileLanguage:{-l | --fileslanguage}={csharp | vb | java | cplusplus | php}
+            virtualMachine:{-vm | --virtualmachine}=<Java 仮想マシン実行ファイルのパス>
+            externalParser:{-ep | --externalparser}=<外部パーサーを実行するコマンド>
+            externalMergeTool:{-emt  | --externalmergetool}={default | <ユーザー定義ツール>}
+            external2WayMerge:{-e2mt | --external2waymergetool}={ <ユーザー定義ツール>}
+            externalDiffTool:{-edt  | --externalDiffTool}={default | <ユーザー定義ツール>}
+            tabSpaces:{-ts   | --tabspaces}={4 | <ユーザー定義>}
+            extrainfofile:{-ei   | --extrainfofile}={追加のマージ情報が含まれるファイルへのパス}
+            progress:{-pg   | --progress}={マージプロセス全体の進行状況を表す文字列}
+
+      contributorExtendedInfo:<contributorOwnerName> <contributorBranchName>
+                               <contributorChangeset> <contributorComment>
+
+      contributorOwnerName:<srcOwnerName> <dstOwnerName> <baseOwnerName>
+        srcOwnerName:{-so | --srcowner}=<ownername>
+        dstOwnerName:{-do | --dstowner}=<ownername>
+        baseOwnerName:{-bo | --baseowner}=<ownername>
+
+      contributorBranchName:<srcBranchName>; <dstBranchName> <baseBranchName>
+        srcBranchName:{-sb | --srcbranch}=<name>
+        dstBranchName:{-db | --dstbranch}=<branchname>
+        baseBranchName:{-bb | --basebranch}=<branchname>
+
+      contributorChangeset:<srcChangeset> <dstChangeset> <baseChangeset>
+        srcChangeset:{-sc | --srccset}=<changeset>
+        dstChangeset:{-dc | --dstcset}=<changeset>
+        baseChangeset:{-bc | --basecset}=<changeset>
+
+      contributorComment:<srcComment> <dstComment> <baseComment>
+        srcComment:{-sm | --srccomment}=<changeset>
+        dstComment:{-dm | --dstcomment}=<changeset>
+        baseComment:{-bm | --basecomment}=<changeset>
+
+
+      例:
+
+        semanticmergetool -b=base.cs -d=dst.cs -s=src.cs -r=result.cs
+
+        semanticmergetool base.cs dst.cs src.cs result.cs --fileparamorder=b;d;s;r
+
+        semanticmergetool -b=base.cs -d=dst.cs -s=src.cs -r=result.cs
+          -e2mt=""kdiff3.exe #sourcefile #destinationfile -o #output""
+
+        semanticmergetool -b=base.cs -d=dst.cs -s=src.cs -r=result.cs
+          -emt=""kdiff3.exe #basefile #sourcefile #destinationfile -o #output""
+
+== UsageCaption ==
+SemanticMerge ツールの使用方法
+
+== WarningNoExternalDiffTool ==
+差分の表示を続行するための外部の差分ツールが指定されていません。
+
+== WarningNoExternal2MergeTool ==
+選択した競合のコンテンツをマージするための外部の 2 方向マージツールが指定されていません。
+
+== WarningNoExternalMergeTool ==
+マージを続行するための外部のマージツールが指定されていません。
+
+== WarningExternalToolNotFound ==
+ツールが見つかりません。有効なツールを導入してください
+
+== WarningSemanticToolNotFound ==
+SemanticMerge ツールが見つかりません。有効なツールを導入してください
+
+== WarningConfigFileNotFound ==
+設定ファイルが見つかりません。有効なファイルを導入してください
+
+== WarningInvalidJavaVirtualMachinePath ==
+Java 仮想マシンのパスが見つかりません
+
+== WarningInvalidTabSize ==
+タブのサイズが無効です
+
+== RenameWindowTitle ==
+ソースの名前変更
+
+== RenameWindowLabel ==
+{0} の新しい名前:
+
+== RenameButton ==
+名前変更
+
+== CancelButton ==
+キャンセル
+
+== PendingConflictsToSolve ==
+{0}/{1}  -  解決する競合:{2}
+
+== NextConflictButtonTooltip ==
+次の競合 (Ctrl+PagDown)
+
+== PreviousConflictButtonTooltip ==
+前の競合 (Ctrl+PageUp)
+
+== SaveAndExitExplanation ==
+結果ファイルを保存してツールを終了します
+
+== SaveAndExitButton ==
+保存して終了(_X)
+
+== MergeWaitingAnimation ==
+競合を計算しています。お待ちください...
+
+== SyncDeclarationMenuItem ==
+宣言を同期
+
+== OptionsButton ==
+オプション
+
+== FindMenuItem ==
+検索...
+
+== OptionsMenuItem ==
+オプション
+
+== ConfigureFontsAndColorsMenuItem ==
+フォントと色を設定...
+
+== DisplayInfoAboutThisMerge ==
+このマージに関する情報を表示
+
+== LeftEncodingMenuItem ==
+左のエンコーディング
+
+== RightEncodingMenuItem ==
+右のエンコーディング
+
+== SkipFormatChangesMenuItem ==
+フォーマットの変更をスキップ
+
+== ReformatSourceCode ==
+ソースコードを再フォーマット
+
+== ConfigurationMenuItem ==
+設定...
+
+== GetLicense ==
+ライセンスを取得
+
+== ShowUserGuideMenuItem ==
+ユーザーガイド
+
+== UserGuideURL ==
+https://semanticmerge.com/documentation
+
+== ShowIntroGuideMenuItem ==
+導入ガイドを表示
+
+== OpenSamplesDirectoryMenuItem ==
+サンプルを開く
+
+== FollowSemanticmergeMenuItem ==
+@semanticmerge をフォロー
+
+== AboutSemanticmergeMenuItem ==
+詳細とライセンス
+
+== VisualDiffWindowTitle ==
+視覚的な差分
+
+== VisualDiffExplanation ==
+差分について説明するグラフィックを表示します
+
+== VisualDiffOptionExplanation ==
+差分を表示するには、2 つの宣言を選択し、「差分」をクリックします
+
+== VisualDiffControlExplanation ==
+拡大縮小するには、Ctrl キーを押しながらスクロールホイールを動かします
+
+== ZoomInExplanation ==
+グラフィックを拡大。Ctrl キーを押しながらスクロールホイールを動かして拡大することもできます
+
+== ZoomOutExplanation ==
+グラフィックを縮小。Ctrl キーを押しながらスクロールホイールを動かして縮小することもできます
+
+== VisualMergeWindowTitle ==
+視覚的なマージ
+
+== VisualMerge ==
+視覚的なマージ(_V)
+
+== VisualMergeExplanation ==
+マージについて説明するグラフィックを表示します
+
+== RunTextMerge ==
+テキストのマージを実行(_T)
+
+== RunTextMergeExplanation ==
+従来型のテキストベースのマージツールを実行します
+
+== RestartMerge ==
+マージを再実行(_E)
+
+== RestartMergeExplanation ==
+すべての変更を破棄し、マージ操作を再実行します
+
+== ProcessAllMerges ==
+すべてのマージを処理
+
+== ProcessAllMergesExplanation ==
+できるだけ多くの宣言を自動的にマージし、各非自動マージ宣言につき外部のテキストベースのツールを実行します
+
+== VisualDiffButton ==
+視覚的な差分(_V)
+
+== RestartDiffButton ==
+差分を再実行(_R)
+
+== RestartDiffExplanation ==
+差分操作を再実行します
+
+== RunTextDiffButton ==
+テキスト差分を実行(_T)
+
+== RunTextDiffExplanation ==
+従来型のテキストベースの差分ツールを実行します
+
+== OutlinePanelVisualDiffButton ==
+視覚的な差分(_V)
+
+== OutlinePanelRunTextDiffButton ==
+テキスト差分を実行(_T)
+
+== DivergentMoveDetails ==
+分岐する移動の詳細
+
+== ShowMergeInfoExplanation ==
+マージ情報を表示します
+
+== MergeInfoResultFile ==
+結果ファイル:
+
+== MergeInfoLanguage ==
+言語:
+
+== MergeInfoBaseFile ==
+ベースファイル
+
+== MergeInfoSourceFile ==
+ソースファイル
+
+== MergeInfoDestinationFile ==
+同期先ファイル
+
+== MergeInfoFileName ==
+名前:
+
+== MergeInfoFilePath ==
+パス:
+
+== MergeInfoExtraInfo ==
+追加情報
+
+== SemanticOutline ==
+セマンティックアウトライン
+
+== ExpandSemanticOutlineTooltip ==
+セマンティックアウトラインを展開
+
+== CollapseSemanticOutlineTooltip ==
+セマンティックアウトラインを折りたたむ
+
+== PendingConflicts ==
+解決する競合 ({0})
+
+== PendingConflictsExplanation ==
+手動で解決する必要がある競合を示します:「相手側の変更」と「自分の変更」の両方で同じ要素が変更されているときに発生します
+
+== DiffExplanation ==
+この要素の差分を示します
+
+== SourceDifferences ==
+ソース - 相手側の変更 ({0})
+
+== SourceDifferencesExplanation ==
+マージ元 (相手側) のコードで行われた変更。ベース共同作成者とソース共同作成者の間の差分を示します
+
+== DestinationDifferences ==
+同期先 - 自分の変更 ({0})
+
+== DestinationDifferencesExplanation ==
+作業中のコピー (自分) に対する変更。ベース共同作成者と同期先の共同作成者の間の差分を示します
+
+== NoConflictMessageText ==
+チェックする競合がありません。
+
+== NoConflictMessageDetail ==
+ツールがユーザーの介入なしで解決できることを意味します。
+
+おそらくこれが表示されているのは、いずれにしてもそのマージをレビューしたほうが良いからです。
+
+ただし、競合の解決をできるだけ自動化することを望んでいる場合は:semanticmerge コマンドラインに「-a」引数を追加してください。
+
+== MaximizeButtonLeftTooltip ==
+左パネルを最大化します
+
+== RestoreButtonLeftTooltip ==
+左パネルを復元します
+
+== MaximizeButtonSrcTooltip ==
+ソースパネルを最大化します
+
+== RestoreButtonSrcTooltip ==
+ソースパネルを復元します
+
+== MaximizeButtonDstTooltip ==
+同期先パネルを最大化します
+
+== RestoreButtonDstTooltip ==
+同期先パネルを復元します
+
+== MaximizeButtonBaseTooltip ==
+ベースパネルを最大化します
+
+== RestoreButtonBaseTooltip ==
+ベースパネルを復元します
+
+== MaximizeButtonResultTooltip ==
+結果パネルを最大化します
+
+== RestoreButtonResultTooltip ==
+結果パネルを復元します
+
+== CopyToClipboard ==
+クリップボードにコピー
+
+== BackButtonTooltip ==
+戻る
+
+== FindMatchesButton ==
+一致を検索(_M)
+
+== DiffMatchButton ==
+差分(_D)
+
+== MatchButton ==
+一致(_M)
+
+== UnMatchButton ==
+一致を分離(_U)
+
+== SelectElementToMatch ==
+一致させる要素を選択
+
+== EditResultExplanation ==
+すべての競合が解決されるまで結果ファイルは編集できません。{0} 件の競合が残っています。
+
+== KeepSourceExplanation ==
+ソースの変更を保持します
+
+== KeepDestinationExplanation ==
+同期先の変更を保持します
+
+== KeepBothExplanation ==
+両方の変更を保持します
+
+== RenameExplanation ==
+同期先の名前を変更します
+
+== MergeExplanation ==
+この競合を解決するために外部のテキストマージツールを実行します
+
+== TwoWayMergeExplanation ==
+この競合を解決するために外部の 2 方向マージツールを起動します
+
+== DisplayConfigurationWindowExplanation ==
+設定ウィンドウを表示します
+
+== DisplayAboutWindowExplanation ==
+情報ウィンドウを表示します
+
+== HideUnchangedSelectionExplanation ==
+変更ありの宣言のみを表示します
+
+== ShowUnchangedSelectionExplanation ==
+すべての宣言を確認できるように、ツリーファイル全体を表示します
+
+== GroupUnchangedSelectionExplanation ==
+変更ありの宣言を表示し、残りの宣言を変更なしのものにグループ化します
+
+== ExplainMoveMoveExplanation ==
+ソースと同期先の共同作成者で、その要素がどのようにして別の場所に移動されたかについて説明します
+
+== SourceFileExplanation ==
+ソース共同作成者のファイル
+
+== BaseFileExplanation ==
+ベースファイル、マージ中に使用されるソースと同期先のファイルの祖先
+
+== DestinationFileExplanation ==
+同期先の共同作成者のファイル
+
+== FindMatchesExplanation ==
+追加済みと削除済みを一致させるために一致ウィンドウを開きます
+
+== UnmatchExplanation ==
+一致を分離 - ベースとこの共同作成者の間でメソッドが間違って一致していた場合は、それらの一致を分離し、追加済み/削除済みに変換して、一致を手動で修正します
+
+== MatchExplanation ==
+その一致を選択された項目に適用します
+
+== InvalidEmail ==
+無効なメールアドレス
+
+== InvalidReport ==
+無効なレポート
+
+== EnterValidEmailAndReport ==
+メールアドレス、件名、コメントを入力してください。
+
+== EnterValidEmailAddress ==
+有効なメールアドレスを入力してください。
+
+== ErrorReadingSampleTitle ==
+サンプル読み取りエラー
+
+== ErrorReadingSampleDescription ==
+ファイル {0} からサンプルを解析できません:{1}
+
+== SamplesWindowExplanation ==
+すべてのサンプルケースで、従来のマージツールを実行して、それを SemanticMerge と比較することをお勧めします
+
+== ShowIntroGuideButton ==
+導入ガイドを表示(_G)
+
+== RunTextMergetoolButton ==
+テキスト
+
+== RunSemanticMergetoolButton ==
+セマンティック
+
+== WelcomeSemantic20 ==
+SemanticMerge 2.0 へようこそ
+
+== WelcomeExplanation1 ==
+Semantic は異なるタイプのマージツールです。マージを計算する前にコードを解析することで、ほぼすべての競合を検出して自動的に解決できます。
+
+== WelcomeExplanation2 ==
+今まで使ってきたほとんどのマージツールとは異なるため、マージを極め、ツールを最大限活用するために、少し時間をかけてサンプルケースにざっと目を通してみる価値はあります。
+
+== ExploreTheSamplesButton ==
+サンプルを見る(_E)
+
+== ReadTheIntroGuideLinkText1 ==
+SemanticMerge の基礎の詳細については、
+
+== ReadTheIntroGuideLinkText2 ==
+導入ガイドをご覧ください
+
+== ReadTheIntroGuideLinkText3 ==
+ (読み終わるまで 3 分)。
+
+== DontShowThisDialogOnStartup ==
+起動時にこのダイアログを表示しない(_S)
+
+== RunTheToolButton ==
+ツールを実行(_T)
+
+== ParsingErrorsLabel ==
+これらのファイルを処理中にいくつかの問題が見つかりました。
+
+== ShowParsingErrorsButton ==
+解析エラーを表示
+
+== ReleaseNotesBaseUrl ==
+https://www.plasticscm.com/download/releasenotes
+
+== MultifileCurrentFile ==
+{1} 個のうち {0} 個目のファイル:
+
+== MultifileCurrentFileExplanation ==
+これが現在のファイルです。ファイルを変更するには、競合のナビゲーションボタンを使用するほか、複数ファイルの移動を使用することもできます。
+
+== Options ==
+オプション
+
+== EditorOptions ==
+エディターのオプション

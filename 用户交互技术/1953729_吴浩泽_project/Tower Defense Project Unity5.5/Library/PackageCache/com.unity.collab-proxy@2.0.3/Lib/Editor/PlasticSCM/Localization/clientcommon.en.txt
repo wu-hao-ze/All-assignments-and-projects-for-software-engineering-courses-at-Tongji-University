@@ -1,0 +1,973 @@
+﻿== AddNotAllowedPathIsFreeByTransformerRule ==
+The item '{0}' cannot be added. The path '{0}' is already in use in the server but it's free on the client because of the transformer rule '{1}'.
+
+== AddedItemCannotBeLocked ==
+The item '{0}' cannot be locked because it's an added item. (Note: if the item doesn't appear as an added item then the workspace could be corrupted. Please contact with support)
+
+== AdminReadonlyNotSupported ==
+The server '{0}' version doesn't support the admin readonly command. Please upgrade the server version.
+
+== AttNameField ==
+Attribute name
+
+== BisyncMissingChangesPull ==
+There are missing revisions to pull from the foreign SCM (the {0} is not the last foreign change). All the foreign SCM changes must be pulled before pushing the Unity VCS changes.
+
+== BisyncMissingSubmoduleConfiguration ==
+The equivalent Git repository for '{0}' has not been defined. The xlink cannot be pushed. Please add the equivalence inside the submodules section in the configuration file '{1}'.
+
+== BisyncMissingSubmoduleTarget ==
+The commit {0}@{1} is not synchronized. The repository {1} must be synchronized first.
+
+== BisyncMissingXlinkedCset ==
+The changeset {0}@{1} is not synchronized. The repository {1} must be synchronized first.
+
+== BothDirectoriesMustBeOnSameMountToMove ==
+Both source and destination directories must be on the same mount point to move. {0}, {1}.
+
+== BrNameField ==
+Branch name
+
+== BranchDoesnotexist ==
+Specified branch {0} does not exist
+
+== BranchOrMarkerChangesetDoesntexist ==
+The label or branch {0} that you specified is not valid. The labeled changeset (or head of branch) {1} does not exist.
+
+== BranchParentDoesnotexist ==
+Specified branch {0} has no parent
+
+== BusyWorkspace ==
+The workspace '{0}' is busy. Try later
+
+== CannotDoChangeEditedXlink ==
+Can't perform a checkout in an edited xlink.
+
+== CannotDoChangeReadonlyXlink ==
+It is not possible to modify items in a readonly xlink.
+
+== CannotDoChangeUnresolvedXlink ==
+It is not possible to modify items inside an unresolved xlink.
+
+== CannotEditXlinkRoot ==
+Can't edit the xlink root.
+
+== CannotIncomingChangesMergeInProgress ==
+Can't get new changes (Incoming Changes) because there is a merge in progress. You need to finish the merge first.
+In progress merge: {0} from cset {1}
+
+== CannotIncomingChangesMergePendingToConfirm ==
+Can't get new changes (Incoming Changes) because you need to checkin the current merge first. You can checkin your changes to a new branch or alternatively merge from the last changeset of the current branch.
+
+== CannotMergeIncomingChangesInProgress ==
+Cannot start a merge because there is an Incoming Changes operation in progress. You must complete it first.
+
+== CannotMergeMergeInProgress ==
+A new merge cannot be started because there is already a merge in progress. Finish it before starting a new one.
+In progress merge: {0} from cset {1}
+
+== CannotMergetoWithConflicts ==
+It's possible that the Unity VCS server you are connecting to doesn't support this new feature. In order to use the server-side merge (or "merge-to" with conflict resolution), you need version 7.0.16.2077 or higher. If this is your case, upgrade your server installation. Otherwise, check the server log for more information.
+
+== CannotPerformPartialCheckin ==
+Cannot perform the checkin operation. All merge changes must be checked in together to ensure that the merge traceability is correctly stored. Please repeat the operation including all merge changes.
+
+== CannotPerformPartialUndo ==
+Cannot perform the undo operation. All merge changes must be undone together. Please repeat the operation including all or none of its changes.
+
+== CannotSwitchWithPendingChanges ==
+Cannot perform the switch to branch/label/changeset/shelve since there are pending changes. Please review the pending changes and retry the operation again.
+
+== CannotUndoAdded ==
+Added '{0}' can't be undo because contains non-added changes
+
+== CannotUndoCopied ==
+A copied directory with content can't be undone
+
+== CannotUndoMoved ==
+The move from {0} to {1} can't be undone because {2} has been removed
+
+== CannotUpdateWithPendingChanges ==
+The workspace cannot be updated since there are pending changes. Please review the pending changes and retry the operation again.
+
+== CannotUpdateWorkspaceContainsChanges ==
+There aren't any new changesets on your current configuration to update to. You have pending changes on your workspace. If you are trying to get the latest changes, try to undo those changes instead of running the update.
+
+== CantArchiveAnAlreadyArchivedRevision ==
+Can't archive an already archived revision. {0}
+
+== CantArchiveCheckedoutrev ==
+Can't archive a checked out revision. {0}
+
+== CantArchiveDirectory ==
+Can't archive a directory. {0}
+
+== CantArchiveFromDifferentRepositories ==
+Can't archive revisions from different repositories on a single call
+
+== CantDiffBranchNoParent ==
+Can't diff branch {0} because its parent changeset couldn't be found.
+
+== CantDiffCsetNoParent ==
+Can't diff cset {0} because it doesn't have a parent.
+
+== CantEditAndDeleteReview ==
+Arguments -e (edit) and -d (delete) cannot be used together.
+
+== CantFindDataForArchived ==
+Can't find data for any of the archived revisions you requested
+
+== CantRenameElementAlreadyExist ==
+Unable to rename "{0}" to "{1}" as an element with this name already exists
+
+== CantRestoreNonArchivedData ==
+Can't restore data for {0} because it's not archived. If you're sure data has been archived for this revision, check if the server is resolving the archived data and disable it in order to restore
+
+== CantRevertToDifferentItem ==
+The item can't be reverted because the specified revision '{0}' references another item.
+
+== CantSetAclOnChangesets ==
+Can't set Acl for changesets
+
+== CantSetAclOnItems ==
+Can't set Acl for items
+
+== CantSetAclOnRevisions ==
+Can't set Acl for revisions
+
+== CantSetAclOnShelvesets ==
+Can't set Acl for shelvesets
+
+== CantSetAclOnWorkspaces ==
+Can't set Acl for workspaces
+
+== CantUpdateBaseChangesetBranchWithRevisions ==
+Can't update base changeset for branch because it must be empty.
+
+== ChangeMustBeSelected ==
+To select the change '{0}' the change '{1}' must be selected too.
+
+== ChangelistAddtoBuiltinmergeEx ==
+Cannot add a change to a built-in changelist: '{0}'.
+
+== ChangelistAlreadyExist ==
+A changelist with the name {0} already exists.
+
+== ChangelistCannotDeleteBuiltinEx ==
+Deleting a changelist of type 'built-in' is not allowed.
+
+== ChangelistCannotEditBuiltinEx ==
+Editing a changelist of type 'built-in' is not allowed.
+
+== ChangelistCannotShowBuiltinEx ==
+Cannot show contents of built-in changelist: '{0}'. To show 'built-in' changelists, use 'cm status --changelist' command.
+
+== ChangelistCorruptedStorageFile ==
+Cannot load changelist info data file. Maybe the file has an invalid format.
+
+== ChangelistDeletefromBuiltinEx ==
+Cannot delete change from a 'built-in' changelist: '{0}'.
+
+== ChangelistInvalidName ==
+Invalid name for changelist: '{0}'.
+
+== ChangelistNotFound ==
+Changelist {0} does not exist
+
+== ChangesetMoveRepositoryMismatch ==
+The targeted changeset and the destination branch are in different repositories.
+
+== ChangetNotLoadOnConf ==
+The changeset {0} is not loaded on the current workspace configuration.
+
+== CheckinTooManyIgnoredErrors ==
+Too many changes to checkin cannot be checked in. The checkin cannot be done. Please review changes and try again.
+
+== CherryPick ==
+Cherry pick
+
+== ClientconfWithErrors ==
+The client configuration file "client.conf" contains errors: {0}
+
+== CloakedCannotBeDeleted ==
+The item cannot be deleted '{0}' because it is cloaked.
+
+== CloakedDstCannotBeMoved ==
+The item cannot be moved to '{0}' because '{0}' is cloaked.
+
+== CloakedSrcCannotBeMoved ==
+The item cannot be moved '{0}' because it is cloaked.
+
+== CloudEditionInvalidCredentials ==
+Username or password are not valid.
+
+== CmdBadPosition ==
+The trigger position must be a whole number.
+
+== CmdErrorInvalidWebtriggerUri ==
+The specified URI '{0}' is not valid.
+
+== CmdErrorNoSuchChangeset ==
+Changeset {0} doesn't exist in repository {1}.
+
+== CommentField ==
+Comment
+
+== CompMethodError ==
+{0} isn´t a valid comparison method
+
+== ContentMustBeUndoCheckedout ==
+To perform the undo checkout operation on directory '{0}' its content must be included in the operation.
+
+== CorruptConfigurationFile ==
+The configuration file '{0}' cannot be read, because its data is invalid or corrupt.
+
+== CsetTreeCannotBeLoaded ==
+The changeset '{0}' content cannot be loaded.
+
+== DaysAgo ==
+{0} days ago
+
+== OneDayAgo ==
+1 day ago
+
+== DeleteNotAllowedTransfomerRuleInside ==
+The item '{0}' cannot be deleted because it contains the transformer rule '{1}'.
+
+== DestinationField ==
+Destination
+
+== DestinationMustBeCheckedin ==
+The move source '{0}' can't be checkedin without check-in the destination '{1}'.
+
+== DifferentRepositoryBrSpecs ==
+Can't specify branches from different repositories
+
+== DifferentRepositoryCsSpecs ==
+Can't specify changesets from different repositories
+
+== DifftoolsUncorrectDefined ==
+Error in diff tool "{0}" execution. Diff tools in client.conf are incorrectly defined.
+
+== SpreadsheetcompareFailed ==
+Failed to run SpreadsheetCompare.exe. Command: "{0}".
+
+== DirConflictsCannotBeApplied ==
+{0} conflicts cannot be resolved with the given resolution. Please try a different resolution for those conflicts or resolve another conflict first.
+
+== DiscardedDeletedWithDiscardedMoved ==
+The deleted '{0}' cannot be checked in, because it contains the moved from '{1}' to '{2}' that was discarded.
+
+== DmnotavailableWithDir ==
+The dm command is available only to compare files, not directories.
+
+== DuplicatedBrSpecified ==
+Specified branch list contains duplicated entries:{0}. Please remove duplicated entries.
+
+== DuplicatedItemOnWk ==
+This item is loaded twice at {0} and {1}. This can be the result of an incomplete 'move' operation. Please remove one of the two instances.
+
+== EncodingError ==
+{0} isn't a valid text encoding
+
+== ErrorAclNoPermissions ==
+No permissions specified
+
+== ErrorAclNoSuchPermission ==
+No such permission: {0}
+
+== ErrorAclNoSuchUserOrGroup ==
+No such user or group. {0}
+
+== ErrorAclNoSuchUserOrGroupSpecified ==
+No user or group specified.
+
+== ErrorAclWrongBranchesArg ==
+Incorrect "--branches" parameter. Please check that there aren't whitespaces between branch names, or use the quotes to wrap the whole parameter.
+  Examples:
+    --branches=/main,/task001
+    --branches="/main, /task001"
+    "--branches=/main, /task001"
+  
+
+== ErrorArchiveCantRetrieveData ==
+Can't retrieve archived volume, please configure the externaldata.conf file with the right paths to locate the archived data. Base file name: {0}. Comment: {1}. File: {2}
+
+== ErrorArchiveCantRetrieveTrimmedData ==
+Can't retrieve the content of the file '{0}' because the revision (id:{1}) was trimmed and its content is no longer available.
+
+== ErrorCannotRenameDynamicWk ==
+Dynamic workspaces cannot be renamed.
+
+== ErrorCantImportInvalidPackage ==
+Invalid replication package. No valid version signature found
+
+== ErrorClientconfignotfound ==
+Unity VCS client is not correctly configured for the current user: Client config file {0} not found. Please execute 'cm configure' to perform a text mode configuration or '{1} --configure' for graphical mode.
+
+== ErrorDiffType ==
+Differences between items of different types cannot be calculated
+
+== ErrorEmptySelector ==
+Selector cannot be empty.
+
+== ErrorInvalidPath ==
+The given path's format is not supported.
+
+== ErrorMoveSrcDstEqual ==
+Unable to move {0}. The source path and destination path are the same
+
+== ErrorNoRepositoriesFound ==
+No repositories found on any server
+
+== ErrorPartialConfigureChangeCannotApply ==
+The requested operation cannot be applied for the path {0} (already loaded/unloaded).
+
+== ErrorPartialConfigurePathNotFound ==
+The path {0} was not found.
+
+== ErrorPartialConfigureWrongFormat ==
+Expected format not found. Check command usage/help for more information.
+
+== ErrorReplicatePackageDoesntExist ==
+The package {0} doesn't exist
+
+== ErrorSyncNoAuthorPermission ==
+The synchronize operation needs the chgOwner permission to keep the original owner of the pulled changes. Please ask your administrator to grant you the chgOwner permission for the repository.
+
+== ErrorTwoCsetWithPathDiff ==
+Unable to calculate differences between '{0}' and '{1}'.
+
+== ErrorUpdateTrailingDots ==
+Windows does not allow trailing dots on file names.
+
+== ExpansionRulesHeader ==
+Branch expansion rules:
+
+== FailConnectionServer ==
+Connection to server {0} could not be established
+
+== FastChgRepNotAllowedOnTransWk ==
+The fast update cannot be used to change the target repository using transformer rules. Please use the standard update.
+
+== FastNotAllowedRuleRestricion ==
+The fast update is not allowed, because the server change '{0}' could not be applied on the workspace with the transformer rule '{1}'. Please update the workspace transformer rules if needed and use the standard update.
+
+== FastUpdCloakedError ==
+The fast update cannot be used with cloaked rules. Please use the standard update.
+
+== FastUpdConflictsError ==
+Cannot perform a fast update since the local and the server changes are in conflict.
+
+== FastUpdPendingChangesError ==
+Cannot perform a fast update since there are pending changes. Please review the pending changes and try the operation again.
+
+== FastUpdPendingMergesError ==
+Cannot perform a fast update since there are pending merge links. Please review the pending merges and try the operation again.
+
+== FastUpdateApplyChangesError ==
+Unable to run fast update in the workspace: '{0}'. Please undo all local changes, disable the fast update option and launch the update again.
+
+== FieldTooLong ==
+{0} is too long. Its current length is {1}, whereas the maximum allowed length is {2}
+
+== FieldEmpty ==
+{0} cannot be empty.
+
+== FileTypesFileNotFound ==
+Cannot find filetypes file {0}
+
+== FindNeedRepositories ==
+Not on workspace. "on repositories" clause is needed on the query.
+
+== FormatterError ==
+The field {0} is not valid for the specified object type
+
+== GameUiCiHeadOutOfDateError ==
+The checkin operation cannot be completed because new changes were created in the repository '{0}' since the operation began. Please retry the checkin operation to take into account the new server changes.
+
+== GameuiCiInsideUnresolvedXlinkNotAllowed ==
+The xlink '{0}' cannot be resolved. Changes under an unresolved xlink cannot be checked in.
+
+== GameuiCoBrMissingXlink ==
+No change can be done inside the xlink '{0}' because it is not loaded anymore in the server. Please update your workspace configuration.
+
+== GameuiCoBrUnresolvedXlink ==
+No change can be done inside the xlink '{0}' because it cannot be resolved right now due to the error: {1}
+
+== GenericError ==
+An error has occurred on the server {0}
+
+== GetRevisionDirectoryNotSupported ==
+GetRevision is not supported for directories. In order to get the contents of a directory, please load it in your workspace rules.
+
+== GluonPartialUpdateToDifferentBranch ==
+The update operation cannot continue. The target changeset must be in the current workspace branch: {0}.
+
+== HoursAgo ==
+{0} hours ago
+
+== OneHourAgo ==
+1 hour ago
+
+== IncomingChangesCannotCalculateMerge ==
+The incoming changes cannot be calculated. Please check if the workspace changeset was deleted or contact support for further info.
+
+== IncomingChangesCloakedCheckoutsNotSupported ==
+The workspace contains cloaked checkouts. They need to be undone to continue with the Incoming Changes. Please undo the cloaked checkouts and retry the operation.
+
+== IncomingChangesDontMerge ==
+The update operation detected conflicts. The operation cannot continue since it was run with the --dontmerge option.
+
+== IncomingChangesNotSupported ==
+The server {0} doesn't support the Incoming Changes operation. Please upgrade the server or just run a regular merge/update to get the latest changes.
+
+== IncomingChangesReadonlyXlinksNotSupported ==
+Read-only Xlinks changes are not currently supported by the Incoming Changes. Please just run a regular merge to get the latest changes.
+
+== IncomingTansformerRulesNotSupported ==
+The workspace contains transformer rules. The transformer rules are not currently supported by the Incoming Changes. Please update your workspace undoing any pending change first. If you have pending changes that want to preserve, you can shelve them before undoing them and apply the shelf after the update.
+
+== IncomingWxlinkBackwardEditionNotSupported ==
+The writable Xlink '{0}' was edited to point to a previous (older) changeset. This edition of a writable Xlink is not currently supported by the Incoming Changes. Please update your workspace undoing any pending change first. If you have pending changes that want to preserve, you can shelve them before undoing them and apply the shelf after the update.
+
+== IncomingChangesSubbranchesNotSupported ==
+You are working on a sub-branch. This happens when you are loading a changeset that is not a parent of the head of the branch. Sub-branches are not currently supported by the Incoming Changes. Please run a merge from cs:{0} to get the latest changes.
+
+== IncompatibleCmdOptions ==
+Incompatible options: {0}.
+
+== IncorrecBrspec ==
+Incorrect branch specification
+
+== IncorrectCiDateFormat ==
+Date '{0}' could not be parsed using format '{1}'.
+
+== IncorrectExtensionConfiguration ==
+Incorrect issue tracker configuration data at line {0}: {1}
+
+== IncorrectExtensionConfigurationParameter ==
+Incorrect issue tracker parameter configuration at line {0}: {1}
+
+== IncorrectSelector ==
+The selector isn't correctly defined.
+
+== IncorrectSelectorErrorMultiplePathsForRep ==
+The selector isn't correctly defined. There are multiple paths rules for repository {0}.
+
+== IncorrectSelectorMultipleRules ==
+The selector isn't correctly defined. There are multiple repository rules.
+
+== IncorrectSelectorNoRule ==
+The selector isn't correctly defined. There is no repository rule.
+
+== IncorrectSelectorParamInvalidMountPoint ==
+The selector isn't correctly defined. The repository {0} can't have a mount point ({1}).
+
+== IncorrectSelectorParamRepDoesntexist ==
+The selector isn't correctly defined. The specified repository doesn't exist: {0}.
+
+== IncorrectSelectorParamRepServerCannotBeReached ==
+The server ({0}) associated to the specified repository {1} can't be reached.
+
+== IncorrectSelectorParamRepnameCantBeEmpty ==
+The selector isn't correctly defined. The repository name can't be empty.
+
+== Incorrectspec ==
+Incorrect object specification {0}
+
+== InsensitiveDuplicatedItem ==
+The items {0} and {1} can't be loaded at the same time on an insensitive file system. The item {0} is discarded.
+
+== IntervalMerge ==
+Interval merge
+
+== InvalidCharsInName ==
+{0} cannot contain any of the following characters:
+               {1}
+
+== InvalidExpansionRule ==
+The expansion rule '{0}' is not valid.
+
+== InvalidExpansionRuleRepNotMatch ==
+The expansion rule '{0}' is not valid, because the branch '{1}' must be from repository '{2}' instead of '{3}'.
+
+== InvalidFieldError ==
+The field '{0}' is not valid.
+
+== InvalidFormatString ==
+Invalid format string
+
+== InvalidMergeDstBrSpec ==
+A changeset spec is not a valid merge destination.
+
+== InvalidMergeDstSpec ==
+The merge destination spec is not valid. Please use a changeset spec or branch spec instead.
+
+== InvalidMergespec ==
+Invalid specification {0}
+
+== InvalidMountPoint ==
+The mount point '{0}' for repository {1} is not valid on workspace '{2}'. It could be out-of-date.
+
+== InvalidMoveDstPriv ==
+Can't move a controled item to a private directory
+
+== InvalidWorkingMode ==
+Invalid working mode: {0}
+
+== IsNotAnXlink ==
+'{0}' is not an xlink.
+
+== ItemAlreadyExistsOnWkWithDifferentTypeDir ==
+The item {0} already exists on workspace but is a directory instead of a file, so it can't be updated
+
+== ItemAlreadyExistsOnWkWithDifferentTypeFile ==
+The item {0} already exists on workspace but is a file instead of a directory, so it can't be updated
+
+== ItemAlreadyLocked ==
+The item '{0}' cannot be locked because it is exclusively checked out {1}.
+
+== ItemAlreadyLockedOnMergeFromHead ==
+'{0}' is already locked {1} so the merge can't continue. The file needs to be unlocked or you need to undo your changes to continue. In the future, you can avoid this error by checking out files that require locking before you make changes.
+
+== ItemCannotBeFoundOnRep ==
+The item '{0}' (ItemId:{1}) cannot be found on the repository '{2}'. You are probably working with an out-of-date workspace. Please update it.
+
+== ItemLockOutOfDateOnMergeFromHead ==
+'{0}' can't be locked. It is not the newest revision, and locks can only be done on the latest version. You can undo your changes and update again. In the future, you can avoid this error by checking out files that require locking before you make changes.
+
+== ItemMustBeUndoCheckedout ==
+Cannot undo '{0}' because there is a dependency on '{1}'. Add '{1}' to the command arguments and retry.
+
+== ItemNameField ==
+Item name
+
+== ItemPathField ==
+Item path
+
+== JustNow ==
+Just now
+
+== LockCopiedItemsNotSupported ==
+The server {0} doesn't support lock copied items. Please upgrade the server.
+
+== LogOnPrivateNotCsRep ==
+To execute log command on private path you need to specify a changeset or repository full spec.
+
+== LsItemNotFound ==
+Can't resolve the selector for the item {0}
+
+== LsItemNotFoundSelector ==
+Can't resolve the selector for the item {0}. Since you're specifying a custom selector remember you must use a path in 'repository format': use /src instead c:\myworkspace\src
+
+== MainBranchesNotAllowed ==
+Top-level branches are not allowed in this edition, only child branches can be created.
+
+== Merge ==
+Merge
+
+== MergeAddNotAllowedPathFreeByRule ==
+The item '{0}' cannot be added. The path '{0}' is already in use in the server but it's free on the client because of the transformer rule '{1}'. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeDeleteNotAllowedRuleInside ==
+The item '{0}' cannot be deleted because it contains the transformer rule '{1}'.  The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeMoveNotAllowedPathFreeByRule ==
+The item '{0}' cannot be moved to '{1}'. The path '{1}' is already in use in the server but it's free on the client because of the transformer rule '{2}'. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeMoveNotAllowedTransformedItem ==
+The item '{0}' cannot be moved because it has been transformed by the rule '{1}'. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeNeeded ==
+A merge is needed from changeset 'cs:{0}@rep:{2}@repserver:{3}(mount:{4})' to changeset 'cs:{1}@rep:{2}@repserver:{3}(mount:{4})' in order to checkin. The checkin operation cannot continue. Please run 'cm merge "cs:{0}@rep:{2}@repserver:{3}" --merge' at '{5}' to solve the conflicts. Then, you can retry the checkin operation.
+
+== MergeRestorerDeletedPathInUse ==
+The deleted path by the transformer rule '{0}' has been reused by the transformer rule '{1}', so the deleted content cannot be restored. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeRestorerRmRuleCannotBeLoaded ==
+The content of the transformer rule '{0}' cannot be loaded. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeRestorerRmRuleMountMissing ==
+The mount point of the transformer rule '{0}' cannot be found. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeRestorerRmRuleParentMissing ==
+The content of the transformer rule '{0}' cannot be restored because its parent '{1}' is not loaded on the workspace. The merge cannot be completed with the current transformer rules. Please remove the involved transformer rule (or use a not transformed workspace) and try the merge again.
+
+== MergeToPendingDirectoryConflicts ==
+There are pending directory conflicts that must be resolved before processing the merge-to.
+
+== MergeToPendingFileConflicts ==
+There are pending file conflicts that must be resolved before processing the merge-to.
+
+== MergeWithChgInsideMissingNotAllowed ==
+The merge operation is not allowed with pending cloaked changes or pending changes under a deleted transformer rule. Please confirm or undo the pending changes first.
+
+== MergetoolsUncorrectDefined ==
+Error in merge tool "{0}" execution. Merge tools in client.conf are incorrectly defined.
+
+== MinutesAgo ==
+{0} minutes ago
+
+== OneMinuteAgo ==
+1 minute ago
+
+== MissingUserOrPassword ==
+You need to specify user (--username) and password (--password) for working mode '{0}'.
+
+== MissingUserOrToken ==
+You need to specify user (--username) and token (--token) for working mode '{0}'.
+
+== MkNameField ==
+Label name
+
+== MkbranchParentnotfound ==
+The parent branch {0} was not found on the repository server
+
+== Months ==
+{0} months
+
+== MonthsAgo ==
+{0} months ago
+
+== OneMonthAgo ==
+1 month ago
+
+== MoveNotAllowedForTransformedItem ==
+The item '{0}' cannot be moved because it has been transformed by the rule '{1}'.
+
+== MoveNotAllowedPathIsFreeByTransformerRule ==
+The item '{0}' cannot be moved to '{1}'. The path '{1}' is already in use in the server but it's free on the client because of the transformer rule '{2}'.
+
+== MultipleWorkspaceNotAllowed ==
+The {0} operation cannot be executed using items from different workspaces. Please retry the operation with the items of each workspace.
+
+== MustBeOnSameRep ==
+{0} and {1} must be on the same repository to perform the operation
+
+== NewerWorkspaceVersion ==
+The metadata of workspace '{0}' was upgraded by a newer version of Unity VCS. Now, an older version cannot read the workspace metadata. To solve the problem: 1) You can upgrade the Unity VCS client or 2) you can delete the '.plastic' directory inside your workspace (all the workspace metadata will be lost, files will appear as private, you will need to run an update).
+
+== NoContentToCompare ==
+There is no content to compare.
+
+== NoDifftoolDefined ==
+There aren't any diff tools defined in the client configuration file
+
+== NoElementFound ==
+No element has been found to show the history.
+
+== NoMergesInProgress ==
+There aren't merges in progress in workspace '{0}'.
+
+== NoMergetoolDefined ==
+There aren't any merge tools defined in the client configuration file
+
+== NoMountPointForMultirepQuery ==
+A mount point cannot be obtained for a multi repository query (query: '{0}').
+
+== NoPathBetweenCsets ==
+There is no path between '{0}' and '{1}'.
+
+== NoSuchCodeReview ==
+The specified code review '{0}' could not be found.
+
+== NoSuchCodeReviewStatus ==
+No such code review status: {0}. Available values are: {1}
+
+== NotChange ==
+The {0} is not a change
+
+== NotValidCmPath ==
+The specified path: {0} is not a valid server path.
+
+== ObjectNameField ==
+Object name
+
+== OnlyOneRepRuleByRep ==
+Invalid selector. There are more than one repository rule for repository '{0}', only one repository rule by repository is allowed.
+
+== ParentRevisionNotFound ==
+Unable to calculate the differences because the server doesn't contain the parent revision (revid:{0}@{1}) of the selected one. Probably another user removed the changeset in which that revision was loaded.
+
+== PartialWkWxlinkCannotBeEditedTargetOnExpandedBr ==
+On a partial workspace, you cannot edit the target branch of the xlink '{0}' when you are already working on it.
+
+== PartialWkWxlinkCannotBeEditedTargetOnSameBr ==
+A partial workspace always loads the content of the head changeset on the working branch, so you cannot edit the writable Xlink '{0}' to point to a different changeset on the branch.
+
+== PendingDirectoryConflict ==
+There is a directory conflict that must be resolved before processing the merge.
+
+== PendingDirectoryConflicts ==
+There are {0} directory conflicts that must be resolved before processing the merge.
+
+== PrivDirDiff ==
+Differences between private directories are not available
+
+== ProfileNameAlreadyExists ==
+The profile name already exists
+
+== RepCannotBeLoadedInsideItself ==
+A repository cannot be loaded inside itself. The repository {0} cannot be loaded on '{1}' because it is already loaded on '{2}'.
+
+== RepNameField ==
+Repository name
+
+== RepSpecField ==
+Repository specification
+
+== RepositoryLoadedTwiceOnWk ==
+The repository {0} is mounted twice at '{1}' and '{2}'. Please specify the mount point.
+
+== RestorePathShouldNotExist ==
+The restore path should not exist.
+
+== RevdatanotfoundForSpec ==
+No data found for the given revision specification
+
+== RevertToCurrentRev ==
+The specified revision '{0}' is the current one, revert is not needed.
+
+== ReviewNameField ==
+The title for the code review
+
+== RevisionCannotBeFoundOnRep ==
+Current revision of {0} cannot be found on repository '{1}'.
+
+== SecondsAgo ==
+{0} seconds ago
+
+== SecuredPathField ==
+The specified secured path
+
+== SecuredPathTagField ==
+The tag for the secured path
+
+== SelectorCsetZeroRootCannotBeLoaded ==
+The workspace cannot be initialized with the given selector. Probably you don't have enough permission to load the initial changeset of the repository of the selector.
+
+== SelectorRepNotFound ==
+The repository cannot be found. Probably the selector contains errors.
+
+== SelectorTreeContentCannotBeLoaded ==
+The selector content cannot be loaded. Probably you don't have enough permission to load it.
+
+== ShelveIdGreaterThanZero ==
+The shelve id must be an integer greater than zero
+
+== SubtractiveIntervalMerge ==
+Subtractive interval merge
+
+== SubtractiveMerge ==
+Subtractive merge
+
+== SupportBundleAdding ==
+Adding {0}...
+
+== SwitchSelectorErrorMultiplePathsInRule ==
+There are multiple paths rules for repository {0}. Can't switch selector automatically
+
+== SwitchSelectorErrorNoRepFound ==
+Current workspace selector doesn't contain any rule for repository {0}
+
+== SwitchSelectorErrorNoRepFoundOnlyOneRule ==
+Current workspace selector doesn't contain any rule for repository {0}
+
+== SwitchSelectorErrorObjectsOnSameRep ==
+More than one branch or label selected for the same repository
+
+== PartialSwitchToLabelErrorNotSupported ==
+Switch to label not supported for partial workspaces
+
+== SwitchOperationNotSupported ==
+Switch operation not supported
+
+== SyncBranchWithMultipleHeads ==
+The branch {0} has more than one head. Please merge it to be able to continue synchronizing
+
+== SyncBranchesWithMultipleHeads ==
+The branches {0} have more than one head. Please merge them to be able to continue synchronizing
+
+== TransformedItemAlreadyApplied ==
+Rule '{0}' cannot be applied because a rule for the same item was already applied '{1}'
+
+== TransformerMvRuleDstInUseError ==
+The rule '{0}' cannot be applied because the destination path is in use.
+
+== TransformerMvRuleDstInsideSrcError ==
+Rule '{0}' cannot be applied because an item cannot be moved inside itself.
+
+== TransformerMvRuleModifiesAppliedRule ==
+Rule '{0}' cannot be applied because it modifies an already applied rule ('{1}').
+
+== TransformerRmRuleMvInsideError ==
+Rule '{0}' cannot be applied because it contains a move rule ('{1}').
+
+== TransformerRuleDeleteRootError ==
+Rule '{0}' cannot be applied because the root item cannot be deleted.
+
+== TransformerRuleMissingPathError ==
+Rule '{0}' cannot be applied because the path '{1}' is not found.
+
+== TriggerNameField ==
+Trigger name
+
+== TwoRulesForSameBranchError ==
+The new expansion rule '{0} -> {1}' cannot be added because the branch '{0}' already has the expansion rule '{0} -> {2}'.
+
+== UnableToOpen ==
+Unable to open URL: 
+
+== UndeleteNotSupported ==
+Undelete operation is not supported for xlinks.
+
+== UnexpectedError ==
+An unexpected error has occurred.
+
+== UnexpectedErrorOnServer ==
+An unexpected error has occurred on server. For more information check the server log.
+
+== UnreachableServer ==
+The server '{0}' is unreachable.
+
+== UnrecognizedLanguage ==
+The language of the selected file is not currently supported.
+
+== UnsupportedMergeType ==
+Unsupported merge type
+
+== UnsupportedWorkingModeArgument ==
+Working mode '{0}' is not supported.
+
+== UpPasswordCorrupt ==
+Parameter 'password' is corrupt in the client config file.
+
+== UpdateWkContentError ==
+The content of the workspace '{0}' cannot be updated due to the following error: {1}
+
+== UserDefinedExpansionRuleSuffix ==
+ [user-defined]
+
+== UsingDefaultConfiguration ==
+Using default configuration
+
+== WkConfigurationDirAlreadyChanged ==
+The directory '{0}' cannot be loaded/unloaded because it contains changes inside '{1}'. Please undo all the changes inside the directory and retry the operation.
+
+== WkConfigurationFileAlreadyChanged ==
+The file '{0}' cannot be loaded/unloaded because it is already changed at '{1}'. Please undo the change and retry the operation.
+
+== WkConfigurationItemAlreadyLoaded ==
+The item '{0}' is already loaded in the workspace. Please unload '{1}' in order to load it in the new location.
+
+== WkConfigurationPathAlreadyInUse ==
+There is another item loaded in the path '{0}'. Please unload it and retry the operation.
+
+== WkConfigurationRootAlreadyChanged ==
+The root item cannot be loaded/unloaded because there are pending changes in the workspace. Please undo all the workspace changes and retry the operation.
+
+== WkNameField ==
+Workspace name
+
+== WkPathField ==
+Workspace path
+
+== WktreeCorrupt ==
+The workspace '{0}' metadata is corrupt. Please update the workspace.
+
+== WorkspacePathNotResolved ==
+The workspace path of the item {0} cannot be resolved.
+
+== WorkspaceWithChangesApplingLabel ==
+Workspace contains changes. Labels can't be applied if there are pending changes on the current workspace.
+
+== WrongConflictToResolve ==
+'{0}' is not a valid conflict to resolve.
+
+== WrongPercentValue ==
+The value '{0}' is not a valid percent.
+
+== WrongResolutionInfo ==
+'{0}' is not a valid resolution info for resolution '{1}'.
+
+== WrongResolutionOption ==
+'{0}' is not a valid resolution.
+
+== XlinkCsetNotFound ==
+Cannot find the cset specified on the xlink {0}
+
+== XlinkRootNotFound ==
+The xlink root '{0}' cannot be found on {1}@{2}@{3}.
+
+== Years ==
+{0} years
+
+== YearsAgo ==
+{0} years ago
+
+== OneYearAgo ==
+1 year ago
+
+== RevisionToReloadNotFound ==
+The revision to reload was not found
+
+== InvalidEncryptionMethod ==
+The specified encryption method is invalid: {0}. Use AES128, AES192 or AES256
+
+== MissingEncryptionPassword ==
+Use --encryptpassword to specify the password
+
+== EmptyEncryptionPassword ==
+Specify a valid encryption password
+
+== MissingEncryptionServer ==
+Use --encryptserver to specify the server
+
+== EmptyEncryptionServer ==
+Specify a valid encrypted server
+
+== MkworkspaceDynamicIncorrectTreespec ==
+Incorrect branch, changeset, or label spec: '{0}'
+
+== MkworkspaceDynamicTreespecNotfound ==
+Could not find a branch, changeset, or label with the spec '{0}'
+
+== MkworkspaceDynamicAlreadyExists ==
+Directory '{0}' already exists and it's not empty!
+
+== WkDynamicSingleNotMountedYet ==
+Failed to mount the dynamic workspace {0} after {1} seconds.
+
+== WkDynamicMultipleNotMountedYet ==
+Failed to mount the following dynamic workspaces after {0} seconds: {1}.
+
+== GameUiCheckinConflictsError ==
+The checkin/shelve operation cannot be completed because some local changes cannot be applied on the current server version. Please check the conflicts between your local changes and the current server version.
+
+== IsNotWk ==
+{0} is not in a workspace.
+
+== CmdPatchFileNotFound ==
+The file that contains the patch was not found.
+
+== Key_AttrNotExist ==
+ATTR_NOT_EXIST
+
+== Key_AttrTypeWrong ==
+ATTR_TYPE_WRONG
+
+== Key_AttrTypeWrongValue ==
+ATTR_TYPE_WRONG_VALUE
+
+== Key_Unrecognized ==
+UNRECOGNIZED
+
+== Seconds ==
+seconds
+
+== Minutes ==
+minutes
+
+== Hours ==
+hours

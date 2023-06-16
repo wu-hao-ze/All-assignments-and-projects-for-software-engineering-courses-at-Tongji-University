@@ -1,0 +1,10 @@
+{
+    "name": "com.unity.modules.tilemap",
+    "version": "1.0.0",
+    "type": "module",
+    "displayName": "Tilemap",
+    "description": "The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html",
+    "dependencies": {
+        "com.unity.modules.physics2d": "1.0.0"
+    }
+}

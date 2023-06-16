@@ -1,0 +1,6 @@
+# For release package builds ignore the following
+Samples/**
+Samples.meta
+Samples~/**
+Samples~.meta
+.npmignore.dev

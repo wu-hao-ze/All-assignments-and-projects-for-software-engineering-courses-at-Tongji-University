@@ -1,0 +1,1165 @@
+== MergetoolWindowTitle ==
+Unity Version Control Merge tool
+
+== FirstConflictButtonTooltip ==
+Go to first conflict (Ctrl + Shift + -)
+
+== PrevConflictButtonTooltip ==
+Previous conflict (Ctrl + -)
+
+== NextConflictButtonTooltip ==
+Next conflict (Ctrl + +)
+
+== LastConflictButtonTooltip ==
+Go to last conflict (Ctrl + Shift + +)
+
+== PrevNotAutomaticConflictButtonTooltip ==
+Previous not automatic conflict (Ctrl + PageUp)
+
+== NextNotAutomaticConflictButtonTooltip ==
+Next not automatic conflict (Ctrl + PageDown)
+
+== FirstConflictButtonTooltipPrefix ==
+Go to first conflict ({0})
+
+== PrevConflictButtonTooltipPrefix ==
+Previous conflict ({0})
+
+== NextConflictButtonTooltipPrefix ==
+Next conflict ({0})
+
+== LastConflictButtonTooltipPrefix ==
+Go to last conflict ({0})
+
+== PrevNotAutomaticConflictButtonTooltipPrefix ==
+Previous not automatic conflict ({0})
+
+== NextNotAutomaticConflictButtonTooltipPrefix ==
+Next not automatic conflict ({0})
+
+== PendingAutomaticConflictsLabel ==
+Current conflict: {0} of {1}
+
+== PendingNonAutomaticConflictsLabel ==
+Unresolved conflicts: {0} of {1}
+
+== NonAutomaticConflictsLabelTooltip ==
+Current unsolved non-automatic conflict
+
+== CurrentConflictLabelTooltip ==
+Current merge conflict
+
+== NonAutomaticConflictsNavigationTooltip ==
+Navigate through the currently unsolved conflicts
+
+== AutomaticConflictsNavigationTooltip ==
+Navigate through the merge conflicts
+
+== AutomaticConflictMarkup ==
+Current conflict is <span foreground='green'>automatic</span>. No user intervention is required.
+
+== NonAutomaticConflictMarkup ==
+Current conflict is <span foreground='red'>non-automatic</span>. Resolve it by clicking the buttons above, editing the result file or marking it as resolved.
+
+== NonAutomaticConflictMarkedAsResolvedMarkup ==
+Current conflict is <span foreground='green'>non-automatic</span>, and it has been already <span foreground='green'>resolved</span> by the user.
+
+== MarkAsResolvedButton ==
+Mark as resolved
+
+== MarkAsUnresolvedButton ==
+Mark as unresolved
+
+== WinMergetoolUsageTitle ==
+Mergetool usage
+
+== XMergeUsageTitle ==
+XMerge Tool Usage
+
+== ToolUsageNotice ==
+Please read below the usage of the tool
+
+== BinMergeToolExitQuestion ==
+Do you want save the selected contributor as the merge result?
+
+== XMergeUsage ==
+Usage: {0} xmerge [<diffOptions> | <mergeOptions>]
+
+    diffOptions: <generalFiles> [<generalOptions>]
+
+    mergeOptions: <generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] [<silent>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:            {{-b | --base}}=<filename>
+        baseSymbolicName:    {{-bn | --basesymbolicname}}=<symbolicname>
+        automatic:           -a | --automatic
+        silent:              --silent
+        resultFile:          {{-r | --result}}=<filename>
+        mergeType:           {{-m | --mergeresolutiontype}}={{onlyone | onlysrc | onlydst | try | forced}}
+
+    generalFiles: <sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:          {{-s | --source}}=<filename>
+        srcSymbolicName:     {{-sn | --srcsymbolicname}}=<symbolicname>
+        destinationFile:     {{-d | --destination}}=<filename>
+        dstSymbolicName:     {{-dn | --dstsymbolicname}}=<symbolicname>
+
+    generalOptions: [<defaultEncoding>] [<comparisonMethod>] [<fileType>] [<resultEncoding>]
+
+        defaultEncoding:     {{-e | --encoding}}={{none |ascii | unicode | bigendian | utf7 | utf8}}
+        comparisonMethod:    {{-i | --ignore}}={{none | eol | whitespaces | eol&whitespaces}}
+        fileType:            {{-t | --filestype}}={{text/csharp | text/XML | text}}
+        resultEncoding:      {{-re | --resultencoding}}={{none |ascii | unicode | bigendian | utf7 | utf8}}
+        progress:            {{--progress}}=progress string indicating the current progress, for example: Merging file 1/8
+        extraInfoFile:       {{--extrainfofile}}=path to a file that contains extra info about the merge
+
+    Remarks:
+
+        -a | --automatic:    Tries to resolve the merge automatically.
+                             If the merge can't be resolved automatically (requires user interaction), the merge tool is shown.
+                             A result file must always be specified for a merge to be resolved automatically.
+        --silent:            This option must be used combined with the --automatic option.
+                             When a merge can't be resolved automatically, this option causes the tool to return immediately
+                             with a non-zero exit code (no merge tool is shown).
+                             If the tool was able to resolve the merge automatically, the program returns exit code 0.
+
+    Examples:
+
+       {0} xmerge
+       {0} xmerge -s=file1.txt -d=file2.txt
+       {0} xmerge -s=file1.txt -b=file0.txt --destination=file2.txt
+       {0} xmerge --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+       {0} xmerge -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -e=utf7 -i=eol -t=text/csharp -m=onlyone
+
+== WinMergetoolUsage ==
+Usage: mergetool [<diffOptions> | <mergeOptions>]
+
+    diffOptions: <generalFiles> [<generalOptions>]
+
+    mergeOptions: <generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] [<silent>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:            {-b | --base}=<filename> 
+        baseSymbolicName:    {-bn | --basesymbolicname}=<symbolicname>
+        automatic:           -a | --automatic
+        silent:              --silent
+        resultFile:          {-r | --result}=<filename>
+        mergeType:           {-m | --mergeresolutiontype}={onlyone | onlysrc | onlydst | try | forced}
+
+    generalFiles: <sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:          {-s | --source}=<filename>
+        srcSymbolicName:     {-sn | --srcsymbolicname}=<symbolicname>
+        destinationFile:     {-d | --destination}=<filename> 
+        dstSymbolicName:     {-dn | --dstsymbolicname}=<symbolicname>
+
+    generalOptions: [<defaultEncoding>] [<comparisonMethod>] [<fileType>] [<resultEncoding>]
+
+        defaultEncoding:     {-e | --encoding}={none |ascii | unicode | bigendian | utf7 | utf8}
+        comparisonMethod:    {-i | --ignore}={none | eol | whitespaces | eol&whitespaces}
+        fileType:            {-t | --filestype}={text/csharp | text/XML | text}
+        resultEncoding:      {-re | --resultencoding}={none |ascii | unicode | bigendian | utf7 | utf8}
+        progress:            {--progress}=progress string indicating the current progress, for example: Merging file 1/8
+        extraInfoFile:       {--extrainfofile}=path to a file that contains extra info about the merge
+
+    Remarks:
+          
+        -a | --automatic:    Tries to resolve the merge automatically.
+                             If the merge can't be resolved automatically (requires user interaction), the merge tool is shown.
+        --silent:            This option must be used combined with the --automatic option.
+                             When a merge can't be resolved automatically, this option causes the tool to return immediately
+                             with a non-zero exit code (no merge tool is shown).
+                             If the tool was able to resolve the merge automatically, the program returns exit code 0.
+
+    Examples:
+
+        mergetool
+        mergetool -s=file1.txt -d=file2.txt
+        mergetool -s=file1.txt -b=file0.txt --destination=file2.txt
+        mergetool --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+        mergetool -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -e=utf7 -i=eol -t=text/csharp -m=onlyone
+        
+== BrowseForSaveFileTitle ==
+Save file
+
+== PendingUnsolvedConflicts ==
+The file still has {0} unsolved conflicts.
+
+== FileChangedSinceSaved ==
+The file has been changed since it was last saved.
+
+== SaveAndExitDialogButton ==
+Save & exit
+
+== ExitWithoutSavingButton ==
+Exit without saving
+
+== CloseButton ==
+Close
+
+== OkButton ==
+OK
+
+== CancelButton ==
+Cancel
+
+== SourceHeaderButton ==
+Select Source: '{0}'
+
+== SourceHeader ==
+Source: '{0}'
+
+== SourceHeaderPressedButton ==
+Deselect Source: '{0}'
+
+== SourceHeaderButtonTooltip ==
+(Ctrl+1)
+
+== BaseHeaderButton ==
+Select Base: '{0}'
+
+== BaseHeader ==
+Base: '{0}'
+
+== BaseHeaderPressedButton ==
+Deselect Base: '{0}'
+
+== BaseHeaderButtonTooltip ==
+(Ctrl+2)
+
+== DestinationHeaderButton ==
+Select Destination: '{0}'
+
+== DestinationHeader ==
+Destination: '{0}'
+
+== DestinationHeaderPressedButton ==
+Deselect Destination: '{0}'
+
+== DestinationHeaderButtonTooltip ==
+(Ctrl+3)
+
+== ResultButton ==
+Select Result
+
+== KeepResultButton ==
+Keep result
+
+== ResultPressedButton ==
+Deselect Result
+
+== ResultButtonTooltip ==
+(Ctrl+4)
+
+== SaveAndExitButton ==
+Save & exit
+
+== SaveAndExitTooltip ==
+Save result and close mergetool
+
+== SaveAsTooltip ==
+Save result in a new file
+
+== SaveButton ==
+Save
+
+== SaveButtonTooltip ==
+Save changes (Ctrl+S)
+
+== SaveButtonTooltipWithCustomShortcut ==
+Save changes ({0})
+
+== SaveAsMenu ==
+Save as...
+
+== MergeButton ==
+Merge
+
+== KeepSrcMenu ==
+Keep source contributor & exit
+
+== KeepBaseMenu ==
+Keep base contributor & exit
+
+== KeepDstMenu ==
+Keep destination contributor & exit
+
+== SrcNeeded ==
+Source file name is needed
+
+== DstNeeded ==
+Destination file name is needed
+
+== ResultNeeded ==
+In automatic merge result file name is needed
+
+== AutomaticNeeded ==
+In silent mode the automatic merge option is needed
+
+== FileTypeError ==
+{0} isn't a valid file type for syntax highlight
+
+== CompMethodError ==
+Invaild comparison method
+
+== ArgError ==
+The specified arguments are not valid
+
+== SrcEncodingMenuTitle ==
+Source encoding
+
+== DstEncodingMenuTitle ==
+Destination encoding
+
+== BaseEncodingMenuTitle ==
+Base encoding
+
+== ResultEncodingMenuTitle ==
+Result encoding
+
+== SplitBlocksMenuTitle ==
+Split conflict blocks
+
+== MergeBlocksMenuTitle ==
+Merge conflict blocks
+
+== ComparisonMethodMenuTitle ==
+Comparison method
+
+== ColorsMenuTitle ==
+Merge tracking colors
+
+== RecognizeAll ==
+Recognize all
+
+== IgnoreEol ==
+Ignore EOLs
+
+== IgnoreWhitespace ==
+Ignore whitespaces
+
+== IgnoreEolWhitespace ==
+Ignore EOLs and whitespaces
+
+== EncodingDialogTitle ==
+Select encoding
+
+== EncodingDialogDescription ==
+Select a character encoding
+
+== EncodingDialogLabel ==
+Encoding:
+
+== DefaultEncoding ==
+Default encoding:
+
+== ResultEncoding ==
+Result encoding:
+
+== NoneEncoding ==
+NONE
+
+== AsciiEncoding ==
+ASCII
+
+== UnicodeEncoding ==
+Unicode
+
+== UnicodeBigEndianEncoding ==
+Unicode Big-Endian
+
+== Utf7Encoding ==
+UTF-7
+
+== Utf8Encoding ==
+UTF-8
+
+== OtherEncoding ==
+Other...
+
+== ChangeEncoding ==
+Change...
+
+== Options ==
+Options
+
+== FindButton ==
+Find...
+
+== MatchCase ==
+Match case
+
+== MergeResolutionOptionsTooltip ==
+Merge resolution options
+
+== MergeOptionsTooltip ==
+Display and calculation options
+
+== SyntaxHighlight ==
+Syntax highlight
+
+== FirstDiffButtonTooltip ==
+First difference
+
+== PrevDiffButtonTooltip ==
+Previous difference
+
+== NextDiffButtonTooltip ==
+Next difference
+
+== LastDiffButtonTooltip ==
+Last difference
+
+== FirstDiffButtonTooltipWithShortcut ==
+First difference (Ctrl + Shift + n)
+
+== PrevDiffButtonTooltipWithShortcut ==
+Previous difference (Ctrl + n)
+
+== NextDiffButtonTooltipWithShortcut ==
+Next difference (Ctrl + m)
+
+== LastDiffButtonTooltipWithShortcut ==
+Last difference (Ctrl + Shift + m)
+
+== CurrentDifference ==
+Current: {0}/{1}
+
+== LeftEncoding ==
+Left encoding
+
+== RightEncoding ==
+Right encoding
+
+== DifferencesWindowTitle ==
+Differences
+
+== AutomaticConflictChunk1 ==
+Current conflict is 
+
+== AutomaticConflictChunk2 ==
+automatic
+
+== AutomaticConflictChunk3 ==
+. No user intervention is required.
+
+== SolvedConflictChunk1 ==
+Current conflict is 
+
+== SolvedConflictChunk2 ==
+non-automatic
+
+== SolvedConflictChunk3 ==
+, and it has been already 
+
+== SolvedConflictChunk4 ==
+resolved
+
+== SolvedConflictChunk5 ==
+ by the user.
+
+== NonAutomaticConflictChunk1 ==
+Current conflict is 
+
+== NonAutomaticConflictChunk2 ==
+non-automatic
+
+== NonAutomaticConflictChunk3 ==
+. Resolve it by clicking the buttons above, editing the result file or marking it as resolved.
+
+== PatternNotFound ==
+Pattern not found
+
+== PreviousSearchButtonTooltip ==
+Search previous match
+
+== NextSearchButtonTooltip ==
+Search next match
+
+== UnexpectedError ==
+An unexpected error has occurred.
+
+== GoToLineMenuItem ==
+Go to line...
+
+== AddDiffSelectionMenuItem ==
+Add diff selection
+
+== DiffWithPreviousSelectionMenuItem ==
+Diff with previous selection
+
+== FindMenuItem ==
+Find...
+
+== FindNextMenuItem ==
+Find next
+
+== FirstSelection ==
+First selection
+
+== SecondSelection ==
+Second selection
+
+== SemanticDiffMovedCode ==
+Diff moved code...
+
+== SemanticGoToMovedCode ==
+Go to moved code
+
+== SemanticDiffChangedCode ==
+Diff changed code...
+
+== SyncMovedCode ==
+Sync moved code on top
+
+== UnsyncMovedCode ==
+Restore scroll position
+
+== OutliningMenu ==
+Outlining
+
+== CollapseRegionsWithoutDiffsMenu ==
+Collapse regions without diffs
+
+== CollapseToDefinitionsMenu ==
+Collapse to definitions
+
+== ExpandAllMenu ==
+Expand all
+
+== Merged ==
+Merged
+
+== LoadingAnnotations ==
+Loading annotations...
+
+== AnnotateLineInfoChangeset ==
+Changeset
+
+== AnnotateLineInfoTimeStamp ==
+Creation date
+
+== AnnotateLineInfoOwner ==
+Owner
+
+== AnnotateLineInfoComments ==
+Comments
+
+== AnnotateColorByAuthor ==
+Color by author
+
+== AnnotateColorByDate ==
+Color by date
+
+== AnnotateContextMenu ==
+Annotate
+
+== AnnotateShowAuthor ==
+Show author
+
+== AnnotateShowBranch ==
+Show branch
+
+== AnnotateShowChangeInMerge ==
+Show whether line was changed in a merge
+
+== AnnotateShowChangeset ==
+Show changeset
+
+== AnnotateShowDateModified ==
+Show date modified
+
+== AnnotateShowLineAge ==
+Show line age
+
+== BigFileMessage ==
+The file is quite big. Finding differences could take a while. Click the button if you really want to find the differences for this file.
+
+== CalculateDifferencesButton ==
+Find differences
+
+== BigFileContentsMessage ==
+The file is quite big. Showing the content could take a while. Click the button if you really want to show the content for this file.
+
+== ShowContentButton ==
+Show content
+
+== BranchChanges ==
+Branch changes
+
+== BranchChangesTooltip ==
+Highlight changes done in the branch
+
+== ConflictChanges ==
+Conflict changes
+
+== ConflictChangesTooltip ==
+Highlight changes with conflicts that the user solved during the merge
+
+== MergedChanges ==
+Merged changes
+
+== RestoreDefaults ==
+Restore defaults
+
+== MergedChangesTooltip ==
+Highlight changes coming from a merge
+
+== CaseSensitiveCheckBox ==
+Match case
+
+== ColorsConfigurationMenuItem ==
+Configure fonts and colors...
+
+== ComparisonMethodMenuItem ==
+Comparison method
+
+== ComparisonMethodIgnoreEolMenuItem ==
+Ignore EOL
+
+== ComparisonMethodIgnoreWhitespacesMenuItem ==
+Ignore whitespaces
+
+== ComparisonMethodIgnoreEolWhitespacesMenuItem ==
+Ignore EOL and whitespaces
+
+== ComparisonMethodRecognizeAllMenuItem ==
+Recognize all
+
+== Content ==
+Content of {0}
+
+== CopyToClipboard ==
+Copy to clipboard
+
+== DiffWaitingAnimation ==
+Finding differences...
+
+== ContentWaitingAnimation  ==
+Calculating contents to show...
+
+== DiscardButton ==
+Discard
+
+== DiscardButtonTooltip ==
+Discard changes
+
+== EditorOptions ==
+Editor options
+
+== EditorOptionsConvertTabsToSpaces ==
+Convert tabs to spaces while editing
+
+== EditorOptionsWhistespaces ==
+View whitespaces
+
+== EditorOptionsEOL ==
+View line endings
+
+== EditorOptionsTabs ==
+Tabs
+
+== EditorOptionsTabsSpacesNumber ==
+{0} spaces
+
+== EditorOptionsColumnGuides ==
+Column guides
+
+== EditorOptionsColumnsNumber ==
+{0} columns
+
+== EditorOptionsBorderLines ==
+View border lines for unselected regions
+
+== EncodingDifferences ==
+Encoding changed from {0} to {1}.
+
+== FsProtectionDifferences ==
+Filesystem permissions changed from {0} to {1}
+
+== UnableCalculateDiffs ==
+Unable to calculate the differences.
+
+== HideUnchanged ==
+hide unchanged
+
+== HideUnchangedTooltip ==
+show changed declarations only
+
+== ShowUnchanged ==
+show unchanged
+
+== ShowUnchangedTooltip ==
+show the complete file trees, so you can check every declaration
+
+== GroupUnchanged ==
+group unchanged
+
+== GroupUnchangedTooltip ==
+show changed declarations grouping the rest of the declarations into an single, unchanged one
+
+== DiffButton ==
+diff
+
+== ZoomIn ==
+zoom in
+
+== ZoomInTooltip ==
+zoom in on the graphic - you can also use the scroll wheel while holding the control key pressed
+
+== ZoomOut ==
+zoom out
+
+== ZoomOutTooltip ==
+zoom out on the graphic - you can also use the scroll wheel while holding the control key pressed
+
+== ErrorSavingFile ==
+An error occured saving the file: {0}
+
+== Find ==
+Find:
+
+== FindCloseButtonTooltip ==
+Close search bar
+
+== FindPreviousButtonTooltip ==
+Search previous match
+
+== FindNextButtonTooltip ==
+Search next match
+
+== MovedDetectionMenuItem ==
+Moved detection
+
+== MovedDetectionDialogMenuItem ==
+Moved detection...
+
+== EnableMoveDetectionMenuItem ==
+Enable moved detection
+
+== MoveDetectionRatio ==
+Move detection ratio
+
+== MinimumLinesInDifference ==
+Minimum lines in difference
+
+== MaximizeButtonLeftTooltip ==
+Maximize left panel
+
+== MaximizeButtonRightTooltip ==
+Maximize right panel
+
+== RestoreButtonLeftTooltip ==
+Restore left panel
+
+== RestoreButtonRightTooltip ==
+Restore right panel
+
+== OutliningPreferencesTitle ==
+Outlining preferences
+
+== OutliningPreferencesCaption ==
+Outlining preferences
+
+== OutliningPreferencesDetails ==
+Select your preferred outlining mode when a file loads
+
+== OutliningPreferencesExplanation ==
+After a file is loaded, use the following outlining mode:
+
+== OutliningPreferencesCollapseWithoutDiffs ==
+Collapse regions without differences
+
+== OutliningPreferencesCollapseToDefinitions ==
+Collapse to definitions
+
+== OutliningPreferencesExpandAll ==
+Expand all
+
+== NavigationTooltip ==
+Go to moved fragment
+
+== XDiffTooltip ==
+Show differences of moved fragment side by side
+
+== XDiffFragment ==
+[fragment]
+
+== FontsAndColorsMenuItem ==
+Fonts and colors
+
+== FontDoesNotSupportStrikeout ==
+The font {0} does not support the strikeout style, used by the application. Please choose other font.
+
+== ChangeFontMenuItem ==
+Change font...
+
+== LeftDiffColorMenuItem ==
+Left diff color
+
+== RightDiffColorMenuItem ==
+Right diff color
+
+== RestoreDefaultsMenuItem ==
+Restore defaults
+
+== FilesIdentical ==
+Files are identical.
+
+== AddDiffSelection ==
+Add diff selection
+
+== DiffWithPreviousSelection ==
+Diff with previous selection
+
+== DiffSourceWithBase ==
+Diff base with source contributor
+
+== DiffDestinationWithBase ==
+Diff base with destination contributor
+
+== DiffDestinationWithSource ==
+Diff source with destination contributor
+
+== Encoding ==
+Encoding
+
+== FontMenuItem ==
+Font
+
+== DuplicatedArg ==
+Duplicated argument {0}.
+
+== MergeTypeError ==
+{0} isn't a valid merge resolution type
+
+== MergeExplanation ==
+This option launches a 3 - way merge tool, involving base, source and destination files.You'll be able to save the result to another file.
+
+== DifferencesExplanation ==
+This option launches a visual text file differencing tool.Please select two files to see textual differences between them.
+
+== XMergeNoChanges ==
+Xmerge result is empty.No changes will be performed.
+
+== XMergeConfirmationMessage ==
+Xmerge result will replace your selection, and the not automatic conflict will be discarded. Do you want to continue?
+
+== SourceDesc ==
+source (code you are merging)
+
+== SourceLoc ==
+in the source
+
+== DestinationDesc ==
+destination (your working copy)
+
+== DestinationLoc ==
+in the destination
+
+== HowXMergeFormat ==
+You have a merge conflict but the {0} is not there anymore.
+
+What has happened? Most likely one developer has moved a piece of code ({1}) and another developer has modified that piece of code in the original location ({2}).
+
+== UnauthorizedAccessFile ==
+File '{0}' cannot be saved because you don't have permission. You can save the file in another path.
+
+== AutomaticConflictMarkup1 ==
+Current conflict is 
+
+== AutomaticConflictMarkup2 ==
+automatic
+
+== AutomaticConflictMarkup3 ==
+. No user intervention is required.
+
+== SolvedConflictMarkup1 ==
+Current conflict is 
+
+== SolvedConflictMarkup2 ==
+non-automatic
+
+== SolvedConflictMarkup3 ==
+ , and it has been already 
+
+== SolvedConflictMarkup4 ==
+resolved
+
+== SolvedConflictMarkup5 ==
+ by the user.
+
+== NonAutomaticConflictMarkup1 ==
+Current conflict is 
+
+== NonAutomaticConflictMarkup2 ==
+non-automatic
+
+== NonAutomaticConflictMarkup3 ==
+. Resolve it by clicking the buttons above, editing the result file or marking it as resolved.
+
+== MarkAsResolvedExplanation ==
+Select the contributors that should go to the result file using thee buttons below (source, base or destination). Or, if the suggested result is already good, click \"Mark as resolved\"
+
+== SourceFileName ==
+Source file: {0}
+
+== BaseFileName ==
+Base file: {0}
+
+== DestinationFileName ==
+Destination file: {0}
+
+== RestoreButtonSrcTooltip ==
+Restore src panel
+
+== RestoreButtonBaseTooltip ==
+Restore base panel
+
+== RestoreButtonDstTooltip ==
+Restore dst panel
+
+== RestoreButtonResultTooltip ==
+Restore result panel
+
+== MaximizeButtonSrcTooltip ==
+Maximize src panel
+
+== MaximizeButtonBaseTooltip ==
+Maximize base panel
+
+== MaximizeButtonDstTooltip ==
+Maximize dst panel
+
+== MaximizeButtonResultTooltip ==
+Maximize result panel
+
+== PendingNonAutomatic ==
+Pending to solve: {0}/{1}
+
+== PreviousConflictButtonTooltip ==
+Previous conflict(Ctrl+-)
+
+== PreviousUnsolvedConflictButtonTooltip ==
+Previous not automatic conflict (Ctrl+PageUp)
+
+== NextUnsolvedConflictButtonTooltip ==
+Next not automatic conflict (Ctrl+PagDown)
+
+== OptionsButton ==
+Options
+
+== BaseEncodingMenuItem ==
+Base encoding
+
+== SrcEncodingMenuItem ==
+Source encoding
+
+== DstEncodingMenuItem ==
+Destination encoding
+
+== ResultEncodingMenuItem ==
+Result encoding
+
+== SplitMenuItem ==
+Split conflict blocks
+
+== XmergeButton ==
+XMerge...
+
+== XmergeButtonTooltip ==
+Launch XMerge wizard
+
+== XmergeMenuItem ==
+XMerge...
+
+== XmergeNoTextSelected ==
+There is no text selected. Can't perform Xmerge.
+
+== XmergeNotEnoughInfo ==
+Not enough information to perform XMerge
+
+== XmergeRemovedTextSelected ==
+The selected lines are removed. They are not valid as Xmerge selection.
+
+== XmergeStartTip ==
+This window shows the moved and the modifed code fragments. The moved code is on the {0} ({1}). On the {2} ({3}) the modified code before it was moved.Solve the remaining manual conflicts and click on \"Save & Exit\".
+
+== UnsolvedPendingConflicts ==
+The file still has {0} unsolved conflicts.
+
+== ChangedFile ==
+The file has been changed since it was last saved.
+
+== MergeWaitingAnimation ==
+Calculating conflicts. Please wait...
+
+== SaveAsButton ==
+Save as...
+
+== SaveBaseContributor ==
+Keep base contributor & exit
+
+== SaveDstContributor ==
+Keep destination contributor & exit
+
+== SaveSrcContributor ==
+Keep source contributor & exit
+
+== ExtraInfoButton ==
+Info about this merge
+
+== ExtraInfoButtonTooltip ==
+Show the info about this merge in a panel
+
+== Left ==
+left
+
+== Right ==
+right
+
+== SourceContributor ==
+source contributor
+
+== DestinationContributor ==
+destination contributor
+
+== MovedCode ==
+Moved piece of code.
+
+== ModifiedCode ==
+Modified piece of code in the original location.
+
+== OriginalCode ==
+Original piece of code.
+
+== ResultFile ==
+Result file
+
+== AnnotateOptions ==
+Annotate options
+
+== Copy ==
+Copy
+
+== Cut ==
+Cut
+
+== Paste ==
+Paste
+
+== SelectAll ==
+Select all
+
+== FileTooLargeToDisplay ==
+File is too large to display content.
+
+== SourceTitle ==
+Source
+
+== RemoteVersion ==
+remote version
+
+== BaseTitle ==
+Base
+
+== OriginalVersion ==
+original version
+
+== DestinationTitle ==
+Destination
+
+== LocalVersion ==
+local version
+
+== MenuItemOpen ==
+Open
+
+== MenuItemOpenWith ==
+Open with...
+
+== PlasticNextUnresolvedConflictShortcutForWindows ==
+Ctrl+M
+
+== PlasticNextUnresolvedConflictShortcutForMacOS ==
+Cmd+M
+
+== PlasticNextUnresolvedConflictShortcutForLinux ==
+Ctrl+M
+
+== PlasticPreviousUnresolvedConflictShortcutForWindows ==
+Ctrl+N
+
+== PlasticPreviousUnresolvedConflictShortcutForMacOS ==
+Cmd+N
+
+== PlasticPreviousUnresolvedConflictShortcutForLinux ==
+Ctrl+N
+
+== PlasticNextConflictShortcutForWindows ==
+Ctrl+OemPlus
+
+== PlasticNextConflictShortcutForMacOS ==
+Cmd+OemPlus
+
+== PlasticNextConflictShortcutForLinux ==
+Ctrl+OemPlus
+
+== PlasticPreviousConflictShortcutForWindows ==
+Ctrl+OemMinus
+
+== PlasticPreviousConflictShortcutForMacOS ==
+Cmd+OemMinus
+
+== PlasticPreviousConflictShortcutForLinux ==
+Ctrl+OemMinus
+
+== PlasticFirstConflictShortcutForWindows ==
+Ctrl+Shift+OemMinus
+
+== PlasticFirstConflictShortcutForMacOS ==
+Cmd+Shift+OemMinus
+
+== PlasticFirstConflictShortcutForLinux ==
+Ctrl+Shift+OemMinus
+
+== PlasticLastConflictShortcutForWindows ==
+Ctrl+Shift+OemPlus
+
+== PlasticLastConflictShortcutForMacOS ==
+Cmd+Shift+OemPlus
+
+== PlasticLastConflictShortcutForLinux ==
+Ctrl+Shift+OemPlus
+
+== BinMergeUsageTitle ==
+BinMerge Tool Usage
+
+== BinMergeUsage ==
+Usage: {0} binmerge <mergeOptions>
+
+    mergeOptions: <generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:             {{-b | --base}}=<filename>
+        baseSymbolicName:     {{-bn | --basesymbolicname}}=<symbolicname>
+        automatic:            -a | --automatic
+        resultFile:           {{-r | --result}}=<filename>
+        mergeType:            {{-m | --mergeresolutiontype}}={{onlyone | onlysrc | onlydst | try | forced}}
+
+    generalFiles:<sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:           {{-s | --source}}=<filename>
+        srcSymbolicName:      {{-sn | --srcsymbolicname}}=<symbolicname>
+        destinationFile:      {{-d | --destination}}=<filename>
+        dstSymbolicName:      {{-dn | --dstsymbolicname}}=<symbolicname>
+
+
+    Examples:
+
+        {0} binmerge --source=file1.png --destination=file2.png
+        {0} binmerge --base=file0.txt --source=file1.txt --destination=file2.txt
+        {0} binmerge --base=file0.txt --source=file1.txt --destination=file2.txt  --automatic --result=result.txt
+        {0} binmerge -s=file1.png -d=file2.png
+        {0} binmerge -b=file0.txt -s=file1.txt -d=file2.txt
+        {0} binmerge -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -m=onlyone
+
+== BinMergeToolUnsupportedFileTypeForDiff ==
+Unsupported file types for binary diff. Only images are supported

@@ -1,0 +1,880 @@
+﻿== AddNotAllowedPathIsFreeByTransformerRule ==
+'{0}' 항목을 추가할 수 없습니다. 경로 '{0}'을(를) 서버에서 이미 사용 중이지만, 변환기 규칙 '{1}'(으)로 인해 클라이언트에서는 사용 중이지 않습니다.
+
+== AddedItemCannotBeLocked ==
+'{0}' 항목은 추가된 항목이므로 잠글 수 없습니다. (참고: 항목이 추가된 항목으로 표시되지 않는 경우, 워크스페이스가 손상되었을 수 있습니다. 지원팀에 문의하십시오)
+
+== AdminReadonlyNotSupported ==
+서버 '{0}' 버전은 admin readonly 명령을 지원하지 않습니다. 서버 버전을 업그레이드하십시오.
+
+== AttNameField ==
+속성 이름
+
+== BisyncMissingChangesPull ==
+외부 SCM에서 가져올 개정이 누락되었습니다({0}은(는) 마지막 외부 변경사항이 아님). Unity VCS 변경사항을 내보내기 전에 모든 외부 SCM 변경사항을 가져와야 합니다.
+
+== BisyncMissingSubmoduleConfiguration ==
+'{0}'에 해당하는 git 리포지토리가 정의되지 않았습니다. Xlink를 내보낼 수 없습니다. 구성 파일 '{1}'의 하위 모듈 섹션에 등가 항목을 추가하십시오.
+
+== BisyncMissingSubmoduleTarget ==
+커밋 {0}@{1}이(가) 동기화되지 않았습니다. 리포지토리 {1}을(를) 먼저 동기화해야 합니다.
+
+== BisyncMissingXlinkedCset ==
+변경 세트 {0}@{1}이(가) 동기화되지 않았습니다. 리포지토리 {1}을(를) 먼저 동기화해야 합니다.
+
+== BothDirectoriesMustBeOnSameMountToMove ==
+이동하려면 소스 디렉터리와 대상 디렉터리가 모두 같은 마운트 지점에 있어야 합니다. {0}, {1}.
+
+== BrNameField ==
+브랜치 이름
+
+== BranchDoesnotexist ==
+지정된 브랜치 {0}이(가) 존재하지 않습니다
+
+== BranchOrMarkerChangesetDoesntexist ==
+지정하신 레이블 또는 브랜치 {0}이(가) 유효하지 않습니다. 레이블이 지정된 변경 세트(또는 브랜치 헤드) {1}이(가) 존재하지 않습니다.
+
+== BranchParentDoesnotexist ==
+지정된 브랜치 {0}에 부모가 없습니다
+
+== BusyWorkspace ==
+워크스페이스 '{0}'이(가) 사용 중입니다. 나중에 시도하십시오
+
+== CannotDoChangeEditedXlink ==
+편집된 Xlink에서 체크아웃을 수행할 수 없습니다.
+
+== CannotDoChangeReadonlyXlink ==
+읽기 전용 Xlink에서 항목을 수정할 수 없습니다.
+
+== CannotDoChangeUnresolvedXlink ==
+미해결 Xlink 내의 항목을 수정할 수 없습니다.
+
+== CannotEditXlinkRoot ==
+Xlink 루트를 편집할 수 없습니다.
+
+== CannotIncomingChangesMergeInProgress ==
+진행 중인 병합이 있으므로 새 변경사항(수신 변경사항)을 가져올 수 없습니다. 병합을 먼저 완료해야 합니다.
+진행 중인 병합: 변경 세트 {1}의 {0}
+
+== CannotIncomingChangesMergePendingToConfirm ==
+현재 병합을 먼저 체크인해야 하므로 새 변경사항(수신 변경사항)을 가져올 수 없습니다. 새 브랜치에 변경사항을 체크인하거나 현재 브랜치의 마지막 변경 세트에서 병합할 수 있습니다.
+
+== CannotMergeIncomingChangesInProgress ==
+진행 중인 수신 변경사항 작업이 있으므로 병합을 시작할 수 없습니다. 해당 작업을 먼저 완료해야 합니다.
+
+== CannotMergeMergeInProgress ==
+이미 진행 중인 병합이 있으므로 새 병합을 시작할 수 없습니다. 먼저 병합한 다음 새 병합을 시작하십시오.
+진행 중인 병합: 변경 세트 {1}의 {0}
+
+== CannotMergetoWithConflicts ==
+연결하려는 Unity VCS 서버가 새 기능을 지원하지 않을 수 있습니다. 서버측 병합(또는 "대상에 병합"과 충돌 해결 방법)을 사용하려면 버전 7.0.16.2077 이상이여야 합니다. 이 경우 서버 설치를 업그레이드하십시오. 그렇지 않으면 서버 로그에서 자세한 내용을 확인하십시오.
+
+== CannotPerformPartialCheckin ==
+체크인 작업을 수행할 수 없습니다. 모든 병합 변경사항을 함께 체크인해야 병합 추적 가능성을 올바르게 저장할 수 있습니다. 모든 병합 변경사항을 포함해 작업을 반복하십시오.
+
+== CannotPerformPartialUndo ==
+실행 취소 작업을 수행할 수 없습니다. 모든 병합 변경사항을 함께 실행 취소해야 합니다. 모든 병합 변경사항을 포함하거나 모두 제외하고 작업을 반복하십시오.
+
+== CannotSwitchWithPendingChanges ==
+대기 중인 변경사항이 있으므로 브랜치/레이블/변경 세트/임시 저장으로 전환할 수 없습니다. 대기 중인 변경사항을 검토하고 작업을 다시 시도하십시오.
+
+== CannotUndoAdded ==
+추가되지 않은 변경사항이 포함되어 있으므로 추가된 '{0}'을(를) 실행 취소할 수 없습니다
+
+== CannotUndoCopied ==
+콘텐츠를 가진 복사된 디렉터리는 실행 취소할 수 없습니다
+
+== CannotUndoMoved ==
+{2}이(가) 제거되었으므로 {0}에서 {1}(으)로의 이동을 실행 취소할 수 없습니다
+
+== CannotUpdateWithPendingChanges ==
+대기 중인 변경사항이 있으므로 워크스페이스를 업데이트할 수 없습니다. 대기 중인 변경사항을 검토하고 작업을 다시 시도하십시오.
+
+== CannotUpdateWorkspaceContainsChanges ==
+현재 구성에 업데이트할 새 변경 세트가 없습니다. 워크스페이스에 대기 중인 변경사항이 있습니다. 최신 변경사항을 가져오려면 업데이트를 실행하는 대신 해당 변경사항을 실행 취소하십시오.
+
+== CantArchiveAnAlreadyArchivedRevision ==
+이미 보관된 개정을 보관할 수 없습니다. {0}
+
+== CantArchiveCheckedoutrev ==
+체크아웃된 레이블을 보관할 수 없습니다. {0}
+
+== CantArchiveDirectory ==
+디렉터리를 보관할 수 없습니다. {0}
+
+== CantArchiveFromDifferentRepositories ==
+단일 호출로 다른 리포지토리의 개정을 보관할 수 없습니다
+
+== CantDiffBranchNoParent ==
+브랜치 {0}의 부모 변경 세트를 찾을 수 없으므로 이를 비교할 수 없습니다.
+
+== CantDiffCsetNoParent ==
+변경 세트 {0}에 부모가 없으므로 이를 비교할 수 없습니다.
+
+== CantEditAndDeleteReview ==
+인수 -e(편집) 및 -d(삭제)를 함께 사용할 수 없습니다.
+
+== CantFindDataForArchived ==
+요청한 보관된 개정에 대한 데이터를 찾을 수 없습니다
+
+== CantRenameElementAlreadyExist ==
+해당 이름을 가진 요소가 이미 존재하므로 이름을 "{0}"에서 "{1}"(으)로 변경할 수 없습니다
+
+== CantRestoreNonArchivedData ==
+{0}에 대한 데이터가 보관되지 않았으므로 복원할 수 없습니다. 해당 개정에 대해 데이터가 보관된 경우, 서버가 보관된 데이터를 해결 중이고 복원하기 위해 비활성화했는지 확인하십시오
+
+== CantRevertToDifferentItem ==
+지정된 개정 '{0}'이(가) 다른 항목을 참조하므로 항목을 되돌릴 수 없습니다.
+
+== CantUpdateBaseChangesetBranchWithRevisions ==
+브랜치가 비어 있어야 하므로 브랜치의 베이스 변경 세트를 업데이트할 수 없습니다.
+
+== ChangeMustBeSelected ==
+변경사항 '{0}'을(를) 선택하려면 변경사항 '{1}'도 선택해야 합니다.
+
+== ChangelistAddtoBuiltinmergeEx ==
+빌트인 변경 목록에 변경사항을 추가할 수 없습니다: '{0}'.
+
+== ChangelistAlreadyExist ==
+이름이 {0}인 변경 목록이 이미 있습니다.
+
+== ChangelistCannotDeleteBuiltinEx ==
+'빌트인' 유형의 변경 목록은 삭제할 수 없습니다.
+
+== ChangelistCannotEditBuiltinEx ==
+'빌트인' 유형의 변경 목록은 편집할 수 없습니다.
+
+== ChangelistCannotShowBuiltinEx ==
+빌트인 변경 목록의 콘텐츠를 표시할 수 없습니다: '{0}'. '빌트인' 변경 목록을 표시하려면 'cm status --changelist' 명령을 사용하십시오.
+
+== ChangelistCorruptedStorageFile ==
+변경 목록 정보 데이터 파일을 로드할 수 없습니다. 잘못된 파일 형식일 수 있습니다.
+
+== ChangelistDeletefromBuiltinEx ==
+'빌트인' 변경 목록의 변경사항을 삭제할 수 없습니다: '{0}'.
+
+== ChangelistInvalidName ==
+잘못된 변경 목록 이름: '{0}'.
+
+== ChangelistNotFound ==
+{0} 변경 목록이 존재하지 않습니다
+
+== ChangesetMoveRepositoryMismatch ==
+목표로 하는 변경 세트와 대상 브랜치가 서로 다른 리포지토리에 있습니다.
+
+== ChangetNotLoadOnConf ==
+현재 워크스페이스 구성에 변경 세트 {0}이(가) 로드되지 않았습니다.
+
+== CheckinTooManyIgnoredErrors ==
+체크인할 변경사항이 너무 많으면 체크인할 수 없습니다. 체크인을 완료할 수 없습니다. 변경사항을 검토하고 다시 시도하십시오.
+
+== CherryPick ==
+체리픽
+
+== ClientconfWithErrors ==
+클라이언트 구성 파일 "client.conf"에 오류가 있습니다: {0}
+
+== CloakedCannotBeDeleted ==
+'{0}'이(가) 클로킹되었으므로 삭제할 수 없습니다.
+
+== CloakedDstCannotBeMoved ==
+'{0}'이(가) 클로킹되었으므로 항목을 '{0}'(으)로 이동할 수 없습니다.
+
+== CloakedSrcCannotBeMoved ==
+'{0}'이(가) 클로킹되었으므로 이동할 수 없습니다.
+
+== CloudEditionInvalidCredentials ==
+사용자 이름 또는 비밀번호가 유효하지 않습니다.
+
+== CmdBadPosition ==
+트리거 위치는 정수여야 합니다.
+
+== CmdErrorInvalidWebtriggerUri ==
+지정된 URI '{0}'이(가) 유효하지 않습니다.
+
+== CmdErrorNoSuchChangeset ==
+{1} 리포지토리에 {0} 변경 세트가 없습니다.
+
+== CommentField ==
+코멘트
+
+== CompMethodError ==
+{0}은(는) 유효한 비교 방법이 아닙니다
+
+== ContentMustBeUndoCheckedout ==
+디렉터리 '{0}'에서 체크아웃 실행 취소 작업을 수행하려면 디렉터리 내용이 작업에 포함되어야 합니다.
+
+== CorruptConfigurationFile ==
+구성 파일 '{0}'의 데이터가 잘못되었거나 손상되었으므로 파일을 읽을 수 없습니다.
+
+== CsetTreeCannotBeLoaded ==
+변경 세트 '{0}'의 내용을 로드할 수 없습니다.
+
+== DaysAgo ==
+{0}일 전
+
+== DeleteNotAllowedTransfomerRuleInside ==
+'{0}' 항목에 변환기 규칙 '{1}'이(가) 있으므로 삭제할 수 없습니다.
+
+== DestinationField ==
+대상
+
+== DestinationMustBeCheckedin ==
+이동 소스 '{0}'은(는) 대상 '{1}'을(를) 체크인하지 않으면 체크인할 수 없습니다.
+
+== DifferentRepositoryBrSpecs ==
+다른 리포지토리에서 브랜치를 지정할 수 없습니다
+
+== DifferentRepositoryCsSpecs ==
+다른 리포지토리에서 변경 세트를 지정할 수 없습니다
+
+== DifftoolsUncorrectDefined ==
+비교 툴 "{0}" 실행 중 오류가 발생했습니다. client.conf의 비교 툴이 잘못 정의되었습니다.
+
+== SpreadsheetcompareFailed ==
+SpreadsheetCompare.exe를 실행하는 데 실패했습니다. 명령: "{0}".
+
+== DirConflictsCannotBeApplied ==
+해당 해결 방법으로는 {0}개의 충돌을 해결할 수 없습니다. 해당 충돌에 대해 다른 해결 방법을 시도하거나 다른 충돌을 먼저 해결하십시오.
+
+== DiscardedDeletedWithDiscardedMoved ==
+삭제된 '{0}'은(는) '{1}'에서 '{2}'(으)로 이동이 취소된 항목이 포함되어 있으므로 체크인할 수 없습니다.
+
+== DmnotavailableWithDir ==
+dm 명령은 디렉터리가 아닌 파일 비교에만 사용할 수 있습니다.
+
+== DuplicatedBrSpecified ==
+지정된 브랜치 목록에 중복된 항목:{0}이(가) 있습니다. 중복된 항목을 제거하십시오.
+
+== DuplicatedItemOnWk ==
+이 항목은 {0}, {1}에 두 번 로드되었습니다. 완료되지 않은 '이동' 작업의 결과일 수 있습니다. 두 인스턴스 중 하나를 제거하십시오.
+
+== EncodingError ==
+{0}은(는) 잘못된 텍스트 인코딩입니다
+
+== ErrorAclNoPermissions ==
+지정된 권한 없음
+
+== ErrorAclNoSuchPermission ==
+다음 권한 없음: {0}
+
+== ErrorAclNoSuchUserOrGroup ==
+다음 사용자나 그룹이 없습니다. {0}
+
+== ErrorAclNoSuchUserOrGroupSpecified ==
+지정된 사용자나 그룹이 없습니다.
+
+== ErrorAclWrongBranchesArg ==
+잘못된 "--branches" 매개 변수입니다. 브랜치 이름 사이에 공백이 없는지 확인하거나 전체 매개 변수를 인용 부호로 묶으십시오.
+  예:
+    --branches=/main,/task001
+    --branches="/main, /task001"
+    "--branches=/main, /task001"
+  
+
+== ErrorArchiveCantRetrieveData ==
+보관된 분량을 가져올 수 없습니다. 보관된 데이터를 찾으려면 externaldata.conf 파일을 올바른 경로로 구성하십시오. 베이스 파일 이름: {0}. 코멘트: {1}. 파일: {2}
+
+== ErrorCannotRenameDynamicWk ==
+동적 워크스페이스 이름을 변경할 수 없습니다.
+
+== ErrorCantImportInvalidPackage ==
+잘못된 복제 패키지입니다. 유효한 버전 서명을 찾을 수 없습니다
+
+== ErrorClientconfignotfound ==
+Unity VCS클라이언트가 현재 사용자에 대해 올바르게 구성되지 않았습니다. 클라이언트 구성 파일 {0}을(를) 찾을 수 없습니다. cm configure를 실행하여 텍스트 모드 구성을 수행하거나 그래픽 모드의 경우 '{1} --configure'를 실행하십시오.
+
+== ErrorDiffType ==
+서로 다른 유형의 항목 간 차이점은 계산할 수 없습니다
+
+== ErrorEmptySelector ==
+선택기는 비워둘 수 없습니다.
+
+== ErrorMoveSrcDstEqual ==
+{0}을(를) 이동할 수 없습니다. 소스 경로와 대상 경로가 같습니다
+
+== ErrorNoRepositoriesFound ==
+모든 서버에 리포지토리가 없습니다
+
+== ErrorPartialConfigureChangeCannotApply ==
+요청된 작업은 경로 {0}에 적용할 수 없습니다(이미 로드되었거나 로드가 취소됨).
+
+== ErrorPartialConfigurePathNotFound ==
+경로 {0}을(를) 찾을 수 없습니다.
+
+== ErrorPartialConfigureWrongFormat ==
+예상된 형식을 찾을 수 없습니다. 자세한 내용은 명령 사용법이나 도움말을 확인하십시오.
+
+== ErrorReplicatePackageDoesntExist ==
+패키지 {0}이(가) 없습니다
+
+== ErrorTwoCsetWithPathDiff ==
+'{0}'와(과) '{1}'의 차이점을 계산할 수 없습니다.
+
+== ErrorUpdateTrailingDots ==
+Windows에서는 파일 이름 뒤에 후행 점을 사용할 수 없습니다.
+
+== ExpansionRulesHeader ==
+브랜치 확장 규칙:
+
+== FailConnectionServer ==
+서버 {0}에 연결할 수 없습니다
+
+== FastChgRepNotAllowedOnTransWk ==
+빠른 업데이트는 변환기 규칙을 사용해 대상 리포지토리를 변경하는 데 사용될 수 없습니다. 표준 업데이트를 사용하십시오.
+
+== FastNotAllowedRuleRestricion ==
+서버 변경사항 '{0}'을(를) 변환기 규칙 '{1}'이(가) 있는 워크스페이스에 적용할 수 없으므로 빠른 업데이트를 사용할 수 없습니다. 필요한 경우 워크스페이스 변환기 규칙을 업데이트하고 표준 업데이트를 사용하십시오.
+
+== FastUpdCloakedError ==
+빠른 업데이트는 클로킹된 규칙과 함께 사용될 수 없습니다. 표준 업데이트를 사용하십시오.
+
+== FastUpdConflictsError ==
+로컬 및 서버 변경사항이 충돌하므로 빠른 업데이트를 수행할 수 없습니다.
+
+== FastUpdPendingChangesError ==
+대기 중인 변경사항이 있으므로 빠른 업데이트를 수행할 수 없습니다. 대기 중인 변경사항을 검토하고 작업을 다시 시도하십시오.
+
+== FastUpdPendingMergesError ==
+대기 중인 병합 링크가 있으므로 빠른 업데이트를 수행할 수 없습니다. 대기 중인 병합을 검토하고 작업을 다시 시도하십시오.
+
+== FastUpdateApplyChangesError ==
+워크스페이스에서 빠른 업데이트를 실행할 수 없습니다: '{0}'. 모든 로컬 변경사항을 실행 취소하고 빠른 업데이트 옵션을 비활성화한 후 업데이트를 다시 실행하십시오.
+
+== FieldTooLong ==
+{0}이(가) 너무 깁니다. 현재 크기는 {1}입니다. 허용된 최대 크기는 {2}입니다
+
+== FileTypesFileNotFound ==
+파일 유형 파일 {0}을(를) 찾을 수 없습니다
+
+== FindNeedRepositories ==
+"on repositories"절은 워크스페이스가 아닌 쿼리에 필요합니다.
+
+== FormatterError ==
+필드 {0}은(는) 지정된 객체 유형에 유효하지 않습니다
+
+== GameUiCiHeadOutOfDateError ==
+작업이 시작된 후 새 변경사항이 리포지토리 '{0}'에 생성되었으므로 체크인 작업을 완료할 수 없습니다. 새 서버 변경사항을 포함하려면 체크인 작업을 다시 시도하십시오.
+
+== GameuiCiInsideUnresolvedXlinkNotAllowed ==
+Xlink '{0}'을(를) 해결할 수 없습니다. 미해결 Xlink에 있는 변경사항을 체크인할 수 없습니다.
+
+== GameuiCoBrMissingXlink ==
+Xlink '{0}'이(가) 더 이상 서버에 로드되지 않으므로 Xlink 내에서는 변경할 수 없습니다. 워크스페이스 구성을 업데이트하십시오.
+
+== GameuiCoBrUnresolvedXlink ==
+오류로 인해 Xlink '{0}'을(를) 지금 바로 해결할 수 없으므로 Xlink 내에서는 변경할 수 없습니다: {1}
+
+== GenericError ==
+서버 {0}에 오류가 발생했습니다
+
+== GetRevisionDirectoryNotSupported ==
+GetRevision은 디렉터리에서 지원되지 않습니다. 디렉터리 내용을 가져오려면 이를 워크스페이스 규칙에 로드하십시오.
+
+== GluonPartialUpdateToDifferentBranch ==
+업데이트 작업을 계속할 수 없습니다. 대상 변경 세트가 현재 워크스페이스 브랜치에 있어야 합니다: {0}.
+
+== HoursAgo ==
+{0}시간 전
+
+== IncomingChangesCannotCalculateMerge ==
+수신 변경사항을 계산할 수 없습니다. 워크스페이스 변경 세트가 삭제되었는지 확인하거나 지원팀에 문의하십시오.
+
+== IncomingChangesDontMerge ==
+업데이트 작업이 충돌을 감지했습니다. 작업을 --dontmerge 옵션으로 실행했으므로 계속할 수 없습니다.
+
+== IncomingChangesNotSupported ==
+{0} 서버는 수신 변경사항 작업을 지원하지 않습니다. 서버를 업그레이드하거나 일반 병합/업데이트를 실행해 최신 변경사항을 가져오십시오.
+
+== IncomingChangesReadonlyXlinksNotSupported ==
+읽기 전용 Xlink 변경사항은 수신 변경사항에서 지원되지 않습니다. 최신 변경사항을 가져오려면 일반 병합을 실행하십시오.
+
+== IncomingTansformerRulesNotSupported ==
+워크스페이스에 변환기 규칙이 있습니다. 변환기 규칙은 현재 수신 변경사항에서 지원되지 않습니다. 모든 대기 중인 변경사항을 먼저 실행 취소하고 워크스페이스를 업데이트하십시오. 유지하려는 대기 중인 변경사항이 있는 경우, 실행 취소하기 전에 이를 임시 저장하고 업데이트 후에 임시 저장된 내용을 적용할 수 있습니다.
+
+== IncomingWxlinkBackwardEditionNotSupported ==
+쓰기 가능한 Xlink '{0}'이(가) 이전 변경 세트를 가리키도록 편집되었습니다. 이 쓰기 가능한 Xlink 에디션은 현재 수신 변경사항에서 지원되지 않습니다. 모든 대기 중인 변경사항을 먼저 실행 취소하고 워크스페이스를 업데이트하십시오. 유지하려는 대기 중인 변경사항이 있는 경우, 실행 취소하기 전에 이를 임시 저장하고 업데이트 후에 임시 저장된 내용을 적용할 수 있습니다.
+
+== IncomingChangesSubbranchesNotSupported ==
+하위 브랜치에서 작업 중입니다. 브랜치 헤드의 부모가 아닌 변경 세트를 로드할 때 이런 현상이 일어날 수 있습니다. 하위 브랜치는 수신 변경사항에서 지원되지 않습니다. 최신 변경사항을 가져오려면 cs:{0}에서 일반 병합을 실행하십시오.
+
+== IncompatibleCmdOptions ==
+호환되지 않는 옵션: {0}.
+
+== IncorrecBrspec ==
+잘못된 브랜치 사양
+
+== IncorrectCiDateFormat ==
+'{0}' 날짜는 '{1}' 형식을 사용해 분석할 수 없습니다.
+
+== IncorrectExtensionConfiguration ==
+{0} 줄에 잘못된 이슈 추적기 구성 데이터: {1}
+
+== IncorrectExtensionConfigurationParameter ==
+{0} 줄에 잘못된 이슈 추적기 매개 변수 구성: {1}
+
+== IncorrectSelector ==
+선택기가 올바르게 정의되지 않았습니다.
+
+== IncorrectSelectorErrorMultiplePathsForRep ==
+선택기가 올바르게 정의되지 않았습니다. 리포지토리 {0}에 대한 경로가 여러 개입니다.
+
+== IncorrectSelectorMultipleRules ==
+선택기가 올바르게 정의되지 않았습니다. 리포지토리 규칙이 여러 개입니다.
+
+== IncorrectSelectorNoRule ==
+선택기가 올바르게 정의되지 않았습니다. 리포지토리 규칙이 없습니다.
+
+== IncorrectSelectorParamInvalidMountPoint ==
+선택기가 올바르게 정의되지 않았습니다. 리포지토리 {0}에 마운트 지점({1})이 있으면 안 됩니다.
+
+== IncorrectSelectorParamRepDoesntexist ==
+선택기가 올바르게 정의되지 않았습니다. 지정된 리포지토리가 없습니다: {0}.
+
+== IncorrectSelectorParamRepServerCannotBeReached ==
+지정된 리포지토리 {1}에 연결된 서버({0})에 연결할 수 없습니다.
+
+== IncorrectSelectorParamRepnameCantBeEmpty ==
+선택기가 올바르게 정의되지 않았습니다. 리포지토리 이름은 비워둘 수 없습니다.
+
+== Incorrectspec ==
+잘못된 객체 사양 {0}
+
+== InsensitiveDuplicatedItem ==
+항목 {0} 및 {1}은(는) 대소문자를 구분하지 않는 파일 시스템에 동시에 로드될 수 없습니다. {0} 항목이 취소됩니다.
+
+== IntervalMerge ==
+간격 병합
+
+== InvalidCharsInName ==
+{0}은(는) 다음 문자를 포함할 수 없습니다:
+               {1}
+
+== InvalidExpansionRule ==
+확장 규칙 '{0}'이(가) 유효하지 않습니다.
+
+== InvalidExpansionRuleRepNotMatch ==
+'{1}' 브랜치는 리포지토리 '{3}'이(가) 아닌 '{2}'의 브랜치여야 하므로 확장 규칙 '{0}'이(가) 유효하지 않습니다.
+
+== InvalidFieldError ==
+필드 '{0}'이(가) 유효하지 않습니다.
+
+== InvalidFormatString ==
+잘못된 형식 문자열
+
+== InvalidMergeDstBrSpec ==
+변경 세트 사양이 유효하지 않은 병합 대상입니다.
+
+== InvalidMergeDstSpec ==
+병합 대상 사양이 유효하지 않습니다. 대신 변경 세트 사양이나 브랜치 사양을 사용하십시오.
+
+== InvalidMergespec ==
+잘못된 사양 {0}
+
+== InvalidMountPoint ==
+리포지토리 {1}의 마운트 지점 '{0}'이(가) 워크스페이스 '{2}'에 유효하지 않습니다. 이전 버전일 수 있습니다.
+
+== InvalidMoveDstPriv ==
+제어된 항목을 비공개 디렉터리로 이동할 수 없습니다
+
+== IsNotAnXlink ==
+'{0}'은(는) Xlink가 아닙니다.
+
+== ItemAlreadyExistsOnWkWithDifferentTypeDir ==
+{0} 항목이 이미 워크스페이스에 있지만, 파일이 아닌 디렉터리이므로 업데이트할 수 없습니다
+
+== ItemAlreadyExistsOnWkWithDifferentTypeFile ==
+{0} 항목이 이미 워크스페이스에 있지만, 디렉터리가 아닌 파일이므로 업데이트할 수 없습니다
+
+== ItemAlreadyLocked ==
+'{0}' 항목은 배타적으로 체크아웃된 {1}이므로 잠글 수 없습니다.
+
+== ItemAlreadyLockedOnMergeFromHead ==
+'{0}'은(는) 이미 잠겨 있는 {1}이므로 병합을 계속할 수 없습니다. 계속하려면 파일의 잠금을 풀거나 변경사항을 실행 취소해야 합니다. 나중에 잠금이 필요한 파일을 변경하기 전에 체크아웃하면 이 오류를 방지할 수 있습니다.
+
+== ItemCannotBeFoundOnRep ==
+리포지토리 '{2}'에서 '{0}' 항목(ItemId:{1})을 찾을 수 없습니다. 이전 버전 워크스페이스에서 작업 중일 수 있습니다. 업데이트하십시오.
+
+== ItemLockOutOfDateOnMergeFromHead ==
+'{0}'은(는) 잠글 수 없습니다. 최신 개정이 아니며, 잠금은 최신 버전에서만 할 수 있습니다. 변경사항을 실행 취소하고 다시 업데이트할 수 있습니다. 나중에 잠금이 필요한 파일을 변경하기 전에 체크아웃하면 이 오류를 방지할 수 있습니다.
+
+== ItemMustBeUndoCheckedout ==
+'{1}'에 종속성이 있으므로 '{0}'을(를) 실행 취소할 수 없습니다. '{1}'을(를) 명령 인수에 추가하고 다시 시도하십시오.
+
+== ItemNameField ==
+항목 이름
+
+== ItemPathField ==
+항목 경로
+
+== LockCopiedItemsNotSupported ==
+{0} 서버는 잠금 복사된 항목을 지원하지 않습니다. 서버를 업그레이드하세요.
+
+== LogOnPrivateNotCsRep ==
+비공개 경로에서 로그 명령을 실행하려면 변경 세트나 리포지토리 전체 사양을 지정해야 합니다.
+
+== LsItemNotFound ==
+{0} 항목에 대한 선택기를 해결할 수 없습니다
+
+== LsItemNotFoundSelector ==
+{0} 항목에 대한 선택기를 해결할 수 없습니다. 커스텀 선택기를 지정하고 있으므로 '리포지토리 형식'의 경로를 사용해야 합니다: c:\myworkspace\src 대신 /src를 사용하십시오
+
+== MainBranchesNotAllowed ==
+상위 수준 브랜치를 이 에디션에서 사용할 수 없으며, 자식 브랜치만 생성할 수 있습니다.
+
+== Merge ==
+병합
+
+== MergeAddNotAllowedPathFreeByRule ==
+'{0}' 항목을 추가할 수 없습니다. 경로 '{0}'을(를) 서버에서 이미 사용 중이지만, 변환기 규칙 '{1}'(으)로 인해 클라이언트에서는 사용 중이지 않습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeDeleteNotAllowedRuleInside ==
+'{0}' 항목에 변환기 규칙 '{1}'이(가) 있으므로 삭제할 수 없습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeMoveNotAllowedPathFreeByRule ==
+'{0}' 항목을 '{1}'(으)로 이동할 수 없습니다. 경로 '{1}'을(를) 서버에서 이미 사용 중이지만, 변환기 규칙 '{2}'(으)로 인해 클라이언트에서는 사용 중이지 않습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeMoveNotAllowedTransformedItem ==
+'{0}' 항목이 규칙 '{1}'에 의해 변환되었으므로 이동할 수 없습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeNeeded ==
+체크인하려면 cs:{0}@rep:{2}@repserver:{3} 변경 세트(마운트:{4})에서 cs:{1}@rep:{2}@repserver:{3}(마운트:{4}) 변경 세트(현재 로딩 중인 변경 세트)로 병합해야 합니다. 체크인 작업을 계속할 수 없습니다. 현재 워크스페이스 내용을 현재 작업 중인 브랜치의 최신 내용과 병합해 충돌을 해결해야 합니다. 그런 다음 체크인 작업을 다시 시도할 수 있습니다.
+
+== MergeRestorerDeletedPathInUse ==
+변환기 규칙 '{0}'에 의해 삭제된 경로가 변환기 규칙 '{1}'에 의해 다시 사용되었으므로 삭제된 내용을 복원할 수 없습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeRestorerRmRuleCannotBeLoaded ==
+변환기 규칙 '{0}'의 내용이 로드되지 않았습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeRestorerRmRuleMountMissing ==
+변환기 규칙 '{0}'의 마운트 지점을 찾을 수 없습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeRestorerRmRuleParentMissing ==
+변환기 규칙 '{0}'의 부모 '{1}'이(가) 워크스페이스에 로드되지 않았으므로, 변환기 규칙의 내용을 복원할 수 없습니다. 현재 변환기 규칙으로는 병합을 완료할 수 없습니다. 관련된 변환기 규칙을 제거하거나 변환되지 않은 워크스페이스를 사용해 병합을 다시 시도하십시오.
+
+== MergeToPendingDirectoryConflicts ==
+대상에 병합을 처리하기 전에 해결해야 하는 대기 중인 디렉터리 충돌이 있습니다.
+
+== MergeToPendingFileConflicts ==
+대상에 병합을 처리하기 전에 해결해야 하는 대기 중인 파일 충돌이 있습니다.
+
+== MergeWithChgInsideMissingNotAllowed ==
+삭제된 변환기 규칙에 따라 대기 중인 클로킹된 변경사항이나 대기 중인 변경사항에 병합 작업을 수행할 수 없습니다. 먼저 대기 중인 변경사항을 확인하거나 실행 취소하십시오.
+
+== MergetoolsUncorrectDefined ==
+병합 툴 "{0}" 실행 중 오류가 발생했습니다. client.conf의 병합 툴이 잘못 정의되었습니다.
+
+== MinutesAgo ==
+{0}분 전
+
+== MkNameField ==
+레이블 이름
+
+== MkbranchParentnotfound ==
+리포지토리 서버에서 부모 브랜치 {0}을(를) 찾을 수 없습니다
+
+== Months ==
+{0}개월
+
+== MonthsAgo ==
+{0}개월 전
+
+== MoveNotAllowedForTransformedItem ==
+'{0}' 항목은 변환기 규칙 '{1}'에 의해 변환되었으므로 이동할 수 없습니다.
+
+== MoveNotAllowedPathIsFreeByTransformerRule ==
+'{0}' 항목을 '{1}'(으)로 이동할 수 없습니다. 경로 '{1}'을(를) 서버에서 이미 사용 중이지만, 변환기 규칙 '{2}'(으)로 인해 클라이언트에서는 사용 중이지 않습니다.
+
+== MultipleWorkspaceNotAllowed ==
+{0} 작업은 서로 다른 워크스페이스의 항목을 사용해 실행할 수 없습니다. 각 워크스페이스 항목으로 작업을 다시 시도하십시오.
+
+== MustBeOnSameRep ==
+작업을 수행하려면 {0}와(과) {1}이(가) 같은 리포지토리에 있어야 합니다
+
+== NewerWorkspaceVersion ==
+워크스페이스 '{0}'의 메타데이터가 최신 버전 Unity VCS으로 업그레이드되었습니다. 이제 이전 버전에서 워크스페이스 메타데이터를 읽을 수 없습니다. 문제를 해결하려면 1) Unity VCS 클라이언트를 업그레이드하거나 2) 워크스페이스에 있는 '.plastic' 디렉터리를 삭제할 수 있습니다. 디렉터리를 삭제하는 경우 모든 워크스페이스 메타데이터가 사라지고 파일이 비공개로 표시되며 업데이트를 실행해야 합니다.
+
+== NoContentToCompare ==
+비교할 콘텐츠가 없습니다.
+
+== NoDifftoolDefined ==
+클라이언트 구성 파일에 정의된 비교 툴이 없습니다
+
+== NoElementFound ==
+내역을 표시할 요소를 찾을 수 없습니다.
+
+== NoMergesInProgress ==
+워크스페이스 '{0}'에 진행 중인 병합이 없습니다.
+
+== NoMergetoolDefined ==
+클라이언트 구성 파일에 정의된 병합 툴이 없습니다
+
+== NoMountPointForMultirepQuery ==
+다중 리포지토리 쿼리에 대한 마운트 지점을 가져올 수 없습니다(쿼리: '{0}').
+
+== NoPathBetweenCsets ==
+'{0}' 및 '{1}' 간에 경로가 없습니다.
+
+== NoSuchCodeReview ==
+지정된 코드 검토 '{0}'을(를) 찾을 수 없습니다.
+
+== NoSuchCodeReviewStatus ==
+다음 코드 검토 상태가 없습니다: {0}. 사용할 수 있는 값은 {1}입니다
+
+== NotChange ==
+{0}은(는) 변경사항이 아닙니다
+
+== NotValidCmPath ==
+지정된 경로 {0}은(는) 유효한 서버 경로가 아닙니다.
+
+== ObjectNameField ==
+객체 이름
+
+== OnlyOneRepRuleByRep ==
+잘못된 선택기입니다. 리포지토리 '{0}'에 두 개 이상의 리포지토리 규칙이 있습니다. 리포지토리별로 하나의 리포지토리 규칙만 사용할 수 있습니다.
+
+== ParentRevisionNotFound ==
+서버에 선택된 항목의 부모 개정(개정 ID:{0}@{1})이 없으므로 차이점을 계산할 수 없습니다. 다른 사용자가 해당 개정이 로드된 변경 세트를 제거했을 수 있습니다.
+
+== PartialWkWxlinkCannotBeEditedTargetOnExpandedBr ==
+부분 워크스페이스에서는 이미 작업 중인 경우 Xlink '{0}'의 대상 브랜치를 편집할 수 없습니다.
+
+== PartialWkWxlinkCannotBeEditedTargetOnSameBr ==
+부분 워크스페이스는 작업 중인 브랜치에서 항상 헤드 변경 세트의 내용을 로드하므로 쓰기 가능한 Xlink '{0}'이(가) 브랜치에서 다른 변경 세트를 가리키도록 편집할 수 없습니다.
+
+== PendingDirectoryConflict ==
+병합을 처리하기 전에 해결해야 하는 1개의 디렉터리 충돌이 있습니다.
+
+== PendingDirectoryConflicts ==
+병합을 처리하기 전에 해결해야 하는 {0}개의 디렉터리 충돌이 있습니다.
+
+== PrivDirDiff ==
+비공개 디렉터리 간의 차이점은 사용할 수 없습니다
+
+== ProfileNameAlreadyExists ==
+프로필 이름이 이미 있습니다
+
+== RepCannotBeLoadedInsideItself ==
+리포지토리는 해당 리포지토리 내부에 로드될 수 없습니다. 리포지토리 {0}은(는) 이미 '{2}'에 로드되었으므로 '{1}'에 로드될 수 없습니다.
+
+== RepNameField ==
+리포지토리 이름
+
+== RepSpecField ==
+리포지토리 사양
+
+== RepositoryLoadedTwiceOnWk ==
+리포지토리 {0}이(가) '{1}', '{2}'에 두 번 마운트되었습니다. 마운트 지점을 지정하십시오.
+
+== RestorePathShouldNotExist ==
+복원 경로가 존재하지 않아야 합니다.
+
+== RevdatanotfoundForSpec ==
+지정된 개정 사양에 대한 데이터가 없습니다
+
+== RevertToCurrentRev ==
+지정된 개정 '{0}'은(는) 현재 개정입니다. 되돌릴 필요가 없습니다.
+
+== ReviewNameField ==
+코드 검토 제목
+
+== RevisionCannotBeFoundOnRep ==
+{0}의 현재 개정을 리포지토리 '{1}'에서 찾을 수 없습니다.
+
+== SecondsAgo ==
+{0}초 전
+
+== SecuredPathField ==
+지정된 보안 설정된 경로
+
+== SecuredPathTagField ==
+보안 설정된 경로 태그
+
+== SelectorCsetZeroRootCannotBeLoaded ==
+워크스페이스를 지정된 선택기로 초기화할 수 없습니다. 선택기 리포지토리의 초기 변경 세트를 로드할 권한이 없는 경우일 수 있습니다.
+
+== SelectorRepNotFound ==
+리포지토리를 찾을 수 없습니다. 선택기에 오류가 있을 수 있습니다.
+
+== SelectorTreeContentCannotBeLoaded ==
+선택기 내용을 로드할 수 없습니다. 내용을 로드할 권한이 없을 수 있습니다.
+
+== ShelveIdGreaterThanZero ==
+임시 저장 ID는 0보다 큰 정수여야 합니다
+
+== SubtractiveIntervalMerge ==
+차감식 간격 병합
+
+== SubtractiveMerge ==
+차감식 병합
+
+== SupportBundleAdding ==
+{0} 추가 중...
+
+== SwitchSelectorErrorMultiplePathsInRule ==
+리포지토리 {0}에 여러 경로 규칙이 있습니다. 선택기를 자동으로 전환할 수 없습니다
+
+== SwitchSelectorErrorNoRepFound ==
+현재 워크스페이스 선택기에 리포지토리 {0}에 대한 규칙이 없습니다
+
+== SwitchSelectorErrorNoRepFoundOnlyOneRule ==
+현재 워크스페이스 선택기에 리포지토리 {0}에 대한 규칙이 없습니다
+
+== SwitchSelectorErrorObjectsOnSameRep ==
+같은 리포지토리에 대해 두 개 이상의 브랜치나 레이블이 선택되었습니다
+
+== SyncBranchWithMultipleHeads ==
+{0} 브랜치에 두 개 이상의 헤드가 있습니다. 동기화를 계속하려면 병합하십시오
+
+== SyncBranchesWithMultipleHeads ==
+{0} 브랜치에 두 개 이상의 헤드가 있습니다. 동기화를 계속하려면 병합하십시오
+
+== TransformedItemAlreadyApplied ==
+같은 항목에 대한 규칙이 이미 '{1}'에 적용되었으므로 '{0}' 규칙을 적용할 수 없습니다
+
+== TransformerMvRuleDstInUseError ==
+대상 경로가 사용 중이므로 '{0}' 규칙을 적용할 수 없습니다.
+
+== TransformerMvRuleDstInsideSrcError ==
+항목을 해당 항목 내부로 이동할 수 없으므로 '{0}' 규칙을 적용할 수 없습니다.
+
+== TransformerMvRuleModifiesAppliedRule ==
+'{0}' 규칙은 이미 적용된 규칙('{1}')을 수정하므로 규칙을 적용할 수 없습니다.
+
+== TransformerRmRuleMvInsideError ==
+'{0}' 규칙에 이동 규칙('{1}')이 있으므로 규칙을 적용할 수 없습니다.
+
+== TransformerRuleDeleteRootError ==
+루트 항목을 삭제할 수 없으므로 '{0}' 규칙을 적용할 수 없습니다.
+
+== TransformerRuleMissingPathError ==
+경로 '{1}'을(를) 찾을 수 없으므로 '{0}'규칙을 적용할 수 없습니다.
+
+== TriggerNameField ==
+트리거 이름
+
+== TwoRulesForSameBranchError ==
+브랜치 '{0}'에 이미 확장 규칙 '{0} -> {2}'이(가) 있으므로 새 확장 규칙 '{0} -> {1}'을(를) 추가할 수 없습니다.
+
+== UnableToOpen ==
+URL을 열 수 없음: 
+
+== UndeleteNotSupported ==
+Xlink에는 삭제 취소 작업이 지원되지 않습니다.
+
+== UnexpectedError ==
+예상치 못한 오류가 발생했습니다.
+
+== UnexpectedErrorOnServer ==
+서버에 예상치 못한 오류가 발생했습니다. 자세한 내용은 서버 로그를 확인하십시오.
+
+== UnreachableServer ==
+'{0}' 서버에 연결할 수 없습니다.
+
+== UnrecognizedLanguage ==
+선택한 파일의 언어는 현재 지원되지 않습니다.
+
+== UnsupportedMergeType ==
+지원되지 않는 병합 유형
+
+== UpPasswordCorrupt ==
+클라이언트 구성 파일에서 매개 변수 'password'가 손상되었습니다.
+
+== UpdateWkContentError ==
+다음 오류로 인해 워크스페이스 '{0}'의 내용을 업데이트할 수 없습니다: {1}
+
+== UserDefinedExpansionRuleSuffix ==
+ [사용자 정의]
+
+== UsingDefaultConfiguration ==
+기본 구성 사용
+
+== WkConfigurationDirAlreadyChanged ==
+디렉터리 '{0}'에서 '{1}' 내에 변경사항이 있으므로 디렉터리를 로드하거나 로드를 취소할 수 없습니다. 디렉터리 내의 모든 변경사항을 실행 취소하고 작업을 다시 시도하십시오.
+
+== WkConfigurationFileAlreadyChanged ==
+'{0}' 파일이 이미 '{1}'에서 변경되었으므로 파일을 로드하거나 로드를 취소할 수 없습니다. 모든 변경사항을 실행 취소하고 작업을 다시 시도하십시오.
+
+== WkConfigurationItemAlreadyLoaded ==
+'{0}' 항목이 이미 워크스페이스에 로드되었습니다. 새 위치에 로드하려면 '{1}' 로드를 취소하십시오.
+
+== WkConfigurationPathAlreadyInUse ==
+경로 '{0}'에 다른 항목이 로드되었습니다. 로드를 취소하고 작업을 다시 시도하십시오.
+
+== WkConfigurationRootAlreadyChanged ==
+워크스페이스에 대기 중인 변경사항이 있으므로 루트 항목을 로드하거나 로드를 취소할 수 없습니다. 모든 워크스페이스 변경사항을 실행 취소하고 작업을 다시 시도하십시오.
+
+== WkNameField ==
+워크스페이스 이름
+
+== WkPathField ==
+워크스페이스 경로
+
+== WktreeCorrupt ==
+워크스페이스 '{0}' 메타데이터가 손상되었습니다. 워크스페이스를 업데이트하십시오.
+
+== WorkspacePathNotResolved ==
+{0} 항목의 워크스페이스 경로를 해결할 수 없습니다.
+
+== WorkspaceWithChangesApplingLabel ==
+워크스페이스에 변경사항이 있습니다. 현재 워크스페이스에 대기 중인 변경사항이 있으면 레이블을 적용할 수 없습니다.
+
+== WrongConflictToResolve ==
+'{0}'은(는) 해결해야 하는 유효한 충돌이 아닙니다.
+
+== WrongPercentValue ==
+값 '{0}'은(는) 유효한 백분율이 아닙니다.
+
+== WrongResolutionInfo ==
+'{0}'은(는) 해결 방법 '{1}'에 유효한 해결 정보가 아닙니다.
+
+== WrongResolutionOption ==
+'{0}'은(는) 유효한 해결이 아닙니다.
+
+== XlinkCsetNotFound ==
+Xlink {0}에 지정된 변경 세트를 찾을 수 없습니다
+
+== XlinkRootNotFound ==
+{1}@{2}@{3}에서 Xlink 루트 '{0}'을(를) 찾을 수 없습니다.
+
+== Years ==
+{0}년
+
+== YearsAgo ==
+{0}년 전
+
+== RevisionToReloadNotFound ==
+다시 로드할 개정을 찾을 수 없습니다
+
+== InvalidEncryptionMethod ==
+지정된 암호화 방법이 잘못되었습니다: {0}. AES128, AES192 또는 AES256을 사용하십시오
+
+== MissingEncryptionPassword ==
+비밀번호를 지정하려면 --encryptpassword를 사용하십시오
+
+== EmptyEncryptionPassword ==
+유효한 암호화 비밀번호를 지정하십시오
+
+== MissingEncryptionServer ==
+서버를 지정하려면 --encryptserver를 사용하십시오
+
+== EmptyEncryptionServer ==
+유효한 암호화된 서버를 지정하십시오
+
+== MkworkspaceDynamicIncorrectTreespec ==
+잘못된 브랜치, 변경 세트 또는 레이블 사양: '{0}'
+
+== MkworkspaceDynamicTreespecNotfound ==
+'{0}' 사양의 브랜치, 변경 세트 또는 레이블을 찾을 수 없습니다
+
+== MkworkspaceDynamicAlreadyExists ==
+디렉토리 '{0}'이(가) 이미 존재하며 비어있지 않습니다.
+
+== CmdPatchFileNotFound ==
+패치가 포함된 파일이 없습니다.
+
+== GameUiCheckinConflictsError ==
+일부 로컬 변경사항을 현재 서버 버전에 적용할 수 없어 체크인 작업을 완료할 수 없습니다. 로컬 변경사항과 현재 서버 버전 간의 충돌이 있는지 확인하십시오.
+
+== IsNotWk ==
+{0}은(는) 워크스페이스가 아닙니다.

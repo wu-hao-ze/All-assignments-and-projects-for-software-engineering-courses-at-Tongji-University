@@ -1,0 +1,80 @@
+﻿== FontPreviewSampleTest ==
+날쌘 갈색 여우가 게으른 개를 뛰어넘습니다
+
+== FontPreviewLabelFont ==
+폰트: {0}
+
+== StrikeoutFontNotSupportedMessage ==
+{0} 폰트는 애플리케이션에서 사용하는 취소선 스타일을 지원하지 않습니다. 다른 폰트를 선택하십시오.
+
+== StrikeoutFontNotSupportedCaption ==
+유효하지 않은 폰트
+
+== CloseTab ==
+탭 닫기
+
+== CloseAllTabs ==
+모든 탭 닫기
+
+== CloseAllTabsButThis ==
+이 탭을 제외한 모든 탭 닫기
+
+== CloseTabsToTheRight ==
+오른쪽에 있는 모든 탭 닫기
+
+== CopyTitle ==
+제목 복사
+
+== ListOpenedTabs ==
+열린 탭 나열
+
+== Abort ==
+중단
+
+== Retry ==
+다시 시도
+
+== Ignore ==
+무시
+
+== Ok ==
+확인
+
+== Cancel ==
+취소
+
+== Yes ==
+예
+
+== No ==
+아니요
+
+== Change ==
+변경...
+
+== AbortAmp ==
+&중단
+
+== RetryAmp ==
+&다시 시도
+
+== IgnoreAmp ==
+&무시
+
+== OkAmp ==
+&확인
+
+== CancelAmp ==
+&취소
+
+== YesAmp ==
+&예
+
+== NoAmp ==
+&아니요
+
+== On ==
+On
+
+== Off ==
+Off

@@ -1,0 +1,860 @@
+﻿== PlasticWkExplFullEmpty ==
+[title]워크스페이스가 비어 있으며 리포지토리도 비어 있습니다[/title]
+
+[bold]기존 프로젝트를 추가하시겠습니까?[/bold]
+1. 위 목록에서 워크스페이스 경로를 오른쪽 클릭합니다.
+2. "열기"를 선택합니다. (컨텍스트 메뉴를 사용한다는 점을 염두에 두십시오. 유용하게 사용할 수 있습니다.)
+3. 그러면 [windows]Windows 탐색기[/windows][macos]파인더[/macos][linux]파일 탐색기[/linux]가 열립니다.
+4. 프로젝트를 워크스페이스로 복사하거나 이동합니다.
+5. 작업이 완료되면 "{viewname}"(으)로 이동하여 초기 코드를 리포지토리로 체크인합니다.
+
+[bold]전문가 팁[/bold]: 큰 프로젝트를 추가해야 합니까? (파일 수 300,000개 이상/기가바이트 단위). 
+이러한 경우 명령줄을 사용하여 프로젝트를 빠르게 임포트할 수 있습니다.
+1. 프로젝트를 워크스페이스로 복사하거나 이동합니다.
+2. 명령 프롬프트를 열고 워크스페이스로 이동합니다.
+3. 다음 명령을 사용하여 한 번에 모든 항목을 체크인합니다(코멘트 변경 :P).
+
+[bold]cm ci --all -c "초기 임포트"[/bold]
+
+
+[bold]대신 기존 프로젝트를 연결하시겠습니까?[/bold]
+1. 그렇다면 "리포지토리" 뷰로 이동합니다.
+2. 작업할 리포지토리를 찾습니다.
+3. 리포지토리를 오른쪽 클릭하여 리포지토리의 워크스페이스를 생성합니다.
+(다른 방법도 있지만, 이 방법이 가장 쉽습니다.)
+
+[bold]원격 리포지토리를 복제하거나 가져오시겠습니까?[/bold]
+1. '브랜치 탐색기'로 이동합니다.
+2. 주 브랜치를 오른쪽 클릭합니다.
+3. "복제/이 브랜치 가져오기"를 선택합니다.
+또는 동기화 뷰를 생성하여 2개 이상의 브랜치를 가져옵니다.
+
+== PlasticWkExplGeneralHelp ==
+[title]탐색기 소개[/title]
+
+이 뷰는 버전 제어 정보가 표시된 [windows]Windows 탐색기[/windows][macos]파인더[/macos][linux]파일 탐색기[/linux]와 유사합니다.
+
+탐색기는 [help:PlasticWkExplExplainSearch]파일 찾기[/help]에 매우 유용합니다.
+
+또한 파일 삭제, 이름 변경, 체크아웃, 이동, 내역 표시를 비롯한 많은 작업을 수행할 수 있습니다.
+
+[bold]팁[/bold]: 파일의 컨텍스트 메뉴를 확인하십시오.
+
+== PlasticWkExplRunUpdate ==
+[title]리포지토리에 다운로드 대기 중인 콘텐츠가 있습니다[/title]
+
+최근 변경사항을 가져오려면 [action:UpdateWorkspace]워크스페이스 업데이트[/action]를 클릭하기만 하면 됩니다.
+
+[bold]Git에 익숙하십니까?[/bold] Git에서 [italic]체크아웃[/italic]이라고 하는 것을 Unity VCS에서는 [italic]업데이트[/italic]라고 부릅니다.
+
+== PlasticWkExplExplainSearch ==
+[title]빌트인 검색 기능을 사용하면 파일을 신속하게 찾을 수 있습니다[/title]
+
+[windows]CTRL-F[/windows][macos]Command-F[/macos][linux]CTRL-F[/linux]를 입력하기만 하면 '검색' 필드에 포커스가 설정되어 검색을 시작할 수 있습니다.
+
+== PlasticWkExplWorkingOnChangeset ==
+[title]"워크스페이스 업데이트"가 최근 항목을 가져오지 않습니까?[/title]
+
+워크스페이스 업데이트를 시도하는 중에 체인지 세트에서 작업 중인 것을 감지했습니다.
+
+체인지 세트로 전환하는 경우 워크스페이스 업데이트 시 브랜치의 마지막 변경사항이 다운로드되지 않습니다. 새 변경사항을 다운로드하려는 경우 브랜치로 전환해야 합니다.
+
+[link:https://plasticscm.com/book/#_conflicts_during_checkin_working_on_a_single_branch]여기[/link]에서 단일 브랜치 워크플로에 대한 자세한 내용을 알아보십시오.
+
+== PlasticPendingChangesEmptyState ==
+[title]워크스페이스에 변경사항이 없습니다[/title]
+
+변경사항을 찾는 데 {totaltime}이(가) 소요됩니다. {description}
+
+== PlasticPendingChangesOnboarding ==
+[title]이 뷰는 "{viewname}" 뷰입니다[/title]
+
+{viewname}은(는) 변경사항 체크인, 새 파일 추가, 체크인 이동, 이름 변경 및 삭제에 사용하는 기능입니다.
+
+가장 자주 사용하는 기능 중 하나일 수 있습니다.
+
+이 기능을 사용하면 이동된 파일을 정확히 찾는 등 효과적인 작업이 가능합니다.
+
+[link:https://www.plasticscm.com/download/help/pendingchangesview]여기[/link]에서 {viewname}에 대한 자세한 내용을 알아보십시오.
+
+== PlasticPendingChangesOptionWarningCheckouts ==
+[title]대기 중인 변경사항이 없습니다. 단...[/title]
+
+체크아웃만 표시하며 디스크에서 변경사항을 찾지는 않습니다.
+
+이러한 동작을 예상하지 않았다면 [action:PendingChangesOpenOptions]옵션[/action] 버튼을 클릭하고 설정을 변경하십시오.
+
+== PlasticPendingChangesFrustrationFilter ==
+[title]워크스페이스에 대기 중인 변경사항이 있지만 활성 필터가 있습니다...[/title]
+
+이 결과가 예상한 결과가 아닌 경우 [action:PendingChangesRemoveFilter]필터를 제거[/action]하거나 변경하십시오.
+
+== PlasticPendingChangesFrustrationRefreshNoFilter ==
+[title]변경사항이 누락되고 있습니까?[/title]
+
+만약을 위해 [action:PendingChangesOpenOptions]옵션[/action]을 검토하십시오.
+
+== PlasticPendingChangesWithAdded ==
+[title]버전 제어에 추가할 준비가 된 파일이 있습니다[/title]
+
+버전 제어에 아직 추가되지 않은 파일은 "상태" 열에서 "비공개"로 표시됩니다.
+
+파일이 무시 항목인 경우 {viewname}에 계속 표시되지 않도록 비공개하는 것이 좋습니다.
+
+간단히 무시할 파일을 오른쪽 클릭하여 "무시 항목에 추가"를 선택하십시오.
+
+[link:https://plasticscm.com/download/help/ignored-hidden-etc]여기[/link]에서 무시 항목 파일, 숨겨진 변경사항 및 다른 구성 옵션에 대해 알아보십시오.
+
+== PlasticPendingChangesDotPrivate ==
+[title]일부 파일의 이름을 .private으로 변경해야 했습니다[/title]
+당황하지 마십시오. 이 파일은 업데이트 과정에서 덮어쓸 수 없는 파일을 보존하기 위해 Unity VCS에서 생성한 복사본입니다.
+
+비공개 파일 "src/foo.c"가 있다고 가정하면 워크스페이스를 누군가가 "src/foo.c"를 추가한 브랜치로 전환할 수 있습니다. 새 파일이 소스 제어 중이고 귀하의 파일은 그렇지 않으므로 Unity VCS에서 새 파일을 다운로드합니다. 하지만 귀하의 파일을 삭제할 수 없으므로 이름을 .private.0으로 변경합니다.
+
+이해하셨습니까?
+
+== PlasticPendingChangesMovedOnlyFiles ==
+[title]로컬에서 파일을 이동한 것을 감지했습니다[/title]
+
+워크스페이스에 있는 파일을 이동하거나 이름을 변경하는 경우 Unity VCS에서는 기존 파일과 동일한지 알아내기 위해 일치 판정을 시도합니다. 유사도 열에 해당 작업이 반영됩니다.
+
+[action:PendingChangesOpenOptions]옵션[/action]에서 일치 판정에 필요한 비율을 조정할 수 있습니다.
+
+새 파일이 지나치게 다른 경우 Unity VCS에서는 기존 파일을 삭제하고 새 파일을 추가한 것으로 간주합니다.
+
+[bold]팁[/bold]: 프로젝트 구조를 재구성하고 Unity VCS에서 이동을 추측하는 대신 인식하도록 하려면 워크스페이스 탐색기에서 잘라내기/붙여넣기로 이동 작업을 수행할 수 있습니다.
+
+[link:https://plasticscm.com/download/help/moveandrenames]이 자료[/link]를 읽어 이동과 이름 변경에 대해 숙지하십시오.
+
+== PlasticPendingChangesMovedOnlyDirectories ==
+[title]이동한 디렉터리를 감지했습니다[/title]
+
+Unity VCS에서는 디렉터리 콘텐츠의 유사도를 비교하므로 이동한 디렉터리를 추적할 수 있습니다.
+
+따라서 워크스페이스에서 이름을 변경하기만 하면(Unity VCS을 사용하지 않고 [windows]Windows 탐색기[/windows][macos]파인더[/macos][linux]파일 탐색기[/linux] 또는 명령줄만 사용) Unity VCS에서 해당 콘텐츠가 기존 콘텐츠와 일치하는지 검사합니다. 일치하면 이동한 것입니다.
+
+콘텐츠가 변경되더라도 Unity VCS에서는 특정 유사도 임계값에 도달한 이동을 감지할 수 있습니다. 임계값은 [action:PendingChangesOpenOptions]옵션[/action]에서 조정할 수 있습니다.
+
+[link:https://plasticscm.com/download/help/moveandrenames]이 자료[/link]를 읽어 이동과 이름 변경에 대해 숙지하십시오.
+
+== PlasticPendingChangesMovedFilesAndDirectories ==
+[title]파일과 디렉터리를 이동합니다[/title]
+
+Unity VCS은 뛰어난 성능으로 이동을 감지하고 추적합니다.
+
+* [help:PlasticPendingChangesMovedOnlyFiles]파일 이동[/help] 감지에 대해 자세히 알아보십시오.
+
+* 디렉터리 이동은 파일 이동과 다르게 감지되므로 [help:PlasticPendingChangesMovedOnlyDirectories]디렉터리 이동[/help] 감지에 대해 자세히 알아보십시오.
+
+[bold]팁[/bold]: 프로젝트 구조를 재구성하고 Unity VCS에서 이동을 추측하는 대신 인식하도록 하려면 워크스페이스 탐색기에서 잘라내기/붙여넣기로 이동 작업을 수행할 수 있습니다.
+
+[link:https://plasticscm.com/download/help/moveandrenames]이 자료[/link]를 읽어 이동과 이름 변경에 대해 숙지하십시오.
+
+== PlasticPendingChangesAddedDeleted ==
+[title]이동이 누락되고 있습니까?[/title]
+
+파일/디렉터리를 추가하고 삭제한 것을 감지했습니다.
+
+귀하가 수행한 작업이 맞을 수도 있습니다. 그렇다면 번거롭게 해드려 죄송합니다.
+
+하지만 추가/삭제된 쌍은 감지되지 않은 이동을 의미하기도 합니다.
+
+추가/삭제된 항목을 일치시키고 이를 이동으로 표시하려면 추가된 항목을 오른쪽 클릭하고 "일치 항목 검색"을 선택하십시오.
+
+[action:PendingChangesOpenOptions]옵션[/action]에서 유사도 이동 감지 설정을 조정할 수도 있습니다.
+
+[link:https://plasticscm.com/download/help/moveandrenames]이 자료[/link]를 읽어 이동과 이름 변경에 대해 숙지하십시오.
+
+== PlasticPendingChangesSlowTooManyPrivates ==
+[title]비공개 파일이 적을수록 {viewname} 뷰가 빨라질 수 있습니다[/title]
+
+변경사항을 찾는 데 {totaltime}이(가) 소요됩니다. 시간이 너무 오래 걸립니다.
+
+워크스페이스에 너무 많은 비공개 파일이 있습니다. 이러한 파일은 버전 제어 중이 아닌 파일이며 구성 파일, 빌드 중인 파일 등일 수 있습니다.
+
+계산 속도를 높이려면 다음을 수행하십시오.
+
+* 파일을 ignore.conf에 추가할 수 있습니다.
+1. 파일을 오른쪽 클릭합니다.
+2. "무시 항목에 추가"를 선택합니다.
+
+* {viewname} 뷰에서 이를 숨길 수도 있습니다.
+1. [action:PendingChangesOpenOptions]옵션[/action]을 엽니다.
+2. "비공개 파일 표시"를 선택 해제합니다. 
+  이 방법의 단점은 버전 제어에 추가될 새 파일이 표시되지 않는다는 점입니다.
+
+[link:https://www.plasticscm.com/download/help/statusperfhintsignoreprivates]변경사항 감지 속도를 높일 수 있도록 비공개 파일을 처리하는 방법에 대해 자세히 알아보십시오[/link].
+
+== PlasticPendingChangesSlowMoveCalculation ==
+[title]이동 계산에 너무 긴 시간이 소요됩니다[/title]
+
+변경사항을 찾는 데 너무 긴 시간이 소요됩니다({totaltime}).
+
+이동 계산에 {movestime}이(가) 소요되었습니다.
+
+비공개 파일 및 로컬에서 삭제된 파일이 너무 많아 Unity VCS에서 이러한 파일을 일치 판정하고 이동을 찾는 데 너무 긴 시간이 소요되고 있습니다.
+
+[link:https://www.plasticscm.com/download/help/statusperfhintsmoved]파일을 ignore.conf에 추가하거나 이동 계산을 비활성화하여 속도를 높이십시오[/link].
+
+== PlasticPendingChangesSlowFindChanges ==
+[title]변경사항을 찾는 데 너무 긴 시간이 걸립니다[/title]
+
+변경사항을 찾는 데 너무 긴 시간이 소요됩니다({totaltime}).
+
+정상적이라면 작업이 매우 빠르게 이루어져야 하며, 그러지 못한 경우에는 주의가 필요합니다.
+
+속도 저하는 이러한 이유로 발생할 수 있습니다.
+
+* 하드 드라이브의 속도가 충분히 빠르지 않습니다. 기계식 하드 드라이브를 사용하고 계십니까? 디스크 사용을 유발하는 다른 프로세스가 있습니까?
+* 어쩌면 안티바이러스일 수도 있습니다. 개발자의 기기에서 안티바이러스 소프트웨어가 너무 자주 실행되면 모든 버전 제어 작업의 속도가 저하됩니다. 변경사항을 찾는 동안 안티바이러스에서 너무 많은 CPU 또는 디스크 IO를 사용하는지 주의 깊게 확인하십시오.
+* Windows를 사용하는 경우 Windows superfetch 서비스를 확인하십시오. superfetch 서비스가 디스크 성능 이슈를 유발하는 잠재적 원인으로 확인되었습니다. [link:http://windowsreport.com/service-host-local-service-network-restricted-causing-high-cpu-usage/]이 서비스를 중단하면 컴퓨터의 성능에 긍정적인 영향을 미칠 수 있습니다[/link].
+
+== PlasticPendingChangesMergeInProgress ==
+[title]진행 중인 병합이 감지되었습니다[/title]
+
+이는 병합을 시작했으며({inprogressmergefrom}) 처리할 일부 파일이 남아 있음을 의미합니다.
+
+변경사항을 체크인하기 전에 이 작업을 완료해야 합니다.
+
+클릭하여 진행 중인 [action:PendingChangesLaunchInProgressMerge]병합을 계속[/action] 진행합니다. 대기 중인 모든 변경사항을 [action:PendingChangesUndoChanges]실행 취소[/action]하고 진행 중인 병합을 취소할 수도 있습니다.
+
+== BrExNoDataFound ==
+[title]{fromtimestamp} 이후의 체인지 세트가 없습니다[/title]
+
+결과가 나오기를 예상한 경우 날짜 범위를 변경하거나 필터링 옵션을 확인하십시오.
+
+== BrExEmptyRepo ==
+[title]아직은 브랜치 탐색기가 비어 있습니다...[/title]
+... 하지만 곧 [link:https://plasticscm.com/download/help/branchexplorer]이렇게[/link] 될 것입니다.
+
+[bold]그대신 원격 리포지토리에서 가져오시겠습니까?[/bold]
+1. 브랜치를 오른쪽 클릭합니다.
+2. "복제/이 브랜치 가져오기"를 선택합니다.
+
+[bold]효과적으로 브랜치를 사용하는 방법 알아보기[/bold]:
+[link:https://plasticscm.com/download/help/taskbranches]작업 - 브랜치 튜토리얼을 읽어 보십시오[/link]
+
+== BrExSlowRangeTooBig ==
+[title]브랜치 탐색기의 속도를 높일 수 있습니다[/title]
+
+훨씬 더 좁은 범위로 날짜 필터를 설정할 수 있습니다.
+
+이렇게 하면 브랜치 탐색기의 데이터 로드와 렌더링 속도를 크게 높일 수 있습니다.
+
+== BrExTipUseContextMenu ==
+[title]컨텍스트 메뉴를 사용하거라, 루크[/title]
+
+브랜치, 체인지 세트, 심지어 병합 링크에도 사용할 수 있는 컨텍스트 메뉴(오른쪽 클릭)가 있다는 점을 기억하십시오.
+
+컨텍스트 메뉴에서는 브랜치, 병합, 비교, 브랜치 내보내기 및 가져오기, GIt로 내보내기/가져오기 등을 수행할 수 있습니다.
+
+== BrExTipOnlyRelevant ==
+[title]잠깐! 관련 없는 체인지 세트를 숨길 수 있다는 사실을 알고 계십니까?[/title]
+
+세부사항보다는 요약이 중요하고, 핵심 문제에 중점을 두어야 하는 경우가 있습니다.
+
+툴바에서 [action:BrExOnlyRelevant]관련 항목만[/action]을 클릭하여 "관련 없는" 체인지 세트를 표시하거나 숨길 수 있습니다(토폴로지 관점에서).
+
+== BrExTipFilterBranches ==
+[title]중요한 브랜치에 집중하십시오[/title]
+
+1. 브랜치를 오른쪽 클릭합니다.
+2. '브랜치 탐색기' 메뉴로 이동합니다.
+3. 필터링 옵션을 선택합니다.
+
+선택한 브랜치도 필터링할 수 있습니다.
+
+훨씬 작은 다이어그램을 처리하는 데 매우 유용하며 실제로 중요한 사항에 집중할 수 있습니다.
+
+== BrExTipCustomColors ==
+[title]색상을 적용하십시오.[/title]
+
+다이어그램에 색상을 적용할 수 있는 여러 옵션이 있습니다.
+
+사용자별로 체인지 세트에 색상을 적용하거나 체인지 세트가 생성된 서버에 따라 색상을 적용할 수 있습니다(복제본을 사용하는 경우).
+
+또한 브랜치에 색상을 적용하는 조건부 규칙을 추가할 수 있습니다.
+
+시작하려면 [action:BrExShowOptions]옵션[/action]으로 이동합니다.
+
+== BrExTipUseTheSearch ==
+[title]검색을 활용합니다[/title]
+
+검색 상자를 사용하여 번호 또는 GUID를 기준으로 체인지 세트를 찾을 수 있습니다.
+
+이는 브랜치와 레이블을 찾는 데 유용합니다.
+
+부분 검색이 가능하며, 여러 일치 항목도 탐색할 수 있습니다.
+
+== BrExGeneralIntro ==
+[title]이 다이어그램은 어떤 의미를 갖고 있을까요?[/title]
+
+브랜치 탐색기는 시각적으로 리포지토리 내역을 설명하는 가장 좋은 방법입니다.
+
+각 원은 체인지 세트이며 모든 체인지 세트는 브랜치 내부에 있습니다.
+
+[link:https://plasticscm.com/download/help/branchexplorer]여기[/link]에서 브랜치 탐색기에 대한 자세한 내용을 알아보십시오.
+
+== PlasticLabelsEmptyState ==
+[title]레이블을 사용하여 중요한 체인지 세트를 표시하십시오. 새 릴리스에 표시하는 것이 일반적입니다[/title]
+여기에서 레이블을 생성할 수 있지만 브랜치 탐색기에서 하는 편이 더 간편합니다.
+1. 표시할 체인지 세트를 오른쪽 클릭합니다.
+2. "이 체인지 세트 레이블링"을 선택합니다.
+
+[bold]전문가 팁[/bold]: 적절한 명명 규칙을 사용하여 릴리스를 레이블링하여 붙이십시오.
+
+[bold]Git 사용자를 위한 팁[/bold]: 레이블은 태그와 동등합니다.
+
+== PlasticBranchesEmptyState ==
+[title]Unity VCS의 핵심은 브랜치와 병합입니다.[/title]
+"브랜치 목록"보다 브랜치 탐색기를 사용하는 것이 더 좋지만, 브랜치 목록이 브랜치를 빠르게 찾는 데 유용한 경우도 있습니다.
+
+"main"은 Unity VCS에서 생성한 기본 브랜치입니다. Git의 "마스터", Subversion의 "트렁크"와 동등합니다.
+
+브랜치를 오른쪽 클릭하여 컨텍스트 메뉴를 표시할 수 있다는 점을 기억하십시오.
+
+[bold]효과적으로 브랜치를 사용하는 방법 알아보기[/bold]:
+[link:https://plasticscm.com/download/help/taskbranches]작업 - 브랜치 튜토리얼을 읽어 보십시오[/link].
+
+== PlasticChangesetsEmptyState ==
+[title]체크인할 때마다 새 체인지 세트를 생성하십시오[/title]
+
+체인지 세트에는 두 가지 기능이 있습니다.
+1. 체인지 세트는 체크인한 항목을 기록합니다.
+2. 체인지 세트는 전체 리포지토리의 스냅샷이기도 합니다.
+
+약간의 팁:
+* 체인지 세트는 리포지토리에서 고유의 "정수"로 식별됩니다. 단, 복제본을 사용하는 경우 GUID를 대신 사용합니다.
+* 각 새 리포지토리에는 "체인지 세트 0"이 있습니다.
+* 체인지 세트를 "csets"라 할 때도 있습니다.
+* 체인지 세트를 오른쪽 클릭하여 사용 가능한 모든 작업을 찾을 수 있습니다.
+* 체인지 세트를 찾는 데는 브랜치 탐색기를 사용하는 것이 더 좋지만, 이 목록이 브랜치를 빠르게 찾는 데 유용한 경우도 있습니다.
+* Git 사용자의 경우: "체인지 세트"는 "커밋"과 동등합니다.
+
+== PlasticAttributesEmptyState ==
+[title]속성이란 무엇입니까?[/title]
+
+속성은 Unity VCS 객체에 할당할 수 있는 키/값 쌍이며, 일반적으로 브랜치와 체인지 세트에 할당합니다.
+
+여기에서 새 속성을 생성하는 경우 나중에 특정 객체에 연결된 값을 할당하는 데 사용할 새 "키"를 생성하십시오.
+
+간단한 예: "열기", "해결됨", "테스트 완료", "실패", "병합됨" 등으로 설정할 수 있는 "상태" 속성으로 브랜치를 표시합니다.
+
+== PlasticShelvesEmptyState ==
+[title]임시 저장은 진행 중인 작업이 있는 임시 체인지 세트입니다[/title]
+
+임시 저장은 실제로 체크인을 수행하지 않고 안전하게 변경사항을 저장할 수 있는 방법입니다.
+
+임시 저장은 임시 스토리지와 유사합니다.
+
+변경사항을 임시 저장하여 워크스페이스를 정리하거나 해당 변경사항을 나중에 다른 브랜치에 적용할 수 있습니다.
+
+임시 저장을 생성하려면 다음 단계를 따르십시오.
+1. "대기 중인 변경사항"으로 이동합니다.
+2. 체크인 드롭다운 버튼을 누릅니다.
+3. "대기 중인 변경사항 임시 저장" 작업을 선택합니다.
+
+[link:https://plasticscm.com/download/help/shelves]임시 저장 사용법과 사용 시기에 대한 자세한 내용을 알아보십시오[/link].
+
+== PlasticReposExplained ==
+[title]리포지토리는 모든 파일 데이터와 메타데이터를 저장합니다[/title]
+
+리포지토리에는 모든 파일 및 디렉터리 변경사항과 메타데이터(작성자, 브랜치, 병합 정보 등)가 포함됩니다.
+
+각 Unity VCS 서버는 여러 리포지토리를 호스팅할 수 있습니다.
+
+리포지토리는 로컬 또는 원격일 수 있습니다. 
+
+[link:https://plasticscm.com/download/help/distributedvscentralized]중앙 집중형 또는 분산형[/link]으로 작업할 수 있습니다.
+
+여기에서 리포지토리를 생성하고, 다른 서버의 리포지토리를 열거하고(권한이 있는 경우), 리포지토리를 삭제하고, 이름을 변경할 수 있습니다.
+
+[windows]리포지토리를 오른쪽 클릭하여 권한을 설정하고, 브랜치 탐색기를 실행하고, 브랜치를 열거하는 등의 작업을 수행할 수 있습니다.[/windows]
+
+"하위 모듈"을 생성할 수도 있습니다. "default/subrepo00"처럼 다른 리포지토리 내부의 리포지토리입니다.
+
+[link:https://plasticscm.com/download/help/repos]리포지토리 사용법에 대한 자세한 정보는 여기서 확인할 수 있습니다[/link].
+
+== PlasticWorkspacesExplained ==
+[title]워크스페이스는 로컬 작업 복사본입니다[/title]
+
+워크스페이스는 디스크상의 파일이 위치하는 곳이며, IDE, 편집기, 디자인 프로그램 등을 사용하는 위치로, 여기에서 새 콘텐츠를 생성할 수 있습니다.
+
+워크스페이스에는 리포지토리에서 생성된 단일 작업 복사본이 포함됩니다. 리포지토리는 모든 내역이 저장되는 데이터베이스입니다.
+
+[bold]Git 사용자를 위한 팁[/bold]: Git에서는 리포지토리와 작업 복사본이 동일한 디렉터리에 함께 있습니다. Unity VCS에서는 나뉘어 있습니다. 실제로 동일한 리포지토리에 연결된 여러 작업 복사본이 있을 수 있습니다.
+
+[link:https://plasticscm.com/download/help/workspaces]워크스페이스 사용법에 대한 자세한 정보는 여기서 확인할 수 있습니다[/link].
+
+== PlasticCloudEditionGeneralHelp ==
+[title]Cloud Edition 리포지토리 목록[/title]
+
+여기에 Cloud Edition 조직의 리포지토리 목록이 표시됩니다.
+
+이 뷰를 사용하여 리포지토리를 추가로 생성하고, 필요한 경우 이름을 변경하고 삭제할 수 있습니다.
+
+[windows]여기서 권한을 설정할 수도 있습니다. 리포지토리에서 컨텍스트 메뉴를 사용하십시오.[/windows]
+
+== PlasticCloudExplained ==
+[title]Unity VCS Cloud를 알고 계셨습니까?[/title]
+
+Unity VCS에서는 Cloud 호스팅 서비스를 제공합니다.
+
+Cloud에서 호스팅된 리포지토리를 사용하여 직접 체크인하고 업데이트(중앙 집중형)하거나 내보내고 가져올 수 있습니다(분산형).
+
+이미 Cloud 조직에 속해 있는 경우 다음 단계를 따르십시오.
+1. Cloud 조직 이름을 "서버" 영역에 입력합니다. 조직 이름이 robotmaker인 경우 robotmaker@cloud와 같은 형태입니다.
+2. "새로고침"을 클릭하여 리포지토리를 다시 로드합니다. 요구하는 경우 자격 증명을 입력합니다.
+
+[link:https://plasticscm.com/download/help/cloudextension]Unity VCS Cloud extension에 대한 자세한 내용은 여기서 확인할 수 있습니다[/link].
+
+== PlasticCloudEmptyOrganization ==
+[title]조직 이름이 비어 있습니다[/title]
+[bold]Unity VCS Cloud 조직[/bold]이 아직 없는 것 같습니다. 조직이 있는 경우 현재 사용자가 아직 조직에 속하지 않은 것일 수도 있습니다. [bold]위 서버에서 조직 이름을 입력합니다[/bold]. 조직 이름이 [italic]robotmaker[/italic]인 경우 [italic]robotmaker@cloud[/italic]를 입력해야 한다는 점을 기억하십시오.
+
+== PlasticSyncDistributedCloudProject ==
+[title]변경사항을 동기화하는 방법[/title]
+1. 필요한 브랜치를 Cloud 리포지토리에서 가져옵니다. (전체 복제는 일반적으로 필요하지 않다는 점을 기억하십시오.)
+2. 완료되면 작업을 시작할 브랜치로 전환합니다.
+
+== PlasticMergeNoConflicts ==
+[title]병합이 간단히 이루어집니다[/title]
+
+충돌이 없으므로 [action:MergeProcessAllMerges]변경사항 적용[/action]을 클릭하기만 하면 브랜치를 병합할 수 있습니다.
+
+[action:MergeExplainMerge]병합 설명[/action]을 클릭하여 병합의 작동 원리를 더 정확하게 이해하고 기여자에 대해 알아볼 수 있습니다.
+
+파일의 컨텍스트 메뉴를 사용하고 사용 가능한 옵션을 확인합니다.
+
+[link:https://plasticscm.com/download/help/merges]병합에 대한 자세한 내용은 여기서 확인할 수 있습니다[/link].
+
+== PlasticMergeIncomingFromCheckin ==
+[title]체크인할 수 없는 이유가 무엇입니까?[/title]
+
+작업 브랜치에 [bold]새 변경사항[/bold]이 있기 때문입니다.
+
+체크인을 완료하기 전에 최신 상태로 업데이트하고 해당하는 경우 충돌을 해결하십시오.
+
+업데이트 및 충돌 해결을 완료한 후에는 대기 중인 변경사항 뷰로 이동하여 체크인하십시오.
+
+== PlasticMergeIncomingFromUpdate ==
+[title]업데이트할 수 없는 이유가 무엇입니까?[/title]
+
+작업 브랜치에 [bold]새 변경사항[/bold]이 있고 워크스페이스에서 파일을 변경했기 때문입니다.
+
+브랜치의 최근 변경사항으로 대기 중인 변경사항을 업데이트하고 해당하는 경우 충돌을 해결해야 합니다 
+
+완료되면 워크스페이스가 작업 브랜치의 최신 버전으로 업데이트됩니다.
+
+== PlasticMergeWithConflicts ==
+[title]해결해야 할 충돌이 있습니다.[/title]
+
+[bold]전문가 팁[/bold]: [action:MergeProcessAllMerges]충돌 해결[/action]을 클릭하여 발생할 수 있는 모든 병합 충돌을 해결하십시오.
+(파일마다 오른쪽 클릭하여 하나씩 병합을 실행할 필요가 없습니다.)
+
+고급 옵션의 경우 충돌이 발생하는 각 파일의 컨텍스트 메뉴를 확인하십시오.
+
+[action:MergeExplainMerge]병합 설명[/action]을 클릭하여 병합의 작동 원리를 더 정확하게 이해하고 기여자에 대해 알아볼 수 있습니다.
+
+[link:https://plasticscm.com/download/help/merges]병합에 대한 자세한 내용은 여기서 확인할 수 있습니다[/link].
+
+== PlasticMergeWithDirectoryConflicts ==
+[title]디렉터리 충돌이 있군요![/title]
+
+당황하지 마십시오. Unity VCS은 이를 처리하는 데 뛰어납니다.
+
+디렉터리 구조가 병합되어야 할 때 충돌이 발생합니다.
+
+예를 들어 동일한 파일의 이름을 두 브랜치에서 다르게 변경하는 경우입니다.
+
+올바른 "해결 방법"을 선택하십시오.
+
+해결 방법이 생소한 경우 계속 진행하기 전에 [link:https://www.plasticscm.com/download/help/directorymerges]발생 가능한 디렉터리 병합 충돌에 대해 읽어보십시오[/link].
+
+== PlasticMergeRecursiveMergeDetected ==
+[title]이번 유형은 꽤 까다롭습니다[/title]
+재귀 병합 충돌이 있습니다.
+
+걱정할 필요는 없지만 3단계 병합 툴이 여러 번 나올 수 있기 때문에 어려운 편입니다.
+
+이때는 평소대로 "충돌 해결"을 클릭하기만 하면 됩니다.
+
+재귀 병합이 생소한 경우 먼저 [link:https://plasticscm.com/download/help/recursivemerge]재귀 병합에 대해 자세히 알아보는 것이 좋습니다[/link].
+
+그러면 병합에 익숙해질 것입니다.
+
+== PlasticMergeServerSideMergeFinished ==
+[title]완료된 병합[/title]
+
+[action:MergeProcessAllMerges]병합 체크인![/action]을 클릭하여 리포지토리로 [bold]병합 제출[/bold]하십시오.
+
+작업을 취소하려면 [action:MergeCloseView]닫습니다[/action].
+
+== PlasticMergeGeneralHelp ==
+[title]병합 프리뷰[/title]
+
+이 기능은 병합의 프리뷰입니다.
+
+이를 통해 병합될 항목을 파악하고 발생 가능한 충돌을 해결할 수 있습니다.
+
+각 요소의 컨텍스트 메뉴를 탐색하여 옵션을 정확히 파악하십시오.
+
+[bold]전문가 팁[/bold]: 파일을 하나씩 병합하는 대신 "충돌 해결"을 사용하십시오.
+
+== PlasticWkExplPendingChangesUnityFirstTime ==
+[title]Unity와 함께 사용 시 유용한 팁[/title]
+
+* 잠금을 구성합니다. 대부분의 경우 .prefabs를 단독으로 잠그려 할 것입니다. [action:WebAdminOpenInLocks]WebAdmin으로 이동하여 잠금을 구성하십시오[/action].
+* 체크아웃을 사용하십시오. 잠그려면 파일을 편집하기 전에 체크아웃(잠금)하십시오. 체크아웃은 Unity VCS에 "파일을 수정하겠다"고 전달하는 작업입니다. 오른쪽 클릭하면 나오는 메뉴에서 이 기능에 접근할 수 있습니다.
+* 무시할 파일을 구성하십시오. 버전 제어에 추가하고 싶지 않은 파일이 있습니다. [action:IgnoreConfCreateUnity]여기를 클릭[/action]하여 Unity용 ignore.conf를 생성합니다. [link:https://plasticscm.com/download/help/ignored-hidden-etc]ignore.conf에 대해 자세히 알아보십시오[/link].
+
+== PlasticWkExplPendingChangesVisualStudioFirstTime ==
+[title]Visual Studio 프로젝트 작업 시 팁[/title]
+"bin" 및 "debug" 디렉터리와 ".csproj.user"와 같은 특정 파일은 무시하는 것이 좋습니다.
+
+[action:IgnoreConfCreateVisualStudio]여기를 클릭[/action]하여 ignore.conf에 적절한 규칙을 추가하고 Visual Studio를 사용하여 더 나은 환경을 사용하십시오.
+
+== PlasticQueryViewsExplainFilterAndAdvanced ==
+[title]위에서 "필터"를 입력하여 빠르게 필터링하십시오[/title]
+
+필터는 쿼리 결과에서 로컬로 작동합니다.
+
+[bold]필터 팁[/bold]: '[italic]필드 이름[/italic]:value'를 사용하여 특정 필드 기준으로 필터링하십시오. 
+예: 
+  "created by:maria"
+  "creation date:10/25/2018"
+  name:111923
+
+[action:QueryViewClickAdvanced]고급[/action]을 클릭하여 쿼리를 커스터마이즈할 수도 있습니다.
+
+[link:https://plasticscm.com/download/help/cmfind]여기[/link]에서 쿼리에 대해 자세히 알아보십시오.
+
+목록 요소의 컨텍스트 메뉴(오른쪽 클릭)에 추가 옵션이 있다는 점을 기억하십시오.
+
+== PlasticQueryViewsFrustrationCustomQuery ==
+[title]활성화된 커스텀 쿼리가 있습니다[/title]
+
+이러한 이유로 찾고자 하는 항목을 찾지 못할 수 있습니다 :-O
+
+[action:QueryViewClickAdvanced]고급[/action]을 클릭하여 커스터마이즈하십시오.
+
+== PlasticFrustrationFilterEnabled ==
+[title]활성화된 필터가 있습니다[/title]
+
+이러한 이유로 찾고자 하는 항목을 찾지 못할 수 있습니다 :-O
+
+== PlasticNewVersionAvailableWithDownloadAction ==
+[title]새 버전을 사용할 수 있습니다[/title]
+
+[bold]새 {version} - {releaseDate}[/bold]({versionsBehind})
+
+[action:DownloadNewVersion]다운로드[/action] - [link:{releaseNotesLink}]릴리스 노트 보기[/link]
+
+{releaseNotes}
+
+== PlasticNewVersionAvailable ==
+[title]새 버전을 사용할 수 있습니다[/title]
+
+[bold]새 {version} - {releaseDate}[/bold]({versionsBehind})
+
+[link:{downloadLink}]다운로드[/link] - [link:{releaseNotesLink}]릴리스 노트 보기[/link]
+
+{releaseNotes}
+
+== PlasticPendingChangesMerge ==
+[title]체크인 준비 중인 병합이 있습니다[/title]
+
+병합 중에 상태 열이 무엇을 의미하는지 알고 계십니까?
+
+병합된 파일이 "체인지 세트 번호를 기준으로 한 상태/병합"으로 표시되어 다른 로컬 변경사항과 구별된다는 것을 알 수 있습니다.
+
+* [bold]체크아웃됨[/bold]: 파일이 동시에 수정되었으므로 병합되었습니다. 자동으로 병합되었을 수도 있지만 병합은 계속 이루어집니다.
+
+* [bold]교체됨[/bold]: 파일이 이미 브랜치에 있지만 더 최신 버전으로 교체되었습니다. 충돌은 발생하지 않았습니다.
+
+* [bold]복사됨(신규)[/bold]: 파일이 브랜치에 없으며 병합 중에 생성되었습니다(병합 소스에서 제공).
+
+* [bold]제거됨[/bold]: 파일이 병합 중에 삭제되었습니다.
+
+또한 생성되거나 체크인될 병합 링크에 대한 정보가 있습니다. 이는 실제로 이루어진 병합 작업을 추적합니다.
+
+== PlasticPendingChangesMergeEmpty ==
+[title]이 병합에서 달라지는 점은 없지만...[/title]
+
+특수한 시나리오가 있습니다.
+
+병합 중이지만 이미 가지고 있는 파일이 병합하려는 파일과 일치합니다.
+
+따라서 병합 링크를 제외하고는 체크인할 항목이 없습니다.
+
+실제 파일이 수정되지 않더라도 병합이 완료된 것으로 표시되므로 병합 링크가 매우 중요합니다. 이는 병합 추적에 필요합니다.
+
+== PlasticPendingChangesAllMergeChangesRequired ==
+[title]함께 병합된 파일은 함께 체크인되어야 합니다[/title]
+
+Unity VCS을 비롯한 모든 최신 분산형 버전 제어 시스템은 이러한 방식으로 작동합니다. 브랜치를 병합할 때 전체를 병합하십시오.
+
+Unity VCS에서 브랜치를 전체가 병합된 것으로 표시해야 하기 때문입니다. 파일 몇 개를 병합한 다음 주기를 반복하여 나중에 누락된 파일을 마저 병합할 수는 없습니다.
+
+그 이유는 병합 링크가 개별 파일이 아닌 체인지 세트 간에 설정되기 때문입니다.
+이러한 방식은 병합 성능을 크게 향상하지만 개별 파일의 유연성은 저하됩니다.
+
+== PlasticPendingChangesMergeSingleBranch ==
+[title]무슨 뜻일까요?[/title]
+
+당황하지 마십시오. 브랜치에서 작업하는 도중에 병합을 완료했을 뿐입니다. 설명해 드리겠습니다.
+
+파일 몇 개를 병합한 것 뿐이라면 왜 다른 파일이 나타났을까요?
+
+매우 간단합니다. 브랜치의 헤드에 병합하면 다른 사용자가 적용한 변경사항을 가져옵니다.
+
+병합되어야 하는 파일은 상태 열에서 [bold]체크아웃됨[/bold]으로 표시됩니다.
+
+다른 모든 파일은 다음과 같이 표시됩니다.
+
+* [bold]교체됨[/bold]: 파일이 헤드에서 워크스페이스로 복사되었습니다.
+
+* [bold]복사됨(신규)[/bold]: 갖고 있지 않은 새 파일이 워크스페이스로 복사되었습니다.
+
+* [bold]제거됨[/bold]: 파일이 헤드에 더 이상 존재하지 않으므로 워크스페이스에서도 삭제되었습니다.
+
+안심이 되십니까? :-)
+
+== PlasticSyncViewGeneralHelp ==
+[title]여러 브랜치를 한번에 동기화[/title]
+
+{viewname}은(는) 여러 브랜치를 한번에 동기화하는 데 좋습니다.
+
+개별 브랜치를 내보내거나 가져오는 대신 리포지토리 쌍을 생성한 다음(필요한 경우 서로 다른 서버에서) 한 번에 동기화할 수 있습니다.
+
+리포지토리 전체를 동기화할 필요 없이 원하는 브랜치를 필터링할 수 있습니다.
+
+이 기능을 통해 새로고침하고, 특정 브랜치 이름을 기준으로 필터링하고, 일치하는 모든 브랜치를 함께 내보내거나 가져올 수 있으므로, Xlink에서 유용합니다.
+
+[link:https://plasticscm.com/download/help/syncview]여기[/link]에서 동기화 뷰에 대해 자세히 알아보십시오.
+
+== CodeReviewWindowGeneralHelp ==
+[title]전문가처럼 검토하십시오.[/title]
+
+모든 작업에는 반드시 [link:https://www.plasticscm.com/book/#_review_each_task]검토[/link]가 이루어져야 합니다. 검토는 바로 이러한 개념을 기반으로 설계되었습니다.
+
+[bold]효과적으로 검토하는 방법[/bold]
+1. '체인지 세트별' 또는 '전체 브랜치' 검토 모드를 선택합니다. 세부사항은 아래의 내용을 읽어보십시오.
+2. 변경을 요청하거나 다른 작성자에게 질문할 수 있습니다.
+3. 마지막으로, 검토 상태를 '재작업 필요' 또는 '검토됨'으로 설정합니다.
+
+[bold]'체인지 세트별' 및 '전체 브랜치' 검토[/bold]
+- 전체 브랜치는 브랜치 전체를 비교합니다. 이것이 모두가 아는 일반적인 검토입니다.
+- '체인지 세트별'을 통해 각 변경사항을 살펴볼 수 있습니다. 제대로 안다면 좋은 방법일 수 있습니다. 작성자가 각 변경사항을 설명하고 과정을 이야기하므로 이들의 생각을 이해하는 데 도움이 됩니다. 200개의 변경사항 검토로 인해 고충을 겪는 것보다 훨씬 낫습니다.
+
+[link:https://www.plasticscm.com/book/#_checkin_often_and_keep_reviewers_in_mind]여기[/link]에서 검토자가 염두에 두어야 할 변경사항 체크인 방법에 대해 알아보십시오.
+
+[bold]코멘트/질문/변경 요청을 추가하는 방법[/bold]
+비교 패널 오른쪽에서 '+' 아이콘이 있는 클릭 가능한 수직 바를 찾을 수 있습니다. 이를 클릭하면 됩니다.
+
+== CodeReviewWindowNewComment ==
+[title]변경 요청, 질문[/title]
+
+다음을 수행할 수 있습니다.
+
+1. [bold]변경 요청[/bold]: 승인 전에 작성자가 무언가를 변경해야 하는 경우입니다. Unity VCS에서는 변경사항이 적용되었는지 추적하여 다음 검토 주기를 간소화합니다.
+
+2. [bold]질문[/bold]: 승인 전에 답변이 필요한 경우입니다. Unity VCS에서는 질문이 답변을 받았는지 추적합니다.
+
+또한 일반적인 기존 코멘트를 사용할 수 있지만 변경사항과 질문은 가장 중요한 것에 중점을 둡니다. 검토 프로세스를 간소화하면 답변 여부와 변경 여부를 확인하는 작업이 간단해집니다.
+
+== CodeReviewWindowWithPendingComments ==
+[title]질문에 답변 및 변경 요청 해결[/title]
+
+1. 변경 요청과 질문 목록을 확인합니다. 더블 클릭하여 세부사항을 확인합니다.
+2. 변경 요청을 해결하려면: 체크인 코멘트의 GUID를 참조하십시오. 아래의 예를 읽어보십시오. 또한 "대기 중인 변경사항"의 조합을 활용하여 정보를 입력할 수 있습니다.
+3. 회신하여 대기 중인 질문에 답변하십시오.
+4. 마지막으로, 완료되면 코드 검토 상태를 '검토됨'으로 변경하십시오.
+
+[bold]변경 요청을 적용하거나 마감하는 방법[/bold]
+변경 요청을 마감하려면 체크인 코멘트에서 변경 요청 GUID를 사용하면 됩니다.
+두 가지 모드가 있습니다.
+* 긴 모드: [bold][apply-change:516a2741-9069-4c08-983f-71149f0a93c8][/bold]
+* 짧은 모드: [bold][apply-change:516a2741][/bold](GUID의 첫 번째 부분만 지정)
+
+== GluonWkExplFullEmpty ==
+[title]워크스페이스가 비어 있으며 리포지토리도 비어 있습니다[/title]
+
+[bold]기존 프로젝트를 추가하시겠습니까?[/bold]
+1. 프로젝트를 워크스페이스 디렉터리({workspacepath})로 복사하거나 이동합니다.
+2. 작업이 완료되면 "변경사항 체크인"으로 이동하여 모든 항목을 리포지토리로 체크인합니다.
+
+[bold]대신 기존 프로젝트를 연결하시겠습니까?[/bold]
+1. [action:GluonSwitchWorkspace]워크스페이스 전환[/action]을 클릭합니다.
+2. 그런 다음 작업할 리포지토리의 새 워크스페이스를 생성합니다.
+
+== GluonWkExplSuggestConfigure ==
+[title]리포지토리에 다운로드 대기 중인 콘텐츠가 있습니다[/title]
+
+[action:GluonConfigure]구성[/action]을 클릭하여 리포지토리에서 다운로드하는 데 실제로 필요한 항목을 설정합니다.
+
+이렇게 하면 워크스페이스로 다운로드할 파일을 정확하게 선택할 수 있습니다.
+
+== GluonConfigureNoPreviousConfig ==
+[title]작업에 필요한 파일을 로드합니다[/title]
+
+리포지토리를 탐색하고 작업에 필요한 파일 또는 디렉터리를 정확하게 선택합니다.
+
+Gluon을 사용하면 작업에 필요한 항목을 다운로드할 수 있습니다.
+
+Gluon을 사용하면 공간과 다운로드 시간을 크게 절약할 수 있으므로 대규모 리포지토리를 사용하는 경우에 좋습니다.
+
+[bold]팁[/bold]: [action:GluonConfigSearch]검색[/action]을 클릭하여 파일을 찾습니다.
+
+== GluonWkExplExplainUpdate ==
+[title]다운로드할 수 있는 새 버전이 있습니다[/title]
+
+[action:GluonUpdateWorkspace]업데이트[/action]를 사용하여 워크스페이스에 있는 파일의 새 버전을 모두 다운로드합니다.
+
+파일의 더 최신 버전이 있는 경우 상태 열에 "이전 버전임"이 표시됩니다. 업데이트 버튼을 사용할 때와 마찬가지로 전체 워크스페이스를 업데이트하는 대신, 파일을 오른쪽 클릭하여 개별적으로 파일을 업데이트할 수 있습니다.
+
+[bold]팁[/bold]: 언제 새 파일이 다운로드됩니까? 누군가가 새 파일을 리포지토리에 추가한다고 가정해 봅시다. 업데이트를 클릭하면 다운로드될까요? 디렉터리가 "모두 선택"으로 구성된 경우에는 그렇습니다. 하지만 일부만 선택한 경우에는 그렇지 않습니다. 이유가 무엇일까요? "일부 선택"이란 특정 파일만 다운로드하고 싶다는 의미이기 때문입니다. 따라서 모든 새 파일이 자동으로 다운로드되지는 않습니다.
+
+== GluonWkExplNewAddedFilesInRepo ==
+[title]새 파일이 리포지토리에 추가되었습니다[/title]
+
+워크스페이스에 없는 리포지토리에 새 파일이 있습니다.
+
+워크스페이스를 [action:GluonConfigure]구성[/action]하고 이를 다운로드하겠다고 표시할 수 있습니다.
+
+== GluonConfigureEmpty ==
+[title]리포지토리가 비어 있습니다[/title]
+
+이런, 리포지토리가 비어 있어 구성할 항목이 없습니다.
+
+이 리포지토리에 프로젝트를 추가하려 할 수도 있습니다.
+
+아니면 잘못된 리포지토리를 연결했을 수 있습니다.
+
+[help:GluonWkExplFullEmpty]Unity VCS에 프로젝트를 추가하거나 다른 리포지토리를 사용하는 방법을 확인하십시오[/help].
+
+== GluonConfigurePreviousConfig ==
+[title]워크스페이스를 조정합니다[/title]
+
+* 녹색 체크 표시: 다운로드할 새 파일 또는 디렉터리를 구성합니다.
+* 빨간색 체크 표시: 요소의 구성을 해제합니다.
+* 검정색 체크 표시: 이미 다운로드하도록 구성된 항목입니다.
+* 체크 표시 없음: 워크스페이스로 다운로드하도록 구성되지 않았습니다.
+* 디렉터리의 부분 체크 표시: 이 표시는 일부 콘텐츠가 다운로드된다는 의미입니다. 몇 가지 파일을 선택한 경우에 이렇게 됩니다.
+
+
+작업에 필요한 항목만 다운로드하면 공간과 다운로드 시간을 크게 절약할 수 있으므로 대규모 리포지토리를 사용하는 경우에 매우 유용합니다.
+
+[bold]팁[/bold]: [action:GluonConfigSearch]검색[/action]을 클릭하여 파일을 찾습니다.
+
+== GluonWkExplExplainSearch ==
+[title]빌트인 검색 기능을 사용하면 파일을 신속하게 찾을 수 있습니다[/title]
+
+[windows]CTRL-F[/windows][macos]Command-F[/macos][linux]CTRL-F[/linux]를 입력하여 찾기 다이얼로그를 표시합니다.
+
+== GluonWkExplTipUseContextMenu ==
+[title]컨텍스트를 사용하거라, 루크[/title]
+
+사용할 수 있는 컨텍스트 메뉴(오른쪽 클릭)가 있다는 점을 기억하십시오.
+
+컨텍스트 메뉴에서 여러 유용한 작업을 수행할 수 있습니다.
+
+== GluonWkExplTipHowToLockFiles ==
+[title]파일을 잠그는 방법을 알고 계십니까?[/title]
+
+[bold]체크아웃[/bold] 시 잠금이 자동으로 이루어집니다.
+
+1. 파일을 오른쪽 클릭합니다.
+2. 체크아웃을 선택합니다.
+
+잠금이 이 파일 유형에 대해 구성된 경우 서버에서 체크아웃하는 동안 파일을 잠급니다.
+
+[link:https://plasticscm.com/download/help/locking]여기에서 잠금에 대해 읽어보십시오[/link].
+
+== GluonWkExplTipUseHistory ==
+[title]선택한 파일의 내역을 언제든지 확인할 수 있다는 사실을 알고 계셨습니까?[/title]
+
+그뿐만 아니라 버전을 쉽게 비교할 수도 있습니다.
+
+== GluonChangesetsEmptyState ==
+[title]체크인할 때마다 새 체인지 세트를 생성하십시오[/title]
+
+체인지 세트에는 두 가지 기능이 있습니다.
+1. 체인지 세트는 체크인한 항목을 기록합니다.
+2. 체인지 세트는 전체 리포지토리의 스냅샷이기도 합니다.
+
+약간의 팁:
+* 체인지 세트는 리포지토리에서 고유의 "정수"로 식별됩니다. 단, 복제본을 사용하는 경우 GUID를 대신 사용합니다.
+* 각 새 리포지토리에는 "체인지 세트 0"이 있습니다.
+* 체인지 세트를 "csets"라 할 때도 있습니다.
+* 컨텍스트 메뉴를 사용하여 체인지 세트를 비교하십시오.
+* Git 사용자의 경우: "체인지 세트"는 "커밋"과 동등합니다.
+
+== GluonChangesetsExplainFilterAndAdvanced ==
+[title]위에서 "필터"를 입력하여 빠르게 필터링하십시오[/title]
+
+필터는 쿼리 결과에서 로컬로 작동합니다.
+
+[bold]필터 팁[/bold]: '[italic]필드 이름[/italic]:value'를 사용하여 특정 필드 기준으로 필터링하십시오. 
+예: name:13055
+
+[action:QueryViewClickAdvanced]고급[/action]을 클릭하여 쿼리를 커스터마이즈할 수도 있습니다.
+
+[link:https://plasticscm.com/download/help/cmfind]여기[/link]에서 쿼리에 대해 자세히 알아보십시오.
+
+컨텍스트 메뉴(오른쪽 클릭)를 사용하여 체인지 세트를 비교할 수 있다는 점을 기억하십시오.
+
+[windows]전문가 팁: 열을 테이블 위 영역으로 드래그하여 체인지 세트 표시 방식을 커스터마이즈할 수 있습니다. 날짜, 작성자 등을 기준으로 그룹을 구성할 수 있습니다.[/windows]
+
+== GluonPendingChangesEmptyState ==
+[reference]PlasticPendingChangesEmptyState[/reference]
+
+== GluonPendingChangesOnboarding ==
+[reference]PlasticPendingChangesOnboarding[/reference]
+
+== GluonPendingChangesOptionWarningCheckouts ==
+[reference]PlasticPendingChangesOptionWarningCheckouts[/reference]
+
+== GluonPendingChangesFrustrationFilter ==
+[reference]PlasticPendingChangesFrustrationFilter[/reference]
+
+== GluonPendingChangesFrustrationRefreshNoFilter ==
+[reference]PlasticPendingChangesFrustrationRefreshNoFilter[/reference]
+
+== GluonPendingChangesFirstTimeWithAdded ==
+[reference]PlasticPendingChangesFirstTimeWithAdded[/reference]
+== GluonPendingChangesWithAdded ==
+[reference]PlasticPendingChangesWithAdded[/reference]
+
+== GluonPendingChangesMovedOnlyFiles ==
+[reference]PlasticPendingChangesMovedOnlyFiles[/reference]
+
+== GluonPendingChangesMovedOnlyDirectories ==
+[reference]PlasticPendingChangesMovedOnlyDirectories[/reference]
+
+== GluonPendingChangesMovedFilesAndDirectories ==
+[reference]PlasticPendingChangesMovedFilesAndDirectories[/reference]
+
+== GluonPendingChangesSlowTooManyPrivates ==
+[reference]PlasticPendingChangesSlowTooManyPrivates[/reference]
+
+== GluonPendingChangesSlowMoveCalculation ==
+[reference]PlasticPendingChangesSlowMoveCalculation[/reference]
+
+== GluonPendingChangesSlowFindChanges ==
+[reference]PlasticPendingChangesSlowFindChanges[/reference]
+
+== GluonReposExplained ==
+[reference]PlasticReposExplained[/reference]
+
+== GluonWorkspacesExplained ==
+[reference]PlasticWorkspacesExplained[/reference]
+
+== GluonQueryViewsFrustrationCustomQuery ==
+[reference]PlasticQueryViewsFrustrationCustomQuery[/reference]
+
+== GluonFrustrationFilterEnabled ==
+[reference]PlasticFrustrationFilterEnabled[/reference]
+
+== GluonWkExplGeneralHelp ==
+[reference]PlasticWkExplGeneralHelp[/reference]

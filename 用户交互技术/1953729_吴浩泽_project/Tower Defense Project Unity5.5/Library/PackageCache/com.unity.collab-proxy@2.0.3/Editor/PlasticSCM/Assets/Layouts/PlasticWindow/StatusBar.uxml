@@ -1,0 +1,10 @@
+<UXML xmlns="UnityEngine.UIElements">
+  <VisualElement name="UpdateNotificationContainer" class="row">
+    <Image name="UpdateNotificationImage" />
+    <Label name="UpdateNotificationLabel" />
+  </VisualElement>
+
+  <Button name="UpdateButton" />
+  
+  <Label name="BranchLabel" class="grow" />
+</UXML>

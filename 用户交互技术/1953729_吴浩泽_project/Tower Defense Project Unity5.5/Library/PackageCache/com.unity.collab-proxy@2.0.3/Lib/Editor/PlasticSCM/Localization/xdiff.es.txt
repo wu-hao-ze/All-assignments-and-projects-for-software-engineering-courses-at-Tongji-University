@@ -1,0 +1,92 @@
+﻿== SemanticOutline ==
+Diferencias Semánticas
+
+== ExpandSemanticOutlineTooltip ==
+Expandir el panel de diferencias semánticas
+
+== CollapseSemanticOutlineTooltip ==
+Colapsar el panel de diferencias semánticas
+
+== MacSemanticOutlineToggleButtonTooltip ==
+Oculta o muestra el panel de diferencias semánticas
+
+== NoDifferences ==
+No hay diferencias
+
+== DifferencesTreeViewCategoryHeader ==
+{0} - {1} elemento(s)
+
+== DifferencesTreeViewCategoryAdded ==
+Añadido
+
+== DifferencesTreeViewCategoryMultifileMoved ==
+Movido multifichero
+
+== DifferencesTreeViewCategoryMoved ==
+Movido
+
+== DifferencesTreeViewCategoryChanged ==
+Cambiado
+
+== DifferencesTreeViewCategoryDeleted ==
+Borrado
+
+== DifferencesTreeViewCategoryRenamed ==
+Renombrado
+
+== SemanticDiffsNotEditable ==
+Las diferencias semánticas no son editables. Cambie a diff de texto si desea editar.
+
+== UnableCalculateSemanticDiffs ==
+No es posible calcular las diferencias semánticas, se muestran las diferencias basadas en texto.
+
+== SemanticDiffButton ==
+Diff semántico
+
+== SemanticDiffButtonTooltip ==
+Diff semántico integrado: mostrar las diferencias en modo semántico
+
+== VisualDiffButton ==
+Diff visual
+
+== VisualDiffButtonTooltip ==
+Mostrar las diferencias semánticas en modo visual
+
+== SkipFormatChangesButton ==
+Ignorar cambios de formato
+
+== SkipFormatChangesButtonTooltip ==
+Ignorar espacios en blanco y saltos de línea cuando las diferencias semánticas son calculadas
+
+== ReformatButton ==
+Formatear
+
+== ReformatButtonTooltip ==
+Formatear el código fuente
+
+== TextDiffButton ==
+Diff de texto
+
+== TextDiffButtonTooltip ==
+Mostrar las diferencias basadas en texto
+
+== CopyToClipboard ==
+Copiar al portapapeles
+
+== FileEditedSaveChanges ==
+Ha editado el fichero seleccionado, ¿desea guardar los cambios?
+
+== Days ==
+{0} días
+
+== Hours ==
+{0} horas
+
+== Minutes ==
+{0} minutos
+
+== Seconds ==
+{0} segundos
+
+== ToggleOutlineButton ==
+Toggle outline

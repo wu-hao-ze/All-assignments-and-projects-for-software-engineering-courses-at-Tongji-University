@@ -1,0 +1,55 @@
+﻿== Error ==
+错误
+
+== NoResultFileSelected ==
+未选择结果文件
+
+== UsageCaption ==
+用法
+
+== Usage ==
+用法：binmergetool <mergeOptions>
+
+    mergeOptions:<generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:             {-b | --base}=<filename>
+        baseSymbolicName:     {-bn | --basesymbolicname}=<symbolicname>
+        automatic:            -a | --automatic
+        resultFile:           {-r | --result}=<filename>
+        mergeType:            {-m | --mergeresolutiontype}={onlyone | onlysrc | onlydst | try | forced}
+
+    generalFiles:<sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:           {-s | --source}=<filename>
+        srcSymbolicName:      {-sn | --srcsymbolicname}=<symbolicname>
+        destinationFile:      {-d | --destination}=<filename>
+        dstSymbolicName:      {-dn | --dstsymbolicname}=<symbolicname>
+
+        
+    示例：
+        
+        binmergetool -s=file1.txt -d=file2.txt
+        binmergetool -s=file1.txt -b=file0.txt --destination=file2.txt
+        binmergetool --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+        binmergetool -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -m=onlyone
+
+== DiffRequiresTwoArguments ==
+差异比较需要且只需要两个文件
+
+== UnsupportedFileTypeForDiff ==
+二进制文件差异比较不支持的文件类型。仅支持图像（JPEG、PNG、GIF、BMP）
+
+== SaveChanges ==
+是否要保存对结果文件所做的更改？
+
+== ExitPrompt ==
+退出
+
+== CantLoadImage ==
+无法加载图像 '{0}'。
+
+== NoArguments ==
+未指定参数
+
+== UsageHint ==
+使用 [binmergetool -?] 可显示有关此实用程序的更多帮助信息

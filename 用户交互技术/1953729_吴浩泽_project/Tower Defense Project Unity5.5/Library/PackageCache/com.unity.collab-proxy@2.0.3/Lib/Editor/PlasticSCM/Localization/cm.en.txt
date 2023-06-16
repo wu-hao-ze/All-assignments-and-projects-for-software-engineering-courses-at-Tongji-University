@@ -1,0 +1,156 @@
+﻿== CmExistingCertificateChanged ==
+
+WARNING: the certificate of this host doesn't match the one you have in the key 
+store. It may mean that the identity of the server has been compromised or a 
+man-in-the-middle attack is being performed on you.
+
+Certificate details:
+- Issued to: {0}
+- Issued by: {1}
+- Expiration date: {3}
+- Certificate hash: {5}
+
+If you were expecting this change and trust the new certificate, choose 'Yes' 
+  to add the key to the Unity VCS key store and trust this certificate in the 
+  future.
+If you want to carry on connecting just once, without adding the key to the 
+  store, choose 'No'.
+If you want to abandon this connection, choose 'Cancel'. This is the ONLY
+  guaranteed safe choice.
+
+
+
+== CmExistingCertificateChangedPrompt ==
+Choose an option (Y)es, (N)o, (C)ancel (default is Cancel): 
+
+== CmInvalidCertificateHostname ==
+WARNING: the secure connection hostname provided in the server 
+certificate doesn't match the server hostname. This means that the 
+certificate was not issued to this hostname or that there is a network 
+configuration problem with this host.
+
+- Certificate hostname: {0}
+- Server hostname: {1}
+
+If you want to continue connecting to this host, choose 'Yes'. The certificate 
+  validation will continue (not recommended).
+If you want to abandon the connection, choose 'No' (recommended).
+    
+
+== CmInvalidCertificateHostnamePrompt ==
+Choose an option (Y)es, (N)o (hitting Enter selects 'No'): 
+
+== CmInvalidCertuiResponse ==
+(!) The option you entered is not valid.
+
+== CmNewCertificate ==
+
+The server you are connecting to has sent a certificate that is not in the 
+store. This is normal if it is the first time that you connect to this server.
+
+Certificate details: 
+- Issued to: {0}
+- Issued by: {1}
+- Expiration date: {3}
+- Certificate hash: {5}
+
+If you trust this host, choose 'Yes' to add the key to the Unity VCS key
+  store (recommended if it is the first time you connect to this server).
+If you want to carry on connecting just once, without adding the key to the 
+  store, choose 'No'.
+If you do not trust this host, choose 'Cancel' to abandon the connection.
+
+    
+
+== CmNewCertificatePrompt ==
+Choose an option (Y)es, (N)o, (C)ancel (hitting Enter cancels): 
+
+== CmdListCommandsAdditionalHeader ==
+Additional commands:
+
+== CmdListCommandsAdministrativeHeader ==
+Administrative commands:
+
+== CmdListCommandsAutomationHeader ==
+Automation commands:
+
+== CmdListCommandsCommandTypes ==
+
+You're currently viewing a reduced list of the available commands. You can use:
+      cm showcommands --essential to show essential commands (default)
+      cm showcommands --additional to show additional commands
+      cm showcommands --administrative to show commands used by administrators
+      cm showcommands --security to show commands to manage security and ACLs
+      cm showcommands --automation to show commands used to automate the CLI
+      cm showcommands --all to show the complete command list
+
+== CmdListCommandsEnd ==
+        
+* Executing a command:
+      cm command_name
+  
+* Get usage of a command:
+      cm command_name --usage
+      cm command_name -?
+
+* Get help from a command
+      cm help command_name
+      cm command_name --help
+
+Learn more about how to use the command line:
+https://www.plasticscm.com/documentation/cli/plastic-scm-version-control-cli-guide.shtml
+
+Learn more about cm find:
+https://www.plasticscm.com/documentation/cmfind/plastic-scm-version-control-query-system-guide.shtml
+
+Learn more about cm automation:
+https://www.plasticscm.com/documentation/cmdrunner/plastic-scm-version-control-cmdrunner-guide.shtml
+      
+
+== CmdListCommandsEssentialHeader ==
+Essential commands:
+
+== CmdListCommandsSecurityHeader ==
+Security commands:
+
+== Description ==
+Description
+
+== EnterPassword ==
+Password: 
+
+== EnterUser ==
+User: 
+
+== EnterUserCredentials ==
+Enter credentials to connect to server [{0}]
+
+== LongName ==
+Command
+
+== MsgCommandnotfound ==
+Command '{0}' not found. Type cm showcommands to get a command list.
+
+== MsgError ==
+Error: 
+
+== MsgNocommands ==
+No commands defined!
+
+== ShortName ==
+Short 
+
+== WkUpgradeFinished ==
+Workspaces upgraded.
+
+== WkUpgradeStarted ==
+Upgrading workspaces...
+
+== SelectSignInProvider ==
+Select the system you want to use to sign in to: {0}
+
+== SelectYourProviderToSignin ==
+Select your system [{0}-{1}] 
+
+== OpenThisUrlInYourBrowser ==
+Open the following URL in your browser:

@@ -1,0 +1,32 @@
+﻿@import "Base.uss";
+
+#windowContainer {
+    height: 100%;
+    flex-grow: 1;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+#loginContainer TextField {
+    flex-direction: column;
+    font-size: 14px;
+}
+
+#emailNotification, #passwordNotification {
+    height: 15px;
+    margin-bottom: 5px;
+}
+
+#progressContainer {
+    height: 15px;
+    margin-top: 15px;
+}
+
+#signIn,
+#back {
+    width: 125px;
+}
+
+#signUpNeededNotificationLabel{
+    color: red;
+}

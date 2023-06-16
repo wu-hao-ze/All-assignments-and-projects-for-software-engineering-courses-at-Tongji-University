@@ -1,0 +1,7 @@
+﻿#ContentArea {
+    background-color: rgba(48, 48, 48, 255);
+}
+
+#StatusBar {
+    background-color: rgba(25, 25, 25, 255);
+}

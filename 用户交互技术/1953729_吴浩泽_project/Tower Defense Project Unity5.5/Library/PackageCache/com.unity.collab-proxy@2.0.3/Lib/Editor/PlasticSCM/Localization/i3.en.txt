@@ -1,0 +1,80 @@
+﻿== FontPreviewSampleTest ==
+The quick brown fox jumps over the lazy dog
+
+== FontPreviewLabelFont ==
+Font: {0}
+
+== StrikeoutFontNotSupportedMessage ==
+The font {0} does not support the strikeout style, used by the application. Please choose other font.
+
+== StrikeoutFontNotSupportedCaption ==
+Not valid font
+
+== CloseTab ==
+Close tab
+
+== CloseAllTabs ==
+Close all tabs
+
+== CloseAllTabsButThis ==
+Close all tabs but this
+
+== CloseTabsToTheRight ==
+Close all tabs to the right
+
+== CopyTitle ==
+Copy title
+
+== ListOpenedTabs ==
+List opened tabs
+
+== Abort ==
+Abort
+
+== Retry ==
+Retry
+
+== Ignore ==
+Ignore
+
+== Ok ==
+Ok
+
+== Cancel ==
+Cancel
+
+== Yes ==
+Yes
+
+== No ==
+No
+
+== Change ==
+Change...
+
+== AbortAmp ==
+&Abort
+
+== RetryAmp ==
+&Retry
+
+== IgnoreAmp ==
+&Ignore
+
+== OkAmp ==
+&Ok
+
+== CancelAmp ==
+&Cancel
+
+== YesAmp ==
+&Yes
+
+== NoAmp ==
+&No
+
+== On ==
+On
+
+== Off ==
+Off

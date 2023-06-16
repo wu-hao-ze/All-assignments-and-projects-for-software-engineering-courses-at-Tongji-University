@@ -1,0 +1,110 @@
+﻿== ConfiguringLanguage ==
+正在設定語言。這些是可用的語言
+
+== ChooseLanguage ==
+選擇語言 (鍵入數字)
+
+== YesAnswers ==
+是|y
+
+== YesOrNoDefaultYes ==
+[Y/n]
+
+== YesOrNoDefaultNo ==
+[y/N]
+
+== ConfiguringEdition ==
+Unity VCS 提供兩種版本：企業版適用於需要高可擴展性的大型團隊，而團隊版適用於最多 15 位開發人員的群組。您可以在 plasticscm.com 深入瞭解這些版本
+
+== ChooseEdition ==
+選擇您想要安裝的版本 (鍵入數字)
+
+== ConfiguringWorkingMode ==
+選取使用者驗證模式。這些是可用的模式
+
+== ChooseWorkingMode ==
+選擇模式 (鍵入數字)
+
+== NameWorkingMode ==
+名稱
+
+== NameIdWorkingMode ==
+名稱 + ID
+
+== AdWorkingMode ==
+Active Directory
+
+== LdapWorkingMode ==
+LDAP
+
+== UpWorkingMode ==
+使用者和密碼
+
+== ConfiguringLdap ==
+正在設定 LDAP 連線...
+
+== ConfiguringUp ==
+設定您的憑證:
+
+== ConfiguringLicenseToken ==
+為訂閱授權設定自動續約：
+
+== LicenseToken ==
+授權權杖 [按 ENTER 鍵跳過]
+
+== UpUserName ==
+使用者名稱
+
+== UpPassword ==
+密碼
+
+== LdapServer ==
+LDAP 伺服器
+
+== LdapPort ==
+LDAP 連接埠 [389]
+
+== LdapDomain ==
+LDAP 網域
+
+== LdapUser ==
+LDAP 使用者 
+
+== LdapPassword ==
+LDAP 密碼
+
+== MsgError ==
+錯誤:
+
+== AvailableLdapTypes ==
+可用的 LDAP 伺服器類型
+
+== ChooseType ==
+伺服器類型 (鍵入數字)
+
+== InvalidOption ==
+無效選項。
+
+== InvalidValue ==
+無效值。
+
+== InvalidParameter ==
+無效參數:{0}
+
+== InvalidLanguage ==
+無效的語言:{0}
+
+== InvalidWorkingModeConf ==
+無效的工作模式:{0}
+
+== InvalidLdapType ==
+無效的 LDAP 伺服器類型:{0}
+
+== ParameterNotPresent ==
+參數 {0} 不存在或無效
+
+== NoPortInRemotingFile ==
+遠端設定檔案中沒有指定的連接埠
+
+== InvalidPortNumber ==
+無效的連接埠號碼:{0}

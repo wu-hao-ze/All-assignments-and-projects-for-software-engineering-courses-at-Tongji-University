@@ -1,0 +1,5 @@
+{
+	"displayName": "Gameplay Sequence Demo",
+	"description": "This sample demonstrates how Timeline can be used to create a small in-game moment, using built-in Timeline tracks.",
+	"createSeparatePackage": false
+}

@@ -1,0 +1,5440 @@
+== Branch ==
+分支
+
+== Branches ==
+分支
+
+== Changeset ==
+變更集
+
+== Label ==
+標籤
+
+== Labels ==
+標籤
+
+== Server ==
+伺服器
+
+== Repository ==
+儲存庫
+
+== Checkin ==
+簽入
+
+== UndoChanges ==
+復原變更
+
+== UpdateWorkspace ==
+更新工作區
+
+== ItemsMenuUndoCheckout ==
+復原簽出
+
+== ItemsMenuUndoChanges ==
+復原變更
+
+== ItemsMenuChangeRevType ==
+變更修訂類型
+
+== MenuItemExternalTools ==
+外部工具
+
+== ItemNameEmpty ==
+名稱不可為空白
+
+== ItemExists ==
+項目 {0} 已存在
+
+== MovingItems ==
+正在移動項目...
+
+== Options ==
+選項
+
+== BranchExplorerOptionsToggleTooltip ==
+隱藏或顯示選項面板
+
+== GoButton ==
+前往
+
+== GoToBranchBase ==
+移至分支基底
+
+== BranchExplorerMenu ==
+分支瀏覽器
+
+== FilterSelectedBranches ==
+篩選選取的分支
+
+== FilterSelectedAndRelatedBranches ==
+篩選選取的及相關的分支
+
+== FilterSelectedBranchesPendingMerges ==
+篩選所選分支暫止的合併
+
+== GoToParentChangeset ==
+移至上層變更集
+
+== AddInclusion ==
+新增包含項目
+
+== AddExclusion ==
+新增排除項目
+
+== CustomBranchQuery ==
+自訂分支查詢規則
+
+== CustomChangesetQuery ==
+自訂變更集查詢規則
+
+== CustomLabelQuery ==
+自訂標籤查詢規則
+
+== ConditionalBranchFormatText ==
+新增條件分支格式 (要醒目提示的分支)
+
+== ConditionalChangesetFormatText ==
+新增條件變更集格式 (要醒目提示的變更集)
+
+== ConditionalLabelFormatText ==
+新增條件標籤格式 (要醒目提示的標籤)
+
+== InclusionRuleText ==
+新增包含分支篩選 (要包含的分支)
+
+== ExclusionRuleText ==
+新增排除分支篩選 (要排除的分支)
+
+== ActiveBranch ==
+工作區中的一個作用中分支
+
+== ActiveBranches ==
+工作區中的多個作用中分支
+
+== BranchesWithPendingIntegrations ==
+包含暫止合併的分支
+
+== AddFormat ==
+新增格式
+
+== Calculating ==
+正在計算...
+
+== CopyrightTextFormat ==
+Copyright © 2006-{0} Unity Technologies. All Rights Reserved.
+
+== FiltersAndConditionalFormat ==
+篩選和格式
+
+== ReleaseNotesLinkText ==
+版本資訊
+
+== WebsiteLink ==
+https://www.plasticscm.com
+
+== ReleaseNotesUrlPreffix ==
+https://www.plasticscm.com/download/releasenotes/
+
+== RevertStart ==
+正在恢復工作區中的修訂...
+
+== RevertingItemsSingular ==
+正在還原 1 個項目...
+
+== RevertingItemsPlural ==
+正在還原 {0} 個項目...
+
+== RevertingProgress ==
+正在還原 {0} 個檔案，共 {1} 個:{2}
+
+== Validating ==
+正在驗證資料...
+
+== UpdateReportNoLinesSelected ==
+請選取您要更新的路徑
+
+== UpdateProgressCalculating ==
+正在計算...
+
+== UpdateProgressUpdating ==
+正在更新...
+
+== UpdateProgressSingular ==
+已更新 {0}/{1} ({2}/1 個檔案){4}
+
+== UpdateProgressPlural ==
+已更新 {0}/{1} ({2}/{3} 個檔案){4}
+
+== CheckinComments ==
+簽入註解
+
+== UpdatingSelectedItems ==
+正在更新所選項目...
+
+== LoadingItems ==
+正在載入項目...
+
+== LoadingBranches ==
+正在載入分支...
+
+== LoadingBranchExplorer ==
+正在載入分支瀏覽器...
+
+== LoadingLabels ==
+正在載入標籤...
+
+== LoadingChangesets ==
+正在載入變更集...
+
+== LoadingShelves ==
+正在載入擱置...
+
+== LoadingSyncViewDetails ==
+正在載入同步檢視詳細資料...
+
+== LoadingDeletedItems ==
+正在載入所刪除項目...
+
+== UncheckoutStart ==
+正在取消簽出所選項目...
+
+== ActionMenuButtonTooltip ==
+對所選項目執行動作
+
+== MainSidebarItemsItem ==
+工作區瀏覽器
+
+== MainSidebarPendingChangesItem ==
+暫止的變更
+
+== MainSidebarBranchesItem ==
+分支
+
+== MainSidebarBranchExplorerItem ==
+分支瀏覽器
+
+== MainSidebarChangesetsItem ==
+變更集
+
+== MainSidebarLabelsItem ==
+標籤
+
+== MainSidebarAttributesItem ==
+屬性
+
+== MainSidebarSyncItem ==
+同步儲存庫
+
+== MainSidebarSyncItemCloudEdition ==
+同步至 Cloud
+
+== MainSidebarMergeItem ==
+合併
+
+== MainSidebarIncomingChangesItem ==
+傳入變更
+
+== MainSidebarPreferencesItem ==
+偏好設定
+
+== MainSidebarAboutItem ==
+關於 Unity DevOps Version Control
+
+== MainSidebarAboutGluonItem ==
+關於 Gluon
+
+== MainSidebarCodeReviewsItem ==
+程式碼檢閱
+
+== ItemColumn ==
+項目
+
+== StatusColumn ==
+狀態
+
+== ExtensionColumn ==
+擴充功能
+
+== TypeColumn ==
+類型
+
+== DateModifiedColumn ==
+日期已修改
+
+== RepositoryColumn ==
+儲存庫
+
+== ServerColumn ==
+伺服器
+
+== ObjectNameColumn ==
+物件名稱
+
+== NameColumn ==
+名稱
+
+== PathColumn ==
+路徑
+
+== ProblemColumn ==
+問題
+
+== SeverityColumn ==
+嚴重性
+
+== TimestampColumn ==
+時間戳記
+
+== LastEditedByColumn ==
+上次編輯者
+
+== CreationDateColumn ==
+建立日期
+
+== GuidColumn ==
+GUID
+
+== CommentColumn ==
+註解
+
+== ItemsCount ==
+({0})
+
+== ItemsCountSingular ==
+(1 個項目)
+
+== ItemsCountPlural ==
+({0} 個項目)
+
+== ItemsSelected ==
+({0}/{1} selected)
+
+== ItemsSelectedSingular ==
+已選取 {0} 個項目，共 1 個
+
+== ItemsSelectedPlural ==
+已選取 {0} 個項目，共 {1} 個
+
+== ItemsSelectedForGluonSingular ==
+{0} 個項目，共 1 個
+
+== ItemsSelectedForGluonPlural ==
+{0} 個項目，共 {1} 個
+
+== ChangedItemsCategory ==
+已變更項目
+
+== AddedPrivateItemsCategory ==
+已新增，而且已選取私人檔案
+
+== DeletedItemsCategory ==
+已刪除項目
+
+== MovedItemsCategory ==
+已移動項目
+
+== DeletingObjectsSingular ==
+正在刪除 1 個物件
+
+== DeletingObjectsPlural ==
+正在刪除 {0} 個物件
+
+== DeleteObjectsSingular ==
+正在刪除 1 個物件。您確定嗎?
+
+== DeleteObjectsPlural ==
+正在刪除 {0} 個物件。您確定嗎?
+
+== ConfirmRevertTitle ==
+退出恢復
+
+== ConfirmRevertMessage ==
+內容將恢復至修訂 {0}。是否要繼續?
+
+== ConfirmRevertToClientDiffsMessage ==
+將會還原所選檔案。是否要繼續?
+
+== ConfirmUndeleteTitle ==
+確認取消刪除
+
+== ConfirmUndeleteMessage ==
+將會取消刪除所選檔案。是否要繼續?
+
+== FromTo ==
+{0} 到 {1}
+
+== From ==
+從
+
+== To ==
+到
+
+== AddProgress ==
+正在新增項目...
+
+== CheckoutProgress ==
+正在簽出項目...
+
+== UndoingPendingChanges ==
+正在復原變更...
+
+== UndoingUnchanged ==
+正在復原未變更項目...
+
+== ShelvingPendingChanges ==
+擱置變更...
+
+== UndoingChangedFiles ==
+正在復原變更...
+
+== UndoingChangedFilesError ==
+復原變更作業期間發生錯誤:
+
+== New ==
+新增...
+
+== ItemsMenuItemHistory ==
+歷史記錄
+
+== ItemsMenuItemAnnotate ==
+標註
+
+== NoItemsAreSelected ==
+未選取任何項目。請使用項目的核取方塊來選取項目。如果您有選取項目，也會發生此情形，但全部都可忽略。
+
+== RepositoryNameLabel ==
+新儲存庫的名稱:
+
+== WorkspaceNameLabel ==
+新工作區的名稱:
+
+== NewRepositoryTitle ==
+建立新儲存庫
+
+== RenameRepositoryTitle ==
+重新命名儲存庫
+
+== NewWorkspace ==
+建立新工作區
+
+== RenameWorkspaceTitle ==
+重新命名工作區
+
+== RepositoryServerLabel ==
+伺服器 (your_server:8087 或 your_org@cloud):
+
+== WorkspacePathLabel ==
+磁碟上的路徑:
+
+== RepositoryLabel ==
+儲存庫:
+
+== BrowseLabel ==
+瀏覽...
+
+== CouldNotGetOrganizationNameFromCredentials ==
+無效的憑證。無法取得組織名稱
+
+== CouldNotGetOrganizationName ==
+無法從雲端伺服器取得組織名稱。您的憑證或許錯誤。請再次執行設定工具以輸入新的憑證 ('{0} --configure')
+
+== RepositoryServerIsNotAvailable ==
+儲存庫伺服器無法使用
+
+== RepositoryNameEmpty ==
+儲存庫名稱不得為空白
+
+== WorkspaceNameEmpty ==
+工作區名稱不得為空白
+
+== WorkspacePathEmpty ==
+工作區路徑不得為空白
+
+== WorkspacePathUnauthorizedAccess ==
+未經授權在指定路徑中建立工作區
+
+== InvalidCharsInPath ==
+工作區路徑包含無效字元
+
+== WorkspaceNameAlreadyExists ==
+工作區 {0} 已經存在
+
+== WorkspacePathAlreadyUsed ==
+路徑 {0} 已經包含在工作區中
+
+== RepositoryMenuItemCreate ==
+建立新儲存庫...
+
+== RepositoryMenuItemCreateWorkspace ==
+建立此儲存庫的工作區...
+
+== RenameMenuItem ==
+重新命名
+
+== WorkspaceMenuItemOpen ==
+開啟
+
+== WorkspaceMenuItemOpenInNewWindow ==
+在新視窗中開啟
+
+== OpenInExplorerMenuItem ==
+在瀏覽器中開啟
+
+== DeleteMenuItem ==
+刪除
+
+== UndeleteMenuItem ==
+取消刪除
+
+== WorkspaceMenuItemCreate ==
+建立新工作區...
+
+== WorkspaceMenuItemRename ==
+重新命名
+
+== WorkspaceMenuItemDelete ==
+刪除
+
+== BranchMenuItemCreateBranch ==
+建立下層分支...
+
+== BranchMenuItemMergeFromBranch ==
+從此分支合併...
+
+== BranchMenuItemAdvancedMerge ==
+進階合併
+
+== BranchMenuItemCherrypickFromBranch ==
+從此分支揀選...
+
+== BranchMenuItemMergeToFromBranch ==
+從此分支合併至...
+
+== BranchMenuItemPushPull ==
+推送/提取
+
+== BranchMenuItemPullBranch ==
+提取此分支...
+
+== BranchMenuItemPullRemoteBranch ==
+提取遠端分支...
+
+== BranchMenuItemSyncWithGit ==
+與 Git 同步處理...
+
+== BranchMenuItemPushBranch ==
+推送此分支...
+
+== BranchMenuItemRenameBranch ==
+重新命名...
+
+== BranchMenuItemDeleteBranch ==
+刪除
+
+== BranchMenuItemSwitchToBranch ==
+切換工作區至此分支
+
+== BranchMenuItemDiff ==
+差異比對分支
+
+== BranchMenuItemDiffWithAnotherBranch ==
+對另一個修訂進行差異比對...
+
+== BranchMenuItemViewChangesets ==
+在此分支中檢視變更集
+
+== ChangesetMenuItemCreateBranch ==
+從此變更集建立分支...
+
+== ChangesetMenuItemDiff ==
+與舊版進行差異比對
+
+== ChangesetMenuItemDiffWithAnother ==
+對另一個變更集進行差異比對...
+
+== ChangesetMenuItemDiffSelected ==
+對所選變更集進行差異比對
+
+== ChangesetMenuItemBrowseRepositoryOnChangeset ==
+在此變更集中瀏覽儲存庫
+
+== ChangesetMenuItemLabelChangeset ==
+標記此變更集...
+
+== ChangesetMenuItemSwitchToChangeset ==
+切換工作區至此變更集
+
+== ChangesetMenuItemMergeFromChangeset ==
+從此變更集合併...
+
+== ChangesetMenuItemCherrypickFromChangeset ==
+從此變更集揀選...
+
+== ChangesetMenuItemAdvancedMerge ==
+進階合併
+
+== ChangesetMenuItemSubtractiveFromChangeset ==
+從此變更集削減合併...
+
+== ChangesetMenuItemSubtractiveFromChangesetInterval ==
+從此變更集間隔削減合併...
+
+== ChangesetMenuItemCherrypickFromChangesetInterval ==
+從此變更集間隔揀選...
+
+== ChangesetMenuItemMergeToFromChangeset ==
+從此變更集合併至...
+
+== ChangesetMenuItemAdvancedOptions ==
+進階選項
+
+== ChangesetMenuItemMoveChangeset ==
+從此變更集移動至不同的分支...
+
+== ChangesetMenuItemDeleteChangeset ==
+刪除變更集
+
+== CheckoutChangesetMenuItemShowPendingChangesView ==
+顯示暫止的變更檢視
+
+== LabelMenuItemCreateLabel ==
+建立新標籤...
+
+== LabelMenuItemApplyLabelToWorkspace ==
+套用標籤至工作區內容
+
+== LabelMenuItemSwitchToLabel ==
+切換工作區至此標籤
+
+== LabelMenuItemMergeFromLabel ==
+從此標籤合併...
+
+== LabelMenuItemMergeToFromLabel ==
+從此標籤合併至...
+
+== LabelMenuItemCreateBranchFromLabel ==
+從此標籤建立分支...
+
+== LabelMenuItemRenameLabel ==
+重新命名...
+
+== LabelMenuItemDeleteLabel ==
+刪除
+
+== ShelveMenuItemViewShelve ==
+檢視擱置
+
+== ShelveMenuItemApplyShelveInWorkspace ==
+套用擱置於我的工作區中...
+
+== ShelveMenuItemDeleteShelve ==
+刪除
+
+== AttributeMenuItemCreate ==
+建立
+
+== AttributeMenuItemEdit ==
+編輯
+
+== AttributeMenuItemDelete ==
+刪除
+
+== PendingChangesMenuItemOpen ==
+開啟
+
+== PendingChangesMenuItemOpenWith ==
+開啟檔案...
+
+== PendingChangesMenuItemDiffAnnotateHistory ==
+差異比對 / 標註 / 歷史記錄
+
+== PendingChangesMenuItemDiffWorkspace ==
+差異比對工作區內容
+
+== PendingChangesMenuItemAnnotate ==
+標註
+
+== PendingChangesMenuItemViewHistory ==
+歷史記錄
+
+== PendingChangesMenuItemUndoChanges ==
+復原變更
+
+== PendingChangesMenuItemDelete ==
+刪除
+
+== PendingChangesMenuItemCheckout ==
+簽出
+
+== PendingChangesMenuItemSearchMatches ==
+搜尋結果...
+
+== PendingChangesMenuItemHideIgnoreCloak ==
+隱藏 / 忽略 / 遮蔽
+
+== PendingChangesMenuItemHideIgnore ==
+隱藏 / 忽略
+
+== DirectoryConflictsTitleSingular ==
+1 個目錄衝突
+
+== DirectoryConflictsTitlePlural ==
+{0} 個目錄衝突
+
+== FileConflictsTitleSingular ==
+1 個檔案衝突
+
+== FileConflictsTitlePlural ==
+{0} 個檔案衝突
+
+== NoActionMenuItem ==
+沒有可用的動作
+
+== ItemsMenuItemNew ==
+新增
+
+== ItemsMenuItemNewDirectory ==
+目錄...
+
+== ItemsMenuItemNewFile ==
+檔案...
+
+== ItemsMenuAdd ==
+新增至原始檔控制
+
+== ItemsMenuAddRecursive ==
+新增樹狀目錄至原始檔控制
+
+== ItemsMenuCheckin ==
+簽入
+
+== ItemsMenuItemOpen ==
+開啟
+
+== ItemsMenuItemOpenWith ==
+開啟檔案...
+
+== ItemsMenuItemOpenWithCustom ==
+使用 {0} 開啟檔案
+
+== ItemsMenuItemRevealInFinder ==
+在尋找器中顯示
+
+== ItemsMenuItemCut ==
+剪切
+
+== ItemsMenuItemDelete ==
+刪除...
+
+== ItemsMenuItemPaste ==
+貼上
+
+== ItemsMenuItemCreateXlink ==
+建立 Xlink...
+
+== ItemsMenuItemEditXlink ==
+編輯 Xlink...
+
+== BrowseRepositoryMenuItemDiffWithPrevious ==
+與先前的修訂進行差異比對
+
+== BrowseRepositoryMenuItemSaveAs ==
+另存為...
+
+== BrowseRepositoryMenuItemViewHistory ==
+檢視歷史記錄
+
+== HistoryMenuItemOpen ==
+開啟
+
+== HistoryMenuItemOpenWith ==
+開啟檔案...
+
+== HistoryMenuItemSaveRevisionAs ==
+將此修訂另存為...
+
+== HistoryMenuItemDiffWithPrevious ==
+與先前的修訂進行差異比對
+
+== HistoryMenuItemDiffSelectedRevisions ==
+對選取的修訂進行差異比對
+
+== HistoryMenuItemDiffChangeset ==
+差異比對變更集
+
+== HistoryMenuItemRevertToThisRevision ==
+恢復至此修訂
+
+== ItemsMenuItemRename ==
+重新命名...
+
+== ItemsMenuItemDiffWithPrevious ==
+與先前的修訂進行差異比對
+
+== HidePrivateItems ==
+隱藏私人的項目
+
+== ExcludePrivateItemsSize ==
+排除目錄大小中的私人項目
+
+== MergeWithPendingChangesTitle ==
+偵測到已變更檔案
+
+== MergeWithPendingChangesMessage ==
+您的工作區中有必須檢查的暫止變更。建議您在合併前先簽入，以避免復原合併時可能出現的問題。
+如果您熟悉合併，可以變更此行為，進入 [偏好設定]/[差異比對]，並合併/允許合併暫止的變更。
+
+請注意: 儘管您熟悉合併運作方式，對於啟用合併並不危險，但我們已變更此行為，以避免對新使用者造成問題。
+
+== MergeNotificationMessageTitle ==
+通知訊息
+
+== BaseContributor ==
+基底
+
+== SrcContributor ==
+來源
+
+== DstContributor ==
+目的地
+
+== DeleteDialogTitleSingular ==
+刪除項目
+
+== DeleteDialogTitlePlural ==
+刪除項目
+
+== DeleteFromDiskSingular ==
+從磁碟刪除項目
+
+== DeleteFromDiskPlural ==
+從磁碟刪除項目
+
+== DoNotDeleteFromDiskSingular ==
+請勿從磁碟刪除項目
+
+== DoNotDeleteFromDiskPlural ==
+請勿從磁碟刪除項目
+
+== DeletingProgress ==
+正在刪除 {0}...
+
+== RemoveFromVersionControlPlural ==
+從版本控制移除項目
+
+== DirectoryConflictsCaption ==
+這些是目錄結構中的衝突。通常用於移動、重新命名、刪除。您必須先將其解決，才能套用其他變更。
+
+== DirectoryConflictsUnsolvedCaptionSingular ==
+個目錄衝突待解決。
+
+== DirectoryConflictsUnsolvedCaptionPlural ==
+個目錄衝突待解決。
+
+== MergeAlreadyConnected ==
+合併搜尋已完成；合併目的地已包含來源變更。
+
+== MergeAlreadySubtracted ==
+合併搜尋已完成；合併來源已從目的地削減。
+
+== MergeInvalidInterval ==
+合併搜尋已完成；指定的間隔無效。
+
+== MergeNoMergesDetected ==
+合併搜尋已完成。沒有偵測到要合併的項目。
+
+== MergeNoMergesDetectedCreateLink ==
+合併搜尋已完成。沒有偵測到要合併的項目，不過來源與目的地貢獻者不同。通常當來源與目的地進行完全相同的變更時，就會發生這種情況。
+
+按一下 [解釋合併] 按鈕查看相關貢獻者的更多詳細資料。
+
+按一下 [套用變更] 按鈕統一來源與目的地 (建立兩者間的合併連結)。
+
+
+== MergeNoMergesDetectedCreateLinkForIncomingView ==
+沒有要下載的內容
+
+直接按一下 [更新工作區] 可將工作區移動至分支的前端。
+
+
+詳細說明：您的變更與分支前端處完成的變更相同，所以實際上沒有項目需要下載，但中繼資料需要同步處理。
+
+
+== MergeNothingToDownloadForIncomingView ==
+沒有要下載的內容
+
+
+== MergeNotConnected ==
+合併搜尋已完成；削減的合併來源與目的地並未連接。
+
+== MergeAlreadyProcessed ==
+合併已完成。您的變更會顯示在暫止的變更檢視上。關閉此檢視，接著您就能看到這些變更!
+
+== FileMergeTitleSingular ==
+1 個變更待套用
+
+== FileMergeTitlePlural ==
+{0} 個變更待套用
+
+== MergeChangedOnSrc ==
+僅在來源貢獻者中的變更
+
+== MergeChangedOnSrcForIncomingView ==
+將進行更新
+
+== MergeWarningsTitleSingular ==
+1 個捨棄的衝突。
+
+== MergeWarningsTitlePlural ==
+{0} 個捨棄的衝突。
+
+== MergeWarningsCaption ==
+不再適用且可能產生警告的衝突。
+
+== XlinkWarningMessageSingular ==
+{0} (1 個項目)
+
+== XlinkWarningMessagePlural ==
+{0} ({{0}} 個項目)
+
+== DivergentMoveConflictsSingular ==
+分歧的移動衝突 (1 個項目)
+
+== DivergentMoveConflictsPlural ==
+分歧的移動衝突 ({0} 個項目)
+
+== CyleMoveConflictsSingular ==
+週期的移動衝突 (1 個項目)
+
+== CyleMoveConflictsPlural ==
+週期的移動衝突 ({0} 個項目)
+
+== EvilTwinsSingular ==
+邪惡雙生衝突 (1 個項目)
+
+== EvilTwinsPlural ==
+邪惡雙生衝突 ({0} 個項目)
+
+== MoveDeleteConflictsSingular ==
+移動/刪除衝突 (1 個項目)
+
+== MoveDeleteConflictsPlural ==
+移動/刪除衝突 ({0} 個項目)
+
+== DeleteMoveConflictsSingular ==
+刪除/移動衝突 (1 個項目)
+
+== DeleteMoveConflictsPlural ==
+刪除/移動衝突 ({0} 個項目)
+
+== MovedEvilTwinsSingular ==
+移動的邪惡雙生衝突 (1 個項目)
+
+== MovedEvilTwinsPlural ==
+移動的邪惡雙生衝突 ({0} 個項目)
+
+== AddMoveConflictsSingular ==
+新增/移動衝突 (1 個項目)
+
+== AddMoveConflictsPlural ==
+新增/移動衝突 ({0} 個項目)
+
+== MoveAddConflictsSingular ==
+移動/新增衝突 (1 個項目)
+
+== MoveAddConflictsPlural ==
+移動/新增衝突 ({0} 個項目)
+
+== LoadedTwiceConflictsSingular ==
+項目載入兩次衝突 (1 個項目)
+
+== LoadedTwiceConflictsPlural ==
+項目載入兩次衝突 ({0} 個項目)
+
+== MoveSourceDeleteConflictsSingular ==
+移動/刪除，移出刪除衝突 (1 個項目)
+
+== MoveSourceDeleteConflictsPlural ==
+移動/刪除，移出刪除衝突 ({0} 個項目)
+
+== DeleteMoveSourceConflictsSingular ==
+刪除/移動，移出刪除衝突 (1 個項目)
+
+== DeleteMoveSourceConflictsPlural ==
+刪除/移動，移出刪除衝突 ({0} 個項目)
+
+== ChangeDeleteConflictsSingular ==
+變更/刪除衝突 (1 個項目)
+
+== ChangeDeleteConflictsPlural ==
+變更/刪除衝突 ({0} 個項目)
+
+== DeleteChangeConflictsSingular ==
+刪除/變更衝突 (1 個項目)
+
+== DeleteChangeConflictsPlural ==
+刪除/變更衝突 ({0} 個項目)
+
+== ReadonlyXlinkConflictsSingular ==
+唯讀 Xlink 衝突 (1 個項目)
+
+== ReadonlyXlinkConflictsPlural ==
+唯讀 Xlink 衝突 ({0} 個項目)
+
+== ResolveDirectoryConflict ==
+解決目錄衝突
+
+== ResolveDirectoryConflictChooseOption ==
+為了解決衝突，請選擇下列其中一個選項:
+
+== SelectAMatch ==
+請選取要比對的變更
+
+== SearchMatchesDialogTitle ==
+搜尋已移動的候選項目
+
+== SearchMatchesDialogExplanation ==
+新項目的所有可能來源都會顯示。請滑動下方列以變更相似性臨界值。
+
+== MinSimilarityAccepted ==
+已接受最小相似性:{0:0.0}
+
+== LoadingMatches ==
+正在載入相符項目...
+
+== SrcPathColumn ==
+來源路徑
+
+== DstPathColumn ==
+目的地路徑
+
+== SimilarityColumn ==
+相似性
+
+== DiffCategoryHeaderSingular ==
+{0}: 1 個項目
+
+== DiffCategoryHeaderPlural ==
+{0}: {1}個項目
+
+== MergeDiffCategory ==
+已從 {0} 合併
+
+== AddedMergeDiffCategory ==
+已新增 (檔案已在合併來源中新增)
+
+== DeletedMergeDiffCategory ==
+已刪除 (檔案已在合併來源中刪除)
+
+== MergedMergeDiffCategory ==
+已合併 (檔案已在合併來源、合併目的地中變更)
+
+== MovedMergeDiffCategory ==
+已移動 (檔案已在合併來源中移動)
+
+== ReplacedMergeDiffCategory ==
+已變更 (檔案已在合併來源中變更)
+
+== AddedDiffCategory ==
+已新增
+
+== ChangedDiffCategory ==
+已變更
+
+== DeletedDiffCategory ==
+已刪除
+
+== MovedDiffCategory ==
+已移動
+
+== MergedDiffCategory ==
+已合併
+
+== FSProtectionDiffCategory ==
+僅檔案系統權限已變更
+
+== Source ==
+來源:
+
+== Destination ==
+目的地:
+
+== KeepSrcChanges ==
+保留來源變更
+
+== KeepSrcNotSupported ==
+此衝突類型不支援保留來源項目
+
+== KeepDstChanges ==
+保留目的地變更
+
+== KeepDstNotSupported ==
+此衝突類型不支援保留目的地項目
+
+== RenameOnDst ==
+重新命名在您工作區中的項目
+
+== RenameNotSupported ==
+此衝突類型不支援重新命名目的地項目
+
+== InputItemNameMessage ==
+請輸入項目名稱
+
+== HelpButton ==
+說明
+
+== AdvancedButton ==
+進階
+
+== BranchExplorerSearchFieldTooltip ==
+輸入搜尋類型。使用 cs: lb: 或 br: 限制結果
+
+== BranchColumn ==
+分支
+
+== CancelButton ==
+取消
+
+== CloseButton ==
+關閉
+
+== OkButton ==
+確定
+
+== YesButton ==
+是
+
+== NoButton ==
+否
+
+== CheckinButton ==
+簽入
+
+== CheckinToADifferentBranchButton ==
+簽入變更至不同的分支...
+
+== CheckinToADifferentBranch ==
+簽入變更至不同的分支
+
+== MoveChangesetsToADifferentBranch ==
+移動變更集至不同的分支
+
+== ShelveButton ==
+擱置
+
+== ShowShelvesButton ==
+顯示擱置
+
+== ShowShelvesViewTooltip ==
+顯示擱置檢視
+
+== OptionsTooltip ==
+設定暫止的變更選項
+
+== ChooseMessage ==
+選擇...
+
+== GluonConfigurationSelectRepositoryButton ==
+選取...
+
+== GluonConfigurationBrowseWorkspacePathButton ==
+選擇路徑...
+
+== GluonConfigurationCreateRepositoryButton ==
+建立...
+
+== ChangesetColumn ==
+變更集
+
+== ExecuteButton ==
+執行
+
+== FileConflictsCaptionSingular ==
+個檔案衝突待解決。
+
+== FileConflictsCaptionPlural ==
+個檔案衝突待解決。
+
+== FileConflictsCaptionForIncomingViewSingular ==
+個檔案與您的變更衝突。
+
+== FileConflictsCaptionForIncomingViewPlural ==
+個檔案與您的變更衝突。
+
+== FilterLabel ==
+篩選:
+
+== Controlled ==
+受控制
+
+== ItemsMenuCheckout ==
+簽出
+
+== ItemsMenuLockAndCheckout ==
+鎖定及簽出
+
+== ItemsMenuCheckoutRecursive ==
+遞迴簽出
+
+== CheckedOut ==
+已簽出
+
+== Deleted ==
+已刪除
+
+== ChangedOnDisk ==
+已在磁碟變更
+
+== ContainsChanges ==
+包含變更
+
+== Private ==
+私人
+
+== Ignored ==
+忽略清單
+
+== Cloaked ==
+已遮蔽
+
+== HiddenChanged ==
+隱藏已變更
+
+== MainWindowTitle ==
+Unity DevOps Version Control - 工作區:{0} - {1} - {2}:{3}@{4}
+
+== StatusInfo ==
+您正在瀏覽 {0} {1}@{2}
+
+== DiffWindowTitle ==
+比較上一個內容與 {0} 的修訂
+
+== ChangesetsDiffWindowTitle ==
+比較 {0} 的修訂與 {1} 的修訂
+
+== FsProtectionDifferences ==
+檔案系統權限已從 {0} 變更成 {1}
+
+== NoItemsToUndo ==
+未選取任何項目。請使用項目的核取方塊來選取項目。如果您有選取項目，也會發生此情形，但全部都是私人項目或可忽略。
+
+== ResolveConflictsButton ==
+解決衝突
+
+== ApplyChangesButton ==
+套用變更
+
+== QueryLabel ==
+查詢:
+
+== RefreshButton ==
+重新整理
+
+== RefreshButtonAmp ==
+重新整理(&R)
+
+== GoHomeTooltip ==
+前往工作中變更集
+
+== OnlyRelevantButton ==
+僅限相關項目
+
+== OnlyRelevantTooltip ==
+顯示僅限相關變更集
+
+== ResolutionMethodColumn ==
+解決方法
+
+== UndoButton ==
+復原
+
+== UndoUnchangedButton ==
+復原未變更
+
+== UndoRequest ==
+確認復原變更
+
+== UndoRequestMessageSingular ==
+您即將復原 1 個變更。這個作業無法復原。是否要繼續?
+
+== UndoRequestMessagePlural ==
+您即將復原 {0} 個變更。這個作業無法復原。是否要繼續?
+
+== CheckoutIgnoringFailedRequest ==
+有些檔案無法簽出，因為已經鎖住
+
+== CheckoutIgnoringFailedRequestMessage ==
+
+您是否要略過這些鎖住的檔案，並繼續簽出其餘檔案?
+
+鎖住的檔案:{0}
+
+== UndoUnchangedRequestMessage ==
+您即將復原未變更的項目。這個作業無法復原。是否要繼續?
+
+== UndoWithMergeLinkMessageSingular ==
+您即將復原 1 個變更和相關的合併連結。這個作業無法復原。是否要繼續?
+
+== UndoWithMergeLinkMessagePlural ==
+您即將復原 {0} 個變更和相關的合併連結。這個作業無法復原。是否要繼續?
+
+== PendingChangesOptionsTitle ==
+暫止的變更選項
+
+== CreatingRepository ==
+正在建立儲存庫 {0}...
+
+== CreatingWorkspace ==
+正在建立工作區 {0}...
+
+== WaitingForDynamicWorkspaceToBeMounted ==
+正在等待掛載動態工作區 {0}...
+
+== CreatingBranch ==
+正在建立分支 {0}...
+
+== CreatingLabel ==
+正在建立標籤 {0}...
+
+== RepositoryNameAlreadyExists ==
+儲存庫 {0} 已經存在
+
+== RenamingRepository ==
+正在重新命名儲存庫...
+
+== RenamingWorkspace ==
+正在重新命名工作區 {0}...
+
+== RenamingBranch ==
+正在重新命名分支 {0}...
+
+== RenamingLabel ==
+正在重新命名標籤 {0}...
+
+== EditingAttribute ==
+正在編輯屬性 '{0}'...
+
+== ChangingRevisionType ==
+正在變更修訂類型...
+
+== DeletingWorkspacesSingular ==
+正在刪除工作區{0}...
+
+== DeletingWorkspacesPlural ==
+正在刪除工作區{0}...
+
+== DeletingRepositoriesSingular ==
+正在刪除儲存庫{0}...
+
+== DeletingRepositoriesPlural ==
+正在刪除儲存庫{0}...
+
+== UndeletingRepositoriesSingular ==
+正在取消刪除儲存庫{0}...
+
+== UndeletingRepositoriesPlural ==
+正在取消刪除儲存庫{0}...
+
+== DeletingBranchesSingular ==
+正在刪除分支{0}...
+
+== DeletingBranchesPlural ==
+正在刪除分支{0}...
+
+== DeletingLabelsSingular ==
+正在刪除標籤{0}...
+
+== DeletingLabelsPlural ==
+正在刪除標籤{0}...
+
+== DeletingShelvesSingular ==
+正在刪除擱置...
+
+== DeletingShelvesPlural ==
+正在刪除擱置...
+
+== DeletingAttributesSingular ==
+正在刪除屬性 {0}...
+
+== DeletingAttributesPlural ==
+正在刪除屬性 {0}...
+
+== DeletingChangeset ==
+正在刪除變更集...
+
+== MovingChangeset ==
+正在移動變更集...
+
+== PreviousLabel ==
+上一個結果
+
+== NextLabel ==
+下一個結果
+
+== BrexSearchFieldLabel ==
+分支瀏覽器搜尋
+
+== BrexDisplayOptions ==
+顯示選項
+
+== InitialDateLabel ==
+從:
+
+== EndDateLabel ==
+到:
+
+== SinceDateLabel ==
+開始於:
+
+== SelectAll ==
+全選
+
+== MergeSelectedFiles ==
+合併選取的檔案
+
+== MergeKeepingSourceChanges ==
+合併保留來源變更 (來源本身)
+
+== MergeKeepingWorkspaceChanges ==
+合併保留工作區變更 (您的/目的地)
+
+== DiffDestinationWithAncestor ==
+差異比對上階與目的地貢獻者
+
+== DiffSourceWithAncestor ==
+差異比對上階與來源貢獻者
+
+== DiffSourceWithDestinationEvilTwin ==
+差異比對在來源中新增項目與在目的地中新增項目
+
+== DiffSourceWithDestinationAddMove ==
+差異比對在來源中新增項目與在目的地中移動項目
+
+== DiffSourceWithDestinationCycleMove ==
+差異比對在來源中移動項目與在目的地中移動項目
+
+== DiffSourceWithDestinationDeleteMove ==
+差異比對在來源中刪除項目與在目的地中移動項目
+
+== DiffSourceWithDestinationMoveAdd ==
+差異比對在來源中移動項目與在目的地中新增項目
+
+== DiffSourceWithDestinationMoveDelete ==
+差異比對在來源中移動項目與在目的地中刪除項目
+
+== DiffSourceWithDestinationMoveEvilTwin ==
+差異比對在來源中移動項目與在目的地中移動項目
+
+== RetryUpdate ==
+重試更新
+
+== UpdateForced ==
+已強制更新
+
+== LoadingWorkspaces ==
+正在載入工作區 ...
+
+== LoadingHistory ==
+正在載入歷史記錄...
+
+== LoadingAnnotations ==
+正在載入標註...
+
+== LoadingBrowseRepository ==
+正在載入變更集樹狀目錄...
+
+== ProcessingMerge ==
+正在處理合併...
+
+== CalculatingMerge ==
+正在計算合併...
+
+== CalculatingIncomingChanges ==
+正在計算傳入變更...
+
+== LoadingFindMerge ==
+正在尋找要合併的元素...
+
+== LoadingPendingChanges ==
+正在工作區中尋找變更...
+
+== LabellingWorkspace ==
+正在套用標記 {0} 至工作區...
+
+== LabellingChangeset ==
+正在套用標籤 {0} 至變更集 {1}...
+
+== ApplyingLocalChanges ==
+正在套用本地變更...
+
+== ApplyingConflicts ==
+正在套用衝突...
+
+== LoadingRepositories ==
+正在載入儲存庫...
+
+== NewRepositoryExplanation ==
+輸入新儲存庫的名稱，並確保您會在正確的伺服器上建立此儲存庫。
+
+== NewWorkspaceExplanation ==
+工作區是要處理檔案及進行變更的本機複本。工作區一次只能處理單一個分支。工作區可以切換至不同儲存庫的不同分支。
+
+== RenameWorkspaceExplanation ==
+重新命名工作區並不會修改其路徑。
+
+== ItemSearchField ==
+項目搜尋
+
+== SearchInProgress ==
+正在搜尋...
+
+== SearchIncludePrivateItems ==
+包含私人項目
+
+== SizeColumn ==
+大小
+
+== BinaryFile ==
+二進位
+
+== Directory ==
+目錄
+
+== TextFile ==
+文字
+
+== LinkFile ==
+符號連結
+
+== Unknown ==
+未知
+
+== CustomExtensionFile ==
+自訂副檔名
+
+== CreateChildBranchTitle ==
+建立分支
+
+== CreateChildBranchExplanation ==
+從以下來源建立新的下層分支
+
+== ReplicateBranchTitle ==
+Unity VCS 複寫
+
+== ReplicateBranchExplanation ==
+從另一個儲存庫複寫分支/複寫分支至另一個儲存庫。
+
+== UsingProfile ==
+設定檔:{0}
+
+== DefaultProfile ==
+使用預設設定
+
+== LabelChangesetExplanation ==
+標記變更集 {0}，共 {1}@{2}
+
+== RenameBranchTitle ==
+重新命名分支
+
+== CreateLabelTitle ==
+套用標籤至變更集
+
+== CreateLabelExplanation ==
+標籤可協助醒目提示重要變更集。通常標籤會標記客戶的固定基線與發行版本。
+
+== RenameLabelTitle ==
+重新命名標籤
+
+== EditAttributeTitle ==
+編輯屬性
+
+== LastChangeset ==
+最後一個變更集
+
+== BranchNameEntry ==
+分支名稱:
+
+== BranchNameAlreadyExists ==
+分支 {0} 已存在
+
+== LabelNameAlreadyExists ==
+標籤 {0} 已存在 ({1})
+
+== LabelNameEntry ==
+標籤名稱:
+
+== ChangesetToLabelEntry ==
+要標記的變更集:
+
+== CommentsEntry ==
+註解:
+
+== SwitchToBranchCheckButton ==
+切換工作區至此分支
+
+== SwitchToLabelCheckButton ==
+切換工作區至此標籤
+
+== SwitchToBranchTitle ==
+切換至分支
+
+== SwitchToChangesetTitle ==
+切換至變更集
+
+== SwitchToLabelTitle ==
+切換至標籤
+
+== SwitchToExplanation ==
+在您的工作區中有暫止的變更。
+
+ 您可以繼續進行切換作業，或取消切換後開啟 [暫止的變更] 檢視，以便您可以簽入 (或復原) 暫止的變更。接著，您可以再次執行 "{0}" 命令。
+
+如果您繼續進行切換作業，您的本地變更將不會遺失，而且在此次切換作業之後，將會顯示為暫止的變更。
+
+== SwitchToLabelExplanation ==
+在您的工作區中有暫止的變更。
+
+您可以繼續進行切換作業，或取消切換後開啟 [暫止的變更] 檢視，以便您可以簽入 (或復原) 暫止的變更。接著，您就可以再次執行 [切換工作區至此標籤] 命令。
+
+如果您繼續進行切換作業，您的本地變更將不會遺失，而且在此次切換作業之後，將會顯示為暫止的變更。不過，這些變更將無法提交，因為標記設定是唯讀設定。
+
+若要修改已標記的設定，請建立分支，將標籤設為分支基底。接著，將工作區切換至該分支，並如常進行變更。
+
+== SwitchToConfirmationCheckButton ==
+不要再顯示這個對話方塊
+
+== SwitchToConfirmationContinueButton ==
+繼續進行切換
+
+== SwitchToConfirmationCancelViewChangesButton ==
+取消及檢視變更
+
+== SwitchToConfirmation ==
+您即將變更您的工作區設定。是否要繼續?
+
+== SwitchToBranchConfirmation ==
+您即將變更您的工作區設定 {0}。
+
+是否要繼續?
+
+== SwitchToLabelConfirmation ==
+正在將工作區切換至標籤，其中將載入每個項目的已加上標籤修訂。所有載入的修訂均是唯讀。
+
+ 若要修改已標記的設定，請建立分支，將標籤設為分支基底。接著，將工作區切換至該分支，並如常進行變更。
+
+是否要繼續?
+
+== SwitchActionOptionsTitle ==
+嘗試切換/更新包含已變更項目的工作區時的行為
+
+== SwitchActionAllowOption ==
+允許
+
+== SwitchActionWarnOption ==
+允許，顯示警告
+
+== SwitchActionFailOption ==
+不允許，顯示錯誤
+
+== UpdateResultsTitle ==
+更新結果
+
+== UpdateResultsExplanation ==
+更新作業發現問題。請進行檢視。
+
+== CheckinConflictsTitle ==
+簽入衝突
+
+== CheckinConflictsExplanation ==
+簽入作業發現下列無法簽入的衝突。
+按一下 [確定] 繼續對未發生衝突項目進行作業。
+ 按一下 [取消] 中止整個作業。
+
+== CheckinConflictsToMergeTitle ==
+檔案需要合併
+
+== CheckinConflictsToMergeExplanation ==
+有些新變更需要與您的變更合併。
+按一下 [合併] 立即合併這些檔案。
+否則，按一下 [取消]。
+
+== EditAttributeExplanation ==
+您可以為屬性指定新名稱，及變更其註解文字。
+
+== ResetQueryButton ==
+重設查詢
+
+== ClearHistoryButton ==
+清除歷史記錄
+
+== SetAsDefaultQuery ==
+設定為預設查詢
+
+== NewDirectoryTitle ==
+建立新目錄
+
+== NewFileTitle ==
+建立新的空白檔案
+
+== NewDirectory ==
+新目錄
+
+== NewFile ==
+新檔案
+
+== RenameDirectoryTitle ==
+重新命名目錄
+
+== RenameFileTitle ==
+重新命名檔案
+
+== NewSyncTitle ==
+建立新的同步檢視
+
+== DependenciesTitle ==
+復原簽出相依性
+
+== DependenciesDialogTitle ==
+暫止的相依性
+
+== AddChildBranches ==
+新增下層分支
+
+== AddParentBranches ==
+新增上層分支
+
+== AddBranchesSourceOfMerge ==
+新增合併的分支來源
+
+== AddBranchesDestinationOfMerge ==
+新增合併的分支目的地
+
+== TypeDescription ==
+在此處輸入描述
+
+== ConditionalBranchRulesHelp ==
+您可以採用「cm find」格式輸入查詢，但不需要指定「尋找分支」。
+查看「尋找指南」取得更多資訊。
+範例:
+  changesets >= '2 months ago'
+  attribute = 'status' and attrvalue='finished'
+
+== ConditionalChangesetRulesHelp ==
+您可以採用「cm find」格式輸入查詢，但不需要指定「尋找變更集」。
+查看「尋找指南」取得更多資訊。
+範例:
+  branch = 'main'
+  attribute = 'status' and attrvalue='finished'
+
+== ConditionalLabelRulesHelp ==
+您可以採用「cm find」格式輸入查詢，但不需要指定「尋找標籤」。
+查看「尋找指南」取得更多資訊。
+範例:
+  date >= '2 months ago'
+  attribute = 'status' and attrvalue='finished'
+
+== DependenciesExplanation ==
+有些項目依存於其他也需要包含在作業中的項目。
+按一下 ["{0}"] 以繼續進行所有相依項目 (建議)，或取消作業。
+
+== MergeLinkDescriptionColumn ==
+合併連結描述
+
+== TaskIdColumn ==
+ID
+
+== TaskTitleColumn ==
+標題
+
+== AssigneeColumn ==
+受指派者
+
+== LocationColumn ==
+位置
+
+== Merge ==
+合併
+
+== CherryPick ==
+揀選
+
+== IntervalMerge ==
+間隔合併
+
+== SubtractiveMerge ==
+削減合併
+
+== SubtractiveIntervalMerge ==
+削減間隔合併
+
+== UnsupportedMergeType ==
+不支援的合併類型
+
+== MergeSourceFormat ==
+{1}@{2} 的 {0}
+
+== ConfirmDeleteTitle ==
+確認刪除
+
+== ConfirmApplyLabelTitle ==
+確認標記作業
+
+== ConfirmApplyLabelExplanation ==
+正在套用標籤 "{0}" 至目前在您工作區中的所有修訂。是否要繼續?
+
+== BranchNameEmpty ==
+分支名稱不得為空白
+
+== LabelNameEmpty ==
+標籤名稱不得為空白
+
+== SyncViewNameEmpty ==
+同步檢視名稱不得為空白
+
+== AttributeNameEmpty ==
+屬性名稱不得為空白
+
+== LabelButton ==
+標籤
+
+== LabelAllXlinksCheckButton ==
+將所有 Xlinked 儲存庫加上標籤
+
+== RenameButton ==
+重新命名
+
+== Rename ==
+重新命名
+
+== CreateButton ==
+建立
+
+== SaveButton ==
+儲存
+
+== DeleteButton ==
+刪除
+
+== SwitchButton ==
+切換
+
+== DiffWindowMenuItemDiff ==
+差異比對
+
+== ApplyButton ==
+套用
+
+== MergeButton ==
+合併
+
+== BrExNewChangesetWillBeCreated ==
+新增變更集
+
+== BrexMergeLinkTitle ==
+合併連結 {0}
+
+== BrexMergeLinkCaptionBody ==
+來源:{0}{1} 目的地:{2}
+
+== BrexMergeLinkPending ==
+，暫止中
+
+== BrexMergeChangesetInterval ==
+變更集間隔 ({0} - {1}]
+
+== BrexMergeCouldNotMerge ==
+[糟糕! 無法取得間隔資料!]
+
+== BrexMergeChangesetOnBranch ==
+分支 {1} 的變更集 {0}
+
+== BrexCherryPickLinkType ==
+(揀選)
+
+== BrexIntervalCherryPickLinkType ==
+(從變更集間隔揀選)
+
+== BrexIntervalCherryPickSubstractiveLinkType ==
+(從變更集間隔削減)
+
+== BrexCherryPickSubstractiveLinkType ==
+(削減)
+
+== BrexProperties ==
+特性
+
+== BrexAttributes ==
+屬性
+
+== CredentialsDialogTitle ==
+連線至伺服器
+
+== CredentialsDialogExplanation ==
+請輸入您的憑證以連線至 {0}
+
+== UserName ==
+使用者名稱:
+
+== Password ==
+密碼:
+
+== RememberCredentialsAsProfile ==
+儲存憑證做為連線設定檔
+
+== CredentialsErrorSavingProfile ==
+儲存連線設定檔時發生錯誤: {0}
+
+== BrexObjectNameProperty ==
+物件名稱:
+
+== BrexCreationDateProperty ==
+建立日期:
+
+== BrexOwnerProperty ==
+擁有者:
+
+== BrexReplicationSourceProperty ==
+複寫來源:
+
+== BrexGuidProperty ==
+GUID:
+
+== BrexCommentsProperty ==
+註解:
+
+== BrexDisplayBranches ==
+顯示分支
+
+== BrexDisplayFullBranchNames ==
+顯示完整分支名稱
+
+== BrexDisplayMergeLinks ==
+顯示合併連結
+
+== BrexDisplayCrossBranchCsetLinks ==
+顯示交叉分支變更集連結
+
+== BrexDisplayLabels ==
+顯示標籤
+
+== BrexDisplayBranchTaskInfo ==
+顯示分支任務資訊
+
+== BrexDisplayOnlyRelevantCsets ==
+顯示僅限相關變更集
+
+== NoReplicationSources ==
+未複寫
+
+== GluonConfiguration ==
+Gluon 設定
+
+== EnterServer ==
+請輸入伺服器名稱
+
+== EnterServerFormat ==
+請以 server:port 格式指定伺服器名稱。預設連接埠是 8087
+
+== EnterUserName ==
+請輸入使用者名稱
+
+== EnterPassword ==
+請輸入密碼
+
+== EnterRepository ==
+請輸入儲存庫
+
+== EnterCloudRepository ==
+請輸入 Cloud 儲存庫名稱
+
+== EnterLocalRepository ==
+請輸入本機儲存庫名稱
+
+== NoValidPath ==
+沒有有效路徑
+
+== Connected ==
+連線確定 ({0})
+
+== CredentialsOK ==
+憑證檢查沒問題
+
+== Connecting ==
+正在連線...
+
+== CheckingCredentials ==
+正在檢查憑證...
+
+== Connect ==
+連線
+
+== ScanNetwork ==
+掃描網路...
+
+== Check ==
+檢查
+
+== ChooseRepositoryCloudEdition ==
+加入現有的專案或建立新專案
+
+== EnterRepositoryWaterMark ==
+輸入儲存庫名稱或從清單中選擇
+
+== GluonConfigurationWorkspaceLabel ==
+工作區:
+
+== GluonConfigurationWorkspaceExplanation ==
+選取工作中目錄 (又名工作區)。這是將包含您要處理檔案的目錄所在。
+
+== ApplyingChanges ==
+正在套用變更...
+
+== Apply ==
+套用
+
+== CouldNotFindWorkingRepositoryOrBranch ==
+找不到工作中儲存庫或分支
+
+== AvailableChangesets ==
+可用的 Unity VCS 變更集
+
+== SelectChangesetBelow ==
+請從下列清單中選取變更集:
+
+== AvailableBranches ==
+可用的 Unity VCS 分支
+
+== AvailableRepositories ==
+可用的 Unity VCS 儲存庫
+
+== SelectBranchesBelow ==
+請從下列清單中選取分支:
+
+== SelectRepositoryBelow ==
+請從下列清單中選取儲存庫:
+
+== AvailableServers ==
+可用的 Unity VCS 伺服器
+
+== SelectServerBelow ==
+請從下列清單中選取伺服器:
+
+== ScanningForServers ==
+正在掃描伺服器...
+
+== AddressColumn ==
+位址
+
+== PortColumn ==
+連接埠
+
+== FilterWaterMark ==
+篩選
+
+== ExploreWorkspace ==
+探索工作區
+
+== CheckinChanges ==
+簽入變更
+
+== Configure ==
+設定
+
+== Loading ==
+載入中…
+
+== OperationRunning ==
+作業執行中
+
+== OperationInProgress ==
+目前有一個作業已在執行中。請等候執行完成。
+
+== ConfirmClosingRunningOperation ==
+作業目前正在執行中。您確定要退出嗎?
+
+== SearchFiles ==
+搜尋檔案...
+
+== SearchFilesHint ==
+您可以使用「*」和「?」來比對檔案名稱。您也可以在搜尋中使用目錄。
+
+== SearchForFiles ==
+搜尋檔案
+
+== Searching ==
+正在搜尋
+
+== IncludePrivateFiles ==
+包含私人檔案
+
+== NoMatchesFound ==
+找不到相符項目
+
+== ContainerFolderColumn ==
+容器資料夾
+
+== CheckinComment ==
+在此處輸入您的簽入註解
+
+== BrowseForFolderTitle ==
+瀏覽資料夾
+
+== BrowseForSaveFileTitle ==
+儲存檔案
+
+== PlasticSCMServerLabel ==
+輸入您的伺服器名稱/ IP 和連接埠:
+
+== PreferencesWindowTitle ==
+Unity DevOps Version Control 偏好設定 - {0}
+
+== GeneralPreferences ==
+一般
+
+== DiffAndMerge ==
+差異比對與合併
+
+== DiffAndMergeExplanation ==
+Unity VCS 內建差異比對與合併工具 (Xmerge) 的偏好設定:
+
+== ComparisonMethodAndEncodingTitle ==
+比較方法與編碼
+
+== MergeViewBehaviorTitle ==
+合併檢視行為
+
+== ConflictResolutionTitle ==
+合併衝突解決
+
+== ComparisonMethod ==
+比較方法:
+
+== ManualConflictResolution ==
+手動衝突解決
+
+== ManualConflictResolutionTooltip ==
+始終啟動合併工具來檢視衝突，即使其中全為自動衝突亦然
+
+== AutomaticConflictResolution ==
+自動衝突解決 (如有可能)
+
+== AutomaticConflictResolutionTooltip ==
+只有在必須透過使用者互動來解決衝突時才啟動合併工具
+
+== MergeWithPendingChanges ==
+允許合併暫止的變更
+(預設停用，如此新使用者在復原合併時就不會發生問題)
+
+== OtherOptions ==
+其他選項
+
+== MiscOptionsTitle ==
+其他
+
+== SetFilesAsReadOnlyAfterUpdateOrCi ==
+更新和簽入時將檔案設為唯讀
+
+== CompareChangedFilesContents ==
+當檔案時間戳記遭修改時檢查內容 (雜湊)
+將其設為「已變更」
+
+== CompareChangedFilesContentsTooltip ==
+這個動作可用來建立「已變更」項目狀態
+
+== UpdateSetsTimestamps ==
+更新作業可在檔案上設定儲存庫時間戳記
+
+== EnableSharedWorkspaces ==
+啟用共用的工作區支援 (Samba/WinShare)
+
+== DisplayErrorOnSameCaseFiles ==
+當不同檔案出現相同檔名時顯示錯誤
+
+== DisplayErrorOnSameCaseFilesTooltip ==
+僅套用至 Unix 檔案系統
+
+== DefaultWorkspaceRoot ==
+預設工作區根目錄:
+
+== CommandHelpDialogTitle ==
+命令說明
+
+== MergeToolsConfiguration ==
+合併工具
+
+== DiffToolsConfiguration ==
+差異比對工具
+
+== DiffToolsTableTitle ==
+設定用於不同檔案類型與副檔名的差異比對工具。這些規則會以下列順序套用，從上到下。
+
+== DiffToolsExplanation ==
+選取檔案類型或副檔名，並輸入命令來執行差異比對工具:
+
+== DiffToolsCommandHelp ==
+叫用外部差異比對工具時，可以使用下列命令列參數。
+            您必須確定指定檔案中包含要比較的實際修訂內容。
+
+            @sourcefile:內容將顯示於左側面板的檔案完整路徑。
+            @destinationfile:內容將顯示於右側面板的檔案完整路徑。
+
+            @sourcesymbolic:來源檔案的符號名稱。
+            @destinationsymbolic:目的地檔案的符號名稱。
+
+            @sourcehash:從來源檔案內容計算的 MD5 字串。
+            @destinationhash:從目的地檔案內容計算的 MD5 字串。
+
+            @filetype:MIME 類型，用於語法醒目提示。
+            @comparationmethod:使用的比較方法。
+            @fileencoding:未偵測到編碼時，要使用的預設檔案編碼。
+
+== MergeToolsTableTitle ==
+設定用於不同檔案類型與副檔名的合併工具。這些規則會以下列順序套用，從上到下。
+
+== MergeToolsExplanation ==
+選取檔案類型或副檔名，並輸入命令來執行合併工具:
+
+== MergeToolsCommandHelp ==
+使用命令列叫用外部合併工具時，可使用下列參數做為引數:
+
+            @sourcefile:目的地合併檔案的完整路徑。
+            @destinationfile:目的地合併檔案的路徑。
+            @basefile:共同上階合併檔案的路徑。
+            @output:合併結果檔案的路徑。
+
+            @sourcesymbolic:來源檔案的符號名稱。
+            @destinationsymbolic:目的地檔案的符號名稱。
+            @basesymbolic:基底檔案的符號名稱。
+
+            @sourcehash:從來源檔案內容計算的 MD5 字串。
+            @destinationhash:從目的地檔案內容計算的 MD5 字串。
+            @basehash:從基底檔案內容計算的 MD5 字串。
+
+            @filetype:MIME 類型，用於語法醒目提示。
+            @fileencoding:未偵測到編碼時，要使用的預設檔案編碼。
+            @resultencoding:結果檔案編碼 (如果已選取 NONE，將從貢獻者編碼計算)。
+
+            @comparationmethod:使用的比較方法。
+            @mergetype:使用的合併類型。
+
+            @progress:表示目前作業的進度字串，例如，「正在合併檔案 3/10」。
+            @extrainfofile:包含目前合併相關額外資訊的檔案路徑。
+
+== TypeSuffixColumn ==
+類型/後綴
+
+== DiffCommandColumn ==
+差異比對工具命令列
+
+== MergeCommandColumn ==
+合併工具命令列
+
+== AddToolButton ==
+新增
+
+== RemoveToolButton ==
+移除
+
+== FileTypeQuestion ==
+這個命令應比對哪個檔案?
+
+== ExtensionTooltip ==
+.副檔名
+
+== ExternalTool ==
+外部工具:
+
+== ExternalToolNotFoundError ==
+找不到工具，請引入有效工具
+
+== BrowseForExecutableFile ==
+瀏覽可執行檔
+
+== CommandTooltip ==
+在此處鍵入命令
+
+== FileCorruptError ==
+檔案 {0} 含有錯誤，且無法使用其設定。請檢視其內容。錯誤:{1}
+
+== UndoCheckoutTitle ==
+復原簽出
+
+== UndoCheckoutQuestion ==
+復原簽出所選取項目將捨棄從上次簽入以來對這些項目做的任何變更。這個作業無法復原。是否要繼續?
+
+== RenameSyncTitle ==
+重新命名同步檢視
+
+== RenameTitle ==
+重新命名項目
+
+== ApplyLocalChanges ==
+套用本地變更
+
+== SearchingDependencies ==
+正在搜尋相依性...
+
+== ApplyingDependencies ==
+正在套用相依性...
+
+== CheckinViewOptions ==
+簽入檢視選項
+
+== Canceling ==
+正在取消...
+
+== CancelingMerge ==
+正在取消...(等到目前合併作業完成)
+
+== KeepLocked ==
+保留項目鎖定
+
+== StatusCannotMerge ==
+無法合併
+
+== StatusOutOfDate ==
+過期
+
+== StatusDeletedOnServer ==
+已在伺服器上刪除
+
+== StatusLocked ==
+已由 '{0}' 鎖定
+
+== StatusCheckedOutChanged ==
+已簽出 (已變更)
+
+== StatusCheckedOutUnchanged ==
+已簽出 (未變更)
+
+== StatusChanged ==
+已變更
+
+== StatusReplaced ==
+已取代
+
+== StatusNotOnDisk ==
+不在磁碟上
+
+== StatusAdded ==
+已新增
+
+== StatusIgnored ==
+忽略清單
+
+== UpdatingWorkspace ==
+正在更新您的工作區...
+
+== ApplyingConfiguration ==
+正在套用設定...
+
+== SwitchingToBranch ==
+正在切換至分支 {0}...
+
+== SwitchingToChangeset ==
+正在切換至變更集 {0}...
+
+== SwitchingToLabel ==
+正在切換至標籤 {0}...
+
+== StatusUnderUnresolvedXlink ==
+Xlinked cset '{0}@{1}' 無法使用
+
+== MovedHistoryDescription ==
+從 {0} 移至 "{1}"
+
+== RemovedHistoryDescription ==
+已移除{0}
+
+== SelectProgramToLaunch ==
+選取要啟動的程式
+
+== WindowTitle ==
+工作區:{0}
+
+== ItemsMenuUpdate ==
+更新
+
+== ConfigurationUnresolvedXlink ==
+Xlinked cset '{0}@{1}' 無法使用
+
+== WorkspacesViewTitle ==
+工作區
+
+== RepositoriesViewTitle ==
+儲存庫
+
+== PendingChangesViewTitle ==
+暫止的變更
+
+== BranchesViewTitle ==
+分支
+
+== ChangesetsViewTitle ==
+變更集
+
+== SyncViewTitle ==
+同步儲存庫
+
+== ShelvesViewTitle ==
+擱置
+
+== HistoryViewTitle ==
+{0} 歷史記錄
+
+== AnnotateViewTitle ==
+{0} 的標註
+
+== BrowseRepositoryViewTitle ==
+瀏覽儲存庫 - {0}
+
+== ConfigurationModeExplanationAutomatic ==
+目錄更新模式:自動
+
+選取目錄所有下層時將設成自動模式。
+「自動」模式代表更新期間將會下載所有的新檔案與新目錄。
+
+== ConfigurationModeExplanationManual ==
+目錄更新模式:使用者手冊
+
+未選取目錄所有下層時將設成手動模式。
+「手動」模式代表更新作業時不會自動下載新檔案與新目錄。
+
+== PendingDirectoryConflictsResolvingConflictsSingular ==
+有 1 個目錄衝突必須先解決，才能解決檔案衝突。
+
+== PendingDirectoryConflictsResolvingConflictsPlural ==
+有 {0} 個目錄衝突必須先解決，才能解決檔案衝突。
+
+== PendingDirectoryConflictsApplyingChangesSingular ==
+有 1 個目錄衝突必須先解決，才能套用變更。
+
+== PendingDirectoryConflictsApplyingChangesPlural ==
+有 {0} 個目錄衝突必須先解決，才能套用變更。
+
+== PendingDirectoryConflictsUpdatingWorkspaceSingular ==
+有 1 個目錄衝突必須先解決，才能更新工作區。
+
+== PendingDirectoryConflictsUpdatingWorkspacePlural ==
+有 {0} 個目錄衝突必須先解決，才能更新工作區。
+
+== CreatedByColumn ==
+建立者
+
+== UnresolvedXlink ==
+未解析的 Xlink
+
+== UnexpectedError ==
+發生未預期的錯誤。
+
+== SaveRequest ==
+確認儲存註解
+
+== SaveRequestMessage ==
+已修改目前所選物件的註解。是否要儲存變更?
+
+== ProvideDifferentWorkspaceName ==
+請提供不同的工作區名稱，或取消作業。
+
+== ProvideDifferentRepositoryName ==
+請提供不同的儲存庫名稱，或取消作業。
+
+== ProvideDifferentItemName ==
+請提供不同的項目名稱，或取消作業。
+
+== ProvideDifferentBranchName ==
+請提供不同的分支名稱，或取消作業。
+
+== ProvideDifferentLabelName ==
+請提供不同的標籤名稱，或取消作業。
+
+== ProvideDifferentSyncViewName ==
+請提供不同的同步檢視名稱，或取消作業。
+
+== ProvideDifferentItemNameForRenameResolution ==
+請提供不同的項目名稱。
+
+== ProvideUserName ==
+請輸入使用者名稱。
+
+== ProvidePassword ==
+請輸入密碼。
+
+== ReplicationSource ==
+複寫來源
+
+== ReplicationDestination ==
+複寫目的地
+
+== PullingProgressTitle ==
+正在提取分支 {0}
+
+== PushingProgressTitle ==
+正將分支 {0} 推送至 {1}
+
+== CurrentOfTotalReplicationProgressTitle ==
+   {1} 之 {0}
+
+== PullBranch ==
+提取分支 {0}
+
+== PullRemoteBranch ==
+提取遠端分支
+
+== PushBranch ==
+推送分支 {0}
+
+== ReplicateButton ==
+複寫
+
+== GenericChooseButton ==
+...
+
+== ServerEmpty ==
+伺服器欄位不可為空白。
+
+== RepositoryEmpty ==
+儲存庫欄位不可為空白。
+
+== BranchEmpty ==
+分支欄位不可為空白。
+
+== OperationStarting ==
+作業正在啟動
+
+== FetchingMetadata ==
+正在擷取中繼資料
+
+== PushingMetadata ==
+正在推送中繼資料
+
+== IntroducingData ==
+引入資料
+
+== OperationStartingFetch ==
+作業正開始擷取
+
+== CalculatingInitialChangeset ==
+正在計算初始變更集
+
+== FetchingRevisions ==
+正在擷取修訂 ({0})
+
+== FetchingBranches ==
+正在擷取分支 ({0})
+
+== FetchingItems ==
+正在擷取項目 ({0})
+
+== FetchingLabels ==
+正在擷取標籤 ({0})
+
+== FetchingLinks ==
+正在擷取連結 ({0})
+
+== FetchingChildren ==
+正在擷取下層項目 ({0})
+
+== FetchingChangeSets ==
+正在擷取變更集 ({0})
+
+== FetchingMoveRealizations ==
+正在擷取移動實現 ({0})
+
+== FetchingReviews ==
+正在擷取檢閱 ({0})
+
+== FetchingAttributes ==
+正在擷取屬性 ({0})
+
+== FetchingACLs ==
+正在擷取 ACL ({0})
+
+== FetchingReferences ==
+正在擷取參考 ({0})
+
+== FetchingSEIDs ==
+正在擷取 SEID ({0})
+
+== FetchingFinished ==
+正在傳送中繼資料 ({0})
+
+== OperationStartingPush ==
+作業正開始推送
+
+== ReconcilingObjects ==
+正在協調物件 ({0})
+
+== PushingReferences ==
+正在推送參考 ({0} %)
+
+== ReconcilingACLs ==
+正在協調 ACL ({0} %)
+
+== PushingBranches ==
+正在推送分支 ({0} %)
+
+== PushingItems ==
+正在推送項目 ({0} %)
+
+== PushingLinks ==
+正在推送連結 ({0} %)
+
+== PushingLabels ==
+正在推送標籤 ({0} %)
+
+== PushingAttributes ==
+正在推送屬性 ({0} %)
+
+== ProcessingBranches ==
+正在處理分支 ({0} %)
+
+== PushingChangeSets ==
+正在推送變更集 ({0} %)
+
+== PushingRevisions ==
+正在推送修訂 ({0} %)
+
+== PushingMoveRealizations ==
+正在推送移動實現 ({0} %)
+
+== PushingTrees ==
+正在推送樹狀目錄 ({0} %)
+
+== PushingACLs ==
+正在推送 ACL ({0} %)
+
+== PushingFinished ==
+推送已完成
+
+== IntroducingDataProgress ==
+正在引入資料 ({0} %)
+
+== DataWritten ==
+資料已寫入
+
+== OperationAbandoned ==
+作業已放棄
+
+== OperationFinished ==
+作業已完成
+
+== ReplicationError ==
+複寫期間發生錯誤:{0}
+
+== UnknownStatus ==
+未知的狀態
+
+== RetryReplicaButton ==
+重試
+
+== SkipReplicaButton ==
+跳過
+
+== SourceReplicationServer ==
+來源伺服器
+
+== SourceReplicationRepository ==
+來源儲存庫
+
+== SourceReplicationBranch ==
+來源分支
+
+== DestinationReplicationServer ==
+目的地伺服器
+
+== DestinationReplicationRepository ==
+目的地儲存庫
+
+== CreateWorkspaceButton ==
+建立新工作區...
+
+== MenuAddToIgnoreList ==
+新增至忽略清單
+
+== MenuRemoveFromIgnoreList ==
+從忽略清單移除
+
+== MenuAddToCloakedList ==
+新增至遮蔽清單
+
+== MenuRemoveFromCloakedList ==
+從遮蔽清單移除
+
+== MenuAddToHiddenChangesList ==
+新增至隱藏變更清單
+
+== MenuRemoveFromHiddenChangesList ==
+從隱藏變更清單移除
+
+== UsingItemExtension ==
+使用項目副檔名
+
+== UsingItemFullPath ==
+使用項目完整路徑
+
+== UsingItemName ==
+使用項目名稱
+
+== FilterRulesConfirmationTitle ==
+篩選規則確認
+
+== FilterRulesConfirmationAddMessage ==
+下列規則將新增到設定檔。是否要繼續?
+
+== FilterRulesConfirmationRemoveMessage ==
+下列規則將從設定檔中移除。是否要繼續?
+
+== ApplyRulesToAllWorkspaceCheckButton ==
+將規則套用至所有工作區
+
+== ShelveWithPendingMergeLinksRequest ==
+擱置暫止的合併連結
+
+== ShelveWithPendingMergeLinksRequestMessage ==
+您在此工作區中有暫止的合併連結。此擱置作業並未擱置暫止的合併連結。您是否仍要擱置?
+
+== UndoChangesAfterShelveRequest ==
+在擱置後復原變更
+
+== UndoChangesAfterShelveRequestMessage ==
+您的變更已簽入至暫時的變更集 (擱置)。這些變更可立即套用至任何分支。您是否要復原在此工作區中的變更?
+
+== ShelveCreatedMessage ==
+您的暫止的變更已擱置到: {0}
+
+== NewCertificateTitle ==
+伺服器 SSL 憑證不在存放區中
+
+== NewCertificateMessageUnityVCS ==
+您要連線的伺服器傳送的憑證不在存放區中。如果您是第一次連線到該伺服器，這是正常的。
+
+            憑證詳細資料:
+            - 發行對象:{0}
+            - 發行者:{1}
+            - 截止日期:{3}
+            - 憑證雜湊:{5}
+
+            如果您信任此主機，請選擇 [是]，以將金鑰新增至 Unity Version Control 金鑰存放區 (如果是第一次連線到此伺服器，則建議選擇此選項)。
+            如果您想繼續連線，但只連線一次而不將金鑰新增至存放區，請點擊 [否]。
+            如果您不信任此主機，請選擇 [取消]，以放棄連線。
+
+== ExistingCertificateChangedTitle ==
+伺服器憑證已變更!
+
+== ExistingCertificateChangedMessageUnityVCS ==
+警告:此主機憑證與您在金鑰存放區中擁有的主機憑證不相符。這可能表示伺服器身分識別已遭洩漏，或正在對您進行中間人攻擊。
+
+            憑證詳細資料:
+            - 發行對象:{0}
+            - 發行者:{1}
+            - 截止日期:{3}
+            - 憑證雜湊:{5}
+
+            如果您預期發生此變更，而且信任新憑證，請點擊 [是]，以將金鑰新增至 Unity Version Control 金鑰存放區，並在未來信任此憑證。
+            如果您想繼續連線，但只連線一次而不將金鑰新增至存放區，請點擊 [否]。
+            如果您想放棄此連線，請點擊 [取消]。這是唯一保證安全的選擇。
+
+== InvalidCertificateHostnameTitle ==
+安全連線中的主機名稱不相符
+
+== InvalidCertificateHostnameMessage ==
+警告:伺服器憑證中提供的主機名稱不符合伺服器主機名稱。這表示憑證未發行至此主機名稱，或此主機出現網路設定問題。
+
+            - 憑證主機名稱:{0}
+            - 伺服器主機名稱:{1}
+
+            如果您想要繼續連線至此主機，請點擊 [是]。此憑證驗證將繼續進行 (不建議)。
+            如果您想放棄連線，請點擊 [否] (建議)。
+
+== RepositoryExplorerServerLabel ==
+伺服器:
+
+== UndeleteButtonTooltip ==
+使用此選項來恢復刪除的檔案
+
+== UndeleteViewTitle ==
+已刪除項目
+
+== UndeleteMenuItemUndeleteRevision ==
+取消刪除修訂
+
+== UndeleteMenuItemUndeleteRevisionToThisPath ==
+取消刪除此路徑的修訂...
+
+== UndeletingItem ==
+正在取消刪除項目...
+
+== UndeletingItemsSingular ==
+正在取消刪除 1 個項目...
+
+== UndeletingItemsPlural ==
+正在取消刪除 {0} 個項目...
+
+== EnterRestorePathFormTitle ==
+取消刪除項目
+
+== EnterRestorePathFormParentDoesNotExistExplanation ==
+此項目的上層目錄不存在，請輸入新位置
+
+== EnterRestorePathFormIsPathAlreadyUsedExplanation ==
+相同路徑中已經有一個項目，請輸入新位置
+
+== EnterRestorePathFormTextBoxExplanation ==
+輸入要取消刪除的元素還原路徑
+
+== EnterRestorePathFormLabel ==
+路徑:
+
+== EnterValidRestorePath ==
+請輸入有效工作區路徑
+
+== RestorePathShouldNotExist ==
+還原路徑不應該存在
+
+== RestorePathParentShouldExist ==
+還原路徑的上層目錄不應該存在
+
+== DeletedItemsOwner ==
+擁有者:
+
+== DeletedItemsSince ==
+開始於:
+
+== MeOwnerOption ==
+我
+
+== EveryoneOwnerOption ==
+所有人
+
+== ItemUndeletedCorrectly ==
+已取消刪除確認:'{0}'
+
+== ItemCannotBeUndeleted ==
+無法取消刪除項目 '{0}' (ID:{1})，因為在上層目錄修訂中找不到此項目 (ID:{2})
+
+== CheckinViewTitle ==
+簽入變更
+
+== UserDefinedSyncView ==
+使用者定義的同步檢視:
+
+== AddSyncViewButton ==
+新增
+
+== RenameSyncViewButton ==
+重新命名
+
+== DeleteSyncViewButton ==
+刪除
+
+== SyncViewDetailsTitle ==
+同步檢視詳細資料
+
+== AddSrcSyncViewRepoButton ==
+新增來源儲存庫
+
+== DeleteSrcSyncViewRepoButton ==
+刪除來源儲存庫
+
+== AddDstSyncViewRepoButton ==
+新增目的地儲存庫
+
+== DeleteDstSyncViewRepoButton ==
+刪除目的地儲存庫
+
+== PushVisibleButton ==
+推送可見性
+
+== PushVisibleButtonTooltip ==
+推送所有可見的傳出分支
+
+== PullVisibleButton ==
+提取可見性
+
+== PullVisibleButtonTooltip ==
+提取所有可見的傳入分支
+
+== ShowExcludedBranchesCheckButton ==
+顯示排除的分支
+
+== NewSyncView ==
+新同步檢視
+
+== NewSyncViewName ==
+同步檢視名稱
+
+== NewSyncViewTitle ==
+建立新的同步檢視來推送/提取分支群組
+
+== NewSyncViewTitleCloud ==
+建立新的同步檢視，對 Unity VCS Cloud 推送/提取分支群組
+
+== NewSyncViewExplanation ==
+使用同步檢視，您不用再逐一推送/提取分支，而是能輕鬆透過批次方式來複寫分支
+
+== NewSyncViewCheckingRepositories ==
+正在檢查儲存庫...
+
+== NewSyncViewNoSourceRepository ==
+沒有 {0} 儲存庫可做為來源
+
+== NewSyncViewNoDestinationRepository ==
+沒有 {0} 儲存庫可做為目的地
+
+== NewSyncViewSourceRepository ==
+來源儲存庫
+
+== NewSyncViewDestinationRepository ==
+目的地儲存庫
+
+== NewSyncViewEnterSyncViewName ==
+請輸入同步檢視名稱
+
+== NewSyncViewEnterRepositorySpec ==
+請輸入儲存庫規格
+
+== NewSyncViewInvalidRepositorySpec ==
+無效的儲存庫規格:{0}
+
+== NewSyncViewCheckingSourceRepositoryExists ==
+正在檢查來源儲存庫是否存在...
+
+== NewSyncViewCheckingDestinationRepositoryExists ==
+正在檢查目的地儲存庫是否存在...
+
+== NewSyncViewSourceRepositoryNotExist ==
+來源儲存庫 {0} 不存在
+
+== NewSyncViewDestinationRepositoryNotExist ==
+目的地儲存庫 {0} 不存在
+
+== NewSyncViewCreateSyncView ==
+建立新同步檢視 (推送/提取)
+
+== SyncStatusLoading ==
+載入中…
+
+== SyncStatusUpToDate ==
+所有分支已經是最新狀態
+
+== SyncStatusError ==
+錯誤:{0}
+
+== OutgoingBranchesSingular ==
+傳出分支 - 1 個分支
+
+== OutgoingBranchesPlural ==
+傳出分支 - {0} 個分支
+
+== IncomingBranchesSingular ==
+傳入分支 - 1 個分支
+
+== IncomingBranchesPlural ==
+傳入分支 - {0} 個分支
+
+== ExcludedBranchesSingular ==
+已排除的分支 - 1 個分支
+
+== ExcludedBranchesPlural ==
+已排除的分支 - {0} 個分支
+
+== SyncMenuItemSyncAllMenuItem ==
+全部同步處理
+
+== SyncMenuItemPushAllMenuItem ==
+推送所有傳出分支
+
+== SyncMenuItemPullAllMenuItem ==
+提取所有傳入分支
+
+== SyncMenuItemRefreshReplicationTarget ==
+重新整理
+
+== SyncMenuItemPushBranch ==
+推送分支
+
+== SyncMenuItemPullBranch ==
+提取分支
+
+== SyncMenuItemExcludeBranch ==
+排除分支
+
+== SyncMenuItemIncludeBranch ==
+包含分支
+
+== CantShowBinaryContent ==
+此檔案已偵測為二進位。無法顯示檔案內容，改為顯示檔案中繼資料。您可以按一下滑鼠右鍵並使用 [開啟] 查看其內容。如需詳細資訊，請查看線上文件。
+
+== CantShowBinaryDiff ==
+此檔案已偵測為二進位。未計算任何差異比對，改為顯示檔案中繼資料。您可以按一下滑鼠右鍵並使用 [差異比對] 來啟動外部差異比對檢視器 (必須設定)。如需詳細資訊，請查看線上文件。
+
+== Content ==
+{0} 的內容
+
+== UpdateMergeExplanation ==
+已在儲存庫中偵測到新的變更集，您可以更新為最新變更集/從最新變更集合併。
+
+== ViewNewChangesButton ==
+檢視新變更
+
+== RetrievingBranchHeads ==
+正在擷取分支前端...
+
+== RetrievingNewChanges ==
+正在擷取新變更...
+
+== RetrievingObjectInfo ==
+正在擷取物件資訊...
+
+== WorkspaceRevisionKey ==
+工作區修訂
+
+== MergeToDiffWithDst ==
+目的地分支的修訂
+
+== EncryptionConfiguration ==
+伺服器加密
+
+== RetypePassword ==
+重新輸入密碼:
+
+== EncryptionConfigurationExplanation ==
+伺服器 '{0}' 需要資料加密。
+            您的用戶端未設為處理 '{0}' 的加密資料。
+
+== EncryptionConfigurationEnterPassword ==
+輸入密碼，以產生加密金鑰:
+
+== EncryptionConfigurationRemarks ==
+備註:
+            * 請謹慎使用加密密碼，這是解密伺服器 '{0}' 上的資料的唯一方法。
+            * 如果您要解密資料，而且輸入錯誤的密碼，資料將無法解密，而且您必須在伺服器上編輯 cryptedservers.conf，才能解決此問題。
+            * 請在全公司謹慎使用相同密碼 (加密金鑰)，以便與 '{0}' 一起使用。否則，將會在每個伺服器使用不同的方式加密資料。
+
+== InvalidEmptyPassword ==
+密碼不可為空白
+
+== PasswordDoesntMatch ==
+密碼不相符
+
+== ApplyActionForNextConflictsCheckButtonSingular ==
+對接下來的 1 個衝突套用此動作。
+
+== ApplyActionForNextConflictsCheckButtonPlural ==
+對接下來的 {0} 個衝突套用此動作。
+
+== FsProtectionChanged ==
+檔案系統權限已從 {0} 變更成 {1}。
+
+== CreateXlinkTitle ==
+建立 Xlink
+
+== CreateXlinkExplanation ==
+Xlink 是連結至不同儲存庫中變更集的目錄。這個目錄可用來將幾個儲存庫載入工作區。
+
+== XlinkTargetServerEntry ==
+目標伺服器，選擇或輸入一個伺服器
+
+== XlinkTargetServerExplanation ==
+server:port 格式，例如：myserver:8087
+
+== XlinkTargetRepositoryEntry ==
+目標儲存庫
+
+== XlinkTargetChangesetEntry ==
+目標變更集
+
+== XlinkNameEntry ==
+Xlink 名稱 (輸入目錄的名稱)
+
+== XlinkHint ==
+請記住，簽入此 Xlink 及更新工作區之後，才會開始下載 Xlink 連結的內容
+
+== SelectARepository ==
+您需要先選取儲存庫，然後再從中選取變更集
+
+== MainMainRuleCreated ==
+您正在目標儲存庫上建立一個到主分支的 Xlink。
+            很可能您想要連結兩個儲存庫之間的主分支，因此，將建立一個擴充規則。
+            如果此版面配置不是您預期的，請手動編輯擴充規則。
+
+== XlinkOptions ==
+Xlink 選項
+
+== WritableXlinkCheckButton ==
+可寫入 (否則這個部分的程式碼樹狀目錄將是唯讀)
+
+== RelativeServerCheckButton ==
+使用相關伺服器 - Xlink 會嘗試從本地伺服器取得儲存庫 (如果儲存庫已經複寫，建議使用此選項)
+
+== BranchExpansionRules ==
+分支擴充規則
+
+== BranchExpansionRulesExplanation ==
+這些規則會定義來源與目的地分支如何進行連結。使用可寫入的 Xlink 時，您可以定義 main@src 與 main/fix@dst 之間的連結。
+
+== SelectARepositoryForRule ==
+您需要先選取儲存庫，然後再建立規則
+
+== AddExpansionRuleTitle ==
+新增擴充規則
+
+== AddExpansionRuleExplanation ==
+定義如何在 Xlink 連結的儲存庫之間擴充分支
+
+== SourceBranch ==
+來源分支
+
+== DestinationBranch ==
+目的地分支
+
+== IsDefinedByUser ==
+由使用者定義
+
+== Yes ==
+是
+
+== No ==
+否
+
+== AlreadyDefinedRuleForBranch ==
+您已為此來源分支定義規則
+
+== XlinkNoChangesetSelected ==
+未選取變更集做為 Xlink 的目標
+
+== EmptyXlinkName ==
+Xlink 目錄名稱是空的
+
+== NoRulesDefined ==
+您未針對此 Xlink 定義分支擴充功能，您確定要繼續?
+
+== NoRulesDefinedCaption ==
+無定義的規則
+
+== EditXlinkTitle ==
+編輯 Xlink
+
+== EditButton ==
+編輯
+
+== EmptySourceBranch ==
+來源分支欄位不可為空白。
+
+== EmptyDestinationBranch ==
+目的地分支欄位不可為空白。
+
+== LoadingXlinkData ==
+正在下載 Xlink 資料...
+
+== CreatingDefaultRule ==
+正在建立預設規則...
+
+== NoContentToCompare ==
+沒有要比較的內容。
+
+== CreateBranchManualMode ==
+使用者手冊
+
+== CreateBranchTaskMode ==
+從任務
+
+== LoadingIssueTrackerExtension ==
+正在載入議題追蹤器延伸模組...
+
+== MarkingTaskAsOpen ==
+將 '{0}' 任務標記成在 '{1}' 中開啟
+
+== PendingTasks ==
+擱置的任務
+
+== RetrievingTasks ==
+正在擷取擱置的任務...
+
+== RetrievingUserTasks ==
+正在擷取使用者 '{0}' 的擱置任務...
+
+== DisplayPendingTasksFromAllUsers ==
+顯示所有使用者的擱置任務
+
+== MarkAsOpenInIssueTracker ==
+標記為在議題追蹤器中開啟
+
+== LinkedTasksViewTitle ==
+已連結任務
+
+== PlasticTaskIdProperty ==
+ID:
+
+== PlasticTaskOwnerProperty ==
+擁有者:
+
+== PlasticTaskStatusProperty ==
+狀態:
+
+== PlasticTaskTitleProperty ==
+標題:
+
+== PlasticTaskDescriptionProperty ==
+描述:
+
+== DeleteTaskTooltip ==
+刪除這個議題
+
+== LoadingLinkedTasks ==
+正在載入要在議題追蹤器中連結的任務...
+
+== AddTaskTooltip ==
+新增議題
+
+== SelectTasksToBeLinkedDialogTitle ==
+從 {0} 選取議題
+
+== SelectTasksToBeLinkedExplanation ==
+選擇要連結至新變更集的議題
+
+== TaskIdEntryTitle ==
+議題 ID:
+
+== ManualTaskIdEntryExplanation ==
+如果您找不到您的議題，請手動輸入以逗號分隔的議題 ID 清單
+
+== UnknownTaskIdsInManualEntry ==
+在手動輸入欄位中找到的議題 ID 無效。
+
+== OpenTaskInBrowserTooltip ==
+在網頁瀏覽器中開啟任務資訊頁面
+
+== DoNotCheckinChangesJustMove ==
+不要簽入變更，直接將其移至指定的分支。
+
+== CreateANewBrachRadioButton ==
+建立新分支
+
+== CreateANewBranchToCheckinExplanationLabel ==
+建立 {0} 的下層分支，並簽入您對該分支的工作區變更。
+
+== CreateANewBranchToMoveChangesetExplanationLabel ==
+建立要將變更集 cs:{1} 移至其中的 {0} 新建下層分支。
+
+== CreateANewBranchLabel ==
+下層分支的名稱
+
+== SelectExistingBranchRadioButton ==
+選取現有分支 (必須是空的)
+
+== SelectExistingBranchExplanationLabel1 ==
+選取先前所建立的分支，並將您的工作區變更簽入該分支。
+
+== SelectExistingBranchExplanationLabel2 ==
+所選取分支的分支基底將變更成為您的目前基底
+
+== SelectExistingBranchToMoveExplanationLabel ==
+選取先前所建立的分支，並移動在其中所選取的變更集。
+
+== SelectExistingBranchLabel ==
+選取的分支
+
+== MoveChangesNoBranchName ==
+請指定下層分支名稱
+
+== MoveChangesSelectABranch ==
+請選取分支
+
+== MoveChangesBranchMustBeEmpty ==
+選取的分支必須是空的
+
+== CantUpdateBraseChangesetBranchWithRevisions ==
+無法更新分支的基底變更集，因為它必須是空的
+
+== RetrievingWorskpaceInfo ==
+正在擷取工作區資訊
+
+== MovingChangesToTargetBranch ==
+正在將變更移至目標分支...
+
+== UpdatingTargetBranchBase ==
+正在更新目標分支基底...
+
+== OrganizationUserBelongsTo ==
+您的組織是 {0}
+
+== OrganizationNotFoundLine1 ==
+您似乎沒有 {0} 的組織
+
+== NameWorkingMode ==
+從電腦中取得使用者名稱
+
+== NameIdWorkingMode ==
+名稱 + 使用者 ID
+
+== ADWorkingMode ==
+Active Directory
+
+== LDAPWorkingMode ==
+LDAP
+
+== UPWorkingMode ==
+內建的使用者和密碼
+
+== TubeWorkingMode ==
+Tube 工作中模式
+
+== RepositoryWillBeKnownAs ==
+將稱為 {0}
+
+== CantCreateLocalRepository ==
+無法建立本地儲存庫
+
+== CantCreateCloudRepository ==
+無法建立雲端儲存庫
+
+== CantCreateWorkspace ==
+無法建立工作區
+
+== CantCreateSyncView ==
+無法建立同步檢視
+
+== CantRetrieveCloudOrganization ==
+無法擷取您的雲端組織
+
+== SyncViewNameAlreadyExists ==
+同步檢視 {0} 已經存在
+
+== StartANewProject ==
+啟動新專案
+
+== Distributed ==
+分散式
+
+== JoinExistingProject ==
+加入現有的專案
+
+== Centralized ==
+集中式
+
+== WelcomeToCloudEdition ==
+歡迎使用 Unity Version Control Cloud Edition!
+
+== WelcomeToUnityVCS ==
+歡迎使用 Unity VCS!
+
+== WelcomeToGluonTeamEdition ==
+歡迎使用 Gluon!
+
+== WelcomeToGluonCloudEdition ==
+歡迎使用 Gluon - Cloud Edition!
+
+== TeamEditionFirstSteps1stCaption ==
+您即將使用已連線至 Unity VCS 伺服器的本地工作區
+
+== TeamEditionFirstSteps2ndCaption ==
+您可以為不同專案建立不同的儲存庫，通常是一個儲存庫搭配一個工作區
+
+== CloudEditionFirstSteps1stCaption ==
+您可以採用集中式或分散式的方式工作
+
+== CloudEditionFirstSteps2ndCaption ==
+集中式表示沒有本地儲存庫
+
+== CloudEditionFirstStepsChooseOption ==
+請選擇一個路徑來開始使用 Unity VCS Cloud
+
+== TeamEditionFirstStepsChooseOption ==
+請選擇下列其中任一選項來開始使用 Unity Version Control
+
+== TeamEditionFirstStepsJoinExistingProjectExplanation ==
+直接在 Unity VCS 伺服器上選取現有的儲存庫，並建立將下載於其中的全新工作區
+
+== CloudRepository ==
+Cloud 儲存庫
+
+== LocalRepositoryName ==
+本地儲存庫名稱
+
+== NewRepositoryName ==
+新儲存庫名稱
+
+== WorkspaceName ==
+工作區名稱
+
+== PathOnDisk ==
+磁碟上的路徑。您的檔案在磁碟中的所在位置。如果您在磁碟上已經有專案，您可以選取現有的路徑
+
+== MakeWorkspaceDynamic ==
+將此工作區設為動態
+
+== CreateSyncViewToPushPullCloud ==
+建立要將變更推送/提取至 Cloud 的同步檢視
+
+== BrowseButton ==
+瀏覽...
+
+== CheckingLocalRepositoryAvailable ==
+正在檢查雲端儲存庫名稱是否可用...
+
+== CheckingWorkspaceAvailable ==
+正在檢查工作區是否可用...
+
+== CheckingSyncViewNameAvailable ==
+正在檢查同步檢視名稱是否可用...
+
+== CreatingLocalRepository ==
+正在建立儲存庫 {0}@local...
+
+== CreatingSyncView ==
+建立同步檢視...
+
+== CloudEditionFirstStepsDistributedExplanation ==
+這是 Git 的運作方式，具有本地儲存庫且可推送/提取至 Cloud 儲存庫
+
+== CloudRepositoryDoNotExist ==
+您的雲端組織不存在儲存庫 {0}
+
+== CheckingCloudRepositoryExists ==
+正在檢查雲端儲存庫是否存在...
+
+== CloudEditionFirstStepsCreateWorkspaceExplanation ==
+您專屬的工作區已連線至雲端儲存庫。如果您不確定，那麼這是您的選項
+
+== NoRepositoriesFound ==
+找不到儲存庫。請檢查 Unity VCS 伺服器是否正常運作，及其中是否有儲存庫
+
+== SyncFromLocalToCloudViewName ==
+將 {0} 從本地同步至雲端
+
+== SyncToRepository ==
+同步至 {0}
+
+== SyncFromRepository ==
+從 {0} 同步
+
+== LocalServerDetected ==
+偵測到本地伺服器 {0}
+
+== LocalServerDetectedDvcsMode ==
+偵測到本地伺服器
+
+== UseSsl ==
+使用 SSL
+
+== TeamEditionFirstStepsJoinTeamExplanation ==
+若要開始新專案，您可以在 Unity VCS 伺服器中建立新的儲存庫
+
+== ConfirmDeleteChangesetCaption ==
+確認變更集刪除
+
+== DeleteChangesetWarning ==
+您確定要刪除變更集:
+{0}?
+
+== CantDeleteChangesetCaption ==
+無法刪除變更集
+
+== CantDeleteChangeset ==
+無法刪除目前變更集，因為該變更集已由其他項目參考。
+
+請檢查:
+ * 變更集不是合併連結的來源
+ * 變更集沒有下層項目
+ * 未標記變更集
+ * 沒有從變更集建立的擱置集
+
+請注意，您可以藉由從 cli 或 [擱置] 檢視執行下列查詢，從指定的變更集尋找建立的擱置集:
+
+    find shelve where parent=changesetspec
+
+== DeleteWorkingChangesetCaption ==
+刪除作用中的變更集
+
+== DeleteWorkingChangeset ==
+在工作區設定中，刪除您要變更的變更集。是否要繼續?
+
+== CannotDeleteCsetWithPendingChanges ==
+無法刪除所選變更集，因為有暫止的變更。請檢閱暫止的變更，並重試作業。
+
+== CannotMoveCsetWithPendingChanges ==
+無法移動所選變更集，因為有暫止的變更。請檢閱暫止的變更，並重試作業。
+
+== ReportChanged ==
+已變更項目
+
+== ReportAdded ==
+已新增項目
+
+== ReportDeleted ==
+已刪除項目
+
+== ReportMoved ==
+已移動項目
+
+== ReportLoaded ==
+已載入項目
+
+== ReportUnloaded ==
+已卸載項目
+
+== ShowUpdateReportButton ==
+顯示更新報告
+
+== HideUpdateReportButton ==
+隱藏更新報告
+
+== ReportUpdatedHeader ==
+已更新
+
+== ConfigurationAppliedHeader ==
+設定已套用
+
+== ZoomIn ==
+放大
+
+== ZoomOut ==
+縮小
+
+== RemoveFilter ==
+移除篩選
+
+== SelectedBranchesAndRelated ==
+{0} 及相關的分支
+
+== SelectedBranchesAndPendingMerges ==
+{0} 及暫止的合併
+
+== DownloadingRevisions ==
+正在下載修訂...
+
+== GoToSourceChangesetMenuItem ==
+前往來源變更集
+
+== GoToDestinationChangesetMenuItem ==
+前往目的地變更集
+
+== Name ==
+名稱:
+
+== NewName ==
+新名稱:
+
+== NoCsetCreatedWarning ==
+無法建立新的變更集，因為檔案資料並未變更
+
+== AllFileConflictsWereMergedWarning ==
+所有檔案均已合併，並可開始簽入
+
+== SomeFileConflictsWereMergedWarning ==
+僅有部分檔案已經合併，並可開始簽入
+
+== NoFileConflictsWereMergedWarning ==
+未合併任何檔案
+
+== SaveDiffChangesTitle ==
+您是否想要儲存您在目前檔案中所做的變更?
+
+== SaveDiffChangesMessage ==
+如果不儲存，您所做的變更將會遺失
+
+== DontSaveButton ==
+不儲存
+
+== SelectFileToSeeDifferences ==
+選取要查看其中差異的檔案
+
+== SaveThisRevisionAs ==
+將此修訂另存為...
+
+== SaveRevisionAs ==
+將修訂另存為...
+
+== SavingRevision ==
+正在將修訂儲存至 '{0}'...
+
+== DownloadFilesProgress ==
+已下載 {0} 個檔案，共 {1} 個 (待下載 {2} 個檔案，共 {3} 個)
+
+== DownloadInfoSingular ==
+將下載 1 個檔案 {0}
+
+== DownloadInfoPlural ==
+將下載 {0} 個檔案 {1}
+
+== NotifyLinuxWatchLimitWarning ==
+已達到所監看項目數目上限。您可以執行 'sudo sysctl fs.inotify.max_user_watches=524288' 增加這個值
+
+== CheckinProgressMultiThreadUploading ==
+多執行緒簽入
+
+== CheckinProgressMultiThreadNumOfBlocks ==
+正在平行上傳 {0} 個區塊
+
+== SkipDiffMergeTracking ==
+跳過合併追蹤
+
+== SkipDiffMergeTrackingTooltip ==
+不要依合併來源來分組檔案變更。每個檔案會顯示一次，並顯示其「總計」變更
+
+== FetchNoDataCheckButton ==
+不複寫資料 (您必須是伺服器管理員)
+
+== FetchNoDataNoPermissions ==
+您必須是目的地伺服器管理員，才能使用 [不複寫資料] 選項。
+
+== CheckingFetchNoDataNoPermissions ==
+正在檢查權限...
+
+== CheckinProgressUploadingFiles ==
+正在上傳 {0} 個檔案
+
+== CheckinProgressUploadingFileData ==
+正在將檔案 {0} ({1}) 上傳至儲存庫
+
+== CheckinProgressOf ==
+/
+
+== ToggleDetails ==
+切換詳細資料
+
+== ShowDetails ==
+顯示詳細資料
+
+== ToggleDetailsButtonTooltip ==
+隱藏/顯示詳細資料區域
+
+== NoDiffToolDefined ==
+用戶端設定檔案中沒有定義的差異比對工具
+
+== FileHistory ==
+檔案歷史記錄
+
+== OpenButton ==
+開啟
+
+== ApplyAttributesButton ==
+套用屬性...
+
+== ApplyAttribute ==
+將屬性套用至所選取物件
+
+== ApplyAttributeExplanation ==
+選取要在 [屬性] 下拉式清單中套用的屬性類型，[值] 欄位可供您從下拉式清單中選擇現有值，或是輸入一個新值。
+
+== AttributeValueLabel ==
+值:
+
+== LoadingAttributes ==
+正在載入屬性...
+
+== LoadingAttributeValues ==
+正在載入屬性值...
+
+== SelectAttribute ==
+選取屬性
+
+== SelectAttributeValue ==
+輸入屬性值
+
+== ApplyingAttribute ==
+正在套用屬性...
+
+== SettingAttributeValue ==
+正在設定新值...
+
+== DeletingAttribute ==
+正在刪除屬性...
+
+== AnnotateDays ==
+天
+
+== AnnotateLocalRevision ==
+本機
+
+== AnnotateAuthorField ==
+作者:
+
+== AnnotateDateField ==
+日期:
+
+== AnnotateBranchField ==
+分支:
+
+== AnnotateChangesetField ==
+變更集:
+
+== AnnotateChangedDuringMerge ==
+已在合併期間變更:
+
+== CreateAttribute ==
+建立新屬性
+
+== CreateAttributeExplanation ==
+鍵入新屬性的名稱。這個名稱將以 '{0}' 建立。
+
+== AttributeNameLabel ==
+屬性名稱:
+
+== AttributeCommentLabel ==
+註解:
+
+== AttributeHelpLabel ==
+使用下列格式 'default: value1, "value two", ..., valueN' 新增行，定義此屬性的預設值。
+
+== CreatingAttribute ==
+正在建立屬性 ...
+
+== AttributeNameAlreadyExists ==
+屬性 {0} 已存在 ({1})
+
+== MergeToPendingFileConflicts ==
+有暫止的檔案衝突，必須先解決才能處理合併目標。
+
+== CommentsDialogTitle ==
+註解
+
+== CommentsDialogExplanation ==
+輸入合併目標簽入作業的註解:
+
+== BranchMergeTo ==
+伺服器端合併 – 從分支 {0} 至分支 {1}
+
+== LabelMergeTo ==
+伺服器端合併 – 從標籤 {0} 至分支 {1}
+
+== ChangesetMergeTo ==
+伺服器端合併 – 從變更集 {0} 至分支 {1}
+
+== CheckinMergeTo ==
+簽入合併！
+
+== MergeBranch ==
+從分支 {0} 合併
+
+== ChangesetIntervalCherryPick ==
+從變更集間隔 (cs:{0} - cs:{1}) 揀選
+
+== BranchCherryPick ==
+從分支 {0} 揀選
+
+== ChangesetCherryPick ==
+從變更集 cs:{0} 揀選
+
+== LabelMerge ==
+從標籤 {0} 合併
+
+== CherrypickSubtractiveMerge ==
+從變更集 cs:{0} 削減合併
+
+== IntervalCherrypickSubtractiveMerge ==
+從變更集間隔削減合併 (從 cs:{0} 到 cs:{1})
+
+== ChangesetMerge ==
+從變更集 cs:{0} 合併
+
+== SwitchBranchButton ==
+切換分支...
+
+== PleaseTypeAPath ==
+請輸入路徑
+
+== Copy ==
+複製
+
+== AnnotateOptions ==
+標註選項
+
+== AnnotateDiffBranchMenuItem ==
+差異比對分支 {0}
+
+== AnnotateDiffChangesetMenuItem ==
+差異比對變更集 {0}
+
+== AnnotateParentRevisionMenuItem ==
+標註上層修訂
+
+== AnnotateParentChangesetMenuItem ==
+進行這些變更之前標註 (cs:{0} 的上層)
+
+== AnnotateShowDate ==
+顯示已修改日期
+
+== AnnotateShowChangeset ==
+顯示變更集
+
+== AnnotateShowBranch ==
+顯示分支
+
+== AnnotateShowAuthor ==
+顯示作者
+
+== AnnotateShowLineAge ==
+顯示行齡
+
+== AnnotateShowRevInMerge ==
+顯示此行是否在合併中變更
+
+== AnnotateDisplayShortBranchNames ==
+顯示短分支名稱
+
+== AnnotateDisplayFullBranchNames ==
+顯示完整分支名稱
+
+== Shelve ==
+擱置
+
+== AnnotateDialogTitle ==
+標註
+
+== AnnotateCantFindRevisionAtChangeset ==
+找不到變更集 cs:{0} 的修訂
+
+== AnnotateNoPreviousRevision ==
+此項目沒有先前版本。
+
+== AnnotateCantRunOnBinaryFiles ==
+二進位檔案無法標註。如果檔案實際為純文字，您可以從工作區瀏覽器的內容功能表變更其修訂類型，或強制其使用 filetypes.conf 設定檔。
+
+== ChangesetsDynamicViewTitle ==
+變更集 {0}
+
+== UserProfileServerLabel ==
+伺服器:
+
+== UserProfileServerProfileNotFound ==
+找不到伺服器 '{0}' 的連線設定檔，請設定此設定檔。
+
+== UserProfileWrongAuthMode ==
+使用者設定檔只能使用 LDAP 或使用者/密碼驗證進行設定。
+
+== UserProfileCloudServer ==
+The user profile can't be configured for cloud servers.
+
+== LoadingUserProfile ==
+正在載入使用者設定檔...
+
+== NoProfileToShow ==
+沒有可顯示的已定義設定檔
+
+== SavingUserProfile ==
+正在儲存使用者設定檔...
+
+== EnterValidEmailAddress ==
+請輸入有效的電子郵件地址。
+
+== EnterValidIntValue ==
+請輸入有效的整數值。
+
+== UserProfileLoadError ==
+無法從 {0} 擷取設定檔。詳細資料:{1}
+
+== UserProfileSaveError ==
+無法儲存 {0} 的設定檔。詳細資料:{1}
+
+== PendingChangesOptionsDialogTitle ==
+暫止的變更 - 選項
+
+== PendingChangesWhatToFindTab ==
+尋找項目
+
+== PendingChangesWhatToShowTab ==
+顯示項目
+
+== PendingChangesMoveDetectionTab ==
+移動偵測
+
+== PendingChangesWhatToFindDialogTitle ==
+設定如何在工作區中尋找變更
+
+== PendingChangesWhatToFindDialogExplanation ==
+您可以微調 Unity VCS 如何在磁碟上尋找變更，以及要跳過哪些內容
+
+== PendingChangesWhatToShowDialogTitle ==
+設定要顯示的變更類型
+
+== PendingChangesWhatToShowDialogExplanation ==
+從自動重新整理到決定您是否要查看私人檔案、忽略清單及其他項目
+
+== PendingChangesMoveDetectionDialogTitle ==
+設定 Unity VCS 如何在您的工作區中尋找移動的檔案與目錄
+
+== PendingChangesMoveDetectionDialogExplanation ==
+這樣可以偵測您在磁碟上所移動或重新命名的檔案與目錄
+
+== PendingChangesFilesystemWatcherEnabled ==
+檔案系統監看器已啟用
+
+== PendingChangesFilesystemWatcherDisabled ==
+檔案系統監看器已停用
+
+== PendingChangesFilesystemWatcherEnabledExplanationUnityVCS ==
+Unity Version Control 會監看進行變更的工作區，加快作業速度。這會免除進行查核目錄結構的必要性，不過移動比對仍可能很耗時。
+
+== PendingChangesFilesystemWatcherDisabledExplanationUnityVCS ==
+這個情況並不正常，並可能會影響效能。Unity Version Control 會使用 Windows API 監看進行變更的工作區。使用這種方法時，不需要查核目錄結構。如果停用這個設定，作業可能變得更慢。請聯絡支援部門以取得協助，除非刻意在 client.conf 中停用這個設定。[[HELP_URL|{0}]]
+
+== PendingChangesShowCheckouts ==
+顯示簽出
+
+== PendingChangesShowCheckoutsExplanation ==
+顯示您已在 Unity VCS 明確簽出的檔案，以及您使用 Unity VCS GUI 或命令列所移動的檔案；最後，還有進行中的合併所涉及的檔案。
+簽出顯示速度超快，因為這些內容已列成清單；不需要查核目錄結構來進行尋找。
+秘訣:對於大小超過 800k 個檔案的工作區，只使用簽出來加快作業速度可能是很合理的做法。使用檔案鎖定時，也需要用到簽出。
+
+== PendingChangesFindChanged ==
+在工作區中尋找變更檔案
+
+== PendingChangesFindChangedExplanation ==
+查核工作區目錄結構來尋找變更的檔案 (時間戳記已變更)。
+
+== PendingChangesCheckFileContent ==
+檢查內容以判定檔案確實已變更，而非僅有時間戳記變更
+
+== PendingChangesCheckFileContentExplanation ==
+如果檔案的時間戳記經過修改，則搭配先前戳記計算出雜湊，再將其設為已變更。這對於儲存檔案但不執行任何變更的應用程式很有用處。警告:「暫止的變更」速度可能因此較慢，因為其需要對檔案進行讀取及雜湊處理。
+
+== PendingChangesAutoRefresh ==
+自動重新整理
+
+== PendingChangesAutoRefreshExplanation ==
+可讓 Unity VCS 視需要重新整理暫止的變更清單，避免手動重新整理。
+
+== PendingChangesGroupInChangeLists ==
+分組「變更清單」中的變更
+
+== PendingChangesGroupInChangeListsExplanation ==
+Unity VCS 可將工作區中的變更分組在使用者建立的清單中。如果您想念之前的版本控制功能，這很有用。
+
+== PendingChangesShowPrivateFiles ==
+顯示私人檔案
+
+== PendingChangesShowPrivateFilesExplanation ==
+列出不受原始檔控制的檔案。這些檔案可能是最近新增的檔案，但有時候是工具產生而您要忽略的內容。(新增至「忽略清單」可能是比較適當的選項)。
+
+== PendingChangesAlwaysSelectPrivateFiles ==
+始終選取私人檔案
+
+== PendingChangesAlwaysSelectPrivateFilesExplanation ==
+這樣一來，您將不會在簽入時忘記新檔案。不過您必須有良好的 ignore.conf，避免將暫時檔案新增至版本控制。
+
+== PendingChangesShowIgnoredFiles ==
+顯示忽略檔案
+
+== PendingChangesShowIgnoredFilesExplanation ==
+顯示已於 ignore.conf 新增而予以忽略的檔案。
+
+== PendingChangesShowHiddenFiles ==
+顯示隱藏檔案
+
+== PendingChangesShowHiddenFilesExplanation ==
+顯示已於 hidden_changes.conf 新增而予以隱藏的檔案。
+
+== PendingChangesShowDeletedFiles ==
+顯示已刪除的檔案和目錄
+
+== PendingChangesShowDeletedFilesExplanation ==
+顯示由您在不受 Unity VCS 控制情況下，從工作區中手動刪除的檔案。(不使用 GUI 或命令，而是直接從磁碟上刪除)。
+
+== PendingChangesMoveDetectionExplanation ==
+您可以通知 Unity VCS，您已使用「cm mv」移動檔案，或從 GUI 或 IDE 整合移動檔案。這個方法並不需要「偵測」。不過，如果您直接在磁碟上移動檔案，Unity VCS 可能仍會偵測此作業。這個情況也適用於目錄。
+
+== PendingChangesFindMovedFiles ==
+尋找已移動和已重新命名的檔案和目錄
+
+== PendingChangesFindMovedFilesExplanation ==
+查核工作區以尋找可能的移動。例如，如果您將 foo.c 重新命名成 bar.c，Unity VCS 將會尋找已新增的 bar.c、已刪除的 foo.c，接著其將嘗試比對這兩者。如果您有大量私人檔案，作業速度可能會變慢。
+
+== PendingChangesMoveDetectionFineTune ==
+您可以微調「尋找移動」的運作方式：
+
+== PendingChangesMatchBinarySameExtension ==
+僅在二進位檔案有相同副檔名時進行檔案比對
+
+== PendingChangesMatchBinarySameExtensionExplanation ==
+不嘗試比對 .png 與 .jpg。但是它不會尋找 .doc 重新命名為 .docx 的檔案。
+
+== PendingChangesMatchTextSameExtension ==
+僅在純文字檔案有相同副檔名時進行檔案比對
+
+== PendingChangesMatchTextSameExtensionExplanation ==
+不嘗試比對 .cs 與 .c。這個方法可在某些情況下派上用場。
+
+== PendingChangesSimilarityPercentage ==
+相似性百分比
+
+== PendingChangesSimilarityPercentageExplanation ==
+定義兩個檔案在比較後必須達到的「相似性程度」，才能偵測為「已移動」或「已重新命名」。例如，如果將 foo.c 移動到 bar.c，並於稍後進行修改，% 將定義這兩個檔案必須達到多少相似性，Unity VCS 才會將其視為相同檔案。
+這個情況也適用於目錄：目錄結構必須達到多少相似性：相對於目錄總項目數有多少個已移動下層項目。
+處理二進位檔案時，% 表示允許的大小差異。
+
+== PendingChangesEnableNTFSJournal ==
+啟用使用 NTFS 日誌進行精確追蹤
+
+== PendingChangesEnableNTFSJournalExplanation ==
+使用 NTFS 日誌，在 GUI 已開啟情況下偵測已移動的檔案與目錄。這種方法超級精確，而且沒有「可能性」或「啟發性」。NTFS 知道檔案或目錄的移動時間。
+
+不過，這個做法有個缺點。如果專案重構時是使用像是 Visual Studio 等工具，使用這個功能就不安全。原因在於 VS 不會直接將 foo.c 移動到 src/bar.c，而是建立新的 src/bar.c，接著複製內容，然後刪除 foo.c。因此無法從檔案系統進行追蹤。
+
+如果打算使用 Windows 檔案總管或命令列進行大規模重構，這個功能將可流暢運作。
+
+== PendingChangesChangeTrackerServiceNotRunning ==
+Unity VCS 變更追蹤器服務不在執行中
+
+== PendingChangesChangeTrackerServiceNotRunningExplanation ==
+無法與 Unity VCS 變更追蹤器服務通訊。確定其已安裝及執行中。
+
+== PendingChangesINotifyEnabled ==
+inotify 變更監看器已啟用
+
+== PendingChangesINotifyDisabled ==
+inotify 變更監看器已停用
+
+== PendingChangesINotifyEnabledExplanation ==
+Unity VCS 會監看進行變更的工作區，加快作業速度。這會免除進行查核目錄結構的必要性，不過移動比對仍可能很耗時。Unity VCS 會利用 inotify 功能，而且需要一些調整，才能運作正常。檢查:{0}
+
+== PendingChangesINotifyDisabledExplanation ==
+當可以利用 inotify 為主的偵測系統功能時，暫止的變更效能就會大幅改善。請查看下列指示進行啟用:{0}，並重新啟動 GUI
+
+== ProjectSettingsGeneral ==
+General
+
+== ProjectSettingsFileChange ==
+File Change Settings
+
+== ProjectSettingsFileVisibility ==
+File Visibility Settings
+
+== ProjectSettingsMoveAndRename ==
+File Move and Rename Detection
+
+== MergeToMergeNeededExplanation ==
+合併目標作業執行時，合併目標作業目的地中隨即新建變更集，並接著建立一個以上的前端。執行新的合併 (或合併目標) 作業時，請考慮整合這些前端。受影響的分支:
+
+== MergeToMergeNeededBranch ==
+{0}@{1}@{2} (掛載 '{3}')
+
+== MergeToNeededQuestion ==
+分支 {0}@{1}@{2} (掛載 '{3}') 具有多個前端，因為新變更集會在合併目標作業期間建立。您是否要立即整合執行其他合併目標作業的前端?
+
+== DontShowItAgain ==
+了解，不要再顯示
+
+== LearnMore ==
+深入瞭解
+
+== HelpActionNotFound ==
+很抱歉，我們忘記加入這個動作 :(
+
+== RemovedLocallyStatus ==
+在本機移除
+
+== RemovedStatus ==
+已移除
+
+== MovedLocallyStatus ==
+在本機移動
+
+== MovedStatus ==
+已移動
+
+== AddedStatus ==
+已新增
+
+== IgnoredStatus ==
+忽略清單
+
+== PrivateStatus ==
+私人
+
+== ReplacedStatus ==
+已取代
+
+== CopiedStatus ==
+已複製 (新)
+
+== CheckedOutStatus ==
+已簽出
+
+== ChangedStatus ==
+已變更
+
+== HiddenChangedStatus ==
+隱藏已變更
+
+== UnsupportedImageFormat ==
+不受支援的影像格式
+
+== ShowPropertiesButton ==
+顯示特性
+
+== PreviewConfigAlreadyExist ==
+此名稱存在另一個設定，請選擇其他名稱
+
+== UserDefinedPreview ==
+使用者定義的工具
+
+== ConfirmDeleteDiffTool ==
+您是否要刪除這個差異比對工具設定?
+
+== ConfirmDeleteMergeTool ==
+您是否要刪除這個合併工具設定?
+
+== CloudEditionConfigInsertValidEmail ==
+輸入有效的電子郵件地址或使用者名稱
+
+== CloudEditionConfigInsertValidPassword ==
+輸入有效密碼
+
+== CloudEditionConfigurationWelcome ==
+歡迎使用 Cloud Edition!
+
+== CloudEditionConfigurationExplanation ==
+請輸入您用於連線至 Unity VCS Cloud 的使用者名稱與密碼 (與 plasticscm.com 相同)。這樣一來，當複寫至 Cloud 時，您將不會再次收到提示。
+
+== CloudEditionConfigurationExtraExplanation ==
+這也是您每次簽入時用於識別的使用者名稱，因此，請謹慎地選擇。
+
+== CloudEditionConfigCheckingCredentials ==
+正在檢查憑證...
+
+== CloudEditionConfigEmail ==
+使用者名稱 (通常是您的 plasticscm.com 電子郵件)
+
+== CloudEditionConfigPassword ==
+密碼
+
+== CloudEditionConfigCheckCredentials ==
+檢查憑證
+
+== SelectFieldsMergeDiffOptions ==
+填入所有合併/差異比對選項欄位
+
+== SelectFieldsMergeDiffOptionsCaption ==
+填入所有欄位
+
+== EOLMethod ==
+忽略 EOL
+
+== WhitespacesMethod ==
+忽略空格
+
+== EOLWhitespacesMethod ==
+忽略 EOL 和空格
+
+== NoneMethod ==
+辨識全部
+
+== DiffVariables ==
+叫用外部差異比對工具時，可以使用下列命令列參數。
+您可選擇確定所指定檔案中是否包含要比較的修訂內容。
+
+@sourcefile:內容將顯示於左側面板的檔案完整路徑
+@destinationfile:內容將顯示於右側面板的檔案完整路徑
+
+@sourcesymbolic:將顯示於控制面板的「左側檔案」字串
+@destinationsymbolic:將顯示於控制面板的「右側檔案」字串
+
+@sourcehash:從 @leftrev 檔案內容計算的 MD5 字串
+@destinationhash:從 @rightrev 檔案內容計算的 MD5 字串
+
+@filetype:MIME 類型，用於語法醒目提示
+@comparationmethod:使用的比較方法
+@fileencoding:未偵測到編碼時，要使用的預設檔案編碼
+
+== NoDiffType ==
+請指定由此差異比對工具處理的檔案類型。
+
+== NoDiffTool ==
+為此差異比對工具指定命令列。
+
+== DiffToolError ==
+差異比對工具錯誤
+
+== DiffNoExt ==
+沒有為差異比對工具指定後綴。
+
+== NoTxtDiff ==
+沒有為文字檔案指定的差異比對工具。
+
+== NoBinDiff ==
+沒有為二進位檔案指定的差異比對工具。
+
+== NoDiffForExt ==
+沒有為 {0} 指定的差異比對工具。
+
+== DiffToolsError ==
+差異比對工具錯誤
+
+== NoDiscoveredServers ==
+找不到伺服器。
+
+== DownloadPreviewSoftware ==
+您需要安裝 [[{0}|{1}]]，以透過此提供者產生預覽
+
+== ExecutableOpenFileDialogFilterWin ==
+可執行檔 (*.exe; *.bat;)|*.exe; *.bat|所有檔案 (*.*)|*.*
+
+== ExecutableOpenFileDialogFilterNoWin ==
+所有檔案 (*.*)|*.*
+
+== ValidatePreviewTypeName ==
+請鍵入名稱
+
+== ValidatePreviewAddExtension ==
+請新增至少一個支援的副檔名
+
+== NullRefText ==
+處理要求時發生錯誤。
+
+== PathTooLong ==
+路徑太長
+
+== ServerNullRefText ==
+伺服器曾發生未預期的錯誤。如需詳細資訊，請檢查伺服器日誌。
+
+== MsgInformative ==
+資訊
+
+== MsgWarning ==
+警告
+
+== MsgError ==
+錯誤
+
+== MergeVariables ==
+使用命令列叫用外部合併工具時，可使用下列參數做為引數:
+
+@sourcefile:目的地合併檔案的完整路徑
+@destinationfile:目的地合併檔案的路徑
+@basefile:共同上階合併檔案的路徑
+@output:合併結果檔案的路徑
+@sourcesymbolic:來源貢獻者的符號名稱
+@destinationsymbolic:目的地貢獻者的符號名稱
+@basesymbolic:常見上階貢獻者的符號名稱
+@sourcehash:從來源檔案內容計算的 MD5 字串
+@destinationhash:從目的地檔案內容計算的 MD5 字串
+@basehash:從常用上階檔案內容計算的 MD5 字串
+@filetype:用於語法醒目提示的 MIME 類型
+@comparationmethod:使用的比較方法
+@fileencoding:未偵測到編碼時，要使用的預設檔案編碼
+@resultencoding:結果檔案編碼 (選取 NONE 時 -> 將從貢獻者編碼計算)。
+@mergetype:使用的合併類型
+@progress:表示目前作業的進度字串，例如，「正在合併檔案 3/10」
+@extrainfofile:包含目前合併相關額外資訊的檔案路徑
+
+== NoMergeType ==
+請指定由此合併工具處理的檔案類型。
+
+== NoMergeTool ==
+為此合併工具指定命令列。
+
+== MergeToolError ==
+合併工具錯誤
+
+== MergeNoExt ==
+沒有為合併工具指定的後綴。
+
+== NoTxtMerge ==
+沒有為合併工具指定的後綴。
+
+== NoBinMerge ==
+沒有為二進位檔案指定的合併工具。
+
+== NoMergeForExt ==
+沒有為 {0} 指定的合併工具。
+
+== MergeToolsError ==
+合併工具錯誤
+
+== ConfirmDeletePreviewProvider ==
+您確定要刪除選取的預覽工具?
+
+== CreateNewProfileTitle ==
+新增新設定檔以連線至伺服器
+
+== EditProfileTitle ==
+編輯現有伺服器連線設定檔
+
+== ProfileNameInputLabel ==
+請為設定檔指定名稱
+
+== ProfileConnectionTypeLabel ==
+選取連線類型
+
+== ProfileConnOnDemand ==
+隨選
+
+== ProfileConnOnDemandTooltip ==
+只有在連線至已建立的預存伺服器時，才會使用此設定檔。
+
+== ProfileConnAuto ==
+自動
+
+== ProfileConnAutoTooltip ==
+預存伺服器將顯示在儲存庫檢視清單中。對於一律可連線的伺服器，請使用這些選項。
+
+== ProfileDialogExplanation ==
+連線設定檔可讓您儲存遠端伺服器驗證參數。
+
+== ProfileNameEmpty ==
+設定檔名稱不可為空白。
+
+== ProfileNameAlreadyExists ==
+設定檔名稱已存在
+
+== DeleteProfileConfirmation ==
+您即將刪除選取的設定檔。是否要繼續?
+
+== DeleteProfileCaption ==
+刪除設定檔
+
+== NotValidProxyServer ==
+指定的伺服器 {0} 不是有效的 Proxy 伺服器。
+
+== ConnectedOk ==
+連接確定
+
+== ConfigurationUserNameInfo ==
+將使用下列使用者名稱:
+
+== ConfigurationCredentialsInfo ==
+設定您的憑證
+
+== PlasticConfiguration ==
+Unity DevOps Version Control 設定
+
+== ConfigurationServerInfo ==
+輸入您的 Unity VCS 伺服器名稱 (或 IP 位址) 和連接埠。您可以使用 [掃描網路] 以在您的網路上尋找可用的 Unity VCS 伺服器
+
+== ConfigureProxy ==
+使用 Proxy 伺服器
+
+== SwitchModeConfirmationDialogTitle ==
+切換模式確認
+
+== SwitchModeConfirmationDialogExplanation ==
+您目前在 {0} 模式。您確定要切換至 {1} 模式?
+
+在這裡深入瞭解 Gluon:{2}
+
+== DeveloperMode ==
+開發者
+
+== GluonMode ==
+Gluon
+
+== ReloadButton ==
+重新載入
+
+== SearchTooltip ==
+搜尋
+
+== CannotLaunchInProgressMergeFromNotRootMountPoint ==
+無法繼續進行這個合併。進行中合併是在 Xlink 連結的儲存庫中進行。只有當進行中合併是在根目錄工作區的儲存庫中進行時，才能使用這個選項。請以手動方式啟動合併以繼續進行。
+
+== OneVersionBehind ==
+使用的版本比此版本還舊 1 版
+
+== TwoOrMoreVersionsBehind ==
+使用的版本比此版本還舊 {0} 版
+
+== GitSyncAllRefsRejected ==
+所有的傳送參考 (分支或標記) 已遭伺服器拒絕，因此未推送任何項目。檢查 Git 伺服器提供者的設定，了解詳細資訊。推送失敗:{0}
+
+== LoggingIn ==
+正以 '{0}' 身分登入...
+
+== SigningUp ==
+正在建立帳戶 '{0}'...
+
+== GettingDatacenters ==
+正在取得資料中心...
+
+== EnterOrganizationName ==
+請輸入組織名稱
+
+== NoDatacenterSelected ==
+請選取資料中心
+
+== CreatingOrganization ==
+正在建立組織 '{0}'...
+
+== OrganizationNameTooShort ==
+組織名稱必須至少三個字元
+
+== SignUp ==
+註冊
+
+== SignUpNeeded ==
+找不到，請建立 Unity VCS 帳戶 {0}
+
+== SignUpButton ==
+註冊
+
+== SignIn ==
+登入
+
+== SignInToUnityVCS ==
+登入 Unity VCS
+
+== SignInWithGoogle ==
+使用 Google 登入
+
+== SignInWithUnityID ==
+使用 Unity ID 登入
+
+== SignInWithEmail ==
+使用電子郵件登入
+
+== SignInWith ==
+使用 {0} 登入
+
+== SignInWithSSO ==
+使用 SSO 登入
+
+== ConfirmPassword ==
+確認密碼:
+
+== SignedUpTitle ==
+您已正確註冊 plasticscm.com!
+
+== LoggedInTitle ==
+您已正確登入 plasticscm.com!
+
+== CreateFirstOrganizationLabel ==
+現在您可以開始建立 Cloud 組織
+
+== CreateOtherOrganizationLabel ==
+或您偏好建立自己的組織
+
+== YouBelongToOrganization ==
+您屬於此組織: {0}
+
+== YouBelongToSeveralOrganizations ==
+您屬於數個組織:
+
+== JoinButton ==
+加入
+
+== CreateOrganizationTitle ==
+建立您的雲端組織
+
+== OrganizationName ==
+組織名稱:
+
+== Datacenter ==
+資料中心:
+
+== DatacenterExplanation ==
+已選取最靠近的位置 :)
+
+== EncryptionCheckButton ==
+加密傳送到 Unity VCS Cloud 的所有資料
+
+== EncryptionCheckButtonExplanation ==
+您可以強制所有傳送到 Unity VCS Cloud 的資料必須經過加密後，才能離開您的電腦。這樣一來，您就能確定您的資料不會遭到洩漏。如果您選取這個選項，所有組織成員將必須共用相同的祕密金鑰，才能加密/解密資料。
+{0}
+
+== CreatedOrganizationTitle ==
+組織已正確建立
+
+== CreatedOrganizationExplanation ==
+組織 {0} 已正確建立
+
+== ContinueButton ==
+繼續
+
+== RetryButton ==
+重試
+
+== CloudEditionOrganization ==
+您屬於組織 {0}
+
+== SignUpAgreeToShort ==
+按一下 [註冊] 後，即表示您同意我們的{0}與{1}。
+
+== SignInAgreeToShort ==
+按一下 [登入] 後，即表示您同意我們的{0}與{1}。
+
+== TermsOfService ==
+服務條款
+
+== PrivacyPolicy ==
+隱私權原則
+
+== Email ==
+電子郵件:
+
+== BackButton ==
+< 上一步
+
+== LastThingTitle ==
+最後一件事
+
+== LastThingExplanation ==
+Unity VCS 共有兩種。
+兩種隨時都可搭配使用。
+
+== PlasticForDevelopersTitle ==
+Unity VCS 開發人員版
+
+== PlasticForDevelopersExplanation ==
+傳統型 Unity VCS GUI，適合用於分支、合併與推送/提取
+
+== PlasticForArtistsTitle ==
+Gluon - Unity VCS 創作者版
+
+== PlasticForArtistsExplanation ==
+超簡易 GUI，適合遊戲開發創作者或是偏好在簽入後什麼都不用管的人
+
+== LaunchButton ==
+啟動
+
+== ReplyButton ==
+回覆
+
+== CommentButton ==
+註解
+
+== DiscardUnsavedChangesTitle ==
+捨棄變更
+
+== DiscardUnsavedChangesQuestion ==
+您確定要捨棄未儲存的變更?
+
+== DiscardButton ==
+捨棄
+
+== DeleteCommentQuestion ==
+您確定要刪除這個項目?
+
+== CheckingLockRulesProgress ==
+正在檢查項目是否可以鎖定...
+
+== ConfigLocksNoPermissions ==
+您沒有 configlocks 權限。請要求系統管理員授予您對儲存庫 '{0}' 的「configlocks」權限，或為這個檔案設定鎖定規則。
+
+== AddLockRuleAndCheckoutTitle ==
+新增鎖定規則及簽出
+
+== AddLockRuleAndCheckoutMessage ==
+若要鎖定檔案，您必須先設定鎖定規則。{0}{0}選擇下面其中一個選項，設定簽出時要自動鎖定哪些檔案。
+
+== AddLockRuleRadioGroup ==
+選擇鎖定規則或建立自己的規則
+
+== AddLockRuleExtensionOption ==
+鎖定符合 {0} 的檔案
+
+== AddLockRuleNameOption ==
+鎖定名稱 '{0}' 的任何檔案
+
+== AddLockRuleDirectoryOption ==
+鎖定目錄中所有檔案{0}{1}
+
+== AddLockRuleFullPathOption ==
+僅鎖定{0}{1}
+
+== AddLockRuleEditOption ==
+讓我編輯鎖定規則
+
+== AddLockRuleLearnMore ==
+按一下此處以了解如何設定鎖定規則
+
+== AddLockRuleLearnMoreUrl ==
+https://www.plasticscm.com/download/help/locking
+
+== AddLockRuleEmptyRuleMessage ==
+鎖定規則不可為空白。
+
+== UnsupportedServerOperation ==
+伺服器不支援此作業。請將伺服器升級至版本 {0} 或更高版本。
+
+== KnownServersListRetrievingCloudOrgsProgress ==
+正在擷取 Cloud 組織...
+
+== EditCommentButton ==
+編輯註解
+
+== DiffChangedWithCommentDirty ==
+您已經編輯註解，是否想要儲存這些變更?
+
+== ReviewOfChangesetTitle ==
+檢閱變更集 {0}
+
+== ReviewOfBranchTitle ==
+檢閱分支 {0}
+
+== Title ==
+標題
+
+== ReviewStatus ==
+狀態
+
+== ReworkRequired ==
+需要重做
+
+== UnderReview ==
+正在檢閱
+
+== Reviewed ==
+已檢閱
+
+== Reviewer ==
+檢閱者
+
+== ChangeButton ==
+變更
+
+== ReviewCommentsLabel ==
+第 {0} 行的註解
+
+== NoReviewCommentsToShow ==
+在差異比對的右側，按一下圖示，檢查所指定行建立的檢閱註解
+
+== NoReviewCommentsForSelectedFile ==
+沒有所選定檔案的檢閱註解
+
+== NoReviewComments ==
+在差異比對的右側，按一下「+」符號，建立所指定行的新註解
+
+== NoReviewCommentsSupportedXlinkedRepo ==
+目前不支援 Xlink 的檢閱註解
+
+== NoReviewCommentsSupportedDifferentRepos ==
+目前不支援 Xlink 連結檔案的檢閱註解
+
+== NoReviewCommentsSupportedUnsupportedFileType ==
+目前不支援這個檔案類型的檢閱註解
+
+== DirtyCodeReviewTitleTitle ==
+儲存程式碼檢閱標題
+
+== DirtyCodeReviewTitleQuestion ==
+您已經編輯標題，是否想要儲存這些變更?
+
+== DirtyReviewCommentTitle ==
+儲存檢閱註解
+
+== DirtyReviewCommentQuestion ==
+您已經編輯檢閱註解，是否要儲存這些變更?
+
+== DirtyCommentQuestion ==
+您已經編輯註解，是否想要儲存這些變更?
+
+== NullRepSpec ==
+遺失計算差異所需的儲存庫資訊。
+請向支援部門報告此狀況，以進行修復。
+
+== CommentsLabelSingular ==
+註解
+
+== CommentsLabelPlural ==
+註解
+
+== ChangesLabelSingular ==
+變更
+
+== ChangesLabelPlural ==
+變更
+
+== ChangeColumn ==
+已要求變更
+
+== RevisionWithComments ==
+包含註解的修訂
+
+== LastInBranch ==
+分支中的最後項目
+
+== DiffWithHead ==
+對前端進行差異比對
+
+== ThisFileHasNewChangesInTheBranch ==
+這個檔案在分支中有新變更
+
+== ThisFileHasNewChangesInTheBranchExplanation ==
+您正在對有輸入註解的修訂進行差異比對。但沒有任何新變更。您可以對原始修訂、分支中的最新修訂或兩者間的變更進行差異比對。
+
+== AskQuestionButton ==
+提問
+
+== AskQuestionButtonToolTip ==
+需要先回答才能核准時
+
+== RequestChangeButton ==
+要求變更
+
+== RequestChangeButtonToolTip ==
+需要作者先變更內容才能核准時
+
+== CopyCommentId ==
+將註解 ID 複製至剪貼簿
+
+== ChangeStatusDone ==
+完成
+
+== ChangeStatusPending ==
+暫止中
+
+== ChangeStatusDiscarded ==
+已捨棄
+
+== QuestionsLabelSingular ==
+問題
+
+== QuestionsLabelPlural ==
+問題
+
+== QuestionColumn ==
+問題
+
+== AnswerColumn ==
+回答
+
+== ExploreChangesetsPanelWaitingAnimation ==
+正在載入變更集...
+
+== ChangesetReview ==
+變更集檢閱
+
+== ReviewEntireBranch ==
+檢閱整個分支
+
+== ReviewChangesetByChangeset ==
+按照變更集檢閱
+
+== UpdateStatusTitle ==
+確認狀態更新
+
+== UpdateStatusPendingChangesSingular ==
+您有 1 個變更待套用。
+
+== UpdateStatusPendingChangesPlural ==
+您有 {0} 個變更待套用。
+
+== UpdateStatusPendingQuestionsSingular ==
+您有 1 個問題待回答。
+
+== UpdateStatusPendingQuestionsPlural ==
+您有 {0} 個問題待回答。
+
+== UpdateStatusPendingChangeAndQuestion ==
+您有 1 個變更待套用，並有 1 個問題待回答。
+
+== UpdateStatusPendingChangesAndQuestion ==
+您有 {0} 個變更待套用，並有 1 個問題待回答。
+
+== UpdateStatusPendingChangeAndQuestions ==
+您有 1 個變更待套用，並有 {0} 個問題待回答。
+
+== UpdateStatusPendingChangesAndQuestions ==
+您有 {0} 個變更待套用，並有 {1} 個問題待回答。
+
+== UpdateStatusQuestion ==
+包含暫止註解的程式碼檢閱不應標記為已檢閱。仍要繼續?
+
+== SinceOneWeekAgo ==
+1 週之前
+
+== SinceFifteenDaysAgo ==
+15 天之前
+
+== SinceOneMonthAgo ==
+1 個月之前
+
+== SinceThreeMonthsAgo ==
+3 個月之前
+
+== SinceAGivenDate ==
+指定日期
+
+== CloseChangeRequestedInReview ==
+關閉檢閱中的要求變更
+
+== CollapseReviewCommentsTooltip ==
+摺疊檢閱註解
+
+== ExpandReviewCommentsTooltip ==
+展開檢閱註解
+
+== CollapseCommentsSummaryTooltip ==
+摺疊註解摘要
+
+== ExpandCommentsSummaryTooltip ==
+展開註解摘要
+
+== ReviewCommentsSummaryTitle ==
+檢閱註解摘要
+
+== EmptyChangeList ==
+變更清單是空的
+
+== EmptyQuestionList ==
+問題清單是空的
+
+== MergeFileChangesInConflictCategory ==
+檔案變更發生衝突，可能需要手動操作
+
+== ChangesWithDirectoryConflictsCategory ==
+變更之間存在目錄結構衝突
+
+== MergeFileChangesInConflictForIncomingViewCategory ==
+要下載的檔案與您的變更存在衝突
+
+== MergeFileChangesInConflictRemark ==
+同時在來源與目的地貢獻者中的變更
+
+== MergeFileChangesInConflictRemarkForIncomingView ==
+需要合併
+
+== MergeChangesMadeInSourceOfMergeCategory ==
+在合併來源中所做的變更。沒有衝突
+
+== MergeChangesMadeInSourceOfMergeForIncomingViewCategory ==
+只需要更新的檔案
+
+== MergeMovesToApplyCategory ==
+要套用的移動
+
+== MergeMovesToApplyRemark ==
+已在來源上移動至 {0}
+
+== MergeMovesToApplyRemarkForIncomingView ==
+將套用移動至您的工作區
+
+== MergeDeletesToApplyCategory ==
+要套用的刪除
+
+== MergeDeletesToApplyRemark ==
+已在來源上刪除
+
+== MergeDeletesToApplyRemarkForIncomingView ==
+將套用刪除至您的工作區
+
+== MergeNewItemsToDownloadCategory ==
+要下載的新項目
+
+== MergeNewItemsToDownloadRemark ==
+已新增於來源
+
+== MergeNewItemsToDownloadRemarkForIncomingView ==
+將套用新增至您的工作區
+
+== MergeFileSystemPermissionsChangesToApplyCategory ==
+要套用的檔案系統權限變更
+
+== MergeFileSystemPermissionsChangesToApplyRemark ==
+檔案系統權限中的變更
+
+== MergeFileSystemPermissionsChangesToApplyRemarkForIncomingView ==
+將套用檔案系統權限變更至您的工作區
+
+== MergeFilesToDownloadCaptionSingular ==
+1 個要下載的檔案 ({0})
+
+== MergeFilesToDownloadCaptionPlural ==
+{0} 個要下載的檔案 ({1})
+
+== MergeFilesToDeleteCaptionSingular ==
+1 個要刪除的檔案 ({0})
+
+== MergeFilesToDeleteCaptionPlural ==
+{0} 個要刪除的檔案 ({1})
+
+== MergeToEnterCheckinComment ==
+輸入您的簽入註解
+
+== MergeToEnterCheckinCommentExplanation ==
+為由合併目標所新建的變更集輸入簽入註解。
+
+== IncomingChangesTitle ==
+正在從分支 {0} 傳入變更
+
+== IncomingChangesCannotBeApplied ==
+正在傳入無法套用的變更
+
+== ConfirmRecalculateMergeSingular ==
+您已經解決 1 個目錄衝突。是否要重新計算合併?
+
+== ConfirmRecalculateMergePlural ==
+您已經解決 {0} 個目錄衝突。是否要重新計算合併?
+
+== ConfirmRecalculateMergeMessage ==
+如果繼續，您將遺失針對解決的衝突所選的解決方案。您之後可以再次選擇這些解決方案。
+
+== RecalculateButton ==
+重新計算
+
+== MergeProgressStatus ==
+已更新 {0} 個檔案，共 {1} 個 (待下載 {2} 個檔案，共 {3} 個/待套用 {4} 個作業，共 {5} 個)
+
+== MergeProgressDownloadingFile ==
+正在下載檔案 {0} ({1})
+
+== MergeProgressDownloadingBlock ==
+正在下載 {0} 個檔案的區塊 ({1})
+
+== IncomingChangesAvailableSingular ==
+1 個新變更集可用
+
+== IncomingChangesAvailablePlural ==
+{0} 個新變更集可用
+
+== IncomingChangesConflictsSingular ==
+1 個新變更集 - 衝突
+
+== IncomingChangesConflictsPlural ==
+{0} 個新變更集 - 衝突
+
+== IncomingChangesAvailableForGluon ==
+有可用的新變更
+
+== IncomingChangesConflictsForGluon ==
+新的衝突變更
+
+== UpdateButton ==
+更新
+
+== ViewButton ==
+檢視
+
+== DeleteRepositoryTitle ==
+確認儲存庫刪除
+
+== UndeleteRepositoryTitle ==
+確認取消刪除儲存庫
+
+== DeleteRepositoryWarningText ==
+您即將刪除儲存庫 '{0}'。
+
+== DeleteRepositoriesWarningText ==
+您即將刪除下列儲存庫:
+
+== DeleteRepositoryConfirmText ==
+若要確認，請鍵入儲存庫的名稱
+
+== DeleteRepositoriesConfirmText ==
+若要確認刪除，請鍵入 '{0}'
+
+== DeleteRepositoryCannotUndo ==
+這個動作無法復原。
+
+== DeleteRepositoryConfirmEntry ==
+刪除
+
+== UndeleteRepositoryConfirmText ==
+您即將取消刪除下列儲存庫:{0}.您是否要繼續?
+
+== IncomingChangesMenuItemMergeKeepingSourceChanges ==
+合併保留傳入變更 (前端/來源)
+
+== IncomingChangesMenuItemMergeKeepingWorkspaceChanges ==
+合併保留工作區變更 (您的/目的地)
+
+== IncomingChangesMenuItemDiffIncomingChanges ==
+差異比對傳入變更 (前端/來源)
+
+== IncomingChangesMenuItemDiffYoursWithIncoming ==
+差異比對您的與傳入 (前端/來源)
+
+== IncomingSymbolicName ==
+傳入變更
+
+== WorkingChangesetMissing ==
+工作中的變更集遺失
+
+== WorkingChangesetDeletedTitle ==
+工作中的變更集已刪除
+
+== WorkingChangesetDeletedMessage ==
+您正在工作中的變更集已刪除。
+
+您的簽出及本地變更已不再有效。
+
+您是否要移至 [暫止的變更] 復原您的變更以恢復有效的設定?
+
+== IncomingChangesUpdateTooltip ==
+在此分支中有您可以預覽及下載的新變更
+
+== IncomingChangesResolveTooltip ==
+有與您目前變更存在衝突的檔案
+
+== IncomingChangesWorkingChangesetMissingTooltip ==
+您正在工作中的變更集已刪除。按一下 [更新] 按鈕回到有效的設定
+
+== UndoAllWorkingChangesetDeletedMessage ==
+復原變更時必須更新您的工作區，因為您所使用的變更集已經刪除。
+
+您是否要繼續?
+
+== PartialUndoWorkingChangesetDeletedMessage ==
+您必須復原所有變更，因為您所使用的變更集已經刪除。
+
+您是否要復原所有變更及將工作區更新成有效設定?
+
+== OutOfDateIncomingChangesView ==
+這個檢視已不再有效，因為您所使用的變更集已經刪除。
+
+您必須更新工作區。
+
+== Warning ==
+警告
+
+== IncomingChangesViewTitle ==
+傳入變更
+
+== Reason ==
+原因
+
+== LoadingCodeReviews ==
+正在載入程式碼檢閱...
+
+== ReviewTitleColumn ==
+標題
+
+== ReviewStatusColumn ==
+狀態
+
+== ReviewReviewerColumn ==
+檢閱者
+
+== MergingFile ==
+正在合併 {0} 個檔案，共 {1} 個:{2}
+
+== CodeReviewMenuItemOpen ==
+開啟
+
+== CodeReviewMenuItemDelete ==
+刪除
+
+== DeletingCodeReview ==
+正在刪除標題 {0} 的程式碼檢閱...
+
+== BranchMenuCreateANewCodeReview ==
+新增此分支的程式碼檢閱...
+
+== ChangesetMenuCreateANewCodeReview ==
+新增此變更集的程式碼檢閱...
+
+== CreatingCodeReview ==
+正在建立標題 {0} 的程式碼檢閱...
+
+== ObtainingCodeReviewInfo ==
+正在載入標題 {0} 的程式碼檢閱...
+
+== UpgradeServerForNewCodeReviewError ==
+您必須將伺服器版本升級成 8.0.16.3691 或更高版本，才能使用新版程式碼檢閱系統!
+
+== LoadingMembers ==
+正在載入成員...
+
+== UserChooserDialogTitle ==
+請從下列清單選取使用者或群組:
+
+== SelectUserGroupDialogTitle ==
+Select user or group
+
+== NoUserSelectedErrorMessage ==
+從清單中選取使用者
+
+== UserNotFoundErrorMessage ==
+找不到名稱 '{0}' 的使用者或群組
+
+== UserSizeLimitExceededErrorMessage ==
+驗證伺服器已超過單一查詢的項目上限。請使用搜尋篩選以擷取較少的項目 (按一下重新整理按鈕以觸發擷取)。
+
+== CreateRepositoryDialogDetailedExplanation ==
+儲存庫中存放特定目錄樹狀結構的整個歷史記錄，包括其檔案與目錄的所有修訂、修訂標籤、合併連結和其他中繼資料。
+
+== MergeToMenuItemMergeKeepingDestinationChanges ==
+合併保留目的地變更
+
+== MergeToMenuItemPreserveDestinationChanges ==
+保留目的地變更
+
+== MergeToMenuItemMergeKeepingSourceChanges ==
+合併保留來源變更
+
+== MergeToMenuItemPreserveSourceChanges ==
+保留來源變更
+
+== DetailsColumn ==
+詳細資料
+
+== AuthorColumn ==
+作者
+
+== PrivacyStatementText ==
+數據控管方：Unity Technologies ApS。 數據處理目的：創建您的帳戶並提供所需的服務。 您可以行使Unity 隱私權政策中所述的訪問、修正、刪除等數據保護權利。 更多資訊請參閱 {0}。
+
+== PrivacyStatement ==
+Unity 隱私權政策
+
+== GitSyncDialogTitle ==
+將 Unity VCS 與 Git 同步
+
+== GitSyncDialogExplanation ==
+同步處理儲存庫 '{0}'
+
+== GitSyncDialogDetailedExplanation ==
+這將會同步 Unity VCS 與 Git 儲存庫之間的所需變更集
+
+== SyncButton ==
+同步
+
+== PlasticRepository ==
+Unity VCS 儲存庫:
+
+== GitRepositoryUrl ==
+Git 儲存庫 URL:
+
+== GitRepositoryCannotBeEmpty ==
+儲存庫 URL 欄位不可為空白。
+
+== LoadingStoredGitUrls ==
+正在為儲存庫 '{0}' 載入已儲存的 Git URL
+
+== SyncStatusPullRepository ==
+從 {1} 提取 "{0}"
+
+== SyncStatusPushRepository ==
+將 "{0}" 推送至 {1}
+
+== SyncStatusSyncRepository ==
+正在同步處理 "{0}" 與 {1}
+
+== SyncStatusConflict ==
+警告:Git 與 Unity VCS 端皆有已並行修改的分支。
+這些衝突在 Unity VCS 中是以子分支的形式處理，而且將需進行合併。
+您必須先解決這些分支中的衝突，才能再次同步處理。
+
+== SyncPhaseUpgradingMappings ==
+正在升級映射
+
+== SyncPhaseReceivingReferences ==
+接收參考
+
+== SyncPhaseSyncType ==
+正在壓縮物件
+
+== SyncPhaseCompressing ==
+正在壓縮
+
+== SyncPhaseDownloading ==
+正在下載
+
+== SyncPhaseProcessing ==
+正在處理
+
+== SyncPhaseImporting ==
+正在匯入
+
+== SyncPhaseExporting ==
+正在匯出
+
+== SyncPhasePackaging ==
+正在封裝
+
+== SyncPhaseUploading ==
+正在傳送
+
+== SyncPhaseCompleted ==
+已完成
+
+== Users ==
+使用者
+
+== Groups ==
+群組
+
+== Both ==
+兩者
+
+== SelectedUserOrGroup ==
+已選取的使用者或群組:
+
+== User ==
+使用者
+
+== Group ==
+群組
+
+== SpecialUser ==
+特殊使用者
+
+== SpecialGroup ==
+特殊群組
+
+== AddButton ==
+新增...
+
+== RemoveButton ==
+移除
+
+== AllowAll ==
+全部允許
+
+== DenyAll ==
+全部拒絕
+
+== RepositoryServerPermissions ==
+儲存庫伺服器權限
+
+== PermissionsFor ==
+{0} 的權限
+
+== ConfigureObjectPermissions ==
+設定物件權限
+
+== PermissionsColumn ==
+權限
+
+== AllowedColumn ==
+已允許
+
+== DeniedColumn ==
+已拒絕
+
+== SecurityRepserverEntriesCannotBeEmpty ==
+儲存庫伺服器必須具備針對至少一個有效使用者或群組定義的權限。
+請為其中一個對象設定權限，並重試。
+
+== PermissionsCantRemoveInheritedSeid ==
+無法移除繼承項目
+
+== MsgAllowDeny ==
+遭拒的權限將置換允許的權限
+
+== ChangeOwner ==
+變更...
+
+== UsersAndGroups ==
+使用者和群組
+
+== PermissionsMenuItem ==
+權限
+
+== Override ==
+置換
+
+== OverrideHelp ==
+可置換權限以略過繼承。標記為已置換，然後設定新值。
+
+== DeleteBranchGroup ==
+刪除分支群組
+
+== DeleteSelectedBranchGroup ==
+您即將刪除選取的分支群組。
+
+== ContinueQuestion ==
+您是否要繼續?
+
+== DoNotShowMessageAgain ==
+Do not show this message again
+
+== PathPermissions ==
+路徑權限
+
+== DeleteSecuredPath ==
+刪除路徑
+
+== DeleteSelectedSecuredPath ==
+您即將刪除選取的路徑。
+
+== AllBranches ==
+所有分支
+
+== NewBranchGroupTitle ==
+選取分支
+
+== NewBranchGroupExplanation ==
+選取將套用新路徑權限的分支
+
+== NewBranchGroupLabel ==
+輸入分支
+
+== BranchesRadioButton ==
+分支:
+
+== NewBranchGroupIdentificationTag ==
+輸入分支群組的識別標籤:
+
+== NoBranchSelected ==
+未選取任何分支
+
+== EditBranchGroupLabel ==
+編輯分支群組
+
+== EditBranchGroupExplanation ==
+新增分支至分支群組或從其中移除分支
+
+== PathPermissionFormExplanation ==
+設定安全路徑權限。請注意，這些權限將與對應的分支和上層路徑合併。
+
+== RetrievingRepositoryServerInfoProgress ==
+正在擷取儲存庫伺服器資訊...
+
+== CalculatingPermissionsInfo ==
+正在計算權限資訊...
+
+== RetrievingSecuredPathsProgress ==
+正在擷取安全路徑...
+
+== RetrievingAllSecuredPathsProgress ==
+正在擷取所有安全路徑...
+
+== NewSecuredPathTitle ==
+建立新安全路徑
+
+== NewSecuredPathExplanation ==
+建立新安全路徑，您可在其中定義路徑權限
+
+== NewSecuredPathLabel ==
+請輸入路徑
+
+== DefineBranchesCheckBox ==
+在建立路徑後設定分支
+
+== PartialWorkspaceStripLabel ==
+此工作區處於局部模式。[[UpdateWorkspace|執行更新]] (取得最新版本) 以切換至完整模式。此 GUI 無法在局部模式下順利運作
+
+== FullWorkspaceStripLabel ==
+此工作區處於完整模式。[[UpdateWorkspace|執行更新]] (取得最新版本) 以切換至局部模式。此 GUI 無法在完整模式下順利運作
+
+== RemainingProgressMessage ==
+剩餘
+
+== DiffLinkButtonTooltip ==
+複製連結以共用差異比對
+
+== GluonFilePlasticLinkText ==
+取得連結 - 複製此檔案的連結，讓您輕鬆與他人分享
+
+== OAuthSignInCheckMessage ==
+正在等待工作階段...
+
+== RetrievingOrgsProgress ==
+正在擷取組織...
+
+== GettingSSOProviders ==
+正在取得組織提供者...
+
+== CompleteSignInOnBrowser ==
+使用您的瀏覽器完成登入。
+
+== Or ==
+或
+
+== OrganizationNameWatermark ==
+您的組織名稱
+
+== SSOSignInTitle ==
+使用單一登入進行登入
+
+== SignInToOrganization ==
+登入 {0}
+
+== NoProvidersForOrganization ==
+指定的組織不允許使用 SSO 存取
+
+== DontKnowOrganizationName ==
+我不知道組織名稱
+
+== KnowOrganizationName ==
+我知道組織名稱
+
+== CompanyEmail ==
+公司電子郵件
+
+== SignInWithSingleSignOn ==
+使用單一登入進行登入
+
+== SentEmailStatementText ==
+我們已傳送一封電子郵件至 {0}，當中包含您所屬的組織。請檢查電子郵件，然後使用您的 {1} 登入
+
+== OrganizationNameStatementText ==
+組織名稱。
+
+== SendingEmail ==
+正在傳送電子郵件...
+
+== EmailNotSent ==
+無法傳送電子郵件
+
+== FileMerge ==
+File Merge
+
+== KDiff3 ==
+KDiff3
+
+== SemanticMerge ==
+Semantic Merge
+
+== UnitySmartMerge ==
+Unity Smart Merge
+
+== OpenInDesktopApp ==
+Open in Desktop App
+
+== OpenInGluon ==
+Open in Gluon
+
+== ElementNotFound ==
+找不到元素
+
+== RevisionNotConnected ==
+無法處理，未複寫相關修訂
+
+== ChangedMergeFromCs ==
+已在合併來源與目的地中變更 (從 cs:{0})
+
+== NotChanged ==
+未變更
+
+== Added ==
+已新增
+
+== Changed ==
+已變更
+
+== MergeFromCs ==
+ 在合併來源中 (從 cs:{0})
+
+== MovedOutScope ==
+從 {0} 移至 {1}
+
+== Renamed ==
+從 {0} 重新命名為 {1}
+
+== MovedDownPosition ==
+向下移動 {0} 個位置
+
+== MovedUpPosition ==
+向上移動 {0} 個位置
+
+== And ==
+ 和 {0}
+
+== ErrorDialogTitle ==
+Error - {0}
+
+== InstallUnityVersionControl ==
+Install Unity Version Control
+
+== CreateAUnityVersionControlWorkspace ==
+ Create a Unity Version Control workspace for this project
+
+== LoginOrSignUpUnityVersionControl ==
+ Login or sign up for a Unity Version Control account
+
+== PrefixUnityVersionControlMenu ==
+Assets/Unity Version Control
+
+== UnityInitialCheckinComment ==
+Add packages and project settings to Unity Version Control.
+
+== UnityVersionControl ==
+Unity Version Control
+
+== PlasticConfigurationTitleUnityVCS ==
+Configure the connection to the Unity VCS server

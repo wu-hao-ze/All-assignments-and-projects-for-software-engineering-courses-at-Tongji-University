@@ -1,0 +1,2806 @@
+== WrongRevFormat3D ==
+El formato de la revision especificado no es valido
+
+== AcceptResults ==
+Desea guardar los cambios? (S/N):
+
+== ActivatedUsers ==
+Total usuarios activos:       {0}
+
+== ActiveKey ==
+ACTIVO
+
+== Add ==
+controla si los archivos y directorios pueden ser añadidos al repositorio
+
+== AddAndMove ==
+Conflicto de añadido y movido
+
+== AddMoveConflictAction1 ==
+Mantener ambos y renombrar el ítem en el destino
+
+== AddMoveConflictAction2 ==
+Mantener los cambios en origen (preservar el añadido y descartar el movido)
+
+== AddMoveConflictAction3 ==
+Mantener los cambios en destino (preservar el movido y descartar el añadido)
+
+== AddNotApplicable ==
+El ítem no puede ser descargado en el workspace. Posiblemente, el path ya está en uso. Por favor, desmarque el ítem  (desde la vista de configuración) y reintente la operación: '{0}'.
+
+== Added ==
+Añadido
+
+== AddedMovedConflictDestinationOperation ==
+Movido de {0} a {1}
+
+== AddedMovedConflictExplanation ==
+Un ítem ha sido añadido en el origen y otro ha sido movido en el destino a la misma ruta.
+
+== AddedMovedConflictSourceOperation ==
+Añadido {0}
+
+== AddedOldNameConflict ==
+El ítem fue añadido con un nombre que ya estaba en uso
+
+== AddedSameNameConflict ==
+Se han añadido dos items con el mismo nombre
+
+== AdminReadonlyEntered ==
+El servidor entró en el modo solo-lectura.
+
+== AdminReadonlyEntering ==
+El servidor está entrando en el modo solo-lectura. Por favor espere.
+
+== AdminReadonlyLeaving ==
+El servidor está saliendo del modo solo-lectura. Por favor espere.
+
+== AdminReadonlyLeft ==
+El servidor salió del modo solo-lectura.
+
+== Advancedquery ==
+controla la ejecución de consultas avanzadas
+
+== All ==
+Todos
+
+== AllUsersKey ==
+TODOS
+
+== AllowedKey ==
+Permit.
+
+== AlsoThreeOption ==
+Puedes tambien: 3. Renombrar dst con un nuevo nombre
+
+== AncestorContributor ==
+Changeset antecesor: {0} (Rama {1})
+
+== AppliedRename ==
+El renombrado local {0} -> {1} será aplicado.
+
+== Applyattr ==
+permite al usuario aplicar atributos
+
+== Applylabel ==
+controla la operación de etiquetar un changeset
+
+== Archived ==
+Archivado
+
+== AskDeleteWorkspace ==
+No se ha especificado ningún espacio de trabajo. ¿Desea borrar el actual? (S/N):
+
+== AskDeleteDynamicWorkspace ==
+El espacio de trabajo es dinámico. Todos los elementos privados se PERDERÁN si se borra. ¿Desea continuar? (S/N):
+
+== AttValueField ==
+El valor del atributo
+
+== Available ==
+Disponible
+
+== AvailableUsers ==
+Total licencias disponibles:  {0}
+
+== BinFileMetadataChangeset ==
+Changeset: {0}
+
+== BinFileMetadataCreated ==
+Creado por: {0}
+
+== BinFileMetadataModified ==
+Fecha de modificación: {0}
+
+== BinFileMetadataSize ==
+Tamaño: {0}
+
+== BisyncAutoLinkedCommentFormat ==
+Se han enlazado automáticamente los changesets {0} y {1}
+
+== BisyncBranchAttributeError ==
+El atributo de la rama no está formado correctamente.
+
+== BisyncBranchBothChanges ==
+La rama '{0}' tiene nuevos cambios locales y remotos {1}
+
+== BisyncBranchExcluded ==
+- {0}: Excluida
+
+== BisyncBranchForeignChanges ==
+La rama '{0}' tiene nuevos cambios remotos {1}
+
+== BisyncBranchLocalChanges ==
+La rama '{0}' tiene nuevos cambios locales {1}
+
+== BisyncBranchMappedNotFound ==
+No se ha encontrado la rama '{0}' enlazada a la referencia '{1}'.
+
+== BisyncBranchUpToDate ==
+La rama '{0}' está actualizada {1}
+
+== BisyncBranches ==
+Ramas
+
+== BisyncBranchesInSync ==
+Las ramas están sincronizadas. No hay cambios que importar o exportar.
+
+== BisyncChangesetNotTranslated ==
+No se pudo traducir el changeset {0}
+
+== BisyncChangesetsInvolved ==
+Changesets procesados
+
+== BisyncChangesetsNotSorted ==
+No se han podido ordenar los changesets a importar
+
+== BisyncCheckCommit ==
+Comprobar commit
+
+== BisyncCommitCheckFailed ==
+Ha fallado la comprobación del commit
+
+== BisyncCommitDiscarded ==
+El commit '{0}' ya ha sido importado.
+
+== BisyncCommitNotFound ==
+No se ha encontrado en Unity VCS el commit al que se hace referencia {0}
+
+== BisyncCommitedForeignChanges ==
+Se hizo commit del changeset {0} (plastic cset:{1})
+
+== BisyncCommitsCannotBeProcessed ==
+Existen commits que no han podido ser procesados.
+
+== BisyncComplete ==
+Sincronización completa
+
+== BisyncCompressing ==
+Comprimiendo objetos
+
+== BisyncConflictBranches ==
+Ramas con conflictos
+
+== BisyncConnectException ==
+Se ha producido un error mientras se conectaba con Git: {0}
+
+== BisyncCsetNotFoundWithGuid ==
+No se ha encontrado el último changeset sincronizado con el guid {0}
+
+== BisyncCtrlCDetected ==
+Ctrl+C detectado. Por favor, espere hasta que el changeset actual haya sido sincronizado. Después, la operación de sincronización efectuará una parada controlada.
+
+== BisyncDownloading ==
+Descargando
+
+== BisyncDownloadingMappings ==
+Descargando mappings del servidor
+
+== BisyncErrorPushingCs ==
+Se ha producido un error en la operación de push de cs:{0}. {1}\n{2}
+
+== BisyncExportComplete ==
+
+Exportación completada.
+
+== BisyncExportedToCommit ==
+Exportado cs:{0} al commit ({1})
+
+== BisyncExporting ==
+Exportando
+
+== BisyncForeignTreeNotRetrieved ==
+No se ha podido obtener el árbol remoto para la rev:{0}
+
+== BisyncGetfileNotValid ==
+El método GetFile by path no está soportado por el git puller
+
+== BisyncGettingInfo ==
+Obteniendo referencias
+
+== BisyncGettingInfoDone ==
+Obteniendo referencias del servidor remoto, listo.
+
+== BisyncInvalidCredentials ==
+Las credenciales introducidas para el repositorio no son válidas
+
+== BisyncInvalidNodeType ==
+El tipo de nodo no es válido
+
+== BisyncInvalidScm ==
+No se ha espeficifado un SCM válido
+
+== BisyncItemDiscardedWithoutRevid ==
+El elemento '{0}' con hash '{1}' no está enlazado a ningún revid, por lo tanto será descartado.
+
+== BisyncLastCsetForeign ==
+Último changeset en SCM externo: {0}
+
+== BisyncLastEquivalenceFound ==
+Última equivalencia encontrada {0}
+
+== BisyncLfsException ==
+Se ha producido un error al contactar con GitHub LFS: {0}. Puede deshabilitar el soporte para Git LFS desde la línea de comandos (cm sync) con el parámetro '--skipgitlfs'.
+
+== BisyncNoChangesPull ==
+No se han encontrado nuevas revisiones que importar del SCM externo
+
+== BisyncNoSettingsMultipleStore ==
+No se ha especificado repositorio y hay varias preferencias guardadas para {0}. Por favor, especifique el repositorio de git a sincronizar.
+
+== BisyncNoSettingsNoStore ==
+No se ha especificado rama o repositorio y no hay preferencias guardadas para {0}
+
+== BisyncNothingToCommit ==
+Nada que guardar.
+
+== BisyncObjectCount ==
+Objetos
+
+== BisyncPackaging ==
+Empaquetando...
+
+== BisyncPendingChanges ==
+Se han encontrado cambios para importar y exportar.
+
+== BisyncPendingChangesExplanation ==
+Se importarán los cambios remotos. Posteriormente deberá hacer la operación de merge antes de exportarlos nuevamente.
+
+== BisyncProcessingObjects ==
+Procesando objetos
+
+== BisyncPullComplete ==
+Importación completa.
+
+== BisyncPullCsetList ==
+El proceso importará cambios de Git
+
+== BisyncPullingChangesets ==
+Importando
+
+== BisyncPushCsetList ==
+El proceso exportará cambios a Git
+
+== BisyncPushErrors ==
+Errores durante el push:
+
+== BisyncPushingRepository ==
+Exportando repositorio {0} hacia '{1}'
+
+== BisyncReferenceWithoutSha ==
+No se pueden procesar referencias sin SHA
+
+== BisyncRemoteDeletedSkip ==
+La rama '{0}' ha sido borrada en el repositorio remoto y será ignorada.
+
+== BisyncRemoteError ==
+Error remoto: {0}
+
+== BisyncRemoteMappingSkip ==
+La rama '{0}' viene del mapeo de una etiqueta remota y será ignorada.
+
+== BisyncResults ==
+Resultados:
+
+== BisyncRevisionDiscardedNotRetrieved ==
+La revision enlazada {0} con sha '{1}' no se pudo obtener, con lo cual será descartada.
+
+== BisyncSettingsNotMatch ==
+La información introducida no coincide con los registros para la rama o repositorio {0}. La información introducida es: {1}. Los mappings se están guardando aquí {2}. Para usuarios avanzados: es posible borrar los mappings y reintentar la operación.
+
+== BisyncShaNotFound ==
+No se ha encontrado SHA para la revid:{0}
+
+== BisyncShaNotValid ==
+El SHA a procesar no es válido
+
+== BisyncSincronizingRepository ==
+Sincronizando repositorio {0} con '{1}'
+
+== BisyncSyncStatusSaved ==
+Estado de sincronización guardado: cset de Unity VCS {0} -> {1} commit {2}
+
+== BisyncTagCannotBeApplied ==
+No se ha podido aplicar la etiqueta '{0}' a la revisión '{1}'.
+
+== BisyncTreeNotRetrieved ==
+No se ha podido obtener el árbol para el cs:{0}.
+
+== BisyncTypeWithoutBuilder ==
+El tipo de git {0} no tiene constructor.
+
+== BisyncUploadComplete ==
+Carga completa.
+
+== BisyncUploading ==
+Enviando...
+
+== BisyncWarnPushingCs ==
+Advertencia exportando cs:{0}. {1}\n{2}
+
+== BisyncWrongBranchName ==
+Nombre de rama incorrecto
+
+== BisyncWrongFileFormat ==
+El fichero '{0}' contiene errores. El formato de la linea '{1}' no es correcto.
+
+== Branch ==
+Rama
+
+== BranchHistoryEntryBase ==
+Inicio de intervalo (sólo en merges de intervalo): {0}
+
+== BranchHistoryEntryDate ==
+Fecha: {0}
+
+== BranchHistoryEntryDestination ==
+Changeset destino: {0}
+
+== BranchHistoryEntryMergeType ==
+Tipo de merge: {0}
+
+== BranchHistoryEntryOwner ==
+Autor: {0}
+
+== BranchHistoryEntrySource ==
+Changeset origen: {0}
+
+== BranchHistoryEntryType ==
+Tipo: {0}
+
+== CalculatingInitialChangeset ==
+Calculando changeset inicial
+
+== CannotBeDeletedChanged ==
+El elemento '{0}' no puede ser borrando en disco porque ha sido modificado localmente.
+
+== CannotBeDownloadChanged ==
+El fichero '{0}' no puede ser actualizado con el nuevo contenido porque ha sido modificado localmente.
+
+== CannotChangeRepoPartialSwitch ==
+El comando 'partial switch' no puede cambiar de repositorio. Por favor, elimine la especificación de repositorio de la especificación de rama.
+
+== CannotCheckinIncomingChangesInProgress ==
+No se puede hacer checkin mientras hay una operación de Incoming Changes en progreso. Es necesario terminarla antes de repetir el checkin.
+
+== CannotCheckinMergeInProgress ==
+La operación de checkin no puede empezar porque hay un merge en progreso: Finalízalo antes de hacer checkin de los cambios. Merge en progreso: {0} desde el changeset {1}
+
+== CannotDeleteChangesetWithPendingChanges ==
+No se puede eliminar un changeset de la rama actualmente cargada en el workspace mientras haya cambios pendientes.
+
+== CannotDownloadRevision ==
+No se puede descargar la revisión {0} del servidor: {1}
+
+== CannotMakeTube ==
+El tubo no puede ser creado. {0}
+
+== CannotMoveChangesetWithPendingChanges ==
+No se puede mover un changeset de la rama actualmente cargada en el workspace mientras haya cambios pendientes.
+
+== CannotRemoveTube ==
+El tubo no puede ser eliminado. {0}
+
+== CannotRestoreDeleteWithChangesInside ==
+El ítem '{0}' no puede ser restaurado porque tenía cambios dentro cuando fue borrado. Por favor, deshaga los cambios pendientes y repita el merge sin cambios locales o con otra resolución.
+
+== CannotStartTubeSession ==
+No se pudo iniciar la sesión con Plastic Tube. {0}
+
+== CannotUnlockItems ==
+No se pueden deshacer los siguientes checkouts exclusivos ya que el usuario actual no es el administrador ni el propietario de los bloqueos:{0}
+
+== CantExecuteAdvQuery ==
+No se pudo ejecutar la consulta. Posiblemente esté trabajando desde un directorio privado.
+
+== Change ==
+controla si los archivos y los directorios pueden ser modificados en el repositorio
+
+== ChangeBoth ==
+Debe cambiar el nombre de los dos items
+
+== ChangeDelete ==
+Conflicto de cambiado y borrado
+
+== ChangeDeleteConflictActions11 ==
+Mantener los cambios en origen (preservar el añadido y descartar el borrado)
+
+== ChangeDeleteConflictActions12 ==
+Mantener los cambios en destino (preservar el borrado y descartar el añadido)
+
+== ChangeDeleteConflictActions21 ==
+Mantener los cambios en origen (preservar el cambio y descartar el borrado)
+
+== ChangeDeleteConflictActions22 ==
+Mantener los cambios en destino (preservar el borrado y descartar el cambio)
+
+== ChangeDeleteConflictDestinationOperation ==
+Borrado {0}
+
+== ChangeDeleteConflictExplanation ==
+Un ítem ha sido {0} en el origen, y el destino ha borrado este ítem o su padre.
+
+== ChangeDeleteConflictSourceOperation ==
+{0} {1}
+
+== ChangeDependencies ==
+Cambio: {0}. Dependencias:
+
+== ChangedItemAlreadyDeleted ==
+El ítem no será descargado porque se encuentra borrado en el workspace: '{0}'. Por favor, deshaga o confirme el cambio local y reintente la operación.
+
+== ChangeReviewNotFound ==
+Las siguientes peticiones de cambio (especificadas en el comentario del checkin) no pudieron ser encontradas o ya están aplicadas en otro changeset:{0}{1}
+
+== Changecomment ==
+permite al usuario cambiar comentarios
+
+== Changed ==
+Cambiado
+
+== ChangelistBuiltIn ==
+Creado por Unity VCS
+
+== ChangelistCherryPickSubtractive ==
+Cherry pick substractivo
+
+== ChangelistCherryPicking ==
+Cherry pick
+
+== ChangelistDefaultComment ==
+Changelist por defecto de Unity VCS
+
+== ChangelistEmptyDescription ==
+<Sin descripción>
+
+== ChangelistHiddenComment ==
+Changelist que contiene los cambios ocultos definidos por el usuario
+
+== ChangelistIntervalCherryPick ==
+Cherry pick de intervalo
+
+== ChangelistIntervalCherryPickSubtractive ==
+Cherry pick substractivo de intervalo
+
+== ChangelistManagementChanged ==
+Changelist '{0}' cambiado satisfactoriamente.
+
+== ChangelistManagementCreated ==
+Changelist '{0}' creado.
+
+== ChangelistManagementDeleted ==
+Changelist '{0}' borrado satisfactoriamente.
+
+== ChangelistMerge ==
+Merge
+
+== ChangelistMergeComment ==
+Ficheros cambiados durante el merge
+
+== ChangelistMergeName ==
+{0} desde cs:{1}
+
+== Changeset ==
+Changeset
+
+== CheckedOutKey ==
+Desprotegido
+
+== CheckedOutChangedKey ==
+Desprotegido (cambiado)
+
+== CheckedOutUnchangedKey ==
+Desprotegido (sin cambios)
+
+== CheckinParallelMsg ==
+Checkin multihilo
+
+== RemainingMsg ==
+restante
+
+== CheckinParallelUploadNumThreads ==
+subiendo {0} bloques en paralelo
+
+== CheckinProgressUploadingFileData ==
+Enviando fichero {0}  ({1}) al repositorio
+
+== CheckinStatusCancelling ==
+Cancelando la operación de checkin
+
+== CheckinStatusConfirming ==
+Confirmando la operación de checkin
+
+== CheckinStatusFinished ==
+Checkin terminado
+
+== CheckinStatusGeneratingdata ==
+Obteniendo información de checkin
+
+== CheckinStatusRestoringpermissions ==
+Restaurando permisos de acceso
+
+== CheckinStatusStarting ==
+Iniciando operación de checkin...
+
+== CheckinStatusUploading ==
+Transmitiendo ficheros
+
+== CheckinStatusValidating ==
+Validando la operación
+
+== CheckoutCannotBeSaved ==
+El contenido del ítem {0} no ha podido salvarse.
+
+== CherryPick ==
+Cherry pick
+
+== CherrypickChangeDeleteConflictName ==
+Conflicto de cambiado y no cargado
+
+== CherrypickChangeDeleteConflictExplanationForAdded ==
+Un ítem ha sido añadido en el origen, pero el destino no carga su padre
+
+== CherrypickChangeDeleteConflictExplanationForChangedFileOnMissingDir ==
+Un fichero ha sido modificado en el origen, pero el destino no carga su padre
+
+== CherrypickChangeDeleteConflictExplanationForChangedMissingFile ==
+Un fichero ha sido modificado en el origen, pero el destino no lo carga
+
+== CherrypickChangeDeleteConflictSrcActionForAddedItemOnMissingDir ==
+Mantener los cambios en origen (cargar el directorio y añadir el ítem)
+
+== CherrypickChangeDeleteConflictDstActionForAdd ==
+Mantener los cambios en destino (descartar el añadido)
+
+== CherrypickChangeDeleteConflictSrcActionForChangedFileOnMissingDir ==
+Mantener los cambios en origen (cargar el directorio y añadir el fichero con el contenido de origen)
+
+== CherrypickChangeDeleteConflictSrcActionForChangedMissingFile ==
+Mantener los cambios en origen (añadir el fichero con el contenido de origen)
+
+== CherrypickChangeDeleteConflictDstActionForChange ==
+Mantener los cambios en destino (descartar el cambio)
+
+== Chgowner ==
+controla la operación de cambiar el propietario
+
+== Chgperm ==
+controla la operación de cambiar permisos
+
+== ChooseResolution ==
+Por favor, elija una resolucion para este conflicto. ¿Que operacion quieres mantener?:
+
+== Ci ==
+controla la operación de checkin
+
+== CleanDiffCalcMerges ==
+Calulando los merges hacia la rama br:{0}@{1}@{2}
+
+== CleanDiffNotifyFinish ==
+Omitidas las diferencias de los merges
+
+== CleanDiffNotifyTotal ==
+Omitiendo las diferencias de {0} changesets (los destinos de los merges)
+
+== CleanDiffProcessCset ==
+Omitidas las diferencias del changeset cs:{0}@{1}@{2}
+
+== Cloaked ==
+Cloaked
+
+== CloneDstRepositoryAlreadyExists ==
+El repositorio destino '{0}' ya existe y está vacío.
+
+== CloneDstRepositoryCreated ==
+El repositorio destino '{0}' ha sido creado.
+
+== CmUndoIncompatibleFlags ==
+Las opciones '--silent' y '--machinereadable' no son compatibles.
+
+== CmUncoIncompatibleFlag ==
+La opción '--keepchanges' no es compatible con workspaces dinámicos.
+
+== CmdApiPressEnterToExit ==
+API REST cliente de Unity VCS: Pulse <ENTER> para salir.
+
+== CmdApiInvalidPort ==
+Número de puerto incorrecto: {0}
+
+== CmdArchiveErrorRestore ==
+Ha habido un error restaurando los datos archivados. Recuerde que debe ser el administrador del servidor Unity VCS para poder restaurar datos archivados. {0}
+
+== CmdAskMkworkspaceConfirmdeletedir ==
+Se va a borrar el directorio {0}. ¿Está seguro? [S|N]
+
+== CmdCannotBePerformedInPartialWk ==
+Esta operación no esta permitida en espacios de trabajo parciales.
+
+== CmdCannotBePerformedInStandardWk ==
+Esta operación no esta permitida en espacios de trabajo estándar.
+
+== CmdErrorAclNoSuchUserOrGroup ==
+No existe el usuario o grupo
+
+== CmdErrorCantShelveCheckin ==
+No se puede hacer shelve de una revisión en checkin. {0}
+
+== CmdErrorCantShelveDirectory ==
+No se puede hacer shelve de un directorio. {0}
+
+== CmdErrorCantShelveNoinputfile ==
+No se puede hacer shelve de {0} porque no se ha especificado un fichero de contenido
+
+== CmdErrorGetfileCantWriteOutput ==
+Error: no se puede acceder al fichero de salida {0} por ser de sólo lectura
+
+== CmdErrorGetfileRevnotfound ==
+No se ha encontrado la revisión especificada. {0}
+
+== CmdErrorIncorrecBrspec ==
+Especificación de rama incorrecta
+
+== CmdErrorIncorrecWkspec ==
+Especificación del espacio de trabajo no válida
+
+== CmdErrorIncorrectCodeReviewId ==
+La revisión de código especificada no es válida: {0}
+
+== CmdErrorLabelIncorrectrevspec ==
+La revisión especificada no es correcta: {0}
+
+== CmdErrorLabelItemNotFound ==
+No se puede etiquetar {0}. El ítem es privado
+
+== CmdErrorLabelMarkerspecnotfound ==
+No se encuentra la etiqueta especificada {0}.
+
+== CmdErrorListrepRepserverunknown ==
+Servidor de repositorios desconocido
+
+== CmdErrorMergeWithModifiedItems ==
+
+      Tienes ficheros cambiados pendientes de hacerles checkin en el workspace.
+      Es recomendable que hagas checkin antes del merge para evitar posibles
+      problemas al deshacer el merge.
+      Si estás familiarizado con el merge, puedes cambiar este comportamiento
+      añadiendo la siguiente clave a tu fichero 'client.conf':
+
+      <MergeWithPendingChanges>yes</MergeWithPendingChanges>
+
+      Nota: cambiamos este comportamiento para evitar problemas a los nuevos
+      usuarios, aunque no es peligroso habilitarlo si estás familiarizado con
+      cómo funciona el merge.
+
+
+== CmdErrorNoSuchBranch ==
+No existe rama {0} en el repositorio {1}.
+
+== CmdErrorNoSuchTypeTrigger ==
+El tipo {0} no es válido. Recuerde que su formato es subtipo-tipo.
+
+== CmdErrorNoSuchUser ==
+El usuario {0} no existe
+
+== CmdErrorNoSuchUserDuCommandHint ==
+Quizá necesite especificar la opción "--nosolveuser" para desactivar un usuario que ya no existe en el sistema de autenticación.
+
+== CmdErrorNoWkFoundFor ==
+No se ha podido encontrar un espacio de trabajo para {0}
+
+== CmdErrorNotLocateItemhandler ==
+No se ha podido obtener el ItemHandler
+
+== CmdErrorRevertRevnotfound ==
+La revisión especificada para volver a ella no es válida: {0}
+
+== CmdErrorUndocheckoutCantfindrev ==
+No se ha podido encontrar la revisión especificada: {0}
+
+== CmdErrorUndocheckoutIdNotCheckedout ==
+La revisión especificada no está desprotegida: {0}
+
+== CmdErrorUndocheckoutIncorrectspec ==
+La especificación {0} no es correcta
+
+== CmdErrorUpdateProcessingItem ==
+Error al obtener {0}. {1}
+
+== CmdErrorWkNotCreatedOnServer ==
+No se ha podido crear el espacio de trabajo
+
+== CmdMandatoryParameter ==
+{0}: El parámetro {1} es necesario.
+
+== CmdMessageAddIgnoredError ==
+El ítem {0} no se ha podido añadir. Error: {1}
+
+== CmdMessageAddItemadded ==
+El ítem {0} se ha añadido correctamente
+
+== CmdMessageCiIgnoredError ==
+El ítem '{0}' no se ha podido proteger. Error: {1}
+
+== CmdMessageItemcheckout ==
+El ítem {0} se ha desprotegido correctamente
+
+== CmdMessageManipulateselectorNoselector ==
+No se ha indicado ningún selector.
+
+== CmdMessageMkworkspaceCorrectlycreated ==
+El espacio de trabajo {0} se ha creado correctamente
+
+== CmdMessageMkworkspaceDynamicWaitToMount ==
+Esperando a que plasticfs monte el nuevo espacio de trabajo (puede tardar unos segundos más)...
+
+== CmdMessageMvworkspaceDynamicWaitToMount ==
+Esperando a que plasticfs monte el espacio de trabajo en su nueva ubicación (puede tardar unos segundos más)...
+
+== CmdMessageMkworkspaceDynamicMounted ==
+¡El nuevo espacio de trabajo dinámico está listo para usarse!
+
+== CmdMessageMvworkspaceDynamicMounted ==
+¡El espacio de trabajo dinámico ha sido movido con éxito!
+
+== CmdMessageMkworkspaceDynamicRequiredParams ==
+Para crear un espacio de trabajo dinámico, es obligatorio especificar simultáneamente los parámetros '--dynamic' y '--tree=[tree]'. Ejecute 'cm workspace create --help' para más información.
+
+== CmdMessageNoworkspacesfound ==
+No hay ningún espacio de trabajo en esta máquina
+
+== CmdMessageNoworkspacesfoundInPath ==
+No se encontraron workspaces en el path {0}.
+
+== CmdMessageProceedAdd ==
+Se va a proceder a añadir los items seleccionados. Por favor, espere ...
+
+== CmdMessageProceedCheckdb ==
+Comprobar la integridad de la base de datos puede requerir algo de tiempo. Por favor, espere ...
+
+== CmdMessageProceedCheckin ==
+Se va a proceder a proteger los items seleccionados. Por favor, espere ...
+
+== CmdMessageProceedShelveset ==
+Se va a proceder a crear un shelve con los items seleccionados. Por favor, espere ...
+
+== CmdMessageProceedCheckout ==
+Se va a proceder a desproteger los items seleccionados. Por favor, espere ...
+
+== CmdMessageRemoveItem ==
+Se ha borrado el ítem {0}
+
+== CmdMessageShowselectorNoselector ==
+No se ha especificado ningún selector
+
+== CmdMessageWorkspacedeleted ==
+El workspace {0} ha sido borrado.
+
+== CmdMktriggerPosition ==
+Trigger creado en la posicion {0}.
+
+== CmdMoved ==
+{0} se ha movido a {1}
+
+== CmdMsgCopiedFromRep ==
+Descargado {0} de {1}
+
+== CmdMsgCreateDir ==
+Creando directorio {0}
+
+== CmdMsgFileAlreadyExistsInWk ==
+El ítem {0} ya existe en el espacio de trabajo actual
+
+== CmdMsgFileChangedInWk ==
+El ítem {0} se ha modificado en el espacio de trabajo actual. No se sobrescribirá.
+
+== CmdMsgFileChangedInWkToRm ==
+El ítem {0} se ha modificado en el espacio de trabajo actual. No se borrará.
+
+== CmdMsgFileDateNotChangedInWk ==
+No se modificó la fecha de {0} en el espacio de trabajo
+
+== CmdMsgFileNewerInWk ==
+El fichero {0} es más nuevo en el workspace. No se sobrescribirá.
+
+== CmdMsgItemCantLabelNoLabelOnRep ==
+La revisión {0} está en un repositorio que no contiene esa etiqueta
+
+== CmdMsgLabelCantLabelOtherRep ==
+La revisión {0} no está en el repositorio de la etiqueta
+
+== CmdMsgLabelCorrectlyLabeled ==
+El changeset {0} fue etiquetado correctamente
+
+== CmdMsgLsNotloaded ==
+No se ha cargado
+
+== CmdMsgMergeCannotmergecloaked ==
+Se descarta el elemento {0} para el merge por estar cloaked.
+
+== CmdMsgMergeCannotmergedir ==
+Se descarta el elemento {0} para hacer merge, porque durante el proceso de merge el elemento ha quedado eliminado.
+
+== CmdMsgMergeCannotmergefile ==
+Se descarta el elemento {0} para hacer merge, porque durante el proceso de merge el elemento ha quedado eliminado.
+
+== CmdMsgMergeDone ==
+Merge realizado correctamente
+
+== CmdMsgMergeGoingtocopymerge ==
+Haciendo copymerge de {0} ...
+
+== CmdMsgMergeGoingtomerge ==
+Haciendo merge de {0} ...
+
+== CmdMsgMergeInvalidinterval ==
+El intervalo de changesets seleccionado no es válido
+
+== CmdMsgMergeMergingmoveddir ==
+El directorio {0} se ha movido a {1} y se ha a hacer merge ...
+
+== CmdMsgMergeMergingmovedfile ==
+El fichero {0} se ha movido {1} y se va a hacer merge ...
+
+== CmdMsgMergeNomergesdetected ==
+No se han detectado merges
+
+== CmdMsgMergeNotconnected ==
+El origen y destino del merge deben estar conectados para realizar un merge subtractivo
+
+== CmdMsgNocheckoutsfound ==
+No se han encontrado desprotecciones pendientes
+
+== CmdMsgNopathfound ==
+No se ha podido resolver el path
+
+== CmdMsgOwner ==
+{0,-25} {1} {2}
+
+== CmdMsgRenaming ==
+Renombrando {0} to {1}
+
+== CmdMsgUpdateStoringCheckout ==
+Guardando datos del elemento desprotegido {0}
+
+== CmdMsgUpdateWontOverwriteCo ==
+Update no sobrescribirá el fichero desprotegido: {0}
+
+== CmdMsgWkinfo ==
+Selector de {0}:
+
+== CmdMsgWontOverwriteCheckout ==
+No se sobrescribirá {0} porque está desprotegido
+
+== CmdNoLicensedUsers ==
+No hay ningún usuario activo. Para activar un usuario, debe comenzar a trabajar con Unity VCS, utilizando las credenciales de ese usuario
+
+== CmdPatchRequiresDiff ==
+No se ha encontrado Difftools. Por favor, descárguelo de:
+http://gnuwin32.sourceforge.net/packages/diffutils.htm
+
+Tras instalarlo, puede añadir la carpeta a la variable de entorno PATH o
+utilizar el parametro --tool para especificar la ruta a diff.exe.
+
+== CmdPatchRequiresPatch ==
+No se ha encontrado Patch. Por favor, descárguelo de:
+http://gnuwin32.sourceforge.net/packages/patch.htm.
+
+Tras instalarlo puede añadir la carpeta a la variable de entorno PATH o
+utilizar el parametro --tool para especificar la ruta a patch.exe.
+
+== CmdProfileAuthenticationModeError ==
+No se pudo recuperar el modo de autenticación de '{0}'
+
+== CmdProfileCreateSuccess ==
+Perfil '{0}' creado correctamente
+
+== CmdProfileEnterServerAddress ==
+Dirección del servidor
+
+== CmdProfileEnterServerAddressWithServerSuggestion ==
+Dirección del servidor [{0}]
+
+== CmdProfileInvalidServerAddress ==
+'{0}' no es una dirección de servidor válida
+
+== CmdProfileInvalidWorkingMode ==
+Modo de trabajo '{0}' inválido
+
+== CmdProfileNoProfiles ==
+No hay perfiles de conexión definidos
+
+== CmdProfileRemoveByIndexSuccess ==
+Perfil '{0}' eliminado correctamente
+
+== CmdProfileRemoveByIndexFailure ==
+No existe ningún perfil con índice {0}
+
+== CmdProfileRemoveByNameSuccess ==
+Perfil '{0}' eliminado correctamente
+
+== CmdProfileRemoveByNameFailure ==
+No existe ningún perfil con nombre '{0}'
+
+== CmdProfileRetry ==
+¿Quiere reintentar?
+
+== CmdProfileSpecifyOnlyPasswordOrToken ==
+Debe especificar '--password' o '--token', pero no ambas o ninguna
+
+== CmdProfileUnknownWorkingMode ==
+Modo de trabajo '{0}' desconocido
+
+== CmdRepServerResultCheckdb ==
+Servidor de repositorios: {0}
+
+== CmdRepoResultCheckdb ==
+Repositorio: {0}
+
+== CmdStatusIncompatibleOptionsShortAndXml ==
+Las opciones --short y --xml no se pueden usar juntas porque --short no carga información detallada del estado.
+
+== CmdUnchangeDone ==
+{0} Cambio deshecho.
+
+== CmdUncheckedOut ==
+Desprotección de {0} eliminada correctamente
+
+== CmdUnexpectedOption ==
+{0}: Opción no esperada {1}
+
+== CmdUpdated ==
+{0} actualizado correctamente
+
+== CommandFinishedSuccesfully ==
+El comando ha terminado correctamente
+
+== Comment ==
+Comentario
+
+== CommentExplanation ==
+
+
+# Introduzca un comentario de checkin para sus cambios.
+# Un comentario puede tener un máximo de 1000 caracteres.
+# Las líneas que comiencen con "#" serán ignoradas.
+
+
+== Committing ==
+Confirmando
+
+== Configlocks ==
+permite añadir nuevas reglas de checkout exclusivo
+
+== ConfirmNewPassword ==
+Confirmar contraseña:
+
+== ConnectTubeSucceeded ==
+El servidor de Unity VCS ({0}) conectó correctamente con Plastic Tube.
+
+== ConnectionFail ==
+El test de conexión ha encontrado un problema intentando conectar con el servidor de Unity VCS.
+
+== ConnectionOk ==
+El test de conexión se ha ejecutado correctamente.
+
+== ContinueSolving ==
+Conflicto {0} por la izquierda, Desea seguir solucionando conflictos? (S/N):
+
+== ContinueWithPendingChangesQuestion ==
+Existen ficheros cambiados localmente en su espacio de trabajo. Puede cancelar la operación para poder comprobar los cambios o puede continuar adelante con la operación. Si continúa con la operación sus ficheros cambiados no se perderán, y seguirán apareciendo como cambiados después de la operación. ¿Desea continuar con la operación? (s/n)
+
+== Controlled ==
+Controlado
+
+== Copied ==
+Copiado (nuevo)
+
+== CopiedCannotBeApplied ==
+Al ítem '{0}' no se puede copiar debido al error:'{1}'.
+
+== CopyMergeIsRealMerge ==
+Actualmente el ítem '{0}' esta cargado en el workspace, por lo que necesita un merge en lugar de un copy-merge.
+
+== CopyMergeNeeded ==
+Se necesita hacer copy merge del ítem {0} origen {1}
+
+== CopyMergePromoted ==
+El copy-merge del elemento {0} ha sido promocionado a merge
+
+== CopyingMergeFiles ==
+Realizando copy-merge de los ficheros ...
+
+== CreatedChangesetNumber ==
+Creado changeset {0}
+
+== CreatedOn ==
+Creada
+
+== CreatedShelveNumber ==
+Creado shelve {0}
+
+== CsetNumber ==
+Número de changeset
+
+== CurrentOutputDirectory ==
+El directorio de salida actual es
+
+== CycleMove ==
+Conflicto de movido cíclico
+
+== CycleMoveConflictActions1 ==
+Mantener el movido realizado en el origen (descartar el movido en el destino)
+
+== CycleMoveConflictActions2 ==
+Mantener el movido realizado en el destino (descartar el movido en el origen)
+
+== CycleMoveConflictDestinationOperation ==
+Movido de {0} a {1}
+
+== CycleMoveConflictExplanation ==
+Dos ítems se han movido en el origen y en el destino y forman un ciclo.
+
+== CycleMoveConflictSourceOperation ==
+Movido de {0} a {1}
+
+== DataStatus ==
+Estado del dato
+
+== DataWritten ==
+Datos escritos
+
+== DefaultFormatDiffmetrics ==
+cambiadas: {0}  añadidas: {1}  borradas: {2}
+
+== DeleteAndChange ==
+Conflicto de borrado y cambiado
+
+== DeleteAndMove ==
+Conflicto de borrado y movido
+
+== DeleteCannotBeApplied ==
+El borrado ({0}) no puede ser aplicado porque el ítem no se encuentra en el workspace.
+
+== DeleteChangeConflictActions11 ==
+Mantener cambios en origen (preservar el borrado y descartar el añadido)
+
+== DeleteChangeConflictActions12 ==
+Mantener los cambios en destino (preservar el añadido y descartar el borrado)
+
+== DeleteChangeConflictActions21 ==
+Mantener los cambios en origen (preservar el borrado y descartar el cambio)
+
+== DeleteChangeConflictActions22 ==
+Mantener los cambios en destino (preservar el cambio y descartar el borrado)
+
+== DeleteChangeConflictDestinationOperation ==
+{0} {1}
+
+== DeleteChangeConflictExplanation ==
+Un ítem ha sido borrado en el origen y el destino lo ha {0}
+
+== DeleteChangeConflictSourceOperation ==
+Borrado {0}
+
+== DeleteChangesetDiscardAllChangesNotInteractive ==
+Alguien ha borrado el changeset en el que estás trabajando.
+Por tanto, tus checkouts y cambios locales ya no son válidos.
+
+Esto se debe a que ya no hay manera de encontrar los cambios actuales debido a que el changeset en el que se realizaron ya no existe.
+
+Debe deshacer todos sus cambios y actualizar su workspace a una configuración válida.
+Esto se puede conseguir si ejecuta el comando de manera interactiva (es decir, sin redirigir stdin).
+
+== DeleteChangesetDiscardAllChangesQuestion ==
+Alguien ha borrado el changeset en el que estás trabajando.
+Esto quiere decir que tus checkouts y cambios locales ya no son válidos.
+
+Esto se debe a que ya no hay manera de encontrar los cambios actuales debido a que el changeset en el que se realizaron ya no existe.
+
+¿Desea deshacer todos sus cambios y actualizar su workspace a una configuración válida?(y/n)
+
+== DeleteDelete ==
+Advertencia de borrado borrado
+
+== DeleteDeleteConflictDestinationOperation ==
+Borrado {0}
+
+== DeleteDeleteConflictSourceOperation ==
+Borrado {0}
+
+== DeleteDeleteWarningMessage ==
+Este ítem ha sido descartado porque ha sido borrado tanto en origen como en destino
+
+== DeleteItemAlreadyChanged ==
+El ítem no será borrado porque se encuentra cambiado (checked-out, movido) en el workspace: '{0}'. Por favor, deshaga o confirme el cambio local y reintente la operación.
+
+== DeleteMoveConflictActions1 ==
+Mantener cambios en origen (preservar el borrado y descartar el movido)
+
+== DeleteMoveConflictActions2 ==
+Mantener cambios en destino (preservar el movido y descartar el borrado)
+
+== DeleteMoveConflictDestinationOperation ==
+Movido de {0} a {1}
+
+== DeleteMoveConflictExplanation ==
+Un ítem ha sido borrado en el origen y también fue movido en el destino.
+
+== DeleteMoveConflictSourceOperation ==
+Borrado {0}
+
+== DeleteNotApplicable ==
+El ítem no puede ser borrado porque no ha sido encontrado. Su workspace podría estar corrupto. Por favor, contacte con el equipo de soporte: '{0}'.
+
+== DeletePrivateDeletesSummary ==
+Se borraron {0} ficheros individuales y {1} árboles de directorio.
+
+== DeletePrivateDirectoryFailed ==
+No se pudo borrar el directorio controlado: {0}
+
+== DeletePrivateDryrun ==
+Nota: esta fue una ejecución simulada. No se eliminó ningún fichero.
+
+== DeletePrivateFailuresSummary ==
+No se pudo borrar {0} ficheros individuales y {1} árboles de directorio.
+
+== DeletePrivateFileFailed ==
+No se pudo borrar el fichero controlado: {0}
+
+== DeletePrivateSkipControlledDir ==
+No se borró el directorio controlado: {0}
+
+== DeletePrivateSkipControlledFile ==
+No se borró el fichero controlado: {0}
+
+== DeletePrivateSkipIgnoredDir ==
+No se borró el directorio controlado: {0}
+
+== DeletePrivateSkipIgnoredFile ==
+No se borró el fichero controlado: {0}
+
+== DeletePrivateSkipMissingFileOrDirectory ==
+No se borró el fichero o directorio faltante: {0}
+
+== Deleted ==
+Borrado
+
+== DeletedPrivateDirectory ==
+Se borró el directorio: {0}
+
+== DeletedPrivateFile ==
+Se borró el fichero:    {0}
+
+== DeniedKey ==
+Deneg.
+
+== DependenciesApplyLocalChanges ==
+aplicar cambios locales
+
+== DependenciesCheckin ==
+su protección
+
+== DependenciesDescription ==
+Algunos de los ítems seleccionados para {0} dependen de otros que necesitan también estar incluidos en la operación. Las rutas de todos los ítems dependendientes deben ser incluidas entre las rutas para {0}. También puede usarse la opción "--dependencies" para incluir todo los ítems dependendientes.
+
+== DependenciesShelve ==
+hacer shelve
+
+== DependenciesUndoChanges ==
+deshacer sus cambios
+
+== Destination ==
+Destino
+
+== DestinationRevisionNotFound ==
+No fue encontrada la revisión de destino para promocionar a merge
+
+== DiffNotDownloadedRevision ==
+La revisión {0} no se pudo bajar del servidor. Por favor inténtelo de nuevo seleccionando otro fichero y después volviendo a seleccionar este.
+
+== DirConflictCannotBeApplied ==
+El conflicto {0} con origen:'{1}' y destino:'{2}' no se ha podido aplicar debido al error:'{3}'.
+
+== DiscardedAddedWarningMessage ==
+Este ítem ha sido descartado porque fue añadido en origen, pero ya esta cargado en el destino, por tanto no es necesario añadirlo
+
+== DiscardedChangedWarningMessage ==
+Este ítem ha sido descartado porque el contenido de la revisión no ha cambiado entre el origen y el destino, o porque el origen y el destino cargan exactamente la misma revisión
+
+== DiscardedDeleteWarningMessage ==
+Este ítem ha sido descartado porque fue borrado en origen, pero no está cargado en destino, y por tanto no se puede eliminar
+
+== DiscardedFsProtectionFormat ==
+Los permisos del sistema de ficheros para el ítem {0} origen {1} se ha descartado porque {2}
+
+== DiscardedFsProtectionWarningMessage ==
+Este ítem ha sido descartado porque se han cambiado las protecciones del sistema de ficheros al mismo valor tanto en origen como en destino, o bien porque el origen cambió las protecciones del sistema de ficheros y el ítem no se carga en destino, o quizá porque en el origen se borró el item y el destino ha cambiado las protecciones del sistema de ficheros
+
+== DiscardedMergeConnectedrevision ==
+ya existe un camino entre la revisión origen y la revisión destino.
+
+== DiscardedMergeFormat ==
+Merge descartado del item {0} origen {1} porque {2}
+
+== DiscardedMergeNotconnectrevision ==
+no existe un camino entre la revisión origen y la revisión destino.
+
+== DiscardedMergeNotloaded ==
+la revisión ya no puede ser cargada (es un ítem borrado).
+
+== DiscardedMergeSamerevision ==
+la revisión del origen coincide con la revisión cargada en el espacio de trabajo.
+
+== DiscardedMovedWarningMessage ==
+Este ítem ha sido descartado porque se ha movido a la misma ruta tanto en origen como en destino, o porque ya está cargado en destino
+
+== DiscardedSubtractiveFormat ==
+Merge subtractivo descartado del item {0} origen {1} porque {2}
+
+== DisconnectTubeSucceeded ==
+El servidor de Unity VCS ({0}) fue desconectado correctamente de Plastic Tube.
+
+== DivergentMove ==
+Conflicto de movido divergente
+
+== DivergentMoveConflictActions1 ==
+Mantener el movido realizado en el origen (descartar el movido en el destino)
+
+== DivergentMoveConflictActions2 ==
+Mantener el movido realizado en el destino (descartar el movido en el origen)
+
+== DivergentMoveConflictDestinationOperation ==
+Movido de {0} a {1}
+
+== DivergentMoveConflictExplanation ==
+Un ítem se ha movido en el origen y en el destino a dos ubicaciones diferentes.
+
+== DivergentMoveConflictSourceOperation ==
+Movido de {0} a {1}
+
+== DownloadMissingFileNotFoundOnSource ==
+No se puede descargar '{0}' (revid:{1}). Posiblemente se replicó con --nodata y no se encuentran sus datos en su origen de réplica {2}@{3}.
+
+== DownloadMissingFileReplicationSourceGuidsResolutionMethodNotAvailable ==
+No se puede descargar '{0}' (revid:{1}). Posiblemente se replicó con --nodata, pero su origen de réplica {2}@{3} no soporta descargarlo. Por favor, actualice el servidor {3}.
+
+== DownloadMissingFileReplicationSourceNotAvailable ==
+No se puede descargar '{0}' (revid:{1}). Posiblemente se replicó con --nodata y su origen de réplica {2}@{3} no está disponible.
+
+== DownloadMissingFileWithoutReplicationSource ==
+No se puede descargar '{0}' (revid:{1}). Posiblemente se replicó con --nodata y no se encuentran sus datos en el repositorio {2}@{3}.
+
+== DstContributor ==
+Changeset destino: {0} (Rama {1})
+
+== ElementNewName ==
+Elemento con nombre nuevo {0}
+
+== ElementOldNewName ==
+Ítem con nombre antiguo {0} y nombre nuevo {1}
+
+== EnterNewDestinationName ==
+Por favor introduzca un nuevo nombre para el destino:
+
+== Error ==
+Error
+
+== ErrorCheckingIn ==
+Error protegiendo {0}. {1}
+
+== ErrorCloneDstRepNotEmpty ==
+El repositorio destino '{0}' no está vacío, por lo que la operación de clone no puede continuar.
+
+== ErrorCloneDstRepNotFound ==
+No se pudo determinar el repositorio destino para la operación de clone.
+
+== ErrorClonePackageNotValid ==
+La opción --package no se puede usar si se especifica un destino.
+
+== ErrorCloneSourceRepoNotSpecified ==
+No se ha especificado un repositorio de origen.
+
+== ErrorCloneSrcAndDstEquals ==
+El repositorio de origen y de destino son el mismo ('{0}').
+
+== ErrorCloneSrcRepNotFound ==
+No se pudo determinar el repositorio origen para la operación de clone a partir de '{0}'.
+
+== ErrorExecutingQuery ==
+Error al ejecutar la consulta:
+
+== ErrorImportingCommit ==
+El changeset '{0}' no pudo ser importado. Error: {1} Por favor, contacte con el equipo de soporte.
+
+== ErrorLaunchingEditor ==
+No se ha podido lanzar el editor: {0}
+
+== ErrorPullNodataNotValid ==
+La opción --nodata no se puede usar replicando paquetes.
+
+== ErrorPushHydrateNotValid ==
+La opción hydrate no se puede usar para un push.
+
+== ErrorPushNodataNotValid ==
+La opción --nodata no se puede usar para un push.
+
+== ErrorReplicateDestinationRepoNotSpecified ==
+No se ha especificado un repositorio de destino.
+
+== ErrorReplicateHydrateSourceNotFound ==
+El repositorio origen para hidratar '{0}' no se puede obtener automáticamente. Por favor especifique el repositorio origen manualmente.
+
+== ErrorReplicateNodataNotValid ==
+La opción --nodata no se puede usar replicando paquetes ni con la opción --push.
+
+== ErrorReplicatePackageNotSpecified ==
+No se ha especificado un paquete de replicación ni un repositorio de destino
+
+== ErrorReplicateSourceBranchNotSpecified ==
+No se ha especificado una rama de origen para la replicación
+
+== ErrorRepositoriesDontMatch ==
+Los respositorios que has especificado no coinciden
+
+== EvilTwin ==
+Conflicto de evil twin
+
+== EvilTwinConflictActions1 ==
+Mantener ambos y renombrar el ítem en el destino
+
+== EvilTwinConflictActions2 ==
+Mantener el ítem añadido en el origen (descartar el añadido en el destino)
+
+== EvilTwinConflictActions3 ==
+Mantener el ítem añadido en el destino (descartar el añadido en el origen)
+
+== EvilTwinConflictDestinationOperation ==
+Añadido {0}
+
+== EvilTwinConflictExplanation ==
+Un ítem ha sido añadido en el origen y en el destino con el mismo nombre, y son ítem diferentes.
+
+== EvilTwinConflictSourceOperation ==
+Añadido {0}
+
+== Excluded ==
+{0} ha sido excluido.
+
+== ExclusiveCheckoutDetail ==
+{0} desprotegido por {1} en {2}@{3}
+
+== ExclusiveCheckoutDetailShort ==
+{0} desprotegido por {1}
+
+== ExpirationDate ==
+Fecha de expiración:          {0}
+
+== False ==
+No
+
+== FastUpdCannotBePerformedInPartialWk ==
+La opción de 'Actualizar rápido' no esta permitida en espacios de trabajo parciales. Por favor, reintente la operación sin dicha opción.
+
+== FastUpdChanges ==
+Los siguientes cambios han sido aplicados:
+
+== FastUpdDownloadProgress ==
+Descargados {0} de {1} ({2:0.##%})
+
+== FastUpdProcessProgress ==
+Procesados {0} de {1} ({2:0.##%})
+
+== FastUpdStageApplyingChanges ==
+Aplicando los cambios...
+
+== FastUpdStageCalculatingChanges ==
+Calculando los cambios...
+
+== FastUpdStageCancelling ==
+Cancelando la operación de fast update...
+
+== FastUpdStageCompilingInfo ==
+Recopilando información para el fast update...
+
+== FastUpdStageFinished ==
+Fast update terminado
+
+== FastUpdWarnings ==
+Los siguientes cambios no pudieron ser aplicados en disco:
+
+== Fatal ==
+Error grave
+
+== FemaleNone ==
+Ninguna
+
+== FetchingAcls ==
+Leyendo ACLs
+
+== FetchingAttributes ==
+Leyendo atributos
+
+== FetchingBranches ==
+Leyendo ramas
+
+== FetchingChangesets ==
+Leyendo changesets
+
+== FetchingChildren ==
+Leyendo árboles
+
+== FetchingFinished ==
+Transfiriendo metadatos
+
+== FetchingItems ==
+Leyendo ítems
+
+== FetchingLabels ==
+Leyendo etiquetas
+
+== FetchingLinks ==
+Leyendo links
+
+== FetchingMetadata ==
+Leyendo metadatos
+
+== FetchingMoveRealizations ==
+Leyendo movidos
+
+== FetchingReferences ==
+Leyendo referencias
+
+== FetchingReviews ==
+Leyendo revisiones de código
+
+== FetchingRevisions ==
+Leyendo árboles
+
+== FetchingSeids ==
+Leyendo SEIDs
+
+== File ==
+fichero
+
+== FileModifiedSource ==
+El fichero {0} fue modificado en origen y reemplazara la version de destino
+
+== FileTypesFileHeader ==
+
+# Fichero de extensiones de Unity VCS. Sintaxis: <expression>:<type>.
+# Son expresiones válidas: '.cpp', 'myfile.cpp' ... (Se admiten metacaracteres: '*', '?')
+# Los tipos permitidos son: 'txt' o 'bin'.
+# Ejemplos:
+      #     .cpp:txt
+      #     .jpg:bin
+
+
+== Files ==
+ficheros
+
+== FinishedNotOk ==
+Operación cancelada
+
+== FinishedOk ==
+Terminado OK
+
+== FinishedStatus ==
+Réplica interrumpida {0}
+
+== FinishedWithErrors ==
+Terminado con errores
+
+== First ==
+1º
+
+== From ==
+de
+
+== FsProtectionCannotBeApplied ==
+Al ítem '{0}' no se le pueden fijar los permisos del sistema de ficheros debido al error:'{1}'.
+
+== GameuiCheckinAddedMissingParentConflictAction ==
+Por favor, deshaga el añadido o muévalo a una ruta que exista en el servidor.
+
+== GameuiCheckinAddedMissingParentConflictDescription ==
+El ítem '{0}' no se puede añadir porque su directorio padre ya no está cargado en el servidor.
+
+== GameuiCheckinAddedPathInUseConflictAction ==
+Por favor, deshaga el añadido o muévalo a una ruta que este libre en el servidor.
+
+== GameuiCheckinAddedPathInUseConflictDescription ==
+El ítem '{0}' no se puede añadir porque hay otro ítem cargado en el mismo sitio en el servidor.
+
+== GameuiCheckinChangedFileConflictAction ==
+Por favor, deshaga su cambio local, descargue la última versión y reaplique sus cambios locales.
+
+== GameuiCheckinChangedFileConflictDescription ==
+'{0}' necesita merge.
+
+== GameuiCheckinChangedMissingConflictAction ==
+Por favor, deshaga el cambio o restaure el ítem en una ruta que exista en el servidor.
+
+== GameuiCheckinChangedMissingConflictDescription ==
+El ítem '{0}' no se puede modificar porque ya no está cargado en el servidor.
+
+== GameuiCheckinChangedXlinkConflictAction ==
+>Por favor, deshaga su cambio local, descargue la última versión y vuelva a editar el Xlink.
+
+== GameuiCheckinChangedXlinkConflictDescription ==
+El destino del Xlink '{0}' no se puede cambiar porque fue modificado en el servidor.
+
+== GameuiCheckinCopiedLoadedConflictAction ==
+Por favor, deshaga su cambio local, descargue la última versión y reaplique sus cambios locales.
+
+== GameuiCheckinCopiedLoadedConflictDescription ==
+El ítem '{0}' no se puede copiar porque ese ítem ya esta cargado en el servidor.
+
+== GameuiCheckinCopiedMissingParentConflictAction ==
+Por favor, deshaga el copiado o muévalo a una ruta que exista en el servidor.
+
+== GameuiCheckinCopiedMissingParentConflictDescription ==
+El ítem '{0}' no se puede copiar porque su directorio padre ya no está cargado en el servidor.
+
+== GameuiCheckinCopiedPathInUseConflictAction ==
+Por favor, deshaga el copiado o muévalo a una ruta que este libre en el servidor.
+
+== GameuiCheckinCopiedPathInUseConflictDescription ==
+El ítem '{0}' no se puede copiar porque hay otro ítem cargado en el mismo sitio en el servidor.
+
+== GameuiCheckinDeletedAlreadyDeletedConflictAction ==
+Por favor, deshaga el borrado y actualícese a la última versión.
+
+== GameuiCheckinDeletedAlreadyDeletedConflictDescription ==
+El ítem '{0}' no se puede borrar porque ya no está cargado en el servidor.
+
+== GameuiCheckinDeletedChangedWarningDescription ==
+El ítem borrado '{0}' ha sido modificado en el servidor. Si se borra el ítem, el cambio del servidor se perderá.
+
+== GameuiCheckinDeletedMovedWarningDescription ==
+El ítem borrado '{0}' ha sido movido en el servidor. Si se borra el ítem, el movido del servidor se perderá.
+
+== GameuiCheckinDeletedWarningAction ==
+¿Está seguro que desea borrar el ítem '{0}'?
+
+== GameuiCheckinDirReplacedChangedConflictDescription ==
+El ítem '{0}' no se puede reemplazar (revert) porque fue modificado en el servidor.
+
+== GameuiCheckinFileReplacedChangedConflictDescription ==
+'{0}' necesita merge.
+
+== GameuiCheckinFsProtectionMissingConflictAction ==
+Por favor, deshaga el cambio o restaure el ítem en una ruta que exista en el servidor.
+
+== GameuiCheckinFsProtectionMissingConflictDescription ==
+Los permisos del ítem '{0}' no se puede modificar porque ya no está cargado en el servidor.
+
+== GameuiCheckinMovedAlreadyMovedConflictAction ==
+Por favor, deshaga el movido y actualícese a la última versión.
+
+== GameuiCheckinMovedAlreadyMovedConflictDescription ==
+El ítem '{0}' no se puede mover a '{1}' porque ya está cargado en el destino en el servidor.
+
+== GameuiCheckinMovedDivergentConflictAction ==
+¿Está seguro que desea mover el ítem '{0}' a '{1}'?
+
+== GameuiCheckinMovedDivergentConflictDescription ==
+El ítem movido '{0}' ha sido movido en el servidor a otra ruta. Si se aplica el movido local, el movido del servidor se perderá.
+
+== GameuiCheckinMovedDstInUseConflictAction ==
+Por favor, deshaga el movido o muévalo a una ruta que este libre en el servidor.
+
+== GameuiCheckinMovedDstInUseConflictDescription ==
+El ítem '{0}' no se puede mover a '{1}' porque hay otro ítem cargado en el mismo sitio en el servidor.
+
+== GameuiCheckinMovedInsideItselfConflictAction ==
+Por favor, deshaga el movido o muévalo a una ruta valida en el servidor.
+
+== GameuiCheckinMovedInsideItselfConflictDescription ==
+El ítem '{0}' no se puede mover dentro de '{1}' porque  '{1}' está cargado dentro '{0}' en el servidor.
+
+== GameuiCheckinMovedMissingDstConflictAction ==
+Por favor, deshaga el movido o mueva el ítem a una ruta que exista en el servidor.
+
+== GameuiCheckinMovedMissingDstConflictDescription ==
+El ítem '{0}' no se puede mover a '{1}' porque el destino ya no está cargado en el servidor.
+
+== GameuiCheckinMovedMissingItemConflictAction ==
+Por favor, deshaga el movido o restaure el ítem en una ruta que exista en el servidor.
+
+== GameuiCheckinMovedMissingItemConflictDescription ==
+El ítem '{0}' no se puede mover porque ya no está cargado en el servidor.
+
+== GameuiCheckinReplacedChangedConflictAction ==
+Por favor, deshaga el reemplazo (revert), descargue la última versión y reemplácela (revert) de nuevo.
+
+== GameuiCheckinReplacedMissingConflictAction ==
+Por favor, deshaga el reemplazo (revert).
+
+== GameuiCheckinReplacedMissingConflictDescription ==
+El ítem '{0}' no se puede reemplazar (revert) porque ya no está cargado en el servidor.
+
+== GameuiOutOfDateUnresolvedXlink ==
+El xlink '{0}' no pudo resolverse. Los ítems debajo de un xlink no resuelto no pueden actualizarse.
+
+== GetfileRevdatanotfound ==
+No hay datos para la especificación dada
+
+== Group ==
+Grupo
+
+== GroupKey ==
+Grupo
+
+== HiddenChanged ==
+Cambio oculto
+
+== Hash ==
+Código hash
+
+== Ignored ==
+Ignorado
+
+== InactiveKey ==
+INACTIVO (No tiene licencia)
+
+== Info ==
+Información
+
+== InheritedFromKey ==
+Heredados de
+
+== IntervalMerge ==
+Merge de intervalo
+
+== IntroducingData ==
+Introduciendo datos
+
+== IssueTrackerCheckinFailed ==
+No fue posible registrar los datos del check-in en el sistema de seguimiento de incidencias: {0}
+
+== IssueTrackerNotSupported ==
+El sistema de seguimiento de incidencias '{0}' no está soportado.
+
+== ItemAddedSource ==
+El elemento {0} ha sido añadido en origen y se añadirá como resultado del merge
+
+== ItemAlreadyChanged ==
+El ítem no se actualizará porque se encuentra cambiado (checked-out, cambiado, borrado o movido) en el workspace: '{0}'. Por favor, deshaga o confirme el cambio local y reintente la operación.
+
+== ItemAlreadyLoaded ==
+El ítem no se actualizará porque se encuentra ya cargado en el workspace con una versión diferente: '{0}'. Por favor, desmarque el ítem (desde la vista de configuración) y reintente la operación.
+
+== ItemDeletedSource ==
+El elemento {0} ha sido borrado en origen y sera borrado como resultado del merge
+
+== ItemFsprotToApply ==
+Se han modificado los permisos del sistema de ficheros para el elemento {0}
+
+== ItemId ==
+Identificador del elemento
+
+== ItemMovedSource ==
+El elemento {0} ha sido movido a {1} en origen y sera movido como resultado del merge
+
+== ItemNotFound ==
+No se ha podido encontrar el ítem {0}
+
+== ItemPathAlreadyUsed ==
+El ítem no se actualizará/moverá porque el path  cargado en el workspace con una versión diferente: '{0}'. Por favor, desmarque el ítem (desde la vista de configuración) y reintente la operación.
+
+== ItemPathAlreadyUsedByChange ==
+El ítem no será descargado/movido porque hay un cambio local en '{0}'. Por favor, deshaga el cambio local, desmarque el ítem (desde la vista de configuración) y reintente la operación.
+
+== KeyEditable ==
+Editable
+
+== KeyPrivate ==
+privado
+
+== KeyWorkspaceRevision ==
+Revisión del espacio de trabajo
+
+== Label ==
+Etiqueta
+
+== LicenseEdition ==
+Edición:                      {0}
+
+== LicenseInformation ==
+Información de licencia:
+
+== LicenseUsage ==
+Uso de licencia:
+
+== LicensedTo ==
+Registrado a:                 {0}
+
+== LicensedUsers ==
+Total de licencias:           {0}
+
+== ListFindObjects ==
+Esta es la lista de los objetos y atributos disponibles:
+
+== ListPermissionsKey ==
+Esta es la lista de los permios disponibles:
+
+== ListTriggerTypes ==
+Esta es la lista de los triggers disponibles:
+
+== LkNameField ==
+El nombre del enlace
+
+== LoadedRevision ==
+La revisión {0}@{1} ha sido cargada
+
+== LoadedTwice ==
+Conflicto de ítem cargado múltiples veces
+
+== LoadedTwiceConflictActions1 ==
+Mantener el añadido realizado en el origen (descartar el añadido en el destino)
+
+== LoadedTwiceConflictActions2 ==
+Mantener el añadido realizado en el destino (descartar el añadido en el origen)
+
+== LoadedTwiceConflictDestinationOperation ==
+Añadido {0}
+
+== LoadedTwiceConflictExplanation ==
+Dos ítems se han añadido en el origen y en el destino y ambos son el mismo ítem.
+
+== LoadedTwiceConflictSourceOperation ==
+Añadido {0}
+
+== LocalAndDownloadedSameFile ==
+El fichero {0} no será descargado porque el que hay en local tiene el mismo contenido que el que se iba a descargar. Changeset:{1}
+
+== LocatedOnBranch ==
+Situada en la rama
+
+== LogAdded ==
+Añadido
+
+== LogChanged ==
+Changed
+
+== LogDefaultCsFormat ==
+Número de changeset: {changesetid}{newline}Rama: {branch}{newline}Propietario: {owner}{newline}Fecha: {date}{newline}Comentario: {comment}{newline}Cambios: {newline}{items}------------------------------------------------------------
+
+== LogDefaultCsFormatWithoutChanges ==
+Número de changeset: {changesetid}{newline}Rama: {branch}{newline}Propietario: {owner}{newline}Fecha: {date}{newline}Comentario: {comment}{newline}------------------------------------------------------------
+
+== LogDefaultItemsFormat ==
+ {shortstatus} {path} {newline}
+
+== LogDeleted ==
+Borrado
+
+== LogMoved ==
+Movido
+
+== MakeTubeSucceeded ==
+El tubo {0} -> {1} fue correctamente creado.
+
+== Markers ==
+Etiquetas
+
+== Merge ==
+Merge
+
+== MergeBothChanges ==
+ambos contribuidores.
+
+== MergeDstChanges ==
+el contribuidor destino.
+
+== MergeExtraInfoBase ==
+Base
+
+== MergeExtraInfoCommentsLine ==
+Comentarios: {0}
+
+== MergeExtraInfoContributorLine ==
+{0} en {1}{2} creado por {3} con fecha {4}
+
+== MergeExtraInfoDestination ==
+Destino
+
+== MergeExtraInfoRecursiveMergeLine ==
+MERGE RECURSIVO: El merge que se está procesando es recursivo porque tiene múltiples antecesores.
+Es necesario mezclar previamente estos antecesores para calcular un antecesor común a todos ellos. Después, Unity VCS usará el antecesor virtual calculado para lanzar el merge entre el origen y el destino.
+
+Ahora está mezclando el antecesor {0} con el antecesor {1}, que generará un antecesor virtual vcs:{2} que será utilizado más adelante.
+
+== MergeExtraInfoSource ==
+Origen
+
+== MergeInProgress ==
+Tienes un merge en progreso desde el changeset {0}@{1}. Acaba este merge antes de hacer merge desde un origen diferente
+
+== MergeNeeded ==
+Se necesita hacer merge del fichero {0} origen {1} destino {2} base {3}. Modificado por {4}
+
+== MergeNoneChanges ==
+ninguno.
+
+== MergeProgressRecursive ==
+recursivo
+
+== MergeProgressString ==
+Mezclando fichero {0}/{1}
+
+== MergeResultMultipleLinkTargets ==
+El resultado del merge ha dejado varios destinos para el enlace simbólico {0}
+
+== MergeSourceFormat ==
+{0} en la {1}@{2}
+
+== MergeSrcChanges ==
+el contribuidor origen.
+
+== MergeToMergeNeeded ==
+La rama {0}@{1}@{2} (mount '{3}') tiene múltiples heads porque durante la operación de merge-to se crearon nuevos changesets en la rama. Por favor unifique los heads de la rama haciendo un merge (o merge-to) del changeset {4}@{1}@{2} a la rama br:{0}@{1}@{2}.
+
+== MergeVirtualChangesetComment ==
+Changeset virtual creado durante el merge recursivo
+
+== MergedFile ==
+Mezclado el fichero {0} de {1}: {2}
+
+== Mergefrom ==
+controla la operación de merge desde el objeto
+
+== MergingFile ==
+Mezclando fichero {0} de {1}: {2}
+
+== MessageBranchSelector ==
+Seleccione una rama para cargar revisiones (/main si no se especifica ninguna):
+
+== MessageCheckingIn ==
+Protegiendo {0} ...
+
+== MessageCheckingOut ==
+Desprotegiendo {0} ...
+
+== MessageCoSelector ==
+Seleccione una rama para las desprotecciones (/main si no se especifica ninguna):
+
+== MessageContinueWithSelector ==
+Se va a fijar este selector, ¿desea continuar? (S/N):
+
+== MessageDone ==
+Hecho
+
+== MessageFileNotFound ==
+El fichero {0} no existe
+
+== MessageFileNotRead ==
+El fichero {0} no se pudo leer.
+
+== MessageLabelSelector ==
+Seleccione una etiqueta para cargar las revisiones (opcional):
+
+== MessageMoreRepositories ==
+¿Mas repositorios? (S/N):
+
+== MessageNoRepositories ==
+No hay repositorios en este servidor
+
+== MessageNumItemSelector ==
+Selector de items #{0} para el Selector de repositorios #{1}
+
+== MessageNumRepSelector ==
+Selector de repositorio #{0}
+
+== MessageRepositoryName ==
+Seleccione un nombre de repositorio:
+
+== MessageRepositoryServer ==
+Seleccione un servidor de repositorios:
+
+== MessageSelectorNotSet ==
+El selector no se ha guardado.
+
+== Mkattr ==
+permite al usuario crear atributos
+
+== Mkchildbranch ==
+permite al usuario crear ramas hijas
+
+== Mklabel ==
+permite al usuario crear etiquetas
+
+== Mkrepository ==
+permite al usuario crear repositorios
+
+== Mktoplevelbranch ==
+permite al usuario crear ramas de primer nivel
+
+== Mktrigger ==
+permite al usuario crear triggers
+
+== Modified ==
+Modificado
+
+== Move ==
+controla si los archivos y directorios pueden ser movidos en el repositorio
+
+== MoveAddConflictAction1 ==
+Mantener ambos y renombrar el ítem en el destino
+
+== MoveAddConflictAction2 ==
+Mantener cambios en origen (preservar el movido y descartar el añadido)
+
+== MoveAddConflictAction3 ==
+Mantener los cambios en destino (preservar el añadido y descartar el movido)
+
+== MoveAndAdd ==
+Conflicto de movido y añadido
+
+== MoveAndDelete ==
+Conflicto de movido y borrado
+
+== MoveCannotBeApplied ==
+El movido ({0} -> {1}) no puede ser aplicado porque el ítem o el destino no se encuentran en el workspace.
+
+== MoveDeleteConflictActions1 ==
+Mantener cambios en origen (preservar el movido y descartar el borrado)
+
+== MoveDeleteConflictActions2 ==
+Mantener cambios en destino (preservar el borrado y descartar el movido)
+
+== MoveDeleteConflictDestinationOperation ==
+Borrado {0}
+
+== MoveDeleteConflictExplanation ==
+Un ítem ha sido movido en el origen y en el destino se ha borrado ese ítem o su padre.
+
+== MoveDeleteConflictSourceOperation ==
+Movido de {0} a {1}
+
+== MoveIgnoredDestinationWasntSelected ==
+El ítem '{0}' no será movido porque el destino del movido '{1}' no fue seleccionado. Por favor, actualice todo el workspace o bien seleccione el origen y destino del movido y reintente la operation.
+
+== MoveIgnoredSourceWasntSelected ==
+El ítem '{0}' no será movido porque no fue seleccionado aunque el destino del movido '{1}' sí lo fue. Por favor, actualice todo el workspace o bien seleccione el origen y destino del movido y reintente la operation.
+
+== MoveItemAlreadyChanged ==
+El ítem no será movido porque se encuentra cambiado (checked-out, cambiado, borrado o movido) en el workspace: '{0}'. Por favor, deshaga o confirme el cambio local y reintente la operación.
+
+== MoveNotApplicable ==
+El ítem no puede ser movido a '{0}'. Posiblemente, el path ya está en uso. Por favor, descargue el ítem del workspace y reintente la operación.
+
+== MoveSourceDelete ==
+Conflicto de movido fuera de borrado
+
+== MoveSourceDeleteConflictDestinationOperation ==
+Borrado {0}
+
+== MoveSourceDeleteConflictSourceOperation ==
+Movido de {0} a {1}
+
+== Moved ==
+Movido
+
+== MovedAddedConflictDestinationOperation ==
+Añadido {0}
+
+== MovedAddedConflictExplanation ==
+Un ítem ha sido movido en el origen y otro ítem con el mismo nombre ha sido añadido en la misma ruta.
+
+== MovedAddedConflictSourceOperation ==
+Movido de {0} a {1}
+
+== MovedEvilTwin ==
+Conflicto de movido de evil twin
+
+== MovedEvilTwinConflictActions1 ==
+Mantener ambos y renombrar el ítem en el destino
+
+== MovedEvilTwinConflictActions2 ==
+Mantener el movido realizado en el origen (descartar el movido en el destino)
+
+== MovedEvilTwinConflictActions3 ==
+Mantener el movido realizado en el destino (descartar el movido en el origen)
+
+== MovedEvilTwinConflictDestinationOperation ==
+Movido de {0} a {1}
+
+== MovedEvilTwinConflictExplanation ==
+Dos ítem diferentes con el mismo nombre se han movido a la misma ruta en origen y en destino.
+
+== MovedEvilTwinConflictSourceOperation ==
+ Movido de {0} a {1}
+
+== MovedLocally ==
+Movido localmente
+
+== MsgBinaryFile ==
+bin
+
+== MsgDirectory ==
+dir
+
+== MsgItemAdded ==
+bajo el control de Unity VCS y recien añadido.
+
+== MsgItemAddedNotOnDisk ==
+bajo el control de Unity VCS y recien añadido, pero no está en disco.
+
+== MsgItemChanged ==
+bajo el control de Unity VCS y modificado localmente.
+
+== MsgItemCheckedin ==
+bajo el control de Unity VCS y protegido.
+
+== MsgItemCheckedinNotOnDisk ==
+bajo el control de Unity VCS y protegido, pero no está en disco.
+
+== MsgItemCheckedout ==
+bajo el control de Unity VCS y desprotegido.
+
+== MsgItemCheckedoutNotOnDisk ==
+bajo el control de Unity VCS y desprotegido, pero no está en disco.
+
+== MsgItemIgnored ==
+ignorado.
+
+== MsgItemNotOnDisk ==
+no está en disco.
+
+== MsgItemPrivate ==
+privado
+
+== MsgItemStatus ==
+El estado del ítem {0} es:  {1}
+
+== MsgLinkFile ==
+link
+
+== MsgNotLoaded ==
+NoCargado
+
+== MsgPendingDstMergelink ==
+hasta cs:{0} en {1}@{2}@{3}
+
+== MsgPendingMergelink ==
+{0} desde cs:{1} en {2}@{3}@{4}
+
+== MsgPrivFile ==
+Fichero
+
+== MsgPrivate ==
+Privado
+
+== MsgTextFile ==
+txt
+
+== MsgUnknown ==
+Desconocido
+
+== MsgWorkspaceWorkingInfo ==
+Repositorio: {0}
+Rama: {1}
+Etiqueta: {2}
+
+== Multiple ==
+Múltiple
+
+== NameAlreadyInDirectory ==
+{0} ya existe en el directorio
+
+== NameEmptyMultilineNotValid ==
+El archivo que contiene el nombre {0} no permite textos formados sólo por espacios en blanco ni multilínea
+
+== NameNotValid ==
+El nombre {0} no es válido
+
+== NewBrNameParamNotBrspec ==
+El parametro nuevo nombre debe ser un nombre de rama y no una especificación de rama
+
+== NewNameFor ==
+Nuevo nombre para {0}:
+
+== NewNameInstead ==
+Nombre nuevo en vez de {0}:
+
+== No ==
+No
+
+== NoChangesApplied ==
+No se aplicó ningún cambio
+
+== NoChangesInWk ==
+No hay cambios en el espacio de trabajo {0}
+
+== NoErrorsDetected ==
+No se han encontrado errores.
+
+== NoValidAnswers ==
+n;no
+
+== NodeChangeAdded ==
+Añadido {0}
+
+== NodeChangeCopied ==
+Copiado {0}
+
+== NodeChangeDeleted ==
+Borrado {0}
+
+== NodeChangeModified ==
+Modificado {0}
+
+== NodeChangeModifiedAndMoved ==
+Modificado y movido desde {0} a {1}
+
+== NodeChangeMoved ==
+Movido desde {0} a {1}
+
+== NodeChangeReplaced ==
+Reemplazado {0}
+
+== NotMergedFile ==
+No mezclado el fichero {0} de {1}: {2}
+
+== Obliterate ==
+controla la operación de obliterar
+
+== Of ==
+de
+
+== OldRenameRenameNames ==
+Nombre antiguo: {0}, renombrado1: {1}, renombrado2: {2}
+
+== On ==
+en
+
+== OnlyModifiedOnSource ==
+Procesados {0} de {1} ficheros modificados solo en origen: {2}
+
+== OperationAbandoned ==
+Operación abandonada
+
+== OperationDisabled ==
+Esta operación está deshabilitada en Plastic SCM 5.0
+
+== OperationStartingPush ==
+Operación exportar iniciada
+
+== Owner ==
+Propietario
+
+== ParentItemDeleted ==
+El ítem no será descargado porque su directorio padre fue borrado en el workspace: '{0}'.
+
+== ParentItemDiscarded ==
+El ítem '{0}' no será descargado porque su directorio padre no pudo ser descargado tampoco.
+
+== PasswordCantBeEmpty ==
+La contraseña no puede ser vacía. El password no se ha modificado.
+
+== PasswordCorrectlySet ==
+La contraseña se ha cambiado correctamente
+
+== PasswordDoesntMatch ==
+Las contraseñas no coinciden. El password no se ha modificado.
+
+== ItemPathOrSpec ==
+Ruta o spec al elemento
+
+== PathInConflictWarningMessage ==
+El ítem '{0}' se ha renombrado a '{1}' porque estaba en uso durante la operación de merge
+
+== PathNotFound ==
+La ruta {0} no fue encontrada en los conflictos del merge
+
+== PathNotFoundInDiff ==
+La ruta {0} no fue encontrada en los diferencias
+
+== PathNotUnique ==
+La ruta '{0}' no es única. Podría referirse a...
+
+== PathsFsLocked ==
+La operación no puede comenzar ya que algunos ficheros o directorios están bloqueados por otro programa. Por favor, cierre el programa e inténtelo de nuevo.
+
+== PendingMergeLinks ==
+Links de merge pendientes
+
+== PerformingSwitch ==
+Realizando operación...
+
+== PermissionKey ==
+Permiso
+
+== Private ==
+Privado
+
+== ProcessingBranches ==
+Procesando ramas
+
+== ProcessingDirectoryConflicts ==
+Procesando conflictos de directorio
+
+== ProcessingDirectoryOperations ==
+Procesando operaciones de directorio
+
+== ProcessingDirectoryOperationsApplyingFsProtections ==
+Procesando operaciones de directorio (aplicando protecciones de sistema de ficheros)
+
+== ProcessingDirectoryOperationsDownloadingRevisions ==
+Procesando operaciones de directorio (descargando revisiones)
+
+== ProcessingDirectoryOperationsUpdatingWorkspace ==
+Procesando operaciones de directorio (actualizando el espacio de trabajo)
+
+== PushingAcls ==
+Escribiendo ACLs
+
+== PushingAttributes ==
+Escribiendo atributos
+
+== PushingBranches ==
+Escribiendo ramas
+
+== PushingChangesets ==
+Escribiendo changesets
+
+== PushingChildren ==
+Escribiendo árboles
+
+== PushingFinished ==
+Metadatos escritos
+
+== PushingItems ==
+Escribiendo ítems
+
+== PushingLabels ==
+Escribiendo etiquetas
+
+== PushingLinks ==
+Escribiendo links
+
+== PushingMetadata ==
+Escribiendo metadatos
+
+== PushingMoveRealizations ==
+Escribiendo movidos
+
+== PushingReferences ==
+Escribiendo referencias
+
+== PushingRevisions ==
+Escribiendo revisiones
+
+== Read ==
+controla si los objetos pueden ser leidos
+
+== ReconcilingAcls ==
+Reconciliando ACLs
+
+== ReconcilingObjects ==
+Reconciliando objetos
+
+== RemoveTubeSucceeded ==
+El tubo {0} -> {1} fue correctamente eliminado.
+
+== Removed ==
+Borrado
+
+== RemovedLocally ==
+Borrado localmente
+
+== Rename ==
+controla si los objectos pueden ser renombrados
+
+== RenamedOldNameConflict ==
+Un ítem se ha renombrado con un nombre que aún está en uso
+
+== RenamedRenamedConflict ==
+Un ítem se renombró en el origen y en el destino
+
+== RenamedSameNameConflict ==
+Dos ítems se han renombrado con el mismo nombre
+
+== RenamedToDownloadFile ==
+El fichero {0} será renombrado para descargar una nueva versión. Changeset:{1}
+
+== RenamesNotValidIntroduce ==
+No se puede renombrar. Por favor, introduzca el nombre manualmente.
+
+== Replaced ==
+Reemplazado
+
+== Replicateread ==
+controla la operación de lectura en la replica
+
+== Replicatewrite ==
+controla la operación de escritura en la replica
+
+== ReplicationErrorTryingtosetupauthdatafromfileFiledoesntexist ==
+Error intentando fijar el modo de autentificación desde un fichero. El fichero {0} no existe
+
+== ReplicationErrorTryingtosetupauthdatafromfileNodata ==
+Error intentando fijar el modo de autentificación desde un fichero. No hay datos en el fichero {0}
+
+== ReplicationErrorWrongauthmode ==
+Error, se ha especificado un modo de autenficación incorrecto. {0}
+
+== ReplicationErrorWrongentryintranslationtable ==
+Error en la tabla de traducción de nombres en la línea {0}
+
+== ReportCmdMsgFileChangedInWk ==
+El ítem ha cambiado en el espacio de trabajo fuera del control de Unity VCS. No se ha sobrescrito para respetar sus datos, pero el elemento no está al día. Puede seleccionar la opción "obtener todo" para ponerlo al día.
+
+== ReportCmdMsgUpdateStoringCheckout ==
+Se han guardado los datos del elemento desprotegido
+
+== Repository ==
+Repositorio
+
+== RepositorySpec ==
+Especificación de repositorio
+
+== ResolutionConfigured ==
+El conflicto fue resuelto con la resolución configurada.
+
+== ResolvedCreatedConflict ==
+El conflicto {0} ha sido creado despues de que el conflicto {1} fue resuelto
+
+== ResolvedRemovedConflict ==
+El conflicto {0} ha sido eliminado despues de que el conflicto {1} fue resuelto
+
+== ReviewStatusReviewed ==
+Revisado
+
+== ReviewStatusReworkRequired ==
+Requiere cambios
+
+== ReviewStatusUnderReview ==
+En revisión
+
+== RevisionCheckedout ==
+local
+
+== RevisionHistoryOf ==
+HISTORIA DE REVISIONES DE {0}
+
+== RevisionNotExists ==
+La revisión no existe
+
+== RevisionNotFound ==
+No fue encontrada la revisión a cargar
+
+== RevisionNumber ==
+Número de revisión
+
+== RevisionSpec ==
+Specificación de revisión
+
+== RevisionType ==
+Tipo de revisión
+
+== Rm ==
+controla si los archivos y directorios pueden ser borrados del repositorio
+
+== Rmattr ==
+permite al usuario borrar un atributo
+
+== Rmchangeset ==
+controla si un changeset de una rama puede ser borrado
+
+== Rmlabel ==
+permite al usuario borrar una etiqueta
+
+== Rmrepository ==
+permite al usuario borrar repositorios
+
+== Rmtrigger ==
+permite al usuario borrar un trigger
+
+== SearchingForChanged ==
+Buscando cambios pendientes en el workspace...
+
+== Second ==
+2º
+
+== SelectorNoChanges ==
+No hay cambios.
+
+== Server ==
+Servidor
+
+== SetConfigSucceeded ==
+La configuración de Plastic Tube fue correctamente fijada.
+
+== SettingNewSelector ==
+Estableciendo el nuevo selector...
+
+== ShareRepoSucceeded ==
+El repositorio '{0}' fue compartido correctamente.
+
+== Shelve ==
+Shelve
+
+== ShelvePendingChangesQuestion ==
+Existen cambios pendientes en su espacio de trabajo. Puede hacer un shelve con los cambios pendientes y continuar con la operación o cancelarla. Si continúa con la operación sus cambios pendientes no se perderán, podrá recuperarlos del shelve creado. ¿Desea continuar con la operación? (s/n)
+
+== ShelvePendingChangesShelvesetComment ==
+Shelve creado como parte de la operación de cambio del espacio de trabajo (desde cs:{0})
+
+== ShelvePendingChangesShelvesetCommentPartialWorkspace ==
+Shelve creado como parte de la operación de cambio del espacio de trabajo
+
+== ShelveStatusConfirming ==
+Confirmando la operación de shelve
+
+== ShelveStatusFinished ==
+Shelve terminado
+
+== ShelveStatusRestoringPermissions ==
+Restaurando permisos de acceso
+
+== ShelveStatusStarting ==
+Iniciando operación de shelve...
+
+== ShelveStatusUploading ==
+Transmitiendo ficheros
+
+== Size ==
+Tamaño en bytes
+
+== Skip ==
+Saltar
+
+== Source ==
+Origen
+
+== SourceDestinationChanged ==
+El elemento {0} fue cambiado en origen pero ha sido descartado durante el merge porque el contenido es lo mismo en origen y en destino
+
+== SourceDestinationChangedFsprotection ==
+Los permisos del sistema de ficheros de elemento {0} fue cambiado en origen pero el fichero ha sido descartado durante el merge porque los permisos estan iguales en origen y en destino
+
+== SourceDestinationDeleted ==
+El elemento {0} fue borrado en origen pero ha sido descartado durante el merge porque fue borrado ya en destino
+
+== SourceDestinationMoved ==
+El fichero {0} fue movido en origen y destino a la misma localizacion por lo que el movido sera descartado. Movido de {1} a {2}
+
+== SrcContributor ==
+Changeset origen: {0} (Rama {1})
+
+== StartResolveConflict ==
+Procediendo a resolver el siguiente conflicto:
+
+== StatColLastmod ==
+Fecha de modificación
+
+== StatColPath ==
+Ruta
+
+== StatColSimilarity ==
+Similitud
+
+== StatColSize ==
+Tamaño
+
+== StatColStatus ==
+Estado
+
+== StatusKey ==
+Estado
+
+== StatusPerfWarningChanged ==
+El cálculo de cambiados tardó demasiado. Notas de rendimiento: {0}
+
+== StatusPerfWarningMoved ==
+El cálculo de movidos tardó demasiado. Hay demasiados privados y borrados. Notas de rendimiento: {0}
+
+== StatusPerfWarningPrivates ==
+Hay demasiados privados y eso puede ralentizar la operación. Cómo ignorar privados: {0}
+
+== SubtractiveIntervalMerge ==
+Merge sustractivo de intervalo
+
+== SubtractiveMerge ==
+Merge sustractivo
+
+== SubtractiveNeeded ==
+Se necesita hacer merge subtractivo del ítem {0} origen {1} destino {2} base {3}. Modificado por {4}
+
+== SupportBundleCreated ==
+Paquete de soporte creado en {0}
+
+== SupportBundleCreating ==
+Creando un paquete de soporte nuevo...
+
+== SupportContactUs ==
+Recuerde que puede contactar con nosotros en cualquier momento a través de
+https://www.plasticscm.com/support. No dude en hacerlo si necesita ayuda
+o tiene alguna pregunta o sugerencia.
+
+
+== SyncAlreadyReplicated ==
+El sync no puede comenzar porque el repositorio especificado viene de una réplica de un repositorio ya sincronizado con git. El repositorio originalmente sincronizado es '{0} - {1}'. Por favor, contacte con soporte para más información.
+
+== To ==
+a
+
+== Total ==
+Total
+
+== Trimmed ==
+Trimmed
+
+== TubeStatusConnected ==
+El servidor de Unity VCS ({0}) está conectado a Plastic Tube.
+
+== TubeStatusDisconnected ==
+El servidor de Unity VCS ({0}) no está conectado a Plastic Tube.
+
+== TypeNewPassword ==
+Contraseña nueva:
+
+== TypeOldPassword ==
+Contraseña antigua:
+
+== UnableToRemoveCset ==
+El changeset seleccionado {0} no se pudo eliminar.
+
+== UndoUnableToMove ==
+No se pudo deshacer el fichero movido '{0}' de vuelta a '{1}': {2}
+
+Probablemente necesite incluir ítems eliminados antes de deshacer sus cambios. Por favor, compruebe sus opciones actuales:
+
+- Si está utilizando la CLI, añada la ruta borrada o el argumento "--deleted" al comando 'undo'.
+- Si está utilizando la GUI, abra el diálogo Opciones en la vista de Cambios Pendientes y active la opción "Mostrar ficheros y directorios eliminados" en la pestaña "Qué mostrar".
+
+== UndoneAddOperation ==
+La operación local de añadido {0} será deshecha.
+
+== UndoneDeleteOperation ==
+La operación local de borrado {0} será deshecha.
+
+== UndoneMoveOperation ==
+La operación local de movido {0} -> {1} será deshecha.
+
+== UnknownError ==
+Error desconocido
+
+== Unlimited ==
+Ilimitada
+
+== UnloadItemAlreadyChanged ==
+El ítem no será borrado porque se encuentra cambiado (checked-out, cambiado, borrado o movido) en el workspace: '{0}'. Por favor, deshaga o confirme el cambio local y reintente la operación.
+
+== UnneededMergeRevisionLoaded ==
+El ítem '{0}' ya tiene cargada la revision correcta por lo que el copy merge no se necesita.
+
+== UnresolvedXlink ==
+xlink no resuelto
+
+== UnshareRepoSucceeded ==
+El repositorio '{0}' dejó de ser compartido correctamente.
+
+== UnsupportedMergeType ==
+Tipo de merge no soportado
+
+== UpdateDeletedSelectorObjectSkipped ==
+No se pudo actualizar su espacio de trabajo a una rama válida. Es posible que otro usuario haya borrado el shelve o la etiqueta a la que apuntaba su espacio de trabajo. Por favor, cambie su espacio de trabajo para que apunte a una rama, etiqueta, changeset o shelve existente.
+
+== UpdateProgress ==
+Actualizado {0} de {1} ({2} de {3} ficheros a descargar / {4} de {5} operaciones a aplicar)
+
+== UpdateProgressCalculating ==
+Calculando...
+
+== UpdateProgressDownloadingBigFile ==
+Descargando fichero {0} ({1}) desde {2}
+
+== UpdateProgressDownloadingBlock ==
+Descargando bloque de {0} ficheros ({1}) desde {2}
+
+== UpdateProgressUpdating ==
+Actualizando...
+
+== UpdateStatusCalculating ==
+Calculando
+
+== UpdateStatusFinished ==
+Terminado
+
+== UpdateStatusUpdating ==
+Actualizando
+
+== UpdateWithChangesFromGluonWorkspaceNotAllowed ==
+No se puede cambiar de un workspace Gluon a uno estándar con checkouts. Puede hacer checkin desde Gluon (o deshacer los cambios) y reintente el update.
+
+== UpdateWkIsUpToDate ==
+El espacio de trabajo {0} ya está actualizado (cset:{1})
+
+== UpdatingWorkspace ==
+Actualizando espacio de trabajo. Espere, por favor...
+
+== UploadingFiles ==
+Enviando {0} ficheros
+
+== User ==
+Usuario
+
+== UserCorrectlyActivated ==
+El usuario {0} ha sido activado correctamente
+
+== UserCorrectlyDeactivated ==
+El usuario {0} ha sido desactivado correctamente
+
+== UserInformation ==
+Información de licencia: servidor: {0}
+
+== UserKey ==
+Usuario
+
+== View ==
+controla si los objetos pueden ser vistos
+
+== VirtualPathDecorator ==
+(antecesor virtual, revisión en cs:{0})
+
+== WaitingOperation ==
+Esta operación puede tardar varios minutos. Espere, por favor ...
+
+== Warning ==
+Atención
+
+== WhichChange ==
+Qué elemento desea modificar? (Origen|Destino)[1|2]
+
+== WhichRename ==
+Que renombrado desea utilizar? [1|2]
+
+== WillCreateRepo ==
+El repositorio {0} no existe. Será creado.
+
+== WorkspacestatusAddGrp ==
+Elementos añadidos (AD = añadido, CP = copiado (nuevo), PR = privado, IG = ignorado)
+
+== WorkspacestatusChGrp ==
+Elementos modificados (CH = cambiado, CO = checkout, RP = reemplazado)
+
+== WorkspacestatusMvGrp ==
+Elementos movidos (MV = movido, LM = movido local)
+
+== WorkspacestatusRmGrp ==
+Elementos borrados (DE = borrado, LD = borrado local)
+
+== XlinkConflict ==
+Conflicto de Xlink
+
+== XlinkConflictActions1 ==
+Mantener los cambios en el origen del Xlink
+
+== XlinkConflictActions2 ==
+Mantener los cambios en el destino del Xlink
+
+== XlinkConflictDestinationOperation ==
+Modificado el Xlink a: {0}
+
+== XlinkConflictExplanation ==
+Un Xlink se ha modificado en el origen y en el destino, y ahora apuntan a dos changesets diferentes
+
+== XlinkConflictSourceOperation ==
+Modificado el Xlink a: {0}
+
+== XlinkPointsToShelveTarget ==
+El Xlink '{0}' no será descargado porque se creó con nuevo contenido dentro. Este escenario no está soportado aún.
+
+== XlinkWritableConflict ==
+Conflicto de antecesor común de Xlinks
+
+== XlinkWritableConflictExplanation ==
+El repositorio linkado (Xlinked) no conoce el antecesor común para calcular el merge. El usuario lo debe especificar manualmente.
+
+== Yes ==
+Si
+
+== YesValidAnswers ==
+s;si;sí;y;yes
+
+== LocalContentCheckedOut ==
+LocalContentCheckedOut
+
+== MovedHistDesc ==
+Movido de {0} a {1}
+
+== RemovedHistDesc ==
+Borrado {0}
+
+== CmdConfigureErrorCannotCreateDir ==
+No se pudo crear el directorio [{0}]:{1}
+
+== CmdConfigureErrorWrongParameters ==
+El número de parámtros es incorrecto. Teclee 'cm configure --help' para obtener ayuda
+
+== CmdConfigureErrorReadingParameters ==
+Error al leer los parámetros; por favor revise la lista de parámetros indicados.
+
+== CmdConfigureHeader ==
+####--- Asistente de configuración del cliente ---####
+
+== CmdConfigureSuccess ==
+El cliente de Unity VCS ha sido configurado correctamente.
+
+== CmdConfigureDetectedWorkingMode ==
+Modo de seguridad detectado: {0}
+
+== CmdConfigureDetectedWorkingModeError ==
+Hubo un error comprobando la configuración de seguridad del servidor Unity VCS.
+Quizá el servidor está offline, o la dirección especificada es incorrecta.
+¿Quiere reescribir la dirección del servidor?
+
+== CmdConfigureServerParams ==
+Configure la dirección/puerto del servidor Unity VCS:
+
+== CmdConfigureServerParamsAddress ==
+Dirección del servidor Unity VCS [{0}]
+
+== CmdConfigureServerParamsPort ==
+Puerto del servidor Unity VCS [{0}]
+
+== CmdConfigureServerParamsSslPort ==
+Puerto SSL del servidor Unity VCS [{0}]
+
+== CmdConfigureServerParamsUseSsl ==
+¿Utilizar cifrado (SSL)?
+
+== CmdConfigureProxyParams ==
+Configurar un servidor proxy?
+
+== CmdConfigureProxyParamsAddress ==
+Dirección del servidor proxy
+
+== CmdConfigureProxyParamsPort ==
+Puerto del servidor proxy
+
+== CmdConfigureRetry ==
+¿Quiere reintentar?
+
+== EncryptionConfigurationExplanation ==
+El servidor de origen '{0}' requiere encriptación de datos.
+Su servidor ('{1}') no ha sido aún configurado para manejar datos encriptados que procedan de dicho origen.
+
+Observaciones:
+* Extreme el cuidado y no pierda la contraseña de encriptación: es la única forma de descifrar sus datos en '{0}'.
+* Si introduce una contraseña errónea, el descifrado de sus datos fallará y deberá arreglarlo editando el fichero cryptedservers.conf en su servidor.
+* Asegúrese de emplear siempre la misma contraseña (clave de encriptación) en toda la empresa para trabajar con '{0}'. De otro modo, los datos se encriptarán de manera diferente en cada servidor.
+
+Introduzca una contraseña para generar la clave de encriptación (déjela en blanco para cancelar):
+
+== EncryptionPasswordNotEntered ==
+No ha introducido una contraseña.
+You didn't entered a password. No se configurará la encriptación para el servidor '{0}'.
+
+== EncryptionConfigurationFailed ==
+Se produjo un error al configurar la encriptación para el servidor '{0}'.
+
+== EncryptionConfigurationSucceeded ==
+Se agregó la configuración de encriptación para el servidor '{0}'.

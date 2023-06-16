@@ -1,0 +1,10 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="flex-container main">
+        <Label name="signInToPlasticSCM" class="title" />
+        <Label name="completeSignInOnBrowser" />
+        <VisualElement name="wait" class="flex-container row">
+            <VisualElement name="progressContainer" class="row" />
+            <Button name="cancelButton"></Button>
+        </VisualElement>
+    </VisualElement>
+</UXML>

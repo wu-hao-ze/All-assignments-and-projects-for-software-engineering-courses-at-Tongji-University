@@ -1,0 +1,11 @@
+﻿== NotChange ==
+项 {0} 在当前工作区中未更改
+
+== CannotMergeMergeInProgress ==
+无法开始新的合并，因为已在进行合并。请先完成该合并再开始新的合并。正在从变更集 {1} 进行合并：{0}
+
+== CannotUndoAdded ==
+无法撤销已更改的 '{0}'，因为包含非添加的更改
+
+== CannotUndoCopied ==
+无法撤销包含内容的已复制目录

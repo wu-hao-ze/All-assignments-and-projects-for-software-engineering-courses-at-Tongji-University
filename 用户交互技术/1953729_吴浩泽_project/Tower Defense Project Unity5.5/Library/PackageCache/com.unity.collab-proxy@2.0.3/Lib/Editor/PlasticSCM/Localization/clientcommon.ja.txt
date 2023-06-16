@@ -1,0 +1,874 @@
+﻿== AddNotAllowedPathIsFreeByTransformerRule ==
+項目 '{0}' を追加できません。パス '{0}' はサーバー内ですでに使用されていますが、トランスフォーマー規則 '{1}' によってクライアントでは使用されていません。
+
+== AddedItemCannotBeLocked ==
+項目 '{0}' は追加された項目であるため、ロックできません。(注意: その項目が追加された項目として表示されない場合、そのワークスペースが破損している可能性があります。サポートにお問い合わせください)
+
+== AdminReadonlyNotSupported ==
+そのサーバーの '{0}' バージョンは admin readonly コマンドをサポートしません。サーバーのバージョンをアップグレードしてください。
+
+== AttNameField ==
+属性名
+
+== BisyncMissingChangesPull ==
+外部 SCM からプルするリビジョンが不足しています ({0} は最新の外部の変更ではありません)。外部 SCM のすべての変更は、Unity VCS の変更をプッシュする前にプルされる必要があります。
+
+== BisyncMissingSubmoduleConfiguration ==
+'{0}' に対する同等な git リポジトリが定義されていません。Xlink をプッシュできません。設定ファイル '{1}' のサブモジュールセクションの内部に同等のものを追加してください。
+
+== BisyncMissingSubmoduleTarget ==
+コミット {0}@{1} が同期されていません。先にリポジトリ {1} が同期されている必要があります。
+
+== BisyncMissingXlinkedCset ==
+変更セット {0}@{1} が同期されていません。先にリポジトリ {1} が同期されている必要があります。
+
+== BothDirectoriesMustBeOnSameMountToMove ==
+移動するには、ソースと移動先の両方のディレクトリが同じマウントポイント上にある必要があります。{0}、{1}。
+
+== BrNameField ==
+ブランチ名
+
+== BranchDoesnotexist ==
+指定されたブランチ {0} が存在しません
+
+== BranchOrMarkerChangesetDoesntexist ==
+指定したラベルまたはブランチ {0} が有効でありません。ラベル付けされた変更セット (またはブランチのヘッド) {1} が存在しません。
+
+== BranchParentDoesnotexist ==
+指定されたブランチ {0} の親が存在しません
+
+== BusyWorkspace ==
+ワークスペース '{0}' がビジーです。後で再試行してください
+
+== CannotDoChangeEditedXlink ==
+編集済みの Xlink 内でチェックアウトを実行できません。
+
+== CannotDoChangeReadonlyXlink ==
+読み取り専用の Xlink 内の項目は変更できません。
+
+== CannotDoChangeUnresolvedXlink ==
+未解決の Xlink 内の項目は変更できません。
+
+== CannotEditXlinkRoot ==
+Xlink のルートを編集できません。
+
+== CannotIncomingChangesMergeInProgress ==
+進行中のマージがあるため、新しい変更 (受信される変更) を取得できません。先にマージを終了する必要があります。
+進行中のマージ: cset {1} からの {0}
+
+== CannotIncomingChangesMergePendingToConfirm ==
+先に現在のマージをチェックインする必要があるため、新しい変更 (受信される変更) を取得できません。変更を新しいブランチにチェックインするか、代わりに現在のブランチの最後の変更セットからマージできます。
+
+== CannotMergeIncomingChangesInProgress ==
+受信される変更操作が進行中であるため、マージを開始できません。先にそれを完了する必要があります。
+
+== CannotMergeMergeInProgress ==
+進行中のマージがすでにあるため、新しいマージを開始できません。新しいマージを開始する前にそれを終了してください。
+進行中のマージ: cset {1} からの {0}
+
+== CannotMergetoWithConflicts ==
+接続している Unity VCS サーバーがこの新しい機能をサポートしていない可能性があります。サーバー側マージ (競合解決を備えた「マージ先」) を使用するには、バージョン 7.0.16.2077 以上が必要です。これに該当する場合は、お使いのサーバーのインストールをアップグレードしてください。それ以外の場合、詳細についてはサーバーログを確認してください。
+
+== CannotPerformPartialCheckin ==
+チェックイン操作を実行できません。すべてのマージの変更は、そのマージの追跡可能性が正しく格納されるように、一度にチェックインされる必要があります。すべてのマージの変更を含め、その操作を繰り返してください。
+
+== CannotPerformPartialUndo ==
+チェックイン操作を取り消すことができません。すべてのマージの変更は一度に取り消す必要があります。その変更をすべて含めるか一切含めずに、その操作を繰り返してください。
+
+== CannotSwitchWithPendingChanges ==
+保留中の変更があるため、ブランチ/ラベル/変更セット/シェルブへの切り替えを実行できません。保留中の変更を確認し、操作を再試行してください。
+
+== CannotUndoAdded ==
+追加された '{0}' は、追加されていない変更を含むため取り消せません
+
+== CannotUndoCopied ==
+コンテンツを含むコピーされたディレクトリは取り消せません
+
+== CannotUndoMoved ==
+{2} が削除されているため、{0} から {1} への移動は取り消せません
+
+== CannotUpdateWithPendingChanges ==
+保留中の変更があるため、ワークスペースを更新できません。保留中の変更を確認し、操作を再試行してください。
+
+== CannotUpdateWorkspaceContainsChanges ==
+現在の設定に更新先となる新しい変更セットがありません。ワークスペースに保留中の変更があります。最新の変更の取得を試行中の場合は、更新を実行する代わりに、それらの変更の取り消しを試行してください。
+
+== CantArchiveAnAlreadyArchivedRevision ==
+すでにアーカイブ済みのリビジョンはアーカイブできません。{0}
+
+== CantArchiveCheckedoutrev ==
+チェックアウト済みのリビジョンをアーカイブできません。{0}
+
+== CantArchiveDirectory ==
+ディレクトリをアーカイブできません。{0}
+
+== CantArchiveFromDifferentRepositories ==
+単一の呼び出しで異なるリポジトリからのリビジョンをアーカイブできません
+
+== CantDiffBranchNoParent ==
+ブランチ {0} の親変更セットが見つからなかったため、その差分を表示できません。
+
+== CantDiffCsetNoParent ==
+cset {0} に親がないため、その差分を表示できません。
+
+== CantEditAndDeleteReview ==
+引数 -e (編集) と -d (削除) は一緒には使用できません。
+
+== CantFindDataForArchived ==
+リクエストしたアーカイブ済みのリビジョンのデータが見つかりません
+
+== CantRenameElementAlreadyExist ==
+この名前の要素がすでに存在するため、"{0}" の名前を "{1}" に変更できません
+
+== CantRevertToDifferentItem ==
+指定されたリビジョン '{0}' が別の項目を参照しているため、その項目を元に戻すことができません。
+
+== CantUpdateBaseChangesetBranchWithRevisions ==
+ブランチのベース変更セットは空である必要があるため、更新できません。
+
+== ChangeMustBeSelected ==
+変更 '{0}' を選択するには、変更 '{1}' も選択されている必要があります。
+
+== ChangelistAddtoBuiltinmergeEx ==
+組み込みの変更リストに変更を追加できません: '{0}'。
+
+== ChangelistAlreadyExist ==
+{0} という名前の変更リストがすでに存在します。
+
+== ChangelistCannotDeleteBuiltinEx ==
+種類が「組み込み」の変更リストを削除することは許可されていません。
+
+== ChangelistCannotEditBuiltinEx ==
+種類が「組み込み」の変更リストを編集することは許可されていません。
+
+== ChangelistCannotShowBuiltinEx ==
+組み込みの変更リストのコンテンツを表示できません: '{0}'。「組み込み」の変更リストを表示するには、'cm status --changelist' コマンドを使用してください。
+
+== ChangelistCorruptedStorageFile ==
+変更リストの情報データファイルをロードできません。ファイルの形式が無効である可能性があります。
+
+== ChangelistDeletefromBuiltinEx ==
+「組み込み」の変更リストから変更を削除できません: '{0}'。
+
+== ChangelistInvalidName ==
+変更リストの無効な名前: '{0}'。
+
+== ChangelistNotFound ==
+変更リスト {0} が存在しません
+
+== ChangesetMoveRepositoryMismatch ==
+ターゲットの変更セットと同期先のブランチは異なるリポジトリにあります。
+
+== ChangetNotLoadOnConf ==
+変更セット {0} は現在のワークスペース設定にロードされていません。
+
+== CheckinTooManyIgnoredErrors ==
+チェックインに対する変更が多すぎるとチェックインできません。チェックインを完了できません。変更を確認してもう一度お試しください。
+
+== CherryPick ==
+チェリーピック
+
+== ClientconfWithErrors ==
+クライアントの設定ファイル "client.conf" にエラーが含まれています: {0}
+
+== CloakedCannotBeDeleted ==
+'{0}' の項目はクロークされているため、削除できません。
+
+== CloakedDstCannotBeMoved ==
+項目を '{0}' に移動できません。'{0}' はクロークされています。
+
+== CloakedSrcCannotBeMoved ==
+'{0}' の項目はクロークされているため、移動できません。
+
+== CloudEditionInvalidCredentials ==
+ユーザー名またはパスワードが有効でありません。
+
+== CmdBadPosition ==
+トリガー位置は整数である必要があります。
+
+== CmdErrorInvalidWebtriggerUri ==
+指定された URI '{0}' が有効でありません。
+
+== CmdErrorNoSuchChangeset ==
+変更セット {0} がリポジトリ {1} に存在しません。
+
+== CommentField ==
+コメント
+
+== CompMethodError ==
+{0} は有効な比較方法ではありません
+
+== ContentMustBeUndoCheckedout ==
+チェックアウトを取り消す操作をディレクトリ '{0}' で実行するには、そのコンテンツが操作に含まれている必要があります。
+
+== CorruptConfigurationFile ==
+設定ファイル '{0}' のデータが無効であるか破損しているため、読み取れません。
+
+== CsetTreeCannotBeLoaded ==
+変更セット '{0}' のコンテンツをロードできません。
+
+== DaysAgo ==
+{0} 日前
+
+== DeleteNotAllowedTransfomerRuleInside ==
+項目 '{0}' にトランスフォーマー規則 '{1}' が含まれているため、削除できません。
+
+== DestinationField ==
+同期先
+
+== DestinationMustBeCheckedin ==
+移動ソース '{0}' は、移動先 '{1}' をチェックインしないとチェックインできません。
+
+== DifferentRepositoryBrSpecs ==
+異なるリポジトリからブランチを指定できません
+
+== DifferentRepositoryCsSpecs ==
+異なるリポジトリから変更セットを指定できません
+
+== DifftoolsUncorrectDefined ==
+差分ツール "{0}" の実行でエラーが発生しました。client.conf 内の差分ツールが間違って定義されています。
+
+== SpreadsheetcompareFailed ==
+SpreadsheetCompare.exe. コマンドの実行に失敗しました: "{0}"。
+
+== DirConflictsCannotBeApplied ==
+指定された解決策で {0} 件の競合を解決できません。それらの競合に対して別の解決策を試すか、先に別の競合を解決してください。
+
+== DiscardedDeletedWithDiscardedMoved ==
+破棄された '{1}' から '{2}' への移動が含まれるため、削除済みの '{0}' をチェックインできません。
+
+== DmnotavailableWithDir ==
+dm コマンドはディレクトリではなく、ファイルの比較にのみ使用できます。
+
+== DuplicatedBrSpecified ==
+指定されたブランチリストに重複したエントリが含まれています: {0}。重複したエントリを削除してください。
+
+== DuplicatedItemOnWk ==
+この項目は {0} と {1} で 2 回読み込まれています。これは完了していない「移動」操作の結果である可能性があります。2 つのインスタンスのうち 1 つを削除してください。
+
+== EncodingError ==
+{0} は有効なテキストエンコーディングではありません
+
+== ErrorAclNoPermissions ==
+権限が指定されていません
+
+== ErrorAclNoSuchPermission ==
+そのような権限はありません: {0}
+
+== ErrorAclNoSuchUserOrGroup ==
+そのようなユーザーまたはグループはありません: {0}
+
+== ErrorAclNoSuchUserOrGroupSpecified ==
+ユーザーまたはグループが指定されていません。
+
+== ErrorAclWrongBranchesArg ==
+"--branches" パラメーターが間違っています。ブランチ名の間に空白がないことを確認するか、引用符を使用してパラメーター全体をラップしてください。
+  例:
+    --branches=/main,/task001
+    --branches="/main, /task001"
+    "--branches=/main, /task001"
+  
+
+== ErrorArchiveCantRetrieveData ==
+アーカイブ済みのボリュームを取得できません、externaldata.conf ファイルを正しいパスで設定して、アーカイブ済みのデータの場所を特定してください。ベースファイル名: {0}。コメント: {1}。ファイル: {2}
+
+== ErrorCannotRenameDynamicWk ==
+動的ワークスペースの名前を変更することはできません。
+
+== ErrorCantImportInvalidPackage ==
+無効なレプリケーションパッケージ。有効なバージョンの署名が見つかりません
+
+== ErrorClientconfignotfound ==
+現在のユーザーに Unity VCS クライアントが正しく設定されていません: クライアントの設定ファイル {0} が見つかりません。'cm configure' を実行してテキストモード設定を実行するか、グラフィカルモードについては '{1} --configure' を実行してください。
+
+== ErrorDiffType ==
+異なるタイプの項目間の差分は計算できません
+
+== ErrorEmptySelector ==
+セレクターを空にすることはできません。
+
+== ErrorMoveSrcDstEqual ==
+{0} を移動できません。ソースパスと移動先パスが同じです
+
+== ErrorNoRepositoriesFound ==
+サーバーにリポジトリが見つかりません
+
+== ErrorPartialConfigureChangeCannotApply ==
+リクエストされた操作をパス {0} に適用できません (すでにロード/アンロード済みです)。
+
+== ErrorPartialConfigurePathNotFound ==
+パス {0} が見つかりませんでした。
+
+== ErrorPartialConfigureWrongFormat ==
+予期された形式が見つかりません。詳細については、コマンドの使用方法/ヘルプを確認してください。
+
+== ErrorReplicatePackageDoesntExist ==
+パッケージ {0} が存在しません
+
+== ErrorTwoCsetWithPathDiff ==
+'{0}' と '{1}' の間の差分を計算できません。
+
+== ErrorUpdateTrailingDots ==
+Windows ではファイル名の末尾のドットが許可されていません。
+
+== ExpansionRulesHeader ==
+ブランチ拡張ルール:
+
+== FailConnectionServer ==
+サーバー {0} への接続を確立できませんでした
+
+== FastChgRepNotAllowedOnTransWk ==
+高速更新は、トランスフォーマー規則を使用してターゲットリポジトリを変更するためには使用できません。標準の更新を使用してください。
+
+== FastNotAllowedRuleRestricion ==
+サーバーの変更 '{0}' をトランスフォーマー規則 '{1}' が存在するワークスペースには適用できなかったため、高速更新は許可されません。必要に応じてワークスペースのトランスフォーマー規則を更新して、標準の更新を使用してください。
+
+== FastUpdCloakedError ==
+高速更新は、クローク対象の規則と一緒には使用できません。標準の更新を使用してください。
+
+== FastUpdConflictsError ==
+ローカルとサーバーの変更が競合しているため、高速更新を実行できません。
+
+== FastUpdPendingChangesError ==
+保留中の変更があるため、高速更新を実行できません。保留中の変更を確認し、操作をもう一度お試しください。
+
+== FastUpdPendingMergesError ==
+保留中のマージリンクがあるため、高速更新を実行できません。保留中のマージを確認し、操作をもう一度お試しください。
+
+== FastUpdateApplyChangesError ==
+ワークスペースで高速更新を実行できません: '{0}'。すべてのローカルの変更を取り消し、高速更新のオプションをオフにして、更新をもう一度ローンチしてください。
+
+== FieldTooLong ==
+{0} が長すぎます。現在の長さは {1} です。許可されている最大サイズは {2} です
+
+== FileTypesFileNotFound ==
+filetypes ファイル {0} が見つかりません
+
+== FindNeedRepositories ==
+ワークスペースにありません。クエリに "on repositories" 句が必要です。
+
+== FormatterError ==
+フィールド {0} が指定されたオブジェクトタイプで有効でありません
+
+== GameUiCiHeadOutOfDateError ==
+操作の開始以降にリポジトリ '{0}' に新しい変更が作成されたため、チェックイン操作を完了できません。新しいサーバーの変更が考慮されるように、チェックイン操作を再試行してください。
+
+== GameuiCiInsideUnresolvedXlinkNotAllowed ==
+Xlink '{0}' を解決できません。未解決の Xlink の下の変更はチェックインできません。
+
+== GameuiCoBrMissingXlink ==
+サーバーにロードされなくなったため、Xlink '{0}' 内部で変更を加えることはできません。ワークスペースの設定を更新してください。
+
+== GameuiCoBrUnresolvedXlink ==
+エラーにより今すぐには解決できないため、Xlink '{0}' 内部で変更を加えることはできません: {1}
+
+== GenericError ==
+サーバー {0} でエラーが発生しました
+
+== GetRevisionDirectoryNotSupported ==
+GetRevision はディレクトリでサポートされていません。ディレクトリのコンテンツを取得するには、ワークスペースの規則にそれをロードしてください。
+
+== GluonPartialUpdateToDifferentBranch ==
+更新操作を続行できません。ターゲットの変更セットが現在のワークスペースブランチにある必要があります: {0}。
+
+== HoursAgo ==
+{0} 時間前
+
+== IncomingChangesCannotCalculateMerge ==
+受信される変更を計算できません。ワークスペースの変更セットが削除されたかどうかを確認するか、詳細についてサポートにお問い合わせください。
+
+== IncomingChangesDontMerge ==
+更新操作で競合が検出されました。操作が --dontmerge オプションを使用して実行されたため、続行できません。
+
+== IncomingChangesNotSupported ==
+サーバー {0} は受信される変更操作をサポートしません。サーバーを更新するか、単に通常のマージ/更新を実行して最新の変更を取得してください。
+
+== IncomingChangesReadonlyXlinksNotSupported ==
+現在、読み取り専用の Xlink の変更は、受信される変更でサポートされていません。単に通常のマージを実行して最新の変更を取得してください。
+
+== IncomingTansformerRulesNotSupported ==
+ワークスペースにトランスフォーマー規則が含まれています。現在、トランスフォーマー規則は受信される変更でサポートされていません。先に保留中の変更を取り消して、ワークスペースを更新してください。保持する必要がある保留中の変更がある場合は、それらを取り消す前にシェルブして、更新後にそのシェルブを適用できます。
+
+== IncomingWxlinkBackwardEditionNotSupported ==
+書き込み可能な Xlink '{0}' が、前の (古い方の) 変更セットを示すように編集されました。現在、このエディションの書き込み可能な Xlink は受信される変更でサポートされていません。先に保留中の変更を取り消して、ワークスペースを更新してください。保持する必要がある保留中の変更がある場合は、それらを取り消す前にシェルブして、更新後にそのシェルブを適用できます。
+
+== IncomingChangesSubbranchesNotSupported ==
+サブブランチを操作しています。これは、そのブランチのヘッドの親でない変更セットをロードしているときに発生します。現在、サブブランチは受信された変更でサポートされていません。cs:{0} からマージを実行して最新の変更を取得してください。
+
+== IncompatibleCmdOptions ==
+互換性のないオプション: {0}。
+
+== IncorrecBrspec ==
+正しくないブランチ指定
+
+== IncorrectCiDateFormat ==
+日付 '{0}' を形式 '{1}' を使用して解析できませんでした。
+
+== IncorrectExtensionConfiguration ==
+行 {0} に正しくないイシュートラッカーの設定データがあります: {1}
+
+== IncorrectExtensionConfigurationParameter ==
+行 {0} に正しくないイシュートラッカーのパラメーター設定があります: {1}
+
+== IncorrectSelector ==
+セレクターが正しく定義されていません。
+
+== IncorrectSelectorErrorMultiplePathsForRep ==
+セレクターが正しく定義されていません。リポジトリ {0} に複数のパス規則があります。
+
+== IncorrectSelectorMultipleRules ==
+セレクターが正しく定義されていません。複数のリポジトリ規則があります。
+
+== IncorrectSelectorNoRule ==
+セレクターが正しく定義されていません。リポジトリ規則がありません。
+
+== IncorrectSelectorParamInvalidMountPoint ==
+セレクターが正しく定義されていません。リポジトリ {0} にマウントポイント ({1}) があってはなりません。
+
+== IncorrectSelectorParamRepDoesntexist ==
+セレクターが正しく定義されていません。指定されたリポジトリが存在しません: {0}。
+
+== IncorrectSelectorParamRepServerCannotBeReached ==
+指定されたリポジトリ {1} に関連付けられたサーバー ({0}) に到達できません。
+
+== IncorrectSelectorParamRepnameCantBeEmpty ==
+セレクターが正しく定義されていません。リポジトリ名は空にできません。
+
+== Incorrectspec ==
+正しくないオブジェクト指定 {0}
+
+== InsensitiveDuplicatedItem ==
+区別しないファイルシステムで項目 {0} と {1} を同時にロードできません。項目 {0} は破棄されています。
+
+== IntervalMerge ==
+間隔マージ
+
+== InvalidCharsInName ==
+{0} に次の文字が含まれていてはなりません:
+               {1}
+
+== InvalidExpansionRule ==
+拡張ルール '{0}' が有効でありません。
+
+== InvalidExpansionRuleRepNotMatch ==
+ブランチ '{1}' はリポジトリ '{3}' ではなく '{2}' からのものでなければならないため、拡張ルール '{0}' が有効でありません。
+
+== InvalidFieldError ==
+フィールド '{0}' が有効でありません。
+
+== InvalidFormatString ==
+無効な形式の文字列
+
+== InvalidMergeDstBrSpec ==
+変更セット指定が有効なマージ先ではありません。
+
+== InvalidMergeDstSpec ==
+マージ先指定が有効でありません。代わりに変更セット指定かブランチ指定を使用してください。
+
+== InvalidMergespec ==
+無効な指定 {0}
+
+== InvalidMountPoint ==
+リポジトリ {1} のマウントポイント '{0}' がワークスペース '{2}' で有効でありません。最新でない可能性があります。
+
+== InvalidMoveDstPriv ==
+制御された項目を非公開のディレクトリに移動できません
+
+== IsNotAnXlink ==
+'{0}' は Xlink ではありません。
+
+== ItemAlreadyExistsOnWkWithDifferentTypeDir ==
+項目 {0} はすでにワークスペースに存在しますが、ファイルではなくディレクトリであるため、更新できません
+
+== ItemAlreadyExistsOnWkWithDifferentTypeFile ==
+項目 {0} はすでにワークスペースに存在しますが、ディレクトリではなくファイルであるため、更新できません
+
+== ItemAlreadyLocked ==
+項目 '{0}' は排他的チェックアウト済み {1} であるため、ロックできません。
+
+== ItemAlreadyLockedOnMergeFromHead ==
+'{0}' はすでにロック済み {1} であるため、マージを続行できません。続行するには、ファイルがアンロックされるか、変更を取り消す必要があります。今後は、変更を加える前にロックする必要があるファイルをチェックアウトすることで、このエラーを回避できます。
+
+== ItemCannotBeFoundOnRep ==
+項目 '{0}' (ItemId:{1}) がリポジトリ '{2}' に見つかりません。おそらく最新でないワークスペースで作業しています。更新してください。
+
+== ItemLockOutOfDateOnMergeFromHead ==
+'{0}' をロックできません。これは最新のリビジョンではなく、ロックは最新バージョンでのみ実行できます。変更を取り消して、再度更新できます。今後は、変更を加える前にロックする必要があるファイルをチェックアウトすることで、このエラーを回避できます。
+
+== ItemMustBeUndoCheckedout ==
+'{1}' に依存関係があるため、'{0}' を取り消せません。'{1}' をコマンド引数に追加し、再試行してください。
+
+== ItemNameField ==
+項目名
+
+== ItemPathField ==
+項目パス
+
+== LockCopiedItemsNotSupported ==
+サーバー {0} はコピーされた項目のロックをサポートしません。サーバーをアップグレードしてください。
+
+== LogOnPrivateNotCsRep ==
+非公開のパスでログコマンドを実行するには、完全な変更セット指定またはリポジトリ指定を指定する必要があります。
+
+== LsItemNotFound ==
+項目 {0} のセレクターを解決できません
+
+== LsItemNotFoundSelector ==
+項目 {0} のセレクターを解決できません。カスタムセレクターを指定しているため、「リポジトリ形式」のパスを使用する必要があることを忘れないでください: c:\myworkspace\src の代わりに /src を使用してください
+
+== MainBranchesNotAllowed ==
+最上位ブランチはこのエディションでは許可されていません。子ブランチのみが作成されます。
+
+== Merge ==
+マージ
+
+== MergeAddNotAllowedPathFreeByRule ==
+項目 '{0}' を追加できません。パス '{0}' はすでにサーバーで使用されていますが、トランスフォーマー規則 '{1}' によってクライアントでは使用されていません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeDeleteNotAllowedRuleInside ==
+項目 '{0}' にトランスフォーマー規則 '{1}' が含まれているため、削除できません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeMoveNotAllowedPathFreeByRule ==
+項目 '{0}' を '{1}' に移動できません。パス '{1}' はすでにサーバーで使用されていますが、トランスフォーマー規則 '{2}' によってクライアントでは使用されていません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeMoveNotAllowedTransformedItem ==
+項目 '{0}' は規則 '{1}' によってトランスフォームされているため、移動できません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeNeeded ==
+チェックインするには、変更セット cs:{0}@rep:{2}@repserver:{3}(mount:{4}) から変更セット cs:{1}@rep:{2}@repserver:{3}(mount:{4}) (現在ロードしている変更セット) へのマージが必要です。チェックイン操作を続行できません。現在のワークスペースのコンテンツを、現在操作しているブランチの最新のコンテンツにマージすることで、競合を解決する必要があります。その後、チェックイン操作を再試行できます。
+
+== MergeRestorerDeletedPathInUse ==
+トランスフォーマー規則 '{0}' によって削除されたパスがトランスフォーマー規則 '{1}' で再利用されているため、削除済みのコンテンツを復元できません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeRestorerRmRuleCannotBeLoaded ==
+トランスフォーマー規則 '{0}' のコンテンツをロードできません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeRestorerRmRuleMountMissing ==
+トランスフォーマー規則 '{0}' のマウントポイントが見つかりません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeRestorerRmRuleParentMissing ==
+トランスフォーマー規則 '{0}' のコンテンツの親 '{1}' がワークスペースにロードされていないため、復元できません。マージは現在のトランスフォーマー規則では完了できません。関与するトランスフォーマー規則を削除 (またはトランスフォームされていないワークスペースを使用) して、マージをもう一度お試しください。
+
+== MergeToPendingDirectoryConflicts ==
+マージ先を処理する前に解決する必要がある保留中のディレクトリ競合があります。
+
+== MergeToPendingFileConflicts ==
+マージ先を処理する前に解決する必要がある保留中のファイル競合があります。
+
+== MergetoolsUncorrectDefined ==
+マージツール "{0}" の実行でエラーが発生しました。client.conf 内のマージツールが間違って定義されています。
+
+== MinutesAgo ==
+{0} 分前
+
+== MkNameField ==
+ラベル名
+
+== MkbranchParentnotfound ==
+親ブランチ {0} がリポジトリサーバーに見つかりませんでした
+
+== Months ==
+{0} か月
+
+== MonthsAgo ==
+{0} か月前
+
+== MoveNotAllowedForTransformedItem ==
+項目 '{0}' が規則 '{1}' によってトランスフォームされているため、移動できません。
+
+== MoveNotAllowedPathIsFreeByTransformerRule ==
+項目 '{0}' を '{1}' に移動できません。パス '{1}' はサーバー内ですでに使用されていますが、トランスフォーマー規則 '{2}' によってクライアントでは使用されていません。
+
+== MultipleWorkspaceNotAllowed ==
+異なるワークスペースからの項目を使用して {0} 操作を実行できません。各ワークスペースの項目を使用して操作を再試行してください。
+
+== MustBeOnSameRep ==
+操作を実行するには、{0} と {1} が同じリポジトリ上にある必要があります
+
+== NewerWorkspaceVersion ==
+ワークスペース '{0}' のメタデータが Unity VCS のより新しいバージョンによってアップグレードされました。これで、古いバージョンでワークスペースのメタデータを読み取れなくなります。問題を解決するには: 1) Unity VCS クライアントをアップグレードする、または 2) ワークスペース内の '.plastic' ディレクトリを削除できます (ワークスペースのすべてのメタデータは失われ、ファイルは非公開として表示され、更新を実行する必要があります)。
+
+== NoContentToCompare ==
+比較するコンテンツがありません。
+
+== NoDifftoolDefined ==
+クライアント設定ファイルで差分ツールが定義されていません
+
+== NoElementFound ==
+履歴を表示する要素が見つかりませんでした。
+
+== NoMergesInProgress ==
+ワークスペース '{0}' 内に進行中のマージがありません。
+
+== NoMergetoolDefined ==
+クライアントの設定ファイルでマージツールが定義されていません
+
+== NoMountPointForMultirepQuery ==
+複数のリポジトリのクエリ (クエリ: '{0}') のマウントポイントを取得できません。
+
+== NoPathBetweenCsets ==
+'{0}' と '{1}' の間にパスがありません。
+
+== NoSuchCodeReview ==
+指定されたコードレビュー '{0}' を見つけることができませんでした。
+
+== NoSuchCodeReviewStatus ==
+そのようなコードレビューのステータスはありません: {0}。使用できる値: {1}
+
+== NotChange ==
+{0} は変更ではありません
+
+== NotValidCmPath ==
+指定されたパス: {0} は有効なサーバーパスではありません。
+
+== ObjectNameField ==
+オブジェクト名
+
+== OnlyOneRepRuleByRep ==
+無効なセレクター。リポジトリ '{0}' に複数のリポジトリ規則があります。リポジトリ規則はリポジトリごとに 1 つのみ許可されます。
+
+== ParentRevisionNotFound ==
+サーバーに選択されたリビジョンの親リビジョン (revid:{0}@{1}) が含まれないため、差分を計算できません。おそらく別のユーザーがそのリビジョンがロードされた変更セットを削除しました。
+
+== PartialWkWxlinkCannotBeEditedTargetOnExpandedBr ==
+部分的なワークスペースでは、すでにそれで作業しているときは Xlink '{0}' のターゲットブランチを編集できません。
+
+== PartialWkWxlinkCannotBeEditedTargetOnSameBr ==
+部分的なワークスペースでは、常に作業中のブランチ上のヘッド変更セットのコンテンツがロードされるため、そのブランチ上の異なる変更セットを示すように書き込み可能な Xlink '{0}' を編集することはできません。
+
+== PendingDirectoryConflict ==
+マージを処理する前に解決する必要があるディレクトリ競合があります。
+
+== PendingDirectoryConflicts ==
+マージを処理する前に解決する必要があるディレクトリ競合が {0} 個あります。
+
+== PrivDirDiff ==
+非公開のディレクトリ間の差分は表示できません
+
+== ProfileNameAlreadyExists ==
+プロファイル名がすでに存在します
+
+== RepCannotBeLoadedInsideItself ==
+リポジトリはそれ自体の内部にロードできません。リポジトリ {0} はすでに '{2}' にロードされているため、'{1}' にロードできません。
+
+== RepNameField ==
+リポジトリ名
+
+== RepSpecField ==
+リポジトリ指定
+
+== RepositoryLoadedTwiceOnWk ==
+リポジトリ {0} は '{1}' と '{2}' に 2 回マウントされています。マウントポイントを指定してください。
+
+== RestorePathShouldNotExist ==
+復元パスが存在していない必要があります。
+
+== RevdatanotfoundForSpec ==
+指定されたリビジョン指定でデータが見つかりません
+
+== RevertToCurrentRev ==
+指定されたリビジョン '{0}' は現在のリビジョンです。元に戻す必要はありません。
+
+== ReviewNameField ==
+コードレビューのタイトル
+
+== RevisionCannotBeFoundOnRep ==
+{0} の現在のリビジョンがリポジトリ '{1}' に見つかりません。
+
+== SecondsAgo ==
+{0} 秒前
+
+== SecuredPathField ==
+指定されたセキュリティで保護されたパス
+
+== SecuredPathTagField ==
+セキュリティで保護されたパスのタグ
+
+== SelectorCsetZeroRootCannotBeLoaded ==
+指定されたセレクターではワークスペースを初期化できません。おそらくそのセレクターのリポジトリの初期変更セットをロードするのに十分な権限がありません。
+
+== SelectorRepNotFound ==
+リポジトリが見つかりません。おそらくセレクターにエラーが含まれています。
+
+== SelectorTreeContentCannotBeLoaded ==
+セレクターのコンテンツをロードできません。おそらくそれをロードするのに十分な権限がありません。
+
+== ShelveIdGreaterThanZero ==
+シェルブ ID はゼロより大きい整数である必要があります
+
+== SubtractiveIntervalMerge ==
+減算的な間隔のマージ
+
+== SubtractiveMerge ==
+減法マージ
+
+== SupportBundleAdding ==
+{0} を追加しています...
+
+== SwitchSelectorErrorMultiplePathsInRule ==
+リポジトリ {0} に複数のパス規則があります。セレクターを自動で切り替えることはできません
+
+== SwitchSelectorErrorNoRepFound ==
+現在のワークスペースセレクターにリポジトリ {0} の規則が含まれていません
+
+== SwitchSelectorErrorNoRepFoundOnlyOneRule ==
+現在のワークスペースセレクターにリポジトリ {0} の規則が含まれていません
+
+== SwitchSelectorErrorObjectsOnSameRep ==
+同じリポジトリで 1 つ以上のブランチまたはラベルが選択されています
+
+== SyncBranchWithMultipleHeads ==
+ブランチ {0} に複数のヘッドがあります。同期を続行するにはマージしてください
+
+== SyncBranchesWithMultipleHeads ==
+ブランチ {0} に複数のヘッドがあります。同期を続行するにはマージしてください
+
+== TransformedItemAlreadyApplied ==
+同じ項目の規則がすでに適用されているため、規則 '{0}' を適用できません '{1}'
+
+== TransformerMvRuleDstInUseError ==
+同期先パスが使用されているため、規則 '{0}' を適用できません。
+
+== TransformerMvRuleDstInsideSrcError ==
+項目をそれ自体の内部に移動できないため、規則 '{0}' を適用できません。
+
+== TransformerMvRuleModifiesAppliedRule ==
+すでに適用済みの規則 ('{1}') が変更されるため、規則 '{0}' を適用できません。
+
+== TransformerRmRuleMvInsideError ==
+移動規則 ('{1}') が含まれるため、規則 '{0}' を適用できません。
+
+== TransformerRuleDeleteRootError ==
+ルート項目は削除できないため、規則 '{0}' を適用できません。
+
+== TransformerRuleMissingPathError ==
+パス '{1}' が見つからないため、規則 '{0}' を適用できません。
+
+== TriggerNameField ==
+トリガー名
+
+== TwoRulesForSameBranchError ==
+ブランチ '{0}' にはすでに拡張ルール '{0} -> {2}' があるため、新しい拡張ルール '{0} -> {1}' を追加できません。
+
+== UnableToOpen ==
+URL を開くことができません: 
+
+== UndeleteNotSupported ==
+Xlink では削除の取り消し操作はサポートされていません。
+
+== UnexpectedError ==
+予期しないエラーが発生しました。
+
+== UnexpectedErrorOnServer ==
+サーバーで予期しないエラーが発生しました。詳細については、サーバーログを確認してください。
+
+== UnreachableServer ==
+サーバー '{0}' に到達できません。
+
+== UnrecognizedLanguage ==
+現在、選択されたファイルの言語はサポートされていません。
+
+== UnsupportedMergeType ==
+サポートされていないマージタイプ
+
+== UpPasswordCorrupt ==
+クライアントの設定ファイルのパラメーター 'password' が破損しています。
+
+== UpdateWkContentError ==
+次のエラーが原因で、ワークスペース '{0}' のコンテンツを更新できません: {1}
+
+== UserDefinedExpansionRuleSuffix ==
+ [ユーザー定義]
+
+== UsingDefaultConfiguration ==
+デフォルト設定を使用中
+
+== WkConfigurationDirAlreadyChanged ==
+ディレクトリ '{0}' は '{1}' の内部に変更が含まれるため、ロード/アンロードできません。ディレクトリ内部のすべての変更を取り消して、操作を再試行してください。
+
+== WkConfigurationFileAlreadyChanged ==
+ファイル '{0}' は '{1}' ですでに変更されているため、ロード/アンロードできません。変更を取り消して、操作を再試行してください。
+
+== WkConfigurationItemAlreadyLoaded ==
+項目 '{0}' はすでにワークスペースにロードされています。新しい場所にロードするために、'{1}' をアンロードしてください。
+
+== WkConfigurationPathAlreadyInUse ==
+パス '{0}' に別の項目がロードされています。アンロードして操作を再試行してください。
+
+== WkConfigurationRootAlreadyChanged ==
+ワークスペースに保留中の変更があるため、ルート項目をロード/アンロードできません。ワークスペースのすべての変更を取り消して、操作を再試行してください。
+
+== WkNameField ==
+ワークスペース名
+
+== WkPathField ==
+ワークスペースパス
+
+== WktreeCorrupt ==
+ワークスペース '{0}' のメタデータが破損しています。ワークスペースを更新してください。
+
+== WorkspacePathNotResolved ==
+項目 {0} のワークスペースパスを解決できません。
+
+== WorkspaceWithChangesApplingLabel ==
+ワークスペースに変更が含まれています。現在のワークスペースに保留中の変更がある場合は、ラベルを適用できません。
+
+== WrongConflictToResolve ==
+'{0}' は解決する有効な競合ではありません。
+
+== WrongPercentValue ==
+値 '{0}' は有効な割合ではありません。
+
+== WrongResolutionInfo ==
+'{0}' は解決策 '{1}' の有効な解決情報ではありません。
+
+== WrongResolutionOption ==
+'{0}' は有効な解決策ではありません。
+
+== XlinkCsetNotFound ==
+Xlink {0} で指定された cset が見つかりません
+
+== XlinkRootNotFound ==
+Xlink のルート '{0}' が {1}@{2}@{3} に見つかりません。
+
+== Years ==
+{0} 年
+
+== YearsAgo ==
+{0} 年前
+
+== RevisionToReloadNotFound ==
+リロードするリビジョンが見つかりませんでした
+
+== InvalidEncryptionMethod ==
+指定された暗号化方法が無効です: {0}。AES128、AES192、または AES256 を使用してください
+
+== MissingEncryptionPassword ==
+--encryptpassword を使用してパスワードを指定してください
+
+== EmptyEncryptionPassword ==
+有効な暗号化パスワードを指定してください
+
+== MissingEncryptionServer ==
+--encryptserver を使用してサーバーを指定してください
+
+== EmptyEncryptionServer ==
+有効な暗号化サーバーを指定してください
+
+== MkworkspaceDynamicIncorrectTreespec ==
+正しくないブランチ、変更セットまたはラベルの指定: '{0}'
+
+== MkworkspaceDynamicTreespecNotfound ==
+指定 '{0}' のブランチ、変更セット、またはラベルが見つかりませんでした
+
+== MkworkspaceDynamicAlreadyExists ==
+ディレクトリ '{0}' はすでに存在していて空ではありません。
+
+== CmdPatchFileNotFound ==
+パッチを含んだファイルが見つかりませんでした。
+
+== GameUiCheckinConflictsError ==
+一部のローカル変更を現在のサーバーバージョンに適用できないため、チェックイン操作を完了できません。ローカルの変更と現在のサーバーバージョンとの間の競合をチェックしてください。
+
+== IsNotWk ==
+{0} はワークスペース内にありません。

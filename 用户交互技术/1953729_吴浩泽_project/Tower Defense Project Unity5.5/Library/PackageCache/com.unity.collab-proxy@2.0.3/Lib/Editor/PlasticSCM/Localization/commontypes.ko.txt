@@ -1,0 +1,1585 @@
+﻿== AclNotFound ==
+이전 버전 객체로 작업 중입니다. 클라이언트나 워크스페이스가 이전 버전일 수 있습니다. 업데이트하시기 바랍니다.
+
+== ActivateUserNotInLicenseList ==
+사용자 {0}님을 활성화할 수 없습니다. 사용자를 처음으로 활성화하려면 사용자 자격 증명으로 Plastic SCM을 실행하십시오. 이 명령으로 사용자를 활성화하려면 이전에 해당 사용자를 비활성화한 이력이 있어야 합니다.
+
+== AddMoveConflict ==
+충돌 추가/이동
+
+== AdminCmdReadonlyInvalidAction ==
+'{0}' 작업은 readonly admin 명령에 유효하지 않습니다.
+
+== AdminCommandNotAllowedOnCloud ==
+Admin 명령은 Cloud 서버에서 실행할 수 없습니다.
+
+== AdminCommandNotValid ==
+admin 명령 '{0}'은(는) 유효하지 않습니다.
+
+== AlreadyCoInWkOrPrivate ==
+{0} 요소는 비공개 파일이거나 이미 현재 워크스페이스에 체크아웃되었습니다.
+
+== AttAlreadyExists ==
+{0} 속성이 이미 있습니다.
+
+== AttNotFound ==
+지정된 속성 {0}을(를) 찾을 수 없습니다.
+
+== AttrNotFound ==
+지정된 속성 실체화를 찾을 수 없습니다.
+
+== AvailableLdapTypes ==
+사용 가능한 LDAP 서버 유형
+
+== AzureMaxDbSize ==
+조직 '{0}'이(가) 크기 할당량을 모두 사용했습니다. 지원팀에 문의하십시오.
+
+== BackOpNoGuiControl ==
+백그라운드 작업으로 GUI를 업데이트하려고 시도했으나, 정의된 GUI 제어가 없습니다.
+
+== BadDomainSyntax ==
+지정된 도메인이 유효하지 않습니다: {0}.
+
+== BadFormatSeidData ==
+SEID 데이터에 잘못된 형식이 있습니다: {0}.
+
+== BitmapTooBig ==
+현재 다이어그램을 익스포트할 수 없습니다. 크기가 너무 클 수 있습니다. 필터링하여 크기를 줄이십시오.
+
+== BrNotFound ==
+지정된 브랜치 {0}을(를) 찾을 수 없습니다.
+
+== ParentBranchNotFound ==
+부모 브랜치 {0}이(가) 더 이상 존재하지 않습니다. 유효한 부모 브랜치에서 브랜치를 다시 생성하고 필요한 경우 GUI를 새로고침하십시오.
+
+== ParentBranchWithoutHead ==
+부모 브랜치 {0}에 헤드가 없으므로 유효하지 않습니다. 다른 부모 브랜치를 사용해 브랜치를 다시 생성하십시오.
+
+== ShelveIsNotAValidBranchBase ==
+임시 저장에서 브랜치를 생성할 수 없습니다.
+
+== BranchAlreadyExists ==
+{0} 브랜치가 이미 있습니다.
+
+== CannotCheckSecurityPathInIncompleteCset ==
+항목:{0}의 경로를 변경세트 cs:{1}(br:{2})에서 계산할 수 없기 때문에 보안을 확인할 수 없습니다. 변경 세트가 복제되지 않았습니다. 누락된 변경 세트를 복제하고 다시 시도하십시오.
+
+== CannotConnectRepserver ==
+서버 {0}에 연결할 수 없습니다
+
+== CannotCreateIostatsFolder ==
+오류: 디스크 테스트용 폴더를 생성할 수 없습니다. {0}
+
+== CannotCreateSymlink ==
+기호 링크를 생성할 수 없습니다.
+
+== CannotCreateXlink ==
+입력한 항목이 이미 있어서 Xlink를 생성할 수 없습니다. {0}
+
+== CannotDecryptData ==
+{0} 데이터가 암호화되었습니다. 해당 데이터를 읽으려면 암호화 정보가 필요합니다.
+
+== CannotDiffDstCsetNotComplete ==
+변경 세트 {0}와(과) {1}의 차이점을 표시할 수 없습니다. 대상 변경 세트 {1}이(가) 이 리포지토리에 복제되지 않았습니다. 해당 변경 세트를 포함하는 브랜치를 복제했는지 확인하십시오.
+
+== CannotDiffSourceCsetNotComplete ==
+변경 세트 {0}와(과) {1}의 차이점을 표시할 수 없습니다. 소스 변경 세트 {0}이(가) 이 리포지토리에 복제되지 않았습니다. 해당 변경 세트를 포함하는 브랜치를 복제했는지 확인하십시오.
+
+== CannotEditXlink ==
+경로에 해당 Xlink가 없어서 편집할 수 없습니다. {0}
+
+== CannotEditXlinkRepository ==
+Xlink 대상 리포지토리를 편집할 수 없습니다(이름, 서버, 상대 서버 변경할 수 없음).
+
+== CannotEditXlinkType ==
+Xlink 유형을 편집할 수 없습니다.
+
+== CannotEditXlinkWithChanges ==
+체크아웃을 포함하고 있어서 해당 Xlink를 편집할 수 없습니다.
+
+== CannotRemoveIostatsFolder ==
+오류: 디스크 테스트 폴더를 제거할 수 없습니다. {0}
+
+== CannotSaveDataNotCo ==
+체크아웃된 개정에 대해서만 데이터를 저장할 수 있습니다.
+
+== CannotUpdateWorkspaceOutOfDate ==
+워크스페이스가 이전 버전인 경우 부분 업데이트를 할 수 없습니다.
+
+== CantCheckSecurityRevisions ==
+개정 보안을 확인할 수 없습니다
+
+== CantCheckinSameData ==
+{0} 항목에 대해 같은 데이터를 체크인할 수 없습니다.
+
+== CantCheckout ==
+배타적 체크아웃이 있어 체크아웃할 수 없습니다
+
+== CantCheckoutExclusive ==
+기존 체크아웃이 있어 배타적 체크아웃을 수행할 수 없습니다
+
+== CantConnectServer ==
+서버에 연결할 수 없습니다
+
+== CantConvertSid ==
+해당 SID를 유효한 스트링 형식({0})으로 변환할 수 없습니다.
+
+== CantDeleteDirectoryWithCheckouts ==
+체크아웃을 포함하고 있어서 {0} 디렉터리를 제거할 수 없습니다.
+
+== CantDiffBinaryFiles ==
+{0}의 파일 유형은 차이점 표시가 지원되지 않습니다.
+
+== CantDiffBinaryFilesGeneric ==
+선택한 항목의 파일 유형은 차이점 표시가 지원되지 않습니다.
+
+== CantFindParentBranch ==
+ID가 {1}(리포지토리 {2})인 브랜치 {0}의 부모를 찾을 수 없습니다
+
+== CantLabelCheckedoutRevision ==
+체크아웃된 개정에 레이블을 지정할 수 없습니다.
+
+== CantLabelRevisionWithChangesetlabel ==
+이 변경 세트 유형 레이블로 개정에 레이블을 지정할 수 없습니다. 레이블 {0}.
+
+== CantLoadRootItem ==
+루트 항목을 로드할 수 없습니다. 워크스페이스 선택기에 오류가 있을 수 있습니다.
+
+== CantLocateChangesetToMoveInDatabase ==
+변경 세트 {0}이(가) 더 이상 데이터베이스에 존재하지 않아 이동할 수 없습니다.
+
+== CantLocateChangesetToDeleteInDatabase ==
+변경 세트 {0}이(가) 더 이상 데이터베이스에 존재하지 않아 삭제할 수 없습니다.
+
+== CantLocateMergeSourceChangesetInDatabase ==
+소스 변경 세트 {0}이(가) 더 이상 데이터베이스에 존재하지 않아 병합을 계산할 수 없습니다.
+
+== CantLocateMergeDestinationChangesetInDatabase ==
+변경 세트 {0}이(가) 더 이상 데이터베이스에 존재하지 않아 병합을 계산할 수 없습니다.
+
+== CantLocateMergeDestinationChangesetInDatabaseTryUpdateWk ==
+워크스페이스에 로드된 변경 세트 {0}이(가) 더 이상 데이터베이스에 존재하지 않아 병합을 계산할 수 없습니다.
+워크스페이스를 업데이트하고 다시 병합하십시오.
+
+== CantLocateObjectInRep ==
+리포지토리에서 객체 {0}을(를) 찾을 수 없습니다.
+
+== CantLocateParentRevisionForItem ==
+서버가 {0} 항목을 체크아웃할 부모 개정을 찾을 수 없습니다.
+
+== CantLocateRevisionForItem ==
+선택기가 {0} 항목에 대한 개정을 찾을 수 없습니다.
+
+== CantLocateRevisionForItemNotRestore ==
+선택기가 {0} 항목에 대한 개정을 찾을 수 없어 복원되지 않습니다.
+
+== CantLocateSelectorForItem ==
+서버가 {0} 항목에 맞는 선택기를 찾을 수 없습니다.
+
+== CantOverwriteControlledItems ==
+{0} 항목이 이미 {1}에 있습니다. 제어 항목을 덮어쓸 수 없습니다. 삭제하고 작업을 다시 시도하십시오.
+
+== CantReadOrCreateFile ==
+파일을 읽거나 쓸 수 없습니다: '{0}'. 쓰기 권한이 있는지 혹은 관리자 권한이 필요한지 확인하십시오.
+
+== CantRemoveBranchWithChangesets ==
+변경 세트가 있어 이 브랜치를 제거할 수 없습니다.
+
+== CantRemoveBranchWithChildBranches ==
+자식 브랜치가 있어 이 브랜치를 제거할 수 없습니다.
+
+== CantRemoveCheckedOut ==
+체크아웃되어 {0}을(를) 제거할 수 없습니다.
+
+== CantRestoreInDifferentRep ==
+다른 리포지토리에서 항목을 복원할 수 없습니다.
+
+== CantRetrieveSymlinkTarget ==
+{0}에 대한 기호 링크 대상을 가져올 수 없습니다
+
+== CantRetrieveWktree ==
+'{1}'의 워크스페이스 '{0}'에 대한 wkTree를 가져올 수 없습니다
+
+== CantRevertRootItem ==
+루트 항목은 되돌릴 수 없습니다
+
+== CantSetAclItemsRevs ==
+개정이나 항목에 ACL을 설정할 수 없습니다
+
+== CantSetDirType ==
+파일에 '디렉터리' 유형을 설정할 수 없습니다.
+
+== CantSpecifyABranchBaseForMainBranch ==
+주 리포지토리 브랜치에 브랜치 베이스를 설정할 수 없습니다.
+
+== CantSpecifyBranchAsBaseForBranch ==
+순환 관계가 생성되기 때문에 브랜치 {0}을(를) 브랜치 {1}의 베이스로 설정할 수 없습니다. 스마트 브랜치 계층을 먼저 확인하십시오.
+
+== CantSpecifyBranchBaseOnSameBranch ==
+스마트 브랜치 베이스는 같은 브랜치에 있을 수 없습니다.
+
+== CantSpecifyChangesetBaseOnSameBranch ==
+변경 세트 {0}이(가) 같은 브랜치에 있으므로 이를 베이스로 사용할 수 없습니다.
+
+== CantSpecifyCsetAsBaseForBranch ==
+순환 관계가 생성되기 때문에 변경 세트 {0}을(를) 브랜치 {1}의 베이스로 설정할 수 없습니다. 스마트 브랜치 계층을 먼저 확인하십시오.
+
+== CantSpecifyrevnoWithsmartbranch ==
+스마트 브랜치를 사용하는 경우 개정 번호 규칙을 지정할 수 없습니다. {0}.
+
+== CantUseRegularlabelAsSmartbranchStartingpoint ==
+일반 레이블 유형을 스마트 브랜치의 시작 지점으로 사용할 수 없습니다. {0}.
+
+== ChangeDeleteConflict ==
+충돌 변경/삭제
+
+== ChangepasswordCommandNotAvailable ==
+이 명령은 보안 구성이 사용자/비밀번호인 경우에만 사용할 수 있습니다.
+
+== ChangepasswordCommandNotAvailableOnServer ==
+이 명령은 보안 구성이 사용자/비밀번호이고 Plastic SCM 서버가 사용자/비밀번호 보안 모드로 구성되지 않은 경우에만 사용할 수 있습니다.
+
+== ChangesetDoesntexist ==
+지정된 변경 세트 {0}이(가) 존재하지 않습니다.
+
+== ShelveDoesntexist ==
+지정된 임시 저장 {0}이(가) 존재하지 않습니다.
+
+== ChangesetIsNotANumber ==
+지정된 변경 세트가 숫자가 아닙니다. {0}.
+
+== ChangesetMoveDstBranchNotEmpty ==
+대상 브랜치가 비어 있지 않습니다.
+
+== CheckinRevNoCo ==
+체크인을 수행하려면 개정 {0}을(를) 리포지토리 {1}에서 체크아웃해야 합니다.
+
+== ChooseLanguage ==
+언어 선택(숫자 입력)
+
+== ChooseType ==
+서버 유형(숫자 입력)
+
+== ChooseWorkingMode ==
+모드 선택(숫자 입력)
+
+== CiMissingRevisionData ==
+데이터 전송 중에 내부 오류가 발생하여 체크인 작업을 완료할 수 없습니다. 체크인 작업을 다시 시도해주십시오.
+
+== ClientCallcontextNotavailable ==
+호출 컨텍스트를 사용할 수 없습니다. 호출을 중단합니다.
+
+== ClientVersionDoesntMatch ==
+클라이언트 버전({0})이 서버 버전({1})과 일치하지 않습니다. 클라이언트를 알맞은 버전으로 업데이트하십시오.
+
+== ClientWillClose ==
+{0} Unity VCS 클라이언트를 계속할 수 없어 종료됩니다.
+
+== CloudForbiddenError ==
+Unity VCS Cloud에 대해 데이터 읽기/쓰기가 불가능합니다. 인증 문제가 발생했습니다. 현지 날짜(클라이언트 또는 서버)가 잘못됐을 수 있습니다. 문제를 해결하려면 날짜를 변경하십시오.
+
+== CmdCantMove ==
+{0}을(를) {1}(으)로 이동할 수 없습니다.
+
+== CmdCantMoveSamePath ==
+{0}을(를) 이동할 수 없습니다. 지정된 경로가 원래 경로와 같습니다. 다른 경로를 지정하십시오.
+
+== CmdCantMoveDstIsSubfolderSrc ==
+{0}을(를) {1}(으)로 이동할 수 없습니다. 대상이 소스 폴더의 하위 폴더입니다.
+
+== CmdDirPrivate ==
+{0}은(는) 비공개 디렉터리입니다. 이동할 수 없습니다.
+
+== CmdErrorGetrepositoryserver ==
+서버 {0}에 연결할 수 없습니다.
+
+== CmdErrorItemInCi ==
+{0} 항목에 대한 변경사항이 체크인되어 취소할 수 없습니다. 
+
+== CmdErrorPrivateItem ==
+작업을 수행할 수 없습니다. {0} 항목은 비공개입니다.
+
+== CmdErrorPrivatePath ==
+작업을 수행할 수 없습니다. 현재 경로는 비공개입니다.
+
+== CmdGenericItemdoesnotexist ==
+{0} 항목이 더 이상 워크스페이스에 존재하지 않습니다.
+
+== CmdItemDoesNotExist ==
+{0}이(가) 존재하지 않습니다.
+
+== CmdErrorLabelIncorrectmarkerspec ==
+잘못된 레이블 사양: {0}
+
+== CommentOutOfDate ==
+편집 중인 검토 코멘트가 더 이상 존재하지 않습니다. 코멘트 뷰를 새로고침하십시오.
+
+== CommentTooLong ==
+코멘트가 너무 깁니다. 현재 길이는 {0}입니다. 허용된 최대 길이는 {1}입니다
+
+== CommitFailedAndRollback ==
+작업이 커밋할 수 없으며 취소되었습니다.
+
+== CommonAncestorSameItem ==
+공통 조상은 같은 항목의 개정에서만 계산될 수 있습니다.
+
+== CommonAncestorSameRev ==
+같은 개정의 공통 조상을 계산할 수 없습니다.
+
+== ConfiguringLanguage ==
+언어 구성 중입니다. 사용할 수 있는 언어는 다음과 같습니다.
+
+== ConfiguringLdap ==
+LDAP 연결 구성 중...
+
+== ConfiguringUp ==
+사용자 및 비밀번호 설정 구성 중 ...
+
+== ConfiguringWorkingMode ==
+사용자 인증 모드를 선택하십시오. 사용할 수 있는 모드는 다음과 같습니다.
+
+== ConflictCannotBeApplied ==
+해당 충돌 해결 방법은 다른 충돌 해결에 따라 달라질 수 있어 적용할 수 없습니다. 다른 순서로 충돌 해결을 시도해보십시오. 충돌 해결 방법이 다음 오류를 반환했습니다. {0}
+
+== ControlInManager ==
+제어 {0}은(는) 이미 그래픽스 관리자에 있습니다.
+
+== ControlNotPrepared ==
+해당 제어는 아직 준비되지 않았습니다. 다시 시도하십시오.
+
+== CouldGetInstanceOf ==
+치명적인 오류: 클래스 {0}의 인스턴스를 가져올 수 없습니다.
+
+== CouldntGetRepositoryFromPath ==
+{0}에서 리포지토리를 가져올 수 없습니다. 항목이 비공개일 수 있습니다.
+
+== CouldntLoadAsm ==
+어셈블리 {0}을(를) 로드할 수 없습니다.
+
+== CsNotFound ==
+지정된 변경 세트 {0}을(를) 찾을 수 없습니다.
+
+== CycleMoveConflict ==
+순환 이동 충돌
+
+== DatabaseInfoMoreThanOneRow ==
+DATABASEINFO 표에는 행이 하나만 있어야 합니다.
+
+== DeactivateUserNotInLicenseList ==
+사용자 {0}님은 활성 사용자가 아닙니다.
+
+== DeleteBlobError ==
+개정 {0}에 대한 데이터(세그먼트 {1})를 리포지토리 {2}에서 삭제할 수 없습니다.
+
+== GetSizeBlobError ==
+개정 {0}에 대한 데이터(세그먼트 {1})의 크기를 리포지토리 {2}에서 가져올 수 없습니다.
+
+== DestNotFound ==
+대상 객체를 찾을 수 없습니다.
+
+== DestinationAlreadyExist ==
+이동할 수 없습니다. 대상 {0}이(가) 이미 있습니다. 항목 덮어쓰기가 허용되지 않습니다
+
+== DestinationDirectoryMustBeCheckedoutToMove ==
+{0}을(를) 이동하려면 대상 디렉터리를 체크아웃해야 합니다.
+
+== DirIdentical ==
+디렉터리가 동일합니다.
+
+== DirectoryAlreadyExists ==
+{0} 디렉터리가 이미 존재합니다.
+
+== DirectoryNotExist ==
+{0} 디렉터리가 존재하지 않습니다.
+
+== DivergentMoveConflict ==
+분기 이동 충돌
+
+== DoesNotExist ==
+{0}이(가) 존재하지 않습니다.
+
+== DomainNotAvailable ==
+도메인 컨트롤러를 사용할 수 없습니다.
+
+== DuplicatedArg ==
+인수 {0}이(가) 중복됩니다.
+
+== ElementIsNotCi ==
+현재 워크스페이스에서 {0} 요소가 체크인되지 않았습니다.
+
+== ElementIsNotCo ==
+현재 워크스페이스에서 {0} 요소가 체크아웃되지 않았습니다.
+
+== English ==
+영어
+
+== ErrorCantCreateDatabase ==
+데이터베이스 {0}을(를) 생성할 수 없습니다. 서버 로그(plastic.server.log)를 확인하십시오. 오류: {1}
+
+== ErrorCantImportInvalidPackage ==
+잘못된 복제 패키지입니다. 잘못된 헤더입니다.
+
+== ErrorCantReplicateSameRepository ==
+오류입니다. 같은 리포지토리에서 복제할 수 없습니다.
+
+== ErrorCreatingBranchBaseNoCsetOnParentBranch ==
+부모 브랜치에 변경 세트가 없으므로 브랜치 베이스가 설정되지 않았습니다. 부모 브랜치가 스마트 브랜치가 아닐 수 있습니다.
+
+== ErrorDatabaseOpen ==
+Plastic SCM 서버 {0}이(가) 데이터베이스에 대한 연결을 열 수 없습니다. 서버 로그(plastic.server.log)를 확인하십시오. 오류: {1}
+
+== ErrorExecutingQuery ==
+{0} 쿼리를 실행하는 동안 오류가 발생했습니다. {1}.
+
+== ErrorExecutingUpgradeCommand ==
+upgrade 명령 중 오류가 발생했습니다: {0}.
+
+== ErrorIncorrectRepserverspec ==
+서버 사양이 올바르지 않습니다: {0}.
+
+== ErrorLinkingMergeNoChangeset ==
+변경 세트가 아닌 객체의 병합 링크 시도 중: ObjectId {0}.
+
+== ErrorLinkingMergeNoLink ==
+변경 세트나 간격 병합 링크가 아닌 객체의 병합 링크 시도 중: ObjectId {0}.
+
+== ErrorNotValidTriggerType ==
+트리거 유형 '{0}'은(는) 지정된 서버에 유효하지 않습니다.
+
+== ErrorOperation ==
+{0} 작업이 완료되었으나 오류가 있습니다.
+
+== ErrorOwnerNull ==
+오류, 캐시를 남길 때 소유자가 null입니다.
+
+== ErrorReadingRemotingFile ==
+원격 구성 파일을 읽는 중 오류가 발생했습니다: {0}.
+
+== ErrorRemotingFileNotExist ==
+원격 구성 파일 {0}이(가) 존재하지 않습니다.
+
+== ErrorServerconfighaserrors ==
+서버 구성 파일 {0}에 오류가 있습니다. Plastic 서버가 올바르게 구성되지 않았습니다. "plasticd configure"를 실행해 텍스트 모드에서 서버를 구성하거나 "configureserver"를 실행해 GUI 서버 구성 마법시를 실행하십시오. 오류: {1}.
+
+== ErrorServerconfignotfound ==
+서버 구성 파일 {0}을(를) 찾을 수 없습니다. Plastic 서버가 올바르게 구성되지 않았습니다. "plasticd configure"를 실행해 텍스트 모드에서 서버를 구성하거나 "configureserver"를 실행해 GUI 서버 구성 마법시를 실행하십시오.
+
+== ErrorSettingItemAttributes ==
+{0} 항목의 파일 속성을 설정하는 중에 문제가 발생했습니다: {1}
+
+== ErrorSpecifiedBranchbasealreadyexists ==
+브랜치:{0}에 대해 지정된 브랜치 베이스가 이미 있습니다.
+
+== ErrorTriggerException ==
+트리거 {0}-{1} {2} {3}을(를) 실행하는 중에 오류가 발생했습니다.
+
+== ErrorTriggerResult ==
+트리거 {0}-{1} [{2}]이(가) 실패했습니다. {3}.
+
+== EverybodyKey ==
+모든 사용자
+
+== EvilTwinConflict ==
+이블 트윈 충돌
+
+== FailConnectionRepServer ==
+리포지토리 서버 {0}에 연결할 수 없습니다.
+
+== FailedCreateWorkspace ==
+'{1}'에 워크스페이스 '{0}' 생성 실패
+
+== FetchWithNoDataNotSupported ==
+{0} 서버는 데이터 없이 가져오기를 지원하지 않습니다. 서버를 업그레이드하십시오.
+
+== FileAlreadyExists ==
+{0} 파일이 이미 존재합니다.
+
+== FilesIdentical ==
+파일이 동일합니다.
+
+== FipsCompliantServerEncryptionNoAllowed ==
+'{0}' 서버가 암호화를 필요로 하지만 FIPS 준수 서버에는 암호화가 허용되지 않습니다. 자세한 정보는 devops-vcs-support@unity3d.com으로 문의하십시오.
+
+== FormatAndXmlModifiersIncompatible ==
+--xml 및 --format 한정어는 호환되지 않으며 함께 사용할 수 없습니다.
+
+== GetClientContext ==
+클라이언트 사용자 및 기기 컨텍스트를 가져올 수 없습니다.
+
+== GetRevinfo ==
+{0}에 대한 개정 정보를 가져올 수 없습니다.
+
+== HydrateNotSupported ==
+{0} 서버는 하이드레이트를 지원하지 않습니다. 서버를 업그레이드하십시오.
+
+== IncompatibleAuthModes ==
+클라이언트 인증 모드({0})가 서버 인증 모드({1})와 일치하지 않습니다.
+
+== IncorrectAttClientSpec ==
+잘못된 속성 지정됨: {0}.
+
+== IncorrectBrClientSpec ==
+잘못된 브랜치 지정됨: {0}.
+
+== IncorrectBrSpec ==
+잘못된 브랜치가 지정되었습니다.
+
+== IncorrectCsClientSpec ==
+잘못된 변경 세트 지정됨: {0}.
+
+== IncorrectLbClientSpec ==
+잘못된 레이블 지정됨: {0}.
+
+== IncorrectRepClientSpec ==
+잘못된 리포지토리 지정됨: {0}.
+
+== IncorrectSpecNoArgument ==
+잘못된 사양이 지정됐습니다.
+
+== InvalidChildrenitemchangetype ==
+매개 변수 유형은 유효한 ChildrenItemChangeType으로 정의한 요소여야 합니다.
+
+== InvalidConnectionEncoding ==
+DB 연결 스트링에 인코딩이 없거나 유효한 인코딩이 없습니다.
+
+== InvalidCredentials ==
+Active Directory 또는 LDAP: 잘못된 자격 증명 사용자 이름, 비밀번호, 도메인이 유효하지 않습니다. 서버 오류: {0}
+
+== InvalidCsetToLabel ==
+변경 세트 {0}의 레이블을 지정할 수 없습니다.
+
+== InvalidCulture ==
+이 언어로 변경할 수 없습니다. 이전 언어로 설정됩니다.
+
+== InvalidDatabaseVersion ==
+잘못된 데이터베이스 버전: {0}.
+
+== InvalidDb ==
+제공자 {0}은(는) 이 버전에서 지원되지 않습니다.
+
+== InvalidDiffchildtype ==
+매개 변수 자식은 유효한 childType으로 정의한 요소여야 합니다.
+
+== InvalidDomain ==
+Active Directory: 잘못된 도메인: {0}.
+
+== InvalidEncoding ==
+지정된 인코딩이 유효하지 않습니다: {0}
+
+== InvalidLanguage ==
+사용할 수 없는 언어: {0}.
+
+== InvalidLdapConfigData ==
+클라이언트 구성 파일에 잘못된 LDAP 매개 변수가 있습니다.
+
+== InvalidLdapType ==
+잘못된 LDAP 서버 유형: {0}.
+
+== InvalidModuleName ==
+{0}은(는) 잘못된 모듈 이름입니다. 비워두거나 /를 포함할 수 없습니다
+
+== InvalidOption ==
+잘못된 옵션입니다. 
+
+== InvalidOs ==
+운영 체제는 이 버전에서 지원되지 않습니다.
+
+== InvalidParameter ==
+잘못된 매개 변수: {0}.
+
+== InvalidParameterRange ==
+오류: 매개 변수 {0}의 값은 {1}에서 {2} 사이여야 합니다.
+
+== InvalidRevisionType ==
+잘못된 개정 유형: {0}.
+
+== InvalidServer ==
+Active Directory: {0} 서버가 유효하지 않습니다.
+
+== InvalidServerFormat ==
+'{0}' 서버의 형식이 유효하지 않습니다. 유효한 서버 형식은 다음과 같습니다. [protocol://][organization@]server
+
+== InvalidSname ==
+잘못된 서버 이름 값입니다.
+
+== InvalidUpConfigData ==
+클라이언트 구성 파일에 잘못된 사용자/비밀번호 매개 변수가 있습니다.
+
+== InvalidValue ==
+잘못된 값입니다. 
+
+== InvalidWorkingMode ==
+구성 파일에 잘못된 SEID 작업 모드가 있습니다.
+
+== InvalidWorkingModeConf ==
+잘못된 작업 모드: {0}.
+
+== InvalidWorkingModeWinseid ==
+잘못된 모드로 라이브러리 액세스 시도 중: {0}.
+
+== IsnotFile ==
+{0}은(는) 디렉터리가 아닌 파일이어야 합니다.
+
+== IsnotWk ==
+{0}은(는) 워크스페이스가 아닙니다.
+
+== ItemAlreadyLoadedOnTree ==
+{0} 항목이 이미 경로 '{1}'의 트리에 로드되었습니다.
+
+== ItemCannotBeFoundOnTree ==
+{0} 항목을 트리에서 찾을 수 없습니다(마지막으로 알려진 경로: '{1}').
+
+== ItemCannotBeMovedInsideItself ==
+'{0}' 항목은 '{1}' 내부로 이동할 수 없습니다.
+
+== ItemCantBeFoundOnDir ==
+{0} 항목을 디렉터리에서 찾을 수 없습니다.
+
+== ItemExists ==
+{0} 항목이 이미 있습니다!
+
+== ItemHandlerNotFound ==
+{0} 서버에서 ItemHandler를 가져올 수 없습니다.
+
+== ItemIsnotInWk ==
+이 항목은 워크스페이스가 아닙니다.
+
+== ItemLoadedTwiceOnTree ==
+{0} 항목은 '{1}', '{2}'에 두 번 로드되었습니다. 둘 중 하나를 제거하십시오.
+
+== ItemLockOutOfDate ==
+최신 버전이 없어서 '{0}'을(를) 체크아웃할 수 없습니다. 최신 버전으로 업데이트하고 잠그려면 변경사항을 실행 취소해야 합니다. 변경사항을 보존하려면 직접 백업해야 합니다. 추후에는 변경하기 전에 이 파일을 잠그시기 바랍니다.
+
+== ItemNotFound ==
+{0} 항목을 찾을 수 없습니다.
+
+== ItemNotFoundInDirectory ==
+{0} 항목을 디렉터리에서 찾을 수 없습니다.
+
+== ItemNotFoundInTree ==
+{0} 항목을 트리에서 찾을 수 없습니다. 새 트리를 만들 수 없습니다.
+
+== ItemNotFoundOnVirtualAncestor ==
+{0} 항목을 가상 조상에서 찾을 수 없습니다.
+
+== ItemRevisionCantBeFoundOnCset ==
+선택한 변경 세트에 항목에 대한 개정이 없습니다
+
+== ItempathNotInWk ==
+워크스페이스에 없는 항목 경로: {0}.
+
+== ItemsAlreadyLocked ==
+이 항목들은 다음에 의해 배타적으로 체크아웃되었습니다. {0}
+
+== LabelDoesntexist ==
+지정된 레이블 {0}이(가) 존재하지 않습니다.
+
+== LbNotFound ==
+지정된 레이블을 찾을 수 없습니다.
+
+== LdapDomain ==
+LDAP 도메인
+
+== LdapEmptyPassword ==
+제공된 비밀번호가 비어 있습니다
+
+== LdapException ==
+LDAP 서버에 오류가 발생했습니다: {0}
+
+== LdapPassword ==
+LDAP 비밀번호
+
+== LdapPort ==
+LDAP 포트 [389]
+
+== LdapReconnectException ==
+LDAP 서버 {0}에 연결하는 중에 오류가 발생했습니다
+
+== LdapServer ==
+LDAP 서버: {0}
+
+== LdapUser ==
+LDAP 사용자
+
+== LicenseDateExpired ==
+사용 날짜가 제한된 평가 라이센스가 만료되었습니다. 만료일 {0}.
+
+== LicenseDaysExpired ==
+사용일수가 제한된 평가 라이센스가 만료되었습니다.
+
+== LicenseNotFound ==
+라이센스 파일이 없으면 Plastic SCM 서버가 작동하지 않습니다.
+
+== LicenseRemotelyDisabled ==
+관리자가 자동 갱신 라이센스를 비활성화했습니다. 자세한 내용은 devops-vcs-support@unity3d.com으로 문의하십시오.
+
+== LicenseVersionInvalid ==
+Plastic SCM {1} 버전에서 {0} 라이센스를 사용할 수 없습니다.
+
+== LkNotFound ==
+유형 {0}의 링크를 찾을 수 없습니다.
+
+== LoadSpec ==
+지정된 사양을 로드할 수 없습니다.
+
+== LoadedTwiceConflict ==
+이중 로드된 항목 충돌
+
+== MergeBrNecessary ==
+지정된 체크아웃 브랜치가 없으면 병합을 수행할 수 없습니다.
+
+== MergeDestRevNotCo ==
+병합 브랜치의 대상 개정을 체크아웃해야 합니다.
+
+== MergeCouldNotCheckRules ==
+병합을 수행할 수 없습니다. 병합 규칙 시스템을 초기화할 수 없습니다. 예상치 못한 문제가 발생했습니다. 지원팀에 문의하십시오.
+
+== MergeDidNotSatisfyRulesSrcBranchWasNotReviewed ==
+병합 규칙 때문에 병합을 수행할 수 없습니다. '{1}'에 병합하려면 브랜치 '{0}'을(를) 검토하십시오.
+
+== MergeDidNotSatisfyRulesNoMatch ==
+현재 병합 규칙 구성으로는 브랜치 '{0}'을(를) '{1}'에 병합할 수 없습니다.
+
+== MergeDidNotSatisfyRulesNotFromChildren ==
+현재 병합 규칙 구성으로는 브랜치 '{0}'의 자식을 해당 브랜치로만 병합할 수 있으며, 브랜치 '{1}'은(는) 지속 자식이 아닙니다.
+
+== MergeDidNotSatisfyRulesNotFromParent ==
+현재 병합 규칙 구성으로는 브랜치 '{0}'의 부모를 해당 브랜치로만 병합할 수 있으며, 브랜치 '{1}'은(는) 해당 브랜치의 부모 브랜치가 아닙니다.
+
+== MergeDstMustBeCo ==
+병합 대상이 체크아웃되지 않습니다: ObjectId {0}.
+
+== MergeNeeded ==
+체크인하려면 {0} 변경 세트에서 {1} 변경 세트(현재 로딩 중인 변경 세트)로 병합해야 합니다. 체크인 작업을 계속할 수 없습니다. 현재 워크스페이스 내용을 현재 작업 중인 브랜치의 최신 내용과 병합해 충돌을 해결해야 합니다. 그런 다음 체크인 작업을 다시 시도할 수 있습니다.
+
+== MergeNotLocateDestRev ==
+병합 작업의 대상 개정을 찾을 수 없습니다.
+
+== MergeOpsCannotBeApplied ==
+다음 병합 작업이 적용되지 않았습니다: {0}
+
+== MergeToFoundConflicts ==
+변경 세트 cs:{0}을(를) 브랜치 br:{1}(으)로 병합하는 중에 충돌이 발생해 "대상에 병합" 작업을 실행할 수 없습니다.
+해당 충돌을 해결하려면 워크스페이스에서 "대상에서 병합" 작업을 실행해야 합니다.
+
+== MergeTypeNotFound ==
+병합 유형을 찾을 수 없습니다
+
+== MergeUpdateWithLocallyChanged ==
+로컬에서 변경된 항목이 있어서 업데이트 작업을 수행할 수 없습니다: {0}. 병합을 시도하십시오.
+
+== MergeWithNotLoadedDestRev ==
+병합 대상 개정은 '로드되지 않음'일 수 없습니다.
+
+== MissingExternalStorageConfiguration ==
+개정 데이터가 외부 스토리지에 저장되지만, 정의된 외부 스토리지가 없습니다. 서버 데이터베이스 구성에 외부 스토리지 구성을 추가하십시오.
+
+== MissingOrganization ==
+제공된 조직이 없습니다. 특정 조직에 대해 작업해야 합니다.
+
+== MkAlreadyExists ==
+{0} 레이블이 이미 존재합니다.
+
+== MsgError ==
+오류: 
+
+== MsgNoSelector ==
+이 워크스페이스용 선택기가 없습니다. {0}
+
+== NoApplicationToOpen ==
+지정된 파일 {0}을(를) 열기 위해 선택된 애플리케이션이 없습니다.
+
+== NoCoBrFound ==
+체크아웃 브랜치가 없습니다.
+
+== NoCommonAncestor ==
+소스 변경 세트 {0}에서 리포지토리 {2}에 있는 대상 변경 세트 {1}(으)로 병합할 수 없습니다. 공통 조상을 찾을 수 없습니다. 이를 포함하는 브랜치를 복제했는지 확인하십시오.
+
+== NoCommonAncestorBasedOnId ==
+공통 조상은 개정 ID를 기반으로 컴퓨팅할 수 없습니다.
+
+== NoContactRepInSelector ==
+선택기에서 리포지토리에 연결할 수 없습니다: {0}.
+
+== NoDataInDomain ==
+이 도메인에서 그룹을 검색할 수 없습니다. 잘못된 도메인입니다. {0}.
+
+== NoDatabaseConfiguration ==
+요청한 제공자에 대한 데이터베이스 구성이 없습니다: {0}.
+
+== NoDomainControllerInAdworkingmode ==
+세션 {0}에서 도메인 컨트롤러를 찾을 수 없습니다. 이 계정은 Active Directory 서버에서 구성되지 않은 계정일 수 있습니다. 구성을 LDAPWorkingMode로 변경하고 LDAP 자격 증명을 설정하십시오.
+
+== NoPortInRemotingFile ==
+원격 구성 파일에 지정된 포트가 없습니다.
+
+== NoPreviousRevisionAvailable ==
+이 항목에 대한 이전 개정이 없습니다.
+
+== NoRepForClientSpec ==
+객체 '{0}'에 대한 리포지토리를 찾을 수 없습니다. 명령이 '{1}' 같이 전체 객체 사양(리포지토리 포함)을 포함하거나 명령을 워크스페이스 내부에서 실행해야 합니다.
+
+== NoRootRevision ==
+루트 개정을 찾을 수 없습니다. ID: {0}.
+
+== NoRowsInQuery ==
+쿼리가 어떤 행도 반환하지 않았습니다
+
+== NoSelectorOnWks ==
+비어 있는 워크스페이스 선택기로 작업하려고 시도 중입니다.
+
+== NoSuchObject ==
+GoupInfoObject를 가져올 수 없습니다.
+
+== NoSuchUser ==
+해당 사용자가 없음: {0}.
+
+== NoWorkspaceSelected ==
+선택된 워크스페이스가 없습니다.
+
+== NotEmptyIostatsFolder ==
+오류: 디스크 테스트 경로가 비어있지 않습니다. 경로: {0}
+
+== NotEnoughDiskSizeIostatsFolder ==
+오류: 디스크 공간이 충분하지 않아 디스크 테스트를 수행할 수 없습니다. 다른 경로를 지정하거나 디스크 공간을 확보하십시오. 경로: {0}
+
+== NotFoundGroupInGroupList ==
+그룹 목록에서 참조된 그룹 '{0}'을(를) 찾을 수 없습니다.
+
+== NotFoundUserInUserList ==
+사용자 목록에서 참조된 사용자 '{0}'을(를) 찾을 수 없습니다.
+
+== NotGroupedUsersKey ==
+그룹이 지정되지 않은 사용자
+
+== NotImplementedYet ==
+아직 구현되지 않았습니다.
+
+== NotLoaded ==
+현재 워크스페이스에서 {0}을(를) 로드할 수 없습니다.
+
+== NotValidDirectoryconflicttype ==
+매개 변수 유형은 유효한 DirectoryConflictType으로 정의한 요소여야 합니다.
+
+== NotValidFileconflictty ==
+매개 변수 유형은 유효한 FileConflictType으로 정의한 요소여야 합니다.
+
+== NotValidQuery ==
+잘못된 쿼리입니다.
+
+== NotValidSpecializedtype ==
+제거 유형이 SpecializeType 메서드에 유효한 유형이 아닙니다.
+
+== NullPath ==
+경로는 null이 될 수 없습니다.
+
+== NullRevInfoNoSelector ==
+루트 항목에 대한 개정을 가져올 수 없습니다. 비어 있는 선택기로 작업을 시도하시겠습니까?
+
+== ObjectLocked ==
+객체가 현재 잠겨있습니다. 나중에 다시 시도하십시오. {0}.
+
+== WorkspaceLocked ==
+기존 {1} 작업이 워크스페이스 '{0}'을(를) 잠갔습니다. {1} 작업이 끝날 때까지 기다려주십시오.
+
+== ObjectWithoutGuid ==
+객체 {0}에 대한 GUID를 찾을 수 없습니다.
+
+== OnlyAdminCanAcceptCert ==
+서버 관리자만 서버에서 인증서를 수락할 수 있습니다.
+
+== OnlyAdminCanConfPlasticTube ==
+서버 관리자만 Plastic Tube 구성을 수정할 수 있습니다.
+
+== OnlyAdminCanExecuteAdminCommand ==
+서버 관리자만 admin 명령을 실행할 수 있습니다.
+
+== OnlyAdminCanFetchWithNoData ==
+서버 관리자만 데이터 없이 가져올 수 있습니다.
+
+== OnlyAdminCanRenewLicense ==
+서버 관리자만 라이센스를 갱신할 수 있습니다.
+
+== OnlyAdminCanSetServerEncryption ==
+서버 관리자만 서버에 대한 암호화를 구성할 수 있습니다.
+
+== OnlyOneRevisionAvailable ==
+항목에 개정이 하나밖에 없습니다.
+
+== OperationCanceled ==
+사용자가 작업을 취소했습니다.
+
+== OperationNotApplicableToWorkspaces ==
+이 작업은 워크스페이스에 적용할 수 없습니다.
+
+== OrganizationDbCannotBeCreated ==
+조직 '{1}'에 대한 DB '{0}'을(를) 생성할 수 없습니다. 나중에 다시 시도해주십시오. 문제가 지속되면 지원팀에 문의하시기 바랍니다.
+
+== OrganizationDoesNotExist ==
+조직 '{0}'이(가) 없습니다.
+
+== OrganizationIsDisabled ==
+조직 '{0}'이(가) 비활성화되었습니다. plasticscm.com의 대시보드에서 활성화하십시오. 다른 문의사항이 있으면 언제든지 devops-vcs-support@unity3d.com로 문의하십시오.
+
+== OrganizationIsDeleting ==
+조직 '{0}'을(를) 더 이상 사용할 수 없습니다. 다른 문의사항이 있으면 언제든지 devops-vcs-support@unity3d.com로 문의하십시오.
+
+== OrganizationIsMigrating ==
+현재 Cloud 조직 '{0}'을(를) 업그레이드하고 있습니다. 이 작업은 몇 시간 정도 걸릴 수 있습니다. 나중에 다시 시도해주십시오. 자세한 내용은 devops-vcs-support@unity3d.com으로 문의하시기 바랍니다.
+
+== OrganizationIsMissing ==
+조직이 없습니다. 호출에서 조직을 찾을 수 없습니다.
+
+== OrganizationInvalidStatus ==
+잘못된 '{0}' 상태가 조직 '{1}'에 있습니다.
+
+== OrganizationMembersEmpty ==
+Cloud 인증 정보를 가져올 수 없습니다. 나중에 다시 시도해주십시오. 문제가 지속되면 devops-vcs-support@unity3d.com에 문의하시기 바랍니다.
+
+== OrphanFoldersDetected ==
+{0}개의 고아 폴더가 트리에서 감지되었습니다. 예상된 고아 폴더는 1개(루트)입니다
+
+== OrphanTransaction ==
+이전 작업이 올바르게 완료되지 않았습니다. 다시 시도하십시오.
+
+== OwnerKey ==
+소유자
+
+== ParameterNotPresent ==
+{0} 매개 변수가 없거나 유효하지 않습니다.
+
+== ParentCo ==
+{1}을(를) 추가하려면 부모 디렉터리 {0}을(를) 체크아웃해야 합니다.
+
+== ParentCoToRemove ==
+{0}을(를) 제거하려면 부모 디렉터리를 체크아웃해야 합니다.
+
+== ParentCoToRestore ==
+{1}을(를) 복원하려면 부모 디렉터리 {0}을(를) 체크아웃해야 합니다.
+
+== ParentDirectoryMustBeCheckedoutToMove ==
+{0}을(를) 이동하려면 부모 디렉터리를 체크아웃해야 합니다.
+
+== ParentNotInRep ==
+{0} 항목의 부모 {1}을(를) 로드할 수 없어 해당 항목을 리포지토리에 추가할 수 없습니다.
+
+== ParentRepositoryDoesNotExist ==
+부모 리포지토리가 존재하지 않아 모듈을 생성할 수 없습니다.
+
+== PathAlreadyExistsBranchesCreate ==
+보안 설정된 경로를 생성할 수 없습니다. 같은 브랜치 목록에 적용된 다른 보안 설정된 경로(태그 없음)가 있습니다.
+
+보안 설정된 경로는 해당 경로에 의해 식별되며 태그가 없는 경우 식별 태그나 브랜치 목록으로 식별됩니다.
+
+생성하려는 보안 설정된 경로의 브랜치 목록을 수정하거나 이미 생성된 동일한 보안 설정된 경로를 수정하십시오.
+
+== PathAlreadyExistsBranchesUpdate ==
+보안 설정된 경로를 업데이트할 수 없습니다. 같은 브랜치 목록에 적용된 다른 보안 설정된 경로(태그 없음)가 있습니다.
+
+보안 설정된 경로는 해당 경로에 의해 식별되며 태그가 없는 경우 식별 태그나 브랜치 목록으로 식별됩니다.
+
+변경하려는 보안 설정된 경로의 브랜치 목록을 수정하거나 이미 생성된 동일한 보안 설정된 경로를 수정하십시오.
+
+== PathAlreadyExistsTagCreate ==
+보안 설정된 경로를 생성할 수 없습니다. 같은 브랜치 목록에 적용된 같은 태그로 보안 설정된 다른 경로가 있습니다.
+
+보안 설정된 경로는 해당 경로에 의해 식별되며 태그가 없는 경우 식별 태그나 브랜치 목록으로 식별됩니다.
+
+생성하려는 보안 설정된 경로에 다른 이름을 사용하십시오.
+
+== PathAlreadyExistsTagUpdate ==
+보안 설정된 경로를 업데이트 수 없습니다. 같은 브랜치 목록에 적용된 같은 태그로 보안 설정된 다른 경로가 있습니다.
+
+보안 설정된 경로는 해당 경로에 의해 식별되며 태그가 없는 경우 식별 태그나 브랜치 목록으로 식별됩니다.
+
+변경하려는 보안 설정된 경로에 다른 이름을 사용하십시오.
+
+== PathNotInRep ==
+보안 설정된 경로를 생성할 수 없습니다. 경로가 Xlink에 있습니다. Xlink 리포지토리의 경로 권한 다이얼로그를 사용하십시오. {0}.
+
+== PathSpecMultipleMatches ==
+지정된 보안 설정된 경로: {0}이(가) 여러 보안 설정된 경로 인스턴스와 일치합니다. 전체 보안 설정된 경로 사양('path#tag'나 '--branches=list_of_branches' 인수가 있는 'path')을 제공하십시오.
+   
+
+== ProblemLoadingExtension ==
+확장자를 로드하는 도중에 문제가 발생했습니다.
+
+== PrunedMergeLocalChgsCannotBeApplied ==
+일부 로컬 변경사항을 처리할 수 없어 병합을 수행할 수 없습니다. 대부분은 관련 경로 중 일부를 변경할 수 있는 적절한 권한이 없는 경우입니다. 자세한 내용은 서버 로그를 확인하십시오.
+
+== PrunedDiffLocalChgsCannotBeApplied ==
+일부 로컬 변경사항을 처리할 수 없어 로컬 변경사항이 있는 비교를 계산할 수 없습니다. 대부분은 관련 경로 중 일부를 변경할 수 있는 적절한 권한이 없는 경우입니다. 자세한 내용은 서버 로그를 확인하십시오.
+
+== PrunedTreeNotAllowed ==
+cs:{1}의 경로 '{0}'에 있는 전체 내용을 읽을 수 있는 권한이 없습니다. 현재 작업을 계속하려면 전체 트리를 읽어야 합니다. 경로 권한을 검토하고 다시 시도하십시오.
+
+== PushAllNotAllowedWithMissingData ==
+해당 리포지토리 개정의 데이터 일부가 누락되어(--nodata로 복제되었을 수 있음) 리포지토리를 내보낼 수 없습니다. 브랜치를 데이터 없이 하이드레이트하고 다시 시도하십시오. 명령 복제 하이드레이트에 대한 도움말을 확인하십시오.
+
+== PushBrNotAllowedWithMissingData ==
+해당 리포지토리 개정의 데이터 일부가 누락되어(--nodata로 복제되었을 수 있음) '{0}'을(를) 내보낼 수 없습니다. 브랜치를 데이터 없이 하이드레이트하고 다시 시도하십시오. 명령 복제 하이드레이트에 대한 도움말을 확인하십시오.
+
+== ReadBlobError ==
+개정 {0}에 대한 데이터(세그먼트 {1})를 리포지토리 {2}에서 읽을 수 없습니다.
+
+== RemotingFileCorrupt ==
+원격 구성 파일에 대한 읽기/쓰기 도중 오류가 발생했습니다: {0}(예상치 못한 콘텐츠).
+
+== RenameModuleDifferentRep ==
+모듈의 이름을 다른 리포지토리로 변경할 수 없습니다.
+
+== RenameModuleWithoutModuleName ==
+모듈의 이름을 변경하려면 모듈 이름을 지정해야 합니다.
+이름의 형식은 리포지토리/모듈이어야 합니다. 예시: default/module2.
+
+== RepAlreadyExists ==
+리포지토리 서버 {1}에 대한 리포지토리 {0}이(가) 이미 있습니다.
+
+== RepDoesntHaveRootItem ==
+치명적 오류, 리포지토리에 루트 항목이 없습니다.
+
+== RepNeeded ==
+현재 경로가 워크스페이스 내부에 없습니다. --repository 옵션을 사용하는 리포지토리를 지정하십시오.
+
+== RepNotFound ==
+지정된 리포지토리를 찾을 수 없습니다: {0}.
+
+== RepNotMatched ==
+표현식과 일치하는 리포지토리가 없습니다: {0}.
+
+== RepdbDoesntExist ==
+리포지토리 데이터베이스 {0}이(가) 데이터베이스 백엔드에 없습니다.
+
+== RepdbIdIncorrect ==
+리포지토리 데이터베이스 {0}에 지정된 ID가 올바르지 않습니다. ID는 숫자로 되어 있어야 합니다.
+
+== RepdbNameIncorrect ==
+지정된 리포지토리 데이터베이스 {0}의 이름이 올바르지 않습니다. {1}(으)로 시작해야 합니다.
+
+== ReplicationBrCantbelinked ==
+브랜치 {0}(ID:{1})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationBrParentCantbelinked ==
+브랜치 {1}의 부모 브랜치 {0}(ID:{2} GUID:{3})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationChangesetdoesntexist ==
+복제 시작 지점으로 사용할 지정된 변경 세트({0})가 존재하지 않습니다. 작업을 중단합니다.
+
+== ReplicationCsetBranchCantbelinked ==
+변경 세트 {1}의 브랜치 {0}(GUID:{2})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationCsetCantbelinked ==
+변경 세트 {0}을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationCsetParentCantbelinked ==
+변경 세트 {1}의 부모 변경 세트 {0}(GUID:{2})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationCsetRootrevCantbelinked ==
+변경 세트 {1}의 루트 개정 {0}(GUID:{2})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationDataCorrupted ==
+복제 데이터가 손생되어 작업을 완료할 수 없습니다. 특정 오류: '{0}'.
+
+== ReplicationDataEof ==
+데이터를 더 읽을 수 없습니다(파일 끝).
+
+== ReplicationDirRevCantbelinked ==
+디렉터리 개정 {0}을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationErrorTryingtosetupauthdatafromfileFiledoesntexist ==
+파일에서 인증 모드를 설정하는 동안 오류가 발생했습니다. {0} 파일이 없습니다.
+
+== ReplicationErrorTryingtosetupauthdatafromfileNodata ==
+파일에서 인증 모드를 설정하는 동안 오류가 발생했습니다. {0} 파일에 데이터가 없습니다.
+
+== ReplicationErrorWrongauthmode ==
+잘못된 인증 모드가 설정되었습니다. {0}.
+
+== ReplicationErrorWrongentryintranslationtable ==
+{0}번 행의 변환 테이블에 오류가 있습니다.
+
+== ReplicationItemCantbelinked ==
+항목 {0}(ID:{1})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationLabelCantbelinked ==
+레이블 {0}(ID:{1})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationLinkCantbelinked ==
+링크 {0}(ID:{1})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationMsgBranchRenamed ==
+브랜치 {0}이(가) 다른 ID로 이미 있습니다. 브랜치가 생성되어 이름이 {1}(으)로 변경되었습니다
+
+== ReplicationMsgLabelRenamed ==
+레이블 {0}이(가) 다른 ID로 이미 있습니다. 레이블이 생성되어 이름이 {1}(으)로 변경되었습니다
+
+== ReplicationParentbranchdoesntexist ==
+클론 {0}에 대한 브랜치 부모({1})가 없습니다. 작업을 중단합니다.
+
+== ReplicationRevCsetCantbelinked ==
+개정 {1}의 변경 세트 {0}(GUID:{2})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationRevItemCantbelinked ==
+개정 {1}의 항목 {0}(GUID:{2})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== ReplicationRevParentCantbelinked ==
+개성 {1}의 부모 개정 {0}(GUID:{2})을(를) 연결할 수 없습니다. 작업을 중단합니다.
+
+== RepositoriesDontMatch ==
+지정된 리포지토리가 일치하지 않습니다.
+
+== RepositoryWasntUpgradedCorrectly ==
+리포지토리 {0}이(가) 올바르게 업그레이드되지 않았습니다. 문제를 해결하기 전까지 해당 리포지토리를 사용할 수 없습니다.
+
+== RepspecsDontMatch ==
+변경 세트 사양이나 경로와 레이블 사양이 같은 리포지토리를 참조하지 않습니다.
+
+== RequestWkNotFound ==
+요청한 워크스페이스를 찾을 수 없습니다.
+
+== ResolvespecItemNotFound ==
+resolveSpec에서 항목을 찾을 수 없습니다({0}).
+
+== RestoreItemidAlreadyExists ==
+이 항목은 이미 이 경로에 있습니다. 복원할 필요가 없습니다.
+
+== RestoreItemnameAlreadyExists ==
+다른 항목이 이 경로에 해당 이름으로 있습니다. 새로운 이름을 선택해야 합니다.
+
+== RevIsNotANumber ==
+지정된 개정이 숫자가 아닙니다. {0}.
+
+== RevNoCreated ==
+새 개정을 생성할 수 없습니다. {0}.
+
+== RevNotCreatedForCopy ==
+복사 작업을 위한 새 개정을 생성할 수 없습니다.
+
+== RevNotFoundInRep ==
+리포지토리 {1}에서 개정 {0}을(를) 찾을 수 없습니다.
+
+== RevisionCantBeFound ==
+개정 {0}을(를) 찾을 수 없습니다.
+
+== RevisionLoadedTwiceOnTree ==
+개정 {0}이(가) '{2}' 및 '{3}'의 변경 세트 {1}에 두 번 로드됩니다. 지원팀에 문의하십시오.
+
+== RevisionNotCo ==
+개정 {0}은(는) 체크아웃되지 않았습니다.
+
+== RevisionToReloadNotFound ==
+다시 로드할 개정을 찾을 수 없습니다
+
+== RevtreeNoRevsToShow ==
+{0} 항목에 대한 개정 트리를 표시할 수 없습니다.
+
+== RootitemNumLocated ==
+RootItem은 리포지토리 내에서 고유해야 합니다. {0}을(를) 찾았습니다.
+
+== SaveBeforeAdd ==
+Unity VCS에 추가하기 전에 저장해야 합니다.
+
+== ScriptVersionNotValid ==
+{1} 서버의 {0} 버전은 {2}입니다. {3} 버전으로 업그레이드하십시오. 
+
+== SecuredPathMovedCollission ==
+기존 사용자 권한이 소스 경로와 대상 경로에서 달라 '{0}'에서 '{1}'(으)로 이동할 수 없습니다.
+
+== SecurityCantActivateUser ==
+사용자 {0}을(를) 활성화할 권한이 없습니다. 이 작업을 완료하려면 리포지토리 서버 관리자여야 합니다.
+
+== SecurityCantArchive ==
+개정을 보관할 권한이 없습니다. 이 작업을 완료하려면 리포지토리 서버 관리자여야 합니다.
+
+== SecurityCantDeactivateUser ==
+사용자 {0}을(를) 비활성화할 권한이 없습니다. 이 작업을 완료하려면 리포지토리 서버 관리자여야 합니다.
+
+== SecurityCantInheritItself ==
+객체를 해당 객체의 ACL에서 상속할 수 없습니다. 반복이 발견되었습니다.
+
+== SecurityCantMergeChange ==
+이 병합을 수행할 권한이 없습니다. 소스 기여자 내 특정 변경사항에 대한 읽기 권한이 없습니다.
+
+== SecurityCantRunExecquery ==
+관리자만 'execquery'를 실행할 수 있습니다. 관리자가 아니므로 'execquery'를 실행할 수 없습니다.
+
+== SecurityIdUnknown ==
+사용자 ID {0}을(를) 알 수 없어 변환할 수 없습니다.
+
+== SecurityIncompatibleObjects ==
+지정한 객체는 부모 객체에서 상속될 수 없습니다. 해당 객체는 호환되지 않습니다.
+
+== SecurityInvalidPassword ==
+잘못된 비밀번호입니다. 사용자/비밀번호 구성을 검토하십시오.
+
+== SecurityTokenExpired ==
+LDAP 토큰 만료됨: 사용자: {0}.
+
+== SecurityNewParentInheritsFromChild ==
+객체가 이미 대상 객체에서 보안을 상속합니다. 반복이 있습니다.
+
+== SecurityNoPermForOperation ==
+작업 {0}에 대한 권한이 없습니다.
+
+== SecurityNoPermForPathOperation ==
+{1}에 {0} 권한이 없습니다.
+
+== SecurityNoPermForRepoOperation ==
+리포지토리 {1}에 대한 {0} 권한이 없습니다.
+
+== SecurityNoPermToCreateSuchSecuredPath ==
+지정된 리포지토리와 브랜치에서 보안 설정된 경로 {0}을(를) 생성할 권한이 없습니다.
+
+== SecurityObjectDoesntHaveAcl ==
+객체에 ACL이 없습니다. 객체의 부모를 선택해보십시오.
+
+== SecuritySeidIsInherited ==
+SEID가 상속되었습니다. 이 ACL에서 제거할 수 없습니다.
+
+== SecuritySeidNotInAclCantRemove ==
+지정된 SEID를 객체 ACL에서 찾을 수 없습니다. 상속되었는지 확인하십시오.
+
+== SecurityUserGroupUnknown ==
+알 수 없는 사용자 또는 그룹: '{0}'. 사용자/그룹 이름은 대소문자를 구분합니다.
+
+== SecurityUserInactive ==
+사용자 {0}의 라이센스가 비활성화되어 해당 사용자가 비활성 사용자로 표시됩니다. 활성화한 후 다시 시도하십시오.
+
+== SecurityUserUnknown ==
+알 수 없는 사용자 또는 그룹: '{0}'. 현재 자격 증명을 확인하십시오. 사용자 이름은 대소문자를 구분합니다.
+
+== SelFewInfo ==
+현재 선택기가 항목 {0}의 체크인을 수행할 만큼의 정보를 포함하지 않습니다.
+
+== SelFewInfo2 ==
+현재 선택기가 항목 {0}에 맞는 개정을 선택하지 않습니다.
+
+== SelNotHaveCo ==
+현재 선택기가 항목 {0}의 체크아웃 브랜치를 제공하지 않습니다.
+
+== SelectorhandlerNoWkMatchRequest ==
+SelectorHandler: 요청과 일치하는 워크스페이스가 없습니다.
+
+== SelectorhandlerNoWkidMatch ==
+SelectorHandler: 지정된 ID({0})와 일치하는 워크스페이스가 없습니다.
+
+== ServerEncryptionAlreadyDefined ==
+이미 구성되었으므로 서버 '{0}'에 대한 암호화를 구성할 수 없습니다.
+
+== ServerEncryptionNeeded ==
+'{0}' 서버가 암호화를 필요로 하지만 서버에 암호화 키가 구성되어 있지 않습니다. 로컬 서버를 구성하려면 서버의 관리자(소유자)가 되어야 합니다. 다시 시도하면 암호화 키를 입력하라는 메시지가 표시됩니다. 그렇지 않으면 시스템 관리자에게 문의하거나 온라인 문서에서 '모든 데이터 암호화'를 검색하십시오.
+
+== ServerEncryptionWrongKey ==
+서버 '{0}'의 암호화 키 '{1}'을(를) 읽을 수 없습니다. 자세한 내용은 서버 로그를 확인하십시오.
+
+== ServiceNotInitialized ==
+요청한 Plastic SCM 작업은 아직 사용할 수 없습니다. 서버가 시작 중이거나 업데이트 작업 실행 중입니다.
+
+== ShellParserQuoteError ==
+명령 인수 구문분석 오류. 인용 부호를 확인하십시오: {0}
+
+== SizelimitExceeded ==
+LDAP 쿼리가 단일 검색 결과에서 반환되는 객체의 허용된 최대 수를 초과했습니다. 이 값을 늘리려면 LDAP 서버를 구성해야 합니다.
+
+== SotSpecDoesNotExist ==
+{0} 객체가 존재하지 않습니다.
+
+== SourceSameAsDest ==
+항목이 현재 디렉터리로 이동 중입니다. 작업이 계속되지 않습니다.
+
+== Spanish ==
+스페인어
+
+== SrcNotFound ==
+소스 객체를 찾을 수 없습니다.
+
+== SwitchSelectorErrorInvalidRule ==
+지정된 브랜치/레이블/변경 세트 규칙으로의 전환이 유효하지 않습니다
+
+== SyncAttributeUnparseable ==
+git 동기화 리포지토리 속성을 분석할 수 없습니다.
+
+== SyncMissingParentChangeset ==
+변경 세트 {0}의 부모 변경 세트가 이 리포지토리로 복제되지 않았습니다. 이 변경 세트와 그 자손을 동기화할 수 없습니다. 관련 브랜치를 제외하거나 누락된 변경 세트를 복제하십시오.
+
+== SyncMissingParentChangesets ==
+변경 세트 {0}의 부모 변경 세트가 이 리포지토리로 복제되지 않았습니다. 이 변경 세트와 그 자손을 동기화할 수 없습니다. 관련 브랜치를 제외하거나 누락된 변경 세트를 복제하십시오.
+
+== SyncReplicaDifferentSources ==
+두 개의 Unity VCS 리포지토리가 git과 동기화되어 있거나 원래 동기화된 리포지토리에서 복제되었기 때문에 복제할 수 없습니다. 한 번에 한 개의 리포지토리만 동기화할 수 있습니다. 원래 동기화된 리포지토리는 '{0} - {1}'와(과) '{2} - {3}'입니다. 자세한 내용은 지원팀에 문의하십시오.
+
+== TaskUrlNotValid ==
+{0}을(를) 찾을 수 없거나 해당 버전이 호환되지 않습니다.
+
+== TestConnectionNotAvailable ==
+테스트 연결을 사용할 수 없습니다. 서버와 클라이언트 구성 모드가 같지 않을 수 있습니다.
+
+== TreeCantAddDuplicatedName ==
+같은 이름의 항목을 추가할 수 없습니다. 중복된 자식[{0}]입니다. 부모[{1}]
+
+== TriggerInvalidPosition ==
+{0}-{1} 유형에 지정된 위치가 이미 있습니다.
+
+== TriggerNotExists ==
+지정된 트리거가 존재하지 않습니다.
+
+== TryingToLockTwice ==
+다른 경로 '{1}' 및 '{2}'에서 같은 항목({0})의 배타적 잠금을 수행할 수 없습니다.
+
+== TubeConfUnavailable ==
+Plastic Tube 구성을 사용할 수 없습니다. Unity VCS 서버가 Plastic Tube를 사용하도록 올바르게 구성되었는지 확인하십시오. 'cm tube config' 명령을 사용해 구성할 수 있습니다.
+
+== UnexpectedError ==
+예상치 못한 오류 "{0}"이(가) 발생했습니다. 자세한 내용은 서버 로그를 확인하십시오.
+
+== UnlicensedTubeFeature ==
+Plastic SCM 서버에 Plastic Tube 라이센스가 없습니다.
+
+== UpCantAddGroupToItself ==
+그룹을 원래 그룹에 추가할 수 없습니다.
+
+== UpCantCreateNewGroupWithMembers ==
+팀원으로 새 사용자를 생성할 수 없습니다.
+
+== UpCorruptGroupInfo ==
+그룹 정보가 손상되었습니다: '{0}'.
+
+== UpCorruptUserInfo ==
+사용자 정보가 손상되었습니다: '{0}'.
+
+== UpGroupAlreadyContainsGroup ==
+'{0}' 그룹에 이미 '{1}' 그룹이 있습니다.
+
+== UpGroupAlreadyContainsUser ==
+'{0}' 그룹에 이미 사용자 '{1}' 님이 있습니다.
+
+== UpGroupAlreadyExists ==
+'{0}' 그룹이 이미 있습니다.
+
+== UpGroupDoesntContainsGroup ==
+'{0}' 그룹에 '{1}' 그룹이 없습니다.
+
+== UpGroupDoesntContainsUser ==
+'{0}' 그룹에 사용자 '{1}' 님이 없습니다.
+
+== UpGroupNotExists ==
+'{0}' 그룹이 존재하지 않습니다.
+
+== UpInvalidCredentials ==
+자격 증명, 사용자 이름이 잘못되었거나 비밀번호가 유효하지 않습니다.
+
+== UpInvalidGroupname ==
+잘못된 그룹 이름 '{0}'입니다.
+
+== UpInvalidPassword ==
+잘못된 비밀번호입니다.
+
+== UpInvalidUsername ==
+잘못된 사용자 이름 '{0}'입니다.
+
+== UpPassword ==
+비밀번호
+
+== UpUserAlreadyExists ==
+사용자 '{0}' 님이 이미 존재합니다.
+
+== UpUserNotExists ==
+'{0}' 님이 존재하지 않습니다.
+
+== UpUsername ==
+사용자 이름
+
+== UpdateGetRevinfo ==
+{0}에 대한 개정 정보를 가져올 수 없습니다. 존재하지 않는 항목/브랜치/레이블을 참조하고 있을 수 있습니다. 또는 이 요소에 선택한 레이블을 적용할 수 없거나, 사용자에게 읽기/보기 권한이 없습니다.
+
+== UpdateToLatestNotValidCurrentBranch ==
+워크스페이스가 존재하지 않는 브랜치, 변경 세트, 레이블 또는 임시 저장 세트를 로드 중입니다. 다른 사용자가 이를 삭제했을 수 있습니다. 워크스페이스를 기존 브랜치, 변경 세트, 레이블 또는 임시 저장 세트로 전환하십시오.
+
+== UpgradeMoreOneRep ==
+선택기에 두 개 이상의 리포지토리 서버가 사용되고 있습니다. 이 시나리오는 워크스페이스 업그레이드에서 지원되지 않습니다.
+
+== UpgradeRunManualUpdate ==
+워크스페이스 업데이트: 이전 데이터에서 루트 디렉터리를 찾을 수 없습니다. 워크스페이스가 비공개 항목으로 표시됩니다. 수동 업데이트를 실행하십시오.
+
+== UserAlreadyActivated ==
+{0} 님이 이미 활성화되었습니다.
+
+== UserAlreadyDeactivated ==
+{0} 님이 이미 비활성화되었습니다.
+
+== UserLimitExceeded ==
+이 에디션의 최대 사용자 수를 초과했습니다.
+
+== UserPassProviderConfigMissing ==
+사용자/비밀번호가 구성되지 않았습니다. 설정하려면 구성 마법사를 실행하십시오.
+
+== UsersCannotObtained ==
+시스템 사용자를 가져올 수 없습니다.
+
+== UsersExceeded ==
+최대 라이센스 사용자 수를 초과했습니다.
+
+== ViewUnknown ==
+알 수 없는 뷰 유형 {0}
+
+== WithoutMergeInfo ==
+DirectoryChanges에 병합에 대한 추가 정보가 없습니다.
+
+== WkAlreadyExists ==
+{0} 워크스페이스({1})가 이미 존재합니다.
+
+== WkAlreadyExistsForUser ==
+{2} 기기에 사용자 {1} 님의 워크스페이스 {0}이(가) 이미 존재합니다.
+
+== WkContainsOtherWk ==
+{1} 기기의 워크스페이스 {0}에 워크스페이스 {2}이(가) 포함되어 있습니다.
+
+== WkContainsOtherWkOfUser ==
+{1} 기기의 워크스페이스 {0}에 사용자 {3} 님의 워크스페이스 {2}이(가) 포함되어 있습니다.
+
+== WkDoesntExist ==
+{0} 워크스페이스가 존재하지 않습니다.
+
+== WkDynamicNotMountedYet ==
+{1}초가 지났지만 {0} 워크스페이스가 마운트되지 않았습니다
+
+== WktreeCorrupt ==
+워크스페이스 메타데이터 파일({0})이 손상되었습니다. 워크스페이스를 업데이트하십시오.
+
+== WorkingModeDoesNotSupportUserPasswd ==
+{0} 작업 모드는 사용자 및 비밀번호 구성을 지원하지 않습니다.
+
+== WorkingModeNotInicialized ==
+보안 작업 모드가 초기화되지 않았습니다. 이름, 이름+ID 또는 LDAP여야 합니다.
+
+== WorkingModeNotSupported ==
+{0} 사용자 구성은 이 플랫폼에서 지원되지 않습니다.
+
+== WriteBlobError ==
+개정 {0}에 대한 데이터(세그먼트 {1})를 리포지토리 {2}에 쓸 수 없습니다.
+
+== WrongParentInCheckin ==
+{0} 파일이 현재 작업 중인 변경 세트(cs:{1})와 동기화되지 않았습니다.
+다른 브랜치로 전환했으나, 파일에 로컬 변경사항이 있어 업데이트되지 않은 경우일 수 있습니다.
+Unity VCS이 변경사항을 잘못 덮어쓸 수 있어 파일을 체크인할 수 없습니다.
+파일에서 변경사항을 취소하고 업데이트한 다음 다시 체크인을 시도할 수 있습니다.
+
+== XmlFileCorrupt ==
+{0} 파일에 오류가 있으며 해당 구성을 사용할 수 없습니다. 콘텐츠를 검토하십시오. 오류: {1}
+
+== MergeDstChangesNotAllowed ==
+대상에 변경사항이 있고 허용되지 않으므로 소스 변경 세트 {0}에서 리포지토리 {2}에 있는 대상 변경 세트 {1}(으)로 병합할 수 없습니다.
+
+== FindAttrNotExist ==
+객체 유형 '{0}'이(가) 수행된 쿼리에서 유효하지 않습니다.
+
+== FindAttrTypeWrong ==
+값 '{0}'은(는) 쿼리 "{2}"의 필드 '{1}'에 유효하지 않습니다. 필드 '{1}' 유형은 '{3}'입니다.
+
+== FindAttrTypeWrongValue ==
+값 '{0}'은(는) 쿼리 "{2}"의 필드 '{1}'에 유효하지 않습니다. 필드 '{1}'에 다음 값 중 하나가 있어야 합니다. {3}
+
+== IncorrectSpec ==
+잘못된 객체 사양 {0}
+
+== NotValidCmPath ==
+지정된 경로 {0}은(는) 유효한 서버 경로가 아닙니다.
+
+== FindTypeNotExists ==
+객체 유형 {0}이(가) 존재하지 않습니다
+
+== FindListGuidConditionIsNotAlone ==
+GUID 목록의 조건은 다른 조건과 호환되지 않습니다. 이 조건이 유일한 조건인 경우에만 허용됩니다.
+
+== FindParserError ==
+쿼리 오류: {0}
+
+== FindParserNullError ==
+쿼리에 오류가 있습니다
+
+== ErrorPackageFromNodataRepo ==
+--nodata 플래그를 사용해 복제된 데이터가 있는 리포지토리에서 복제 패키지를 생성할 수 없습니다. 먼저 소스 리포지토리를 수화하십시오.
+
+== ParentCommentOutDate ==
+응답하려는 코멘트가 더 이상 존재하지 않습니다. 검토 코멘트를 새로고침하십시오.
+
+== NoneOperationName ==
+지정되지 않음
+
+== AddOperationName ==
+추가
+
+== ApplyLocalChangesOperationName ==
+로컬 변경사항 적용
+
+== CheckinOperationName ==
+체크인
+
+== CheckoutOperationName ==
+체크아웃
+
+== CopyOperationName ==
+복사
+
+== IncomingChangesOperationName ==
+수신 변경사항
+
+== MergeOperationName ==
+병합
+
+== MoveOperationName ==
+이동
+
+== RebaseOperationName ==
+베이스 재설정
+
+== RevertOperationName ==
+되돌리기
+
+== SetSelectorOperationName ==
+선택기 설정
+
+== StatusOperationName ==
+상태
+
+== TestOperationName ==
+테스트
+
+== UndeleteOperationName ==
+삭제 취소
+
+== UndoOperationName ==
+실행 취소
+
+== UpdateOperationName ==
+업데이트
+
+== WorkspaceTreeOperationName ==
+워크스페이스 트리
+
+== BranchWithNoHead ==
+브랜치 '{0}'에 헤드가 없으므로 유효하지 않습니다. 다른 브랜치로 전환하십시오.
+
+== BranchHeadNotFound ==
+브랜치 '{0}'의 헤드 {1}이(가) 유효하지 않습니다. 삭제되었을 수 있습니다. 워크스페이스를 업데이트하십시오.
+
+== CantResolveRegionForCloudOrganization ==
+{0} 조직의 클라우드 서버를 해결하지 못했습니다. {1}
+
+== BackupInProgress ==
+데이터 베이스 {0} 백업이 진행 중입니다. 읽기 작업만 할 수 있습니다.
+
+== OrganizationMigratedError ==
+'{0}' 조직이 새 서버로 이전되었습니다.
+
+== InvalidServerCertificateError ==
+서버 인증서가 유효하지 않습니다.
+
+== DeleteChangesetNotAllowedOnGitSyncRep ==
+Git와 동기화된 리포지토리의 변경 세트는 삭제할 수 없습니다.
+
+== MoveChangesetNotAllowedOnGitSyncRep ==
+Git와 동기화된 리포지토리의 변경 세트는 이동할 수 없습니다.
+
+== P4ExecutableDoesNotExist ==
+Perforce CLI 실행 파일을 찾을 수 없습니다. 해당 파일이 PATH 환경 변수에 지정되어 있는지 확인하십시오.

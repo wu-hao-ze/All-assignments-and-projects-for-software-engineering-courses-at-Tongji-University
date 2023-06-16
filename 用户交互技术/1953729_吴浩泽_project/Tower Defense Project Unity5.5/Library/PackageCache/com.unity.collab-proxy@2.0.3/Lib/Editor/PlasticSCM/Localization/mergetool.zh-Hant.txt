@@ -1,0 +1,945 @@
+﻿== MergetoolWindowTitle ==
+Unity Version Control 合併工具
+
+== FirstConflictButtonTooltip ==
+移至第一個衝突 (Ctrl + Shift + -)
+
+== PrevConflictButtonTooltip ==
+上一個衝突 (Ctrl + -)
+
+== NextConflictButtonTooltip ==
+下一個衝突 (Ctrl + +)
+
+== LastConflictButtonTooltip ==
+移至最後一個衝突 (Ctrl + Shift + +)
+
+== PrevNotAutomaticConflictButtonTooltip ==
+上一個非自動衝突 (Ctrl + PageUp)
+
+== NextNotAutomaticConflictButtonTooltip ==
+下一個非自動衝突 (Ctrl + PageDown)
+
+== PendingAutomaticConflictsLabel ==
+目前衝突:{1} 之 {0}
+
+== PendingNonAutomaticConflictsLabel ==
+暫止未解決:{1} 之 {0}
+
+== NonAutomaticConflictsLabelTooltip ==
+目前未解決的非自動衝突
+
+== CurrentConflictLabelTooltip ==
+目前合併衝突
+
+== NonAutomaticConflictsNavigationTooltip ==
+瀏覽目前未解決的衝突
+
+== AutomaticConflictsNavigationTooltip ==
+瀏覽合併衝突
+
+== AutomaticConflictMarkup ==
+目前是<span foreground='green'>自動</span>衝突。不需要使用者操作。
+
+== NonAutomaticConflictMarkup ==
+目前是<span foreground='red'>非自動</span>衝突。點擊上面按鈕，接著編輯結果檔案，或將其標記為已解決，解決此衝突。
+
+== NonAutomaticConflictMarkedAsResolvedMarkup ==
+目前是<span foreground='green'>非自動</span>衝突，並已經由使用者<span foreground='green'>解決</span>。
+
+== MarkAsResolvedButton ==
+標記為已解決
+
+== MarkAsUnresolvedButton ==
+標記為未解決
+
+== WinMergetoolUsageTitle ==
+Mergetool 用法
+
+== WinMergetoolUsage ==
+用法：mergetool [<diffOptions> | <mergeOptions>]
+
+    diffOptions:<generalFiles> [<generalOptions>]
+
+    mergeOptions:<generalFiles> <baseFile> [<baseSymbolicName>] [[<自動>] [<無訊息>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:{-b | --base}=<filename>
+        baseSymbolicName:{-bn | --basesymbolicname}=<symbolicname>
+        automatic:-a | --automatic
+        silent:--silent
+        resultFile:{-r | --result}=<filename>
+        mergeType:{-m | --mergeresolutiontype}={onlyone | onlysrc | onlydst | try | forced}
+
+    generalFiles:<sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:{-s | --source}=<filename>
+        srcSymbolicName:{-sn | --srcsymbolicname}=<symbolicname>
+        destinationFile:{-d | --destination}=<filename>
+        dstSymbolicName:{-dn | --dstsymbolicname}=<symbolicname>
+
+    generalOptions:[<defaultEncoding>] [<comparisonMethod>] [<fileType>] [<resultEncoding>]
+
+        defaultEncoding:{-e | --encoding}={none |ascii | unicode | bigendian | utf7 | utf8}
+        comparisonMethod:{-i | --ignore}={none | eol | whitespaces | eol&whitespaces}
+        fileType:{-t | --filestype}={text/csharp | text/XML | text}
+        resultEncoding:{-re | --resultencoding}={none |ascii | unicode | bigendian | utf7 | utf8}
+        progress:{--progress}=表示目前進度的字串，例如:正在合併檔案 1/8
+        extraInfoFile:{--extrainfofile}=包含合併相關額外資訊的檔案路徑
+
+    備註：
+          
+        -a | --automatic:自動嘗試解決合併。
+                             如果無法自動解決合併 (需要使用者操作)，則顯示合併工具。
+        --silent:此選項必須搭配 --automatic 選項使用。
+                             當無法自動解決合併時，此選項會導致工具立即傳回
+                             非零退出碼 (不顯示合併工具)。
+                             如果工具能夠自動解決合併，則程式會傳回退出碼 0。
+
+    範例：
+
+        mergetool
+        mergetool -s=file1.txt -d=file2.txt
+        mergetool -s=file1.txt -b=file0.txt --destination=file2.txt
+        mergetool --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+        mergetool -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -e=utf7 -i=eol -t=text/csharp -m=onlyone
+        
+== BrowseForSaveFileTitle ==
+儲存檔案
+
+== PendingUnsolvedConflicts ==
+檔案仍有 {0} 個未解決的衝突。
+
+== FileChangedSinceSaved ==
+檔案自其上次儲存以來已變更。
+
+== SaveAndExitDialogButton ==
+儲存並退出
+
+== ExitWithoutSavingButton ==
+直接退出而不儲存
+
+== CloseButton ==
+關閉
+
+== OkButton ==
+確定
+
+== CancelButton ==
+取消
+
+== SourceHeaderButton ==
+選取來源:'{0}'
+
+== SourceHeaderPressedButton ==
+取消選取來源:'{0}'
+
+== SourceHeaderButtonTooltip ==
+(Ctrl+1)
+
+== BaseHeaderButton ==
+選取基底:'{0}'
+
+== BaseHeaderPressedButton ==
+取消選取基底:'{0}'
+
+== BaseHeaderButtonTooltip ==
+(Ctrl+2)
+
+== DestinationHeaderButton ==
+選取目的地:'{0}'
+
+== DestinationHeaderPressedButton ==
+取消選取目的地:'{0}'
+
+== DestinationHeaderButtonTooltip ==
+(Ctrl+3)
+
+== ResultButton ==
+選取結果
+
+== ResultPressedButton ==
+取消選取結果
+
+== ResultButtonTooltip ==
+(Ctrl+4)
+
+== SaveAndExitButton ==
+儲存並退出
+
+== SaveAndExitTooltip ==
+儲存結果並關閉 Mergetool
+
+== SaveAsTooltip ==
+將結果儲存在新檔案中
+
+== SaveButton ==
+儲存
+
+== SaveButtonTooltip ==
+儲存變更 (Ctrl+S)
+
+== SaveAsMenu ==
+另存為...
+
+== MergeButton ==
+合併
+
+== KeepSrcMenu ==
+保留來源貢獻者並退出
+
+== KeepBaseMenu ==
+保留基底貢獻者並退出
+
+== KeepDstMenu ==
+保留目的地貢獻者並退出
+
+== SrcNeeded ==
+需要來源檔案名稱
+
+== DstNeeded ==
+需要目的地檔案名稱
+
+== ResultNeeded ==
+在自動模式中，需要合併結果檔案名稱
+
+== AutomaticNeeded ==
+在無訊息模式中，需要自動合併選項
+
+== FileTypeError ==
+{0} 並非用於語法醒目提示的有效檔案類型
+
+== CompMethodError ==
+無效的比較方法
+
+== ArgError ==
+指定的引數無效
+
+== SrcEncodingMenuTitle ==
+來源編碼
+
+== DstEncodingMenuTitle ==
+目的地編碼
+
+== BaseEncodingMenuTitle ==
+基底編碼
+
+== ResultEncodingMenuTitle ==
+結果編碼
+
+== SplitBlocksMenuTitle ==
+分割衝突區塊
+
+== ComparisonMethodMenuTitle ==
+比較方法
+
+== RecognizeAll ==
+辨識全部
+
+== IgnoreEol ==
+忽略 EOL
+
+== IgnoreWhitespace ==
+忽略空格
+
+== IgnoreEolWhitespace ==
+忽略 EOL 和空格
+
+== EncodingDialogTitle ==
+選取編碼
+
+== EncodingDialogDescription ==
+選取字元編碼
+
+== EncodingDialogLabel ==
+編碼:
+
+== DefaultEncoding ==
+預設編碼:
+
+== ResultEncoding ==
+結果編碼:
+
+== NoneEncoding ==
+無
+
+== AsciiEncoding ==
+ASCII
+
+== UnicodeEncoding ==
+Unicode
+
+== UnicodeBigEndianEncoding ==
+Unicode Big-Endian
+
+== Utf7Encoding ==
+UTF-7
+
+== Utf8Encoding ==
+UTF-8
+
+== OtherEncoding ==
+其他...
+
+== ChangeEncoding ==
+變更...
+
+== Options ==
+選項 
+
+== FindButton ==
+尋找...
+
+== MatchCase ==
+大小寫須相符
+
+== MergeResolutionOptionsTooltip ==
+合併解決選項
+
+== MergeOptionsTooltip ==
+顯示和計算選項
+
+== SyntaxHighlight ==
+語法醒目提示
+
+== FirstDiffButtonTooltip ==
+第一個差異
+
+== PrevDiffButtonTooltip ==
+上一個差異
+
+== NextDiffButtonTooltip ==
+下一個差異
+
+== LastDiffButtonTooltip ==
+最後一個差異
+
+== FirstDiffButtonTooltipWithShortcut ==
+第一個差異 (Ctrl + Shift + n)
+
+== PrevDiffButtonTooltipWithShortcut ==
+上一個差異 (Ctrl + n)
+
+== NextDiffButtonTooltipWithShortcut ==
+下一個差異 (Ctrl + m)
+
+== LastDiffButtonTooltipWithShortcut ==
+最後一個差異 (Ctrl + Shift + m)
+
+== CurrentDifference ==
+目前:{0}/{1}
+
+== LeftEncoding ==
+左側編碼
+
+== RightEncoding ==
+右側編碼
+
+== DifferencesWindowTitle ==
+差異
+
+== AutomaticConflictChunk1 ==
+目前衝突為
+
+== AutomaticConflictChunk2 ==
+自動
+
+== AutomaticConflictChunk3 ==
+.不需要使用者操作。
+
+== SolvedConflictChunk1 ==
+目前衝突為
+
+== SolvedConflictChunk2 ==
+非自動
+
+== SolvedConflictChunk3 ==
+，而且已由使用者
+
+== SolvedConflictChunk4 ==
+解決
+
+== SolvedConflictChunk5 ==
+ 。
+
+== NonAutomaticConflictChunk1 ==
+目前衝突為
+
+== NonAutomaticConflictChunk2 ==
+非自動
+
+== NonAutomaticConflictChunk3 ==
+.點擊上面按鈕，接著編輯結果檔案，或將其標記為已解決，解決此衝突。
+
+== PatternNotFound ==
+找不到模式
+
+== PreviousSearchButtonTooltip ==
+搜尋上一個相符項目
+
+== NextSearchButtonTooltip ==
+搜尋下一個相符項目
+
+== UnexpectedError ==
+發生未預期的錯誤。
+
+== GoToLineMenuItem ==
+移至行...
+
+== AddDiffSelectionMenuItem ==
+新增差異比對選取項目
+
+== DiffWithPreviousSelectionMenuItem ==
+與先前選取項目進行差異比對
+
+== FindMenuItem ==
+尋找...
+
+== FindNextMenuItem ==
+尋找下一個
+
+== FirstSelection ==
+第一個選取項目
+
+== SecondSelection ==
+第二個選取項目
+
+== SemanticDiffMovedCode ==
+差異比對已移動的程式碼...
+
+== SemanticGoToMovedCode ==
+移至已移動的程式碼
+
+== SemanticDiffChangedCode ==
+差異比對已變更的程式碼...
+
+== SyncMovedCode ==
+同步頂端已移動的程式碼
+
+== UnsyncMovedCode ==
+還原捲軸位置
+
+== OutliningMenu ==
+外框
+
+== CollapseRegionsWithoutDiffsMenu ==
+折疊區域，不含差異比對
+
+== CollapseToDefinitionsMenu ==
+折疊至定義
+
+== ExpandAllMenu ==
+全部展開
+
+== Merged ==
+已合併
+
+== LoadingAnnotations ==
+正在載入標註...
+
+== AnnotateLineInfoChangeset ==
+變更集
+
+== AnnotateLineInfoTimeStamp ==
+建立日期
+
+== AnnotateLineInfoOwner ==
+擁有者
+
+== AnnotateLineInfoComments ==
+註解
+
+== AnnotateColorByAuthor ==
+依作者排列的顏色
+
+== AnnotateColorByDate ==
+依日期排列的顏色
+
+== AnnotateContextMenu ==
+標註
+
+== AnnotateShowAuthor ==
+顯示作者
+
+== AnnotateShowBranch ==
+顯示分支
+
+== AnnotateShowChangeInMerge ==
+顯示此行是否在合併中變更
+
+== AnnotateShowChangeset ==
+顯示變更集
+
+== AnnotateShowDateModified ==
+顯示已修改日期
+
+== AnnotateShowLineAge ==
+顯示行齡
+
+== BigFileMessage ==
+檔案非常大。計算差異可能會花一段時間。如果您真的想要計算此檔案的差異，請按一下按鈕。
+
+== CalculateDifferencesButton ==
+計算差異
+
+== BranchChanges ==
+分支變更 
+
+== BranchChangesTooltip ==
+醒目提示分支中所做的變更
+
+== ConflictChanges ==
+衝突變更
+
+== ConflictChangesTooltip ==
+醒目提示包含合併期間使用者解決之衝突的變更
+
+== MergedChanges ==
+已合併的變更
+
+== MergedChangesTooltip ==
+醒目提示來自合併的變更
+
+== CaseSensitiveCheckBox ==
+大小寫須相符
+
+== ColorsConfigurationMenuItem ==
+設定字型和顏色...
+
+== ComparisonMethodMenuItem ==
+比較方法
+
+== ComparisonMethodIgnoreEolMenuItem ==
+忽略 EOL
+
+== ComparisonMethodIgnoreWhitespacesMenuItem ==
+忽略空格
+
+== ComparisonMethodIgnoreEolWhitespacesMenuItem ==
+忽略 EOL 和空格
+
+== ComparisonMethodRecognizeAllMenuItem ==
+辨識全部
+
+== Content ==
+{0} 的內容
+
+== CopyToClipboard ==
+複製至剪貼簿
+
+== DiffWaitingAnimation ==
+正在計算差異...
+
+== DiscardButton ==
+捨棄
+
+== DiscardButtonTooltip ==
+捨棄變更
+
+== EditorOptions ==
+編輯器選項
+
+== EditorOptionsConvertTabsToSpaces ==
+編輯時將索引標籤轉換成空格
+
+== EditorOptionsWhistespaces ==
+檢視空格
+
+== EditorOptionsTabs ==
+索引標籤
+
+== EditorOptionsTabsSpacesNumber ==
+{0} 個空格
+
+== EditorOptionsColumnGuides ==
+欄輔助線
+
+== EditorOptionsColumnsNumber ==
+{0} 個欄
+
+== EditorOptionsBorderLines ==
+檢視未選取之區域的框線
+
+== EncodingDifferences ==
+編碼從 {0} 變更為 {1}。
+
+== FsProtectionDifferences ==
+檔案系統權限已從 {0} 變更成 {1}
+
+== UnableCalculateDiffs ==
+無法計算差異。
+
+== HideUnchanged ==
+隱藏未變更項
+
+== HideUnchangedTooltip ==
+僅顯示已變更的宣告
+
+== ShowUnchanged ==
+顯示未變更項
+
+== ShowUnchangedTooltip ==
+顯示完整的檔案樹狀結構，以便檢查每個宣告
+
+== GroupUnchanged ==
+群組未變更項
+
+== GroupUnchangedTooltip ==
+顯示將其餘的宣告組成單一未變更宣告的已變更宣告
+
+== ZoomIn ==
+放大
+
+== ZoomInTooltip ==
+放大圖形 - 您也可以在按住控制鍵時使用滾軸
+
+== ZoomOut ==
+縮小
+
+== ZoomOutTooltip ==
+縮小圖形 - 您也可以在按住控制鍵時使用滾軸
+
+== ErrorSavingFile ==
+儲存檔案時發生錯誤:{0}
+
+== Find ==
+尋找:
+
+== FindCloseButtonTooltip ==
+關閉搜尋列
+
+== FindPreviousButtonTooltip ==
+搜尋上一個相符項目
+
+== FindNextButtonTooltip ==
+搜尋下一個相符項目
+
+== MovedDetectionMenuItem ==
+已移動的偵測
+
+== MovedDetectionDialogMenuItem ==
+已移動的偵測...
+
+== EnableMoveDetectionMenuItem ==
+啟用已移動的偵測
+
+== MoveDetectionRatio ==
+移動偵測比率
+
+== MinimumLinesInDifference ==
+最少差異行數
+
+== MaximizeButtonLeftTooltip ==
+最大化左側窗格
+
+== MaximizeButtonRightTooltip ==
+最大化右側窗格
+
+== RestoreButtonLeftTooltip ==
+還原左側窗格
+
+== RestoreButtonRightTooltip ==
+還原右側窗格
+
+== OutliningPreferencesTitle ==
+輪廓偏好設定
+
+== OutliningPreferencesCaption ==
+輪廓偏好設定
+
+== OutliningPreferencesDetails ==
+選取當檔案載入時您偏用的輪廓模式
+
+== OutliningPreferencesExplanation ==
+在檔案載入後，使用以下輪廓模式:
+
+== OutliningPreferencesCollapseWithoutDiffs ==
+折疊沒有差異的區域
+
+== OutliningPreferencesCollapseToDefinitions ==
+折疊至定義
+
+== OutliningPreferencesExpandAll ==
+全部展開
+
+== NavigationTooltip ==
+移至已移動的片段
+
+== XDiffTooltip ==
+並排顯示已移動片段的差異
+
+== XDiffFragment ==
+[片段]
+
+== FontsAndColorsMenuItem ==
+字型和顏色
+
+== FontDoesNotSupportStrikeout ==
+字型 {0} 不支援應用程式所用的刪除線樣式。請選擇其他字型。
+
+== ChangeFontMenuItem ==
+變更字型...
+
+== LeftDiffColorMenuItem ==
+左側差異比對顏色
+
+== RightDiffColorMenuItem ==
+右側差異比對顏色
+
+== RestoreDefaultsMenuItem ==
+還原預設值
+
+== FilesIdentical ==
+檔案相同。
+
+== AddDiffSelection ==
+新增差異比對選取項目
+
+== DiffWithPreviousSelection ==
+與先前選取項目進行差異比對
+
+== DiffSourceWithBase ==
+差異比對基底與來源貢獻者
+
+== DiffDestinationWithBase ==
+差異比對基底與目的地貢獻者
+
+== DiffDestinationWithSource ==
+差異比對來源與目的地貢獻者
+
+== Encoding ==
+編碼
+
+== FontMenuItem ==
+字型
+
+== DuplicatedArg ==
+重複的引數 {0}。
+
+== MergeTypeError ==
+{0} 不是有效的合併解決類型
+
+== MergeExplanation ==
+此選項會啟動 3 向合併工具，涉及基底、來源和目的地檔案。您將能夠將結果儲存到另一個檔案。
+
+== DifferencesExplanation ==
+此選項會啟動視覺文字檔案差異比對工具。請選取兩個檔案來查看其間的文字差異。
+
+== XMergeNoChanges ==
+Xmerge 結果是空的。將不執行任何變更。
+
+== XMergeConfirmationMessage ==
+Xmerge 結果將取代您的選取項目，並且將捨棄任何非自動衝突。您是否要繼續?
+
+== SourceDesc ==
+來源 (您合併的程式碼)
+
+== SourceLoc ==
+在來源中
+
+== DestinationDesc ==
+目的地 (您的工作副本)
+
+== DestinationLoc ==
+在目的地中
+
+== HowXMergeFormat ==
+您有一個合併衝突，但 {0} 已消失。
+
+發生了什麼情況? 最有可能的原因是有一位開發人員已移動一段程式碼 ({1})，而另一位開發人員已在原始位置 ({2}) 修改了該段程式碼。
+
+== UnauthorizedAccessFile ==
+無法儲存檔案 '{0}'，因為您沒有權限。您可以將檔案儲存在另一個路徑中。
+
+== AutomaticConflictMarkup1 ==
+目前衝突為
+
+== AutomaticConflictMarkup2 ==
+自動
+
+== AutomaticConflictMarkup3 ==
+.不需要使用者操作。
+
+== SolvedConflictMarkup1 ==
+目前衝突為
+
+== SolvedConflictMarkup2 ==
+非自動
+
+== SolvedConflictMarkup3 ==
+ ，而且已由使用者
+
+== SolvedConflictMarkup4 ==
+解決
+
+== SolvedConflictMarkup5 ==
+ 。
+
+== NonAutomaticConflictMarkup1 ==
+目前衝突為
+
+== NonAutomaticConflictMarkup2 ==
+非自動
+
+== NonAutomaticConflictMarkup3 ==
+.點擊上面按鈕，接著編輯結果檔案，或將其標記為已解決，解決此衝突。
+
+== MarkAsResolvedExplanation ==
+使用以下按鈕 (基底、來源、目的地) 選取應該移至結果檔案的貢獻者。或是若建議的結果已無問題，請按一下 [標示為已解決]。
+
+== MarkAsUnresolvedButton ==
+標記為未解決
+
+== SourceFileName ==
+來源檔案:{0}
+
+== BaseFileName ==
+基底檔案:{0}
+
+== DestinationFileName ==
+目的地檔案:{0}
+
+== RestoreButtonSrcTooltip ==
+還原來源窗格
+
+== RestoreButtonBaseTooltip ==
+還原基底窗格
+
+== RestoreButtonDstTooltip ==
+還原目的地窗格
+
+== RestoreButtonResultTooltip ==
+還原結果窗格
+
+== MaximizeButtonSrcTooltip ==
+最大化來源窗格
+
+== MaximizeButtonBaseTooltip ==
+最大化基底窗格
+
+== MaximizeButtonDstTooltip ==
+最大化目的地窗格
+
+== MaximizeButtonResultTooltip ==
+最大化結果窗格
+
+== PendingNonAutomatic ==
+待解決:{0}/{1}
+
+== PreviousConflictButtonTooltip ==
+上一個衝突(Ctrl+-)
+
+== PreviousUnsolvedConflictButtonTooltip ==
+上一個非自動衝突 (Ctrl+PageUp)
+
+== NextUnsolvedConflictButtonTooltip ==
+下一個非自動衝突 (Ctrl+PageDown)
+
+== OptionsButton ==
+選項 
+
+== BaseEncodingMenuItem ==
+基底編碼
+
+== SrcEncodingMenuItem ==
+來源編碼
+
+== DstEncodingMenuItem ==
+目的地編碼
+
+== ResultEncodingMenuItem ==
+結果編碼
+
+== SplitMenuItem ==
+分割衝突區塊
+
+== XmergeButton ==
+XMerge...
+
+== XmergeButtonTooltip ==
+啟動 XMerge 精靈
+
+== XmergeMenuItem ==
+XMerge...
+
+== XmergeNoTextSelected ==
+沒有選取的文字。無法執行 Xmerge。
+
+== XmergeNotEnoughInfo ==
+沒有足夠的資訊可以執行 XMerge
+
+== XmergeRemovedTextSelected ==
+已移除選取的行。它們不是有效的 Xmerge 選取項目。
+
+== XmergeStartTip ==
+此視窗會顯示已移動並已修改的程式碼片段。已移動的程式碼位於 {0} ({1})。在 {2} ({3}) 上，其前已修改的程式碼已移動。請解決其餘的手動衝突並按一下 [儲存並退出]。
+
+== UnsolvedPendingConflicts ==
+檔案仍有 {0} 個未解決的衝突。
+
+== ChangedFile ==
+檔案自其上次儲存以來已變更。
+
+== MergeWaitingAnimation ==
+正在計算衝突。請稍候...
+
+== SaveAsButton ==
+另存為...
+
+== SaveBaseContributor ==
+保留基底貢獻者並退出
+
+== SaveDstContributor ==
+保留目的地貢獻者並退出
+
+== SaveSrcContributor ==
+保留來源貢獻者並退出
+
+== ExtraInfoButton ==
+關於此合併的資訊
+
+== ExtraInfoButtonTooltip ==
+在面板中顯示關於此合併的資訊
+
+== Left ==
+左
+
+== Right ==
+右
+
+== SourceContributor ==
+來源貢獻者
+
+== DestinationContributor ==
+目的地貢獻者
+
+== MovedCode ==
+已移動一段程式碼。
+
+== ModifiedCode ==
+已修改原始位置中的一段程式碼。
+
+== OriginalCode ==
+原始程式碼片段。
+
+== ResultFile ==
+結果檔案
+
+== AnnotateOptions ==
+標註選項
+
+== Copy ==
+複製
+
+== Cut ==
+剪切
+
+== Paste ==
+貼上
+
+== SelectAll ==
+全選
+
+== FileTooLargeToDisplay ==
+檔案太大而無法顯示內容。
+
+== BinMergeToolUnsupportedFileTypeForDiff ==
+二進位差異比對不支援的檔案類型。僅支援影像

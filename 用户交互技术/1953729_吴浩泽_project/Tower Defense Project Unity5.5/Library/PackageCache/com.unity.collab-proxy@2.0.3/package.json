@@ -1,0 +1,40 @@
+{
+  "name": "com.unity.collab-proxy",
+  "displayName": "Version Control",
+  "version": "2.0.3",
+  "unity": "2020.3",
+  "unityRelease": "14f1",
+  "description": "The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting plasticscm.com.",
+  "keywords": [
+    "backup",
+    "cloud",
+    "collab",
+    "collaborate",
+    "collaboration",
+    "control",
+    "devops",
+    "plastic",
+    "plasticscm",
+    "source",
+    "team",
+    "teams",
+    "version",
+    "vcs"
+  ],
+  "category": "Editor",
+  "relatedPackages": {
+    "com.unity.collab-proxy.tests": "2.0.3"
+  },
+  "_upm": {
+    "changelog": "Unity Version Control is now available as part of the Version Control Package! You can enable Unity Version Control via Window > Unity Version Control to get started!\nIf you have previously used the Unity Asset Store Plastic SCM plug-in, you can now simply use this package. Make sure you delete the plug-in from your project.\nRemoving a previously added Plastic SCM Asset Store Plug-In:\n- Select the PlasticSCM folder in the Assets\\Plugins folder on the Project tab, then click Edit > Delete\n- Close the Unity Editor and open your project again. You will find the Plastic SCM menu item in the Window menu.\n\n### Changed\n- Changed the icons for Unity Version Control rebranding\n- Changed onboarding workflow\n\n### Fixed\n- Fixed blurry icons in the Unity Version Control window and toolbar button\n- Fixed Pending Changes tab not always opening its selected item's location in Project window\n- Fixed \"Checked-out (changed)\" status icon not showing up on Pending Changes tab\n- Fixed issue that prevented new packages from being installed unless user enters play mode"
+  },
+  "upmCi": {
+    "footprint": "03b3a3a141fc95cf9047edb457863c5d843fd658"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git",
+    "type": "git",
+    "revision": "c189c3bb7a025aa19e1f0ab8851a09a34ff94016"
+  }
+}

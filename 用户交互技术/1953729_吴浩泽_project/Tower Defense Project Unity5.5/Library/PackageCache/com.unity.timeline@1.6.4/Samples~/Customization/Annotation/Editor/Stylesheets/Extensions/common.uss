@@ -1,0 +1,8 @@
+
+/* Custom USS stylesheet. */
+
+.AnnotationStyle
+{
+    width:18px;
+    height:18px;
+}

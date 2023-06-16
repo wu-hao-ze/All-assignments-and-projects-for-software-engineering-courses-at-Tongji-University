@@ -1,0 +1,7681 @@
+== Attribute ==
+Atributo
+
+== Attributes ==
+Atributos
+
+== Object ==
+Objeto
+
+== Objects ==
+Objetos
+
+== Item ==
+Ítem
+
+== Items ==
+Ítems
+
+== File ==
+Fichero
+
+== Directories ==
+Directorios
+
+== Branch ==
+Rama
+
+== Branches ==
+Ramas
+
+== Changeset ==
+Changeset
+
+== Label ==
+Etiqueta
+
+== Labels ==
+Etiquetas
+
+== CodeReview ==
+Revisión de código
+
+== CodeReviews ==
+Revisiones de código
+
+== Server ==
+Servidor
+
+== Repository ==
+Repositorio
+
+== Checkin ==
+Check in
+
+== CheckinWithAccKey ==
+Check _in
+
+== UndoChanges ==
+Deshacer
+
+== UndoChangesWithAccKey ==
+_Deshacer
+
+== UndoCheckoutsKeepingChanges ==
+Deshacer checkouts manteniendo los cambios
+
+== UpdateWorkspace ==
+Actualizar workspace
+
+== ItemsMenuUndoCheckout ==
+Deshacer checkout
+
+== ItemsMenuUndoChanges ==
+Deshacer cambios
+
+== ItemsMenuChangeRevType ==
+Cambiar tipo de revisión
+
+== MenuItemExternalTools ==
+Herramientas externas
+
+== ItemNameEmpty ==
+El nombre no puede estar vacío
+
+== ItemExists ==
+El ítem {0} ya existe
+
+== MovingItems ==
+Moviendo ítems...
+
+== Options ==
+Opciones
+
+== BranchExplorerOptionsToggleTooltip ==
+Ocultar o mostrar el panel de opciones
+
+== GoButton ==
+Ir
+
+== GoToBranchBase ==
+Ir a la rama base
+
+== BranchExplorerMenu ==
+Explorador de Ramas
+
+== FilterSelectedBranches ==
+Filtrar ramas seleccionadas
+
+== FilterSelectedAndRelatedBranches ==
+Filtrar ramas seleccionadas y relacionadas
+
+== FilterSelectedBranchesPendingMerges ==
+Filtrar merges pendientes para ramas seleccionadas
+
+== GoToParentChangeset ==
+Ir al changeset padre
+
+== AddInclusion ==
+Añadir inclusión
+
+== AddExclusion ==
+Añadir exclusión
+
+== CustomBranchQuery ==
+Regla personalizada de consulta de rama
+
+== CustomChangesetQuery ==
+Regla personalizada de consulta de changeset
+
+== CustomLabelQuery ==
+Regla personalizada de consulta de etiqueta
+
+== ConditionalBranchFormatText ==
+Nuevo formato condicional de ramas (a resaltar)
+
+== ConditionalChangesetFormatText ==
+Nuevo formato condicional de changesets (a resaltar)
+
+== ConditionalLabelFormatText ==
+Nuevo formato condicional de etiquetas (a resaltar)
+
+== InclusionRuleText ==
+Nuevo filtro de inclusión de ramas (a incluir)
+
+== ExclusionRuleText ==
+Nuevo filtro de exclusión de ramas (a excluir)
+
+== ActiveBranch ==
+Rama activa en el workspace
+
+== ActiveBranches ==
+Ramas activas en el workspace
+
+== BranchesWithPendingIntegrations ==
+Ramas con merges pendientes
+
+== AddFormat ==
+Añadir formato
+
+== Calculating ==
+Calculando...
+
+== CopyrightTextFormat ==
+Copyright © 2006-{0} Unity Technologies. Todos los derechos reservados.
+
+== FiltersAndConditionalFormat ==
+Filtros y formato
+
+== ReleaseNotesLinkText ==
+Notas de versión
+
+== WebsiteLink ==
+https://www.plasticscm.com
+
+== ReleaseNotesUrlPreffix ==
+https://www.plasticscm.com/download/releasenotes/
+
+== RevertStart ==
+Revirtiendo la revisión en el workspace...
+
+== RevertingItemsSingular ==
+Revirtiendo ítem...
+
+== RevertingItemsPlural ==
+Revirtiendo {0} ítems...
+
+== RevertingProgress ==
+Revirtiendo fichero {0} de {1}: {2}
+
+== Validating ==
+Validando datos...
+
+== UpdateReportNoLinesSelected ==
+Por favor, seleccione las rutas que quiere actualizar
+
+== UpdateProgressCalculating ==
+Calculando...
+
+== UpdateProgressUpdating ==
+Actualizando...
+
+== UpdateProgressSingular ==
+Actualizados {0} de {1} ({2} de 1 fichero){4}
+
+== UpdateProgressPlural ==
+Actualizados {0} de {1} ({2} de {3} ficheros){4}
+
+== CheckinComments ==
+Comentarios de check-in
+
+== RecentCheckinComments ==
+Comentarios recientes de check-in
+
+== UpdatingSelectedItems ==
+Actualizando los ítems seleccionados...
+
+== LoadingItems ==
+Cargando ítems...
+
+== LoadingBranches ==
+Cargando ramas...
+
+== LoadingBranchExplorer ==
+Cargando Explorador de Ramas...
+
+== LoadingLabels ==
+Cargando etiquetas...
+
+== LoadingChangesets ==
+Cargando changesets...
+
+== LoadingShelves ==
+Cargando shelves...
+
+== LoadingSyncViewDetails ==
+Cargando detalles de la vista de sincronización...
+
+== LoadingDeletedItems ==
+Cargando ítems borrados...
+
+== UncheckoutStart ==
+Deshaciendo checkout de ítems seleccionados...
+
+== ActionMenuButtonTooltip ==
+Realizar acciones con los ítems seleccionados
+
+== MainSidebarItemsItem ==
+Explorador de Workspaces
+
+== MainSidebarPendingChangesItem ==
+Cambios Pendientes
+
+== MainSidebarBranchesItem ==
+Ramas
+
+== MainSidebarBranchExplorerItem ==
+Explorador de Ramas
+
+== MainSidebarChangesetsItem ==
+Changesets
+
+== MainSidebarLabelsItem ==
+Etiquetas
+
+== MainSidebarAttributesItem ==
+Atributos
+
+== MainSidebarSyncItem ==
+Repositorios Sinc.
+
+== MainSidebarSyncItemCloudEdition ==
+Sincronizar a Cloud
+
+== MainSidebarMergeItem ==
+Merge
+
+== MainSidebarIncomingChangesItem ==
+Cambio Entrantes
+
+== MainSidebarPreferencesItem ==
+Preferencias
+
+== MainSidebarAboutItem ==
+Sobre Unity Version Control
+
+== MainSidebarAboutGluonItem ==
+Sobre Gluon
+
+== MainSidebarDocumentationItem ==
+Documentación
+
+== MainSidebarOpenUnityDashboardItem ==
+Open Unity Dashboard
+
+== MainSidebarUpdateVersionItem ==
+Actualizar Unity Version Control
+
+== MainSidebarInstallVersionItem ==
+Salir e instalar nueva actualización
+
+== MainSidebarCodeReviewsItem ==
+Revisiones de código
+
+== ItemColumn ==
+Ítem
+
+== StatusColumn ==
+Estado
+
+== ExtensionColumn ==
+Extensión
+
+== TypeColumn ==
+Tipo
+
+== DateModifiedColumn ==
+Fecha de modificación
+
+== RepositoryColumn ==
+Repositorio
+
+== ServerColumn ==
+Servidor
+
+== ObjectNameColumn ==
+Nombre de objeto
+
+== NameColumn ==
+Nombre
+
+== PathColumn ==
+Ruta
+
+== ProblemColumn ==
+Problema
+
+== SeverityColumn ==
+Gravedad
+
+== TimestampColumn ==
+Registro de tiempo
+
+== LastEditedByColumn ==
+Última edición por
+
+== CreationDateColumn ==
+Fecha de creación
+
+== GuidColumn ==
+Guid
+
+== CommentColumn ==
+Comentario
+
+== ItemsCount ==
+({0})
+
+== ItemsCountSingular ==
+(1 ítem)
+
+== ItemsCountPlural ==
+({0} ítems)
+
+== ItemsSelected ==
+({0}/{1} seleccionados)
+
+== ItemsSelectedSingular ==
+{0} de 1 ítem seleccionado
+
+== ItemsSelectedPlural ==
+{0} de {1} ítems seleccionados
+
+== ItemsSelectedForGluonSingular ==
+{0} de 1 ítem
+
+== ItemsSelectedForGluonPlural ==
+{0} de {1} ítems
+
+== ChangedItemsCategory ==
+Ítems cambiados
+
+== AddedPrivateItemsCategory ==
+Añadidos y privados
+
+== DeletedItemsCategory ==
+Ítems borrados
+
+== MovedItemsCategory ==
+Ítems movidos
+
+== DeleteConfirmationMessage ==
+Está a punto de eliminar
+
+== DeleteOthersMessage ==
+...y {0} más.
+
+== DeletingObjectsSingular ==
+Borrando 1 objeto
+
+== DeletingObjectsPlural ==
+Borrando {0} objetos
+
+== DeleteObjectsSingular ==
+Borrando 1 objeto. ¿Está seguro?
+
+== DeleteObjectsPlural ==
+Borrando {0} objetos. ¿Está seguro?
+
+== ConfirmRevertTitle ==
+Confirme el revertido
+
+== ConfirmRevertMessage ==
+Los contenidos se revertirán a la revisión {0}. ¿Desea continuar?
+
+== ConfirmRevertToClientDiffsMessage ==
+Los ficheros seleccionados se revertirán. ¿Desea continuar?
+
+== ConfirmUndeleteTitle ==
+Confirme la recuperación de borrados
+
+== ConfirmUndeleteMessage ==
+Los ficheros seleccionados borrados se van a recuperar. ¿Desea continuar?
+
+== FromTo ==
+{0} a {1}
+
+== From ==
+desde
+
+== To ==
+a
+
+== AddProgress ==
+Añadiendo ítems...
+
+== CheckoutProgress ==
+Haciendo checkout de ítems...
+
+== UndoingPendingChanges ==
+Deshaciendo cambios...
+
+== UndoingUnchanged ==
+Deshaciendo ítems no cambiados...
+
+== ShelvingPendingChanges ==
+Haciendo shelving de los cambios...
+
+== UndoingChangedFiles ==
+Deshaciendo cambios...
+
+== UndoingChangedFilesError ==
+Se ha producido un error mientras se deshacían los cambios:
+
+== New ==
+Nuevo...
+
+== ItemsMenuItemHistory ==
+Historia
+
+== ItemsMenuItemAnnotate ==
+Anotar
+
+== NoItemsAreSelected ==
+No ha seleccionado ningún ítem (use las casillas para seleccionarlos) o ha seleccionado ítems ignorados.
+
+== EmptyCommentsDialogTitle ==
+Comentario de check-in vacío
+
+== EmptyCommentsDialogContent ==
+El comentario de check-in está vacío. Es recomendable escribir un comentario.
+
+== CheckinAnyway ==
+Hacer check in de todos modos
+
+== RepositoryNameLabel ==
+Nombre del nuevo repositorio:
+
+== WorkspaceNameLabel ==
+Nombre del nuevo workspace:
+
+== NewRepositoryTitle ==
+Crear un repositorio nuevo
+
+== RenameRepositoryTitle ==
+Renombrar Repositorio
+
+== NewWorkspace ==
+Crear un workspace nuevo
+
+== OpenRepository ==
+Abrir repositorio
+
+== DownloadRepository ==
+Descargar repositorio
+
+== DownloadRepositoryIntoWorkspace ==
+Descargar repositorio en un workspace
+
+== DownloadRepositoryTitle ==
+Crear una nueva copia de trabajo para trabajar con el repositorio localmente
+
+== RenameWorkspaceTitle ==
+Renombrar workspace
+
+== RepositoryServerLabel ==
+Servidor (tu_servidor:8087 o tu_org@cloud):
+
+== WorkspacePathLabel ==
+Ruta en disco:
+
+== RepositoryLabel ==
+Repositorio:
+
+== BrowseLabel ==
+Explorar...
+
+== CouldNotGetOrganizationNameFromCredentials ==
+Credenciales inválidas. No se ha podido obtener el nombre de la organización
+
+== CouldNotGetOrganizationName ==
+No es posible obtener el nombre de la organización desde el servidor cloud. Es posible que sus credenciales no sean correctas. Por favor, ejecute de nuevo la herramienta de configuración para introducir nuevas credenciales ('{0} --configure')
+
+== RepositoryServerIsNotAvailable ==
+El servidor de repositorio no está disponible
+
+== RepositoryNameEmpty ==
+El nombre del repositorio no puede estar vacío
+
+== WorkspaceNameEmpty ==
+El nombre del workspace no puede estar vacío
+
+== WorkspacePathEmpty ==
+La ruta del workspace no puede estar vacía
+
+== WorkspacePathUnauthorizedAccess ==
+No tiene acceso para crear un workspace en la ruta especificada
+
+== InvalidCharsInPath ==
+La ruta del workspace contiene caracteres no válidos
+
+== WorkspaceNameAlreadyExists ==
+El workspace {0} ya existe
+
+== WorkspacePathAlreadyUsed ==
+La ruta {0} ya existe en el workspace
+
+== RepositoryMenuItemCreate ==
+Crear un repositorio nuevo...
+
+== RepositoryMenuItemCreateWorkspace ==
+Crear workspace para este repositorio...
+
+== RepositoryMenuItemOpenRepository ==
+Abrir este repositorio
+
+== RepositoryMenuItemDownloadRepository ==
+Descargar este repositorio
+
+== RenameMenuItem ==
+Renombrar
+
+== WorkspaceMenuItemOpen ==
+Abrir
+
+== WorkspaceMenuItemOpenInNewWindow ==
+Abrir en una nueva ventana
+
+== OpenInExplorerMenuItem ==
+Abrir en el explorador
+
+== DeleteMenuItem ==
+Borrar
+
+== UndeleteMenuItem ==
+Deshacer borrado
+
+== WorkspaceMenuItemCreate ==
+Crear un workspace nuevo...
+
+== WorkspaceMenuItemRename ==
+Renombrar
+
+== WorkspaceMenuItemDelete ==
+Borrar
+
+== BranchMenuItemCreateBranch ==
+Crear rama hija...
+
+== BranchMenuItemCreateTopLevelBranch ==
+Crear rama de primer nivel...
+
+== BranchMenuItemMergeFromBranch ==
+Hacer merge desde esta rama...
+
+== BranchMenuItemAdvancedMerge ==
+Merge avanzado
+
+== BranchMenuItemCherrypickFromBranch ==
+Cherry-pick desde esta rama...
+
+== BranchMenuItemMergeToFromBranch ==
+Hacer merge desde esta rama a...
+
+== BranchMenuItemPushPull ==
+Push/Pull
+
+== BranchMenuItemPullBranch ==
+Pull de esta rama...
+
+== BranchMenuItemPullRemoteBranch ==
+Pull de rama remota...
+
+== BranchMenuItemSyncWithGit ==
+Sincronizar con Git...
+
+== BranchMenuItemPushBranch ==
+Push de esta rama...
+
+== BranchMenuItemRenameBranch ==
+Renombrar...
+
+== BranchMenuItemDeleteBranch ==
+Borrar
+
+== BranchMenuItemSwitchToBranch ==
+Cambiar el workspace a esta rama
+
+== BranchMenuItemDiff ==
+Diferencias de rama
+
+== BranchMenuItemDiffWithAnotherBranch ==
+Diferencias con otra rama...
+
+== BranchMenuItemViewChangesets ==
+Ver changesets en esta rama
+
+== ChangesetMenuItemCreateBranch ==
+Crear rama desde este changeset...
+
+== ChangesetMenuItemDiff ==
+Diferencias con previo
+
+== ChangesetMenuItemDiffWithAnother ==
+Diferencias con otro changeset...
+
+== ChangesetMenuItemDiffSelected ==
+Diferencias de los changesets seleccionados
+
+== ChangesetMenuItemBrowseRepositoryOnChangeset ==
+Explorar repositorio en este changeset
+
+== ChangesetMenuItemLabelChangeset ==
+Etiquetar este changeset...
+
+== ChangesetMenuItemSwitchToChangeset ==
+Cambiar el workspace a este changeset
+
+== ChangesetMenuItemMergeFromChangeset ==
+Hacer merge desde este changeset...
+
+== ChangesetMenuItemCherrypickFromChangeset ==
+Cherry-pick desde este changeset...
+
+== ChangesetMenuItemAdvancedMerge ==
+Merge avanzado
+
+== ChangesetMenuItemSubtractiveFromChangeset ==
+Hacer merge substractivo desde este changeset...
+
+== ChangesetMenuItemSubtractiveFromChangesetInterval ==
+Hacer merge substractivo desde este intervalo de changesets...
+
+== ChangesetMenuItemCherrypickFromChangesetInterval ==
+Cherry-pick desde este intervalo de changesets...
+
+== ChangesetMenuItemMergeToFromChangeset ==
+Hacer merge desde este changeset a...
+
+== ChangesetMenuItemAdvancedOptions ==
+Opciones avanzadas
+
+== ChangesetMenuItemMoveChangeset ==
+Mover desde este changeset a una rama diferente...
+
+== ChangesetMenuItemDeleteChangeset ==
+Borrar changeset
+
+== CheckoutChangesetMenuItemShowPendingChangesView ==
+Mostrar vista de cambios pendientes
+
+== LabelMenuItemCreateLabel ==
+Crear etiqueta nueva...
+
+== LabelMenuItemApplyLabelToWorkspace ==
+Aplicar etiqueta al contenido del workspace
+
+== LabelMenuItemSwitchToLabel ==
+Cambiar el workspace a esta etiqueta
+
+== LabelMenuItemBrowseRepositoryOnLabel ==
+Explorar repositorio en esta etiqueta
+
+== LabelMenuItemDiffWithAnother ==
+Diferencias con otra etiqueta...
+
+== LabelMenuItemDiffSelected ==
+Diferencias de las etiquetas seleccionadas
+
+== LabelMenuItemMergeFromLabel ==
+Hacer merge desde esta etiqueta...
+
+== LabelMenuItemMergeToFromLabel ==
+Hacer merge desde esta etiqueta a...
+
+== LabelMenuItemCreateBranchFromLabel ==
+Crear rama desde esta etiqueta...
+
+== LabelMenuItemRenameLabel ==
+Renombrar...
+
+== LabelMenuItemDeleteLabel ==
+Borrar
+
+== ShelveMenuItemViewShelve ==
+Ver shelve
+
+== ShelveMenuItemApplyShelveInWorkspace ==
+Applicar shelve en mi workspace...
+
+== ShelveMenuItemDeleteShelve ==
+Borrar
+
+== AttributeMenuItemCreate ==
+Crear
+
+== AttributeMenuItemEdit ==
+Editar
+
+== AttributeMenuItemDelete ==
+Borrar
+
+== PendingChangesMenuItemOpen ==
+Abrir
+
+== PendingChangesMenuItemOpenWith ==
+Abrir con...
+
+== PendingChangesMenuItemDiffAnnotateHistory ==
+Diferencias / Anotar / Historia
+
+== PendingChangesMenuItemDiffWorkspace ==
+Diferencias en los contenidos del workspace
+
+== PendingChangesMenuItemAnnotate ==
+Anotar
+
+== PendingChangesMenuItemViewHistory ==
+Historia
+
+== PendingChangesMenuItemUndoChanges ==
+Deshacer cambios
+
+== PendingChangesMenuItemDelete ==
+Borrar
+
+== PendingChangesMenuItemCheckout ==
+Checkout
+
+== PendingChangesMenuItemSearchMatches ==
+Buscar coincidencias...
+
+== PendingChangesMenuItemHideIgnoreCloak ==
+Ocultar / Ignorar / Cloak
+
+== PendingChangesMenuItemHideIgnore ==
+Ocultar / Ignorar
+
+== DirectoryConflictsTitleSingular ==
+1 conflicto de directorio
+
+== DirectoryConflictsTitlePlural ==
+{0} conflictos de directorio
+
+== FileConflictsTitleSingular ==
+1 conflicto de fichero
+
+== FileConflictsTitlePlural ==
+{0} conflictos de fichero
+
+== NoActionMenuItem ==
+Ninguna acción disponible
+
+== ItemsMenuItemNew ==
+Nuevo
+
+== ItemsMenuItemNewDirectory ==
+Directorio...
+
+== ItemsMenuItemNewFile ==
+Fichero...
+
+== ItemsMenuAdd ==
+Añadir al control de versiones
+
+== ItemsMenuAddRecursive ==
+Añadir árbol de directorios al control de versiones
+
+== ItemsMenuCheckin ==
+Check in
+
+== ItemsMenuItemOpen ==
+Abrir
+
+== ItemsMenuItemOpenWith ==
+Abrir con...
+
+== ItemsMenuItemOpenWithCustom ==
+Abrir con {0}
+
+== ItemsMenuItemRevealInFinder ==
+Mostrar en Finder
+
+== ItemsMenuItemCut ==
+Cortar
+
+== ItemsMenuItemDelete ==
+Borrar...
+
+== ItemsMenuItemPaste ==
+Pegar
+
+== ItemsMenuItemCreateXlink ==
+Crear Xlink...
+
+== ItemsMenuItemEditXlink ==
+Editar Xlink...
+
+== BrowseRepositoryMenuItemDiffWithPrevious ==
+Diferencias con revisión anterior
+
+== BrowseRepositoryMenuItemSaveAs ==
+Guardar como...
+
+== BrowseRepositoryMenuItemViewHistory ==
+Ver historia
+
+== HistoryMenuItemOpen ==
+Abrir
+
+== HistoryMenuItemOpenWith ==
+Abrir con...
+
+== HistoryMenuItemSaveRevisionAs ==
+Guardar esta revisión como...
+
+== HistoryMenuItemDiffWithPrevious ==
+Diferencias con revisión anterior
+
+== HistoryMenuItemDiffSelectedRevisions ==
+Diferencias de revisiones seleccionadas
+
+== HistoryMenuItemDiffChangeset ==
+Diferencias de changeset
+
+== HistoryMenuItemRevertToThisRevision ==
+Revertir fichero a esta revisión
+
+== ItemsMenuItemRename ==
+Renombrar...
+
+== ItemsMenuItemDiffWithPrevious ==
+Diferencias con revisión anterior
+
+== HidePrivateItems ==
+Ocultar ítems privados
+
+== ExcludePrivateItemsSize ==
+Excluir privados del tamaño del directorio
+
+== MergeWithPendingChangesTitle ==
+Ficheros cambiados detectados
+
+== MergeWithPendingChangesMessage ==
+Tiene cambios pendientes para hacer check-in en su workspace. Es recomendable hacer check-in antes del merge para evitar posibles problemas deshaciendo merges.
+Si está familiarizado con el proceso de merge, puede cambiar el comportamiento anterior en Preferencias / Diferencias y merge / Permitir merge con cambios pendientes.
+
+Nota: Se ha modificado este comportamiento para evitar problemas a nuevos usuarios, aunque no es peligroso habilitarlo si conoce cómo funcionan los merges.
+
+== MergeNotificationMessageTitle ==
+Mensaje de notificación
+
+== BaseContributor ==
+Base
+
+== SrcContributor ==
+Origen
+
+== DstContributor ==
+Destino
+
+== DeleteDialogTitleSingular ==
+Borrrar ítem
+
+== DeleteDialogTitlePlural ==
+Borrar ítems
+
+== DeleteFromDiskSingular ==
+Borrar ítem de disco
+
+== DeleteFromDiskPlural ==
+Borrar ítems de disco
+
+== DoNotDeleteFromDiskSingular ==
+No borrar ítem de disco
+
+== DoNotDeleteFromDiskPlural ==
+No borrar ítesm de disco
+
+== DeletingProgress ==
+Borrando {0}...
+
+== RemoveFromVersionControlPlural ==
+Eliminar ítems del control de versiones
+
+== DirectoryConflictsCaption ==
+Hay conflictos (movidos, renombrados o borrados) en la estructura del directorio. Estos conflictos tienen que resolverse antes de aplicar otros cambios.
+
+== DirectoryConflictsUnsolvedCaptionSingular ==
+conflicto de directorio a resolver.
+
+== DirectoryConflictsUnsolvedCaptionPlural ==
+conflictos de directorio a resolver.
+
+== MergeAlreadyConnected ==
+La búsqueda de merges ha finalizado. El destino del merge ya incluye los cambios del origen.
+
+== MergeAlreadySubtracted ==
+La búsqueda de merges ha finalizado. El origen del merge ya ha sido sustraído del destino.
+
+== MergeInvalidInterval ==
+La búsqueda de merges ha finalizado. El intervalo seleccionado no es válido.
+
+== MergeNoMergesDetected ==
+La búsqueda de merges ha finalizado. No se han detectado merges.
+
+== MergeNoMergesDetectedCreateLink ==
+La búsqueda de merges ha finalizado. No se han detectado ítems para el merge. Sin embargo, los changesets de origen y destino son diferentes. Normalmente esto ocurre cuando se han hecho los mismos cambios en el origen y en el destino.
+
+Haga click en "Explicar merge" para ver más detalles de los contribuidores implicados.
+
+Haga click en "Aplicar cambios" para unificar origen y destino (creando un enlace de merge entre ellos).
+
+
+== MergeNoMergesDetectedCreateLinkForIncomingView ==
+No hay nada que descargar
+
+Haga clic en "Actualizar workspace" para mover su workspace al comienzo de la rama.
+
+
+Explicación detallada: sus cambios coinciden con los realizados en la cabeza de la rama. Por lo que realmente no hay nada que descargar pero los metadatos deben sincronizarse.
+
+
+== MergeNothingToDownloadForIncomingView ==
+No hay nada que descargar
+
+
+== MergeNotConnected ==
+La búsqueda de merges ha finalizado. El origen y destino del merge substractivo no están conectados.
+
+== MergeAlreadyProcessed ==
+Merge finalizado. Sus cambios se muestran en la vista de cambios pendientes. Cierre esta vista para verlos.
+
+== MergeAlreadyProcessedOpenPendingChangesText ==
+Merge finalizado. Sus cambios se muestran en la
+
+== MergeAlreadyProcessedOpenPendingChangesLinkText ==
+vista de cambios pendientes.
+
+== MergeAlreadyProcessedOpenPreferencesText ==
+Puede configurar Unity VCS para cambiar a esta vista al finalizar la operación de merge automáticamente
+
+== MergeAlreadyProcessedOpenPreferencesLinkText ==
+aquí.
+
+== FileMergeTitleSingular ==
+1 cambio a aplicar
+
+== FileMergeTitlePlural ==
+{0} cambios a aplicar
+
+== MergeChangedOnSrc ==
+Cambios solo en el contribuidor origen
+
+== MergeChangedOnSrcForIncomingView ==
+Actualizará
+
+== MergeWarningsTitleSingular ==
+1 conflicto descartado.
+
+== MergeWarningsTitlePlural ==
+{0} conflictos descartados.
+
+== MergeWarningsCaption ==
+Conflictos descartados y posibles advertencias.
+
+== XlinkWarningMessageSingular ==
+{0} (1 ítem)
+
+== XlinkWarningMessagePlural ==
+{0} ({{0}} ítems)
+
+== DivergentMoveConflictsSingular ==
+Conflictos de movido divergente (1 ítem)
+
+== DivergentMoveConflictsPlural ==
+Conflictos de movido divergente ({0} ítems)
+
+== CyleMoveConflictsSingular ==
+Conflictos de movido cíclico (1 ítem)
+
+== CyleMoveConflictsPlural ==
+Conflictos de movido cíclico ({0} ítems)
+
+== EvilTwinsSingular ==
+Conflictos "evil twin" (1 ítem)
+
+== EvilTwinsPlural ==
+Conflictos "evil twin" ({0} ítems)
+
+== MoveDeleteConflictsSingular ==
+Conflictos de Movido/Borrado (1 ítem)
+
+== MoveDeleteConflictsPlural ==
+Conflictos de Movido/Borrado ({0} ítems)
+
+== DeleteMoveConflictsSingular ==
+Conflictos de Borrado/Movido (1 ítem)
+
+== DeleteMoveConflictsPlural ==
+Conflictos de Borrado/Movido ({0} ítems)
+
+== MovedEvilTwinsSingular ==
+Conflictos de "evil twin" movido (1 ítem)
+
+== MovedEvilTwinsPlural ==
+Conflictos de "evil twin" movido ({0} ítems)
+
+== AddMoveConflictsSingular ==
+Conflictos de Añadido/Movido (1 ítem)
+
+== AddMoveConflictsPlural ==
+Conflictos de Añadido/Movido ({0} ítems)
+
+== MoveAddConflictsSingular ==
+Conflictos de Movido/Añadido (1 ítem)
+
+== MoveAddConflictsPlural ==
+Conflictos de Movido/Añadido ({0} ítems)
+
+== LoadedTwiceConflictsSingular ==
+Conflictos de ítems cargados dos veces (1 ítem)
+
+== LoadedTwiceConflictsPlural ==
+Conflictos de ítems cargados dos veces ({0} ítems)
+
+== MoveSourceDeleteConflictsSingular ==
+Move/Delete, move out of delete conflicts (1 item)
+
+== MoveSourceDeleteConflictsPlural ==
+Move/Delete, move out of delete conflicts ({0} items)
+
+== DeleteMoveSourceConflictsSingular ==
+Delete/Move, move out of delete conflicts (1 item)
+
+== DeleteMoveSourceConflictsPlural ==
+Delete/Move, move out of delete conflicts ({0} items)
+
+== ChangeDeleteConflictsSingular ==
+Conflictos de cambiado/borrado (1 ítem)
+
+== ChangeDeleteConflictsPlural ==
+Conflictos de cambiado/borrado ({0} ítems)
+
+== DeleteChangeConflictsSingular ==
+Conflictos de borrado/cambiado (1 ítem)
+
+== DeleteChangeConflictsPlural ==
+Conflictos de borrado/cambiado ({0} ítems)
+
+== ReadonlyXlinkConflictsSingular ==
+Conflictos de Xlink de solo lectura (1 ítem)
+
+== ReadonlyXlinkConflictsPlural ==
+Conflictos de Xlink de solo lectura ({0} ítems)
+
+== ResolveDirectoryConflict ==
+Resolver conflicto de directorio
+
+== ResolveDirectoryConflictChooseOption ==
+Seleccione una de las siguientes opciones para resolver el conflicto:
+
+== SelectAMatch ==
+Por favor, seleccione un cambio para usar como coincidencia
+
+== SearchMatchesDialogTitle ==
+Buscar candidatos movidos
+
+== SearchMatchesDialogExplanation ==
+Estos son los orígenes posibles para el nuevo ítem. Deslice la barra para cambiar el umbral de similitud.
+
+== MinSimilarityAccepted ==
+Mín. similitud aceptada: {0:0.0}
+
+== LoadingMatches ==
+Cargando coincidencias...
+
+== SrcPathColumn ==
+Ruta origen
+
+== DstPathColumn ==
+Ruta destino
+
+== SimilarityColumn ==
+Similitud
+
+== DiffCategoryHeaderSingular ==
+{0}: 1 ítem
+
+== DiffCategoryHeaderPlural ==
+{0}: {1} ítems
+
+== MergeDiffCategory ==
+Merge hecho desde {0}
+
+== AddedMergeDiffCategory ==
+Añadido (ficheros añadidos en el origen del merge)
+
+== DeletedMergeDiffCategory ==
+Borrado (ficheros borrados en el origen del merge)
+
+== MergedMergeDiffCategory ==
+Merge realizado (ficheros cambiados en el origen y el destino del merge)
+
+== MovedMergeDiffCategory ==
+Movido (ficheros movidos en el origen del merge)
+
+== ReplacedMergeDiffCategory ==
+Cambiado (ficheros cambiados en el origen del merge)
+
+== AddedDiffCategory ==
+Añadido
+
+== ChangedDiffCategory ==
+Cambiado
+
+== DeletedDiffCategory ==
+Borrado
+
+== MovedDiffCategory ==
+Movido
+
+== MergedDiffCategory ==
+Merge hecho
+
+== FSProtectionDiffCategory ==
+Cambiados solo permisos del sistema de archivos
+
+== Source ==
+Origen/suyos:
+
+== Destination ==
+Destino/tuyos:
+
+== KeepSrcChanges ==
+Mantener cambios del origen
+
+== KeepSrcNotSupported ==
+No se puede mantener el ítem de origen en este tipo de conflicto
+
+== KeepDstChanges ==
+Mantener cambios del destino
+
+== KeepDstNotSupported ==
+No se puede mantener el ítem de destino en este tipo de conflicto
+
+== RenameOnDst ==
+Renombrar ítem en workspace
+
+== RenameNotSupported ==
+No se puede renombrar el ítem de destino en este tipo de conflicto
+
+== InputItemNameMessage ==
+Por favor, introduzca un nombre para el ítem
+
+== HelpButton ==
+Ayuda
+
+== AdvancedButton ==
+Avanzado
+
+== BranchExplorerSearchFieldTooltip ==
+Introduzca un patrón de búsqueda. Use cs:, lb: o br: para limitar los resultados
+
+== BranchColumn ==
+Rama
+
+== CancelButton ==
+Cancelar
+
+== FindButton ==
+Buscar
+
+== CloseButton ==
+Cerrar
+
+== OkButton ==
+OK
+
+== YesButton ==
+Sí
+
+== NoButton ==
+No
+
+== CheckinButton ==
+Check in
+
+== CheckinToADifferentBranchButton ==
+Check in de los cambios a una rama diferente...
+
+== CheckinToADifferentBranch ==
+Check in de los cambios a una rama diferente
+
+== CheckinToADifferentBranchNewBranchWaterMark ==
+task001
+
+== MoveChangesetsToADifferentBranch ==
+Mover changesets a una rama diferente
+
+== ShelveButton ==
+Shelve
+
+== ShowShelvesButton ==
+Mostrar shelves
+
+== ShowShelvesViewTooltip ==
+Mostrar la vista de shelves
+
+== ShowLinkedTasksButton ==
+Mostrar tareas
+
+== OptionsTooltip ==
+Configurar las opciones de cambios pendientes
+
+== ChooseMessage ==
+Elegir...
+
+== GluonConfigurationSelectRepositoryButton ==
+Seleccionar...
+
+== GluonConfigurationBrowseWorkspacePathButton ==
+Elija una ruta...
+
+== GluonConfigurationCreateRepositoryButton ==
+Crear...
+
+== ChangesetColumn ==
+Changeset
+
+== ExecuteButton ==
+Ejecutar
+
+== FileConflictsCaptionSingular ==
+conflicto de fichero a resolver.
+
+== FileConflictsCaptionPlural ==
+conflictos de fichero a resolver.
+
+== FileConflictsCaptionForIncomingViewSingular ==
+fichero en conflicto con sus cambios.
+
+== FileConflictsCaptionForIncomingViewPlural ==
+ficheros en conflicto con sus cambios.
+
+== FilterLabel ==
+Filtro:
+
+== Controlled ==
+Controlado
+
+== ItemsMenuCheckout ==
+Checkout
+
+== ItemsMenuLockAndCheckout ==
+Bloquear y checkout
+
+== ItemsMenuCheckoutRecursive ==
+Checkout recursivo
+
+== CheckedOut ==
+Checked-out
+
+== Deleted ==
+Borrado
+
+== ChangedOnDisk ==
+Cambiado en disco
+
+== ContainsChanges ==
+Contiene cambios
+
+== Private ==
+Privado
+
+== Ignored ==
+Ignorado
+
+== Cloaked ==
+Cloaked
+
+== HiddenChanged ==
+Cambios ocultos
+
+== WorkspaceExplorerDialogTitle ==
+Workspaces disponibles en Unity VCS
+
+== WorkspaceExplorerDialogExplanation ==
+Por favor, seleccione un workspace de la lista:
+
+== MainWindowTitle ==
+Unity DevOps Version Control - wk: {0} - {1} - {2}: {3}@{4}
+
+== StatusInfo ==
+Está viendo {0} {1}@{2}
+
+== DiffWindowTitle ==
+Comparando contenido previo con revisiones en {0}
+
+== ChangesetsDiffWindowTitle ==
+Comparando revisiones en {0} con revisiones en {1}
+
+== FsProtectionDifferences ==
+Permisos de sistema de archivos cambiados de {0} a {1}
+
+== NoItemsToUndo ==
+No items are selected. Use items' checkboxes to select them. This can also occur if you have selected items, but they are all private or ignored.
+
+== ResolveConflictsButton ==
+Resolver conflictos
+
+== ApplyChangesButton ==
+Aplicar cambios
+
+== QueryLabel ==
+Query:
+
+== RefreshButton ==
+Refresh
+
+== RefreshButtonAmp ==
+&Refresh
+
+== GoHomeTooltip ==
+Go to working changeset
+
+== CloudAccount ==
+Nube
+
+== OnPremAccount ==
+On-premises
+
+== AddNewAccount ==
+Añadir nueva cuenta
+
+== OnlyRelevantButton ==
+Only relevant
+
+== OnlyRelevantTooltip ==
+Mostrar sólo los changesets que definen la estructura del diagrama:
+ - el primero y último de una rama
+ - el padre de una rama
+ - el origen y destino de un merge
+ - aquellos que están etiquetados
+ - el changeset actual
+
+== ResolutionMethodColumn ==
+Resolution method
+
+== UndoButton ==
+Undo
+
+== UndoUnchangedButton ==
+Undo unchanged
+
+== UndoRequest ==
+Confirm undoing changes
+
+== UndoRequestMessageSingular ==
+You are going to undo 1 change. This operation can't be undone. Continue?
+
+== UndoRequestMessagePlural ==
+You are going to undo {0} changes. This operation can't be undone. Continue?
+
+== CheckoutIgnoringFailedRequest ==
+Some files can't be checkedout because they are locked
+
+== CheckoutIgnoringFailedRequestMessage ==
+
+Do you want to skip the locked files and checkout the rest?
+
+The locked files are: {0}
+
+== UndoUnchangedRequestMessage ==
+You are going to undo unchanged items. This operation can't be undone. Continue?
+
+== UndoWithMergeLinkMessageSingular ==
+You are going to undo 1 change and the related merge links. This operation can't be undone. Continue?
+
+== UndoWithMergeLinkMessagePlural ==
+You are going to undo {0} changes and the related merge links. This operation can't be undone. Continue?
+
+== PendingChangesOptionsTitle ==
+Pending changes options
+
+== CreatingRepository ==
+Creating repository {0}...
+
+== CreatingWorkspace ==
+Creating workspace {0}...
+
+== WaitingForDynamicWorkspaceToBeMounted ==
+Waiting to mount dynamic workspace {0}...
+
+== CreatingBranch ==
+Creating branch {0}...
+
+== CreatingLabel ==
+Creating label {0}...
+
+== RepositoryNameAlreadyExists ==
+The repository {0} already exists
+
+== RenamingRepository ==
+Renaming repository...
+
+== RenamingWorkspace ==
+Renaming workspace {0}...
+
+== RenamingBranch ==
+Renaming branch {0}...
+
+== RenamingLabel ==
+Renaming label {0}...
+
+== EditingAttribute ==
+Editando atributo '{0}'...
+
+== ChangingRevisionType ==
+Changing the revision type...
+
+== DeletingWorkspacesSingular ==
+Deleting workspace{0}...
+
+== DeletingWorkspacesPlural ==
+Deleting workspaces{0}...
+
+== DeletingRepositoriesSingular ==
+Deleting repository{0}...
+
+== DeletingRepositoriesPlural ==
+Deleting repositorys{0}...
+
+== UndeletingRepositoriesSingular ==
+Undeleting repository{0}...
+
+== UndeletingRepositoriesPlural ==
+Undeleting repositorys{0}...
+
+== DeletingBranchesSingular ==
+Deleting branch{0}...
+
+== DeletingBranchesPlural ==
+Deleting branchs{0}...
+
+== DeletingLabelsSingular ==
+Deleting label{0}...
+
+== DeletingLabelsPlural ==
+Deleting labels{0}...
+
+== DeletingShelvesSingular ==
+Deleting shelveset...
+
+== DeletingShelvesPlural ==
+Deleting shelves...
+
+== ApplyingShelveset ==
+Applying shelveset...
+
+== DeletingChangeset ==
+Deleting changeset...
+
+== DeletingAttributesSingular ==
+Eliminando atributo {0}...
+
+== DeletingAttributesPlural ==
+Eliminando atributos {0}...
+
+== MovingChangeset ==
+Moving changeset...
+
+== PreviousLabel ==
+Previous result
+
+== NextLabel ==
+Next result
+
+== BrexSearchFieldLabel ==
+Branch Explorer search
+
+== BrexDisplayOptions ==
+Display options
+
+== InitialDateLabel ==
+From:
+
+== EndDateLabel ==
+To:
+
+== SinceDateLabel ==
+Since:
+
+== SelectAll ==
+Select all
+
+== MergeSelectedFiles ==
+Merge selected files
+
+== MergeKeepingSourceChanges ==
+Merge keeping source changes (theirs)
+
+== MergeKeepingWorkspaceChanges ==
+Merge keeping workspace changes (yours/destination)
+
+== MergeOptionsButton ==
+Opciones de merge
+
+== MergeOptionsTitle ==
+Opciones de merge
+
+== MergeOptionsExplanation ==
+Modifique las siguientes opciones para ajustar el comportamiento de la operación de 'merge'
+
+== MergeOptionsContributorsTitle ==
+Seleccione los contribuidores de merge
+
+== MergeOptionBoth ==
+Mezclar los cambios de mi espacio de trabajo con los cambios provenientes del origen
+
+== MergeOptionFromDestination ==
+Aceptar los cambios de mi espacio de trabajo (descartando los cambios provenientes del origen)
+
+== MergeOptionFromSource ==
+Aceptar los cambios provenientes del origen (descartando los cambios de mi espacio de trabajo)
+
+== MergeOptionSkipMergeTrackingTitle ==
+'Merge tracking'
+
+== MergeOptionSkipMergeTrackingExplanation ==
+Ignorar 'Merge tracking'
+
+== MergeOptionSkipMergeTrackingHelpTitle ==
+Informacion de merge
+
+== MergeOptionSkipMergeTrackingHelp ==
+A la hora de buscar merges, PlasicSCM normalmente descarta elementos cuyos cambios no necesitan ser mezclados, ya sea porque ya han sido mezclados previamente o porque pertenecen a una revisión padre.
+Si marca esta casilla, aparecerán todos los elemntos susceptibles de hacer merge, hayan sido o no mezclados anteriormente. De esta forma se pueden re-integrar changesets o revisiones que ya han sido previamente integradas.
+Ésta opción solamente está disponible para el cherry picking y el merge de un intervalo de revisiones.
+
+== MergeOptionAdvancedTitle ==
+Advanced
+
+== MergeOptionAutomaticCalculateAncestor ==
+Calcular automáticamente el changeset utilizado como antecesor común en el merge
+
+== MergeOptionManualSpecifyAncestor ==
+Especificar un changeset antecesor manualmente:
+
+== MergeOptionManualSpecifyAncestorExample ==
+(p. ej 4572)
+
+== DiffDestinationWithAncestor ==
+Diff ancestor with destination contributor
+
+== DiffSourceWithAncestor ==
+Diff ancestor with source contributor
+
+== DiffSourceWithDestination ==
+Diff source with destination
+
+== DiffSourceWithDestinationEvilTwin ==
+Diff item added on source with item added on destination
+
+== DiffSourceWithDestinationAddMove ==
+Diff item added on source with item moved on destination
+
+== DiffSourceWithDestinationCycleMove ==
+Diff item moved on source with item moved on destination
+
+== DiffSourceWithDestinationDeleteMove ==
+Diff item deleted on source with item moved on destination
+
+== DiffSourceWithDestinationMoveAdd ==
+Diff item moved on source with item added on destination
+
+== DiffSourceWithDestinationMoveDelete ==
+Diff item moved on source with item deleted on destination
+
+== DiffSourceWithDestinationMoveEvilTwin ==
+Diff item moved on source with item moved on destination
+
+== DiffSourceWithDestinationChangeDelete ==
+View changes on source item
+
+== DiffSourceWithDestinationDeleteChange ==
+View changes on destination item
+
+== DiffEntireBranch ==
+Diferencias de la rama
+
+== DiffChangesetByChangeset ==
+Diferencias entre changesets
+
+== RetryUpdate ==
+Retry update
+
+== UpdateForced ==
+Update forced
+
+== LoadingWorkspaces ==
+Loading workspaces...
+
+== LoadingHistory ==
+Loading history...
+
+== LoadingAnnotations ==
+Loading annotations...
+
+== LoadingBrowseRepository ==
+Loading changeset tree...
+
+== ProcessingMerge ==
+Processing merge...
+
+== CalculatingMerge ==
+Calculating merges...
+
+== CalculatingIncomingChanges ==
+Calculating incoming changes...
+
+== LoadingFindMerge ==
+Buscando elementos para el merge, por favor espere...
+
+== LoadingPendingChanges ==
+Finding changes in the workspace...
+
+== LabellingWorkspace ==
+Applying the label {0} to the workspace...
+
+== LabellingChangeset ==
+Applying the label {0} to the changeset {1}...
+
+== ApplyingLocalChanges ==
+Aplicando cambios locales...
+
+== ApplyingConflicts ==
+Applying conflicts...
+
+== LoadingRepositories ==
+Loading repositories...
+
+== NewRepositoryExplanation ==
+Type a name for the new repo and make sure you will create it on the correct server.
+
+== NewWorkspaceExplanation ==
+Descargar una copia de trabajo del repositorio {0}. Sólo contiene los ficheros para trabajar, no el historial completo. Un workspace es una carpeta en disco que se usa para hacer cambios, editar y compilar localmente.
+
+== RenameWorkspaceExplanation ==
+Renaming the workspace won’t modify its path.
+
+== ItemSearchField ==
+Item search
+
+== SearchInProgress ==
+Searching...
+
+== SearchIncludePrivateItems ==
+Include private items
+
+== SizeColumn ==
+Size
+
+== BinaryFile ==
+Binary
+
+== Directory ==
+Directory
+
+== TextFile ==
+Text
+
+== LinkFile ==
+Symlink
+
+== Unknown ==
+Unknown
+
+== CustomExtensionFile ==
+Custom extension
+
+== CreateChildBranchTitle ==
+Create Branch
+
+== CreateChildBranchExplanation ==
+Create a new child branch from
+
+== ReplicateBranchTitle ==
+Unity VCS Replication
+
+== ReplicateBranchExplanation ==
+Replicate a branch from/to another repository.
+
+== UsingProfile ==
+Profile: {0}
+
+== DefaultProfile ==
+Using default configuration
+
+== LabelChangesetExplanation ==
+Label changeset {0} of {1}@{2}
+
+== RenameBranchTitle ==
+Rename Branch
+
+== EditAttributeTitle ==
+Editar atributo
+
+== CreateLabelTitle ==
+Apply a label to a changeset
+
+== CreateLabelExplanation ==
+Labels help highlighting important changesets. Typically labels are used to mark stable baselines and releases to customers.
+
+== RenameLabelTitle ==
+Rename Label
+
+== LastChangeset ==
+last changeset
+
+== BranchNameEntry ==
+Branch name:
+
+== BranchNameAlreadyExists ==
+The branch {0} already exists
+
+== LabelNameAlreadyExists ==
+The label {0} already exists ({1})
+
+== LabelNameEntry ==
+Label name:
+
+== ChangesetToLabelEntry ==
+Changeset to label:
+
+== CommentsEntry ==
+Comments:
+
+== SwitchToBranchCheckButton ==
+Switch workspace to this branch
+
+== SwitchToLabelCheckButton ==
+Switch workspace to this label
+
+== SwitchToBranchTitle ==
+Switch to branch
+
+== SwitchToChangesetTitle ==
+Switch to changeset
+
+== SwitchToLabelTitle ==
+Switch to label
+
+== SwitchToExplanation ==
+There are pending changes in your workspace.
+
+You can continue with the switch operation or cancel the switch and open a Pending Changes view, so that you can check in (or undo) the pending changes. Then, you can run the "{0}" command again.
+
+If you continue with the switch operation, your local changes won't be lost, and will still appear as pending changes after the switch operation.
+
+== SwitchToLabelExplanation ==
+There are pending changes in your workspace.
+
+You can continue with the switch operation or cancel the switch and open a Pending Changes view, so that you can check in (or undo) the pending changes. Then, you can run the "Switch workspace to this label" command again.
+
+If you continue with the switch operation, your local changes won't be lost, and will still appear as pending changes after the switch operation, but you won't be able to submit these changes, as a label configuration is a read-only configuration.
+
+To modify a labeled configuration, create a branch, setting the label as the branch base. Then, switch the workspace to that branch and make changes as usual.
+
+== SwitchToConfirmationCheckButton ==
+Don't show this dialog again
+
+== SwitchToConfirmationContinueButton ==
+Continue with the switch
+
+== SwitchToConfirmationCancelViewChangesButton ==
+Cancel and view changes
+
+== SwitchToConfirmation ==
+You are changing your workspace configuration. Continue?
+
+== SwitchToBranchConfirmation ==
+You are changing your workspace configuration to the branch: {0}.
+
+Continue?
+
+== SwitchToLabelConfirmation ==
+Switching your workspace to a label, which loads the labeled revision of each item. All the loaded revisions will be read-only.
+
+To modify a labeled configuration, create a branch, setting the label as the branch base. Then, switch the workspace to that branch and make changes as usual.
+
+Continue?
+
+== SwitchActionOptionsTitle ==
+Behavior when trying to switch / update the workspace with changed items
+
+== SwitchActionAllowOption ==
+Allow
+
+== SwitchActionWarnOption ==
+Allow, showing a warning
+
+== SwitchActionFailOption ==
+Do not allow, show an error
+
+== UpdateResultsTitle ==
+Update results
+
+== UpdateResultsExplanation ==
+The update operation found some issues. Please review them.
+
+== CheckinConflictsTitle ==
+Check-in conflicts
+
+== CheckinConflictsExplanation ==
+The check-in operation found the following conflicts that can't be checked in.
+Click "OK" to continue the operation for the items not in conflict.
+Click "Cancel" to abort the entire operation.
+
+== CheckinConflictsToMergeTitle ==
+Files need merge
+
+== CheckinConflictsToMergeExplanation ==
+There are newer changes that need merging with yours
+Click "Merge" to merge the files now.
+Otherwise click "Cancel".
+
+== EditAttributeExplanation ==
+Puedes renombrar el atributo y cambiar el texto de su comentario.
+
+== ResetQueryButton ==
+Reset query
+
+== ClearHistoryButton ==
+Clear history
+
+== SetAsDefaultQuery ==
+Set as default query
+
+== NewDirectoryTitle ==
+Create a new directory
+
+== NewFileTitle ==
+Create a new empty file
+
+== NewDirectory ==
+New directory
+
+== NewFile ==
+New file
+
+== RenameDirectoryTitle ==
+Rename Directory
+
+== RenameFileTitle ==
+Rename File
+
+== NewSyncTitle ==
+Create a new Sync View
+
+== DependenciesTitle ==
+Undo checkout dependencies
+
+== DependenciesDialogTitle ==
+Pending dependencies
+
+== AddChildBranches ==
+Add child branches
+
+== AddParentBranches ==
+Add parent branches
+
+== AddBranchesSourceOfMerge ==
+Add branches source of merge
+
+== AddBranchesDestinationOfMerge ==
+Add branches destination of merge
+
+== TypeDescription ==
+Type a description here
+
+== ConditionalBranchRulesHelp ==
+Puede escribir una consulta en el formato del 'cm find' pero sin tener que especificar 'find branch'.
+Consulte la 'find guide' para más información.
+Ejemplos:
+  changesets >= '2 months ago'
+  attribute = 'status' and attrvalue='finished'
+
+== ConditionalChangesetRulesHelp ==
+Puede escribir una consulta en el formato del 'cm find' pero sin tener que especificar 'find changesets'.
+Consulte la 'find guide' para más información.
+Ejemplos:
+  branch = 'main'
+  attribute = 'status' and attrvalue='finished'
+
+== ConditionalLabelRulesHelp ==
+Puede escribir una consulta en el formato del 'cm find' pero sin tener que especificar 'find labels'.
+Consulte la 'find guide' para más información.
+Ejemplos:
+  date >= '2 months ago'
+  attribute = 'status' and attrvalue='finished'
+
+== DependenciesExplanation ==
+Some selected items depend on others that need to be included in the operation as well.
+Click "{0}" to proceed with all dependent items (recommended), or cancel the operation.
+
+== MergeLinkDescriptionColumn ==
+Merge link description
+
+== TaskIdColumn ==
+ID
+
+== TaskTitleColumn ==
+Title
+
+== AssigneeColumn ==
+Assignee
+
+== LocationColumn ==
+Ubicación
+
+== LineColumn ==
+Línea
+
+== ColumnColumn ==
+Columna
+
+== ContributorColumn ==
+Contribuidor
+
+== LineContentColumn ==
+Contenido de la línea
+
+== Merge ==
+Merge
+
+== CherryPick ==
+Cherry pick
+
+== IntervalMerge ==
+Interval merge
+
+== SubtractiveMerge ==
+Subtractive merge
+
+== SubtractiveIntervalMerge ==
+Subtractive interval merge
+
+== UnsupportedMergeType ==
+Unsupported merge type
+
+== MergeSourceFormat ==
+{0} at {1}@{2}
+
+== ConfirmDeleteTitle ==
+Confirm delete
+
+== ConfirmApplyLabelTitle ==
+Confirm labeling operation
+
+== ConfirmApplyLabelExplanation ==
+Applying label "{0}" to all revisions currently in your workspace. Continue
+
+== BranchNameEmpty ==
+Branch name must not be empty
+
+== LabelNameEmpty ==
+Label name must not be empty
+
+== SyncViewNameEmpty ==
+Sync view name must not be empty
+
+== AttributeNameEmpty ==
+El nombre del atributo no puede estar vacío
+
+== LabelButton ==
+Label
+
+== LabelAllXlinksCheckButton ==
+Label all writable xlinked repositories
+
+== RenameButton ==
+Rename
+
+== Rename ==
+Rename
+
+== CreateButton ==
+Create
+
+== SaveButton ==
+Save
+
+== DeleteButton ==
+Borrar
+
+== SwitchButton ==
+Switch
+
+== DiffWindowMenuItemDiff ==
+Diff
+
+== ApplyButton ==
+Apply
+
+== MergeButton ==
+Merge
+
+== BrExNewChangesetWillBeCreated ==
+New changeset
+
+== BrexMergeLinkTitle ==
+Merge link {0}
+
+== BrexMergeLinkCaptionBody ==
+Source: {0}{1}Destination: {2}
+
+== BrexMergeLinkPending ==
+, pending
+
+== BrexMergeChangesetInterval ==
+Changeset interval ({0} - {1}]
+
+== BrexMergeCouldNotMerge ==
+[Ops, could not get the interval data!]
+
+== BrexMergeChangesetOnBranch ==
+changeset {0} on branch {1}
+
+== BrexCherryPickLinkType ==
+(Cherry pick)
+
+== BrexIntervalCherryPickLinkType ==
+(Cherry pick from changeset interval)
+
+== BrexIntervalCherryPickSubstractiveLinkType ==
+(Subtractive from changeset interval)
+
+== BrexCherryPickSubstractiveLinkType ==
+(Subtractive)
+
+== BrexProperties ==
+Properties
+
+== BrexAttributes ==
+Attributes
+
+== CredentialsDialogTitle ==
+Connect to server
+
+== CredentialsDialogExplanation ==
+Please enter your credentials to connect to {0}
+
+== UserName ==
+User name:
+
+== Password ==
+Password:
+
+== RememberCredentialsAsProfile ==
+Remember credentials as a connection profile
+
+== CredentialsErrorSavingProfile ==
+Error saving the connection profile: {0}
+
+== BrexObjectNameProperty ==
+Object name:
+
+== BrexCreationDateProperty ==
+Creation date:
+
+== BrexOwnerProperty ==
+Owner:
+
+== BrexReplicationSourceProperty ==
+Replication src:
+
+== BrexGuidProperty ==
+Guid:
+
+== BrexCommentsProperty ==
+Comments:
+
+== BrexDisplayBranches ==
+Display branches
+
+== BrexDisplayFullBranchNames ==
+Display full branch names
+
+== BrexDisplayMergeLinks ==
+Display merge links
+
+== BrexDisplayCrossBranchCsetLinks ==
+Display cross-branch changeset links
+
+== BrexDisplayLabels ==
+Display labels
+
+== BrexDisplayBranchTaskInfo ==
+Display branch task info
+
+== BrexDisplayOnlyRelevantCsets ==
+Display only relevant changesets
+
+== NoReplicationSources ==
+Not replicated
+
+== GluonConfiguration ==
+Gluon Configuration
+
+== EnterServer ==
+Please enter a server name
+
+== EnterServerFormat ==
+Please specify the server name in server:port format. Default port is 8087
+
+== EnterProxy ==
+Introduzca un nombre de proxy
+
+== EnterProxyFormat ==
+Especifique el nombre del proxy en el formato servidor:puerto. El puerto por defecto es 8087
+
+== ConnectingToProxy ==
+Conectando al servidor proxy
+
+== EnterUserName ==
+Please enter a user name
+
+== EnterPassword ==
+Please enter a password
+
+== EnterRepository ==
+Please enter a repository
+
+== EnterCloudRepository ==
+Please enter a Cloud repository name
+
+== EnterLocalRepository ==
+Please enter a local repository name
+
+== NoValidPath ==
+No valid path
+
+== Connected ==
+Connected OK ({0})
+
+== CredentialsOK ==
+Credentials checked OK
+
+== Connecting ==
+Connecting...
+
+== CheckingCredentials ==
+Checking credentials...
+
+== Connect ==
+Connect
+
+== ScanNetwork ==
+Scan network...
+
+== Check ==
+Check
+
+== ChooseRepositoryCloudEdition ==
+Join an existing project or create a new one
+
+== EnterRepositoryWaterMark ==
+Enter a repository name or choose from the list
+
+== GluonConfigurationWorkspaceLabel ==
+Workspace:
+
+== GluonConfigurationWorkspaceExplanation ==
+Select your working directory (a.k.a workspace). This is the directory that will contain the files you will be working with
+
+== ApplyingChanges ==
+Applying changes...
+
+== Apply ==
+Apply
+
+== CouldNotFindWorkingRepositoryOrBranch ==
+Could not find working repository or branch
+
+== AvailableChangesets ==
+Available Unity VCS changesets
+
+== SelectChangesetBelow ==
+Please select a changeset from the list below:
+
+== AvailableLabels ==
+Etiquetas disponibles en Unity VCS
+
+== SelectLabelBelow ==
+Seleccione una etiqueta de la siguiente lista:
+
+== AvailableBranches ==
+Available Unity VCS branches
+
+== AvailableRepositories ==
+Available Unity VCS repositories
+
+== SelectBranchesBelow ==
+Please select a branch from the list below:
+
+== SelectRepositoryBelow ==
+Please select a repository from the list below:
+
+== AvailableServers ==
+Available Unity VCS servers
+
+== SelectServerBelow ==
+Please select a server from the list below:
+
+== ScanningForServers ==
+Scanning for servers...
+
+== AddressColumn ==
+Address
+
+== PortColumn ==
+Port
+
+== VersionColumn ==
+Version
+
+== FilterWaterMark ==
+Filter
+
+== ExploreWorkspace ==
+Explore workspace
+
+== CheckinChanges ==
+Check in Changes
+
+== Configure ==
+Configure
+
+== Loading ==
+Loading...
+
+== OperationRunning ==
+Operation running
+
+== OperationInProgress ==
+There is one operation currently running. Please wait until it is finished.
+
+== ConfirmClosingRunningOperation ==
+An operation is currently running. Are you sure you want to quit?
+
+== SearchFiles ==
+Search files...
+
+== SearchFilesHint ==
+You can use '*' and '?' to match file names. You can also use directories in your search.
+
+== SearchForFiles ==
+Search for files
+
+== Searching ==
+Searching
+
+== IncludePrivateFiles ==
+Include private files
+
+== NoMatchesFound ==
+No matches found
+
+== ContainerFolderColumn ==
+Container folder
+
+== CheckinComment ==
+Your check-in comment...
+
+== BrowseForFolderTitle ==
+Browse for folder
+
+== BrowseForSaveFileTitle ==
+Save file
+
+== PlasticSCMServerLabel ==
+Enter the name/IP and port of your server
+
+== PreferencesWindowTitle ==
+Unity DevOps Version Control Preferences - {0}
+
+== GeneralPreferences ==
+General
+
+== DiffAndMerge ==
+Diff and merge
+
+== DiffAndMergeExplanation ==
+Preferences for the Unity VCS built-in diff and merge tool (Xmerge):
+
+== ComparisonMethodAndEncodingTitle ==
+Comparison method and encoding
+
+== MergeViewBehaviorTitle ==
+Merge view behavior
+
+== ConflictResolutionTitle ==
+Merge conflict resolution
+
+== ComparisonMethod ==
+Comparison method:
+
+== ManualConflictResolution ==
+Manual conflict resolution
+
+== ManualConflictResolutionTooltip ==
+Always launch the merge tool to review conflicts, even if all of them are automatic conflicts
+
+== AutomaticConflictResolution ==
+Automatic conflict resolution (if possible)
+
+== AutomaticConflictResolutionTooltip ==
+Launch the merge tool only when user interaction is required to resolve a conflict
+
+== CloseMergeAndOpenPendingChanges ==
+Cerrar la vista de merge y abrir la de cambios pendientes al finalizar un merge
+
+== MergeWithPendingChanges ==
+Permitir merge con cambios pendientes
+(deshabilitado por defecto para evitar problemas a nuevos usuarios al deshacer cambios)
+
+== CommentsOptions ==
+Comentarios
+
+== OtherOptions ==
+Other options
+
+== MergeBotsUserProfileOptions ==
+Mergebots
+
+== MergeBotsUserProfileOptionsExplanation ==
+Esta pestaña le permite configurar su perfil de usuario de Mergebots para recibir notificaciones por correo electrónico o Slack.
+
+== DynamicWorkspaces ==
+Workspaces dinámicos
+
+== IssueTrackers ==
+Issue trackers
+
+== CodeEditor ==
+Editor de código
+
+== MiscOptionsTitle ==
+Miscellaneous
+
+== CommentsAutoTextLabel ==
+Auto-texto para comentarios
+
+== CommentsAutoTextNoneOption ==
+Ninguno
+
+== CommentsAutoTextUserNameOption ==
+Nombre de usuario
+
+== CommentsAutoTextDateOption ==
+Fecha
+
+== CommentsAutoTextCustomOption ==
+Personalizado
+
+== CommentsAutoTextBranchNameOption ==
+Nombre de la rama
+
+== CommentsAutoTextHelpTitle ==
+Información
+
+== CommentsAutoTextHelpMessage ==
+Sintaxis de la cadena:
+{0} = NombreUsuario
+{1} = Fecha
+{2} = Carácter de nueva línea
+{3} = Nombre de la rama
+
+Ejemplo: {0} - {1} {2} br:{3} {2} Resumen de cambios:
+mostraría:
+
+    juan - 05/10/2006 10:30
+    br:/main/task1673
+    Resumen de cambios:
+
+== CommentsAutoTextFormatErrorMessage ==
+{0} no tiene un formato válido para comentarios con autotexto
+
+== SetFilesAsReadOnlyAfterUpdateOrCi ==
+Update and Check-in operations set files as read-only
+
+== CompareChangedFilesContents ==
+Check content (hash) when the file timestamp is modified to set it as "Changed"
+
+== CompareChangedFilesContentsTooltip ==
+This is used to established the "Changed" item status
+
+== UpdateSetsTimestamps ==
+Update operation sets repository timestamps on files
+
+== EnableSharedWorkspaces ==
+Enable shared workspaces support (Samba/WinShare)
+
+== LanguageTitle ==
+Seleccione el idioma para Unity Version Control
+
+== Language ==
+Idioma
+
+== LanguageChangeInfoMessage ==
+Se requiere reiniciar la aplicación para aplicar el cambio de idioma
+
+== LanguageRestartInfoMessage ==
+Quiere reiniciar la aplicación ahora para aplicar el nuevo idioma?
+
+== RestartNow ==
+Reiniciar ahora
+
+== SelectLanguage ==
+Seleccione un idioma
+
+== DisplayErrorOnSameCaseFiles ==
+Display error for same file name with different case
+
+== DisplayErrorOnSameCaseFilesTooltip ==
+Applies only to Unix-like filesystems
+
+== ShowEmptyCommentWarning ==
+Avisar de comentarios vacíos en la vista de Cambios pendientes
+
+== ShowEmptyCommentWarning_ForGluon ==
+Avisar de comentarios vacíos en la vista de Checkin
+
+== DefaultWorkspaceRoot ==
+Default Workspace root:
+
+== CommandHelpDialogTitle ==
+Command help
+
+== MergeToolsConfiguration ==
+Merge tools
+
+== DiffToolsConfiguration ==
+Diff tools
+
+== DiffToolsTableTitle ==
+Configure a diff tool for different file types and extensions. The rules are applied in the order below, top to bottom.
+
+== DiffToolsExplanation ==
+Select a file type or extension and enter the command to run the diff tool:
+
+== DiffToolsCommandHelp ==
+You can use the following command-line parameters when invoking the external diff tool.
+            You must ensure that the specified files have the actual revision contents to be compared.
+
+            @sourcefile: full path of file whose contents will be displayed in the panel on the left
+            @destinationfile: full path of file whose contents will be displayed in the panel on the right
+
+            @sourcesymbolic: symbolic name for the source file
+            @destinationsymbolic: symbolic name for the destination file
+
+            @sourcehash: MD5 string calculated from the source file contents
+            @destinationhash: MD5 string calculated from the destination file contents
+
+            @filetype: MIME type, used for syntax highlighting
+            @comparationmethod: comparison method used
+            @fileencoding: default file encoding to use when no encoding is detected
+
+== MergeToolsTableTitle ==
+Configure a merge tool for different file types and extensions. The rules are applied in the order below, top to bottom.
+
+== MergeToolsExplanation ==
+Select a file type or extension and enter the command to run the merge tool:
+
+== MergeToolsCommandHelp ==
+The following variables are available to use as arguments when invoking the external merge tool in the command line:
+
+            @sourcefile: full path of the source merge file
+            @destinationfile: path of the destination merge file
+            @basefile: path of the common ancestor merge file
+            @output: path of the merge result file
+
+            @sourcesymbolic: symbolic name for the source file
+            @destinationsymbolic: symbolic name for the destination file
+            @basesymbolic: symbolic name for the base file
+
+            @sourcehash: MD5 string calculated from the source file contents
+            @destinationhash: MD5 string calculated from the destination file contents
+            @basehash: MD5 string calculated from base file contents
+
+            @filetype: MIME type used for syntax highlight
+            @fileencoding: default file encoding to use when no encoding is detected
+            @resultencoding: result file encoding (if NONE selected, it will be calculated from contributors)
+
+            @comparationmethod: comparison method used
+            @mergetype: type of merge used
+
+            @progress: a progress string indicating the current operation, e.g. 'Merging file 3/10'
+            @extrainfofile: path of a file which contains extra information about the current merge
+
+== TypeSuffixColumn ==
+Type/Suffix
+
+== DiffCommandColumn ==
+Diff tool command line
+
+== MergeCommandColumn ==
+Merge tool command line
+
+== AddToolButton ==
+Add
+
+== RemoveToolButton ==
+Remove
+
+== FileTypeQuestion ==
+Which files should this command match?
+
+== ExtensionTooltip ==
+.extension
+
+== ExternalTool ==
+External tool:
+
+== ExternalToolNotFoundError ==
+Tool not found, please introduce a valid one
+
+== BrowseForExecutableFile ==
+Browse for executable file
+
+== CommandTooltip ==
+Type your command here
+
+== FileCorruptError ==
+The file {0} contains errors and its configuration cannot be used. Please review its contents. Error: {1}
+
+== UndoCheckoutTitle ==
+Undo checkout
+
+== UndoCheckoutQuestion ==
+Undoing the checkout of the selected items will discard any changes made to them since the last check-in. This operation can't be undone. Continue?
+
+== RenameSyncTitle ==
+Rename Sync View
+
+== RenameTitle ==
+Renombrar ítem
+
+== ApplyLocalChanges ==
+Apply local changes
+
+== SearchingDependencies ==
+Searching dependencies...
+
+== ApplyingDependencies ==
+Applying dependencies...
+
+== CheckinViewOptions ==
+Checkin view options
+
+== Canceling ==
+Canceling...
+
+== CancelingMerge ==
+Canceling... (wait until current merge operation finishes)
+
+== KeepLocked ==
+Keep items locked
+
+== StatusCannotMerge ==
+Cannot merge
+
+== StatusOutOfDate ==
+Out of date
+
+== StatusDeletedOnServer ==
+Deleted on server
+
+== StatusLocked ==
+Locked by '{0}'
+
+== StatusCheckedOutChanged ==
+Checked-out (changed)
+
+== StatusCheckedOutUnchanged ==
+Checked-out (unchanged)
+
+== StatusChanged ==
+Changed
+
+== StatusReplaced ==
+Replaced
+
+== StatusNotOnDisk ==
+No está en disco
+
+== StatusAdded ==
+Añadido
+
+== StatusIgnored ==
+Ignorado
+
+== UpdatingWorkspace ==
+Updating your workspace...
+
+== ApplyingConfiguration ==
+Applying configuration...
+
+== SwitchingToBranch ==
+Switching to branch {0}...
+
+== SwitchingToChangeset ==
+Switching to changeset {0}...
+
+== SwitchingToLabel ==
+Switching to label {0}...
+
+== StatusUnderUnresolvedXlink ==
+The xlinked cset '{0}@{1}' is not available
+
+== MovedHistoryDescription ==
+Moved from {0} to "{1}"
+
+== RemovedHistoryDescription ==
+Removed {0}
+
+== SelectProgramToLaunch ==
+Select a program to launch
+
+== WindowTitle ==
+Workspace: {0}
+
+== ItemsMenuUpdate ==
+Update
+
+== ConfigurationUnresolvedXlink ==
+The xlinked cset '{0}@{1}' is not available
+
+== WorkspacesViewTitle ==
+Workspaces
+
+== RepositoriesViewTitle ==
+Repositories
+
+== PendingChangesViewTitle ==
+Pending Changes
+
+== BranchesViewTitle ==
+Branches
+
+== ChangesetsViewTitle ==
+Changesets
+
+== SyncViewTitle ==
+Sync Repositories
+
+== ShelvesViewTitle ==
+Shelves
+
+== HistoryViewTitle ==
+History of {0}
+
+== AnnotateViewTitle ==
+Annotate of {0}
+
+== BrowseRepositoryViewTitle ==
+Browse repository - {0}
+
+== ConfigurationModeExplanationAutomatic ==
+Directory update mode: Automatic
+
+Automatic mode is set when all the children of a directory are selected.
+Automatic means that all new files and directories will be downloaded during the update.
+
+== ConfigurationModeExplanationManual ==
+Directory update mode: Manual
+
+Manual mode is set when not all the children of a directory are selected.
+Manual means new files and directories won’t be automatically downloaded by the update.
+
+== PendingDirectoryConflictsResolvingConflictsSingular ==
+There is 1 directory conflict that must be resolved before resolving file conflicts.
+
+== PendingDirectoryConflictsResolvingConflictsPlural ==
+There are {0} directory conflicts that must be resolved before resolving file conflicts.
+
+== PendingDirectoryConflictsApplyingChangesSingular ==
+There is 1 directory conflict that must be resolved before applying changes.
+
+== PendingDirectoryConflictsApplyingChangesPlural ==
+There are {0} directory conflicts that must be resolved before applying changes.
+
+== PendingDirectoryConflictsUpdatingWorkspaceSingular ==
+There is 1 directory conflict that must be resolved before updating the workspace.
+
+== PendingDirectoryConflictsUpdatingWorkspacePlural ==
+There are {0} directory conflicts that must be resolved before updating the workspace.
+
+== CreatedByColumn ==
+Created by
+
+== UnresolvedXlink ==
+unresolved xlink
+
+== UnexpectedError ==
+An unexpected error has occurred.
+
+== SaveRequest ==
+Confirm saving comments
+
+== SaveRequestMessage ==
+The comment of the current selected object has been modified. Save the changes?
+
+== ProvideDifferentWorkspaceName ==
+Please provide a different workspace name or cancel the operation.
+
+== ProvideDifferentRepositoryName ==
+Please provide a different repository name or cancel the operation.
+
+== ProvideDifferentItemName ==
+Please provide a different item name or cancel the operation.
+
+== ProvideDifferentBranchName ==
+Please provide a different branch name or cancel the operation.
+
+== ProvideDifferentLabelName ==
+Please provide a different label name or cancel the operation.
+
+== ProvideDifferentSyncViewName ==
+Please provide a different sync view name or cancel the operation.
+
+== ProvideDifferentItemNameForRenameResolution ==
+Please provide a different item name.
+
+== ProvideUserName ==
+Please input an user name.
+
+== ProvidePassword ==
+Please input a password.
+
+== ReplicationSource ==
+Replication source
+
+== ReplicationDestination ==
+Replication destination
+
+== PullingProgressTitle ==
+Pulling branch {0}
+
+== PushingProgressTitle ==
+Pushing branch {0} to {1}
+
+== CurrentOfTotalReplicationProgressTitle ==
+   {0} of {1}
+
+== PullBranch ==
+Pull branch {0}
+
+== PullRemoteBranch ==
+Pull remote branch
+
+== PushBranch ==
+Push branch {0}
+
+== ReplicateButton ==
+Replicate
+
+== GenericChooseButton ==
+...
+
+== ServerEmpty ==
+The server field cannot be empty.
+
+== RepositoryEmpty ==
+The repository field cannot be empty.
+
+== BranchEmpty ==
+The branch field cannot be empty.
+
+== OperationStarting ==
+Operation starting
+
+== FetchingMetadata ==
+Fetching metadata
+
+== PushingMetadata ==
+Pushing metadata
+
+== IntroducingData ==
+Introducing data
+
+== OperationStartingFetch ==
+Operation starting fetch
+
+== CalculatingInitialChangeset ==
+Calculating initial changeset
+
+== FetchingRevisions ==
+Fetching revisions ({0})
+
+== FetchingBranches ==
+Fetching branches ({0})
+
+== FetchingItems ==
+Fetching items ({0})
+
+== FetchingLabels ==
+Fetching labels ({0})
+
+== FetchingLinks ==
+Fetching links ({0})
+
+== FetchingChildren ==
+Fetching children ({0})
+
+== FetchingChangeSets ==
+Fetching changesets ({0})
+
+== FetchingMoveRealizations ==
+Fetching move realizations ({0})
+
+== FetchingReviews ==
+Fetching reviews ({0})
+
+== FetchingAttributes ==
+Fetching attributes ({0})
+
+== FetchingACLs ==
+Fetching ACLs ({0})
+
+== FetchingReferences ==
+Fetching references ({0})
+
+== FetchingSEIDs ==
+Fetching SEIDs ({0})
+
+== FetchingFinished ==
+Sending metadata ({0})
+
+== OperationStartingPush ==
+Operation starting push
+
+== ReconcilingObjects ==
+Reconciling objects ({0})
+
+== PushingReferences ==
+Pushing references ({0} %)
+
+== ReconcilingACLs ==
+Reconciling ACLs ({0} %)
+
+== PushingBranches ==
+Pushing branches ({0} %)
+
+== PushingItems ==
+Pushing items ({0} %)
+
+== PushingLinks ==
+Pushing links ({0} %)
+
+== PushingLabels ==
+Pushing labels ({0} %)
+
+== PushingAttributes ==
+Pushing attributes ({0} %)
+
+== ProcessingBranches ==
+Processing branches ({0} %)
+
+== PushingChangeSets ==
+Pushing changeSets ({0} %)
+
+== PushingRevisions ==
+Pushing revisions ({0} %)
+
+== PushingMoveRealizations ==
+Pushing move realizations ({0} %)
+
+== PushingTrees ==
+Pushing trees ({0} %)
+
+== PushingACLs ==
+Pushing ACLs ({0} %)
+
+== PushingFinished ==
+Pushing finished
+
+== IntroducingDataProgress ==
+Introducing data ({0} %)
+
+== DataWritten ==
+Data written
+
+== OperationAbandoned ==
+Operation abandoned
+
+== OperationFinished ==
+Operation finished
+
+== ReplicationError ==
+An error occurred during the replica: {0}
+
+== UnknownStatus ==
+Unknown status
+
+== RetryReplicaButton ==
+Retry
+
+== SkipReplicaButton ==
+Skip
+
+== SourceReplicationServer ==
+Source server
+
+== SourceReplicationRepository ==
+Source repository
+
+== SourceReplicationBranch ==
+Source branch
+
+== DestinationReplicationServer ==
+Destination server
+
+== DestinationReplicationRepository ==
+Destination repository
+
+== CreateWorkspaceButton ==
+Create a new workspace...
+
+== MenuAddToIgnoreList ==
+Add to ignored list
+
+== MenuRemoveFromIgnoreList ==
+Remove from ignored list
+
+== MenuAddToCloakedList ==
+Add to cloaked list
+
+== MenuRemoveFromCloakedList ==
+Remove from cloaked list
+
+== MenuAddToHiddenChangesList ==
+Add to hidden changes list
+
+== MenuRemoveFromHiddenChangesList ==
+Remove from hidden changes list
+
+== UsingItemExtension ==
+Using the item extension
+
+== UsingItemFullPath ==
+Using the item full path
+
+== UsingItemName ==
+Using the item name
+
+== FilterRulesConfirmationTitle ==
+Filter rules confirmation
+
+== FilterRulesConfirmationAddMessage ==
+The following rules will be added to the configuration file. Continue?
+
+== FilterRulesConfirmationRemoveMessage ==
+The following rules will be removed from the configuration file. Continue?
+
+== ApplyRulesToAllWorkspaceCheckButton ==
+Apply rules to all my workspaces
+
+== ShelveWithPendingMergeLinksRequest ==
+Shelve with pending merge links
+
+== ShelveWithPendingMergeLinksRequestMessage ==
+You have pending merge links in the workspace. The shelve operation doesn't shelve pending merge links. Do you want to shelve anyway?
+
+== UndoChangesAfterShelveRequest ==
+Undo changes after shelve
+
+== UndoChangesAfterShelveRequestMessage ==
+Your changes have been checked into a temporary changeset (shelve). These changes can be applied now to any branch. Do you want to undo these changes in the workspace?
+
+== ShelveCreatedMessage ==
+Your pending changes have been shelved to: {0}
+
+== NewCertificateTitle ==
+Server SSL certificate is not in the store
+
+== NewCertificateMessageUnityVCS ==
+The server you are connecting to has sent a certificate which is not in the store. This is normal if it is the first time you connect to this server.
+
+            Certificate details:.
+            - Issued to: {0}
+            - Issued by: {1}
+            - Expiration date: {3}
+            - Certificate hash: {5}
+
+            If you trust this host, hit "Yes" to add the key to the Unity Version Control key store (recommended if it is the first time you connect to this server).
+            If you want to carry on connecting just once, without adding the key to the store, hit "No".
+            If you do not trust this host, hit "Cancel" to abandon the connection.
+
+== ExistingCertificateChangedTitle ==
+Server certificate has changed!
+
+== ExistingCertificateChangedMessageUnityVCS ==
+WARNING: this host certificate does NOT match the one you have in the key store. It may mean that the server identity has been compromised or a man-in-the-middle attack is being performed on you.
+
+            Certificate details:
+            - Issued to: {0}
+            - Issued by: {1}
+            - Expiration date: {3}
+            - Certificate hash: {5}
+
+            If you were expecting this change and trust the new certificate, hit "Yes" to add the key to the Unity Version Control key store and trust this certificate in the future.
+            If you want to carry on connecting just once, without adding the key to the store, hit "No".
+            If you want to abandon this connection, hit "Cancel". This is the ONLY guaranteed safe choice.
+
+== InvalidCertificateHostnameTitle ==
+Hostname mismatch in secure connection
+
+== InvalidCertificateHostnameMessage ==
+WARNING: the hostname provided in the server certificate does NOT match the server hostname. This means that the certificate was not issued to this hostname or that there is a network configuration problem with this host.
+
+            - Certificate hostname: {0}
+            - Server hostname: {1}
+
+            If you want to continue connecting to this host, choose "Yes". The certificate validation will continue (not recommended).
+            If you want to abandon the connection, choose "No" (recommended).
+
+== RepositoryExplorerServerLabel ==
+Server:
+
+== ShowUndeleteButton ==
+Archivos eliminados
+
+== UndeleteButtonTooltip ==
+Use it to recover deleted files
+
+== UndeleteViewTitle ==
+Deleted items
+
+== UndeleteMenuItemUndeleteRevision ==
+Undelete revision
+
+== UndeleteMenuItemUndeleteRevisionToThisPath ==
+Undelete revision to this path...
+
+== UndeletingItem ==
+Undeleting item...
+
+== UndeletingItemsSingular ==
+Undeleting 1 item...
+
+== UndeletingItemsPlural ==
+Undeleting {0} items...
+
+== EnterRestorePathFormTitle ==
+Undelete item
+
+== EnterRestorePathItemFormTitle ==
+Recuperar item: {0}
+
+== EnterRestorePathFormParentDoesNotExistExplanation ==
+The parent directory of the item does not exist, please enter a new location
+
+== EnterRestorePathFormIsPathAlreadyUsedExplanation ==
+There is already an item in the same path, please enter a new location
+
+== EnterRestorePathFormTextBoxExplanation ==
+Enter the restore path for the element to be undeleted
+
+== EnterRestorePathFormLabel ==
+Path:
+
+== EnterValidRestorePath ==
+Please enter a valid workspace path
+
+== RestorePathShouldNotExist ==
+The restore path should not exist
+
+== RestorePathParentShouldExist ==
+The parent directory of the restore path should exist
+
+== DeletedItemsOwner ==
+Owner:
+
+== DeletedItemsSince ==
+Since:
+
+== MeOwnerOption ==
+me
+
+== EveryoneOwnerOption ==
+everyone
+
+== ItemUndeletedCorrectly ==
+Undeleted ok: '{0}'
+
+== ItemCannotBeUndeleted ==
+Item '{0}' (ID: {1}) could not be undeleted because it was not found in its parent directory revision (ID: {2})
+
+== CheckinViewTitle ==
+Checkin changes
+
+== UserDefinedSyncView ==
+User defined sync view:
+
+== AddSyncViewButton ==
+Add
+
+== RenameSyncViewButton ==
+Rename
+
+== DeleteSyncViewButton ==
+Borrar
+
+== SyncViewDetailsTitle ==
+Sync view details
+
+== AddSrcSyncViewRepoButton ==
+Add src repo
+
+== DeleteSrcSyncViewRepoButton ==
+Delete src repo
+
+== AddDstSyncViewRepoButton ==
+Add dst repo
+
+== DeleteDstSyncViewRepoButton ==
+Delete dst repo
+
+== PushVisibleButton ==
+Push visible
+
+== PushVisibleButtonTooltip ==
+Push all visible outgoing branches
+
+== PullVisibleButton ==
+Pull visible
+
+== PullVisibleButtonTooltip ==
+Pull all visible incoming branches
+
+== ShowExcludedBranchesCheckButton ==
+Show excluded branches
+
+== NewSyncView ==
+New sync view
+
+== NewSyncViewName ==
+Sync view name
+
+== NewSyncViewTitle ==
+Create a new Sync View to push/pull groups of branches
+
+== NewSyncViewTitleCloud ==
+Create a new Sync View to push/pull groups of branches to Unity VCS Cloud
+
+== NewSyncViewExplanation ==
+Instead of pushing/pulling one by one, with Sync Views you can easily replicate branches in batches
+
+== NewSyncViewCheckingRepositories ==
+Checking repositories...
+
+== NewSyncViewNoSourceRepository ==
+There is no {0} repository to use as source
+
+== NewSyncViewNoDestinationRepository ==
+There is no {0} repository to use as destination
+
+== NewSyncViewSourceRepository ==
+Source repository
+
+== NewSyncViewDestinationRepository ==
+Destination repository
+
+== NewSyncViewEnterSyncViewName ==
+Please enter a sync view name
+
+== NewSyncViewEnterRepositorySpec ==
+Please enter a repository spec
+
+== NewSyncViewInvalidRepositorySpec ==
+Invalid repository spec: {0}
+
+== NewSyncViewCheckingSourceRepositoryExists ==
+Checking source repository exists...
+
+== NewSyncViewCheckingDestinationRepositoryExists ==
+Checking destination repository exists...
+
+== NewSyncViewSourceRepositoryNotExist ==
+Source repository {0} does not exist
+
+== NewSyncViewDestinationRepositoryNotExist ==
+Destination repository {0} does not exist
+
+== NewSyncViewCreateSyncView ==
+Create new sync view (push/pull)
+
+== SyncStatusLoading ==
+Loading...
+
+== SyncStatusUpToDate ==
+All branches are up to date
+
+== SyncStatusError ==
+Error: {0}
+
+== OutgoingBranchesSingular ==
+Outgoing branches - 1 branch
+
+== OutgoingBranchesPlural ==
+Outgoing branches - {0} branches
+
+== IncomingBranchesSingular ==
+Incoming branches - 1 branch
+
+== IncomingBranchesPlural ==
+Incoming branches - {0} branches
+
+== ExcludedBranchesSingular ==
+Excluded branches - 1 branch
+
+== ExcludedBranchesPlural ==
+Excluded branches - {0} branches
+
+== SyncMenuItemSyncAllMenuItem ==
+Synchronize all
+
+== SyncMenuItemPushAllMenuItem ==
+Push all outgoing branches
+
+== SyncMenuItemPullAllMenuItem ==
+Pull all incoming branches
+
+== SyncMenuItemRefreshReplicationTarget ==
+Refresh
+
+== SyncMenuItemPushBranch ==
+Push branch
+
+== SyncMenuItemPullBranch ==
+Pull branch
+
+== SyncMenuItemExcludeBranch ==
+Exclude branches
+
+== SyncMenuItemIncludeBranch ==
+Include branches
+
+== CantShowBinaryContent ==
+This file is detected as binary. Can't show file content, the file metadata is displayed instead. You can right click it and use "Open" to see its content. Check the online doc for more info.
+
+== CantShowBinaryDiff ==
+This file is detected as binary. No diffs are calculated, the file metadata is displayed instead. You can right click it and use "Diff" to launch an external diff viewer (must be configured). Check the online doc for more info.
+
+== Content ==
+Content of {0}
+
+== UpdateMergeExplanation ==
+New changesets have been detected in the repository, you can update to/merge from the latest changeset
+
+== ViewNewChangesButton ==
+View new changes
+
+== RetrievingBranchHeads ==
+Retrieving branch heads...
+
+== RetrievingNewChanges ==
+Retrieving new changes...
+
+== RetrievingObjectInfo ==
+Retrieving object info...
+
+== WorkspaceRevisionKey ==
+Revisión del workspace
+
+== MergeToDiffWithDst ==
+Revisión en la rama destino
+
+== EncryptionConfiguration ==
+Server encryption
+
+== RetypePassword ==
+Retype Password:
+
+== EncryptionConfigurationExplanation ==
+The server '{0}' requires data encryption.
+            Your client is not yet configured to handle encrypted data from '{0}'
+
+== EncryptionConfigurationEnterPassword ==
+Enter a password to generate the encryption key:
+
+== EncryptionConfigurationRemarks ==
+Remarks:
+            * Be very careful with the encryption password: it's the only way to decrypt your data on server '{0}'.
+            * If you're decrypting data and you enter a wrong password, data will fail to decrypt and you will have to edit cryptedservers.conf on your client to fix it.
+            * Be careful to use the same password (encryption key) company-wide to work with '{0}'. Otherwise, data will be encrypted differently in each client.
+
+== InvalidEmptyPassword ==
+Password cannot be empty
+
+== PasswordDoesntMatch ==
+Passwords don't match
+
+== ApplyActionForNextConflictsCheckButtonSingular ==
+Apply this action for the next 1 conflict.
+
+== ApplyActionForNextConflictsCheckButtonPlural ==
+Apply this action for the next {0} conflicts.
+
+== FsProtectionChanged ==
+Filesystem permissions changed from {0} to {1}.
+
+== CreateXlinkTitle ==
+Create Xlink
+
+== CreateXlinkExplanation ==
+An Xlink is a directory that links to a changeset on a different repository. It's the way to load several repositories on a workspace.
+
+== XlinkTargetServerEntry ==
+Target server, choose or type one
+
+== XlinkTargetServerExplanation ==
+server:port format, i.e: myserver:8087
+
+== XlinkTargetRepositoryEntry ==
+Target repository
+
+== XlinkTargetChangesetEntry ==
+Target changeset
+
+== XlinkNameEntry ==
+Xlink name (name of the directory entry)
+
+== XlinkHint ==
+Remember that the xlinked contents will not be downloaded until you check in the xlink and update your workspace
+
+== SelectARepository ==
+You need to select a repository before selecting a changeset inside it
+
+== MainMainRuleCreated ==
+You're creating a XLink to the main branch at the target repository.
+            Most likely you're looking to link main branches between the two repositories, so an expansion rule will be created for that matter.
+            If this layout is not what you expected, please edit the expansion rules manually.
+
+== XlinkOptions ==
+Xlink options
+
+== WritableXlinkCheckButton ==
+Writable (otherwise this part of the code tree will be readonly)
+
+== RelativeServerCheckButton ==
+Use relative server - the Xlink tries to get its repository from the local server (recommended if repositories are replicated)
+
+== BranchExpansionRules ==
+Branch expansion rules
+
+== BranchExpansionRulesExplanation ==
+These rules define how source and destination branches are linked. For writable Xlinks you can define a link between main@src and main/fix@dst.
+
+== SelectARepositoryForRule ==
+You need to select a repository before creating a rule
+
+== AddExpansionRuleTitle ==
+Add expansion rule
+
+== AddExpansionRuleExplanation ==
+Define how the branches are expanded between xlinked repositories
+
+== SourceBranch ==
+Source branch
+
+== DestinationBranch ==
+Destination branch
+
+== IsDefinedByUser ==
+Is defined by user
+
+== Yes ==
+Yes
+
+== No ==
+No
+
+== AlreadyDefinedRuleForBranch ==
+You have already defined a rule for this source branch
+
+== XlinkNoChangesetSelected ==
+No changeset has been selected as the target of the Xlink
+
+== EmptyXlinkName ==
+The Xlink directory name is empty
+
+== NoRulesDefined ==
+You have not defined branch expansion rules for this xlink, are you sure you want to continue?
+
+== NoRulesDefinedCaption ==
+No rules defined
+
+== EditXlinkTitle ==
+Edit Xlink
+
+== EditButton ==
+Edit
+
+== EmptySourceBranch ==
+The source branch field cannot be empty.
+
+== EmptyDestinationBranch ==
+The destination branch field cannot be empty.
+
+== LoadingXlinkData ==
+Loading xlink data...
+
+== CreatingDefaultRule ==
+Creating default rule...
+
+== NoContentToCompare ==
+There is no content to compare.
+
+== CreateBranchManualMode ==
+Manual
+
+== CreateBranchTaskMode ==
+From task
+
+== LoadingIssueTrackerExtension ==
+Loading issue tracker extension...
+
+== MarkingTaskAsOpen ==
+Marking '{0}' task as open in '{1}'
+
+== PendingTasks ==
+Pending tasks
+
+== RetrievingTasks ==
+Retrieving pending tasks...
+
+== RetrievingUserTasks ==
+Retrieving pending tasks for user '{0}'...
+
+== DisplayPendingTasksFromAllUsers ==
+Display pending tasks from all users
+
+== MarkAsOpenInIssueTracker ==
+Mark as open in issue tracker
+
+== LinkedTasksViewTitle ==
+Linked tasks
+
+== PlasticTaskIdProperty ==
+ID:
+
+== PlasticTaskOwnerProperty ==
+Owner:
+
+== PlasticTaskStatusProperty ==
+Status:
+
+== PlasticTaskTitleProperty ==
+Title:
+
+== PlasticTaskDescriptionProperty ==
+Description:
+
+== DeleteTaskTooltip ==
+Delete this issue
+
+== LoadingLinkedTasks ==
+Loading tasks to be linked in the issue tracker...
+
+== AddTaskTooltip ==
+Add new issue
+
+== SelectTasksToBeLinkedDialogTitle ==
+Select issues from {0}
+
+== SelectTasksToBeLinkedExplanation ==
+Choose issues to be linked to the new changeset
+
+== TaskIdEntryTitle ==
+Issue IDs:
+
+== ManualTaskIdEntryExplanation ==
+You can manually enter a comma-separated issue ID list if you can't find yours above
+
+== UnknownTaskIdsInManualEntry ==
+Invalid issue IDs were found in the manual entry field.
+
+== OpenTaskInBrowserTooltip ==
+Open task info page in web browser
+
+== DoNotCheckinChangesJustMove ==
+Do not check in the changes, just move them to the specified branch.
+
+== CreateANewBrachRadioButton ==
+Create a new branch
+
+== CreateANewBranchToCheckinExplanationLabel ==
+Create a child branch of {0} and check in your workspace changes to that branch.
+
+== CreateANewBranchToMoveChangesetExplanationLabel ==
+Create a child branch of {0} to move changeset cs:{1}.
+
+== CreateANewBranchLabel ==
+Name for child branch
+
+== SelectExistingBranchRadioButton ==
+Select an existing branch (must be empty)
+
+== SelectExistingBranchExplanationLabel1 ==
+Select a previously created branch and check in your workspaces changes to that branch.
+
+== SelectExistingBranchExplanationLabel2 ==
+The branch base of the selected branch will be changed to be your current base
+
+== SelectExistingBranchToMoveExplanationLabel ==
+Select a previously created branch and move the selected changesets inside it.
+
+== SelectExistingBranchLabel ==
+Selected branch
+
+== MoveChangesNoBranchName ==
+Please specify a child branch name
+
+== MoveChangesSelectABranch ==
+Please select a branch
+
+== MoveChangesBranchMustBeEmpty ==
+The selected branch must be empty
+
+== CantUpdateBraseChangesetBranchWithRevisions ==
+Can't update base changeset for branch because it must be empty
+
+== RetrievingWorskpaceInfo ==
+Retrieving workspace info
+
+== MovingChangesToTargetBranch ==
+Moving changes to target branch...
+
+== UpdatingTargetBranchBase ==
+Updating target branch base...
+
+== OrganizationUserBelongsTo ==
+Your organization is {0}
+
+== OrganizationNotFoundLine1 ==
+It seems you don't have an organization for {0}
+
+== NameWorkingMode ==
+User name from the computer
+
+== NameIdWorkingMode ==
+Name + user ID
+
+== ADWorkingMode ==
+Active Directory
+
+== LDAPWorkingMode ==
+LDAP
+
+== UPWorkingMode ==
+Built-in user and password
+
+== TubeWorkingMode ==
+Tube Working Mode
+
+== SSOWorkingMode ==
+Single Sign On
+
+== OIDCWorkingMode ==
+OpenID Connect
+
+== RepositoryWillBeKnownAs ==
+Will be known as {0}
+
+== CantCreateLocalRepository ==
+Can't create local repository
+
+== CantCreateCloudRepository ==
+Can't create cloud repository
+
+== CantCreateWorkspace ==
+Can't create workspace
+
+== CantCreateSyncView ==
+Can't create sync view
+
+== CantRetrieveCloudOrganization ==
+Can't retrieve your cloud organization
+
+== SyncViewNameAlreadyExists ==
+Sync view {0} already exists
+
+== StartANewProject ==
+Start a new project
+
+== Distributed ==
+Distributed
+
+== JoinExistingProject ==
+Join an existing project
+
+== Centralized ==
+Centralized
+
+== WelcomeToCloudEdition ==
+Welcome to Unity Version Control Cloud Edition
+
+== WelcomeToUnityVCS ==
+Welcome to Unity VCS
+
+== WelcomeToGluonTeamEdition ==
+Welcome to Gluon
+
+== WelcomeToGluonCloudEdition ==
+Welcome to Gluon - Cloud Edition
+
+== TeamEditionFirstSteps1stCaption ==
+You will be working on your local workspaces connected to your Unity VCS server
+
+== TeamEditionFirstSteps2ndCaption ==
+You can create different repositories for different projects, and normally one workspace for each repository
+
+== CloudEditionFirstSteps1stCaption ==
+You can work centralized or distributed
+
+== CloudEditionFirstSteps2ndCaption ==
+Centralized means no local repo
+
+== CloudEditionFirstStepsChooseOption ==
+Please choose one path to start working with Unity VCS Cloud
+
+== TeamEditionFirstStepsChooseOption ==
+Please choose any of the following options to start working with Unity Version Control
+
+== TeamEditionFirstStepsJoinExistingProjectExplanation ==
+Just select an existing repository on your Unity VCS server and create a new workspace to download it.
+
+== CloudRepository ==
+Cloud repository
+
+== LocalRepositoryName ==
+Local repository name
+
+== NewRepositoryName ==
+New repository name
+
+== WorkspaceName ==
+Workspace name
+
+== PathOnDisk ==
+Path on disk. The place where your files will be on your disk. If you already have a project on disk, you can select the existing path
+
+== MakeWorkspaceDynamic ==
+Make this workspace dynamic
+
+== CreateSyncViewToPushPullCloud ==
+Create a Sync View to push/pull changes to Cloud
+
+== BrowseButton ==
+Browse...
+
+== CheckingLocalRepositoryAvailable ==
+Checking cloud repository name is available...
+
+== CheckingWorkspaceAvailable ==
+Checking workspace is available...
+
+== CheckingSyncViewNameAvailable ==
+Checking sync view name is available...
+
+== CreatingLocalRepository ==
+Creating repository {0}@local...
+
+== CreatingSyncView ==
+Creating sync view...
+
+== CloudEditionFirstStepsDistributedExplanation ==
+This is the Git way of working, with a local repo and push/pull to a repo in the Cloud.
+
+== CloudRepositoryDoNotExist ==
+The repository {0} does not exist on your cloud organization
+
+== CheckingCloudRepositoryExists ==
+Checking cloud repository exists...
+
+== CloudEditionFirstStepsCreateWorkspaceExplanation ==
+Just your workspace connected to the cloud repo. If you are not sure, then this is your option.
+
+== NoRepositoriesFound ==
+No repositories found. Check that your Unity VCS server is running and that there are repositories on it
+
+== SyncFromLocalToCloudViewName ==
+Sync {0} from local to cloud
+
+== SyncToRepository ==
+Sync to {0}
+
+== SyncFromRepository ==
+Sync from {0}
+
+== LocalServerDetected ==
+Local server {0} detected
+
+== LocalServerDetectedDvcsMode ==
+Local server detected
+
+== UseSsl ==
+Use SSL
+
+== TeamEditionFirstStepsJoinTeamExplanation ==
+To start a new project you can create a new repository on your Unity VCS server.
+
+== ConfirmDeleteChangesetCaption ==
+Confirm changeset delete
+
+== DeleteChangesetWarning ==
+Are you sure you want to delete the changeset:
+{0}?
+
+== CantDeleteChangesetCaption ==
+Unable to delete the changeset
+
+== CantDeleteChangeset ==
+The current changeset cannot be deleted because it is referenced by another item.
+
+Check that:
+ * The changeset is not the source of a merge link
+ * The changeset has no children
+ * The changeset is not labelled
+ * No shelvesets were created from the changeset
+
+Note, you can find shelvesets created from a given changeset by running the following query from the cli or Shelves view:
+
+    find shelve where parent=changesetspec
+
+== CantDeleteChangesetInPendingMerge ==
+El changeset actual no pudo ser borrado porque existe un merge pendiente de check-in que lo referencia.
+
+Es necesario deshacer los cambios pendientes antes de borrar este changeset.
+
+== DeleteWorkingChangesetCaption ==
+Delete working changeset
+
+== DeleteWorkingChangeset ==
+Deleting the changeset you are changing your workspace configuration. Continue?
+
+== CannotDeleteCsetWithPendingChanges ==
+Cannot delete the selected changeset since there are pending changes. Please review the pending changes and retry the operation.
+
+== CannotMoveCsetWithPendingChanges ==
+Cannot move the selected changeset since there are pending changes. Please review the pending changes and retry the operation.
+
+== ReportChanged ==
+Changed items
+
+== ReportAdded ==
+Added items
+
+== ReportDeleted ==
+Deleted items
+
+== ReportMoved ==
+Moved items
+
+== ReportLoaded ==
+Loaded items
+
+== ReportUnloaded ==
+Unloaded items
+
+== ShowUpdateReportButton ==
+Show update report
+
+== HideUpdateReportButton ==
+Hide update report
+
+== ReportUpdatedHeader ==
+Updated
+
+== ConfigurationAppliedHeader ==
+Configuration applied
+
+== ZoomIn ==
+Zoom in
+
+== ZoomOut ==
+Zoom out
+
+== RemoveFilter ==
+Remove filter
+
+== SelectedBranchesAndRelated ==
+{0} and related branches
+
+== SelectedBranchesAndPendingMerges ==
+{0} and pending merges
+
+== DownloadingRevisions ==
+Downloading revisions...
+
+== GoToSourceChangesetMenuItem ==
+Go to source changeset
+
+== GoToDestinationChangesetMenuItem ==
+Go to destination changeset
+
+== Name ==
+Name:
+
+== NewName ==
+New name:
+
+== NoCsetCreatedWarning ==
+A new changeset was not created because file data did not change
+
+== AllFileConflictsWereMergedWarning ==
+All files merged and are ready for check-in
+
+== SomeFileConflictsWereMergedWarning ==
+Only some files were merged and are ready for check-in
+
+== NoFileConflictsWereMergedWarning ==
+No files were merged
+
+== SaveDiffChangesTitle ==
+Do you want to save the changes you made to the current file?
+
+== SaveDiffChangesMessage ==
+Your changes will be lost if you don't save them
+
+== DontSaveButton ==
+Don't save
+
+== SelectFileToSeeDifferences ==
+Select a file to see its differences
+
+== SaveThisRevisionAs ==
+Guardar esta revisión como...
+
+== SaveRevisionAs ==
+Save revision as...
+
+== SavingRevision ==
+Saving revision to '{0}'...
+
+== DownloadFilesProgress ==
+Downloaded {0} of {1} ({2} of {3} files to download)
+
+== DownloadInfoSingular ==
+Will download 1 file {0}
+
+== DownloadInfoPlural ==
+Will download {0} files {1}
+
+== NotifyLinuxWatchLimitWarning ==
+The maximum number of watched items was reached. You can increase its value executing 'sudo sysctl fs.inotify.max_user_watches=524288'
+
+== CheckinProgressMultiThreadUploading ==
+Multi-thread check-in
+
+== CheckinProgressMultiThreadNumOfBlocks ==
+uploading {0} blocks in parallel
+
+== SkipDiffMergeTracking ==
+Omitir seguimiento de merge
+
+== SkipDiffMergeTrackingTooltip ==
+No agrupar lo cambios por el origen del merge. Cada fichero se muestra una sola vez con todos sus cambios
+
+== PendingToIntegrate ==
+Mostrar pendiente de integrar
+
+== PendingToIntegrateTooltip ==
+Muestra los cambios de la rama que están pendientes de integrar en su rama padre. Tiene en cuenta los rebases y los merges desde/a la rama padre ya realizados.
+
+== FetchNoDataCheckButton ==
+Do not replicate data (you need to be the admin of your server)
+
+== FetchNoDataNoPermissions ==
+You need to be the administrator of the destination server in order to use the 'do not replicate data' option.
+
+== CheckingFetchNoDataNoPermissions ==
+Checking permissions...
+
+== CheckinProgressUploadingFiles ==
+Uploading {0} files
+
+== CheckinProgressUploadingFileData ==
+Uploading file {0} ({1}) to the repository
+
+== CheckinProgressOf ==
+of
+
+== ToggleDetails ==
+Toggle details
+
+== ShowDetails ==
+Show details
+
+== ToggleDetailsButtonTooltip ==
+Hide/show details area
+
+== NoDiffToolDefined ==
+There aren't any diff tools defined in the client configuration file
+
+== FileHistory ==
+File History
+
+== OpenButton ==
+Abrir
+
+== ApplyAttributesButton ==
+Apply attributes...
+
+== ApplyAttribute ==
+Apply an attribute to the selected object
+
+== ApplyAttributeExplanation ==
+Select the attribute type to apply in the "Attribute" dropdown list; the "Value" field lets you choose an existing value from the drop down list or type a new value.
+
+== AttributeValueLabel ==
+Value:
+
+== LoadingAttributes ==
+Loading attributes...
+
+== LoadingAttributeValues ==
+Loading attribute values...
+
+== SelectAttribute ==
+Select an attribute
+
+== SelectAttributeValue ==
+Enter an attribute value
+
+== ApplyingAttribute ==
+Applying attribute...
+
+== SettingAttributeValue ==
+Setting new value...
+
+== DeletingAttribute ==
+Deleting attribute...
+
+== AnnotateDays ==
+days
+
+== AnnotateLocalRevision ==
+local
+
+== AnnotateAuthorField ==
+Author:
+
+== AnnotateDateField ==
+Date:
+
+== AnnotateBranchField ==
+Branch:
+
+== AnnotateChangesetField ==
+Changeset:
+
+== AnnotateChangedDuringMerge ==
+Changed during merge:
+
+== CreateAttribute ==
+Create a new attribute
+
+== CreateAttributeExplanation ==
+Type a name for the new attribute. It will be created in '{0}'
+
+== AttributeNameLabel ==
+Attribute name:
+
+== AttributeCommentLabel ==
+Comments:
+
+== AttributeHelpLabel ==
+Añade una linea usando el formato 'default: value1, "value two", ..., valueN' para definir valores por defecto para este atributo.
+
+== CreatingAttribute ==
+Creating attribute...
+
+== AttributeNameAlreadyExists ==
+The attribute {0} already exists ({1})
+
+== MergeToPendingFileConflicts ==
+There are pending file conflicts that must be resolved before processing the merge-to.
+
+== CommentsDialogTitle ==
+Comments
+
+== CommentsDialogExplanation ==
+Enter a comment for merge-to check-in operation:
+
+== BranchMergeTo ==
+Server side merge – from branch {0} to branch {1}
+
+== LabelMergeTo ==
+Server side merge – from label {0} to branch {1}
+
+== ChangesetMergeTo ==
+Server side merge – from changeset cs:{0} to branch {1}
+
+== CheckinMergeTo ==
+Check in merge!
+
+== MergeBranch ==
+Merge from branch {0}
+
+== ChangesetIntervalCherryPick ==
+Cherry pick from changeset interval (cs:{0} - cs:{1}]
+
+== BranchCherryPick ==
+Cherry pick from branch {0}
+
+== ChangesetCherryPick ==
+Cherry pick from changeset cs:{0}
+
+== ApplyShelveset ==
+Aplicando shelveset sh:{0}
+
+== LabelMerge ==
+Merge from label {0}
+
+== CherrypickSubtractiveMerge ==
+Subtractive merge from changeset cs:{0}
+
+== IntervalCherrypickSubtractiveMerge ==
+Subtractive merge from changeset interval (from cs:{0} to cs:{1})
+
+== ChangesetMerge ==
+Merge from changeset cs:{0}
+
+== SwitchBranchButton ==
+Switch branch...
+
+== PleaseTypeAPath ==
+Por favor, introduzca una ruta
+
+== Copy ==
+Copy
+
+== AnnotateOptions ==
+Annotate options
+
+== AnnotateDiffBranchMenuItem ==
+Diff branch {0}
+
+== AnnotateDiffChangesetMenuItem ==
+Diff changeset {0}
+
+== AnnotateParentRevisionMenuItem ==
+Annotate parent revision
+
+== ShowSemanticHistoryMenuItem ==
+Mostrar historia semántica
+
+== AnnotateParentChangesetMenuItem ==
+Annotate before these changes (parent of cs:{0})
+
+== AnnotateShowDate ==
+Show date modified
+
+== AnnotateShowChangeset ==
+Show changeset
+
+== AnnotateShowBranch ==
+Show branch
+
+== AnnotateShowAuthor ==
+Show author
+
+== AnnotateShowLineAge ==
+Show line age
+
+== AnnotateShowRevInMerge ==
+Show whether line was changed in a merge
+
+== AnnotateDisplayShortBranchNames ==
+Display short branch names
+
+== AnnotateDisplayFullBranchNames ==
+Display full branch names
+
+== Shelve ==
+Shelve
+
+== AnnotateDialogTitle ==
+Anotar
+
+== AnnotateCantFindRevisionAtChangeset ==
+Cannot find revision in changeset cs:{0}
+
+== AnnotateNoPreviousRevision ==
+There is no previous version for this item.
+
+== AnnotateCantRunOnBinaryFiles ==
+Los ficheros binarios no se pueden anotar. Si el fichero es en realidad texto plano, se puede cambiar su tipo usando el menú contextual del Explorador de ficheros, o forzándolo a través del fichero de configuración filetypes.conf.
+
+== ChangesetsDynamicViewTitle ==
+Changesets {0}
+
+== UserProfileServerLabel ==
+Server:
+
+== UserProfileServerProfileNotFound ==
+No connection profile found for server '{0}', please configure one.
+
+== UserProfileWrongAuthMode ==
+The user profile can only be configured using Ldap or User/Password authentication.
+
+== UserProfileCloudServer ==
+The user profile can't be configured for cloud servers.
+
+== LoadingUserProfile ==
+Loading user profile...
+
+== NoProfileToShow ==
+There is not defined profile to show
+
+== SavingUserProfile ==
+Saving user profile...
+
+== EnterValidEmailAddress ==
+Please enter a valid email address.
+
+== EnterValidIntValue ==
+Please enter a valid integer value.
+
+== UserProfileLoadError ==
+Cannot retrieve the profile from {0}. Details: {1}
+
+== UserProfileSaveError ==
+Cannot save the profile for {0}. Details: {1}
+
+== PendingChangesOptionsDialogTitle ==
+Cambios Pendientes - Opciones
+
+== PendingChangesWhatToFindTab ==
+Qué encontrar
+
+== PendingChangesWhatToShowTab ==
+Qué mostrar
+
+== PendingChangesMoveDetectionTab ==
+Detección de movidos
+
+== PendingChangesWhatToFindDialogTitle ==
+Configurar cómo encontrar cambios en el workspace
+
+== PendingChangesWhatToFindDialogExplanation ==
+Se puede ajustar en detalle cómo buscar cambios en disco y qué omitir
+
+== PendingChangesWhatToShowDialogTitle ==
+Configuración de los tipos de cambios a mostrar
+
+== PendingChangesWhatToShowDialogExplanation ==
+Desde el refresco automático hasta decidir si ver ficheros privados, ignorados y más
+
+== PendingChangesMoveDetectionDialogTitle ==
+Ajustar cómo encontrar ficheros y directorios movidos en el workspace
+
+== PendingChangesMoveDetectionDialogExplanation ==
+Puede detectar ficheros y directorios que se han movido o renombrado en disco
+
+== PendingChangesFilesystemWatcherEnabled ==
+El File System Watcher está habilitado
+
+== PendingChangesFilesystemWatcherDisabled ==
+El File System Watcher está deshabilitado
+
+== PendingChangesFilesystemWatcherEnabledExplanationUnityVCS ==
+Unity Version Control monitoriza el workspace para acelerar la detección de cambiados. Esto elimina la necesidad de recorrer la estructura de directorios, aunque calcular los movidos todavía podría ser lento.
+
+== PendingChangesFilesystemWatcherDisabledExplanationUnityVCS ==
+Esto no es normal y puede afectar al rendimiento. Unity Version Control monitoriza los cambios del workspace usando la API de Windows. De esta forma, no es necesario recorrer la estructura de directorios. Contacte con el equipo de soporte para obtener ayuda, a menos que esté desactivado en client.conf intencionadamente. [[HELP_URL|{0}]]
+
+== PendingChangesShowCheckouts ==
+Mostrar checkouts
+
+== PendingChangesShowCheckoutsExplanation ==
+Muestra los ficheros en checkout en Unity VCS, también los ficheros movidos usando las GUIs o línea de comandos. Finalmente, los ficheros involucrados en un proceso de merge. Los checkouts se muestran superrápido porque están en una lista y no es necesario recorrer la estructura de directorios para encontrarlos
+
+Consejo: Para workspaces grandes (los mayores de 800k ficheros), puede tener sentido usar sólo checkouts y no cambiados. Los checkouts también son necesarios si se usa bloqueo de ficheros
+
+== PendingChangesFindChanged ==
+Buscar ficheros cambiados en el workspace
+
+== PendingChangesFindChangedExplanation ==
+Recorre la estructura de directorios del workspace para encontrar los ficheros cambiados (fecha de modificación cambiada)
+
+== PendingChangesCheckFileContent ==
+Verifica el contenido del fichero y no sólo la fecha para marcarlo como cambiado
+
+== PendingChangesCheckFileContentExplanation ==
+Cuando la fecha de un fichero es modificada, también verifica si el hash del fichero ha cambiado. Útil con aplicaciones que guardan ficheros sin realizar ningún cambio. Advertencia: puede hacer que la vista de "cambios pendientes" sea más lenta porque requiere leer y calcular el hash de los ficheros.
+
+== PendingChangesAutoRefresh ==
+Autorefresco
+
+== PendingChangesAutoRefreshExplanation ==
+Refresca automáticamente la lista de Cambios Pendientes cuando es necesario y evita el refresco manual.
+
+== PendingChangesGroupInChangeLists ==
+Agrupa cambios en "listas de cambios"
+
+== PendingChangesGroupInChangeListsExplanation ==
+Unity VCS puede agrupar los cambios en el workspace en listas creadas por el usuario. Esto es útil si echa de menos la funcionalidad de otros controles de versiones anteriores (P4).
+
+== PendingChangesShowPrivateFiles ==
+Mostrar ficheros privados
+
+== PendingChangesShowPrivateFilesExplanation ==
+Lista ficheros que no están bajo el control de versiones. Pueden ser ficheros añadidos recientemente, pero a veces son ficheros generados por herramientas que es mejor ignorar. (Añadirlos a "ignorados" puede ser una mejor opción).
+
+== PendingChangesAlwaysSelectPrivateFiles ==
+Seleccionar siempre ficheros privados
+
+== PendingChangesAlwaysSelectPrivateFilesExplanation ==
+De esta forma no se olvidará nuevos ficheros al hacer check-in, pero es necesario tener un buen ignore.conf para evitar añadir accidentalmente ficheros temporales al control de versiones.
+
+== PendingChangesShowIgnoredFiles ==
+Mostrar ficheros ignorados
+
+== PendingChangesShowIgnoredFilesExplanation ==
+Muestra los ficheros ignorados anteriormente al añadirlos a ignore.conf.
+
+== PendingChangesShowHiddenFiles ==
+Mostrar ficheros ocultos
+
+== PendingChangesShowHiddenFilesExplanation ==
+Muestra los ficheros que previamente se ocultaron al añadirse a hidden_changes.conf.
+
+== PendingChangesShowDeletedFiles ==
+Mostrar ficheros y directorios eliminados
+
+== PendingChangesShowDeletedFilesExplanation ==
+Muestra los ficheros borrados manualmente en el workspace fuera del control de Unity VCS. (Sin usar una GUI o un comando, sino simplemente borrándolos del disco).
+
+== PendingChangesMoveDetectionExplanation ==
+Se puede mover un fichero usando Unity VCS con "cm mv" o desde las GUIs o el plugin de un IDE. Este método no requiere "detección". Pero, si se mueven los ficheros directamente en disco, Unity VCS puede detectar la operación. También se aplica a directorios.
+
+== PendingChangesFindMovedFiles ==
+Buscar ficheros y directorios movidos y renombrados
+
+== PendingChangesFindMovedFilesExplanation ==
+Recorre el workspace buscando posibles movidos. Si se renombra foo.c a bar.c, Unity VCS encontrará bar.c como añadido, foo.c como eliminado, e intentará hacerlos coincidir. Puede ser lento si hay muchos ficheros privados.
+
+== PendingChangesMoveDetectionFineTune ==
+Ajustar cómo funciona la detección de movidos:
+
+== PendingChangesMatchBinarySameExtension ==
+Hacer coincidir ficheros binarios sólo cuando tengan la misma extensión
+
+== PendingChangesMatchBinarySameExtensionExplanation ==
+No intenta hacer coincidir un .png con un .jpg. Pero no encontrará un .doc renombrado a .docx.
+
+== PendingChangesMatchTextSameExtension ==
+Hacer coincidir ficheros de texto sólo cuando tengan la misma extensión
+
+== PendingChangesMatchTextSameExtensionExplanation ==
+No intenta hacer coincidir un .cs con un .c. Puede ser útil en algunas circunstancias.
+
+== PendingChangesSimilarityPercentage ==
+Porcentaje de similitud
+
+== PendingChangesSimilarityPercentageExplanation ==
+Define "cómo de parecidos" deben ser dos ficheros para que sean detectados como movidos o renombrados. Si se mueve foo.c a bar.c y se modifica más adelante, el % define cómo de parecidos deben ser para que Unity VCS los considere el mismo fichero.
+También se aplica a los directorios: cómo de parecida debe ser la estructura del directorio: cuántos hijos movidos en relación con el total de entradas del directorio.
+Para los binarios, el % significa la diferencia de tamaño permitida.
+
+== PendingChangesEnableNTFSJournal ==
+Habilita una monitorización precisa utilizando NTFS journal
+
+== PendingChangesEnableNTFSJournalExplanation ==
+Usa el NTFS journal para detectar ficheros y directorios movidos mientras la GUI está abierta. Es superpreciso y no hay "adivinanzas" ni heurísticas. NTFS sabe cuándo se mueve un fichero o un directorio.
+
+Pero, hay un inconveniente: no es seguro usarlo si refactoriza un proyecto con herramientas como Visual Studio. Esto se debe a que VS no mueve simplemente foo.c a src/bar.c, sino que crea un nuevo src/bar.c, copia el contenido, y luego elimina foo.c. No hay forma de rastrearlo desde el sistema de ficheros.
+
+Para un gran refactor usando el Explorador de Windows o la línea de comandos, funcionará sin problemas.
+
+== PendingChangesChangeTrackerServiceNotRunning ==
+El servicio Unity VCS Change Tracker no se está ejecutando
+
+== PendingChangesChangeTrackerServiceNotRunningExplanation ==
+No se puede comunicar con el servicio Unity VCS Change Tracker. Asegúrese de que esté instalado y funcionando.
+
+== PendingChangesINotifyEnabled ==
+inotify change watcher está habilitado
+
+== PendingChangesINotifyDisabled ==
+inotify change watcher está deshabilitado
+
+== PendingChangesINotifyEnabledExplanation ==
+Unity VCS monitoriza el workspace en busca de cambios para acelerar la operación. Esto elimina la necesidad de recorrer la estructura de directorios, aunque la búsqueda de movidos puede consumir tiempo. Unity VCS aprovecha inotify, pero necesita algunos ajustes para funcionar correctamente. Comprobar: {0}
+
+== PendingChangesINotifyDisabledExplanation ==
+El rendimiento de la vista de cambios pendientes mejora mucho cuando puede aprovechar el sistema de detección basado en inotify. Compruebe las siguientes instrucciones para habilitarlo: {0} y reinicie la GUI
+
+== ProjectSettingsGeneral ==
+General
+
+== ProjectSettingsFileChange ==
+File Change Settings
+
+== ProjectSettingsFileVisibility ==
+File Visibility Settings
+
+== ProjectSettingsMoveAndRename ==
+File Move and Rename Detection
+
+== MergeToMergeNeededExplanation ==
+Durante la operación de merge-to, otro usuario ha creado nuevos changesets en el destino de la operación de merge-to, creando múltiples 'heads'. Considere unificarlas realizando una nueva operación de merge (o merge-to). Ramas afectadas:
+
+== MergeToMergeNeededBranch ==
+{0}@{1}@{2} (xlink '{3}')
+
+== MergeToNeededQuestion ==
+Se han creado nuevos changeset en la rama {0}@{1}@{2} (mount '{3}') durante la operación merge-to. Es necesario realizar un merge de nuevo para completar la operación. ¿Desea hacer merge de nuevo ahora?
+
+== DontShowItAgain ==
+Entendido, no lo muestres de nuevo
+
+== LearnMore ==
+Saber más
+
+== HelpActionNotFound ==
+Lo siento, olvidamos añadir la acción :(
+
+== RemovedLocallyStatus ==
+Borrado localmente
+
+== RemovedStatus ==
+Borrado
+
+== MovedLocallyStatus ==
+Movido localmente
+
+== MovedStatus ==
+Movido
+
+== AddedStatus ==
+Añadido
+
+== IgnoredStatus ==
+Ignorado
+
+== PrivateStatus ==
+Privado
+
+== ReplacedStatus ==
+Reemplazado
+
+== CopiedStatus ==
+Copiado (nuevo)
+
+== CheckedOutStatus ==
+Checked-out
+
+== ChangedStatus ==
+Cambiado
+
+== HiddenChangedStatus ==
+Cambio oculto
+
+== UnsupportedImageFormat ==
+Formato de imagen no soportado
+
+== ShowPropertiesButton ==
+Ver propiedades
+
+== PreviewConfigAlreadyExist ==
+Ya existe otra configuración con este nombre, por favor, elija otro nombre
+
+== UserDefinedPreview ==
+Herramienta definida por el usuario
+
+== ConfirmDeleteDiffTool ==
+¿Quieres eliminar la configuración de esta herramienta de diferencias?
+
+== ConfirmDeleteMergeTool ==
+¿Quieres eliminar la configuración de esta herramienta de combinación?
+
+== CloudEditionConfigInsertValidEmail ==
+Introduzca su usuario en plasticscm.com
+
+== CloudEditionConfigInsertValidPassword ==
+Introduzca un password
+
+== CloudEditionConfigurationWelcome ==
+Bienvenido a Unity VCS Cloud Edition!
+
+== CloudEditionConfigurationExplanation ==
+Por favor, introduzca el usuario y password que usa para conectar a Unity VCS Cloud (el mismo de plasticscm.com). De esta forma no se le pedirán credenciales de nuevo cuando replique a Cloud.
+
+== CloudEditionConfigurationExtraExplanation ==
+Este es el usuario con el que se le identifica cada vez que hace check in, así que elijalo adecuadamente.
+
+== CloudEditionConfigCheckingCredentials ==
+Comprobando credenciales...
+
+== CloudEditionConfigEmail ==
+Email o nombre de usuario
+
+== CloudEditionConfigPassword ==
+Contraseña
+
+== CloudEditionConfigCheckCredentials ==
+Probar credenciales
+
+== SelectFieldsMergeDiffOptions ==
+Por favor, seleccione todos los campos en las opciones de Diff/Merge
+
+== SelectFieldsMergeDiffOptionsCaption ==
+Campos no seleccionados
+
+== EOLMethod ==
+Ignorar fines de línea
+
+== WhitespacesMethod ==
+Ignorar espacios y tabuladores
+
+== EOLWhitespacesMethod ==
+Ignorar todo
+
+== NoneMethod ==
+Reconocer todo
+
+== DiffVariables ==
+Las siguientes variables están disponibles para utilizar como parámetros al invocar la herramienta externa de diferencias:
+
+@sourcefile: ruta en disco del fichero origen
+@destinationfile: ruta en disco del fichero destino
+
+@sourcesymbolic: nombre simbólico del fichero origen
+@destinationsymbolic: nombre simbólico del fichero destino
+
+@sourcehash: cadena MD5 calculada a partir del fichero origen
+@destinationhash: cadena MD5 calculada a partir del fichero destino
+
+@filetype: tipo MIME usado para el realzado de sintaxis
+@comparationmethod: método de comparación utilizado
+@fileencoding: codificación de fichero utilizada por defecto si no se detecta la del fichero
+
+Ejemplos:
+
+  Semantic Merge Tool:
+  https://semanticmerge.com/documentation/how-to-configure/semanticmerge-configuration-guide#ConfiguringSemanticMergeastheDiffTool13
+
+    <rauta-a-semanticmerge>\semanticmergetool.exe -s="@sourcefile"
+      -sn="@sourcesymbolic" -d="@destinationfile" -dn="@destinationsymbolic" -i="@comparationmethod"
+      -e="@fileencoding" -edt=default
+
+  Kdiff3
+  http://kdiff3.sourceforge.net/doc/documentation.html
+
+    <ruta-a-kdiff3>\kdiff3.exe" "@sourcefile" "@destinationfile" --L2 "@sourcesymbolic" --L3 "@destinationsymbolic"
+
+  Araxis Merge
+  https://www.araxis.com/merge/documentation-windows/command-line.en
+
+    <ruta-a-araxis>\compare.exe" /title1:"@sourcesymbolic" /title2:"@destinationsymbolic" "@sourcefile" "@destinationfile"
+
+== NoDiffType ==
+Especifique para que tipo de ficheros se abrira esta herramienta de diferencias.
+
+== NoDiffTool ==
+Especifique la línea de comandos de esta herramienta de diferencias.
+
+== DiffToolError ==
+Error en la herramienta de diferencias
+
+== DiffNoExt ==
+No se ha definiedo la extensión para la herramienta de diferencias.
+
+== NoTxtDiff ==
+No se ha definido una herramienta de diferencias para los ficheros de texto.
+
+== NoBinDiff ==
+No se ha definido una herramienta de diferencias para los ficheros binarios.
+
+== NoDiffForExt ==
+No se ha definido una herramienta de diferencias para "{0}".
+
+== DiffToolsError ==
+Error en las herramientas de differencias
+
+== NoDiscoveredServers ==
+No se encontró ningún servidor.
+
+== DownloadPreviewSoftware ==
+Necesita instalar [[{0}|{1}]] para generar vistas previas con esta herramienta
+
+== ExecutableOpenFileDialogFilterWin ==
+Ejecutables (*.exe; *.bat;)|*.exe; *.bat|Todos los archivos (*.*)|*.*
+
+== ExecutableOpenFileDialogFilterNoWin ==
+Todos los archivos (*.*)|*.*
+
+== ValidatePreviewTypeName ==
+Por favor, introduzca un nombre
+
+== ValidatePreviewAddExtension ==
+Por favor, añada al menos una extensión soportada
+
+== NullRefText ==
+Se produjo un error procesando su petición
+
+== PathTooLong ==
+La ruta es demasiado larga
+
+== ServerNullRefText ==
+Se ha producido un error no esperado en el servidor. Para más información consulta el log del servidor.
+
+== MsgInformative ==
+Información
+
+== MsgWarning ==
+Atención
+
+== MsgError ==
+Error
+
+== MergeVariables ==
+Las siguientes variables están disponibles para utilizar como parámetros al invocar la herramienta externa de merge:
+
+@sourcefile: ruta en disco del fichero origen
+@destinationfile: ruta en disco del fichero destino
+    @basefile: ruta en disco del fichero antecesor co mún
+
+@output: ruta en disco del fichero de resultado del merge
+
+@sourcesymbolic: nombre simbólico del contribuidor origen
+@destinationsymbolic: nombre simbólico del contribuidor destino
+@basesymbolic: nombre simbólico del contribuidor antecesor común
+
+@sourcehash: cadena MD5 calculada a partir del fichero origen
+@destinationhash: cadena MD5 calculada a partir del fichero destino
+@basehash: cadena MD5 calculada a partir del fichero antecesor común
+
+@filetype: tipo MIME usado para el realzado de sintaxis
+@comparationmethod: método de comparación utilizado
+@fileencoding: codificación de fichero utilizada por defecto si no se detecta la del fichero
+@resultencoding: codificación para el fichero resultado (NONE para que se calcule en funcion de los contribuidores)
+@mergetype: tipo de merge utilizado
+@progress: cadena de progreso que indica la operación actual, por ejemplo: Mezclando file 3/10
+@extrainfofile: ruta a un fichero que contiene información extra acerca del merge actual
+
+Ejemplos:
+
+  Semantic Merge Tool:
+  https://semanticmerge.com/documentation/how-to-configure/semanticmerge-configuration-guide#ConfiguringSemanticMergeastheMergeTool15
+
+    <ruta-a-semanticmerge>\semanticmergetool.exe -b="@basefile" -bn="@basesymbolic" -s="@sourcefile" -sn="@sourcesymbolic"
+      -d="@destinationfile"  -dn="@destinationsymbolic" -r="@output" -i="@comparationmethod"
+      -e="@fileencoding" -emt=default -edt=default
+
+  Kdiff3:
+  http://kdiff3.sourceforge.net/doc/documentation.html
+
+    <ruta-a-kdiff3>\kdiff3.exe" "@basefile" "@sourcefile" "@destinationfile"
+      -o @output --L1 "@basesymbolic"  --L2 "@sourcesymbolic" --L3 "@destinationsymbolic"
+
+  Araxis Merge:
+  https://www.araxis.com/merge/documentation-windows/command-line.en
+
+    <ruta-a-araxis>\compare.exe" /wait /a1 /3 /title1:"@basesymbolic"
+      /title2:"@sourcesymbolic" /title3:"@destinationsymbolic" "@basefile" "@sourcefile"
+      "@destinationfile" "@output"
+
+== NoMergeType ==
+Especifique para que tipo de ficheros se abrira esta herramienta de merge.
+
+== NoMergeTool ==
+Especifique la línea de comandos de esta herramienta de merge.
+
+== MergeToolError ==
+Error en la herramienta de merge
+
+== MergeNoExt ==
+No se ha definiedo la extensión para la herramienta de merge.
+
+== NoTxtMerge ==
+No se ha definido una herramienta de merge para los ficheros de texto.
+
+== NoBinMerge ==
+No se ha definido una herramienta de merge para los ficheros binarios.
+
+== NoMergeForExt ==
+No se ha definido una herramienta de merge para "{0}".
+
+== MergeToolsError ==
+Error en las herramientas de merge
+
+== ConfirmDeletePreviewProvider ==
+¿Desea borrar la herramienta de vista previa seleccionada?
+
+== CreateNewProfileTitle ==
+Añadir un nuevo perfil de conexión a un servidor
+
+== EditProfileTitle ==
+Editar un perfil existente de conexión a servidor
+
+== ProfileNameInputLabel ==
+Dé un nombre al perfil
+
+== ProfileConnectionTypeLabel ==
+Seleccione el tipo de conexión
+
+== ProfileConnOnDemand ==
+Bajo demanda
+
+== ProfileConnOnDemandTooltip ==
+El perfil sólo se utilizará al establecer una conexión con el servidor almacenado en él.
+
+== ProfileConnAuto ==
+Automática
+
+== ProfileConnAutoTooltip ==
+El servidor almacenado se mostrará en la lista de la vista de repositorios. Utilice esta opción para servidores permanentemente accesibles.
+
+== ProfileDialogExplanation ==
+Un perfil de conexión le permite almacenar parámetros de autenticación en servidores remotos.
+
+== ProfileNameEmpty ==
+El nombre del perfil no puede estar vacío.
+
+== ProfileNameAlreadyExists ==
+El nombre del perfil ya existe
+
+== DeleteProfileConfirmation ==
+Vas a borrar el perfil seleccionado. ¿Está seguro?
+
+== DeleteProfileCaption ==
+Borrar perfil
+
+== NotValidProxyServer ==
+El servidor especificado {0} no es un servidor Proxy válido.
+
+== ConnectedOk ==
+Conexión OK
+
+== ConfigurationUserNameInfo ==
+Se utilizará el siguiente nombre de usuario:
+
+== ConfigurationCredentialsInfo ==
+Configure sus credenciales
+
+== PlasticConfiguration ==
+Configuración de Unity DevOps Version Control
+
+== ConfigurationServerInfo ==
+Introduzca el nombre (o la dirección IP) y el puerto de su servidor Unity VCS. Puede utilizar "escanear red" para encontrar servidores Unity VCS en su red
+
+== ConfigureProxy ==
+Usar un servidor Proxy
+
+== SwitchModeConfirmationDialogTitle ==
+Confirmación de cambio de modo
+
+== SwitchModeConfirmationDialogExplanation ==
+Estás en el modo {0}. ¿Estás seguro que quieres cambiar al modo {1}?
+
+Encuentra más información acerca de Gluon aqui: {2}
+
+== DeveloperMode ==
+Desarrollador
+
+== GluonMode ==
+Gluon
+
+== NotConnectedTryingToReconnect ==
+Sin conexión. Intentando re-conectar...
+
+== TryNowButton ==
+Intentar ahora
+
+== ReloadButton ==
+Recargar
+
+== SearchTooltip ==
+Buscar
+
+== CannotLaunchInProgressMergeFromNotRootMountPoint ==
+No se puede continuar este merge. El merge en progreso pertenece a un repositorio dentro de un xlink. Esta opción sólo está soportada cuando el merge en progreso pertenece al repositorio raíz en el workspace. Puede lanzar el merge de forma manual para continuar.
+
+== OneVersionBehind ==
+1 versión por detrás
+
+== TwoOrMoreVersionsBehind ==
+{0} versiones por detrás
+
+== GitSyncAllRefsRejected ==
+Todas las referencias(ramas o etiquetas) fueron rechazadas por el servidor, así que posiblemente en el repositorio central no hay nada nuevo. Comprueba la configuración del proveedor del hosting de Git . Errores durante el push:{0}
+
+== LoggingIn ==
+Iniciando sesión como '{0}'...
+
+== SigningUp ==
+Creando cuenta '{0}'...
+
+== GettingDatacenters ==
+Obteniendo los datacenters ...
+
+== EnterOrganizationName ==
+Por favor introduzca el nombre de la organización
+
+== NoDatacenterSelected ==
+Por favor seleccione un datacenter
+
+== CreatingOrganization ==
+Creando organización '{0}'...
+
+== OrganizationNameTooShort ==
+El nombre de la organización debe tener al menos tres caracteres
+
+== SignUp ==
+Crear cuenta
+
+== SignUpNeeded ==
+No se ha podido encontrar la cuenta, por favor cree una cuenta de Unity VCS {0}
+
+== SignUpNeededNoArgs ==
+No se ha podido encontrar la cuenta, por favor cree una cuenta de Unity VCS.
+
+== SignUpButton ==
+Crear cuenta
+
+== SignIn ==
+Inicia sesión
+
+== SignInToUnityVCS ==
+Inicia sesión en Unity VCS
+
+== SignInWithGoogle ==
+Inicia sesión con Google
+
+== SignInWithUnityID ==
+Inicia sesión con Unity ID
+
+== SignInWithEmail ==
+Inicia sesión con Email
+
+== SignInWith ==
+Inicia sesión con {0}
+
+== SignInWithOIDC ==
+Inicia sesión con OpenID
+
+== SignInWithSSO ==
+Inicia sesión con SSO
+
+== ConfirmPassword ==
+Confirma password:
+
+== SignedUpTitle ==
+¡Creada cuenta en plasticscm.com!
+
+== LoggedInTitle ==
+¡Iniciada sesión en plasticscm.com!
+
+== CreateFirstOrganizationLabel ==
+Ahora es el momento de crear su organización en la nube.
+
+== CreateOtherOrganizationLabel ==
+O quizás prefieres crear la tuya propia
+
+
+== JoinOrganizationTitle ==
+¡Es hora de unirse a una organización!
+
+== YouBelongToOrganization ==
+Perteneces a la organización: {0}
+
+== YouBelongToSeveralOrganizations ==
+Perteneces a varias organizaciones:
+
+== JoinButton ==
+Unirse
+
+== CreateOrganizationTitle ==
+Crea tu organización en la nube
+
+== OrganizationName ==
+Nombre de la organización:
+
+== Datacenter ==
+Datacenter:
+
+== DatacenterExplanation ==
+El más cercano está ya seleccionado :)
+
+== EncryptionCheckButton ==
+Encriptar todos los datos enviados a Unity VCS Cloud
+
+== EncryptionCheckButtonExplanation ==
+Puedes forzar que todos los datos enviados a Unity VCS Cloud estén encriptados antes de abandonar tu ordenador. De esta manera te aseguras que tus datos no puedan ser comprometidos. Si selecciona esta opción, todos los miembros de la organización tendrán que compartir la misma clave secreta para cifrar / descifrar datos.
+{0}
+
+== CreatedOrganizationTitle ==
+Organización creada correctamente
+
+== CreatedOrganizationExplanation ==
+La organización {0} fue creada correctamente
+
+== ContinueButton ==
+Continuar
+
+== RetryButton ==
+Reintentar
+
+== CloudEditionOrganization ==
+Eres parte de la organización {0}
+
+== SignUpAgreeToShort ==
+Al hacer clic 'Crear cuenta', aceptas nuestro {0} y {1}
+
+== SignInAgreeToShort ==
+Al hacer clic 'Iniciar sesión', aceptas nuestro {0} y {1}
+
+== TermsOfService ==
+Términos de servicio
+
+== PrivacyPolicy ==
+Política de privacidad
+
+== Email ==
+Email:
+
+== BackButton ==
+< Atrás
+
+== LastThingTitle ==
+Una última cosa
+
+== LastThingExplanation ==
+Hay dos versiones de Unity VCS.
+Puedes usar ambos, en cualquier momento.
+
+== PlasticForDevelopersTitle ==
+Unity VCS para desarrolladores
+
+== PlasticForDevelopersExplanation ==
+La versión clásica, una buena opción para trabajar con ramas, merges y replica
+
+== PlasticForArtistsTitle ==
+Gluon - Unity VCS para artistas
+
+== PlasticForArtistsExplanation ==
+La versión simplificada para artistas que desarrollan videojuegos, o para cualquiera que prefiera hacer cambios y olvidarse
+
+== LaunchButton ==
+Lanzar
+
+== InviteMembers ==
+Invitar Miembros a la Organización
+
+== ReplyButton ==
+Responder
+
+== CommentButton ==
+Comentar
+
+== DiscardUnsavedChangesTitle ==
+Descartar cambios
+
+== DiscardUnsavedChangesQuestion ==
+¿Estás seguro que quieres descartar los cambios no guardados?
+
+== DiscardButton ==
+Descartar
+
+== DeleteCommentQuestion ==
+¿Estás seguro que quieres eliminar esto?
+
+== CheckingLockRulesProgress ==
+Comprobando si el fichero puede bloquearse...
+
+== ConfigLocksNoPermissions ==
+No tiene el permiso 'configlocks'. Contacte con su administrador para que le conceda el permiso 'configlocks' en el repositorio '{0}', o para que configure una regla de bloqueo para este fichero.
+
+== AddLockRuleAndCheckoutTitle ==
+Añadir regla de bloqueo y hacer checkout para editar
+
+== AddLockRuleAndCheckoutMessage ==
+Para bloquear un fichero, primero debe configurar una regla de bloqueo.{0{0}Elija una de las opciones siguientes para configurar qué ficheros se bloquean automáticamente al hacer checkout para editar.
+
+== AddLockRuleRadioGroup ==
+Escoge una regla de bloqueo o cree la suya
+
+== AddLockRuleExtensionOption ==
+Bloquear ficheros que concuerden con {0}
+
+== AddLockRuleNameOption ==
+Bloquear ficheros con nombre '{0}'
+
+== AddLockRuleDirectoryOption ==
+Bloquear todos los ficheros en el directorio{0}{1}
+
+== AddLockRuleFullPathOption ==
+Bloquear únicamente{0}{1}
+
+== AddLockRuleEditOption ==
+Quiero editar la regla de bloqueo
+
+== AddLockRuleLearnMore ==
+Pulse aquí para saber más sobre cómo configurar reglas de bloqueo
+
+== AddLockRuleLearnMoreUrl ==
+https://www.plasticscm.com/download/help/locking
+
+== AddLockRuleEmptyRuleMessage ==
+La regla no puede estar vacía.
+
+== UnsupportedServerOperation ==
+El servidor no soporta esta operación. Actualice el servidor a la versión {0} o superior.
+
+== KnownServersListRetrievingCloudOrgsProgress ==
+Obteniendo organizaciones Cloud...
+
+== EditCommentButton ==
+Editar comentario
+
+== DiffChangedWithCommentDirty ==
+Ha editado el comentario, ¿desea guardar los cambios?
+
+== ReviewOfChangesetTitle ==
+Revisión del changeset {0}
+
+== ReviewOfBranchTitle ==
+Revisión de la rama {0}
+
+== Title ==
+Título
+
+== ReviewStatus ==
+Estado
+
+== ReworkRequired ==
+Requiere cambios
+
+== UnderReview ==
+En revisión
+
+== Reviewed ==
+Revisado
+
+== Reviewer ==
+Revisor
+
+== ChangeButton ==
+Cambiar
+
+== ReviewCommentsLabel ==
+Comentarios para la línea {0}
+
+== NoReviewCommentsToShow ==
+Haga clic en un icono a la derecha del diff para ver el comentario de revisión para una línea dada
+
+== NoReviewCommentsForSelectedFile ==
+No hay comentarios de revisión para el fichero seleccionado
+
+== NoReviewComments ==
+Haga clic en el signo '+' a la derecha del diff para crear un nuevo comentario para una línea dada
+
+== NoReviewCommentsSupportedXlinkedRepo ==
+Los Xlink todavía no soportan comentarios de revisión
+
+== NoReviewCommentsSupportedDifferentRepos ==
+Los ficheros dentro de Xlinks todavía no soportan comentarios de revisión
+
+== NoReviewCommentsSupportedUnsupportedFileType ==
+Éste tipo de fichero todavía no soporta comentarios de revisión
+
+== DirtyCodeReviewTitleTitle ==
+Guardar el título
+
+== DirtyCodeReviewTitleQuestion ==
+Ha editado el título de la revisión de código, ¿desea guardar los cambios?
+
+== DirtyReviewCommentTitle ==
+Guardar comentario de revisión
+
+== DirtyReviewCommentQuestion ==
+Ha editado el comentario de revisión, ¿desea guardar los cambios?
+
+== DirtyCommentQuestion ==
+Ha editado el comentario, ¿desea guardar los cambios?
+
+== NullRepSpec ==
+Falta la información del repositorio para calcular las diferencias.
+Por favor reporte este caso a soporte para arreglarlo.
+
+== CommentsLabelSingular ==
+Comentario de revisión
+
+== CommentsLabelPlural ==
+Comentarios de revisión
+
+== ChangesLabelSingular ==
+Cambio
+
+== ChangesLabelPlural ==
+Cambios
+
+== ChangeColumn ==
+Cambio solicitado
+
+== RevisionWithComments ==
+Revisión comentada
+
+== LastInBranch ==
+Última de la rama
+
+== DiffWithHead ==
+Diff con head
+
+== ThisFileHasNewChangesInTheBranch ==
+Este fichero tiene cambios nuevos en la rama
+
+== ThisFileHasNewChangesInTheBranchExplanation ==
+Esta es la revisión en la que se añadieron los comentarios. Puede hacer diff de la revisión original, la más nueva en la rama o ver los cambios entre las dos.
+
+== AskQuestionButton ==
+Hacer pregunta
+
+== AskQuestionButtonToolTip ==
+Cuando necesites una respuesta antes de aprobarlo
+
+== RequestChangeButton ==
+Solicitar cambio
+
+== RequestChangeButtonToolTip ==
+Cuando necesites que el autor cambie algo antes de aprobarlo
+
+== CopyCommentId ==
+Copiar comentario ID al portapapeles
+
+== ChangeStatusDone ==
+Hecho
+
+== ChangeStatusPending ==
+Pendiente
+
+== ChangeStatusDiscarded ==
+Descartado
+
+== QuestionsLabelSingular ==
+Pregunta
+
+== QuestionsLabelPlural ==
+Preguntas
+
+== QuestionColumn ==
+Pregunta
+
+== AnswerColumn ==
+Respuesta
+
+== ExploreChangesetsPanelWaitingAnimation ==
+Cargando changesets...
+
+== ChangesetReview ==
+Revisar changeset
+
+== ReviewEntireBranch ==
+Revisar rama completa
+
+== ReviewChangesetByChangeset ==
+Revisar changeset a changeset
+
+== UpdateStatusTitle ==
+Confirmar actualización de estado
+
+== UpdateStatusPendingChangesSingular ==
+Hay 1 cambio sin aplicar.
+
+== UpdateStatusPendingChangesPlural ==
+Hay {0} cambios sin aplicar.
+
+== UpdateStatusPendingQuestionsSingular ==
+Hay 1 pregunta sin contestar.
+
+== UpdateStatusPendingQuestionsPlural ==
+Hay {0} preguntas sin contestar.
+
+== UpdateStatusPendingChangeAndQuestion ==
+Hay 1 cambio sin aplicar y 1 pregunta sin contestar.
+
+== UpdateStatusPendingChangesAndQuestion ==
+Hay {0} cambios sin aplicar y 1 pregunta sin contestar.
+
+== UpdateStatusPendingChangeAndQuestions ==
+Hay 1 cambio sin aplicar y {0} preguntas sin contestar.
+
+== UpdateStatusPendingChangesAndQuestions ==
+Hay {0} cambios sin aplicar y {1} preguntas sin contestar.
+
+== UpdateStatusQuestion ==
+No deberías marcar como revisada una revisión de código con comentarios pendientes. ¿Quieres continuar?
+
+== SinceOneWeekAgo ==
+1 semana atrás
+
+== SinceFifteenDaysAgo ==
+15 días atrás
+
+== SinceOneMonthAgo ==
+1 mes atrás
+
+== SinceThreeMonthsAgo ==
+3 meses atrás
+
+== SinceAGivenDate ==
+Una fecha concreta
+
+== CloseChangeRequestedInReview ==
+Cerrar cambio pedido en revisión
+
+== CollapseReviewCommentsTooltip ==
+Colapsar comentarios de revisión
+
+== ExpandReviewCommentsTooltip ==
+Expandir comentarios de revisión
+
+== CollapseCommentsSummaryTooltip ==
+Colapsar resumen de comentarios
+
+== ExpandCommentsSummaryTooltip ==
+Expandir resumen de comentarios
+
+== ReviewCommentsSummaryTitle ==
+Resumen de comentarios de revisión
+
+== EmptyChangeList ==
+La lista de cambios solicitados esta vacia
+
+== EmptyQuestionList ==
+La lista de preguntas esta vacía
+
+== MergeFileChangesInConflictCategory ==
+Conflictos de fichero, que podrían requerir intervención manual
+
+== ChangesWithDirectoryConflictsCategory ==
+Cambios con conflictos en la estructura de directorios
+
+== MergeDiscardedConflictsCategory ==
+Conflictos que ya no se aplican y posibles advertencias
+
+== MergeFileChangesInConflictForIncomingViewCategory ==
+Ficheros a descargar que están en conflicto con sus cambios
+
+== MergeFileChangesInConflictRemark ==
+Cambiado en origen y destino
+
+== MergeFileChangesInConflictRemarkForIncomingView ==
+Requiere merge
+
+== MergeChangesMadeInSourceOfMergeCategory ==
+Cambios en el origen del merge. No hay conflictos.
+
+== MergeChangesMadeInSourceOfMergeForIncomingViewCategory ==
+Ficheros que solo necesitan actualización
+
+== MergeChangesMadeInSourceOfMergeOverviewSingular ==
+1 changed file updated ({1})
+
+== MergeChangesMadeInSourceOfMergeOverviewPlural ==
+{0} changed files updated ({1})
+
+== MergeMovesToApplyCategory ==
+Movidos a aplicar
+
+== MergeMovesToApplyRemark ==
+Movido en origen a {0}
+
+== MergeMovesToApplyRemarkForIncomingView ==
+Aplicará el movido a tu workspace
+
+== MergeDeletesToApplyCategory ==
+Borrados a aplicar
+
+== MergeDeletesToApplyOverviewSingular ==
+1 file deleted ({1})
+
+== MergeDeletesToApplyOverviewPlural ==
+{0} files deleted ({1})
+
+== MergeDeletesToApplyRemark ==
+Borrado en origen
+
+== MergeDeletesToApplyRemarkForIncomingView ==
+Aplicará el borrado a tu workspace
+
+== MergeNewItemsToDownloadCategory ==
+Items nuevos a descargar
+
+== MergeNewItemsToDownloadOverviewSingular ==
+1 file added ({1})
+
+== MergeNewItemsToDownloadOverviewPlural ==
+{0} files added ({1})
+
+== MergeNewItemsToDownloadRemark ==
+Añadido en origen
+
+== MergeNewItemsToDownloadRemarkForIncomingView ==
+Aplicará el añadido a tu workspace
+
+== MergeFileSystemPermissionsChangesToApplyCategory ==
+Cambios de permisos a aplicar
+
+== MergeFileSystemPermissionsChangesToApplyRemark ==
+Cambios en los permisos del fichero
+
+== MergeFileSystemPermissionsChangesToApplyRemarkForIncomingView ==
+Aplicará los cambios de permisos del fichero en tu workspace
+
+== MergeFilesToDownloadCaptionSingular ==
+1 fichero a descargar ({0})
+
+== MergeFilesToDownloadCaptionPlural ==
+{0} ficheros a descargar ({1})
+
+== MergeFilesToDeleteCaptionSingular ==
+1 fichero a borrar ({0})
+
+== MergeFilesToDeleteCaptionPlural ==
+{0} ficheros a borrar ({1})
+
+== MergeToEnterCheckinComment ==
+Introduce comentario de check-in
+
+== MergeToEnterCheckinCommentExplanation ==
+Introduce un comentario de check-in para el changeset creado por el merge-to.
+
+== IncomingChangesTitle ==
+Cambios entrantes de la rama {0}
+
+== IncomingChangesCannotBeApplied ==
+Cambios entrantes que no pueden ser aplicados
+
+== ChangesCannotBeApplied ==
+Cambios que no pueden ser aplicados
+
+== ConfirmRecalculateMergeSingular ==
+Hay 1 conflicto de directorio resuelto. ¿Quiere recalcular el merge?
+
+== ConfirmRecalculateMergePlural ==
+Hay {0} conflictos de directorio resueltos. ¿Quiere recalcular el merge?
+
+== ConfirmRecalculateMergeMessage ==
+Si continúa, se perderán las resoluciones de conflictos elegidas. Puede elegirlas de nuevo.
+
+== RecalculateButton ==
+Recalcular
+
+== MergeProgressStatus ==
+Actualizados {0} de {1} ({2} de {3} ficheros a descargar / {4} de {5} operaciones a aplicar)
+
+== MergeProgressDownloadingFile ==
+Descargando fichero {0} ({1})
+
+== MergeProgressDownloadingBlock ==
+Descargando bloque de {0} ficheros ({1})
+
+== IncomingChangesAvailableSingular ==
+1 nuevo changeset disponible
+
+== IncomingChangesAvailablePlural ==
+{0} nuevos changesets disponibles
+
+== IncomingChangesConflictsSingular ==
+1 nuevo changeset - conflictos
+
+== IncomingChangesConflictsPlural ==
+{0} nuevos changesets - conflictos
+
+== IncomingChangesAvailableForGluon ==
+nuevos cambios disponibles
+
+== IncomingChangesConflictsForGluon ==
+nuevos cambios en conflicto
+
+== UpdateButton ==
+Actualizar
+
+== ViewButton ==
+Ver
+
+== DeleteRepositoryTitle ==
+Confirma la eliminación de repositorio
+
+== UndeleteRepositoryTitle ==
+Confirma la recuperación del repositorio
+
+== DeleteRepositoryWarningText ==
+Estás a punto de eliminar el repositorio '{0}'.
+
+== DeleteRepositoriesWarningText ==
+Estás a punto de eliminar los siguientes repositorios:
+
+== DeleteRepositoryConfirmText ==
+Para confirmar, escribe el nombre del repositorio
+
+== DeleteRepositoriesConfirmText ==
+Para confirmar la eliminación, escribe '{0}'
+
+== DeleteRepositoryCannotUndo ==
+Esta acción no se puede deshacer.
+
+== DeleteRepositoryConfirmEntry ==
+borrar
+
+== UndeleteRepositoryConfirmText ==
+Estás a punto de recuperar los siguientes repositorios: {0}. ¿Deseas continuar?
+
+== IncomingChangesMenuItemMergeKeepingSourceChanges ==
+Merge manteniendo los cambios entrantes (head/origen)
+
+== IncomingChangesMenuItemMergeKeepingWorkspaceChanges ==
+Merge manteniendo los cambios del workspace (tuyos/destino)
+
+== IncomingChangesMenuItemDiffIncomingChanges ==
+Diferencias del cambio entrante (head/origen)
+
+== IncomingChangesMenuItemDiffYoursWithIncoming ==
+Diferencias del cambio local con el entrante (head/origen)
+
+== IncomingSymbolicName ==
+Cambios Entrantes
+
+== WorkingChangesetMissing ==
+Changeset de trabajo borrado
+
+== WorkingChangesetDeletedTitle ==
+El changeset de trabajo fue borrado
+
+== WorkingChangesetDeletedMessage ==
+El changeset en el que estabas trabajando ha sido borrado.
+
+Tus checkouts y cambios locales ya no son válidos.
+
+¿Desea ir a la Pending Changes para deshacer todos sus cambios y volver a una configuración válida?
+
+== UndoAllWorkingChangesetDeletedMessage ==
+Deshacer los cambios requiere actualizar el workspace porque el changeset en el que estabas trabajando ha sido borrado.
+
+¿Quieres continuar?
+
+== IncomingChangesUpdateTooltip ==
+Hay nuevos cambios en la rama que puedes previsualizar y descargar
+
+== IncomingChangesResolveTooltip ==
+Hay ficheros que están en conflicto con sus cambios actuales
+
+== IncomingChangesWorkingChangesetMissingTooltip ==
+Se eliminó el changeset en el que estabas trabajando. Haga clic en el botón "Actualizar" para volver a una configuración válida
+
+== PartialUndoWorkingChangesetDeletedMessage ==
+Es necesario que deshagas todos tus cambios porque el changeset en el que estabas trabajando ha sido borrado.
+
+¿Quieres deshacer todos tus cambios y actualizar tu workspace a una configuración válida?
+
+== OutOfDateIncomingChangesView ==
+Esta vista ya no es válida porque el changeset en el que estabas trabajando ha sido borrado.
+
+Es necesario actualizar el workspace.
+
+== Warning ==
+Aviso
+
+== IncomingChangesViewTitle ==
+Incoming Changes
+
+== Reason ==
+Razón
+
+== LoadingCodeReviews ==
+Cargando revisiones de código...
+
+== ReviewTitleColumn ==
+Título
+
+== ReviewStatusColumn ==
+Estado
+
+== ReviewReviewerColumn ==
+Revisor
+
+== MergingFile ==
+Mezclando fichero {0} de {1}: {2}
+
+== CodeReviewMenuItemOpen ==
+Abrir
+
+== CodeReviewMenuItemDelete ==
+Eliminar
+
+== DeletingCodeReview ==
+Eliminando revisión de código con título {0}...
+
+== BranchMenuCreateANewCodeReview ==
+Crear nueva revisón de código para esta rama...
+
+== ChangesetMenuCreateANewCodeReview ==
+Crear nueva revisón de código para este changeset...
+
+== CreatingCodeReview ==
+Creando nueva revisión de código con título {0}...
+
+== ObtainingCodeReviewInfo ==
+Cargando revisón de código con título {0}...
+
+== UpgradeServerForNewCodeReviewError ==
+¡Necesitas actualizar el servidor a la versión 8.0.16.3691 o superior para poder utilizar el nuevo sistema de code review!
+
+== LoadingMembers ==
+Cargando miembros...
+
+== UserChooserDialogTitle ==
+Seleccione un usuario o grupo de la lista:
+
+== SelectUsersDialogTitle ==
+Seleccionar usuarios
+
+== SelectUserGroupDialogTitle ==
+Seleccionar usuario o grupo
+
+== NoUserSelectedErrorMessage ==
+Seleccione un usuario de la lista
+
+== UserNotFoundErrorMessage ==
+No se encontró ningún usuario o grupo con nombre '{0}'
+
+== UserSizeLimitExceededErrorMessage ==
+Se ha excedido el número máximo de resultados para una única consulta contra el servidor de autenticación. Use el filtro de búsqueda para recuperar menos resultados (pulsa el botón de refresco para forzar la consulta).
+
+== CreateRepositoryDialogDetailedExplanation ==
+Los repositorios almacenan todos los objetos versionados de tu desarrollo, incluyendo revisiones de ficheros y directorios, las etiquetas en las revisiones de esos ítems.
+
+== MergeToMenuItemMergeKeepingDestinationChanges ==
+Merge manteniendo los cambios del destino
+
+== MergeToMenuItemPreserveDestinationChanges ==
+Mantener los cambios del destino
+
+== MergeToMenuItemMergeKeepingSourceChanges ==
+Merge manteniendo los cambios del origen
+
+== MergeToMenuItemPreserveSourceChanges ==
+Mantener los cambios del origen
+
+== DetailsColumn ==
+Detalles
+
+== AuthorColumn ==
+Autor
+
+== PrivacyStatementText ==
+Controlador: Unity Technologies ApS. Finalidad del tratamiento: Crear su cuenta y prestar los servicios solicitados. Puede ejercer sus derechos de acceso, rectificación, borrado y otros derechos de protección de datos como se describe en la Política de privacidad de Unity. para obtener información adicional, consulte la {0}
+
+== PrivacyStatementTextFirstLine ==
+Controlador: Unity Technologies ApS. Finalidad del tratamiento: Crear su cuenta y prestar los servicios solicitados. Puede ejercer sus derechos de acceso, rectificación, borrado y otros derechos de protección de datos como se describe en la Política de privacidad de Unity.
+
+== PrivacyStatementTextSecondLine ==
+Para obtener información adicional, consulte la {0}
+
+== PrivacyStatement ==
+Política de privacidad de Unity
+
+== GitSyncDialogTitle ==
+Sincronización de Unity VCS con Git
+
+== GitSyncDialogExplanation ==
+Sincronizar repositorio '{0}'
+
+== GitSyncDialogDetailedExplanation ==
+Sincronizará los commits y changesets necesarios entre los repositorios de Git y Unity VCS
+
+== SyncButton ==
+Sincronizar
+
+== PlasticRepository ==
+Repositorio Unity VCS:
+
+== GitRepositoryUrl ==
+URL del repositorio Git:
+
+== GitRepositoryCannotBeEmpty ==
+El campo URL del repositorio no puede estar vacío.
+
+== LoadingStoredGitUrls ==
+Cargando URLs de Git almacenadas para el repositorio '{0}'
+
+== SyncStatusPullRepository ==
+Importando "{0}" desde {1}
+
+== SyncStatusPushRepository ==
+Exportando "{0}" hacia {1}
+
+== SyncStatusSyncRepository ==
+Sincronizando "{0}" con {1}
+
+== SyncStatusConflict ==
+Precaución: existen ramas que se han modificado de manera concurrente en Git y Unity VCS.
+Estos conflictos se gestionan como una "sub-rama" en Unity VCS, y necesitan una operación de merge.
+Para poder sincronizar nuevamente, deberá resolver los conflictos en estas ramas en primer lugar.
+
+== SyncPhaseUpgradingMappings ==
+Descargando mappings
+
+== SyncPhaseReceivingReferences ==
+Obteniendo referencias
+
+== SyncPhaseSyncType ==
+Comprimiendo objetos
+
+== SyncPhaseCompressing ==
+Comprimiendo
+
+== SyncPhaseDownloading ==
+Descargando
+
+== SyncPhaseProcessing ==
+Procesando
+
+== SyncPhaseImporting ==
+Importando
+
+== SyncPhaseExporting ==
+Exportando
+
+== SyncPhasePackaging ==
+Empaquetando
+
+== SyncPhaseUploading ==
+Enviando
+
+== SyncPhaseCompleted ==
+Completado
+
+== Users ==
+Usuarios
+
+== Groups ==
+Grupos
+
+== Both ==
+Ambos
+
+== SelectedUserOrGroup ==
+Usuario o grupo seleccionado:
+
+== User ==
+Usuario
+
+== Group ==
+Grupo
+
+== SpecialUser ==
+Usuario especial
+
+== SpecialGroup ==
+Grupo especial
+
+== AddButton ==
+Añadir...
+
+== RemoveButton ==
+Eliminar
+
+== AllowAll ==
+Permitir todo
+
+== DenyAll ==
+Denegar todo
+
+== RepositoryServerPermissions ==
+Permisos del Servidor de Repositorios
+
+== PermissionsFor ==
+Permisos para {0}
+
+== ConfigureObjectPermissions ==
+Configure los permisos asociados al objeto seleccionado
+
+== PermissionsColumn ==
+Permisos
+
+== AllowedColumn ==
+Permit.
+
+== DeniedColumn ==
+Deneg.
+
+== SecurityRepserverEntriesCannotBeEmpty ==
+El servidor de repositorios tiene que tener definidos permisos para, al menos, un usuario o grupo válido.
+Por favor, defina permisos para uno de ellos e inténtelo de nuevo
+
+== PermissionsCantRemoveInheritedSeid ==
+No se puede eliminar una entrada heredada
+
+== MsgAllowDeny ==
+Los permisos denegados sobrescribirán los permitidos
+
+== ChangeOwner ==
+Cambiar...
+
+== UsersAndGroups ==
+Usuarios y grupos
+
+== PermissionsMenuItem ==
+Permisos
+
+== Override ==
+sobrescribir
+
+== OverrideHelp ==
+Los permisos se pueden sobrescribir para anular la herencia. Marque como sobreescrito, a continuación, establezca el nuevo valor.
+
+== DeleteBranchGroup ==
+Borrar grupo de ramas
+
+== DeleteSelectedBranchGroup ==
+El grupo de ramas seleccionado va a ser borrado.
+
+== ContinueQuestion ==
+¿Desea continuar?
+
+== DoNotShowMessageAgain ==
+Do not show this message again
+
+== PathPermissions ==
+Permisos de rutas
+
+== DeleteSecuredPath ==
+Borrar ruta
+
+== DeleteSelectedSecuredPath ==
+La ruta seleccionada va a ser borrada.
+
+== AllBranches ==
+Todas las ramas
+
+== NewBranchGroupTitle ==
+Selecciona ramas
+
+== NewBranchGroupExplanation ==
+Selecciona las ramas donde los permisos de la ruta serán aplicados
+
+== NewBranchGroupLabel ==
+Introduzca las ramas
+
+== BranchesRadioButton ==
+Ramas:
+
+== NewBranchGroupIdentificationTag ==
+Introduzca una etiqueta identificativa para el grupo de ramas:
+
+== NoBranchSelected ==
+No hay rama seleccionada
+
+== EditBranchGroupLabel ==
+Editar grupo de ramas
+
+== EditBranchGroupExplanation ==
+Añadir o eliminar ramas del grupo de ramas
+
+== PathPermissionFormExplanation ==
+Configurar permisos para una ruta. Los permisos de la ruta especificada serán mezclados con la rama correspondiente y las rutas padre.
+
+== RetrievingRepositoryServerInfoProgress ==
+Obteniendo detalles del servidor de repositorios...
+
+== CalculatingPermissionsInfo ==
+Obteniendo información de permisos...
+
+== RetrievingSecuredPathsProgress ==
+Obteniendo información de rutas...
+
+== RetrievingAllSecuredPathsProgress ==
+Retrieving información de todas las rutas...
+
+== NewSecuredPathTitle ==
+Crear nueva ruta segura
+
+== NewSecuredPathExplanation ==
+Crear nueva ruta donde puedes definir permisos
+
+== NewSecuredPathLabel ==
+Por favor, introduzca una ruta
+
+== DefineBranchesCheckBox ==
+Configurar ramas después de crear la ruta
+
+== PartialWorkspaceStripLabel ==
+Este workspace está en modo parcial (artistas). [[UpdateWorkspace|Actualizar]] para cambiar a modo completo. Esta GUI no funciona bien en este modo
+
+== FullWorkspaceStripLabel ==
+Este workspace está en modo completo (desarrolladores). [[UpdateWorkspace|Actualizar]] para cambiar a modo parcial. Esta GUI no funciona bien en este modo
+
+== RemainingProgressMessage ==
+restante
+
+== DiffLinkButtonTooltip ==
+Copiar link para compartir el diff
+
+== CodeReviewLinkButtonTooltip ==
+Copiar link para compartir la revisión
+
+== WorkspaceWindowTitleForPlasticX ==
+Workspace: {0}
+
+== GluonFilePlasticLinkText ==
+Copiar link - obtén un link a este fichero para que puedas compartirlo fácilmente con otros
+
+== OAuthSignInCheckMessage ==
+Esperando sesión...
+
+== RetrievingOrgsProgress ==
+Obteniendo organizaciones...
+
+== RetrievingCloudDrivesProgress ==
+Obteniendo cloud drives...
+
+== GettingCloudDriveRepositoryProgress ==
+Obteniendo el repositorio cloud drive...
+
+== UnableToGetCloudDriveRepositoryError ==
+No es posible obtener el repository con guid '{0}' para la organización '{1}'
+
+== GettingSSOProviders ==
+Obteniendo los proveedores de la organización...
+
+== CompleteSignInOnBrowser ==
+Completa el registro en tu navegador.
+
+== Or ==
+o
+
+== OrganizationNameWatermark ==
+El nombre de tu organización
+
+== SSOSignInTitle ==
+Iniciar sesión con Single Sign On
+
+== SignInToOrganization ==
+Iniciar sesión en {0}
+
+== NoProvidersForOrganization ==
+La organización especificada no ha habilitado el acceso por SSO
+
+== DontKnowOrganizationName ==
+No recuerdo el nombre de la organización
+
+== KnowOrganizationName ==
+Conozco el nombre de la organización
+
+== CompanyEmail ==
+Email de Empresa
+
+== SignInWithSingleSignOn ==
+Inicia sesión con Single Sign On
+
+== SentEmailStatementText ==
+Te hemos enviado un email a {0} indicándote las organizaciones a las que perteneces. Ábrelo e inicia sesión utilizando tu {1}
+
+== OrganizationNameStatementText ==
+nombre de organización.
+
+== SendingEmail ==
+Enviando email...
+
+== EmailNotSent ==
+No hemos podido enviar el email
+
+== SignInTo ==
+Inicia sesión en {0}
+
+== ConnectToServer ==
+Conectar a {0}
+
+== SignedInAs ==
+Conectado como {0}
+
+== SignInWasNotCompleted ==
+No se ha completado el inicio de sesión
+
+== OnDemandConnectionTypeHelp ==
+Bajo demanda: Usa esta opción si el servidor de Unity VCS no está siempre disponible para este cliente y Unity VCS no intentará conectarse a él de manera automática.
+
+== AutomaticConnectionTypeHelp ==
+Automática: Usa esta opción si el servidor está siempre online (tal vez en la misma red local, cuando te conectas desde un pc).
+
+== SignOut ==
+Desconectar
+
+== FastEnough ==
+¡Suficientemente rápido!
+
+== NotBad ==
+No está mal.
+
+== TooMuch ==
+Es demasiado.
+
+== ErrorAddPlasticSCMMenuItem ==
+Cannot add Unity VCS menu item: {0} Method Menu.AddSubMenu not found
+
+== ErrorRemovePlasticSCMMenuItem ==
+Cannot remove Unity VCS menu item: {0} Method MenuType.RemoveMenuItem not found
+
+== ErrorUpdatePlasticSCMMenus ==
+Cannot update all menus: Method EditorUtility.Internal_UpdateAllMenus not found
+
+== ErrorDialogTitle ==
+Error - {0}
+
+== CheckoutButton ==
+Checkout
+
+== UpdateResultsError ==
+Some items were not correctly updated. You may want to check the errors and retry the operation after solving the problems
+
+== PluginModalInformation ==
+The modal dialog is not available in this version and it is required for the Unity VCS plugin works fine. \n Please contact devops-vcs-support@unity3d.com for further info.
+
+== HideChanges ==
+Hide changes
+
+== ShowChanges ==
+Show changes
+
+== ChooseRepositoryTitle ==
+Choose repository
+
+== ExploreRepositories ==
+Explore repositories
+
+== WorkspacesExplanationLabel ==
+Workspaces are used to store the local copies of your project files that you can check in to a repository.
+
+== RepositoryName ==
+Repository Name
+
+== RepositoryNameShortLabel ==
+Repository Name:
+
+== NewButton ==
+Nuevo
+
+== WorkPreferenceQuestion ==
+How do you prefer to work?
+
+== WorkPreferenceAnswerUnityVCS ==
+I need branching, merging, and the ability to push/pull (Unity VCS workspace)
+
+== WorkPreferenceAnswerGluon ==
+I only need to check in my work (Gluon workspace)
+
+== CreateWorkspace ==
+Create workspace
+
+== LearnMoreDifferencesUnityVCS ==
+Learn more about the differences between Unity VCS/Gluon workspaces <color=\"{0}\">{1}</color>
+
+== HereLink ==
+here.
+
+== PlasticSCMFullVsPartialWorkspaceLink ==
+https://www.plasticscm.com/book/#_full_workspaces_vs_partial_workspaces
+
+== SelectPathToRestore ==
+Select path to restore
+
+== SkipRestoreButton ==
+Skip
+
+== UndoThisChangePlusMeta ==
+Undo this change +meta
+
+== UndoSelectedChanges ==
+Undo selected changes
+
+== UndoThisChange ==
+Undo this change
+
+== UndeleteRevisionPlusMeta ==
+Undelete revision +meta
+
+== UndeleteSelectedRevisions ==
+Undelete selected revisions
+
+== UndeleteRevisions ==
+Undelete revision
+
+== UndeleteRevisionPlusMetaPath ==
+Undelete revision +meta to specified path...
+
+== UndeleteSelectedRevisionsPaths ==
+Undelete selected revisions to specified paths...
+
+== UndeleteRevisionPath ==
+Undelete revision to specified path...
+
+== DiffMenuItem ==
+Diff
+
+== DiffMenuItemSaveRevisionAs ==
+Guardar esta revisión como...
+
+== DiffMetaMenuItem ==
+Diff .meta
+
+== ViewHistoryMenuItem ==
+View file history
+
+== ViewHistoryMetaMenuItem ==
+View .meta file history
+
+== SolveConflictsInLable ==
+Solve conflicts in the directory structure first
+
+== OpenMeta ==
+Open .meta
+
+== OpenMetaWith ==
+Open .meta with...
+
+== OpenMetaInExplorer ==
+Open .meta in explorer
+
+== DownloadingProgress ==
+Downloading
+
+== ConnectingError ==
+There was an error connecting. Please check your internet.
+
+== InstallingProgress ==
+Installing...
+
+== SkippingDownloadFileExists ==
+Skipping download. File {0} already exists
+
+== InstallUnityVersionControl ==
+Install Unity Version Control
+
+== LoginOrSignUp ==
+Login or sign up
+
+== CreateAUnityVersionControlWorkspace ==
+ Create a Unity Version Control workspace for this project
+
+== NextStepsToSetup ==
+ Next steps to complete setup
+
+== LoginOrSignUpUnityVersionControl ==
+ Login or sign up for a Unity Version Control account
+
+== WhichVersionInstall ==
+Which version do you want to install?
+
+* Cloud Edition is intended for for teams who usually work with a Cloud server.
+* Enterprise Edition is the choice for teams who work with on-premise servers.
+
+== DownloadCloudEdition ==
+Download Cloud Edition
+
+== DownloadEnterpriseEdition ==
+Download Enterprise Edition
+
+== NeedEnterprise ==
+¿Necesitas Unity VCS Enterprise?
+
+== PrefixUnityVersionControlMenu ==
+Assets/Unity Version Control
+
+== PendingChangesPlasticMenu ==
+Show pending changes view
+
+== AddPlasticMenu ==
+Añadir a control de versiones
+
+== CheckoutPlasticMenu ==
+Checkout
+
+== CheckinPlasticMenu ==
+Check in
+
+== UndoPlasticMenu ==
+Deshacer cambios
+
+== DiffPlasticMenu ==
+Diferencias con revisión anterior
+
+== HistoryPlasticMenu ==
+View file history
+
+== StatusCheckout ==
+Checked out
+
+== StatusConflicted ==
+Conflicted
+
+== StatusLockedMe ==
+Locked by me
+
+== StatusLockedRemote ==
+Locked remote
+
+== AssetOverlayTooltipStatus ==
+{0} by:
+
+== AssetOverlayTooltipWorkspace ==
+workspace {0}
+
+== ErrorGettingCredentialsCloudProject ==
+Error getting credentials to download Cloud Project: {0} ({1})
+
+== ErrorDownloadingCloudProject ==
+Error downloading Cloud Project: {0}
+
+== ConfigureGluon ==
+Configure Gluon
+
+== OpenInDesktopApp ==
+Open in Desktop App
+
+== OpenInGluon ==
+Open in Gluon
+
+== CannotWriteCloudProjectId ==
+Cannot write cloudProjectId: Method PlayerSettings.SetCloudProjectId not found
+
+== PlasticConfigurationTitleUnityVCS ==
+Configure the connection to the Unity VCS server
+
+== PlasticConfigurationExplanation ==
+Enter the server name or IP and the credentials
+
+== UnityDiffShortcut ==
+%d
+
+== UnityAssetDiffShortcut ==
+#%d
+
+== UnityHistoryShortcutForWindows ==
+%h
+
+== UnityHistoryShortcutForMacOS ==
+#%h
+
+== UnityDeleteShortcutForWindows ==
+_Del
+
+== UnityDeleteShortcutForMacOS ==
+%Del
+
+== UnityOpenShortcut ==
+#o
+
+== CheckinInFilesProgress ==
+Checking in files...
+
+== Files ==
+Files
+
+== UnityCheckinConflictsExplanation ==
+Some files you're trying to check in are in conflict. You can resolve conflicts using the Incoming Changes view.
+
+== CheckinShowIncomingChangesView ==
+Show incoming changes view
+
+== UnityInitialCheckinComment ==
+Add packages and project settings to Unity Version Control.
+
+== UnityInitialCheckinProgress ==
+Checking in the packages and project settings files...
+
+== Default ==
+Por defecto
+
+== FileMerge ==
+File Merge
+
+== KDiff3 ==
+KDiff3
+
+== SemanticMerge ==
+Semantic Merge
+
+== UnitySmartMerge ==
+Unity Smart Merge
+
+== Custom ==
+Personalizada
+
+== NotCloudRepository ==
+El repositorio seleccionado debe ser un repositorio cloud
+
+== DisableAllHelpTips ==
+Deshabilitar toda la ayuda
+
+== Available ==
+Disponible
+
+== Unavailable ==
+No disponible
+
+== CheckinChangelist ==
+Check in lista de cambios
+
+== ShelveChangelist ==
+Shelve lista de cambios
+
+== UndoChangesChangelist ==
+Deshacer cambios
+
+== CreateNewChangelist ==
+Crear nueva lista de cambios
+
+== EditChangelist ==
+Editar
+
+== DeleteChangelist ==
+Borrar lista de cambios
+
+== CreateChangelistTitle ==
+Crear lista de cambios
+
+== EditChangelistTitle ==
+Editar lista de cambios
+
+== CreateChangelistExplanation ==
+Proporciona un nombre y una descripción para crear una nueva lista de cambios
+
+== EditChangelistExplanation ==
+Cambia los valores deseados, y pulsa ok cuando estes listo
+
+== ChangelistNameEntry ==
+Nombre
+
+== ChangelistDescriptionEntry ==
+Descripción
+
+== ChangelistPersistentCheckBoxEntry ==
+Persistente. La lista de cambios no será eliminada cuando este vacía
+
+== PlasticOpenShortcutForWindows ==
+Shift+Ctrl+O
+
+== PlasticOpenShortcutForMacOS ==
+Shift+Cmd+O
+
+== PlasticOpenShortcutForLinux ==
+Shift+Ctrl+O
+
+== PlasticOpenInNewWindowShortcutForWindows ==
+Shift+O
+
+== PlasticOpenInNewWindowShortcutForMacOS ==
+Shift+O
+
+== PlasticOpenInNewWindowShortcutForLinux ==
+Shift+O
+
+== PlasticOpenInExplorerShortcutForWindows ==
+Shift+Ctrl+S
+
+== PlasticOpenInExplorerShortcutForMacOS ==
+Shift+Cmd+S
+
+== PlasticOpenInExplorerShortcutForLinux ==
+Shift+Ctrl+S
+
+== PlasticNewShortcutForWindows ==
+Ctrl+N
+
+== PlasticNewShortcutForMacOS ==
+Cmd+N
+
+== PlasticNewShortcutForLinux ==
+Ctrl+N
+
+== PlasticCopyShortcutForWindows ==
+Ctrl+C
+
+== PlasticCopyShortcutForMacOS ==
+Cmd+C
+
+== PlasticCopyShortcutForLinux ==
+Ctrl+C
+
+== PlasticNewWorkspaceShortcutForWindows ==
+Ctrl+W
+
+== PlasticNewWorkspaceShortcutForMacOS ==
+Cmd+W
+
+== PlasticNewWorkspaceShortcutForLinux ==
+Ctrl+W
+
+== PlasticNewSyncViewShortcutForWindows ==
+Ctrl+C
+
+== PlasticNewSyncViewShortcutForMacOS ==
+Cmd+C
+
+== PlasticNewSyncViewShortcutForLinux ==
+Ctrl+C
+
+== PlasticRenameShortcutForWindows ==
+F2
+
+== PlasticRenameShortcutForMacOS ==
+Cmd+R
+
+== PlasticRenameShortcutForLinux ==
+F2
+
+== PlasticDeleteShortcutForWindows ==
+Delete
+
+== PlasticDeleteShortcutForMacOS ==
+Cmd+Back
+
+== PlasticDeleteShortcutForLinux ==
+Delete
+
+== PlasticPermissionsShortcutForWindows ==
+Ctrl+P
+
+== PlasticPermissionsShortcutForMacOS ==
+Cmd+P
+
+== PlasticPermissionsShortcutForLinux ==
+Ctrl+P
+
+== PlasticMergeShortcutForWindows ==
+Ctrl+M
+
+== PlasticMergeShortcutForMacOS ==
+Cmd+M
+
+== PlasticMergeShortcutForLinux ==
+Ctrl+M
+
+== PlasticDiffShortcutForWindows ==
+Ctrl+D
+
+== PlasticDiffShortcutForMacOS ==
+Cmd+D
+
+== PlasticDiffShortcutForLinux ==
+Ctrl+D
+
+== PlasticApplyLabelShortcutForWindows ==
+Ctrl+L
+
+== PlasticApplyLabelShortcutForMacOS ==
+Cmd+L
+
+== PlasticApplyLabelShortcutForLinux ==
+Ctrl+L
+
+== PlasticSelectAllShortcutForWindows ==
+Ctrl+E
+
+== PlasticSelectAllShortcutForMacOS ==
+Cmd+A
+
+== PlasticSelectAllShortcutForLinux ==
+Ctrl+A
+
+== PlasticSwitchShortcutForWindows ==
+Shift+Ctrl+W
+
+== PlasticSwitchShortcutForMacOS ==
+Shift+Cmd+W
+
+== PlasticSwitchShortcutForLinux ==
+Shift+Ctrl+W
+
+== PlasticGoToLineShortcutForWindows ==
+Ctrl+G
+
+== PlasticGoToLineShortcutForMacOS ==
+Ctrl+G
+
+== PlasticGoToLineShortcutForLinux ==
+Ctrl+G
+
+== PlasticBranchShortcutForWindows ==
+Ctrl+R
+
+== PlasticBranchShortcutForMacOS ==
+Cmd+R
+
+== PlasticBranchShortcutForLinux ==
+Ctrl+R
+
+== PlasticFindShortcutForWindows ==
+Ctrl+F
+
+== PlasticFindShortcutForMacOS ==
+Cmd+F
+
+== PlasticFindShortcutForLinux ==
+Ctrl+F
+
+== PlasticReplaceShortcutForWindows ==
+Ctrl+H
+
+== PlasticReplaceShortcutForMacOS ==
+Cmd+H
+
+== PlasticReplaceShortcutForLinux ==
+Ctrl+H
+
+== PlasticLabelShortcutForWindows ==
+Ctrl+E
+
+== PlasticLabelShortcutForMacOS ==
+Cmd+E
+
+== PlasticLabelShortcutForLinux ==
+Ctrl+E
+
+== PlasticSaveShortcutForWindows ==
+Ctrl+S
+
+== PlasticSaveShortcutForMacOS ==
+Cmd+S
+
+== PlasticSaveShortcutForLinux ==
+Ctrl+S
+
+== PlasticAnnotateShortcutForWindows ==
+Ctrl+T
+
+== PlasticAnnotateShortcutForMacOS ==
+Cmd+T
+
+== PlasticAnnotateShortcutForLinux ==
+Ctrl+T
+
+== PlasticHistoryShortcutForWindows ==
+Ctrl+H
+
+== PlasticHistoryShortcutForMacOS ==
+Cmd+Y
+
+== PlasticHistoryShortcutForLinux ==
+Ctrl+H
+
+== PlasticCheckinShortcutForWindows ==
+Ctrl+I
+
+== PlasticCheckinShortcutForMacOS ==
+Cmd+I
+
+== PlasticCheckinShortcutForLinux ==
+Ctrl+I
+
+== PlasticCheckoutShortcutForWindows ==
+Ctrl+O
+
+== PlasticCheckoutShortcutForMacOS ==
+Cmd+O
+
+== PlasticCheckoutShortcutForLinux ==
+Ctrl+O
+
+== PlasticUndoShortcutForWindows ==
+Ctrl+Z
+
+== PlasticUndoShortcutForMacOS ==
+Cmd+Z
+
+== PlasticUndoShortcutForLinux ==
+Ctrl+Z
+
+== PlasticRedoShortcutForWindows ==
+Ctrl+Y
+
+== PlasticRedoShortcutForMacOS ==
+Shift+Cmd+Z
+
+== PlasticRedoShortcutForLinux ==
+Ctrl+Y
+
+== PlasticCutShortcutForWindows ==
+Ctrl+X
+
+== PlasticCutShortcutForMacOS ==
+Cmd+X
+
+== PlasticCutShortcutForLinux ==
+Ctrl+X
+
+== PlasticPasteShortcutForWindows ==
+Ctrl+V
+
+== PlasticPasteShortcutForMacOS ==
+Cmd+V
+
+== PlasticPasteShortcutForLinux ==
+Ctrl+V
+
+== PlasticBinTypeShortcutForWindows ==
+Shift+Ctrl+B
+
+== PlasticBinTypeShortcutForMacOS ==
+Shift+Cmd+B
+
+== PlasticBinTypeShortcutForLinux ==
+Shift+Ctrl+B
+
+== PlasticTxtTypeShortcutForWindows ==
+Shift+Ctrl+T
+
+== PlasticTxtTypeShortcutForMacOS ==
+Shift+Cmd+T
+
+== PlasticTxtTypeShortcutForLinux ==
+Shift+Ctrl+T
+
+== PlasticNewFileShortcutForWindows ==
+Shift+Ctrl+N
+
+== PlasticNewFileShortcutForMacOS ==
+Shift+Cmd+N
+
+== PlasticNewFileShortcutForLinux ==
+Shift+Ctrl+N
+
+== PlasticNewDirectoryShortcutForWindows ==
+Shift+Ctrl+D
+
+== PlasticNewDirectoryShortcutForMacOS ==
+Shift+Cmd+D
+
+== PlasticNewDirectoryShortcutForLinux ==
+Shift+Ctrl+D
+
+== PlasticAddShortcutForWindows ==
+Shift+Ctrl+A
+
+== PlasticAddShortcutForMacOS ==
+Shift+Cmd+A
+
+== PlasticAddShortcutForLinux ==
+Shift+Ctrl+A
+
+== PlasticAddRecursiveShortcutForWindows ==
+Shift+Ctrl+R
+
+== PlasticAddRecursiveShortcutForMacOS ==
+Shift+Cmd+R
+
+== PlasticAddRecursiveShortcutForLinux ==
+Shift+Ctrl+R
+
+== PlasticSearchShortcutForWindows ==
+Ctrl+F
+
+== PlasticSearchShortcutForMacOS ==
+Cmd+F
+
+== PlasticSearchShortcutForLinux ==
+Ctrl+F
+
+== PlasticFindInFilesShortcutForWindows ==
+Shift+Ctrl+F
+
+== PlasticFindInFilesShortcutForMacOS ==
+Shift+Cmd+F
+
+== PlasticFindInFilesShortcutForLinux ==
+Shift+Ctrl+F
+
+== PlasticRefreshShortcutForWindows ==
+F5
+
+== PlasticRefreshShortcutForMacOS ==
+Cmd+R
+
+== PlasticRefreshShortcutForLinux ==
+F5
+
+== PlasticPreferencesShortcutForMacOS ==
+Cmd+,
+
+== BranchExplorerSearchFieldShortcutsTooltipForWindows ==
+Keyboard shortcuts:
+  Enter: focus the next search result
+  Ctrl+Enter: focus the previous one
+
+== BranchExplorerSearchFieldShortcutsTooltipForMacOS ==
+Keyboard shortcuts:
+  Enter: focus the next search result
+  Cmd+Enter: focus the previous one
+
+== BranchExplorerSearchFieldShortcutsTooltipForLinux ==
+Keyboard shortcuts:
+  Enter: focus the next search result
+  Ctrl+Enter: focus the previous one
+
+== DisableForcedCheckout ==
+Disable Manual Checkout for Unity Assets
+
+== EnableForcedCheckout ==
+Enable Manual Checkout for Unity Assets
+
+== StatusBarReady ==
+Ready
+
+== PendingMergeLinksCaption ==
+Los merge links pendientes se confirmarán cuando haga check-in de sus cambios o se desharán si usted deshace los cambios.
+
+== PendingMergeLinksCountSingular ==
+1 merge link pendiente
+
+== PendingMergeLinksCountPlural ==
+{0} merge links pendientes
+
+== NewReleaseProgressDownloading ==
+Descargando actualización - {0} / {1} ({2} restante)
+
+== NewReleaseProgressDownloadFinished ==
+Descarga completada. Listo para instalar.
+
+== NewReleaseProgressRestartAndUpgrade ==
+Nueva versión {0} lista para instalar
+
+== RestartAndUpgradeButton ==
+Reiniciar y Actualizar
+
+== ItemDeletedDialogTitle ==
+No se puede mostrar el item
+
+== ItemDeletedDialogMessageForMacOS ==
+El item ha sido eliminado o está siendo excluido por el filtro actual.
+
+== ItemDeletedDialogMessage ==
+El item de este comentario no se puede mostrar porque ha sido eliminado.
+
+== CannotConnectToWebadmin ==
+No se pudo conectar al servidor webadmin
+
+== MergeDiagramButton ==
+Diagrama de merge
+
+== GoToButton ==
+Ir a {0}
+
+== PlusMore ==
++{0} más
+
+== CheckoutChangesetComment ==
+El changeset seleccionado representa los cambios pendientes en su workspace. Aún no se ha hecho check-in en el repositorio.
+
+== NoIncomingChanges ==
+No incoming changes
+
+== WorkspaceIsUpToDate ==
+Workspace is up to date.
+
+== NoPendingChanges ==
+No pending changes
+
+== DarkTheme ==
+Tema oscuro
+
+== CheckinCompleted ==
+Check-in successfully completed
+
+== UndoCompleted ==
+Undo changes successfully completed
+
+== WorkspaceUpdateCompleted ==
+Workspace successfully updated
+
+== MainMenuView ==
+View
+
+== MainMenuActions ==
+Actions
+
+== MainMenuWindow ==
+Window
+
+== ActionsMenuCheckin ==
+Check in
+
+== ActionsMenuMerge ==
+Merge
+
+== ActionsMenuCreateBranch ==
+Create Branch
+
+== ActionsMenuCreateLabel ==
+Create Label
+
+== ActionsMenuSwitchTo ==
+Switch To
+
+== ActionsMenuCreateRepository ==
+Create Repository
+
+== ActionsMenuCreateWorkspace ==
+Create Workspace
+
+== ActionsMenuRefresh ==
+Refresh
+
+== MainMenuFile ==
+File
+
+== FileMenuNewFile ==
+New File
+
+== FileMenuNewDirectory ==
+New Directory
+
+== FileMenuSave ==
+Save
+
+== FileMenuClose ==
+Close
+
+== MainMenuEdit ==
+Edit
+
+== EditMenuUndo ==
+Undo
+
+== EditMenuRedo ==
+Redo
+
+== EditMenuFind ==
+Find
+
+== EditMenuReplace ==
+Replace
+
+== EditMenuFindFind ==
+Find…
+
+== EditMenuFindFindNext ==
+Find Next
+
+== EditMenuFindFindPrevious ==
+Find Previous
+
+== EditMenuFindUseSelection ==
+Use Selection for Find
+
+== EditMenuFindJumpToSelection ==
+Jump to Selection
+
+== EditMenuCut ==
+Cortar
+
+== EditMenuCopy ==
+Copy
+
+== EditMenuPaste ==
+Pegar
+
+== EditMenuDelete ==
+Borrar
+
+== EditMenuSelectAll ==
+Select All
+
+== EditMenuGoToLine ==
+Ir a línea...
+
+== SavingComment ==
+Guardando comentario...
+
+== DeletingComment ==
+Eliminando comentario...
+
+== AppMenuAbout ==
+About Unity DevOps Version Control
+
+== AppMenuAboutGluon ==
+About GluonX
+
+== AppMenuPreferences ==
+Preferences…
+
+== AppMenuPlasticWebsite ==
+Unity DevOps Version Control Website…
+
+== AppMenuSemanticMergeWebsite ==
+SemanticMerge Website…
+
+== NoComment ==
+No se ha establecido comentario
+
+== CannotGetComment ==
+No se puede obtener el comentario
+
+== CopiedToClipboard ==
+¡Copiado!
+
+== OpenOrCreateWorkspace ==
+Abrir o crear otro workspace...
+
+== ViewRepositories ==
+Ver repositorios...
+
+== InviteMembersTitle ==
+Invite members
+
+== InviteMembersMessage ==
+You cannot invite members to the organization because you are not the administrator.
+
+== CalculatingViewLayout ==
+Calculando disposición de la vista
+
+== SwitchToLegacyGui ==
+Cambiar a la GUI clásica
+
+== WelcomeToNewGui ==
+Bienvenido a la nueva GUI de Unity Version Control
+
+== WelcomeToNewGluonGui ==
+Bienvenido a la nueva GUI de Gluon
+
+== WelcomeToNewGuiFirstText ==
+Estás invitado a probar la nueva GUI de Unity VCS: un adelanto del trabajo que hemos estado haciendo para mejorar continuamente la experiencia de Unity VCS para todos los usuarios, independientemente del nivel de experiencia.
+
+== WelcomeToNewGluonGuiFirstText ==
+Estás invitado a probar la nueva GUI de Gluon: un adelanto del trabajo que hemos estado haciendo para mejorar continuamente la experiencia de Unity VCS para todos los usuarios, independientemente del nivel de experiencia.
+
+== WelcomeToNewGuiSecondText ==
+Esta versión es multiplataforma, incluye un tema oscuro y proporciona un mejor resaltado de sintaxis. ¡Pronto habrá muchas más mejoras, haznos saber lo que piensas!
+
+== WelcomeToNewGluonGuiSecondText ==
+Esta versión tiene todas las funcionalidades, es multiplataforma e incluye tema oscuro. También incluye soporte para changelists. ¡Haznos saber lo que piensas!
+
+== GetStartedButton ==
+¡Empecemos!
+
+== SwitchToLegacyGuiHelp ==
+Puedes cambiar a la GUI clásica desde aquí
+
+== ConfirmRevertToChangesetTitle ==
+Confirmación de volver atras
+
+== RevertToChangesetWarning ==
+Estas seguro de querer volver a este changeset?
+
+== ChangesetMenuItemRevertToChangeset ==
+Volver al changeset
+
+== UpdateReportTitle ==
+Informe de actualización
+
+== MoveToChangelist ==
+Mover a una lista de cambios
+
+== ChangelistNameEmpty ==
+El nombre de la lista de cambios no puede estar vacío
+
+== SignInToContinue ==
+Inicia sesión para continuar
+
+== SignInToOrganizationRequired ==
+Es necesario iniciar sesión en esta organización para ver sus repositorios.
+
+== SignIntoServer ==
+INICIAR SESIÓN
+
+== NotSignedIn ==
+No has iniciado sesión
+
+== SessionEnded ==
+La sesión ha terminado probablemente porque no ha habido actividad en esta cuenta.
+
+== SignInAgain ==
+INICIAR SESIÓN DE NUEVO
+
+== SomethingWentWrong ==
+Algo ha fallado
+
+== TryAgain ==
+PROBAR DE NUEVO
+
+== LoadingRepositoryTree ==
+Cargando árbol del repositorio...
+
+== DetailsHeader ==
+Detalles
+
+== Download ==
+Descargar
+
+== DownloadUpdate ==
+Descargar actualización
+
+== CalculatingSize ==
+Calculando tamaño del directorio...
+
+== OpenWorkspace ==
+Abrir workspace
+
+== OpenCloudDashboard ==
+Abrir dashboard de cloud
+
+== Accounts ==
+Cuentas
+
+== ManageAccounts ==
+Administrar cuentas
+
+== LocalServer ==
+Servidor local
+
+== DivergentMoveViewSource ==
+View content of the moved item
+
+== LoadedTwiceViewSource ==
+View content of the item loaded twice
+
+== CycleMoveConflictViewSource ==
+Ver contenido del item movido en origen
+
+== CycleMoveConflictViewDestination ==
+Ver contenido del item movido en destino
+
+== EvilTwinsConflictViewSource ==
+Ver contenido del item añadido en origen
+
+== EvilTwinsConflictViewDestination ==
+Ver contenido del item añadido en destino
+
+== MoveDeleteConflictViewSource ==
+Ver contenido del item movido en origen
+
+== MoveDeleteConflictViewDestination ==
+Ver contenido del item movido en destino
+
+== DeleteMoveConflictViewSource ==
+Ver contenido del item eliminado en origen
+
+== DeleteMoveConflictViewDestination ==
+Ver contenido del item movido en destino
+
+== MovedEvilConflictViewSource ==
+Ver contenido del item movido en origen
+
+== MovedEvilConflictViewDestination ==
+Ver contenido del item movido en destino
+
+== AddMoveConflictViewSource ==
+Ver contenido del item añadido en origen
+
+== AddMoveConflictViewDestination ==
+Ver contenido del item movido en destino
+
+== MoveAddConflictViewSource ==
+Ver contenido del item movido en origen
+
+== MoveAddConflictViewDestination ==
+Ver contenido del item añadido en destino
+
+== ChangeDeleteConflictViewSourceAdded ==
+Ver contenido del item añadido en origen
+
+== ChangeDeleteConflictViewSourceChanged ==
+Ver contenido del item modificado en origen
+
+== ChangeDeleteConflictViewDestination ==
+Ver contenido del item eliminado en destino
+
+== DeleteChangeConflictViewSource ==
+Ver contenido del item eliminado en origen
+
+== DeleteChangeConflictViewDestinationAdded ==
+Ver contenido del item añadido en destino
+
+== DeleteChangeConflictViewDestinationChanged ==
+Ver contenido del item modificado en destino
+
+== NoOrganizationTitle ==
+¿Aún no tienes una organización?
+
+== ClickButtonBelowToCreateOrg ==
+Haga click en el botón para crear una organización desde el Dashboard de Unity
+
+== OpenUnityDashboard ==
+Abrir el Dashboard de Unity
+
+== CreateNewOrganization ==
+Crear una nueva organización
+
+== CreateOrganizationNameLabel ==
+Nombre de la organización
+
+== CreateDatacenterLabel ==
+Datacenter
+
+== Organizations ==
+Organizaciones
+
+== NoRepositoryTitle ==
+¿Aún no tienes un repositorio?
+
+== CreateNewRepository ==
+Crear un nuevo repositorio
+
+== CreateRepositoryNameLabel ==
+Repositorio nombre
+
+== CreateWorkspaceNameLabel ==
+Espacio de trabajo nombre
+
+== CreateWorkspaceLocationLabel ==
+Ubicación
+
+== CreateWorkspaceCheckBoxLabel ==
+Crear un espacio de trabajo para este repositorio
+
+== CreateWorkspaceExplanation ==
+Un espacio de trabajo es su propia copia local de los elementos descargados de un repositorio. Contiene código fuente, documentos o cualquier otro archivo en el que desee realizar un seguimiento de todos los cambios.
+
+== CreateRepositoryExplanation ==
+Es repositorio se almacena en un servidor (local o remoto) y contiene el historial completo de un árbol de directorios en particular, incluidos todos los cambios de sus archivos y directorios, las etiquetas de revisión, los enlaces combinados y otros metadatos.
+
+== EmailWatermark ==
+Correo electrónico
+
+== PasswordWatermark ==
+Contraseña
+
+== ConfirmPasswordWatermark ==
+Confirmar contraseña
+
+== OrContinueWith ==
+O continuar con
+
+== UnityID ==
+Unity ID
+
+== WelcomeToPlasticSCMUnity ==
+Bienvenido a Unity Version Control - Parte de la familia de Unity
+
+== DontHaveOrganization ==
+¿No tienes una organización de Unity VCS?
+
+== ForgotPassword ==
+¿Olvidaste tu contraseña?
+
+== ConnectToOnPremiseServer ==
+Conectar a un servidor en línea
+
+== HowWillYouBeWorkingWithPlastic ==
+Cómo vas a usar Unity Version Control?
+
+== HowWillYouBeWorkingWithPlasticExplanation ==
+Independientemente de la selección, podrá cambiar entre el cliente Gluon y el cliente completo de Unity Version Control más tarde usando el menú de la esquina superior derecha.
+
+== PlasticProductDescription ==
+Necesito todas las funciones del control de versiones incluyendo ramas, merge y push/pull.
+
+== PlasticProductDetails ==
+Esta opción lanza el Client Unity Version Control con todas las funciones del control de versiones.
+
+== GluonProductDescription ==
+No necesito todas las funciones del control de versiones, sólo editar y hacer check in de cambios.
+
+== GluonProductDetails ==
+Esta opción lanza el Client Gluon, que no incluye funciones como ramas, y merge.
+
+== SwitchToGluon ==
+Cambiar a Gluon
+
+== SwitchToPlastic ==
+Cambiar a Unity VCS
+
+== DynamicWkspacesTitle ==
+Configuración de los Workspaces Dinámicos (Workspaces Virtuales)
+
+== DynamicWkspacesSummary ==
+Un Workspace Dinámico es espacio virtual controlado por Unity VCS donde solo se permite la descarga bajo demanda (potenciado por heurísticas para acelerar descargas de multiples ficheros).
+Es posible crear copias de enormes entornos trabajo, solamente consumiendo el espacio de los ficheros que realmente se van a utilizar.
+
+== DynamicWkspacesCurrently ==
+Workspaces Dinámicos estan actualmente
+
+== DynamicWkspacesInYourComputer ==
+en esta máquina
+
+== DynamicWkspacesTurnedOn ==
+habilitados
+
+== DynamicWkspacesTurnedOff ==
+deshabilitados
+
+== CodeEditorTitle ==
+Opciones del editor de código
+
+== CodeEditorFont ==
+Fuente del editor
+
+== CodeEditorTabs ==
+Tabs
+
+== CodeEditorColumnGuides ==
+Column guides
+
+== CodeEditorNoColumnGuides ==
+Ninguna guia de columna
+
+== CodeEditorConvertTabs ==
+Convertir tabs en espacios mientras se edita
+
+== CodeEditorViewWhitespaces ==
+Ver espacios en blanco
+
+== CodeEditorViewLineEndings ==
+Ver final de linea
+
+== CodeEditorRestoreToDefault ==
+Restaurar valores por defecto
+
+== TurnOn ==
+Habilitar
+
+== LearnMoreAboutDynamicWorkspaces ==
+Saber más acerca de los Workspaces Dinámicos
+
+== UsernameWatermark ==
+Nombre de usuario
+
+== WrongServer ==
+¿Servidor incorrecto?
+
+== GoBack ==
+Volver
+
+== ConnectToCloudServer ==
+Conectar a un servidor cloud
+
+== WrongAuthenticationMethod ==
+Quieres usar otro método de autenticación?
+
+== ConfirmDeleteAccountTitle ==
+Confirmar quitar cuenta
+
+== DeleteUserAccountConfirmMessage ==
+¿Estás seguro de que quieres quitar la cuenta {0}?
+
+== RemoveAccountButton ==
+Quitar cuenta
+
+== EditAccountButton ==
+Modificar cuenta
+
+== AddNewPlasticScmAccount ==
+Añadir una nueva cuenta de Unity VCS
+
+== BrowseRepositoryDialogExplanation ==
+Seleccione una ruta
+
+== EmptyRepositoryHeader ==
+El repositorio todavía está vacío
+
+== WorkspaceNotOnDisk ==
+<no está en disco>
+
+== OpeningRepository ==
+Abriendo repositorio
+
+== GoToLine ==
+Ir a línea
+
+== LineNumberRange ==
+Número de línea ({0} - {1}):
+
+== ShowNotification ==
+Mostrar Notificación
+
+== HideNotification ==
+Ocultar Notificación
+
+== NoCheckinComment ==
+<Sin comentario de check-in>
+
+== HistoryRevisionDetailsFormatString ==
+{0} {1} en {2} por {3}
+
+== HistoryHeaderDetailsStringFormat ==
+por {0} el {1}
+
+== ExpandCollapseComment ==
+Expandir/contraer comentario
+
+== OnBranch ==
+en la rama
+
+== HistoryDiffViewButton ==
+Ver diferencias
+
+== HistoryAnnotateButton ==
+Ver annotate
+
+== ThisItemWasMoved ==
+Éste ítem fue movido
+
+== MovedFromLabel ==
+Origen:
+
+== MovedToLabel ==
+Destino:
+
+== ThisItemWasDeleted ==
+Éste ítem fue borrado
+
+== IssueTrackersEmptyState ==
+Un workspace es necesario para poder configurar una extensión de issue tracker.
+
+== NoTaskControlBinded ==
+No vincular ramas o changesets de Unity VCS con ningun sistema de issue tracking
+
+== TaskControlBinded ==
+Vincular con este sistema de issue tracking:
+
+== TaskControlApplyBinding ==
+Aplicar vínculo a:
+
+== AllRepositories ==
+Repositorios
+
+== SelectedIssueTracker ==
+Issue tracker seleccionado: {0}
+
+== TestConnection ==
+Probar conexión
+
+== BindIssuesToBranches ==
+Vincular tareas a las ramas de Unity VCS (recomendado)
+
+== BindIssuesToChangesets ==
+Vincular tareas a los changesets de Unity VCS
+
+== IssueTrackerConnectionFailed ==
+La prueba de conexión ha fallado. Por favor, revise los valores introducidos. {0}
+
+== IssueTrackerNotLoaded ==
+No se pudo cargar la biblioteca de extensión asociada al issue tracker.
+
+== ChangesetColors ==
+Colores de changeset
+
+== SelectUsersDialogDescription ==
+Por favor, seleccione uno o más usuarios de la lista:
+
+== ClickToSetOtherName ==
+Click para fijar otro nombre
+
+== ClickToSetAlias ==
+Click para fijar alias
+
+== ByUser ==
+Por usuario
+
+== ByReplicationSource ==
+Por origen de réplica
+
+== UnsavedChanges ==
+Hay cambios no guardados
+
+== ViewChangesOrExit ==
+El workspace '{0}' tiene cambios no guardados. ¿Quieres ver los cambios, o salir sin guardar los?
+
+== ViewChanges ==
+Ver los cambios
+
+== ExitWithoutSaving ==
+Salir sin guardar
+
+== OperationInProgressOnWk ==
+Hay operacion en progreso en el workspace '{0}'.
+Espere a que termine, por favor.
+
+== ExitButton ==
+Salir
+
+== MergeLinkMissingChangeset ==
+changeset borrado (no se puede hacer check-in de este merge link)
+
+== NoCheckinCommentTitle ==
+Comentario en blanco
+
+== NoCheckinCommentMessage ==
+No se ha introducido ningún comentario para la operación de protección. ¿Desea continuar (ok) o volver atrás y especificar uno en el recuadro de comentarios (cancelar)?
+
+== DontAskMeAgain ==
+No preguntar de nuevo
+
+== ResetButton ==
+Resetear
+
+== OnlyThis ==
+Solo éste
+
+== ModifiedWithDate ==
+modificado {0}
+
+== SelectEntryToSeeDifferences ==
+Seleccione una entrada del historial para ver qué cambió
+
+== ShowRevisionsThatContainsMethod ==
+Mostrar solamente revisiones que contengan al elemento
+
+== ShowRevisionsWithChanges ==
+Mostrar solamente revisiones con cambios en el elemento
+
+== ShowFullFileDifferences ==
+Mostrar cambios de todo el fichero
+
+== ShowElementDifferences ==
+Mostrar solo cambios del elemento
+
+== LoadMore ==
+Cargar más
+
+== LoadMoreCount ==
+Cargar más ({0}/{1})
+
+== SemanticHistoryTitle ==
+Historia semántica de {0} en el fichero {1}
+
+== ElementNotFound ==
+No se ha encontrado el elemento
+
+== RevisionNotConnected ==
+No se puede procesar, faltan revisiones por replicar
+
+== ChangedMergeFromCs ==
+Cambiado en el origen y destino del merge (desde cs:{0})
+
+== NotChanged ==
+Sin cambios
+
+== Added ==
+Añadido
+
+== Changed ==
+Cambiado
+
+== MergeFromCs ==
+ en el origen del merge (desde cs:{0})
+
+== MovedOutScope ==
+Movido desde {0} hasta {1}
+
+== Renamed ==
+Renombrado de {0} a {1}
+
+== MovedDownPosition ==
+Movido {0} posiciones hacia abajo
+
+== MovedUpPosition ==
+Movido {0} posiciones hacia arriba
+
+== And ==
+ y {0}
+
+== PendingConflicts ==
+Conflictos a resolver ({0})
+
+== DiffConflictButton ==
+diferencias
+
+== ExplainMoveButton ==
+explicar mover
+
+== ViewConflictOnResultButton ==
+ver el resultado
+
+== ViewMoveSrcOnResultButton ==
+fuente en resultado
+
+== ViewMoveDstOnResultButton ==
+destino en resultado
+
+== ChangePositionButton ==
+cambiar de posición
+
+== TwoWayMergeButton ==
+2 vías
+
+== KeepDstChangesButton ==
+mantener el destino
+
+== KeepSrcChangesButton ==
+mantener la fuente
+
+== CodeReviewFiltersAll ==
+Todas las revisiones
+
+== CodeReviewFiltersPending ==
+Revisiones pendientes
+
+== CodeReviewFiltersCreatedByMe ==
+Creadas por mi
+
+== CodeReviewFiltersAssignedToMe ==
+Asignadas a mi
+
+== CodeReviewFiltersCustomQuery ==
+Usar una consulta personalizada
+
+== AnalyzeRefactorGroups ==
+Encontramos refactors automáticamente cuando hay menos de 50 ficheros. Puedes lanzarlo manualmente :)
+
+== AnalyzeRefactorGroupsButton ==
+Analizar refactors
+
+== CantAnalyzeRefactors ==
+No se puede analizar refactors: {0}
+
+== NoRefactorGroups ==
+No se detectó ningún refactor.
+
+== DetectedRefactorGroups ==
+Código movido entre ficheros detectado!
+
+== ShowButton ==
+Mostrar
+
+== HideButton ==
+Ocultar
+
+== DownloadingData ==
+Descargando datos
+
+== SemanticDifferencesCalculated ==
+Diferencias semánticas calculadas
+
+== ProcessingDifferences ==
+Procesando diferencias
+
+== RefactorGroupNode ==
+Grupo de Refactorización {0}
+
+== AnalyzingRefactors ==
+Analizando refactors...
+
+== WontDeleteOpenWorkspace ==
+El workspace '{0}' permanece abierto y no se puede eliminar
+
+== WontDeleteOpenWorkspaces ==
+Los siguientes workspaces permanecen abiertos y no se pueden eliminar:
+
+== WontDeleteRepositoryWithActiveWorkspace ==
+El repositorio '{0}' no se pudo eliminar porque lo esta utilizando un workspace abierto
+
+== WontDeleteRepositoriesWithActiveWorkspaces ==
+Los siguientes repositorios no se pudieron eliminar porque estan siendo utilizados por un workspace abierto:
+
+== LicenseExpiredLinkLabel ==
+Su licencia ha expirado. Puede comprar una licencia en [[http://www.plasticscm.com|plasticscm.com]]
+
+== ExtendedTrialLicenseExpiresTodayLinkLabel ==
+Su licencia de prueba expira hoy. Puede comprar una licencia en [[http://www.plasticscm.com|plasticscm.com]]
+
+== ExtendedTrialLicenseExpiresTomorrowLinkLabel ==
+Su licencia de prueba expira mañana. Puede comprar una licencia en [[http://www.plasticscm.com|plasticscm.com]]
+
+== ExtendedTrialLicenseExpiresInDaysLinkLabel ==
+Su licencia de prueba expira en {0} días. Puede comprar una licencia en [[http://www.plasticscm.com|plasticscm.com]]
+
+== TrialLicenseExpiresTodayLinkLabel ==
+Su licencia de prueba expira hoy. Puede obtener una licencia gratuita de 30 días para 5 usuarios registrándose en [[https://www.plasticscm.com/account/register|plasticscm.com]]. Son sólo 30 segundos!
+
+== TrialLicenseExpiresTomorrowLinkLabel ==
+Su licencia de prueba expira mañana. Puede obtener una licencia gratuita de 30 días para 5 usuarios registrándose en [[https://www.plasticscm.com/account/register|plasticscm.com]]. Son sólo 30 segundos!
+
+== TrialLicenseExpiresInDaysLinkLabel ==
+Su licencia de prueba expira en {0} días. Puede obtener una licencia gratuita de 30 días para 5 usuarios registrándose en [[https://www.plasticscm.com/account/register|plasticscm.com]]. Son sólo 30 segundos!
+
+== LicenseExpiresTodayLinkLabel ==
+Su licencia expira hoy. Visite [[http://www.plasticscm.com|plasticscm.com]] para extender su licencia
+
+== LicenseExpiresTomorrowLinkLabel ==
+Su licencia expira mañana. Visite [[http://www.plasticscm.com|plasticscm.com]] para extender su licencia
+
+== LicenseExpiresInDaysLinkLabel ==
+Su licencia expira en {0} dias. Visite [[http://www.plasticscm.com|plasticscm.com]] para extender su licencia
+
+== CannotConnectToServerLicense ==
+No se pudo conectar al servidor de Unity VCS. Volviendo a intentar...
+
+== LicenseFileFilter ==
+Licencia Unity VCS (*.lic)|lic
+
+== TrialLicenseWarningNonAdminPrompt ==
+El usuario actual no es administrador del servidor. Al obtener la licencia de evaluación extendida se mostrará un diálogo para seleccionar la ruta en la que desee almacenarla.
+
+== TrialLicenseSigningUpLabel ==
+Esperando un inicio de sesión válido...
+
+== DifferencesAdornerTooltip ==
+Haz click para ver las diferencias
+
+== UnchangedNameGroup ==
+Sin cambios
+
+== Usings ==
+Usings
+
+== BaseLabel ==
+base
+
+== SrcLabel ==
+Origen (sus cambios)
+
+== DstLabel ==
+Destino (tus cambios)
+
+== BaseTooltip ==
+el antecesor común, es la versión padre de los dos ficheros sobre los que estás haciendo el merge. Muestra cómo era el fichero orignalmente
+
+== SrcTooltip ==
+los cambios hechos en el código desde el que estás haciendo el merge (suyo). Muestra las diferencias entre la base y el contribuidor origen
+
+== DstTooltip ==
+los cambios en tu copia local (tuyo). Muestra las diferencias entre la base y el contribuidor destino
+
+== ChangeEditorFont ==
+Cambiar la fuente del editor...
+
+== FontSelection ==
+Selección de fuente
+
+== SelectAFont ==
+Seleccione una fuente
+
+== SelectFontExplanation ==
+Utilice el combo para seleccionar la fuente preferida. Puede visualizarla en el texto de ejemplo.
+
+== RestoreDefaultFont ==
+Fuente por defecto
+
+== BrExTooltipDetailsForCs ==
+por {0} el {1}
+
+== BrExTooltipDetails ==
+Creado por {0} el {1}
+
+== LoadingTooltipDetails ==
+Cargando detalles del tooltip...
+
+== ErrorLoadingTooltipDetails ==
+No se ha podido cargar el tooltip
+
+== PlasticZoomInShortcut ==
+ctrl++
+
+== PlasticZoomInNumPadShortcut ==
+ctrl+Add
+
+== PlasticZoomOutShortcut ==
+ctrl+-
+
+== PlasticZoomResetShortcut ==
+ctrl+D0
+
+== PlasticZoomResetNumPadShortcut ==
+ctrl+NumPad0
+
+== PlasticZoomInShortcutMacOS ==
+cmd++
+
+== PlasticZoomInNumPadShortcutMacOS ==
+cmd+Add
+
+== PlasticZoomOutShortcutMacOS ==
+cmd+-
+
+== PlasticZoomResetShortcutMacOS ==
+cmd+D0
+
+== PlasticZoomResetNumPadShortcutMacOS ==
+cmd+NumPad0
+
+== ZoomReset ==
+Resetear Zoom
+
+== Zoom ==
+Zoom
+
+== ZoomLevelLabel ==
+{0:0}%
+
+== UnityVCSIsEnabled ==
+Unity VCS está activado
+
+== UnityVCSIsDisabled ==
+Unity VCS está desactivado
+
+== DisableButton ==
+Desactivar
+
+== EnableButton ==
+Activar
+
+== DeletedRepositoryHeader ==
+Este repositorio es borrado
+
+== ShowDeletedRepositoriesToggle ==
+Mostrar repositorios borrados
+
+== ShowDeletedRepositoriesToggleExplanation ==
+Los repositorios borrados se mantienen durante 7 días en la nube. Durante ese período es posible recuperarlos. Después de este período se elimina automáticamente.
+
+== BrExTooltipTaskDetails ==
+Asignadas a {0}
+
+== BrExTooltipBranchDetails ==
+Rama creada por {0}
+
+== NewVersionWindowTitle ==
+¡Nueva versión disponible para actualizar!
+
+== ViewAllReleaseNotes ==
+Ver todas las release notes
+
+== ConfirmCancelDownloadTitle ==
+Cancelar descarga
+
+== ConfirmCancelDownloadMessage ==
+Se va a cancelar la descarga. ¿Está seguro?
+
+== MainSidebarCheckForUpdatesItem ==
+Buscar actualizaciones
+
+== NoNewVersionDescription ==
+No se encontraron nuevas actualizaciones.
+
+== NoNewVersionTitle ==
+Estas actualizado!
+
+== CheckingNewUpdates ==
+Buscando nuevas actualizaciones...
+
+== NothingCheckedForMerge ==
+No hay ningún cambio marcado. Por favor, marque al menos un cambio a aplicar.
+
+== UnityVersionControl ==
+Unity Version Control
+
+== UnityDevOpsVersionControl ==
+Unity DevOps Version Control
+
+== FindInFilesButton ==
+Buscar en ficheros
+
+== SearchWatermark ==
+Tecla su busceda aqui
+
+== AllFilesOption ==
+Todos los ficheros
+
+== CurrentFileOption ==
+El fichero actual
+
+== VisibleFilesOption ==
+Los ficheros visibles
+
+== BothRevisionsOption ==
+Origen y destino
+
+== SourceRevisionOption ==
+Origen
+
+== DestinationRevisionOption ==
+Destino
+
+== MatchCaseLabel ==
+Coincidir mayúsculas y minúsculas
+
+== FindFilesInLabel ==
+Buscar en
+
+== FindMatchesInLabel ==
+Buscar resultados en
+
+== FileExtensionLabel ==
+Extensiones
+
+== FileExtensionExample ==
+Ejemplo: .cs, .c, .html
+
+== FindInFilesStatusSingleResult ==
+1 resultado encontrado en 1 fichero por "{0}"
+
+== FindInFilesStatusSingleFile ==
+{0} resultados encontrados en 1 fichero por "{1}"
+
+== FindInFilesStatus ==
+{0} resultados encontrados en {1} ficheros por "{2}"
+
+== FindInFilesProgress ==
+Buscando... ({0}/{1}) {2}
+
+== FindInFilesCanceled ==
+Busceda cancelada
+
+== AllResultsSegment ==
+Todos
+
+== SourceSegment ==
+Origen
+
+== DestinationSegment ==
+Destinario
+
+== Executable ==
+Ejecutable
+
+== DiscoverNewCodeReviewExperience ==
+Descubre la nueva experiencia de Code Review con múltiples revisores en el
+
+== UnityDashboard ==
+Unity Dashboard
+
+== LoadingOrganizations ==
+Cargando organizaciones...

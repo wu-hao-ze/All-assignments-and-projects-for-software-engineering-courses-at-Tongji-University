@@ -1,0 +1,18 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="signInChoiceContainer" class="flex-container column main">
+        <VisualElement name="signUpContainer" class="row-reverse">
+            <Button name="signUpButton"/>
+            <Label name="signUpLabel"/>
+        </VisualElement>
+        <Button name="unityIDButton" class="sign-in-buttons">
+            <Image name="iconUnity" />
+        </Button>
+        <Button name="emailButton" class="sign-in-buttons">
+            <Image name="iconEmail" />
+        </Button>
+    </VisualElement>
+    <VisualElement class="footer">
+        <Label name="privacyStatementText" />
+        <Button name="privacyStatement" class="anchor" />
+    </VisualElement>
+</UXML>

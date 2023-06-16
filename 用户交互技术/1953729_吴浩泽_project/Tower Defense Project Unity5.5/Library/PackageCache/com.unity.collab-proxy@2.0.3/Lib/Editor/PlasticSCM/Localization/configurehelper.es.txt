@@ -1,0 +1,116 @@
+﻿== ConfiguringLanguage ==
+Configurando el idioma. Éstos son los idiomas disponibles
+
+== ChooseLanguage ==
+Seleccione un idioma (teclee un número)
+
+== YesAnswers ==
+si|s
+
+== YesOrNoDefaultYes ==
+[S/n]
+
+== YesOrNoDefaultNo ==
+[s/N]
+
+== ConfiguringEdition ==
+Unity VCS tiene dos ediciones: Enterprise para equipos grandes que necesitan escalabilidad, y Team para grupos de hasta 15 desarrolladores. Puede obtener más información acerca de las ediciones en plasticscm.com
+
+== ChooseEdition ==
+Seleccione la edición a instalar (type a number)
+
+== ConfiguringWorkingMode ==
+Configurando el modo de seguridad/usuarios. Éstos son los modos disponibles
+
+== ChooseWorkingMode ==
+Seleccione un modo (teclee un número)
+
+== NameWorkingMode ==
+Nombre
+
+== NameIdWorkingMode ==
+Nombre + ID
+
+== AdWorkingMode ==
+Active Directory
+
+== LdapWorkingMode ==
+LDAP
+
+== OIDCWorkingMode
+OpenID Connect
+
+== UpWorkingMode ==
+Usuario y contraseña
+
+== SSOWorkingMode ==
+Single Sign On
+
+== ConfiguringLdap ==
+Configurando la conexión con LDAP ...
+
+== ConfiguringUp ==
+Configure sus credenciales:
+
+== ConfiguringLicenseToken ==
+Configurando autorenovación para licencias de suscripción
+
+== LicenseToken ==
+Token de licencia [Pulse ENTER para omitir]
+
+== UpUserName ==
+Usuario
+
+== UpPassword ==
+Constraseña
+
+== LdapServer ==
+Servidor LDAP
+
+== LdapPort ==
+Puerto LDAP [389]
+
+== LdapDomain ==
+Dominio LDAP
+
+== LdapUser ==
+Nombre de usuario LDAP
+
+== LdapPassword ==
+Contraseña LDAP
+
+== MsgError ==
+Error: 
+
+== AvailableLdapTypes ==
+Tipos de servidor LDAP disponibles
+
+== ChooseType ==
+Seleccione su tipo de servidor (teclee un número)
+
+== InvalidOption ==
+Opción no válida. 
+
+== InvalidValue ==
+Valor no válido. 
+
+== InvalidParameter ==
+Parámetro no válido: {0}
+
+== InvalidLanguage ==
+Idioma no válido: {0}
+
+== InvalidWorkingModeConf ==
+Modo de seguridad/usuarios no válido: {0}
+
+== InvalidLdapType ==
+Tipo de servidor LDAP no válido: {0}
+
+== ParameterNotPresent ==
+El parámetro {0} no se ha especificado o no es válido
+
+== NoPortInRemotingFile ==
+No hay ningún puerto especificado en el fichero de configuración de remoting
+
+== InvalidPortNumber ==
+Número de puerto no válido: {0}

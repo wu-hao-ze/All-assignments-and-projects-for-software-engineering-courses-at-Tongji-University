@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.modules.umbra",
+    "version": "1.0.0",
+    "type": "module",
+    "displayName": "Umbra",
+    "description": "The Umbra module implements Unity's occlusion culling system. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html",
+    "icon": ".icon.png",
+    "dependencies": {
+
+    }
+}

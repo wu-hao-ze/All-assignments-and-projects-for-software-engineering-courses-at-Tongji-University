@@ -1,0 +1,945 @@
+﻿== MergetoolWindowTitle ==
+Unity Version Control 병합 툴
+
+== FirstConflictButtonTooltip ==
+첫 번째 충돌로 이동(Ctrl + Shift + -)
+
+== PrevConflictButtonTooltip ==
+이전 충돌(Ctrl + -)
+
+== NextConflictButtonTooltip ==
+다음 충돌(Ctrl + +)
+
+== LastConflictButtonTooltip ==
+마지막 충돌로 이동(Ctrl + Shift + +)
+
+== PrevNotAutomaticConflictButtonTooltip ==
+이전 비자동 충돌(Ctrl + PageUp)
+
+== NextNotAutomaticConflictButtonTooltip ==
+다음 비자동 충돌(Ctrl + PageDown)
+
+== PendingAutomaticConflictsLabel ==
+현재 충돌: {0}/{1}
+
+== PendingNonAutomaticConflictsLabel ==
+대기 중인 미해결: {0}/{1}
+
+== NonAutomaticConflictsLabelTooltip ==
+현재 미해결인 비자동 충돌
+
+== CurrentConflictLabelTooltip ==
+현재 병합 충돌
+
+== NonAutomaticConflictsNavigationTooltip ==
+현재 미해결인 충돌로 이동
+
+== AutomaticConflictsNavigationTooltip ==
+병합 충돌로 이동
+
+== AutomaticConflictMarkup ==
+현재 충돌은 <span foreground='green'>자동</span>입니다. 사용자 개입이 필요하지 않습니다.
+
+== NonAutomaticConflictMarkup ==
+현재 충돌은 <span foreground='red'>비자동</span>입니다. 위의 버튼을 클릭하거나 결과 파일을 편집하거나 해결됨으로 표시하여 해결하십시오.
+
+== NonAutomaticConflictMarkedAsResolvedMarkup ==
+현재 충돌은 <span foreground='green'>비자동</span>이며 사용자에 의해 이미 <span foreground='green'>해결</span>되었습니다.
+
+== MarkAsResolvedButton ==
+해결됨으로 표시
+
+== MarkAsUnresolvedButton ==
+미해결로 표시
+
+== WinMergetoolUsageTitle ==
+Mergetool 사용
+
+== WinMergetoolUsage ==
+사용법: mergetool [<diffOptions> | <mergeOptions>]
+
+    diffOptions: <generalFiles> [<generalOptions>]
+
+    mergeOptions: <generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] [<silent>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:            {-b | --base}=<filename> 
+        baseSymbolicName:    {-bn | --basesymbolicname}=<symbolicname>
+        automatic:           -a | --automatic
+        silent:              --silent
+        resultFile:          {-r | --result}=<filename>
+        mergeType:           {-m | --mergeresolutiontype}={onlyone | onlysrc | onlydst | try | forced}
+
+    generalFiles: <sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:          {-s | --source}=<filename>
+        srcSymbolicName:     {-sn | --srcsymbolicname}=<symbolicname>
+        destinationFile:     {-d | --destination}=<filename> 
+        dstSymbolicName:     {-dn | --dstsymbolicname}=<symbolicname>
+
+    generalOptions: [<defaultEncoding>] [<comparisonMethod>] [<fileType>] [<resultEncoding>]
+
+        defaultEncoding:     {-e | --encoding}={none |ascii | unicode | bigendian | utf7 | utf8}
+        comparisonMethod:    {-i | --ignore}={none | eol | whitespaces | eol&whitespaces}
+        fileType:            {-t | --filestype}={text/csharp | text/XML | text}
+        resultEncoding:      {-re | --resultencoding}={none |ascii | unicode | bigendian | utf7 | utf8}
+        progress:            {--progress}=현재 진행도를 나타내는 진행도 문자열(예: 1/8개 파일 병합 중)
+        extraInfoFile:       {--extrainfofile}=병합에 대한 추가 정보를 포함하는 파일의 경로
+
+    비고:
+          
+        -a | --automatic:    자동 병합 해결을 시도합니다.
+                             병합을 자동으로 해결할 수 없는 경우(사용자 상호작용 필요) 병합 툴이 표시됩니다.
+        --silent:            이 옵션은 --automatic 옵션과 함께 사용해야 합니다.
+                             병합을 자동으로 해결할 수 없는 경우 이 옵션으로 인해 툴에서
+                             0이 아닌 종료 코드를 즉시 반환합니다(병합 툴이 표시되지 않음).
+                             툴에서 자동으로 병합을 해결할 수 있는 경우 프로그램에서 종료 코드 0을 반환합니다.
+
+    예:
+
+        mergetool
+        mergetool -s=file1.txt -d=file2.txt
+        mergetool -s=file1.txt -b=file0.txt --destination=file2.txt
+        mergetool --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+        mergetool -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -e=utf7 -i=eol -t=text/csharp -m=onlyone
+        
+== BrowseForSaveFileTitle ==
+파일 저장
+
+== PendingUnsolvedConflicts ==
+파일에 아직 {0}개의 미해결 충돌이 있습니다.
+
+== FileChangedSinceSaved ==
+파일이 마지막으로 저장된 이후로 변경되었습니다.
+
+== SaveAndExitDialogButton ==
+저장 및 종료
+
+== ExitWithoutSavingButton ==
+저장하지 않고 종료
+
+== CloseButton ==
+닫기
+
+== OkButton ==
+확인
+
+== CancelButton ==
+취소
+
+== SourceHeaderButton ==
+소스 선택: '{0}'
+
+== SourceHeaderPressedButton ==
+소스 선택 해제: '{0}'
+
+== SourceHeaderButtonTooltip ==
+(Ctrl+1)
+
+== BaseHeaderButton ==
+베이스 선택: '{0}'
+
+== BaseHeaderPressedButton ==
+베이스 선택 해제: '{0}'
+
+== BaseHeaderButtonTooltip ==
+(Ctrl+2)
+
+== DestinationHeaderButton ==
+대상 선택: '{0}'
+
+== DestinationHeaderPressedButton ==
+대상 선택 해제: '{0}'
+
+== DestinationHeaderButtonTooltip ==
+(Ctrl+3)
+
+== ResultButton ==
+결과 선택
+
+== ResultPressedButton ==
+결과 선택 해제
+
+== ResultButtonTooltip ==
+(Ctrl+4)
+
+== SaveAndExitButton ==
+저장 및 종료
+
+== SaveAndExitTooltip ==
+결과 저장 및 Mergetool 닫기
+
+== SaveAsTooltip ==
+새 파일에 결과 저장
+
+== SaveButton ==
+저장
+
+== SaveButtonTooltip ==
+변경사항 저장(Ctrl+S)
+
+== SaveAsMenu ==
+다른 이름으로 저장...
+
+== MergeButton ==
+병합
+
+== KeepSrcMenu ==
+소스 기여자 유지 및 종료
+
+== KeepBaseMenu ==
+베이스 기여자 유지 및 종료
+
+== KeepDstMenu ==
+대상 기여자 유지 및 종료
+
+== SrcNeeded ==
+소스 파일 이름이 필요합니다
+
+== DstNeeded ==
+대상 파일 이름이 필요합니다
+
+== ResultNeeded ==
+자동 병합에서는 결과 파일 이름이 필요합니다
+
+== AutomaticNeeded ==
+비표시 모드에서는 자동 병합 옵션이 필요합니다
+
+== FileTypeError ==
+{0} 유형은 구문 강조표시에 유효한 파일 유형이 아닙니다
+
+== CompMethodError ==
+잘못된 비교 방법
+
+== ArgError ==
+지정된 인수가 유효하지 않습니다
+
+== SrcEncodingMenuTitle ==
+소스 인코딩
+
+== DstEncodingMenuTitle ==
+대상 인코딩
+
+== BaseEncodingMenuTitle ==
+베이스 인코딩
+
+== ResultEncodingMenuTitle ==
+결과 인코딩
+
+== SplitBlocksMenuTitle ==
+충돌 블록 분할
+
+== ComparisonMethodMenuTitle ==
+비교 방법
+
+== RecognizeAll ==
+모두 인식
+
+== IgnoreEol ==
+EOL 무시
+
+== IgnoreWhitespace ==
+공백 무시
+
+== IgnoreEolWhitespace ==
+EOL 및 공백 무시
+
+== EncodingDialogTitle ==
+인코딩 선택
+
+== EncodingDialogDescription ==
+문자 인코딩 선택
+
+== EncodingDialogLabel ==
+인코딩:
+
+== DefaultEncoding ==
+기본 인코딩:
+
+== ResultEncoding ==
+결과 인코딩:
+
+== NoneEncoding ==
+없음
+
+== AsciiEncoding ==
+ASCII
+
+== UnicodeEncoding ==
+Unicode
+
+== UnicodeBigEndianEncoding ==
+Unicode Big-Endian
+
+== Utf7Encoding ==
+UTF-7
+
+== Utf8Encoding ==
+UTF-8
+
+== OtherEncoding ==
+기타...
+
+== ChangeEncoding ==
+변경...
+
+== Options ==
+옵션
+
+== FindButton ==
+찾기...
+
+== MatchCase ==
+대소문자 일치
+
+== MergeResolutionOptionsTooltip ==
+병합 해결 옵션
+
+== MergeOptionsTooltip ==
+표시 및 계산 옵션
+
+== SyntaxHighlight ==
+구문 강조표시
+
+== FirstDiffButtonTooltip ==
+첫 번째 차이점
+
+== PrevDiffButtonTooltip ==
+이전 차이점
+
+== NextDiffButtonTooltip ==
+다음 차이점
+
+== LastDiffButtonTooltip ==
+마지막 차이점
+
+== FirstDiffButtonTooltipWithShortcut ==
+첫 번째 차이점(Ctrl + Shift + n)
+
+== PrevDiffButtonTooltipWithShortcut ==
+이전 차이점(Ctrl + n)
+
+== NextDiffButtonTooltipWithShortcut ==
+다음 차이점(Ctrl + m)
+
+== LastDiffButtonTooltipWithShortcut ==
+마지막 차이점(Ctrl + Shift + m)
+
+== CurrentDifference ==
+현재: {0}/{1}
+
+== LeftEncoding ==
+왼쪽 인코딩
+
+== RightEncoding ==
+오른쪽 인코딩
+
+== DifferencesWindowTitle ==
+차이점
+
+== AutomaticConflictChunk1 ==
+현재 충돌은 
+
+== AutomaticConflictChunk2 ==
+자동입니다
+
+== AutomaticConflictChunk3 ==
+. 사용자 개입이 필요하지 않습니다.
+
+== SolvedConflictChunk1 ==
+현재 충돌은 
+
+== SolvedConflictChunk2 ==
+비자동이며
+
+== SolvedConflictChunk3 ==
+사용자에 의해 
+
+== SolvedConflictChunk4 ==
+이미
+
+== SolvedConflictChunk5 ==
+ 해결되었습니다.
+
+== NonAutomaticConflictChunk1 ==
+현재 충돌은 
+
+== NonAutomaticConflictChunk2 ==
+비자동입니다
+
+== NonAutomaticConflictChunk3 ==
+. 위의 버튼을 클릭하거나 결과 파일을 편집하거나 해결됨으로 표시하여 해결하십시오.
+
+== PatternNotFound ==
+패턴을 찾을 수 없습니다
+
+== PreviousSearchButtonTooltip ==
+이전 일치 검색
+
+== NextSearchButtonTooltip ==
+다음 일치 검색
+
+== UnexpectedError ==
+예상치 못한 오류가 발생했습니다.
+
+== GoToLineMenuItem ==
+행으로 이동...
+
+== AddDiffSelectionMenuItem ==
+비교 선택사항 추가
+
+== DiffWithPreviousSelectionMenuItem ==
+이전 선택사항과 비교
+
+== FindMenuItem ==
+찾기...
+
+== FindNextMenuItem ==
+다음 찾기
+
+== FirstSelection ==
+첫 번째 선택사항
+
+== SecondSelection ==
+두 번째 선택사항
+
+== SemanticDiffMovedCode ==
+이동한 코드 비교...
+
+== SemanticGoToMovedCode ==
+이동한 코드로 이동
+
+== SemanticDiffChangedCode ==
+변경된 코드 비교...
+
+== SyncMovedCode ==
+상위로 이동한 코드 동기화
+
+== UnsyncMovedCode ==
+스크롤 위치 복원
+
+== OutliningMenu ==
+외곽선 처리
+
+== CollapseRegionsWithoutDiffsMenu ==
+차이점 없는 영역 접기
+
+== CollapseToDefinitionsMenu ==
+정의까지 접기
+
+== ExpandAllMenu ==
+모두 펼치기
+
+== Merged ==
+병합됨
+
+== LoadingAnnotations ==
+주석 로드 중...
+
+== AnnotateLineInfoChangeset ==
+체인지 세트
+
+== AnnotateLineInfoTimeStamp ==
+생성일
+
+== AnnotateLineInfoOwner ==
+소유자
+
+== AnnotateLineInfoComments ==
+코멘트
+
+== AnnotateColorByAuthor ==
+작성자별 색상
+
+== AnnotateColorByDate ==
+날짜별 색상
+
+== AnnotateContextMenu ==
+주석
+
+== AnnotateShowAuthor ==
+작성자 표시
+
+== AnnotateShowBranch ==
+브랜치 표시
+
+== AnnotateShowChangeInMerge ==
+병합 시 행 변경 여부 표시
+
+== AnnotateShowChangeset ==
+체인지 세트 표시
+
+== AnnotateShowDateModified ==
+수정된 날짜 표시
+
+== AnnotateShowLineAge ==
+행 수명 표시
+
+== BigFileMessage ==
+파일이 상당히 큽니다. 차이점 계산에 시간이 걸릴 수 있습니다. 이 파일의 차이점을 계산하려면 버튼을 클릭하십시오.
+
+== CalculateDifferencesButton ==
+차이점 계산
+
+== BranchChanges ==
+브랜치 변경사항
+
+== BranchChangesTooltip ==
+브랜치 변경사항 강조표시
+
+== ConflictChanges ==
+충돌 변경사항
+
+== ConflictChangesTooltip ==
+병합하는 동안 사용자가 해결한 충돌이 있는 변경사항 강조표시
+
+== MergedChanges ==
+병합된 변경사항
+
+== MergedChangesTooltip ==
+병합으로 인한 변경사항 강조표시
+
+== CaseSensitiveCheckBox ==
+대소문자 일치
+
+== ColorsConfigurationMenuItem ==
+폰트 및 색상 구성...
+
+== ComparisonMethodMenuItem ==
+비교 방법
+
+== ComparisonMethodIgnoreEolMenuItem ==
+EOL 무시
+
+== ComparisonMethodIgnoreWhitespacesMenuItem ==
+공백 무시
+
+== ComparisonMethodIgnoreEolWhitespacesMenuItem ==
+EOL 및 공백 무시
+
+== ComparisonMethodRecognizeAllMenuItem ==
+모두 인식
+
+== Content ==
+{0}의 콘텐츠
+
+== CopyToClipboard ==
+클립보드로 복사
+
+== DiffWaitingAnimation ==
+차이점 계산 중...
+
+== DiscardButton ==
+폐기
+
+== DiscardButtonTooltip ==
+변경사항 폐기
+
+== EditorOptions ==
+편집기 옵션
+
+== EditorOptionsConvertTabsToSpaces ==
+편집 중에 탭을 공백으로 변환
+
+== EditorOptionsWhistespaces ==
+공백 보기
+
+== EditorOptionsTabs ==
+탭
+
+== EditorOptionsTabsSpacesNumber ==
+공백 {0}개
+
+== EditorOptionsColumnGuides ==
+열 안내선
+
+== EditorOptionsColumnsNumber ==
+열 {0}개
+
+== EditorOptionsBorderLines ==
+선택하지 않은 영역의 경계선 보기
+
+== EncodingDifferences ==
+{0}에서 {1}(으)로 인코딩이 변경되었습니다.
+
+== FsProtectionDifferences ==
+파일 시스템 권한이 {0}에서 {1}(으)로 변경됨
+
+== UnableCalculateDiffs ==
+차이점을 계산할 수 없습니다.
+
+== HideUnchanged ==
+변경되지 않은 사항 숨기기
+
+== HideUnchangedTooltip ==
+변경된 선언만 표시
+
+== ShowUnchanged ==
+변경되지 않은 사항 표시
+
+== ShowUnchangedTooltip ==
+전체 파일 트리를 표시하므로 모든 선언을 확인할 수 있음
+
+== GroupUnchanged ==
+변경되지 않은 사항 그룹화
+
+== GroupUnchangedTooltip ==
+변경된 선언을 표시하고 나머지 선언은 단일 미변경 그룹으로 구성
+
+== ZoomIn ==
+확대
+
+== ZoomInTooltip ==
+그림 확대 - Ctrl 키를 누른 채로 스크롤 휠을 사용해도 됨
+
+== ZoomOut ==
+축소
+
+== ZoomOutTooltip ==
+그림 축소 - Ctrl 키를 누른 채로 스크롤 휠을 사용해도 됨
+
+== ErrorSavingFile ==
+파일을 저장하는 중에 오류가 발생했습니다: {0}
+
+== Find ==
+찾기:
+
+== FindCloseButtonTooltip ==
+검색 바 닫기
+
+== FindPreviousButtonTooltip ==
+이전 일치 검색
+
+== FindNextButtonTooltip ==
+다음 일치 검색
+
+== MovedDetectionMenuItem ==
+이동 감지
+
+== MovedDetectionDialogMenuItem ==
+이동 감지...
+
+== EnableMoveDetectionMenuItem ==
+이동 감지 활성화
+
+== MoveDetectionRatio ==
+이동 감지 비율
+
+== MinimumLinesInDifference ==
+차이점의 최소 행 수
+
+== MaximizeButtonLeftTooltip ==
+왼쪽 패널 최대화
+
+== MaximizeButtonRightTooltip ==
+오른쪽 패널 최대화
+
+== RestoreButtonLeftTooltip ==
+왼쪽 패널 복원
+
+== RestoreButtonRightTooltip ==
+오른쪽 패널 복원
+
+== OutliningPreferencesTitle ==
+외곽선 처리 기본 설정
+
+== OutliningPreferencesCaption ==
+외곽선 처리 기본 설정
+
+== OutliningPreferencesDetails ==
+파일 로드 시 선호하는 외곽선 처리 모드를 선택
+
+== OutliningPreferencesExplanation ==
+파일 로드 후 다음 외곽선 처리 모드 사용:
+
+== OutliningPreferencesCollapseWithoutDiffs ==
+차이점 없는 영역 접기
+
+== OutliningPreferencesCollapseToDefinitions ==
+정의까지 접기
+
+== OutliningPreferencesExpandAll ==
+모두 펼치기
+
+== NavigationTooltip ==
+이동한 단편으로 이동
+
+== XDiffTooltip ==
+이동한 단편의 차이점을 나란히 표시
+
+== XDiffFragment ==
+[단편]
+
+== FontsAndColorsMenuItem ==
+폰트 및 색상
+
+== FontDoesNotSupportStrikeout ==
+{0} 폰트는 애플리케이션에서 사용하는 취소선 스타일을 지원하지 않습니다. 다른 폰트를 선택하십시오.
+
+== ChangeFontMenuItem ==
+폰트 변경...
+
+== LeftDiffColorMenuItem ==
+왼쪽 차이점 색상
+
+== RightDiffColorMenuItem ==
+오른쪽 차이점 색상
+
+== RestoreDefaultsMenuItem ==
+기본값 복원
+
+== FilesIdentical ==
+파일이 동일합니다.
+
+== AddDiffSelection ==
+비교 선택사항 추가
+
+== DiffWithPreviousSelection ==
+이전 선택사항과 비교
+
+== DiffSourceWithBase ==
+베이스 및 소스 기여자 비교
+
+== DiffDestinationWithBase ==
+베이스 및 대상 기여자 비교
+
+== DiffDestinationWithSource ==
+소스 및 대상 기여자 비교
+
+== Encoding ==
+인코딩
+
+== FontMenuItem ==
+폰트
+
+== DuplicatedArg ==
+인수 {0}이(가) 중복됩니다.
+
+== MergeTypeError ==
+{0}은(는) 유효한 병합 해결 유형이 아닙니다
+
+== MergeExplanation ==
+이 옵션은 베이스, 소스, 대상 파일을 포함하는 3단계 병합 툴을 실행합니다. 이때 다른 파일에 결과를 저장할 수 있습니다.
+
+== DifferencesExplanation ==
+이 옵션은 시각적인 텍스트 파일 비교 툴을 실행합니다. 파일 간의 텍스트 차이점을 확인하려면 두 파일을 선택하십시오.
+
+== XMergeNoChanges ==
+Xmerge 결과가 비어 있습니다. 변경사항이 실행되지 않습니다.
+
+== XMergeConfirmationMessage ==
+Xmerge 결과가 선택사항을 대체하며 비자동 충돌이 제거됩니다. 계속하시겠습니까?
+
+== SourceDesc ==
+소스(병합할 코드)
+
+== SourceLoc ==
+소스에서
+
+== DestinationDesc ==
+대상(작업 복사본)
+
+== DestinationLoc ==
+대상에서
+
+== HowXMergeFormat ==
+병합 충돌이 있지만 {0}이(가) 더 이상 해당 위치에 없습니다.
+
+이러한 경우라면 어떤 개발자가 코드 조각({1})을 이동했고 다른 개발자가 원래 위치의 해당 코드 조각({2})을 수정했을 가능성이 높습니다.
+
+== UnauthorizedAccessFile ==
+권한이 없으므로 '{0}' 파일을 저장할 수 없습니다. 다른 경로에 파일을 저장할 수 있습니다.
+
+== AutomaticConflictMarkup1 ==
+현재 충돌은 
+
+== AutomaticConflictMarkup2 ==
+자동입니다
+
+== AutomaticConflictMarkup3 ==
+. 사용자 개입이 필요하지 않습니다.
+
+== SolvedConflictMarkup1 ==
+현재 충돌은 
+
+== SolvedConflictMarkup2 ==
+비자동이며
+
+== SolvedConflictMarkup3 ==
+ 사용자에 의해 
+
+== SolvedConflictMarkup4 ==
+이미
+
+== SolvedConflictMarkup5 ==
+ 해결되었습니다.
+
+== NonAutomaticConflictMarkup1 ==
+현재 충돌은 
+
+== NonAutomaticConflictMarkup2 ==
+비자동입니다
+
+== NonAutomaticConflictMarkup3 ==
+. 위의 버튼을 클릭하거나 결과 파일을 편집하거나 해결됨으로 표시하여 해결하십시오.
+
+== MarkAsResolvedExplanation ==
+아래 3개 버튼을 사용해 결과 파일로 이동할 기여자(소스, 베이스 또는 대상)를 선택하십시오. 아니면 제시된 결과가 이미 바람직한 경우 \"해결됨으로 표시\"를 클릭하십시오
+
+== MarkAsUnresolvedButton ==
+미해결로 표시
+
+== SourceFileName ==
+소스 파일: {0}
+
+== BaseFileName ==
+베이스 파일: {0}
+
+== DestinationFileName ==
+대상 파일: {0}
+
+== RestoreButtonSrcTooltip ==
+소스 패널 복원
+
+== RestoreButtonBaseTooltip ==
+베이스 패널 복원
+
+== RestoreButtonDstTooltip ==
+대상 패널 복원
+
+== RestoreButtonResultTooltip ==
+결과 패널 복원
+
+== MaximizeButtonSrcTooltip ==
+소스 패널 최대화
+
+== MaximizeButtonBaseTooltip ==
+베이스 패널 최대화
+
+== MaximizeButtonDstTooltip ==
+대상 패널 최대화
+
+== MaximizeButtonResultTooltip ==
+결과 패널 최대화
+
+== PendingNonAutomatic ==
+해결 대기 중: {0}/{1}
+
+== PreviousConflictButtonTooltip ==
+이전 충돌(Ctrl+-)
+
+== PreviousUnsolvedConflictButtonTooltip ==
+이전 비자동 충돌(Ctrl+PageUp)
+
+== NextUnsolvedConflictButtonTooltip ==
+다음 비자동 충돌(Ctrl+PagDown)
+
+== OptionsButton ==
+옵션
+
+== BaseEncodingMenuItem ==
+베이스 인코딩
+
+== SrcEncodingMenuItem ==
+소스 인코딩
+
+== DstEncodingMenuItem ==
+대상 인코딩
+
+== ResultEncodingMenuItem ==
+결과 인코딩
+
+== SplitMenuItem ==
+충돌 블록 분할
+
+== XmergeButton ==
+XMerge...
+
+== XmergeButtonTooltip ==
+XMerge 마법사 실행
+
+== XmergeMenuItem ==
+XMerge...
+
+== XmergeNoTextSelected ==
+선택된 텍스트가 없습니다. Xmerge를 실행할 수 없습니다.
+
+== XmergeNotEnoughInfo ==
+XMerge 실행에 필요한 정보가 부족합니다
+
+== XmergeRemovedTextSelected ==
+선택된 행이 제거됩니다. Xmerge 선택사항으로 유효하지 않습니다.
+
+== XmergeStartTip ==
+이 창에서는 이동 및 수정한 코드 단편이 표시됩니다. 이동한 코드는 {0}({1})에 있습니다. {2}({3})에는 수정된 코드가 이동하기 전에 수정된 코드가 있습니다. 남아 있는 수동 충돌을 해결하고 \"저장 및 종료\"를 클릭하십시오.
+
+== UnsolvedPendingConflicts ==
+파일에 아직 {0}개의 미해결 충돌이 있습니다.
+
+== ChangedFile ==
+파일이 마지막으로 저장된 이후로 변경되었습니다.
+
+== MergeWaitingAnimation ==
+충돌 계산 중입니다. 잠시 기다려 주십시오...
+
+== SaveAsButton ==
+다른 이름으로 저장...
+
+== SaveBaseContributor ==
+베이스 기여자 유지 및 종료
+
+== SaveDstContributor ==
+대상 기여자 유지 및 종료
+
+== SaveSrcContributor ==
+소스 기여자 유지 및 종료
+
+== ExtraInfoButton ==
+이 병합에 대한 정보
+
+== ExtraInfoButtonTooltip ==
+이 병합에 대한 정보를 패널에 표시
+
+== Left ==
+왼쪽
+
+== Right ==
+오른쪽
+
+== SourceContributor ==
+소스 기여자
+
+== DestinationContributor ==
+대상 기여자
+
+== MovedCode ==
+이동한 코드 조각.
+
+== ModifiedCode ==
+원래 위치의 수정된 코드 조각.
+
+== OriginalCode ==
+원래 코드 조각.
+
+== ResultFile ==
+결과 파일
+
+== AnnotateOptions ==
+옵션 주석 달기
+
+== Copy ==
+복사
+
+== Cut ==
+잘라내기
+
+== Paste ==
+붙여넣기
+
+== SelectAll ==
+모두 선택
+
+== FileTooLargeToDisplay ==
+내용을 표시하기에 파일이 너무 큽니다.
+
+== BinMergeToolUnsupportedFileTypeForDiff ==
+바이너리 비교를 지원하지 않는 파일입니다. 이미지만 지원됩니다

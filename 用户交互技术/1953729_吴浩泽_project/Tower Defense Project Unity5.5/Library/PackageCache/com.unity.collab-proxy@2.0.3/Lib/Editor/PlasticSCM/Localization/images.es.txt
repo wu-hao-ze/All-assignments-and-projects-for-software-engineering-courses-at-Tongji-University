@@ -1,0 +1,29 @@
+== FsPropertiesName ==
+Nombre
+
+== FsPropertiesFullPath ==
+Ruta
+
+== FsPropertiesAttributes ==
+Atributos
+
+== FsPropertiesDirectory ==
+Directorio
+
+== FsPropertiesSize ==
+Tamaño
+
+== FsPropertiesCreated ==
+Creado
+
+== FsPropertiesModified ==
+Modificado
+
+== FsPropertiesLastAccess ==
+Último acceso
+
+== FsPropertiesFileAttributes ==
+Atributos
+
+== PreviewRequestError ==
+Error al cargar vista previa: 

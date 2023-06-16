@@ -1,0 +1,5 @@
+{
+	"displayName": "Customization Samples",
+	"description": "This sample demonstrates how to create custom timeline tracks, clips, markers and actions.",
+	"createSeparatePackage": false
+}

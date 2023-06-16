@@ -1,0 +1,54 @@
+﻿== Error ==
+錯誤
+
+== NoResultFileSelected ==
+尚未選取任何結果檔案
+
+== UsageCaption ==
+用法
+
+== Usage ==
+用法：binmergetool <mergeOptions>
+
+    mergeOptions:<generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:             {-b | --base}=<filename>
+        baseSymbolicName:     {-bn | --basesymbolicname}=<symbolicname>
+        automatic:            -a | --automatic
+        resultFile:           {-r | --result}=<filename>
+        mergeType:            {-m | --mergeresolutiontype}={onlyone | onlysrc | onlydst | try | forced}
+
+    generalFiles:<sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:           {-s | --source}=<filename>
+        srcSymbolicName:      {-sn | --srcsymbolicname}=<symbolicname>
+        destinationFile:      {-d | --destination}=<filename>
+        dstSymbolicName:      {-dn | --dstsymbolicname}=<symbolicname>
+        
+    範例：
+        
+        binmergetool -s=file1.txt -d=file2.txt
+        binmergetool -s=file1.txt -b=file0.txt --destination=file2.txt
+        binmergetool --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+        binmergetool -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -m=onlyone
+
+== DiffRequiresTwoArguments ==
+差異需要兩個檔案，而且只需要兩個檔案
+
+== UnsupportedFileTypeForDiff ==
+二進位差異比對不支援的檔案類型。僅支援影像 (JPEG、PNG、GIF、BMP)
+
+== SaveChanges ==
+您是否想要將變更儲存到結果檔案?
+
+== ExitPrompt ==
+退出
+
+== CantLoadImage ==
+無法載入影像 '{0}'。
+
+== NoArguments ==
+未指定引數
+
+== UsageHint ==
+使用 [binmergetool -?] 顯示此公用程式的其他說明

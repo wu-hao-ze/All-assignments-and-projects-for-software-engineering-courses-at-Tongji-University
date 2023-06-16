@@ -1,0 +1,42 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="container">
+        <Label name="plasticConfigurationTitle" />
+        <Label name="plasticConfigurationExplanation" class="sub-section" />
+    </VisualElement>
+    <VisualElement class="container">
+        <VisualElement class="sub-section">
+            <Label name="configurationServerInfo"></Label>
+            <VisualElement name="configurationServerInfoSection">
+                <VisualElement class="flex-container row">
+                    <TextField name="serverTextField" class="grow" />
+                    <Button name="connect" />
+                </VisualElement>
+                <VisualElement class="flex-container row">
+                    <Toggle name="useSslToogle" />
+                    <Label name="useSsl" />
+                </VisualElement>
+                <VisualElement>
+                    <Label name="connectedLabel" class="hide" />
+                </VisualElement>
+            </VisualElement>
+            <Label name="configurationUserNameInfo" />
+            <Label name="configurationCredentialsInfo" class="collapse" />
+            <VisualElement class="flex-container row">
+                <TextField name="userTextField" class="credentials" />
+                <TextField name="passwordTextField" class="credentials collapse" />
+                <Button name="check" />
+                <VisualElement name="credentialsPadding" class="grow" />
+            </VisualElement>
+            <Label name="credentialsOk" class="hide" />
+            <VisualElement class="flex-container row">
+                <VisualElement name="spinnerContainer" class="hide"/>
+                <Label name="spinnerLabel" class="hide"/>
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="container flex-container row last">
+        <VisualElement class="grow"></VisualElement>"
+        <Button name="okButton" />
+        <Button name="cancelButton" />
+    </VisualElement>
+</UXML>

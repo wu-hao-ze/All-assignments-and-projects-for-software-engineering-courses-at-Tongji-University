@@ -1,0 +1,31 @@
+@import "Base.uss";
+
+#TabView,
+#ContentArea {
+    height: 100%;
+}
+
+#TabArea {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.tab-button {
+    padding-bottom: 2px;
+    margin-bottom: 0px;
+    border-width: 0px;
+    border-radius: 0px;
+
+    font-size: 15px;
+    background-color: rgba(1, 1, 1, 0);
+}
+
+#TabArea .tab-button:hover {
+    border-bottom-color: #2196F3;
+    border-bottom-width: 0.25px;
+}
+
+#TabArea .tab-button.active {
+    border-bottom-color: #2196F3;
+    border-bottom-width: 1.5px;
+}

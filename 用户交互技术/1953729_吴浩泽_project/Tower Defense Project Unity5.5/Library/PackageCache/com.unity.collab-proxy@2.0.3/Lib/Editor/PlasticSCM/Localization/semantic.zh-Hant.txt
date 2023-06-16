@@ -1,0 +1,643 @@
+﻿== Base ==
+基底
+
+== ChangedResultFile ==
+您是否想要儲存結果檔案?
+
+== ChangedDestinationFile ==
+您是否想要儲存目的地檔案?
+
+== CloseButton ==
+關閉
+
+== ConfiguredStatus ==
+已設定!
+
+== NotConfigureStatus ==
+未設定
+
+== Destination ==
+目的地
+
+== ErrorAutomaticOptionNeeded ==
+在無訊息模式中，需要自動合併選項
+
+== ErrorComparisonMethod ==
+無效的比較方法
+
+== ErrorConflictCanNotBeApplied ==
+無法套用衝突解決，因為它取決於其他衝突的解決。請嘗試以不同的順序解決衝突。衝突解決傳回下列錯誤:{0}
+
+== ErrorContributorsMustBeSpecified ==
+必須指定貢獻者
+
+== ErrorEncoding ==
+無法識別指定的編碼 ({0})
+
+== ErrorExecutingExternalDiffTool ==
+執行外部差異比對工具時發生錯誤:
+
+== ErrorExecutingExternalMergeTool ==
+執行外部合併工具時發生錯誤:
+
+== ErrorExecutingExternal2WayMergeTool ==
+執行外部雙向合併工具時發生錯誤:
+
+== ErrorFileTitleType ==
+糟糕!我們尚不支援您的語言!
+
+== ErrorFileType ==
+SemanticMerge 收到下列檔案:{0}.
+檔案副檔名不視為支援的語言。
+您可以執行預設的文字型 {1} 工具。
+
+請注意: 若您知道這些檔案包含支援的語言，請查看如何在 SemanticMerge 中使用 -l 參數。
+
+== ErrorJVMNotAvailableTitle ==
+糟糕!找不到 JVM - 這是剖析您的檔案所必備
+
+== ErrorJVMNotAvailable ==
+SemanticMerge 需要有效的可用 JVM 安裝
+才能剖析您的 {0} 檔案。
+
+您可以改執行預設的文字型 {1} 工具。
+    
+== ErrorNumberOfContributorsDoesNotMatch ==
+貢獻者的人數不符
+
+== ErrorTabSpaces ==
+無效的定位字元空格
+
+== ErrorVersionControl ==
+設定的版本控制無效
+
+== OpenDialogFilterForExecutableFile ==
+可執行檔 (*.exe)|*.exe
+
+== OpenDialogTitleForConfigFile ==
+瀏覽設定檔
+
+== OpenDialogTitleForExecutableFile ==
+瀏覽可執行檔
+
+== PlasticSCMConfigurationNotification ==
+變更要等到您重新開啟 Unity VCS GUI 才會生效
+
+== RestartMergeWithConfigChangesMessage ==
+為了套用新儲存的設定，必須重新啟動合併。
+
+== RestartDiffWithConfigChangesMessage ==
+為了套用新儲存的設定，必須重新啟動差異比對。
+
+== RestartMergeQuestion ==
+您已經解決 {0} 個衝突，這些衝突將遺失。您確定要重新啟動合併?
+
+== ResultNeeded ==
+必須指定結果檔案路徑
+
+== Source ==
+來源
+
+== UnsolvedPendingConflicts ==
+檔案仍有 {0} 個未解決的衝突。
+
+== UnexpectedError ==
+發生未預期的錯誤。
+
+== Usage ==
+      用法：semanticmerge [<configureversioncontrol> | <mergeOptions>]
+
+      configureversioncontrol:{--configure-version-control}=<versioncontrolkey>
+            versioncontrolkey:{plasticscm | git}
+
+      mergeOptions:<檔案> [-a|--automatic] [--silent] [--merge-decl] [--process-all-merges]
+                    [--nolangwarn] [--nostructurewarn] [--include-format-change] [--log-external-parser]
+                    [<contributorSymbolicNames>] [<generalOptions>]
+                    [<contributorExtendedInfo>]
+
+      檔案:{<sortedFiles> | <unsortedFiles>}
+            sortedFiles:<filename1> <filename2> <filename3> <filename4> <fileparamorder>
+                  fileparamorder:{-fpo | --fileparamorder}=<以分號分隔的按鍵清單>
+                                     預設值為 --fileparamorder=s;d;b;r
+
+            unsortedFiles:<sourceFile> <destinationFile> <baseFile> <resultFile>
+                  sourceFile:{-s | --source}=<filename>
+                  destinationFile:{-d | --destination}=<filename>
+                  baseFile:{-b | --base}=<filename>
+                  resultFile:{-r | --result}=<filename>
+
+      -a | --automatic:自動合併而無須使用者操作，除非找到衝突。
+
+      --silent:此選項必須搭配 --automatic 選項使用。
+                               當無法自動解決合併時，此選項會導致工具立即傳回
+                               非零退出碼 (不顯示 Semanticmerge 工具)。
+                               如果工具能夠自動解決合併，則程式會傳回退出碼 0。
+
+      --merge-decl:自動合併盡可能多的宣告*。
+
+      --process-all-merges:自動合併盡可能多的宣告*並
+                               針對每個非自動合併宣告執行外部文字型工具。
+
+        *宣告是陳述式，定義任何支援的語意元素:類別、方法、屬性等。
+         視元素類型而定 (例如類別、方法)，其中包含實作元素的本文。
+
+      --nolangwarn:當語言不受支援時，直接執行外部文字型工具。
+
+      --nostructurewarn:若找到結構錯誤，直接執行外部文字型工具。
+
+      --include-format-change:包含僅修改縮排和 EOL 的變更。
+                               這包括在每行開頭的空白字元和定位字元間的差異以及
+                               EOL 中的差異。當中也包括在宣告開頭的空白行。
+                               預設會忽略所有這些差異，以簡化合併/差異比對。
+
+      --log-external-parser:啟用將檔案內容記錄到偵錯外部剖析器。
+
+      contributorSymbolicNames:<srcSymbolicName> <dstSymbolicName> <baseSymbolicName>
+            srcSymbolicName:{-sn | --srcsymbolicname}=<symbolicname>
+            dstSymbolicName:{-dn | --dstsymbolicname}=<symbolicname>
+            baseSymbolicName:{-bn | --basesymbolicname}=<symbolicname>
+
+      generalOptions:[<defaultEncoding>] [<resultEncoding>] [<fileLanguage>] [<virtualMachine>]
+                      [<externalMergeTool>] [<external2WayMerge>] [<externalDiffTool>]
+                      [<tabSpaces>] [<extrainfofile>] [<progress>]
+            defaultEncoding:{-e | --defaultencoding}=<encoding>
+            resultEncoding:{-re | --resultencoding}=<encoding>
+                  encoding:{ascii | ansi | unicode | bigendian | utf7 | utf8 | utf8bom | utf32be | utf32le}
+            fileLanguage:{-l | --fileslanguage}={csharp | vb | java | cplusplus | php}
+            virtualMachine:{-vm | --virtualmachine}=<Java 虛擬機器可執行檔的路徑>
+            externalParser:{-ep | --externalparser}=<執行外部剖析器的命令>
+            externalMergeTool:{-emt  | --externalmergetool}={default | <使用者_定義的_工具>}
+            external2WayMerge:{-e2mt | --external2waymergetool}={ <使用者_定義的_工具>}
+            externalDiffTool:{-edt  | --externalDiffTool}={default | <使用者_定義的_工具>}
+            tabSpaces:{-ts   | --tabspaces}={4 | <使用者_定義>}
+            extrainfofile:{-ei   | --extrainfofile}={包含額外合併資訊之檔案的路徑}
+            progress:{-pg   | --progress}={代表整個合併過程進度的字串}
+
+      contributorExtendedInfo:<contributorOwnerName> <contributorBranchName>
+                               <contributorChangeset> <contributorComment>
+
+      contributorOwnerName:<srcOwnerName> <dstOwnerName> <baseOwnerName>
+        srcOwnerName:{-so | --srcowner}=<ownername>
+        dstOwnerName:{-do | --dstowner}=<ownername>
+        baseOwnerName:{-bo | --baseowner}=<ownername>
+
+      contributorBranchName:<srcBranchName>; <dstBranchName> <baseBranchName>
+        srcBranchName:{-sb | --srcbranch}=<name>
+        dstBranchName:{-db | --dstbranch}=<branchname>
+        baseBranchName:{-bb | --basebranch}=<branchname>
+
+      contributorChangeset:<srcChangeset> <dstChangeset> <baseChangeset>
+        srcChangeset:{-sc | --srccset}=<changeset>
+        dstChangeset:{-dc | --dstcset}=<changeset>
+        baseChangeset:{-bc | --basecset}=<changeset>
+
+      contributorComment:<srcComment> <dstComment> <baseComment>
+        srcComment:{-sm | --srccomment}=<changeset>
+        dstComment:{-dm | --dstcomment}=<changeset>
+        baseComment:{-bm | --basecomment}=<changeset>
+
+
+      範例：
+
+        semanticmergetool -b=base.cs -d=dst.cs -s=src.cs -r=result.cs
+
+        semanticmergetool base.cs dst.cs src.cs result.cs --fileparamorder=b;d;s;r
+
+        semanticmergetool -b=base.cs -d=dst.cs -s=src.cs -r=result.cs
+          -e2mt=""kdiff3.exe #sourcefile #destinationfile -o #output""
+
+        semanticmergetool -b=base.cs -d=dst.cs -s=src.cs -r=result.cs
+          -emt=""kdiff3.exe #basefile #sourcefile #destinationfile -o #output""
+
+== UsageCaption ==
+SemanticMerge 工具用法
+
+== WarningNoExternalDiffTool ==
+未指定任何外部差異比對工具以繼續差異比對。
+
+== WarningNoExternal2MergeTool ==
+未指定任何雙向合併工具以合併選取衝突的內容。
+
+== WarningNoExternalMergeTool ==
+未指定任何外部合併工具以繼續合併。
+
+== WarningExternalToolNotFound ==
+找不到工具，請引入有效工具
+
+== WarningSemanticToolNotFound ==
+找不到 SemanticMerge 工具，請引入有效工具
+
+== WarningConfigFileNotFound ==
+找不到設定檔，請引入有效檔案
+
+== WarningInvalidJavaVirtualMachinePath ==
+找不到 Java 虛擬機器路徑
+
+== WarningInvalidTabSize ==
+無效的定位字元大小
+
+== RenameWindowTitle ==
+重新命名來源
+
+== RenameWindowLabel ==
+{0} 的新名稱:
+
+== RenameButton ==
+重新命名
+
+== CancelButton ==
+取消
+
+== PendingConflictsToSolve ==
+{0}/{1}  -  待解決的衝突:{2}
+
+== NextConflictButtonTooltip ==
+下一個衝突 (Ctrl+PagDown)
+
+== PreviousConflictButtonTooltip ==
+上一個衝突 (Ctrl+PageUp)
+
+== SaveAndExitExplanation ==
+儲存結果檔案並退出工具
+
+== SaveAndExitButton ==
+儲存並退出 (_X)
+
+== MergeWaitingAnimation ==
+正在計算衝突。請稍候...
+
+== SyncDeclarationMenuItem ==
+同步宣告
+
+== OptionsButton ==
+選項 
+
+== FindMenuItem ==
+尋找...
+
+== OptionsMenuItem ==
+選項 
+
+== ConfigureFontsAndColorsMenuItem ==
+設定字型和顏色...
+
+== DisplayInfoAboutThisMerge ==
+顯示關於此合併的資訊
+
+== LeftEncodingMenuItem ==
+左側編碼
+
+== RightEncodingMenuItem ==
+右側編碼
+
+== SkipFormatChangesMenuItem ==
+跳過格式變更 
+
+== ReformatSourceCode ==
+重新格式化原始程式碼
+
+== ConfigurationMenuItem ==
+設定...
+
+== GetLicense ==
+取得授權
+
+== ShowUserGuideMenuItem ==
+使用者指南
+
+== UserGuideURL ==
+https://semanticmerge.com/documentation
+
+== ShowIntroGuideMenuItem ==
+顯示簡介指南
+
+== OpenSamplesDirectoryMenuItem ==
+開啟樣本
+
+== FollowSemanticmergeMenuItem ==
+關注 @semanticmerge
+
+== AboutSemanticmergeMenuItem ==
+關於和授權 
+
+== VisualDiffWindowTitle ==
+視覺差異比對
+
+== VisualDiffExplanation ==
+顯示解釋差異比對的圖形
+
+== VisualDiffOptionExplanation ==
+選取兩個宣告並按一下差異比對以查看差異
+
+== VisualDiffControlExplanation ==
+使用控制鍵搭配滾輪進行放大和縮小
+
+== ZoomInExplanation ==
+放大圖形; 您也可以在使用控制鍵搭配滾軸來放大
+
+== ZoomOutExplanation ==
+縮小圖形; 您也可以在使用控制鍵搭配滾軸來縮小
+
+== VisualMergeWindowTitle ==
+視覺合併
+
+== VisualMerge ==
+視覺合併 (_V)
+
+== VisualMergeExplanation ==
+顯示解釋合併的圖形
+
+== RunTextMerge ==
+執行文字合併 (_T)
+
+== RunTextMergeExplanation ==
+執行傳統的文字型合併工具
+
+== RestartMerge ==
+重新啟動合併 (_E)
+
+== RestartMergeExplanation ==
+捨棄所有變更並重新啟動合併作業
+
+== ProcessAllMerges ==
+處理所有合併
+
+== ProcessAllMergesExplanation ==
+自動合併盡可能多的宣告並針對每個非自動合併宣告執行外部文字型工具
+
+== VisualDiffButton ==
+視覺差異比對 (_V)
+
+== RestartDiffButton ==
+重新啟動差異比對 (_R)
+
+== RestartDiffExplanation ==
+重新啟動差異比對作業
+
+== RunTextDiffButton ==
+執行文字差異比對 (_T)
+
+== RunTextDiffExplanation ==
+執行傳統的文字型差異比對工具
+
+== OutlinePanelVisualDiffButton ==
+視覺差異比對 (_V)
+
+== OutlinePanelRunTextDiffButton ==
+執行文字差異比對 (_T)
+
+== DivergentMoveDetails ==
+分歧的移動詳細資料
+
+== ShowMergeInfoExplanation ==
+顯示合併資訊
+
+== MergeInfoResultFile ==
+結果檔案:
+
+== MergeInfoLanguage ==
+語言:
+
+== MergeInfoBaseFile ==
+基底檔案
+
+== MergeInfoSourceFile ==
+來源檔案
+
+== MergeInfoDestinationFile ==
+目的地檔案
+
+== MergeInfoFileName ==
+名稱:
+
+== MergeInfoFilePath ==
+路徑:
+
+== MergeInfoExtraInfo ==
+額外資訊
+
+== SemanticOutline ==
+語意輪廓
+
+== ExpandSemanticOutlineTooltip ==
+展開語意輪廓
+
+== CollapseSemanticOutlineTooltip ==
+折疊語意輪廓
+
+== PendingConflicts ==
+待解決的衝突 ({0})
+
+== PendingConflictsExplanation ==
+顯示需要手動解決的衝突:當「他們的變更」和「您的變更」中同時修改了相同元素時，便會發生這種情況
+
+== DiffExplanation ==
+顯示此元素的差異比對
+
+== SourceDifferences ==
+來源 - 他們的變更 ({0})
+
+== SourceDifferencesExplanation ==
+在您合併的來源程式碼 (他們的) 中所做的變更。顯示基底和來源貢獻者之間的差異
+
+== DestinationDifferences ==
+目的地 - 您的變更 ({0})
+
+== DestinationDifferencesExplanation ==
+您的工作副本 (您的) 上的變更。顯示基底和目的地貢獻者之間的差異
+
+== NoConflictMessageText ==
+沒有可檢查的衝突。
+
+== NoConflictMessageDetail ==
+這表示工具可以解決合併而無須使用者操作。
+
+您會看到此訊息可能是因為您仍想檢閱合併。
+
+但若是您寧可盡可能將衝突解決自動化:請新增 \"-a\" 引數到 Semanticmerge 命令列。
+
+== MaximizeButtonLeftTooltip ==
+最大化左側窗格
+
+== RestoreButtonLeftTooltip ==
+還原左側窗格
+
+== MaximizeButtonSrcTooltip ==
+最大化來源窗格
+
+== RestoreButtonSrcTooltip ==
+還原來源窗格
+
+== MaximizeButtonDstTooltip ==
+最大化目的地窗格
+
+== RestoreButtonDstTooltip ==
+還原目的地窗格
+
+== MaximizeButtonBaseTooltip ==
+最大化基底窗格
+
+== RestoreButtonBaseTooltip ==
+還原基底窗格
+
+== MaximizeButtonResultTooltip ==
+最大化結果窗格
+
+== RestoreButtonResultTooltip ==
+還原結果窗格
+
+== CopyToClipboard ==
+複製至剪貼簿
+
+== BackButtonTooltip ==
+上一步
+
+== FindMatchesButton ==
+尋找相符項目 (_M)
+
+== DiffMatchButton ==
+差異比對 (_D)
+
+== MatchButton ==
+比對 (_M)
+
+== UnMatchButton ==
+取消比對 (_U)
+
+== SelectElementToMatch ==
+選取要比對的元素
+
+== EditResultExplanation ==
+您必須等到所有衝突都解決後，才能編輯結果檔案。還剩下 {0} 個衝突。
+
+== KeepSourceExplanation ==
+保留來源變更 
+
+== KeepDestinationExplanation ==
+保留目的地變更
+
+== KeepBothExplanation ==
+保留兩種變更 
+
+== RenameExplanation ==
+重新命名目的地
+
+== MergeExplanation ==
+執行外部文字合併工具來解決此衝突
+
+== TwoWayMergeExplanation ==
+啟動外部雙向 Mergetool 來解決此衝突
+
+== DisplayConfigurationWindowExplanation ==
+顯示設定視窗
+
+== DisplayAboutWindowExplanation ==
+顯示關於視窗
+
+== HideUnchangedSelectionExplanation ==
+僅顯示已變更的宣告
+
+== ShowUnchangedSelectionExplanation ==
+顯示完整的樹狀結構檔案，以便檢查每個宣告
+
+== GroupUnchangedSelectionExplanation ==
+顯示將其餘的宣告組成未變更宣告的已變更宣告
+
+== ExplainMoveMoveExplanation ==
+解釋元素如何在來源和目的地貢獻者上移至不同的位置
+
+== SourceFileExplanation ==
+來源貢獻者檔案
+
+== BaseFileExplanation ==
+基底檔案，合併期間使用的來源和目的地檔案的上層
+
+== DestinationFileExplanation ==
+目的地貢獻者檔案
+
+== FindMatchesExplanation ==
+開啟比對視窗，將已新增項比對到已刪除項
+
+== UnmatchExplanation ==
+取消比對 - 若基底和此貢獻者之間的方法比對有誤，您可以取消比對，將它們轉換成已新增/已刪除，並手動修正比對
+
+== MatchExplanation ==
+將比對套用到選取的項目
+
+== InvalidEmail ==
+無效的電子郵件
+
+== InvalidReport ==
+無效的報告
+
+== EnterValidEmailAndReport ==
+請輸入您的電子郵件地址、主旨和註解。
+
+== EnterValidEmailAddress ==
+請輸入有效的電子郵件地址。
+
+== ErrorReadingSampleTitle ==
+讀取樣本時出錯
+
+== ErrorReadingSampleDescription ==
+無法從檔案 {0} 剖析樣本:{1}
+
+== SamplesWindowExplanation ==
+對於每個樣本案例，我們建議您執行傳統合併工具，並將之與 SemanticMerge 比較
+
+== ShowIntroGuideButton ==
+顯示簡介指南 (_G)
+
+== RunTextMergetoolButton ==
+文字
+
+== RunSemanticMergetoolButton ==
+語意
+
+== WelcomeSemantic20 ==
+歡迎使用 SemanticMerge 2.0
+
+== WelcomeExplanation1 ==
+語意是不同類型的合併工具。它會在計算合併前剖析程式碼，而能夠偵測並自動解決大多數衝突。
+
+== WelcomeExplanation2 ==
+它與您目前所用的大多數合併工具不同，因此值得花幾分鐘的時間瀏覽樣本案例，成為真正的合併大師並充分利用此工具。
+
+== ExploreTheSamplesButton ==
+探索樣本 (_E)
+
+== ReadTheIntroGuideLinkText1 ==
+若要深入瞭解 SemanticMerge 基礎
+
+== ReadTheIntroGuideLinkText2 ==
+請閱讀簡介指南
+
+== ReadTheIntroGuideLinkText3 ==
+ (3 分鐘閱讀時間)。
+
+== DontShowThisDialogOnStartup ==
+不要在開機時顯示這個對話方塊 (_S)
+
+== RunTheToolButton ==
+執行工具 (_T)
+
+== ParsingErrorsLabel ==
+處理這些檔案時找到一些問題。
+
+== ShowParsingErrorsButton ==
+顯示剖析錯誤
+
+== ReleaseNotesBaseUrl ==
+https://www.plasticscm.com/download/releasenotes
+
+== MultifileCurrentFile ==
+檔案 {1} 之 {0}:
+
+== MultifileCurrentFileExplanation ==
+這是目前的檔案。若要變更檔案，請使用衝突瀏覽按鈕，還有多檔案移動。
+
+== Options ==
+選項
+
+== EditorOptions ==
+編輯器選項

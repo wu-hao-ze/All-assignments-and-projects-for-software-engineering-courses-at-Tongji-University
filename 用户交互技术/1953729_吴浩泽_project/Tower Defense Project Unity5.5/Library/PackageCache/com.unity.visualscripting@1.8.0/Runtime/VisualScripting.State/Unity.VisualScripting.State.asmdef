@@ -1,0 +1,11 @@
+{
+    "name": "Unity.VisualScripting.State",
+    "references": [
+        "Unity.VisualScripting.Core",
+        "Unity.VisualScripting.Flow"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

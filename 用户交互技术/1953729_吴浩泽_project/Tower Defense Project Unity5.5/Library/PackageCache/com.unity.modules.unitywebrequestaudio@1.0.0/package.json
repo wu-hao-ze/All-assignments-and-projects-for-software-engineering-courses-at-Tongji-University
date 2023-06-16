@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.modules.unitywebrequestaudio",
+    "version": "1.0.0",
+    "type": "module",
+    "displayName": "Unity Web Request Audio",
+    "description": "The UnityWebRequestAudio module provides the DownloadHandlerAudioClip class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html",
+    "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.audio": "1.0.0"
+    }
+}

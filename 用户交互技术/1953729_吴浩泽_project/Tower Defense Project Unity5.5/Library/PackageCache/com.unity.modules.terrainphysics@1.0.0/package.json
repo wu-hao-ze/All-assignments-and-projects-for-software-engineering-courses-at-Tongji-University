@@ -1,0 +1,11 @@
+{
+    "name": "com.unity.modules.terrainphysics",
+    "version": "1.0.0",
+    "type": "module",
+    "displayName": "Terrain Physics",
+    "description": "The TerrainPhysics module connects the Terrain and Physics modules by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html",
+    "dependencies": {
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0"
+    }
+}

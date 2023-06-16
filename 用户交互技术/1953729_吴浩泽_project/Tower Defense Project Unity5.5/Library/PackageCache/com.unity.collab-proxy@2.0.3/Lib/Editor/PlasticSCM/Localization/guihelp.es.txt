@@ -1,0 +1,866 @@
+== PlasticWkExplFullEmpty ==
+[title]Tu workspace y tu repositorio están vacíos[/title]
+
+[bold]¿Quieres añadir un proyecto existente?[/bold]
+1. Haz clic derecho en la ruta del workspace de la lista de arriba.
+2. Selecciona "abrir". (Recuerda que usamos menús contextuales; te serán muy útiles.)
+3. Esta acción abre [windows]Explorador de Windows[/windows][macos]Finder[/macos][linux]File Explorer[/linux].
+4. Copia o mueve tu proyecto al directorio de tu workspace.
+5. Ve a la vista {viewname} para hacer check in del código inicial a tu repositorio.
+
+[bold]Nivel experto[/bold]: ¿Necesitas añadir un proyecto grande? (+300k ficheros / varios Gigabytes). 
+Si este es tu caso, puedes importar tu proyecto de forma más rápida usando la línea de comandos:
+1. Copia o mueve tu proyecto a tu workspace.
+2. Abre la consola y ve a tu workspace.
+3. Ejecuta el siguiente comando para hacer check in a todo en un único paso (recuerda cambiar el comentario :P):
+
+[bold]cm ci --all -c "Esta es la importación inicial"[/bold]
+
+
+[bold]¿Prefieres unirte a un proyecto ya existente?[/bold]
+1. Ve a la vista de "Repositorios".
+2. Busca el repositorio en el que quieres trabajar.
+3. Haz clic derecho en ese repositorio para crear el workspace correspondiente.
+(Hay otros modos de hacerlo, pero este es el más sencillo.)
+
+[bold]¿Quieres clonar (pull) un repositorio remoto?[/bold]
+1. Ve a la vista del "Explorador de ramas".
+2. Haz clic derecho en la rama "main".
+3. Selecciona "Réplica/Importar esta rama".
+O crea una vista de sincronización para importar más de una rama.
+
+== PlasticWkExplGeneralHelp ==
+[title]Una introducción al Explorador[/title]
+
+Esta vista es como un [windows]Windows Explorer[/windows][macos]Finder[/macos][linux]File Explorer[/linux] decorada con información del control de versiones.
+
+Es muy útil para [help:PlasticWkExplExplainSearch]buscar ficheros[/help].
+
+También puedes borrar ficheros, renombrarlos, desproteger (checkout), consultar la historia...
+
+[bold]Consejo[/bold]: Echa un vistazo al menú contextual (botón derecho) 
+
+== PlasticWkExplRunUpdate ==
+[title]Hay contenido en tu repositorio esperando a ser descargado[/title]
+
+Solamente tienes que hacer clic en [action:UpdateWorkspace]Actualizar workspace[/action] para obtener los últimos cambios.
+
+[bold]¿Estás familiarizado con Git?[/bold] Nosotros llamamos [italic]actualizar[/italic] a lo que Git llama [italic]checkout[/italic].
+
+== PlasticWkExplExplainSearch ==
+[title]Encuentra ficheros rápidamente con la búsqueda integrada[/title]
+
+Usa las teclas [windows]CTRL-F[/windows][macos]Command-F[/macos][linux]CTRL-F[/linux] para activar la búsqueda y comenzar a usarla.
+
+== PlasticWkExplWorkingOnChangeset ==
+[title]¿No se descargan los últimos cambios de la rama?[/title]
+
+He detectado que estás intentando actualizar el espacio de trabajo, pero estás trabajando en un changeset.
+
+Cuando apuntas a un changeset, los últimos cambios de la rama no se descargan al actualizar el espacio de trabajo. Para descargar los últimos cambios, necesitas apuntar a la rama.
+
+Más información sobre trabajo en una sola rama [link:https://plasticscm.com/book/#_conflicts_during_checkin_working_on_a_single_branch]aquí[/link].
+
+== PlasticPendingChangesEmptyState ==
+[title]No se han detectado cambios en tu workspace[/title]
+
+Recorrer el disco buscando cambios tardó {totaltime}. {description}
+
+== PlasticPendingChangesOnboarding ==
+[title]Esta es la vista de "{viewname}"[/title]
+
+{viewname} es la vista que usarás para hacer check in de tus cambios, añadir nuevos ficheros, y hacer check in de movidos, renombrados y borrados.
+
+Probablemente esta es una de las características que usarás más a menudo.
+
+Puede hacer cosas tan asombrosas como encontrar ficheros movidos.
+
+Lee más sobre la vista de [link:https://www.plasticscm.com/download/help/pendingchangesview]{viewname} aquí[/link].
+
+== PlasticPendingChangesOptionWarningCheckouts ==
+[title]No hay cambios pendientes, pero...[/title]
+
+Parece que solo estás mostrando los "desprotegidos" (checkouts) y no los cambios en disco.
+
+Si esto no es lo que quieres, haz clic en [action:PendingChangesOpenOptions]Opciones[/action] y edita la configuración.
+
+== PlasticPendingChangesFrustrationFilter ==
+[title]Hay cambios pendientes, pero un filtro está activo...[/title]
+
+[action:PendingChangesRemoveFilter]Elimina el filtro[/action] o modifícalo si esos no son los resultados que quieres mostrar.
+
+== PlasticPendingChangesFrustrationRefreshNoFilter ==
+[title]¿Echas en falta algún cambio?[/title]
+
+Revisa las [action:PendingChangesOpenOptions]Opciones[/action] y aplica la configuración que necesites.
+
+== PlasticPendingChangesWithAdded ==
+[title]Tienes varios ficheros que puedes añadir al control de versiones[/title]
+
+Los ficheros que aún no se han añadido al control de versiones se marcan como "privados" en la columna "Estado".
+
+Algunos privados es mejor ignorarlos, así no se mostrarán continuamente en la vista de {viewname}:
+1. Haz clic derecho en los ficheros que quieres ignorar.
+2. Selecciona "añadir a la lista de ignorados".
+
+Lee más sobre ficheros ignorados, ocultos y otras opciones de configuración [link:https://plasticscm.com/download/help/ignored-hidden-etc]aquí[/link].
+
+== PlasticPendingChangesDotPrivate ==
+[title]He tenido que renombrar algunos de tus ficheros como .private[/title]
+Pero, ¡no te preocupes! Son copias que Unity VCS crea para preservar los ficheros que no puede sobrescribir durante una actualización.
+
+Imagina que tienes el fichero privado "src/foo.c" y que luego apuntas tu workspace a una rama donde alguien sí añadió el fichero "src/foo.c". Unity VCS descarga el nuevo fichero porque está bajo control de versiones y el tuyo no. Como no puede borrar tu fichero, lo renombra como .private.0.
+
+Tiene sentido, ¿verdad?
+
+== PlasticPendingChangesMovedOnlyFiles ==
+[title]He detectado que has movido algunos ficheros en local[/title]
+
+Cuando mueves/renombras un fichero en tu workspace, Unity VCS intenta buscar semejanzas con otro para identificar si se trata del mismo fichero. La columna "Similitud" indica esta acción.
+
+Puedes ajustar el porcentaje de similitud en [action:PendingChangesOpenOptions]Opciones[/action].
+
+Si el nuevo fichero es muy diferente, Unity VCS pensará que simplemente has borrado el fichero y que has añadido uno nuevo.
+
+[bold]Consejo[/bold]: Si estás reorganizando la estructura de tu proyecto y necesitas que Unity VCS identifique esos movidos en lugar de suponerlos, entonces puedes mover/renombrar desde la vista de "Explorador de ficheros" simplemente cortando y pegando.
+
+Conviértete en un experto en movidos y renombrados [link:https://plasticscm.com/download/help/moveandrenames]leyendo este artículo[/link].
+
+== PlasticPendingChangesMovedOnlyDirectories ==
+[title]He detectado directorios movidos[/title]
+
+Unity VCS puede identificar directorios movidos porque compara cómo de similar es su contenido.
+
+Por lo tanto, si simplemente renombras un directorio en tu workpsace (sin usar Unity VCS, es decir, usando el [windows]Explorador de Windows[/windows][macos]Finder[/macos][linux]File Explorer[/linux] o la línea de comandos), Unity VCS comprueba si el contenido se puede emparejar con el del antiguo directorio. Si es así, entonces lo identifica como movido.
+
+Si el contenido cambia, Unity VCS aún puede detectar el movido teniendo en cuenta el porcentaje de similitud que puedes ajustar en [action:PendingChangesOpenOptions]Opciones[/action].
+
+Conviértete en un experto en movidos y renombrados [link:https://plasticscm.com/download/help/moveandrenames]leyendo este artículo.[/link].
+
+== PlasticPendingChangesMovedFilesAndDirectories ==
+[title]Veo que estás moviendo ficheros y directorios[/title]
+
+Unity VCS es muy bueno detectando movidos.
+
+* Aprende más sobre la detección de [help:PlasticPendingChangesMovedOnlyFiles]ficheros movidos[/help].
+ * Y también sobre la detección de [help:PlasticPendingChangesMovedOnlyDirectories]directorios movidos[/help] (diferente de la detección de ficheros).
+
+[bold]Consejo[/bold]: Si estás reorganizando la estructura de tu proyecto puedes hacer que Unity VCS haga los movidos en lugar de suponerlos.
+Puedes mover/renombrar desde la vista de "Explorador de ficheros" simplemente cortando y pegando.
+
+Conviértete en un experto en movidos y renombrados [link:https://plasticscm.com/download/help/moveandrenames]leyendo este artículo.[/link].
+
+== PlasticPendingChangesAddedDeleted ==
+[title]¿Echas en falta algún movido?[/title]
+
+He detectado que has añadido y borrado ficheros/directorios.
+
+Puede que esto sea exactamente lo que has hecho. Si es así, siento molestarte.
+
+Pero, a veces, hay añadidos y borrados que son en realidad movidos no detectados.
+
+Si lo que quieres es emparejar esos añadidos/borrados y marcarlos como movidos, haz clic derecho en el añadido y selecciona "Buscar coincidencias".
+
+También puedes ajustar el porcentaje de similitud para la detección de movidos en [action:PendingChangesOpenOptions]Opciones[/action].
+
+Conviértete en un experto en movidos y renombrados [link:https://plasticscm.com/download/help/moveandrenames]leyendo este artículo.[/link].
+
+== PlasticPendingChangesSlowTooManyPrivates ==
+[title]La vista de {viewname} es más rápida si tienes pocos ficheros privados[/title]
+
+La búsqueda de cambios tardó {totaltime}. Esto es demasiado tiempo.
+
+Tienes demasiados privados en tu workspace. Estos ficheros son los que no están bajo control de versiones, y posiblemente sean ficheros de configuración, ficheros intermedios de compilación o similar.
+
+Para que esa búsqueda sea más rápida:
+
+* Puedes añadir los privados a la lista de ignorados (ignore.conf):
+1. Haz clic derecho en el (los) privado(s).
+2. Selecciona "Añadir a la lista de ignorados".
+
+* O puedes ocultarlos en la vista de "{viewname}":
+1. Abre las [action:PendingChangesOpenOptions]opciones[/action].
+2. Desmarca "Mostrar ficheros privados".
+  El inconveniente de esta opción es que los nuevos ficheros que quieras añadir al control de versiones desde la vista de {viewname} no se mostrarán.
+
+[link:https://www.plasticscm.com/download/help/statusperfhintsignoreprivates]Aprende más sobre cómo gestionar ficheros privados para agilizar la detección de cambiados[/link].
+
+== PlasticPendingChangesSlowMoveCalculation ==
+[title]El cálculo de movidos tardó demasiado[/title]
+
+La búsqueda de cambios tardó {totaltime}.
+
+El cálculo de movidos tardó {movestime}.
+
+Tienes demasiados privados y borrados locales en tu workspace, y Unity VCS tarda demasiado tiempo intentando emparejarlos para identificarlos como movidos.
+
+[link:https://www.plasticscm.com/download/help/statusperfhintsmoved]Mejora el rendimiento de la vista de "Cambios pendientes" añadiendo a la lista de ignorados o deshabilitando el cálculo de movidos[/link].
+
+== PlasticPendingChangesSlowFindChanges ==
+[title]La búsqueda de cambiados tardó demasiado[/title]
+
+La búsqueda de cambiados tardó {totaltime}.
+
+Esta operación debería ser muy rápida, así que vamos a ver qué puede estar pasando.
+
+Estos pueden ser algunos motivos:
+
+* Tu disco duro es algo lento. ¿Es un disco mecánico? ¿Hay algún otro proceso causando un uso excesivo de disco?
+* ¿Puede ser el antivirus? Muy a menudo, la ejecución de antivirus en las máquinas de los desarrolladores ralentiza significativamente todas las operaciones de control de versiones. Verifica si el antivirus está usando demasiada CPU o demasiado disco mientras se están buscando cambiados.
+* Si eres usuario de Windows, comprueba el servicio de superfetch. El servicio de superfetch se ha identificado como una de las causas de problemas en el rendimiento del disco duro [link:http://windowsreport.com/service-host-local-service-network-restricted-causing-high-cpu-usage/]Desactivar este servicio puede aumentar el rendimiento de tu equipo[/link].[/windows]
+
+== PlasticPendingChangesMergeInProgress ==
+[title]Se ha detectado un merge en curso[/title]
+
+Eso indica que se empezó un merge ({inprogressmergefrom}) y aún quedan ficheros por procesar.
+
+Necesita terminar el merge para poder proteger sus cambios.
+
+Haga click para [action:PendingChangesLaunchInProgressMerge]continuar el merge[/action] en curso. En caso contrario, puede [action:PendingChangesUndoChanges]deshacer sus cambios pendientes[/action] y cancelar el merge en curso.
+
+== BrExNoDataFound ==
+[title]No hay changesets desde {fromtimestamp}[/title]
+
+Por favor, cambia el rango de fechas o comprueba las opciones de filtrado en caso de que sí esperaras ver algún changeset.
+
+== BrExEmptyRepo ==
+[title]Tu Explorador de ramas está vacío de momento...[/title]
+... pero pronto verás algo [link:https://plasticscm.com/download/help/branchexplorer]así[/link]así :-)
+
+[bold]¿Prefieres importar ramas desde un repositorio remoto?[/bold]
+1. Haz clic derecho en la rama.
+2. Selecciona "Réplica/Importar esta rama".
+
+[bold]Aprende a usar las ramas de una manera efectiva[/bold]:
+[link:https://plasticscm.com/download/help/taskbranches]Lee nuestro tutorial sobre rama por tarea[/link]
+
+== BrExSlowRangeTooBig ==
+[title]Puedes hacer que el Explorador de ramas vaya más rápido[/title]
+
+Especifica un rango de fechas más pequeño.
+
+Eso acelerará mucho la carga de datos y el dibujo.
+
+== BrExTipUseContextMenu ==
+[title]Usa el menú contextual[/title]
+
+Recuerda que dispones de menús contextuales (clic derecho) para ramas, changesets, incluso links de merge.
+
+El menú contextual te ofrece acciones para gestionar ramas, mezclar (merge), mostrar diferencias, exportar e importar ramas a Git, y muchas más.
+
+== BrExTipOnlyRelevant ==
+[title]Oye, ¿sabes que puedes ocultar changesets no relevantes?[/title]
+
+Algunas veces solo necesitas tener la imagen completa, y no los detalles, para centrarte en lo que importa.
+
+Puedes ocultar o mostrar changesets "no relevantes" (desde un punto de vista topológico) haciendo clic en [action:BrExOnlyRelevant]Solo relevantes[/action] en la barra de tareas.
+
+== BrExTipFilterBranches ==
+[title]Pon el foco solo en las ramas que te interesan[/title]
+
+1. Haz clic derecho en una rama.
+2. Ve al menú "Explorador de ramas".
+3. Selecciona el filtro que más te interese.
+
+Puedes aplicar el filtro en todas las ramas que tengas seleccionadas.
+
+Es muy útil gestionar un diagrama más pequeño porque te ayuda a centrarte en lo que realmente te interesa.
+
+== BrExTipCustomColors ==
+[title]¡Da color al Explorador de ramas![/title]
+
+Hay varias opciones para colorear el diagrama.
+
+Puedes aplicar color a los changesets por usuario o por el servidor donde se han creado (en el caso de que uses réplica).
+
+También puedes añadir reglas condicionales para colorear las ramas.
+
+Ve a [action:BrExShowOptions]Opciones[/action] y dale un poco de color :-D
+
+== BrExTipUseTheSearch ==
+[title]Saca partido a la búsqueda[/title]
+
+Puedes usar la caja de búsqueda para encontrar changesets por número o por GUID.
+
+También es útil para encontrar ramas y etiquetas.
+
+Las búsquedas parciales también funcionan, y puedes puedes navegar si hay múltiples resultados.
+
+== BrExGeneralIntro ==
+[title]¿Para qué sirve este diagrama?[/title]
+
+El Explorador de ramas es nuestra mejor forma de explicarte la historia del repositorio de manera visual.
+
+Cada círculo representa un changeset, y todos los changesets están dentro de ramas.
+
+Aprende más sobre el [link:https://plasticscm.com/download/help/branchexplorer]Explorador de ramas aquí[/link].
+
+== PlasticLabelsEmptyState ==
+[title]Usa etiquetas para marcar changesets importantes; normalmente, nuevas releases[/title]
+Desde esta vista puedes crear etiquetas. Pero suele ser más cómodo hacerlo desde el Explorador de ramas:
+1. Haz clic derecho en el changeset que quieras marcar.
+2. Selecciona "Etiquetar changeset".
+
+[bold]Nivel experto[/bold]: Usa una buena convención de nomenclatura (y mantenla) para etiquetar releases. 
+
+[bold]Si vienes de Git[/bold]: Las etiquetas son equivalentes a los "tags".
+
+== PlasticBranchesEmptyState ==
+[title]Unity VCS va de ramas... ¡y merges![/title]
+Aunque preferimos el Explorador de ramas a la "lista de ramas", a veces es útil encontrar ramas rápidamente.
+
+"main" es la rama por defecto creada por Unity VCS. Es el equivalente a "master" en Git o a "trunk" en Subversion.
+
+Recuerda que puedes hacer clic derecho en una rama para ver el menú contextual.
+
+[bold]Aprende a usar las ramas de una manera efectiva[/bold]:
+[link:https://plasticscm.com/download/help/taskbranches]Lee nuestro tutorial sobre rama por tarea[/link]
+
+== PlasticChangesetsEmptyState ==
+[title]Cada vez que haces check in, estás creando un nuevo changeset[/title]
+
+Los changesets tienen una doble función:
+1. Son un registro de cada check-in.
+2. Y una imagen completa del repositorio en ese instante.
+
+Algunos consejos:
+* Los changesets se identifican con un "entero" único en su repositorio. Pero si trabajas distribuido con réplicas, entonces usa el GUID.
+* Cada nuevo repositorio tiene un "changeset cero".
+* A menudo nos referimos a los changesets como csets.
+* Haz clic derecho en un changeset para mostrar sus acciones.
+* Preferimos el Explorador de ramas para encontrar csets. Pero, a veces, esta lista es muy buena para encontrar uno rápidamente.
+* Para usuarios Git: los csets son los equivalentes a los "commits".
+
+== PlasticAttributesEmptyState ==
+[title]¿Qué son los atributos?[/title]
+
+Los atributos son pares clave/valor que puedes asignar a diferentes objetos en Unity VCS, normalmente ramas y changesets.
+
+Cuando creas un atributo, estás creando una nueva "clave" que luego usarás para asignar valores a determinados objetos.
+
+Por ejemplo: marcar ramas con el atributo "estado" para luego poder asignar valores de "abierta", "resuelta", "testeada", "fallada", "integrada", etc.
+
+== PlasticShelvesEmptyState ==
+[title]Los shelves son changesets temporales en los que aún estás trabajando[/title]
+
+Los shelves son una opción de guardar de manera segura tus cambios sin llegar a hacer check-in.
+
+Son algo parecido a un almacenamiento temporal.
+
+Puedes usar los shelves para guardar tus cambios y así limpiar el workspace, o para, posteriormente, aplicar esos cambios a una rama diferente.
+
+Para crear shelves:
+1. Ve a la vista de "Cambios pendientes".
+2. Haz click en "Shelve".
+
+[link:https://plasticscm.com/download/help/shelves]Aprende más sobre cómo y cuándo puedes usar shelves[/link]
+
+== PlasticReposExplained ==
+[title]Un repositorio almacena todos datos y metadatos[/title]
+
+Un repositorio contiene todos los cambios de ficheros y directorios, además de sus metadatos (autor, rama, información de merges y más).
+
+Un servidor de Unity VCS puede alojar muchos repositorios.
+
+Los repositorios pueden ser locales o remotos.
+
+Puedes trabajar con ellos de manera [link:https://plasticscm.com/download/help/distributedvscentralized]centralizada o distribuida[/link].
+
+Desde esta vista, puedes crear repositorios, borrarlos, renombrarlos, y también listar repositorios de otros servidores (si tienes los permisos necesarios para ello).
+
+[windows]Haz clic derecho en un repositorio para configurar permisos, lanzar el Explorador de ramas, listar ramas y más.[/windows]
+
+También puedes crear "submódulos", que son repositorios dentro de otros repositorios. Por ejemplo: "default/subrepo00".
+
+[link:https://plasticscm.com/download/help/repos]Aprende más sobre cómo usar repositorios[/link].
+
+== PlasticWorkspacesExplained ==
+[title]Los workspaces son tus copias de trabajo en local[/title]
+
+El workspace es lugar donde se encuentran tus ficheros en disco, donde usas tus IDEs, editores, programas de diseño, etc. para crear nuevos contenidos.
+
+Un workspace contiene una copia de trabajo del repositorio. El repositorio es la base de datos donde se almacena toda la historia.
+
+[bold]Si vienes de Git[/bold]: En Git, el repositorio y la copia de trabajo se encuentran juntos en el mismo directorio. En Unity VCS, están separados. De hecho, puedes tener muchas copias de trabajo asociadas al mismo repositorio.
+
+[link:https://plasticscm.com/download/help/workspaces]Aprende más sobre cómo usar los workspaces[/link].
+
+== PlasticCloudEditionGeneralHelp ==
+[title]Tu lista de repositorios en Cloud Edition[/title]
+
+Aquí puedes ver la lista de repositories en tu organización de Cloud Edition.
+
+Desde esta vista puedes crear repos nuevos, renombrarlos o incluso borrarlos.
+
+[windows]También puedes fijar permisos desde aquí. Usa el menú contextual sobre un repo.[/windows]
+
+== PlasticCloudExplained ==
+[title]¿Conoces Unity VCS Cloud?[/title]
+
+Ofrecemos un servicio de alojamiento Cloud.
+
+Puedes tener repositorios alojados en Cloud y hacer check in/actualizar directamente (centralizado) o exportar/importar (distribuido).
+
+Si sabes que perteneces a una organización Cloud:
+1. Escribe el nombre de la organización en "Servidor". Será algo como robotmaker@cloud si tu organización se llama robotmaker.
+2. Haz clic en "Recargar" para mostrar los repositorios de ese servidor. Si es necesario, tendrás que introducir tus credenciales.
+
+[link:https://plasticscm.com/download/help/cloudextension]Aprende más sobre la extensión Unity VCS Cloud[/link].
+ 
+== PlasticCloudEmptyOrganization ==
+[title]El nombre de tu organización está vacío[/title]
+Parece que aún no tienes una[bold]organización Unity VCS Cloud[/bold]. Si estás seguro de que sí tienes una organización, entonces es posible que tu usuario no pertenezca a ella aún. Simplemente [bold]escribe el nombre de la organización en "Servidor"[/bold]. Por ejemplo, si tu organización se llama [italic]robotmaker[/italic] escribe [italic]robotmaker@cloud[/italic].
+
+== PlasticSyncDistributedCloudProject ==
+[title]¿Cómo se sincronizan tus cambios?[/title]
+1. Trae las ramas que necesites desde tu repositorio Cloud. (Recuerda que, normalmente, no es necesario que hagas un clonado completo.)
+2. Cuando hayas bajado la rama que necesitas, puedes cambiar a ella para empezar a trabajar.
+
+== PlasticMergeNoConflicts ==
+[title]Este es un merge sencillo[/title]
+
+No hay conflictos. Puedes hacer clic en [action:MergeProcessAllMerges]Aplicar cambios[/action] para mezclar la rama.
+
+Haz clic en [action:MergeExplainMerge]Detalle del merge[/action] para obtener una explicación de cómo funciona el merge y cuáles son sus contribuidores.
+
+Usa el menú contextual de los ficheros involucrados en el merge para ver qué acciones hay disponibles.
+
+[link:https://plasticscm.com/download/help/merges]Aprende más sobre los merges[/link].
+
+== PlasticMergeIncomingFromCheckin ==
+[title]¿Por qué no puedo completar mi check-in?[/title]
+
+Porque hay [bold]nuevos cambios[/bold] en tu rama.
+
+Para poder hacer el check-in, primero tienes que actualizarte a lo último de la rama y resolver conflictos (en caso de haberlos).
+
+Una vez actualizado, sólo necesitas volver a la vista de "Cambios Pendientes" y terminar el check-in.
+
+== PlasticMergeIncomingFromUpdate ==
+[title]¿Por qué no puedo completar mi update?[/title]
+
+Porque hay [bold]nuevos cambios[/bold] en tu rama y tienes cambios en tu workspace.
+
+Necesitas actualizar y resolver los posibles conflictos (si los hay) entre tus cambios pendientes y los últimos de la rama.
+
+Una vez que termines, tu workspace ya estará al día.
+
+== PlasticMergeWithConflicts ==
+[title]¡Tienes que resolver conflictos![/title]
+
+[bold]Nivel experto[/bold]: Haz clic en [action:MergeProcessAllMerges]Resolver conflictos[/action] para comenzar a resolver todos los posibles conflictos en el merge.
+(No tienes que hacer clic derecho en cada fichero para lanzar el merge uno por uno.)
+
+Usa el menú contextual de los ficheros en conflicto para ver qué opciones avanzadas tienes disponibles.
+
+Haz clic en [action:MergeExplainMerge]Detalle del merge[/action] para obtener una explicación de cómo funciona el merge y cuáles son sus contribuidores.
+
+[link:https://plasticscm.com/download/help/merges]Aprende más sobre los merges[/link].
+
+== PlasticMergeWithDirectoryConflicts ==
+[title]¡Tienes conflictos de directorio![/title]
+
+¡Tranquilo! Unity VCS es muy bueno gestionando esta situación.
+
+Este tipo de conflictos tiene lugar cuando hay que mezclar (merge) el árbol de directorios.
+
+Por ejemplo: si renombras el mismo fichero de forma diferente en dos ramas y luego hay que hacer merge.
+
+Solamente tienes que elegir el "Método de resolución" adecuado.
+
+Si todo esto es nuevo para ti, mejor que dediques unos minutos a [link:https://www.plasticscm.com/download/help/directorymerges]leer más sobre los conflictos de directorio en un merge[/link].
+
+== PlasticMergeRecursiveMergeDetected ==
+[title]¡Te ha tocado la lotería![/title]
+Tienes un conflicto de merge recursivo.
+
+No te asustes, pero es un merge algo complicado porque la herramienta de merge de 3 vías puede aparecer más de una vez.
+
+Todo lo que tienes que hacer es clic en "Resolver conflictos" como en otras ocasiones.
+
+Si todo esto es nuevo para ti, te recomendamos que dediques unos minutos a [link:https://plasticscm.com/download/help/recursivemerge]leer más sobre los merges recursivos[/link]
+
+Después de esto, ya podrás graduarte en la escuela de los merges.
+
+== PlasticMergeServerSideMergeFinished ==
+[title]El merge ha finalizado[/title]
+
+Haz clic en [action:MergeProcessAllMerges]Check in merge![/action] para [bold]enviar el merge[/bold] al repositorio.
+
+O [action:MergeCloseView]cierra[/action] para cancelar el merge.
+
+== PlasticMergeGeneralHelp ==
+[title]Vista de merge[/title]
+
+Desde esta vista ves una preview del merge.
+
+Te ayudará a entender qué está pasando y a resolver
+conflictos cuando ocurran.
+
+Explora los menús contextuales de cada elemento para
+familiarizarte con las opciones.
+
+
+[bold]Nivel experto[/bold]: usa "Resolver conflictos" 
+en lugar de lanzar el merge individual de cada
+fichero.
+
+== PlasticWkExplPendingChangesUnityFirstTime ==
+[title]Consejos útiles para trabajar con Unity[/title]
+
+* Configura el bloqueo. Es muy posible que quieras que los ficheros .prefabs estén bloqueados de manera exclusiva. Para ello, ve a [action:WebAdminOpenInLocks]WebAdmin y configura los bloqueos[/action].
+* Usa checkouts (desprotecciones). Para bloquear un fichero tienes que hacer checkout: desproteger para editar. Desproteger es la acción de decirle a Unity VCS "Voy a modificar el fichero". Esta acción está disponible desde el menú contextual (clic derecho) de cada fichero.
+* Configura los ficheros a ignorar. Hay ficheros que no quieres añadir al control de versiones. [action:IgnoreConfCreateUnity]Haz clic aquí[/action] para crear el fichero ignore.conf para Unity. [link:https://plasticscm.com/download/help/ignored-hidden-etc] Lee más sobre cómo configurar el fichero ignore.conf[/link].
+
+== PlasticWkExplPendingChangesVisualStudioFirstTime ==
+[title]Consejos para trabajar con proyectos de Visual Studio[/title]
+Es útil ignorar los directorios "bin" y "debug", e incluso también determinados ficheros como ".csproj.user".
+
+[action:IgnoreConfCreateVisualStudio]Haz clic aquí[/action] para añadir las reglas necesarias a tu fichero ignore.conf para tener una mejor experiencia usando Visual Studio :-)
+
+== PlasticQueryViewsExplainFilterAndAdvanced ==
+[title]Filtra rápidamente la lista escribiendo un filtro arriba[/title]
+
+El filtro se ejecuta localmente sobre los resultados de la búsqueda.
+
+[bold]Consejo para los filtros[/bold]: Usa [italic]nombre_de_campo[/italic]:valor para filtrar por un campo (columna) determinado.
+Por ejemplo:
+  "creado por:maria"
+  "fecha de creación:10/25/2018"
+  nombre:111923
+
+También puedes personalizar la consulta haciendo clic en [action:QueryViewClickAdvanced]Avanzadas[/action].
+
+Aprende más sobre consultas y filtros [link:https://plasticscm.com/download/help/cmfind]aquí[/link].
+
+Recuerda que tienes más opciones en el menú contextual de los elementos de la lista (clic derecho).
+
+== PlasticQueryViewsFrustrationCustomQuery ==
+[title]Tienes una consulta personalizada[/title]
+
+Es posible que ese sea el motivo por el que no encuentras lo que estás buscando :-O
+
+Clic [action:QueryViewClickAdvanced]Avanzadas[/action] para configurarla.
+
+== PlasticFrustrationFilterEnabled ==
+[title]Tienes un filtro habilitado[/title]
+
+Es posible que ese sea el motivo por el que no encuentras lo que estás buscando :-O
+
+== PlasticNewVersionAvailableWithDownloadAction ==
+[title]Hay una nueva versión disponible[/title]
+
+[bold]Nueva {version} - {releaseDate}[/bold] ({versionsBehind})
+
+[action:DownloadNewVersion]Descargar[/action] - [link:{releaseNotesLink}]Notas de la release[/link]
+
+{releaseNotes}
+
+== PlasticNewVersionAvailable ==
+[title]Hay una nueva versión disponible[/title]
+
+[bold]Nueva {version} - {releaseDate}[/bold] ({versionsBehind})
+
+[link:{downloadLink}]Descargar[/link] - [link:{releaseNotesLink}]Notas de la release[/link]
+
+{releaseNotes}
+
+== PlasticPendingChangesMerge ==
+[title]Tienes un merge listo para hacer check in[/title]
+
+¿Sabes qué significa la columna "Estado" en un merge?
+
+Habrás visto que los ficheros involucrados en un merge se marcan como "Estado / Merge de número de cset" para diferenciarlos de otros cambios locales que puedas tener.
+
+* [bold]Desprotegido[/bold]: el fichero se ha mezclado durante el merge porque se modificó concurrentemente. Puede que el merge haya sido automático, pero ha existido.
+
+* [bold]Reemplazado[/bold]: el fichero ya existía en tu rama pero fue reemplazado por una nueva versión. No ha tenido lugar ningún conflicto.
+
+* [bold]Copiado (nuevo)[/bold]: el fichero no existía en tu rama y se ha creado durante el merge (obteniéndose del origen del merge).
+
+* [bold]Borrado[/bold]: el fichero se ha borrado durante el merge.
+
+También se muestra información sobre el link de merge que se creará en el check-in. Permite trazar la operación de merge.
+
+== PlasticPendingChangesMergeEmpty ==
+[title]No hay cambios en este merge, pero...[/title]
+
+Este es un escenario particular.
+
+Se está procesando el merge, pero los ficheros que ya tenías son iguales a los que estás intentando mezclar.
+
+Por lo que no hay nada sobre lo que hacer check in salvo el link de merge.
+
+El link de merge es muy importante porque, de este modo, se marca que el merge ha tenido lugar, incluso si ningún fichero se ha modificado. Es necesario para trazar el merge.
+
+== PlasticPendingChangesAllMergeChangesRequired ==
+[title]Los ficheros que se mezclan juntos, se protegen juntos[/title]
+
+Unity VCS, y otros sistemas modernos de control de versiones distribuido, trabajan de este modo: cuando mezclas una rama, se mezcla completamente.
+
+Esto es así porque Unity VCS necesita marcar la rama entera como mezclada. No puede mezclar solo unos pocos ficheros para después mezclar el resto.
+
+El motivo es que los links de merge se fijan entre changesets, no entre ficheros individuales.
+Este diseño mejora de forma considerable el rendimiento del merge, aunque el precio a pagar es no disponer de flexibilidad por fichero.
+
+== PlasticPendingChangesMergeSingleBranch ==
+[title]Pero ¿qué es esto?[/title]
+
+¡Tranquilo! Has completado un merge mientras trabajabas en tu rama. Déjame explicarte qué ha ocurrido.
+
+Si solo has mezclado algunos ficheros, ¿por qué aparecen estos otros?
+
+Es muy sencillo. Cuando mezclas desde la cabeza de la rama (head) te traes los cambios hechos por otros usuarios.
+
+Los ficheros que han mezclado se han marcado como [bold]Desprotegidos[/bold] en la columna "Estado".
+
+El resto se han marcado como:
+
+* [bold]Reemplazado[/bold]: un fichero se ha copiado desde la cabeza (head) a tu workspace.
+
+* [bold]Copiado (nuevo)[/bold]: un nuevo fichero (que no tenías) se ha copiado a tu workspace.
+
+* [bold]Borrado[/bold]: el fichero ya no existe en la cabeza (head), así que se ha borrado también de tu workspace.
+
+Ahora estás más tranquilo, ¿verdad? :-)
+
+== PlasticSyncViewGeneralHelp ==
+[title]Sincroniza varias ramas a la vez[/title]
+
+{viewname} te ayuda a sincronizar muchas ramas en un único paso.
+
+En vez de hacer push/pull de cada rama, puedes crear pares de
+repositorios (incluso de diferentes servidores) y sincronizar
+en un solo paso.
+
+Tampoco es necesario sincronizar el repo entero, puedes filtrar
+por las ramas que quieras.
+
+Es muy útil cuando trabajas con Xlinks porque puedes refrescar
+la vista y filtrar por un nombre de rama y sincronizar todas
+las que tengan ese nombre a la vez.
+
+[link:https://plasticscm.com/download/help/syncview]Aprende más sobre la {viewname} aquí[/link].
+
+== CodeReviewWindowGeneralHelp ==
+[title]¡Revisa como un profesional![/title]
+
+Creemos que cada tarea debe ser [link:https://www.plasticscm.com/book/#_review_each_task]revisada[/link]. Hemos diseñado la revisión en torno a este concepto.
+
+[bold]Cómo hacer una buena revisión[/bold]
+1. Elige el modo de revisión: 'changeset a changeset' o 'rama completa'. (Sigue leyendo para más detalles).
+2. Puedes solicitar Cambios y hacer Preguntas al autor.
+3. Finalmente, cambia el estado de la revisión: 'Requiere cambios' o 'Revisado'.
+
+[bold]Revisiones 'changeset a changeset' y 'rama completa'[/bold]
+- 'Rama completa' muestra las diferencias de toda la rama. Esta es la típica revisión que todos conocemos.
+- 'Changeset a changeset' te permite explorar cada cambio. Con la disciplina correcta, esto es increíble. El autor explica cada cambio contando una historia, ayudándote a seguir su línea de pensamiento. Mucho mejor que volverse loco con una revisión de 200 cambios.
+
+Aprende todo sobre cómo hacer check in de los cambios pensando en los revisores [link:https://www.plasticscm.com/book/#_checkin_often_and_keep_reviewers_in_mind]aquí[/link].
+
+[bold]Cómo añadir comentarios/Preguntas/Cambios[/bold]
+A la derecha del panel de diferencias encontrarás una barra vertical en la que hacer clic con un icono '+'. Haz clic y listo.
+
+== CodeReviewWindowNewComment ==
+[title]Solicita cambios, haz preguntas[/title]
+
+Puedes:
+
+1. [bold]Solicitar un cambio[/bold]: Cuando necesites que el autor cambie algo antes de aprobarlo. Unity VCS monitoriza si se aplicaron los cambios, simplificando así tu próximo ciclo de revisión.
+
+2. [bold]Hacer una pregunta[/bold]: Cuando necesites una respuesta antes de aprobarlo. Unity VCS monitoriza si se respondieron las preguntas.
+
+También puedes usar los comentarios de siempre, pero los cambios y las preguntas se centran en lo que más importa: simplifican el proceso de revisión de modo que saber si algo fue respondido o cambiado se vuelve trivial.
+
+== CodeReviewWindowWithPendingComments ==
+[title]Responde a las preguntas y resuelve los cambios solicitados[/title]
+
+1. Revisa las listas de Cambios Solicitados y Preguntas. Haz doble clic para ver los detalles.
+2. Para resolver un Cambio Solicitado: referencia su GUID en tu comentario de check-in. (Más abajo verás un ejemplo). También puedes aprovechar el combo en "Cambios pendientes" para rellenar la información.
+3. Contesta a las Preguntas pendientes simplemente respondiendo.
+4. Finalmente, cuando termines, cambia el estado de la revisión de código a 'Revisado'.
+
+[bold]Cómo aplicar/cerrar un Cambio Solicitado[/bold]
+Para cerrar un Cambio Solicitado, simplemente usa su GUID en tu comentario de check-in.
+Hay dos modos:
+* Su versión larga: [bold][apply-change:516a2741-9069-4c08-983f-71149f0a93c8][/bold]
+* Su versión corta: [bold][apply-change:516a2741][/bold] (especificando únicamente la primera parte del GUID)
+
+== GluonWkExplFullEmpty ==
+[title]Tu workspace y tu repositorio están vacíos[/title]
+
+[bold]¿Quieres añadir un proyecto existente?[/bold]
+1 Copia o mueve tu proyecto al directorio de tu workspace ({workspacepath}).
+2. Ve a la vista de "Check in changes" para hacer check in de todo a tu repositorio.
+
+[bold]¿Prefieres unirte a un proyecto ya existente?[/bold]
+1. Haz clic en [action:GluonSwitchWorkspace]Switch workspace[/action].
+2. Crea un nuevo workspace para el repositorio para el que quieres trabajar.
+
+== GluonWkExplSuggestConfigure ==
+[title]Hay contenido en tu repositorio esperando a ser descargado[/title]
+
+Solamente tienes que hacer clic en [action:GluonConfigure]Configure[/action] para indicar lo que realmente necesitas descargar del repositorio.
+
+Esto te permite seleccionar exactamente qué ficheros se van a descargar a tu workspace.
+
+== GluonConfigureNoPreviousConfig ==
+[title]Carga los ficheros que necesitas para trabajar[/title]
+
+Explora el repositorio y selecciona exactamente los ficheros o directorios que necesitas para trabajar.
+
+Gluon te permite descargar solamente lo que necesitas para trabajar.
+
+Esto es muy útil con repositorios muy grandes porque así ahorras en espacio y tiempo de descarga.
+
+[bold]Consejo[/bold]: Clic [action:GluonConfigSearch]Search[/action] para encontrar ficheros.
+
+== GluonWkExplExplainUpdate ==
+[title]No hay versiones nuevas disponibles para descargar[/title]
+
+Usa [action:GluonUpdateWorkspace]Update workspace[/action] para descargar todas las nuevas versiones de todos los ficheros que tienes en tu workspace.
+
+Cuando hay versiones nuevas de un fichero, la columna "Status" indicará "Out of dated". Puedes hacer clic derecho en el fichero para actualizar solo dicho fichero en lugar de actualizar el workspace entero (como se haría con el botón "Update workspace").
+
+[bold]Consejo[/bold]: ¿Cuándo se descargan ficheros nuevos? Imagina que alguien añade un nuevo fichero al repositorio. ¿Se descargará cuando hagas clic en "Update workspace"? Si has configurado su directorio como "completamente marcado", entonces sí, se descargará. Sin embargo, si el directorio está configurado como "parcialmente marcado", no se descargará. ¿Por qué? Porque "parcialmente marcado" significa que solamente querías descargar ciertos ficheros. Así que los nuevos no se descargarán automáticamente.
+
+== GluonWkExplNewAddedFilesInRepo ==
+[title]Se han añadido nuevos ficheros al repositorio[/title]
+
+Hay ficheros nuevos en el repositorio que no tienes en tu workspace.
+
+Puedes [action:GluonConfigure]Configure[/action] tu workspace y marcarlos para ser descargados.
+
+== GluonConfigureEmpty ==
+[title]Tu repositorio está vacío[/title]
+
+¡Vaya! No hay nada que configurar porque tu repositorio está vacío.
+
+A lo mejor quieres añadir tu proyecto a este repositorio.
+
+O, a lo mejor te has unido al repositorio equivocado.
+
+[help:GluonWkExplFullEmpty]Aprende cómo añadir tu proyecto a Unity VCS o cómo trabajar con un repositorio diferente[/help].
+
+== GluonConfigurePreviousConfig ==
+[title]Configura tu workspace con precisión[/title]
+
+* Marca verde: un nuevo fichero o directorio configurado para descargarse a tu workspace.
+* Marca roja: desconfigura un elemento.
+* Marca negra: elemento que ya está configurado para descargarse a tu workspace.
+* Sin marca: elemento no configurado para descargarse a tu workspace.
+* Marca parcial en un directorio: no todo su contenido será descargado a tu workspace. Verás esa marca si solo seleccionas algunos ficheros del directorio.
+
+
+Descargar solo lo que necesitas para trabajar es muy útil con repositorios muy grandes porque así ahorras en espacio y tiempo de descarga.
+
+[bold]Consejo[/bold]: Clic [action:GluonConfigSearch]Search[/action] para encontrar ficheros.
+
+== GluonWkExplExplainSearch ==
+[title]Encuentra ficheros rápidamente con la búsqueda integrada[/title]
+
+Usa las teclas [windows]CTRL-F[/windows][macos]Command-F[/macos][linux]CTRL-F[/linux] para mostrar el diálogo de búsqueda.
+
+== GluonWkExplTipUseContextMenu ==
+[title]Usa el menú contextual[/title]
+
+Recuerda que dispones de menús contextuales (clic derecho).
+
+Podrás ejecutar acciones muy útiles desde ellos.
+
+== GluonWkExplTipHowToLockFiles ==
+[title]¿Sabes cómo bloquear ficheros?[/title]
+
+Un bloqueo se produce automáticamente con un [bold]Checkout[/bold].
+
+1. Haz clic derecho en un fichero.
+2. Selecciona "Checkout".
+
+El servidor bloqueará el fichero durante la desprotección si el bloqueo está configurado para ese tipo de fichero.
+
+[link:https://plasticscm.com/download/help/locking]Aprende más sobre bloqueos[/link].
+
+== GluonWkExplTipUseHistory ==
+[title]¿Sabías que la historia del archivo seleccionado está siempre disponible?[/title]
+
+Y no solo eso. También desde la historia puedes mostrar las diferencias entre versiones.
+
+== GluonChangesetsEmptyState ==
+[title]Cada vez que haces check in, estás creando un nuevo changeset[/title]
+
+Los changesets tienen una doble función:
+1. Son un registro de cada check-in.
+2. Y una imagen completa del repositorio en ese instante.
+
+Algunos consejos:
+* Los changesets se identifican con un "entero" único en su repositorio. Pero si empleas réplicas, entonces usa el GUID.
+* Cada nuevo repositorio tiene un "changeset cero".
+* A menudo nos referimos a los changesets como csets.
+* Usa el menú contextual para mostrar las diferencias de changesets.
+* Para usuarios Git: los csets son los equivalentes a los "commits".
+
+== GluonChangesetsExplainFilterAndAdvanced ==
+[title]Filtra rápidamente la lista escribiendo un filtro arriba[/title]
+
+El filtro se ejecuta localmente sobre los resultados de la búsqueda.
+
+[bold]Consejo para los filtros[/bold]: Usa [italic]nombre_de_campo[/italic]:valor para filtrar por un campo determinado.
+Por ejemplo: nombre:13089
+
+También puedes personalizar la consulta haciendo clic en [action:QueryViewClickAdvanced]Avanzadas[/action].
+
+Aprende más sobre consultas y filtros [link:https://plasticscm.com/download/help/cmfind]aquí[/link].
+
+Recuerda que puedes mostrar las diferencias de changesets usando el menú contextual.
+
+[windows]Nivel experto: Puedes mover columnas encima de la tabla para personalizar la vista de "Changesets". También puedes agrupar por día, autor, etc.[/windows]
+
+== GluonPendingChangesEmptyState ==
+[reference]PlasticPendingChangesEmptyState[/reference]
+
+== GluonPendingChangesOnboarding ==
+[reference]PlasticPendingChangesOnboarding[/reference]
+
+== GluonPendingChangesOptionWarningCheckouts ==
+[reference]PlasticPendingChangesOptionWarningCheckouts[/reference]
+
+== GluonPendingChangesFrustrationFilter ==
+[reference]PlasticPendingChangesFrustrationFilter[/reference]
+
+== GluonPendingChangesFrustrationRefreshNoFilter ==
+[reference]PlasticPendingChangesFrustrationRefreshNoFilter[/reference]
+
+== GluonPendingChangesWithAdded ==
+[reference]PlasticPendingChangesWithAdded[/reference]
+
+== GluonPendingChangesMovedOnlyFiles ==
+[reference]PlasticPendingChangesMovedOnlyFiles[/reference]
+
+== GluonPendingChangesMovedOnlyDirectories ==
+[reference]PlasticPendingChangesMovedOnlyDirectories[/reference]
+
+== GluonPendingChangesMovedFilesAndDirectories ==
+[reference]PlasticPendingChangesMovedFilesAndDirectories[/reference]
+
+== GluonPendingChangesSlowTooManyPrivates ==
+[reference]PlasticPendingChangesSlowTooManyPrivates[/reference]
+
+== GluonPendingChangesSlowMoveCalculation ==
+[reference]PlasticPendingChangesSlowMoveCalculation[/reference]
+
+== GluonPendingChangesSlowFindChanges ==
+[reference]PlasticPendingChangesSlowFindChanges[/reference]
+
+== GluonReposExplained ==
+[reference]PlasticReposExplained[/reference]
+
+== GluonWorkspacesExplained ==
+[reference]PlasticWorkspacesExplained[/reference]
+
+== GluonQueryViewsFrustrationCustomQuery ==
+[reference]PlasticQueryViewsFrustrationCustomQuery[/reference]
+
+== GluonFrustrationFilterEnabled ==
+[reference]PlasticFrustrationFilterEnabled[/reference]
+== GluonWkExplGeneralHelp ==
+[reference]PlasticWkExplGeneralHelp[/reference]

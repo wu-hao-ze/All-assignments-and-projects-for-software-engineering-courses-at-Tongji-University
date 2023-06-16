@@ -1,0 +1,11 @@
+== NotChange ==
+The item {0} is not changed in current workspace
+
+== CannotMergeMergeInProgress ==
+A new merge cannot be started because there is already a merge in progress. Finish it before starting a new one. In progress merge: {0} from cset {1}
+
+== CannotUndoAdded ==
+Added '{0}' can't be undo because contains non-added changes
+
+== CannotUndoCopied ==
+A copied directory with content can't be undone

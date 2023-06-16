@@ -1,0 +1,12 @@
+{
+    "name": "Unity.VisualScripting.Core.Editor",
+    "references": [
+        "Unity.VisualScripting.Core"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

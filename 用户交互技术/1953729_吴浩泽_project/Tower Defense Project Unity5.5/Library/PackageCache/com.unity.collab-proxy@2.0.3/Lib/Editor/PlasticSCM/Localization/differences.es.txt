@@ -1,0 +1,44 @@
+﻿== Diff ==
+Diferencia:
+
+== BasePosition ==
+Posición en el fichero base: 
+
+== CompPosition ==
+Posición en el fichero comparado: 
+
+== OldData ==
+Datos antiguos: 
+
+== NewData ==
+Datos nuevos:
+
+== Type ==
+Tipo: 
+
+== NullBaseFile ==
+BaseFile no puede ser nulo.
+
+== NullCompareFile ==
+CompareFile no puede ser nulo.
+
+== DiffNotSolutionFound ==
+No hay solución. No se ha podido calcular una colección de diferencias.
+
+== NotValidFileConflictType ==
+Tipo de conflicto no válido.
+
+== NullFilePath ==
+La ruta del fichero no puede ser nula.
+
+== NullFileHash ==
+La hash del fichero no puede ser nula.
+
+== InvalidDifferenceType ==
+El parámetro 'type' debe ser un elemento de tipo 'differenceType'.
+
+== TooManyDifferences ==
+Los ficheros tienen demasiadas diferencias, no hay suficientes recursos para completar la operación. Pruebe a fijar un método de comparación diferente para reducir el número de diferencias.
+
+== NotDefinedFSProtection ==
+NO_DEFINIDOS

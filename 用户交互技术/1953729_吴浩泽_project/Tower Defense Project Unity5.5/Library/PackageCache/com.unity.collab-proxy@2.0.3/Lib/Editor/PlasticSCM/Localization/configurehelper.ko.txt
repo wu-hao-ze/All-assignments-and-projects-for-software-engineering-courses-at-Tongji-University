@@ -1,0 +1,110 @@
+﻿== ConfiguringLanguage ==
+언어 구성 중입니다. 사용할 수 있는 언어는 다음과 같습니다
+
+== ChooseLanguage ==
+언어 선택(숫자 입력)
+
+== YesAnswers ==
+예|y
+
+== YesOrNoDefaultYes ==
+[Y/n]
+
+== YesOrNoDefaultNo ==
+[y/N]
+
+== ConfiguringEdition ==
+Unity VCS은 두 가지 에디션으로 제공됩니다. 하나는 높은 확장성이 필요한 대규모 팀에 적합한 Enterprise 에디션이며, 다른 하나는 최대 15명으로 구성된 개발자 그룹을 위한 Team 에디션입니다. plasticscm.com에서 두 에디션에 대한 자세한 내용을 알아볼 수 있습니다
+
+== ChooseEdition ==
+설치할 에디션을 선택하십시오(숫자 입력)
+
+== ConfiguringWorkingMode ==
+사용자 인증 모드를 선택하십시오. 사용할 수 있는 모드는 다음과 같습니다
+
+== ChooseWorkingMode ==
+모드 선택(숫자 입력)
+
+== NameWorkingMode ==
+이름
+
+== NameIdWorkingMode ==
+이름 + ID
+
+== AdWorkingMode ==
+Active Directory
+
+== LdapWorkingMode ==
+LDAP
+
+== UpWorkingMode ==
+사용자 및 비밀번호
+
+== ConfiguringLdap ==
+LDAP 연결 구성 중...
+
+== ConfiguringUp ==
+자격 증명 구성:
+
+== ConfiguringLicenseToken ==
+구독 라이센스 자동 갱신 구성:
+
+== LicenseToken ==
+라이센스 토큰[건너뛰려면 ENTER 키 입력]
+
+== UpUserName ==
+사용자 이름
+
+== UpPassword ==
+비밀번호
+
+== LdapServer ==
+LDAP 서버
+
+== LdapPort ==
+LDAP 포트 [389]
+
+== LdapDomain ==
+LDAP 도메인
+
+== LdapUser ==
+LDAP 사용자
+
+== LdapPassword ==
+LDAP 비밀번호
+
+== MsgError ==
+오류: 
+
+== AvailableLdapTypes ==
+사용 가능한 LDAP 서버 유형
+
+== ChooseType ==
+서버 유형(숫자 입력)
+
+== InvalidOption ==
+잘못된 옵션입니다. 
+
+== InvalidValue ==
+잘못된 값입니다. 
+
+== InvalidParameter ==
+잘못된 매개 변수: {0}
+
+== InvalidLanguage ==
+사용할 수 없는 언어: {0}
+
+== InvalidWorkingModeConf ==
+잘못된 작업 모드: {0}
+
+== InvalidLdapType ==
+잘못된 LDAP 서버 유형: {0}
+
+== ParameterNotPresent ==
+{0} 매개 변수가 없거나 유효하지 않습니다
+
+== NoPortInRemotingFile ==
+원격 구성 파일에 지정된 포트가 없습니다
+
+== InvalidPortNumber ==
+잘못된 포트 번호: {0}

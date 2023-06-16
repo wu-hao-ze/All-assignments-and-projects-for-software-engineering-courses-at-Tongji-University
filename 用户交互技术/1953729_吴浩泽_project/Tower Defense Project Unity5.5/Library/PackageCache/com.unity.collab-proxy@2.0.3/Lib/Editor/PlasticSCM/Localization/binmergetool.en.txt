@@ -1,0 +1,55 @@
+﻿== Error ==
+Error
+
+== NoResultFileSelected ==
+No result file has been selected
+
+== UsageCaption ==
+Usage
+
+== Usage ==
+Usage: binmergetool <mergeOptions>
+
+    mergeOptions: <generalFiles> <baseFile> [<baseSymbolicName>] [[<automatic>] <resultFile>] [<mergeType>] [<generalOptions>]
+
+        baseFile:             {-b | --base}=<filename>
+        baseSymbolicName:     {-bn | --basesymbolicname}=<symbolicname>
+        automatic:            -a | --automatic
+        resultFile:           {-r | --result}=<filename>
+        mergeType:            {-m | --mergeresolutiontype}={onlyone | onlysrc | onlydst | try | forced}
+
+    generalFiles:<sourceFile> [<srcSymbolicName>] <destination> [<dstSymbolicName>]
+
+        sourceFile:           {-s | --source}=<filename>
+        srcSymbolicName:      {-sn | --srcsymbolicname}=<symbolicname>
+        destinationFile:      {-d | --destination}=<filename>
+        dstSymbolicName:      {-dn | --dstsymbolicname}=<symbolicname>
+
+        
+    Examples:
+        
+        binmergetool -s=file1.txt -d=file2.txt
+        binmergetool -s=file1.txt -b=file0.txt --destination=file2.txt
+        binmergetool --base=file0.txt -d=file2.txt --source=file1.txt --automatic --result=result.txt
+        binmergetool -b=file0.txt -s=file1.txt -d=file2.txt -a -r=result.txt -m=onlyone
+
+== DiffRequiresTwoArguments ==
+Differences need two and only two files
+
+== UnsupportedFileTypeForDiff ==
+Unsupported file types for binary diff. Only images are supported (JPEG, PNG, GIF, BMP)
+
+== SaveChanges ==
+Do you want to save changes to the result file?
+
+== ExitPrompt ==
+Exit
+
+== CantLoadImage ==
+Image '{0}' can't be loaded.
+
+== NoArguments ==
+No arguments specified
+
+== UsageHint ==
+Use [binmergetool -?] to show more help for this utility

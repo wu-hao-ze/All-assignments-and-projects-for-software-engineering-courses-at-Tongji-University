@@ -1,0 +1,25 @@
+{
+    "name": "Timeline.Samples.Text.Editor",
+    "references": [
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:02f771204943f4a40949438e873e3eff",
+        "GUID:da34477545da90248a78a4ea3240faef"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.textmeshpro",
+            "expression": "1.0.0",
+            "define": "TEXT_TRACK_REQUIRES_TEXTMESH_PRO"
+        }
+    ],
+    "noEngineReferences": false
+}
