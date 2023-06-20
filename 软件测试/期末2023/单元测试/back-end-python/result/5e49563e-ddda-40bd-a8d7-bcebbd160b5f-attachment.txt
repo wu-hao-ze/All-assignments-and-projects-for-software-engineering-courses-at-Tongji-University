@@ -1,0 +1,13 @@
+
+2023-06-19 21:01:03,865 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2023-06-19 21:01:03,865 INFO sqlalchemy.engine.base.Engine SELECT user.id AS user_id, user.open_id AS user_open_id 
+FROM user 
+WHERE user.open_id = %(open_id_1)s 
+ LIMIT %(param_1)s
+2023-06-19 21:01:03,865 INFO sqlalchemy.engine.base.Engine {'open_id_1': 'oxxHL5GS26iMW6iSMzfoLjXk1luw', 'param_1': 1}
+2023-06-19 21:01:03,869 INFO sqlalchemy.engine.base.Engine SELECT `order`.id AS order_id, `order`.store_id AS order_store_id, `order`.price AS order_price, store.name AS store_name, store.img AS store_img 
+FROM `order` INNER JOIN store ON store.id = `order`.store_id 
+WHERE `order`.user_id = %(user_id_1)s
+2023-06-19 21:01:03,869 INFO sqlalchemy.engine.base.Engine {'user_id_1': 0}
+2023-06-19 21:01:03,869 INFO sqlalchemy.engine.base.Engine ROLLBACK
+测试输入：{}，期望输出：msg: succeed

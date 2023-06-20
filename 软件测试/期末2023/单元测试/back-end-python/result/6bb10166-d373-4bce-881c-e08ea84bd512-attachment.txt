@@ -1,0 +1,33 @@
+
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine SELECT user.id AS user_id, user.open_id AS user_open_id 
+FROM user 
+WHERE user.open_id = %(open_id_1)s 
+ LIMIT %(param_1)s
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine {'open_id_1': 'odYyE5JaZoSAQ7GF_vkOlQTpBupU', 'param_1': 1}
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine SELECT store.id AS store_id, store.name AS store_name, store.phone AS store_phone, store.password AS store_password, store.`describe` AS store_describe, store.address AS store_address, store.distance AS store_distance, store.img AS store_img 
+FROM store 
+WHERE store.id = %(id_1)s 
+ LIMIT %(param_1)s
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine {'id_1': 1, 'param_1': 1}
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine SELECT dish.id AS dish_id, dish.store_id AS dish_store_id, dish.name AS dish_name, dish.flavor AS dish_flavor, dish.price AS dish_price, dish.description AS dish_description, dish.icon AS dish_icon 
+FROM dish 
+WHERE dish.id = %(id_1)s 
+ LIMIT %(param_1)s
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine {'id_1': 1, 'param_1': 1}
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine INSERT INTO `order` (store_id, user_id, price) VALUES (%(store_id)s, %(user_id)s, %(price)s)
+2023-06-19 21:01:03,797 INFO sqlalchemy.engine.base.Engine {'store_id': 1, 'user_id': 1, 'price': 12.0}
+2023-06-19 21:01:03,813 INFO sqlalchemy.engine.base.Engine COMMIT
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine SELECT `order`.id AS order_id, `order`.store_id AS order_store_id, `order`.user_id AS order_user_id, `order`.price AS order_price 
+FROM `order` 
+WHERE `order`.id = %(param_1)s
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine {'param_1': 314}
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine INSERT INTO `order-dish` (order_id, dish_id, num) VALUES (%(order_id)s, %(dish_id)s, %(num)s)
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine {'order_id': 314, 'dish_id': 1, 'num': 1}
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine COMMIT
+2023-06-19 21:01:03,822 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2023-06-19 21:01:03,826 INFO sqlalchemy.engine.base.Engine INSERT INTO order_status (order_id, submit_time, finish_time, status, comment) VALUES (%(order_id)s, %(submit_time)s, %(finish_time)s, %(status)s, %(comment)s)
+2023-06-19 21:01:03,826 INFO sqlalchemy.engine.base.Engine {'order_id': 314, 'submit_time': datetime.datetime(2023, 6, 19, 21, 1, 3, 822316), 'finish_time': None, 'status': 0, 'comment': 0}
+2023-06-19 21:01:03,826 INFO sqlalchemy.engine.base.Engine COMMIT
+测试输入：{'store_id': '1', 'countArray': [{'id': 1, 'num': 1}]}，期望输出：msg: succeed

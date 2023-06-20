@@ -187,3 +187,4 @@ if __name__ == '__main__':
     run = bf(suite)  # 实例化BeautifulReport模块
     run.report(filename='测试报告.html', description='集成测试', report_dir='./report',
                theme='theme_default')  # description用例名称
+# 使用终端cmd运行 python testse.py 命令，就可以执行并生成报告，注意直接在这里鼠标右键运行是不会生成报告的(具体原因不详)

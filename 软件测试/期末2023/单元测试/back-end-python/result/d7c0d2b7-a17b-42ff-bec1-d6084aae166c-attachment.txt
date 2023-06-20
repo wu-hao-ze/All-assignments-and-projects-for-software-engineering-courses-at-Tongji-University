@@ -1,0 +1,8 @@
+
+2023-06-19 21:01:03,665 INFO sqlalchemy.engine.base.Engine BEGIN (implicit)
+2023-06-19 21:01:03,665 INFO sqlalchemy.engine.base.Engine SELECT store.id AS store_id, store.name AS store_name, store.phone AS store_phone, store.password AS store_password, store.`describe` AS store_describe, store.address AS store_address, store.distance AS store_distance, store.img AS store_img 
+FROM store 
+ LIMIT %(param_1)s, %(param_2)s
+2023-06-19 21:01:03,665 INFO sqlalchemy.engine.base.Engine {'param_1': 0, 'param_2': 100}
+2023-06-19 21:01:03,669 INFO sqlalchemy.engine.base.Engine ROLLBACK
+测试输入：{}，期望输出：msg: ok

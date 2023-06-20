@@ -1056,5 +1056,6 @@ class Test_1(unittest.TestCase):
 
 if __name__ == '__main__':
     uvicorn.run(app="37_pytest:app", reload=True, host="127.0.0.1", port=8080)
-# 在cmd终端中输入 pytest ./seproject_app/main.py --alluredir ./result 生成result目录
+# 在cmd终端中输入 pytest ./seproject_app/main.py --alluredir ./result 执行全部测试并生成result目录
+# 注意直接在这里鼠标右键运行是不会生成报告的(具体原因不详)
 # allure serve ./result 打开测试报告

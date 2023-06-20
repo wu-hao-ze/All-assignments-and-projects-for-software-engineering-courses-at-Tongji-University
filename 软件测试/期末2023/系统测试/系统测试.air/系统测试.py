@@ -5,17 +5,17 @@ from airtest.core.api import *
 
 auto_setup(__file__)
 #Sys_test_fun_011 登录异常退出
-# touch(Template(r"tpl1655652247706.png", record_pos=(0.001, -0.224), resolution=(1080, 2340)))
+touch(Template(r"tpl1655652247706.png", record_pos=(0.001, -0.224), resolution=(1080, 2340)))
 
 
-# touch(Template(r"tpl1684135049513.png", record_pos=(-0.071, 0.341), resolution=(569, 928)))
+touch(Template(r"tpl1684135049513.png", record_pos=(-0.071, 0.341), resolution=(569, 928)))
 
-# touch(Template(r"tpl1655681940953.png", record_pos=(0.204, 0.222), resolution=(1080, 2340)))
+touch(Template(r"tpl1655681940953.png", record_pos=(0.204, 0.222), resolution=(1080, 2340)))
 
 
 # #Sys_test_fun_001 正常登录
-# touch(Template(r"tpl1655652247706.png", record_pos=(0.001, -0.224), resolution=(1080, 2340)))
-# touch(Template(r"tpl1684135024415.png", record_pos=(0.173, 0.339), resolution=(569, 928)))
+touch(Template(r"tpl1655652247706.png", record_pos=(0.001, -0.224), resolution=(1080, 2340)))
+touch(Template(r"tpl1684135024415.png", record_pos=(0.173, 0.339), resolution=(569, 928)))
 
 
 
